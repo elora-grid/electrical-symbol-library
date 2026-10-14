@@ -1,0 +1,84 @@
+{
+  "slug": "pressure-switch-no",
+  "name": "Pressure switch NO",
+  "kind": "symbol",
+  "abbreviation": "PS NO",
+  "aliases": [
+    "HPS11",
+    "VPS11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A pressure-operated NO switch closes when its documented pressure condition actuates the mechanism.",
+  "description": [
+    "A pressure-operated NO switch closes when its documented pressure condition actuates the mechanism. Increasing or decreasing pressure behaviour must be identified rather than inferred from NO."
+  ],
+  "readingNotes": [
+    "Specify the actuation direction and reset differential from product data.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label monitored pressure",
+    "State operate and reset conditions",
+    "Identify contact terminals"
+  ],
+  "distinction": "NO is the unactuated contact state; high-pressure or low-pressure describes the process condition.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPS11, VPS11 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pressure-temperature",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-pressure-switch-no",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pressure-switch-no",
+  "illustration": "https://eloragrid.ai/library/illustrations/pressure-switch-no.svg",
+  "id": "pressure-switch-no",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pressure-switch-no",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pressure-switch-no.json",
+  "svgPath": "artwork/svg/pressure-switch-no.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pressure-temperature",
+      "title": "AutoCAD Electrical: Pressure and temperature switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-46061E42-55B7-4804-8D50-C31DF292F01D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

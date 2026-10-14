@@ -1,0 +1,99 @@
+{
+  "slug": "93-field-changing-contactor",
+  "name": "Field-changing contactor",
+  "kind": "function",
+  "abbreviation": "93",
+  "aliases": [
+    "field changing",
+    "field change contactor",
+    "ANSI 93",
+    "IEEE device 93"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Changes the machine excitation connection or arrangement as part of a controlled field sequence.",
+  "description": [
+    "Changes the machine excitation connection or arrangement as part of a controlled field sequence.",
+    "In a drafting package, connect this reference to the field circuits and alternative excitation connections. The associated drawing should trace the field-change coil, contacts and interlocks; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the field circuits and alternative excitation connections.",
+    "Trace the field-change coil, contacts and interlocks."
+  ],
+  "drawingChecklist": [
+    "Label the field circuits and alternative excitation connections.",
+    "Cross-reference the field-change coil, contacts and interlocks.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Field-changing 93 switches an excitation arrangement; field application 56 initiates application of the field.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "93"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The field circuits and alternative excitation connections"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-secogear",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/93-field-changing-contactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/93-field-changing-contactor.svg",
+  "id": "93-field-changing-contactor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/93-field-changing-contactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/93-field-changing-contactor.json",
+  "svgPath": "artwork/svg/93-field-changing-contactor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-secogear",
+      "title": "SecoGear medium-voltage switchgear application and technical guide, DET-882",
+      "publisher": "ABB",
+      "url": "https://library.e.abb.com/public/a06cf4cf38b34800b27bb337ab12f74f/DET-882%20SecoGear%205kV-15kV%20IEEE%20Metal%20Clad%20Switchgear_Application%20and%20installation%20guide.pdf",
+      "type": "manufacturer",
+      "scope": "Public switchgear application guide with a device-number reference table. Used to cross-check 54, 61, 62 and specialist labels. Text, photographs and manufacturer diagrams are linked only and are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

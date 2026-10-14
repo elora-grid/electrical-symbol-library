@@ -1,0 +1,88 @@
+{
+  "slug": "ga-battery-current-shunt",
+  "name": "Battery current shunt",
+  "kind": "object",
+  "abbreviation": "DC",
+  "aliases": [
+    "DC measurement shunt",
+    "Battery current shunt CAD",
+    "Battery current shunt general arrangement",
+    "Battery current shunt panel layout"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A current shunt provides a specified DC current-measurement interface.",
+  "description": [
+    "A current shunt provides a specified DC current-measurement interface.",
+    "Coordinate high-current connections and separate sense-wire routing. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate high-current connections and separate sense-wire routing.",
+    "A shunt measures voltage drop for its instrument; it is not a CT."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate high-current connections and separate sense-wire routing.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A shunt measures voltage drop for its instrument; it is not a CT.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-support",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-object-ga-battery-current-shunt",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-battery-current-shunt",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-battery-current-shunt.svg",
+  "id": "ga-battery-current-shunt",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-battery-current-shunt",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-battery-current-shunt.json",
+  "svgPath": "artwork/svg/ga-battery-current-shunt.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-support",
+      "title": "Official Victron product documentation directory",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/support",
+      "type": "manufacturer",
+      "scope": "Public names and official product/manual resources for inverter, charger, storage, metering and control families. Product suitability and installation geometry require selected-model documentation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

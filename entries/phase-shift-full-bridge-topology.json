@@ -1,0 +1,83 @@
+{
+  "slug": "phase-shift-full-bridge-topology",
+  "name": "Phase-shifted full-bridge topology",
+  "kind": "symbol",
+  "abbreviation": "PSFB",
+  "aliases": [
+    "phase shift full bridge",
+    "PSFB converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A full-bridge conversion arrangement controlled through the documented relative switching-leg phase shift.",
+  "description": [
+    "A full-bridge conversion arrangement controlled through the documented relative switching-leg phase shift.",
+    "On a schematic, identify the bridge legs, magnetic path and phase-shift control references and trace the secondary rectification and output regulation. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Phase-shift control is a specific operating arrangement; it is not established merely by showing four power switches.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the bridge legs, magnetic path and phase-shift control references.",
+    "Trace the secondary rectification and output regulation."
+  ],
+  "drawingChecklist": [
+    "Label the bridge legs, magnetic path and phase-shift control references.",
+    "Cross-reference the secondary rectification and output regulation.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Phase-shift control is a specific operating arrangement; it is not established merely by showing four power switches.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PSFB — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The bridge legs, magnetic path and phase-shift control references"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "full-bridge-dc-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-psfb",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phase-shift-full-bridge-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/phase-shift-full-bridge-topology.svg",
+  "id": "phase-shift-full-bridge-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phase-shift-full-bridge-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phase-shift-full-bridge-topology.json",
+  "svgPath": "artwork/svg/phase-shift-full-bridge-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

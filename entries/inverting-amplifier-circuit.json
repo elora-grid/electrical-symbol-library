@@ -1,0 +1,82 @@
+{
+  "slug": "inverting-amplifier-circuit",
+  "name": "Inverting amplifier circuit",
+  "kind": "symbol",
+  "abbreviation": "INV-AMP",
+  "aliases": [
+    "negative gain amplifier",
+    "inverting op amp"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses an amplifier feedback connection that produces the documented inverted signal relationship.",
+  "description": [
+    "Uses an amplifier feedback connection that produces the documented inverted signal relationship.",
+    "On a schematic, identify the input impedance, feedback network and non-inverting reference and trace the inverted output and load. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "This is a circuit configuration around an amplifier, not a separate package or a digital NOT gate.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input impedance, feedback network and non-inverting reference.",
+    "Trace the inverted output and load."
+  ],
+  "drawingChecklist": [
+    "Label the input impedance, feedback network and non-inverting reference.",
+    "Cross-reference the inverted output and load.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "This is a circuit configuration around an amplifier, not a separate package or a digital NOT gate.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "INV-AMP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input impedance, feedback network and non-inverting reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-opamp-tutorials",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-inverter",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-inverting",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/inverting-amplifier-circuit",
+  "illustration": "https://eloragrid.ai/library/illustrations/inverting-amplifier-circuit.svg",
+  "id": "inverting-amplifier-circuit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/inverting-amplifier-circuit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/inverting-amplifier-circuit.json",
+  "svgPath": "artwork/svg/inverting-amplifier-circuit.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-opamp-tutorials",
+      "title": "University tutorials: amplifier configurations and signal processing",
+      "publisher": "Analog Devices",
+      "url": "https://wiki.analog.com/university/courses/tutorials/index",
+      "type": "manufacturer",
+      "scope": "Public tutorial index including inverting amplifier, rectification and related analogue function references. Detailed product design must use the underlying selected circuit documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

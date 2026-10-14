@@ -1,0 +1,82 @@
+{
+  "slug": "logic-nand-gate",
+  "name": "NAND gate",
+  "kind": "symbol",
+  "abbreviation": "NAND",
+  "aliases": [
+    "NOT AND",
+    "inverted AND"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A logic gate that inverts the result of an AND operation.",
+  "description": [
+    "A logic gate that inverts the result of an AND operation.",
+    "On a schematic, identify the input truth states and the output inversion indication and trace the output logic state and downstream input. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The inversion bubble concerns logical polarity; it does not identify a normally-closed physical contact.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input truth states and the output inversion indication.",
+    "Trace the output logic state and downstream input."
+  ],
+  "drawingChecklist": [
+    "Label the input truth states and the output inversion indication.",
+    "Cross-reference the output logic state and downstream input.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The inversion bubble concerns logical polarity; it does not identify a normally-closed physical contact.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NAND — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input truth states and the output inversion indication"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc00",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-and-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-nand",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-nand-gate",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-nand-gate.svg",
+  "id": "logic-nand-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-nand-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-nand-gate.json",
+  "svgPath": "artwork/svg/logic-nand-gate.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc00",
+      "title": "SN74HC00 — NAND gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of nand gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-soft-starter",
+  "name": "Soft starter",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "solid-state reduced-voltage starter",
+    "Soft starter CAD",
+    "Soft starter general arrangement",
+    "Soft starter panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A soft starter controls motor starting through power-electronic switching.",
+  "description": [
+    "A soft starter controls motor starting through power-electronic switching.",
+    "Coordinate cooling clearances, bypass contactor space and segregated power/control cable routes. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate cooling clearances, bypass contactor space and segregated power/control cable routes.",
+    "A soft starter controls starting behaviour; a variable-frequency drive also controls operating frequency."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate cooling clearances, bypass contactor space and segregated power/control cable routes.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A soft starter controls starting behaviour; a variable-frequency drive also controls operating frequency.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-soft-starter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-soft-starter",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-soft-starter.svg",
+  "id": "ga-soft-starter",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-soft-starter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-soft-starter.json",
+  "svgPath": "artwork/svg/ga-soft-starter.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

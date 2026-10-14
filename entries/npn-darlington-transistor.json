@@ -1,0 +1,82 @@
+{
+  "slug": "npn-darlington-transistor",
+  "name": "NPN Darlington transistor",
+  "kind": "symbol",
+  "abbreviation": "NPN-DAR",
+  "aliases": [
+    "Darlington pair NPN",
+    "high-gain NPN pair"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Two NPN transistor stages connected as a Darlington pair to provide a combined current-amplifying device.",
+  "description": [
+    "Two NPN transistor stages connected as a Darlington pair to provide a combined current-amplifying device.",
+    "On a schematic, identify the common collector, input base and output emitter and trace the load and base-drive circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A Darlington is a compound connection rather than a single ordinary NPN transistor; its voltage drops and switching behaviour require the device data.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the common collector, input base and output emitter.",
+    "Trace the load and base-drive circuit."
+  ],
+  "drawingChecklist": [
+    "Label the common collector, input base and output emitter.",
+    "Cross-reference the load and base-drive circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A Darlington is a compound connection rather than a single ordinary NPN transistor; its voltage drops and switching behaviour require the device data.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NPN-DAR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The common collector, input base and output emitter"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-darlington",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "npn-bipolar-transistor",
+    "diode"
+  ],
+  "artwork": "electronics-darlington-npn",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/npn-darlington-transistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/npn-darlington-transistor.svg",
+  "id": "npn-darlington-transistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/npn-darlington-transistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/npn-darlington-transistor.json",
+  "svgPath": "artwork/svg/npn-darlington-transistor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-darlington",
+      "title": "TIP120/TIP125 complementary Darlington transistor documentation",
+      "publisher": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/tip120.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation and diagrams of NPN and PNP compound Darlington devices. Educational geometry is independently drawn; package drawings are not rehosted.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

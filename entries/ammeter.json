@@ -1,0 +1,85 @@
+{
+  "slug": "ammeter",
+  "name": "Ammeter",
+  "kind": "symbol",
+  "abbreviation": "A",
+  "aliases": [
+    "HAM1",
+    "VAM1"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An ammeter indicates current from a direct or instrument-transformed measurement circuit.",
+  "description": [
+    "An ammeter indicates current from a direct or instrument-transformed measurement circuit. Its schematic must identify the actual current path and any CT secondary circuit."
+  ],
+  "readingNotes": [
+    "Distinguish the meter's current measurement terminals from its auxiliary supply.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State direct or CT measurement",
+    "Record operational ratio",
+    "Identify current circuit terminals"
+  ],
+  "distinction": "An ammeter is an indication device, not an overcurrent protective function.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HAM1, VAM1 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-ammeter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ammeter",
+  "illustration": "https://eloragrid.ai/library/illustrations/ammeter.svg",
+  "id": "ammeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ammeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ammeter.json",
+  "svgPath": "artwork/svg/ammeter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

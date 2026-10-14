@@ -1,0 +1,88 @@
+{
+  "slug": "ga-terminal-marker-strip",
+  "name": "Terminal marker strip",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "terminal identification label",
+    "Terminal marker strip CAD",
+    "Terminal marker strip general arrangement",
+    "Terminal marker strip panel layout"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A marker strip carries identification for the terminal arrangement.",
+  "description": [
+    "A marker strip carries identification for the terminal arrangement.",
+    "Align marker references with the schematic and terminal schedule. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Align marker references with the schematic and terminal schedule.",
+    "A label sequence must follow actual terminal mapping rather than decorative numbering."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Align marker references with the schematic and terminal schedule.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A label sequence must follow actual terminal mapping rather than decorative numbering.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-phoenix-terminals",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "terminal-strip",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-terminal-marker-strip",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-terminal-marker-strip",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-terminal-marker-strip.svg",
+  "id": "ga-terminal-marker-strip",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-terminal-marker-strip",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-terminal-marker-strip.json",
+  "svgPath": "artwork/svg/ga-terminal-marker-strip.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-phoenix-terminals",
+      "title": "Terminal-block types and assembly accessories",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public terminal-block categories and manufacturer assembly information; selected product documentation controls dimensions and connection details.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

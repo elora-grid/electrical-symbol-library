@@ -1,0 +1,91 @@
+{
+  "slug": "iec-rotary-operation-qualifier",
+  "name": "Rotary-operation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021304",
+  "aliases": [
+    "Rotary-operation qualifier symbol",
+    "Q021304",
+    "Rotary-operation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies an operating mechanism actuated by rotation.",
+  "description": [
+    "This qualifier identifies an operating mechanism actuated by rotation. Rotation can operate a stepped selector, a maintained switch or a continuously adjusted element. The operating mark identifies the mechanical action without deciding which of those electrical functions is present.",
+    "Where discrete positions matter, provide the position names and a contact table. A rotary mark alone cannot distinguish local/remote selection from a voltage-measurement selector."
+  ],
+  "readingNotes": [
+    "Identify the operating positions and associated contact table separately.",
+    "Rotary actuation does not imply continuous adjustment or a particular number of positions."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify the operating positions and associated contact table separately.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Rotary actuation does not imply continuous adjustment or a particular number of positions.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021304 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Identify the operating positions and associated contact table separately."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-rotary-operation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rotary-operation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-rotary-operation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-rotary-operation-qualifier.svg",
+  "id": "iec-rotary-operation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-rotary-operation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-rotary-operation-qualifier.json",
+  "svgPath": "artwork/svg/iec-rotary-operation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

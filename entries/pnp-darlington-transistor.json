@@ -1,0 +1,82 @@
+{
+  "slug": "pnp-darlington-transistor",
+  "name": "PNP Darlington transistor",
+  "kind": "symbol",
+  "abbreviation": "PNP-DAR",
+  "aliases": [
+    "Darlington pair PNP",
+    "high-gain PNP pair"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Two PNP transistor stages connected as a compound current-amplifying device.",
+  "description": [
+    "Two PNP transistor stages connected as a compound current-amplifying device.",
+    "On a schematic, identify the common collector, input base and output emitter polarity and trace the high-side or amplification circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A PNP Darlington has opposite operating polarity to an NPN pair; gain alone does not define an interchangeable device.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the common collector, input base and output emitter polarity.",
+    "Trace the high-side or amplification circuit."
+  ],
+  "drawingChecklist": [
+    "Label the common collector, input base and output emitter polarity.",
+    "Cross-reference the high-side or amplification circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A PNP Darlington has opposite operating polarity to an NPN pair; gain alone does not define an interchangeable device.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PNP-DAR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The common collector, input base and output emitter polarity"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-darlington",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "pnp-bipolar-transistor",
+    "diode"
+  ],
+  "artwork": "electronics-darlington-pnp",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pnp-darlington-transistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/pnp-darlington-transistor.svg",
+  "id": "pnp-darlington-transistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pnp-darlington-transistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pnp-darlington-transistor.json",
+  "svgPath": "artwork/svg/pnp-darlington-transistor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-darlington",
+      "title": "TIP120/TIP125 complementary Darlington transistor documentation",
+      "publisher": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/tip120.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation and diagrams of NPN and PNP compound Darlington devices. Educational geometry is independently drawn; package drawings are not rehosted.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

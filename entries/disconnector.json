@@ -1,0 +1,100 @@
+{
+  "slug": "disconnector",
+  "name": "Disconnector",
+  "kind": "symbol",
+  "abbreviation": "Isolator",
+  "aliases": [
+    "isolation switch",
+    "isolator switch",
+    "disconnect switch"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A switching device providing an electrical isolation function.",
+  "description": [
+    "A disconnector, often called an isolator, provides an isolation function in an electrical circuit. Its representation should be read with the drawing legend and the selected device specification. Do not infer load-breaking or fault-interruption capability simply because a drawing contains a switch-like mark.",
+    "In a switchgear SLD the disconnector may appear next to a breaker, earthing switch or bus section. Control drawings can also show position indications and interlocking. The main-circuit representation and the auxiliary indications describe different parts of the equipment."
+  ],
+  "readingNotes": [
+    "Identify which circuit segment is isolated by the device.",
+    "Distinguish the main switching function from its auxiliary position contacts."
+  ],
+  "drawingChecklist": [
+    "Link the selected device and its isolation capability.",
+    "Reference the position indication and interlock documentation.",
+    "Show associated earthing arrangements where applicable."
+  ],
+  "distinction": "A load-break switch has a specified load-switching capability. A disconnector designation alone does not establish that capability.",
+  "facts": [
+    {
+      "label": "Primary role",
+      "value": "Isolation"
+    },
+    {
+      "label": "Capability",
+      "value": "Confirm against the selected device"
+    },
+    {
+      "label": "Related device number",
+      "value": "89: line switch, where the convention applies"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Manufacturer explanation of disconnector and load-breaking functions."
+    },
+    {
+      "sourceId": "abb-switchgear",
+      "relevance": "Public secondary-distribution switchgear context."
+    }
+  ],
+  "related": [
+    "load-break-switch",
+    "circuit-breaker",
+    "earthing-switch",
+    "89-line-switch"
+  ],
+  "artwork": "isolator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/disconnector",
+  "illustration": "https://eloragrid.ai/library/illustrations/disconnector.svg",
+  "id": "disconnector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/disconnector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/disconnector.json",
+  "svgPath": "artwork/svg/disconnector.svg",
+  "publicSources": [
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer explanation of disconnector and load-breaking functions."
+    },
+    {
+      "id": "abb-switchgear",
+      "title": "Secondary-distribution switchgear and ring main units",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/switchgear/secondary-distribution",
+      "type": "manufacturer",
+      "scope": "Public equipment families for secondary distribution. Footprints and ratings must come from the chosen model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public secondary-distribution switchgear context."
+    }
+  ]
+}

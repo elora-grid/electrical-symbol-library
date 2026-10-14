@@ -1,0 +1,88 @@
+{
+  "slug": "ga-energy-management-controller",
+  "name": "Energy-management controller",
+  "kind": "object",
+  "abbreviation": "EMS",
+  "aliases": [
+    "EMS microgrid controller",
+    "Energy-management controller CAD",
+    "Energy-management controller general arrangement",
+    "Energy-management controller panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An energy-management controller coordinates the selected monitoring and dispatch interfaces.",
+  "description": [
+    "An energy-management controller coordinates the selected monitoring and dispatch interfaces.",
+    "Show communications, auxiliary supply and operator/network connection points. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show communications, auxiliary supply and operator/network connection points.",
+    "The controller enclosure does not define the site's operating strategy or protection settings."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show communications, auxiliary supply and operator/network connection points.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "The controller enclosure does not define the site's operating strategy or protection settings.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-support",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-energy-management-controller",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-energy-management-controller",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-energy-management-controller.svg",
+  "id": "ga-energy-management-controller",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-energy-management-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-energy-management-controller.json",
+  "svgPath": "artwork/svg/ga-energy-management-controller.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-support",
+      "title": "Official Victron product documentation directory",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/support",
+      "type": "manufacturer",
+      "scope": "Public names and official product/manual resources for inverter, charger, storage, metering and control families. Product suitability and installation geometry require selected-model documentation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

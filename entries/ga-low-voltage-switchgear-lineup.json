@@ -1,0 +1,88 @@
+{
+  "slug": "ga-low-voltage-switchgear-lineup",
+  "name": "Low-voltage switchgear lineup",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "LV switchgear assembly",
+    "Low-voltage switchgear lineup CAD",
+    "Low-voltage switchgear lineup general arrangement",
+    "Low-voltage switchgear lineup panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A low-voltage switchgear lineup groups specified incoming, outgoing and bus-section equipment.",
+  "description": [
+    "A low-voltage switchgear lineup groups specified incoming, outgoing and bus-section equipment.",
+    "Coordinate section arrangement, access faces and connection interfaces. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate section arrangement, access faces and connection interfaces.",
+    "A bare enclosure system and a complete switchgear assembly have different verification scopes."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate section arrangement, access faces and connection interfaces.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A bare enclosure system and a complete switchgear assembly have different verification scopes.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-count-abb-lv",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-low-voltage-switchgear-lineup",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-low-voltage-switchgear-lineup",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-low-voltage-switchgear-lineup.svg",
+  "id": "ga-low-voltage-switchgear-lineup",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-low-voltage-switchgear-lineup",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-low-voltage-switchgear-lineup.json",
+  "svgPath": "artwork/svg/ga-low-voltage-switchgear-lineup.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-count-abb-lv",
+      "title": "ABB low-voltage switchgear portfolio",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/low-voltage/power-distribution-systems/switchgear",
+      "type": "manufacturer",
+      "scope": "Public low-voltage assembly family descriptions. Project configuration determines footprint and enclosure interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

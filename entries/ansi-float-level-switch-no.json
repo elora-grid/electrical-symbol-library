@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-float-level-switch-no",
+  "name": "ANSI/IEEE float level switch no symbol",
+  "kind": "symbol",
+  "abbreviation": "LS FLOAT NO",
+  "aliases": [
+    "IEEE float level switch no symbol",
+    "ANSI float level switch no symbol",
+    "HFL11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for float level switch no, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The float-operated NO form connects a discrete electrical action to a defined liquid-level mechanism. The drawing must identify the vessel or location and the direction of level movement that actuates the contact.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Match the electrical reference state to the documented float orientation.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Name vessel/location",
+    "State level direction",
+    "Reference operating/reset levels"
+  ],
+  "distinction": "Float level sensing is different from a continuous analog level transmitter.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Miscellaneous Switches"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HFL11 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "float-level-switch-no",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-float-level-switch-no",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Miscellaneous Switches functional form",
+    "counterpart": "float-level-switch-no",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-float-level-switch-no",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-float-level-switch-no.svg",
+  "id": "ansi-float-level-switch-no",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-float-level-switch-no",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-float-level-switch-no.json",
+  "svgPath": "artwork/svg/ansi-float-level-switch-no.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

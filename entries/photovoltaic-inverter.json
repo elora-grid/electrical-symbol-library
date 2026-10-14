@@ -1,0 +1,95 @@
+{
+  "slug": "photovoltaic-inverter",
+  "name": "Photovoltaic inverter",
+  "kind": "symbol",
+  "abbreviation": "PV INV",
+  "aliases": [
+    "solar inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A photovoltaic inverter converts a documented PV DC input into an AC output and provides the selected PV control functions.",
+  "description": [
+    "A photovoltaic inverter converts a documented PV DC input into an AC output and provides the selected PV control functions. Its schematic keeps DC strings, AC connection and control/protection interfaces distinct."
+  ],
+  "readingNotes": [
+    "Check the number of documented MPPT inputs rather than assuming all DC terminals share one tracker.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify DC inputs/MPPT groups",
+    "State AC output connection",
+    "Reference network/disconnection controls"
+  ],
+  "distinction": "A PV inverter is different from a battery converter even when both connect to the same AC bus.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pv-inverter",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-pv-system",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "photovoltaic-generator",
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-photovoltaic-inverter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-inverter",
+  "illustration": "https://eloragrid.ai/library/illustrations/photovoltaic-inverter.svg",
+  "id": "photovoltaic-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-inverter.json",
+  "svgPath": "artwork/svg/photovoltaic-inverter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pv-inverter",
+      "title": "Photovoltaic technology and inverter functions",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_background%2C_technology",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-pv-system",
+      "title": "PV system equipment and string connection layouts",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_system%3A_electrical_equipments_selection",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

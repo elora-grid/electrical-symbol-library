@@ -1,0 +1,82 @@
+{
+  "slug": "active-band-pass-filter",
+  "name": "Active band-pass filter",
+  "kind": "symbol",
+  "abbreviation": "BPF",
+  "aliases": [
+    "band pass analogue filter",
+    "bandpass amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Passes an intended frequency band while attenuating content below and above that band.",
+  "description": [
+    "Passes an intended frequency band while attenuating content below and above that band.",
+    "On a schematic, identify the lower/upper response boundaries, order and gain definition and trace the selected-band output and receiving measurement circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A band-pass filter selects a band; a notch filter instead rejects a defined band or frequency region.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the lower/upper response boundaries, order and gain definition.",
+    "Trace the selected-band output and receiving measurement circuit."
+  ],
+  "drawingChecklist": [
+    "Label the lower/upper response boundaries, order and gain definition.",
+    "Cross-reference the selected-band output and receiving measurement circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A band-pass filter selects a band; a notch filter instead rejects a defined band or frequency region.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "BPF — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The lower/upper response boundaries, order and gain definition"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-active-filters",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "active-notch-filter",
+    "plc-io"
+  ],
+  "artwork": "electronics-filter-band",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-band-pass-filter",
+  "illustration": "https://eloragrid.ai/library/illustrations/active-band-pass-filter.svg",
+  "id": "active-band-pass-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-band-pass-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-band-pass-filter.json",
+  "svgPath": "artwork/svg/active-band-pass-filter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-active-filters",
+      "title": "Basic Linear Design, Chapter 8: analogue filter response families",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/media/en/training-seminars/design-handbooks/Basic-Linear-Design/Chapter8.pdf",
+      "type": "manufacturer",
+      "scope": "Public primary handbook context for low-pass, high-pass, band-pass and band-rejection responses. The miniature response sketches are original conceptual illustrations, with no claimed cutoff, order or component values.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

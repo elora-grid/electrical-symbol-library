@@ -1,0 +1,82 @@
+{
+  "slug": "phototransistor-optocoupler",
+  "name": "Phototransistor optocoupler",
+  "kind": "symbol",
+  "abbreviation": "OPTO-TR",
+  "aliases": [
+    "optoisolator transistor output",
+    "optical transistor isolator"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An optical isolation component using an input light emitter and a transistor output on the isolated side.",
+  "description": [
+    "An optical isolation component using an input light emitter and a transistor output on the isolated side.",
+    "On a schematic, identify the emitter current circuit, output collector/emitter and isolation boundary and trace the isolated input status or feedback path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Optical isolation separates electrical domains; the current-transfer behaviour and output polarity are component-specific.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the emitter current circuit, output collector/emitter and isolation boundary.",
+    "Trace the isolated input status or feedback path."
+  ],
+  "drawingChecklist": [
+    "Label the emitter current circuit, output collector/emitter and isolation boundary.",
+    "Cross-reference the isolated input status or feedback path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Optical isolation separates electrical domains; the current-transfer behaviour and output polarity are component-specific.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "OPTO-TR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The emitter current circuit, output collector/emitter and isolation boundary"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-vishay-opto",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "solid-state-relay",
+    "diode"
+  ],
+  "artwork": "electronics-opto-transistor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phototransistor-optocoupler",
+  "illustration": "https://eloragrid.ai/library/illustrations/phototransistor-optocoupler.svg",
+  "id": "phototransistor-optocoupler",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phototransistor-optocoupler",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phototransistor-optocoupler.json",
+  "svgPath": "artwork/svg/phototransistor-optocoupler.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-vishay-opto",
+      "title": "Optocoupler output-family reference",
+      "publisher": "Vishay",
+      "url": "https://www.vishay.com/en/optocouplers/",
+      "type": "manufacturer",
+      "scope": "Public family information for phototransistor and other optocoupler outputs, including application documentation. Isolation ratings and output operating method must be selected from the actual device.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

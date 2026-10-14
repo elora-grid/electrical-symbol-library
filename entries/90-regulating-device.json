@@ -1,0 +1,99 @@
+{
+  "slug": "90-regulating-device",
+  "name": "Regulating device",
+  "kind": "function",
+  "abbreviation": "90",
+  "aliases": [
+    "voltage regulator",
+    "automatic voltage regulator",
+    "AVR",
+    "ANSI 90",
+    "IEEE device 90"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Adjusts equipment to maintain the controlled electrical or operating quantity.",
+  "description": [
+    "Adjusts equipment to maintain the controlled electrical or operating quantity.",
+    "In a drafting package, connect this reference to the reference value, feedback measurement and control mode. The associated drawing should trace the regulating actuator, excitation or tap-changing interface; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the reference value, feedback measurement and control mode.",
+    "Trace the regulating actuator, excitation or tap-changing interface."
+  ],
+  "drawingChecklist": [
+    "Label the reference value, feedback measurement and control mode.",
+    "Cross-reference the regulating actuator, excitation or tap-changing interface.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Device 90 is a general regulating role; identify whether this instance controls voltage, taps or another quantity.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "90"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The reference value, feedback measurement and control mode"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/90-regulating-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/90-regulating-device.svg",
+  "id": "90-regulating-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/90-regulating-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/90-regulating-device.json",
+  "svgPath": "artwork/svg/90-regulating-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

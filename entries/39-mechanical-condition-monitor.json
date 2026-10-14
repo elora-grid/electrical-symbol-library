@@ -1,0 +1,98 @@
+{
+  "slug": "39-mechanical-condition-monitor",
+  "name": "Mechanical condition monitor",
+  "kind": "function",
+  "abbreviation": "39",
+  "aliases": [
+    "vibration monitor",
+    "mechanical monitoring",
+    "ANSI 39",
+    "IEEE device 39"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Converts a monitored mechanical condition into an electrical alarm or protection signal.",
+  "description": [
+    "Converts a monitored mechanical condition into an electrical alarm or protection signal.",
+    "In a drafting package, connect this reference to the mechanical sensor and measurement channel. The associated drawing should trace the monitor output and machine shutdown logic; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the mechanical sensor and measurement channel.",
+    "Trace the monitor output and machine shutdown logic."
+  ],
+  "drawingChecklist": [
+    "Label the mechanical sensor and measurement channel.",
+    "Cross-reference the monitor output and machine shutdown logic.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Mechanical monitoring is not electrical current-unbalance protection, even when both protect the same machine.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "39"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The mechanical sensor and measurement channel"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/39-mechanical-condition-monitor",
+  "illustration": "https://eloragrid.ai/library/illustrations/39-mechanical-condition-monitor.svg",
+  "id": "39-mechanical-condition-monitor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/39-mechanical-condition-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/39-mechanical-condition-monitor.json",
+  "svgPath": "artwork/svg/39-mechanical-condition-monitor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

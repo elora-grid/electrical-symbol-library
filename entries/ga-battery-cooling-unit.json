@@ -1,0 +1,88 @@
+{
+  "slug": "ga-battery-cooling-unit",
+  "name": "Battery cooling unit",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "BESS thermal management",
+    "Battery cooling unit CAD",
+    "Battery cooling unit general arrangement",
+    "Battery cooling unit panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A battery cooling unit provides the selected thermal-control interface for a storage system.",
+  "description": [
+    "A battery cooling unit provides the selected thermal-control interface for a storage system.",
+    "Coordinate coolant or air connections, service access and controls. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate coolant or air connections, service access and controls.",
+    "Thermal management must follow the selected battery system design."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate coolant or air connections, service access and controls.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Thermal management must follow the selected battery system design.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-battery-cooling-unit",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-battery-cooling-unit",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-battery-cooling-unit.svg",
+  "id": "ga-battery-cooling-unit",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-battery-cooling-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-battery-cooling-unit.json",
+  "svgPath": "artwork/svg/ga-battery-cooling-unit.svg",
+  "publicSources": [
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

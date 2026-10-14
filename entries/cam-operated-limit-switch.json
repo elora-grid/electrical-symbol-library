@@ -1,0 +1,84 @@
+{
+  "slug": "cam-operated-limit-switch",
+  "name": "Cam-operated limit switch",
+  "kind": "symbol",
+  "abbreviation": "LS CAM",
+  "aliases": [
+    "HLS11S13",
+    "VLS11S13"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A cam-operated limit switch changes its electrical contact state when a defined cam profile reaches the actuator.",
+  "description": [
+    "A cam-operated limit switch changes its electrical contact state when a defined cam profile reaches the actuator. Its position function depends on the documented cam and mechanism relationship."
+  ],
+  "readingNotes": [
+    "Link the cam position to the electrical contact schedule.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Reference cam detail",
+    "Identify operated contact",
+    "State normal mechanism position"
+  ],
+  "distinction": "Cam actuation is a mechanical input, not an electrically programmed timer.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HLS11S13, VLS11S13 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-limits",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-cam-operated-limit-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/cam-operated-limit-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/cam-operated-limit-switch.svg",
+  "id": "cam-operated-limit-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/cam-operated-limit-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/cam-operated-limit-switch.json",
+  "svgPath": "artwork/svg/cam-operated-limit-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-limits",
+      "title": "AutoCAD Electrical: Limit switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3CF4BE45-A302-4757-B5C9-C1AFF9BDC512.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

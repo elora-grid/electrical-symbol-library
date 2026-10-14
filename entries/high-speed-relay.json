@@ -1,0 +1,84 @@
+{
+  "slug": "high-speed-relay",
+  "name": "High-speed relay",
+  "kind": "symbol",
+  "abbreviation": "K FAST",
+  "aliases": [
+    "HCR1HSP",
+    "VCR1HSP"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A high-speed relay has a documented operating response intended for duties where relay timing matters.",
+  "description": [
+    "A high-speed relay has a documented operating response intended for duties where relay timing matters. Schematics need the specific model and circuit role rather than an unqualified speed claim."
+  ],
+  "readingNotes": [
+    "Read operate and release times under the specified coil and contact conditions.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name relay model",
+    "Reference operate and release data",
+    "Show controlled circuit"
+  ],
+  "distinction": "High-speed classification does not imply a complete protection scheme's total clearing time.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1HSP, VCR1HSP (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-high-speed-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/high-speed-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/high-speed-relay.svg",
+  "id": "high-speed-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/high-speed-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/high-speed-relay.json",
+  "svgPath": "artwork/svg/high-speed-relay.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "miniature-circuit-breaker",
+  "name": "Miniature circuit breaker",
+  "kind": "symbol",
+  "abbreviation": "MCB",
+  "aliases": [
+    "miniature breaker"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An MCB is a compact low-voltage circuit breaker commonly used for final circuits and auxiliary supplies.",
+  "description": [
+    "An MCB is a compact low-voltage circuit breaker commonly used for final circuits and auxiliary supplies. Its symbol must be accompanied by the actual rating, pole count and applicable device standard."
+  ],
+  "readingNotes": [
+    "Do not infer interrupting rating from the MCB abbreviation.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State current rating and curve",
+    "State pole arrangement",
+    "Reference product breaking rating"
+  ],
+  "distinction": "MCB describes a product family; thermal-magnetic describes an operating mechanism.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-breaker-types",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-miniature-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/miniature-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/miniature-circuit-breaker.svg",
+  "id": "miniature-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/miniature-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/miniature-circuit-breaker.json",
+  "svgPath": "artwork/svg/miniature-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-breaker-types",
+      "title": "Circuit breakers and switches",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/product-category/4200-circuit-breakers-and-switches/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

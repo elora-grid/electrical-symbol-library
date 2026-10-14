@@ -1,0 +1,82 @@
+{
+  "slug": "integrated-gate-commutated-thyristor",
+  "name": "Integrated gate-commutated thyristor",
+  "kind": "symbol",
+  "abbreviation": "IGCT",
+  "aliases": [
+    "gate commutated thyristor",
+    "integrated GCT"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A high-power thyristor device operated with an integrated gate-unit arrangement for controlled switching.",
+  "description": [
+    "A high-power thyristor device operated with an integrated gate-unit arrangement for controlled switching.",
+    "On a schematic, identify the anode/cathode power connections and associated gate unit and trace the converter leg and gate-unit supply/control interfaces. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An IGCT includes a specific gate-drive arrangement; its abbreviation is not interchangeable with a generic SCR or GTO.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the anode/cathode power connections and associated gate unit.",
+    "Trace the converter leg and gate-unit supply/control interfaces."
+  ],
+  "drawingChecklist": [
+    "Label the anode/cathode power connections and associated gate unit.",
+    "Cross-reference the converter leg and gate-unit supply/control interfaces.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An IGCT includes a specific gate-drive arrangement; its abbreviation is not interchangeable with a generic SCR or GTO.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "IGCT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The anode/cathode power connections and associated gate unit"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-hitachi-igct",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "gate-turn-off-thyristor",
+    "diode"
+  ],
+  "artwork": "electronics-igct",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/integrated-gate-commutated-thyristor",
+  "illustration": "https://eloragrid.ai/library/illustrations/integrated-gate-commutated-thyristor.svg",
+  "id": "integrated-gate-commutated-thyristor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/integrated-gate-commutated-thyristor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/integrated-gate-commutated-thyristor.json",
+  "svgPath": "artwork/svg/integrated-gate-commutated-thyristor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-hitachi-igct",
+      "title": "Integrated gate-commutated thyristor devices",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/semiconductors/integrated-gate-commutated-thyristors-igct",
+      "type": "manufacturer",
+      "scope": "Public high-power switching device and integrated gate-unit reference. Used as advanced converter context; no product drawings or gate-unit design files are copied.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

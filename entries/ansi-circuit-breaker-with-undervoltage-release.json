@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-circuit-breaker-with-undervoltage-release",
+  "name": "ANSI/IEEE circuit breaker with undervoltage release symbol",
+  "kind": "symbol",
+  "abbreviation": "CB UV",
+  "aliases": [
+    "IEEE circuit breaker with undervoltage release symbol",
+    "ANSI circuit breaker with undervoltage release symbol",
+    "HCB11Q33"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for circuit breaker with undervoltage release, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "This combined breaker form marks a current protective device with a documented loss-of-voltage operating function. The control-voltage path must be established from the actual equipment diagram because it can differ from the feeder voltage being interrupted.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Follow the release supply independently of the main feeder.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State release input",
+    "Show control terminals",
+    "Reference voltage-loss behaviour"
+  ],
+  "distinction": "A breaker release and a voltage-measuring relay are different devices even when both contribute to the same trip sequence.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — 1 Pole Circuit Breakers"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HCB11Q33 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7f08a484-0517-4954-bd68-1648ddbc84a1",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "circuit-breaker-with-undervoltage-release",
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-ansi-circuit-breaker-with-undervoltage-release",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented 1 Pole Circuit Breakers functional form",
+    "counterpart": "circuit-breaker-with-undervoltage-release",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-circuit-breaker-with-undervoltage-release",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-circuit-breaker-with-undervoltage-release.svg",
+  "id": "ansi-circuit-breaker-with-undervoltage-release",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-circuit-breaker-with-undervoltage-release",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-circuit-breaker-with-undervoltage-release.json",
+  "svgPath": "artwork/svg/ansi-circuit-breaker-with-undervoltage-release.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7f08a484-0517-4954-bd68-1648ddbc84a1",
+      "title": "Autodesk IEEE Symbol Preview — 1 Pole Circuit Breakers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7F08A484-0517-4954-BD68-1648DDBC84A1.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

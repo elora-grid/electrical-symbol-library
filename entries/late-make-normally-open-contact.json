@@ -1,0 +1,84 @@
+{
+  "slug": "late-make-normally-open-contact",
+  "name": "Late-make normally-open contact",
+  "kind": "symbol",
+  "abbreviation": "NO LATE",
+  "aliases": [
+    "HCR218F",
+    "VCR218F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A late-make NO contact closes later in a documented mechanism sequence than associated contacts.",
+  "description": [
+    "A late-make NO contact closes later in a documented mechanism sequence than associated contacts. The annotation must remain linked to the common device when contacts are drawn on different sheets."
+  ],
+  "readingNotes": [
+    "Establish the sequence from the device documentation rather than from symbol placement.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Match common device tag",
+    "Identify late closing transition",
+    "Reference mechanism sequence"
+  ],
+  "distinction": "Late make differs from an electrically timed on-delay contact.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR218F, VCR218F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-late-make-normally-open-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/late-make-normally-open-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/late-make-normally-open-contact.svg",
+  "id": "late-make-normally-open-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/late-make-normally-open-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/late-make-normally-open-contact.json",
+  "svgPath": "artwork/svg/late-make-normally-open-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

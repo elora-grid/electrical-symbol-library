@@ -1,0 +1,82 @@
+{
+  "slug": "half-bridge-power-module",
+  "name": "Half-bridge power module",
+  "kind": "symbol",
+  "abbreviation": "HB-MOD",
+  "aliases": [
+    "dual switch module",
+    "half bridge semiconductor module"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A packaged power-switch arrangement forming one half-bridge switching leg.",
+  "description": [
+    "A packaged power-switch arrangement forming one half-bridge switching leg.",
+    "On a schematic, identify positive/negative DC terminals, switching midpoint and separate gate/return pins and trace the converter phase leg and driver interfaces. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The module topology does not define its ratings or package terminal order; the selected module drawing remains authoritative.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify positive/negative DC terminals, switching midpoint and separate gate/return pins.",
+    "Trace the converter phase leg and driver interfaces."
+  ],
+  "drawingChecklist": [
+    "Label positive/negative DC terminals, switching midpoint and separate gate/return pins.",
+    "Cross-reference the converter phase leg and driver interfaces.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The module topology does not define its ratings or package terminal order; the selected module drawing remains authoritative.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "HB-MOD — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "Positive/negative DC terminals, switching midpoint and separate gate/return pins"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-modules",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "insulated-gate-bipolar-transistor",
+    "diode"
+  ],
+  "artwork": "electronics-half-bridge",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/half-bridge-power-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/half-bridge-power-module.svg",
+  "id": "half-bridge-power-module",
+  "canonicalUrl": "https://eloragrid.ai/symbols/half-bridge-power-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/half-bridge-power-module.json",
+  "svgPath": "artwork/svg/half-bridge-power-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-modules",
+      "title": "Power semiconductor module families",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/products/power/modules",
+      "type": "manufacturer",
+      "scope": "Public module descriptions and topology documentation, including switching-leg and bridge arrangements. No packaged-module terminal map, dimensioned outline or thermal rating is reproduced.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

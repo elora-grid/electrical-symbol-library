@@ -1,0 +1,85 @@
+{
+  "slug": "dc-generator",
+  "name": "DC generator",
+  "kind": "symbol",
+  "abbreviation": "G DC",
+  "aliases": [
+    "HPW1G9",
+    "VPW1G9"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A DC generator converts mechanical input into a documented DC electrical output.",
+  "description": [
+    "A DC generator converts mechanical input into a documented DC electrical output. Its output polarity and excitation arrangement must be identified where they affect the connected system."
+  ],
+  "readingNotes": [
+    "Follow the excitation circuit separately when the selected machine requires it.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State DC output rating",
+    "Mark polarity",
+    "Reference excitation and control"
+  ],
+  "distinction": "A generator supplies a source; a DC motor represents a load even if the machine principles are related.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Generating source"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPW1G9, VPW1G9 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "25-synchronism-check"
+  ],
+  "artwork": "edu-dc-generator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dc-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/dc-generator.svg",
+  "id": "dc-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dc-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dc-generator.json",
+  "svgPath": "artwork/svg/dc-generator.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

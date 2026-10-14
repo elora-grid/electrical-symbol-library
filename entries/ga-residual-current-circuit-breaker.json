@@ -1,0 +1,88 @@
+{
+  "slug": "ga-residual-current-circuit-breaker",
+  "name": "Residual-current circuit breaker",
+  "kind": "object",
+  "abbreviation": "RCCB",
+  "aliases": [
+    "RCCB RCD",
+    "Residual-current circuit breaker CAD",
+    "Residual-current circuit breaker general arrangement",
+    "Residual-current circuit breaker panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An RCCB detects residual current and opens its associated circuit, with its function specified independently of overcurrent protection.",
+  "description": [
+    "An RCCB detects residual current and opens its associated circuit, with its function specified independently of overcurrent protection.",
+    "Show its poles and neutral arrangements in the schedule and coordinate test-button access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show its poles and neutral arrangements in the schedule and coordinate test-button access.",
+    "An RCCB and an RCBO have different protection combinations; a matching width does not establish interchangeability."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show its poles and neutral arrangements in the schedule and coordinate test-button access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "An RCCB and an RCBO have different protection combinations; a matching width does not establish interchangeability.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-schneider-ranges",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-residual-current-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-residual-current-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-residual-current-circuit-breaker.svg",
+  "id": "ga-residual-current-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-residual-current-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-residual-current-circuit-breaker.json",
+  "svgPath": "artwork/svg/ga-residual-current-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-schneider-ranges",
+      "title": "Official product ranges A–Z",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/uk/en/product-range-az/",
+      "type": "manufacturer",
+      "scope": "UK public range identity and product-family links, including legacy flags. Publication here does not imply availability or approvals in another country.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

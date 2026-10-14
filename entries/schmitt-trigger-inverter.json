@@ -1,0 +1,82 @@
+{
+  "slug": "schmitt-trigger-inverter",
+  "name": "Schmitt-trigger inverter",
+  "kind": "symbol",
+  "abbreviation": "SCHMITT-NOT",
+  "aliases": [
+    "hysteresis inverter",
+    "Schmitt NOT"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A digital inverter with hysteresis between its input switching thresholds.",
+  "description": [
+    "A digital inverter with hysteresis between its input switching thresholds.",
+    "On a schematic, identify the input waveform, threshold convention and supply domain and trace the cleaned/inverted digital signal. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Input hysteresis and logical inversion are separate properties; neither makes an arbitrary slow input safe for every logic family.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input waveform, threshold convention and supply domain.",
+    "Trace the cleaned/inverted digital signal."
+  ],
+  "drawingChecklist": [
+    "Label the input waveform, threshold convention and supply domain.",
+    "Cross-reference the cleaned/inverted digital signal.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Input hysteresis and logical inversion are separate properties; neither makes an arbitrary slow input safe for every logic family.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "SCHMITT-NOT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input waveform, threshold convention and supply domain"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc14",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "schmitt-trigger-buffer",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-schmitt-not",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/schmitt-trigger-inverter",
+  "illustration": "https://eloragrid.ai/library/illustrations/schmitt-trigger-inverter.svg",
+  "id": "schmitt-trigger-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/schmitt-trigger-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/schmitt-trigger-inverter.json",
+  "svgPath": "artwork/svg/schmitt-trigger-inverter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc14",
+      "title": "SN74HC14 — Schmitt-trigger inverters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of schmitt-trigger inverters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

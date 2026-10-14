@@ -1,0 +1,82 @@
+{
+  "slug": "half-bridge-dc-converter-topology",
+  "name": "Half-bridge DC converter topology",
+  "kind": "symbol",
+  "abbreviation": "HB-DC",
+  "aliases": [
+    "half bridge isolated converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC conversion stage using one switching leg and the documented magnetic/secondary circuit.",
+  "description": [
+    "A DC conversion stage using one switching leg and the documented magnetic/secondary circuit.",
+    "On a schematic, identify the DC-link arrangement, switching midpoint and primary winding and trace the secondary rectifier/output and controller returns. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A half-bridge converter topology describes a circuit, whereas a half-bridge power module describes packaged switching hardware.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the DC-link arrangement, switching midpoint and primary winding.",
+    "Trace the secondary rectifier/output and controller returns."
+  ],
+  "drawingChecklist": [
+    "Label the DC-link arrangement, switching midpoint and primary winding.",
+    "Cross-reference the secondary rectifier/output and controller returns.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A half-bridge converter topology describes a circuit, whereas a half-bridge power module describes packaged switching hardware.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "HB-DC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The DC-link arrangement, switching midpoint and primary winding"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "half-bridge-power-module",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-half-dc",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/half-bridge-dc-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/half-bridge-dc-converter-topology.svg",
+  "id": "half-bridge-dc-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/half-bridge-dc-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/half-bridge-dc-converter-topology.json",
+  "svgPath": "artwork/svg/half-bridge-dc-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

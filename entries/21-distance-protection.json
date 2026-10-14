@@ -1,0 +1,98 @@
+{
+  "slug": "21-distance-protection",
+  "name": "Distance protection",
+  "kind": "function",
+  "abbreviation": "21",
+  "aliases": [
+    "distance relay",
+    "impedance relay",
+    "ANSI 21",
+    "IEEE device 21"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Uses measured voltage and current to assess an electrical distance or impedance characteristic.",
+  "description": [
+    "Uses measured voltage and current to assess an electrical distance or impedance characteristic.",
+    "In a drafting package, connect this reference to the protected line CT and VT circuits. The associated drawing should trace the distance zones and associated breaker trip paths; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the protected line CT and VT circuits.",
+    "Trace the distance zones and associated breaker trip paths."
+  ],
+  "drawingChecklist": [
+    "Label the protected line CT and VT circuits.",
+    "Cross-reference the distance zones and associated breaker trip paths.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Distance protection uses impedance-related criteria; directional overcurrent 67 uses current and directional supervision.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "21"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The protected line CT and VT circuits"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/21-distance-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/21-distance-protection.svg",
+  "id": "21-distance-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/21-distance-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/21-distance-protection.json",
+  "svgPath": "artwork/svg/21-distance-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

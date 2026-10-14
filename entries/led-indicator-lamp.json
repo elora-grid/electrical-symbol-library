@@ -1,0 +1,84 @@
+{
+  "slug": "led-indicator-lamp",
+  "name": "LED indicator lamp",
+  "kind": "symbol",
+  "abbreviation": "LAMP LED",
+  "aliases": [
+    "HLT1H25",
+    "VLT1H25"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An LED indicator assembly provides a documented visual signal using a semiconductor light source.",
+  "description": [
+    "An LED indicator assembly provides a documented visual signal using a semiconductor light source. Its rated supply, polarity where applicable and indication meaning must be specified."
+  ],
+  "readingNotes": [
+    "Differentiate the complete indicator assembly from a bare LED component.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State assembly voltage",
+    "Name indicated condition",
+    "Reference polarity/terminals"
+  ],
+  "distinction": "A rated panel LED indicator may contain internal circuitry beyond a bare light-emitting diode.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Visual signal"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HLT1H25, VLT1H25 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-led-lights",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "indicator-lamp",
+    "relay-coil"
+  ],
+  "artwork": "edu-led-indicator-lamp",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/led-indicator-lamp",
+  "illustration": "https://eloragrid.ai/library/illustrations/led-indicator-lamp.svg",
+  "id": "led-indicator-lamp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/led-indicator-lamp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/led-indicator-lamp.json",
+  "svgPath": "artwork/svg/led-indicator-lamp.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-led-lights",
+      "title": "AutoCAD Electrical: LED lamps",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B4FB8955-5135-4123-A293-11530B9D25EC.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

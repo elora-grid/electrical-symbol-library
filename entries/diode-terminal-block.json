@@ -1,0 +1,76 @@
+{
+  "slug": "diode-terminal-block",
+  "name": "Diode terminal block",
+  "kind": "symbol",
+  "abbreviation": "TB DIODE",
+  "aliases": [],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A diode terminal includes a semiconductor diode in a documented terminal path.",
+  "description": [
+    "A diode terminal includes a semiconductor diode in a documented terminal path. Polarity and the intended protective or decoupling function must remain explicit in the wiring schematic."
+  ],
+  "readingNotes": [
+    "Read anode and cathode connections from the actual terminal diagram.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Mark diode direction",
+    "Name terminal connections",
+    "Reference voltage/current rating"
+  ],
+  "distinction": "A diode terminal is different from a feed-through terminal even if its physical housing is similar.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Wiring interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-terminal-families",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "terminal-strip"
+  ],
+  "artwork": "edu-diode-terminal-block",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/diode-terminal-block",
+  "illustration": "https://eloragrid.ai/library/illustrations/diode-terminal-block.svg",
+  "id": "diode-terminal-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/diode-terminal-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/diode-terminal-block.json",
+  "svgPath": "artwork/svg/diode-terminal-block.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-terminal-families",
+      "title": "Terminal block functional families",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

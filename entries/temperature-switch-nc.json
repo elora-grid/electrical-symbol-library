@@ -1,0 +1,84 @@
+{
+  "slug": "temperature-switch-nc",
+  "name": "Temperature switch NC",
+  "kind": "symbol",
+  "abbreviation": "TS NC",
+  "aliases": [
+    "HTS12",
+    "VTS12"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A temperature-operated NC switch opens under a documented thermal condition.",
+  "description": [
+    "A temperature-operated NC switch opens under a documented thermal condition. Schematics for heaters, fans and equipment trips need the operating threshold and reference state."
+  ],
+  "readingNotes": [
+    "Identify automatic reset or manual reset where the product specifies it.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name protected equipment",
+    "Record threshold and reset type",
+    "Show contact terminal pair"
+  ],
+  "distinction": "NC describes contact state independently of the thermal trip function.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HTS12, VTS12 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pressure-temperature",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-temperature-switch-nc",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/temperature-switch-nc",
+  "illustration": "https://eloragrid.ai/library/illustrations/temperature-switch-nc.svg",
+  "id": "temperature-switch-nc",
+  "canonicalUrl": "https://eloragrid.ai/symbols/temperature-switch-nc",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/temperature-switch-nc.json",
+  "svgPath": "artwork/svg/temperature-switch-nc.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pressure-temperature",
+      "title": "AutoCAD Electrical: Pressure and temperature switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-46061E42-55B7-4804-8D50-C31DF292F01D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

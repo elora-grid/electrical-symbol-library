@@ -1,0 +1,100 @@
+{
+  "slug": "star-zigzag-transformer",
+  "name": "Star-zigzag transformer",
+  "kind": "symbol",
+  "abbreviation": "TX Y-Z",
+  "aliases": [
+    "HXF1T12",
+    "VXF1T12"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A star-zigzag transformer combines a star-connected winding set with a zigzag-connected set.",
+  "description": [
+    "A star-zigzag transformer combines a star-connected winding set with a zigzag-connected set. Its winding arrangement and neutral duties require the manufacturer's complete connection designation."
+  ],
+  "readingNotes": [
+    "Read the zigzag terminal arrangement from the selected transformer diagram.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record connection designation",
+    "Identify neutral terminal",
+    "Reference winding ratings"
+  ],
+  "distinction": "A zigzag connection is not another spelling of a simple star winding.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1T12, VXF1T12 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-three-phase-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-star-zigzag-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/star-zigzag-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/star-zigzag-transformer.svg",
+  "id": "star-zigzag-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/star-zigzag-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/star-zigzag-transformer.json",
+  "svgPath": "artwork/svg/star-zigzag-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-three-phase-transformers",
+      "title": "AutoCAD Electrical: Three-phase transformer connections",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EB13DB13-01EE-4541-BED7-19B9001BE8FC.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

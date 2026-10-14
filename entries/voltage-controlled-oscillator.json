@@ -1,0 +1,82 @@
+{
+  "slug": "voltage-controlled-oscillator",
+  "name": "Voltage-controlled oscillator",
+  "kind": "symbol",
+  "abbreviation": "VCO",
+  "aliases": [
+    "voltage to frequency oscillator",
+    "controlled oscillator"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Generates an oscillating output whose frequency responds to the documented control voltage.",
+  "description": [
+    "Generates an oscillating output whose frequency responds to the documented control voltage.",
+    "On a schematic, identify the control input, supply/reference and timing components and trace the oscillator output and downstream clock or modulation circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A VCO is a signal generator; the term does not mean a power-frequency generator connected to a busbar.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the control input, supply/reference and timing components.",
+    "Trace the oscillator output and downstream clock or modulation circuit."
+  ],
+  "drawingChecklist": [
+    "Label the control input, supply/reference and timing components.",
+    "Cross-reference the oscillator output and downstream clock or modulation circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A VCO is a signal generator; the term does not mean a power-frequency generator connected to a busbar.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "VCO — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The control input, supply/reference and timing components"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-cd4046",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "phase-locked-loop",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-vco",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltage-controlled-oscillator",
+  "illustration": "https://eloragrid.ai/library/illustrations/voltage-controlled-oscillator.svg",
+  "id": "voltage-controlled-oscillator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltage-controlled-oscillator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltage-controlled-oscillator.json",
+  "svgPath": "artwork/svg/voltage-controlled-oscillator.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-cd4046",
+      "title": "CD4046B — phase-locked loops and voltage-controlled oscillators",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD4046B",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of phase-locked loops and voltage-controlled oscillators. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

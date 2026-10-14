@@ -1,0 +1,94 @@
+{
+  "slug": "plc-io",
+  "name": "PLC input / output",
+  "kind": "symbol",
+  "abbreviation": "PLC I/O",
+  "aliases": [
+    "PLC input",
+    "PLC output",
+    "digital input",
+    "digital output",
+    "analogue input",
+    "analog output",
+    "controller IO",
+    "PLCIOI1T",
+    "PLCIOO1T"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A controller interface point connecting field signals to an identified module channel.",
+  "description": [
+    "A PLC input or output point connects a field signal with a controller module and channel. Input and output, digital and analogue, and one-wire or multi-wire arrangements are distinct characteristics. The module specification establishes electrical behaviour and terminal information.",
+    "A schematic should connect channel identification to the I/O schedule and field device. Shared supplies, commons and isolation boundaries require their own documentation. A generic controller box is not a pinout or wiring instruction for a particular module."
+  ],
+  "readingNotes": [
+    "Identify module, channel and signal direction.",
+    "Use the selected module documentation to interpret supply, common and terminal requirements."
+  ],
+  "drawingChecklist": [
+    "Match the I/O schedule.",
+    "Identify signal type and channel reference.",
+    "Link module terminals and field-device documentation."
+  ],
+  "distinction": "An input point, output point and communications connection are different interfaces. A generic box cannot establish their electrical compatibility.",
+  "facts": [
+    {
+      "label": "Channel identity",
+      "value": "Controller, module and point"
+    },
+    {
+      "label": "Signal characteristics",
+      "value": "Selected module specification"
+    },
+    {
+      "label": "Interface direction",
+      "value": "Input or output"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "PLCIOI1T, PLCIOO1T (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-plc",
+      "relevance": "Public input/output point and wiring-count categories."
+    }
+  ],
+  "related": [
+    "terminal",
+    "indicator-lamp",
+    "selector-switch",
+    "control-cabinet"
+  ],
+  "artwork": "plc",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-io",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-io.svg",
+  "id": "plc-io",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-io",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-io.json",
+  "svgPath": "artwork/svg/plc-io.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-plc",
+      "title": "PLC input and output point symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-16A484BE-F73C-4612-8D12-E760E981C4E9.htm",
+      "type": "cad-reference",
+      "scope": "Input/output point and wiring-count variants. Electrical module specifications are manufacturer-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public input/output point and wiring-count categories."
+    }
+  ]
+}

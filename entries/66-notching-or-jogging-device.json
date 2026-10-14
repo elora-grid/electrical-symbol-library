@@ -1,0 +1,99 @@
+{
+  "slug": "66-notching-or-jogging-device",
+  "name": "Notching or jogging device",
+  "kind": "function",
+  "abbreviation": "66",
+  "aliases": [
+    "jogging device",
+    "starts per hour",
+    "start limitation",
+    "ANSI 66",
+    "IEEE device 66"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Controls limited machine movements or, in modern motor relays, supervises the allowed starting duty.",
+  "description": [
+    "Controls limited machine movements or, in modern motor relays, supervises the allowed starting duty.",
+    "In a drafting package, connect this reference to the jog command or start counter and time window. The associated drawing should trace the next-start permission and motor control sequence; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the jog command or start counter and time window.",
+    "Trace the next-start permission and motor control sequence."
+  ],
+  "drawingChecklist": [
+    "Label the jog command or start counter and time window.",
+    "Cross-reference the next-start permission and motor control sequence.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "The exact 66 application must be stated: jogging control and starts-per-time supervision are not identical behaviours.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "66"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The jog command or start counter and time window"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-secogear",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "motor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/66-notching-or-jogging-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/66-notching-or-jogging-device.svg",
+  "id": "66-notching-or-jogging-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/66-notching-or-jogging-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/66-notching-or-jogging-device.json",
+  "svgPath": "artwork/svg/66-notching-or-jogging-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-secogear",
+      "title": "SecoGear medium-voltage switchgear application and technical guide, DET-882",
+      "publisher": "ABB",
+      "url": "https://library.e.abb.com/public/a06cf4cf38b34800b27bb337ab12f74f/DET-882%20SecoGear%205kV-15kV%20IEEE%20Metal%20Clad%20Switchgear_Application%20and%20installation%20guide.pdf",
+      "type": "manufacturer",
+      "scope": "Public switchgear application guide with a device-number reference table. Used to cross-check 54, 61, 62 and specialist labels. Text, photographs and manufacturer diagrams are linked only and are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

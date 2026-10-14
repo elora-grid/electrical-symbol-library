@@ -1,0 +1,119 @@
+{
+  "slug": "21g-ground-distance-protection",
+  "name": "Ground distance protection",
+  "kind": "function",
+  "abbreviation": "21G",
+  "aliases": [
+    "earth distance",
+    "ground impedance",
+    "ANSI 21G",
+    "IEEE 21G"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Evaluates a distance characteristic for a phase-to-earth fault loop.",
+  "description": [
+    "Evaluates a distance characteristic for a phase-to-earth fault loop.",
+    "The drafting record should connect this function to the phase and residual current references, VT circuit and protected line, then trace the ground distance zones and earth-loop compensation reference. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL line protection documentation). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the phase and residual current references, VT circuit and protected line.",
+    "Trace the ground distance zones and earth-loop compensation reference."
+  ],
+  "drawingChecklist": [
+    "Label the phase and residual current references, VT circuit and protected line.",
+    "Cross-reference the ground distance zones and earth-loop compensation reference.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Ground distance includes the ground-loop measurement treatment; it is not simply phase distance with a different alarm label.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "21G"
+    },
+    {
+      "label": "Base function",
+      "value": "21 — Distance protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL line protection documentation"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-product-catalog",
+      "relevance": "Explicit public manufacturer mapping of 21P to phase distance and 21G to ground distance in the protection feature tables."
+    },
+    {
+      "sourceId": "pub-function-sel-distance",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "21-distance-protection",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/21g-ground-distance-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/21g-ground-distance-protection.svg",
+  "id": "21g-ground-distance-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/21g-ground-distance-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/21g-ground-distance-protection.json",
+  "svgPath": "artwork/svg/21g-ground-distance-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-product-catalog",
+      "title": "SEL 2022 Product and Solution Guide: published protection function tables",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/api/download/136012",
+      "type": "manufacturer",
+      "scope": "Public historical product guide documenting 21P phase distance and 21G ground distance mappings among other line-protection functions. Referenced for terminology, not current product availability or a product recommendation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explicit public manufacturer mapping of 21P to phase distance and 21G to ground distance in the protection feature tables."
+    },
+    {
+      "id": "pub-function-sel-distance",
+      "title": "SEL-321 phase and ground distance relay documentation",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/321/docs/",
+      "type": "manufacturer",
+      "scope": "Manufacturer documentation landing page for phase and ground distance protection. The legacy product is referenced to explain the measurement roles, not to recommend it for a new project.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

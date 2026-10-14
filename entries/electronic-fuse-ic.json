@@ -1,0 +1,83 @@
+{
+  "slug": "electronic-fuse-ic",
+  "name": "Electronic fuse IC",
+  "kind": "symbol",
+  "abbreviation": "EFUSE",
+  "aliases": [
+    "eFuse",
+    "integrated electronic fuse",
+    "electronic power path protection"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An integrated semiconductor power-path device providing the selected current-limiting and protection functions.",
+  "description": [
+    "An integrated semiconductor power-path device providing the selected current-limiting and protection functions.",
+    "On a schematic, identify the input/output power terminals, enable and fault/configuration pins and trace the protected electronic supply and status/control circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An eFuse is an electronic protection circuit; it is not the same component as a replaceable fuse or an MCB.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input/output power terminals, enable and fault/configuration pins.",
+    "Trace the protected electronic supply and status/control circuit."
+  ],
+  "drawingChecklist": [
+    "Label the input/output power terminals, enable and fault/configuration pins.",
+    "Cross-reference the protected electronic supply and status/control circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An eFuse is an electronic protection circuit; it is not the same component as a replaceable fuse or an MCB.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "EFUSE — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input/output power terminals, enable and fault/configuration pins"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-efuse",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "fuse",
+    "diode"
+  ],
+  "artwork": "electronics-efuse",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/electronic-fuse-ic",
+  "illustration": "https://eloragrid.ai/library/illustrations/electronic-fuse-ic.svg",
+  "id": "electronic-fuse-ic",
+  "canonicalUrl": "https://eloragrid.ai/symbols/electronic-fuse-ic",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/electronic-fuse-ic.json",
+  "svgPath": "artwork/svg/electronic-fuse-ic.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-efuse",
+      "title": "TPS2663 — integrated electronic-fuse power protection",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TPS2663",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of integrated electronic-fuse power protection. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "current-measuring-shunt",
+  "name": "Current-measuring shunt",
+  "kind": "symbol",
+  "abbreviation": "SHUNT",
+  "aliases": [
+    "HVR1R7",
+    "VVR1R7",
+    "DC current shunt"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A current-measuring shunt produces a documented voltage drop corresponding to current through a resistive element.",
+  "description": [
+    "A current-measuring shunt produces a documented voltage drop corresponding to current through a resistive element. The drawing must distinguish the current path from the sensing leads."
+  ],
+  "readingNotes": [
+    "Identify the separate measurement connections where the selected shunt provides them.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State current and voltage-drop rating",
+    "Show sense leads",
+    "Reference polarity/scaling"
+  ],
+  "distinction": "A shunt produces a voltage measurement without a current-transformer secondary.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HVR1R7, VVR1R7 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-current-measuring-shunt",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-measuring-shunt",
+  "illustration": "https://eloragrid.ai/library/illustrations/current-measuring-shunt.svg",
+  "id": "current-measuring-shunt",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-measuring-shunt",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-measuring-shunt.json",
+  "svgPath": "artwork/svg/current-measuring-shunt.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

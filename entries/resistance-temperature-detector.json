@@ -1,0 +1,79 @@
+{
+  "slug": "resistance-temperature-detector",
+  "name": "Resistance temperature detector",
+  "kind": "symbol",
+  "abbreviation": "RTD",
+  "aliases": [
+    "Pt100 temperature sensor"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An RTD is a temperature sensor whose resistance changes with temperature.",
+  "description": [
+    "An RTD is a temperature sensor whose resistance changes with temperature. Its schematic needs the selected sensor characteristic and two-, three- or four-wire measurement connection."
+  ],
+  "readingNotes": [
+    "Count sensor conductors at the measuring input instead of inferring them from the sensor name.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State sensor characteristic",
+    "Show conductor count",
+    "Reference compatible temperature input"
+  ],
+  "distinction": "An RTD is different from a discrete temperature switch or a thermocouple voltage source.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-temperature-input",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-resistance-temperature-detector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/resistance-temperature-detector",
+  "illustration": "https://eloragrid.ai/library/illustrations/resistance-temperature-detector.svg",
+  "id": "resistance-temperature-detector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/resistance-temperature-detector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/resistance-temperature-detector.json",
+  "svgPath": "artwork/svg/resistance-temperature-detector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-temperature-input",
+      "title": "RTD and thermocouple temperature transducer inputs",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/temperature-measuring-transducer-macx-mcr-1ts-i-olp-1145192?type=pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

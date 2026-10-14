@@ -1,0 +1,85 @@
+{
+  "slug": "three-phase-ac-motor",
+  "name": "Three-phase AC motor",
+  "kind": "symbol",
+  "abbreviation": "M 3PH",
+  "aliases": [
+    "HMO13",
+    "VMO13"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-phase AC motor is a load supplied from three documented phases.",
+  "description": [
+    "A three-phase AC motor is a load supplied from three documented phases. Its winding connections, protection and starter are recorded in the power schematic or linked motor data."
+  ],
+  "readingNotes": [
+    "Check whether the drawing shows a simplified load or an expanded terminal connection.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State supply and rating",
+    "Reference winding connection",
+    "Show starter and overload protection"
+  ],
+  "distinction": "A three-phase motor representation does not specify star or delta terminal links by itself.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO13, VMO13 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-three-phase-ac-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-ac-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-ac-motor.svg",
+  "id": "three-phase-ac-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-ac-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-ac-motor.json",
+  "svgPath": "artwork/svg/three-phase-ac-motor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-motors",
+      "title": "Three-phase motor symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-385CBE83-33A3-4314-913E-3B59A6D05F22.htm",
+      "type": "cad-reference",
+      "scope": "Motor variants including asynchronous, synchronous and connection-count differences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "pressure-switch-nc",
+  "name": "Pressure switch NC",
+  "kind": "symbol",
+  "abbreviation": "PS NC",
+  "aliases": [
+    "HPS12",
+    "VPS12"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A pressure-operated NC switch opens under its documented actuation condition.",
+  "description": [
+    "A pressure-operated NC switch opens under its documented actuation condition. Pressure threshold, reset behaviour and reference state are separate drawing annotations."
+  ],
+  "readingNotes": [
+    "Read the pressure direction from the selected switch specification.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify pressure connection",
+    "Record operate and reset data",
+    "Show contact logic"
+  ],
+  "distinction": "An NC pressure switch is different from a pressure transmitter producing a continuous analog signal.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPS12, VPS12 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pressure-temperature",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-pressure-switch-nc",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pressure-switch-nc",
+  "illustration": "https://eloragrid.ai/library/illustrations/pressure-switch-nc.svg",
+  "id": "pressure-switch-nc",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pressure-switch-nc",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pressure-switch-nc.json",
+  "svgPath": "artwork/svg/pressure-switch-nc.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pressure-temperature",
+      "title": "AutoCAD Electrical: Pressure and temperature switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-46061E42-55B7-4804-8D50-C31DF292F01D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

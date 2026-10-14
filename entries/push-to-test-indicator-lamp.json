@@ -1,0 +1,84 @@
+{
+  "slug": "push-to-test-indicator-lamp",
+  "name": "Push-to-test indicator lamp",
+  "kind": "symbol",
+  "abbreviation": "LAMP TEST",
+  "aliases": [
+    "HLT1RP",
+    "VLT1RP"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A push-to-test indicator lamp allows a documented local test of the lamp circuit.",
+  "description": [
+    "A push-to-test indicator lamp allows a documented local test of the lamp circuit. The test path and normal indication path must be distinguished."
+  ],
+  "readingNotes": [
+    "A successful lamp test does not necessarily verify the monitored process contact.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show normal signal source",
+    "Show test connection",
+    "State lamp supply and colour"
+  ],
+  "distinction": "Lamp test verifies an indication path; it is not automatically a complete alarm-system test.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Visual signal"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HLT1RP, VLT1RP (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-test-lights",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "indicator-lamp",
+    "relay-coil"
+  ],
+  "artwork": "edu-push-to-test-indicator-lamp",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/push-to-test-indicator-lamp",
+  "illustration": "https://eloragrid.ai/library/illustrations/push-to-test-indicator-lamp.svg",
+  "id": "push-to-test-indicator-lamp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/push-to-test-indicator-lamp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/push-to-test-indicator-lamp.json",
+  "svgPath": "artwork/svg/push-to-test-indicator-lamp.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-test-lights",
+      "title": "AutoCAD Electrical: Push-to-test lamps",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E8F5DC0C-5637-4A7D-B5EF-6981BAE76E94.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

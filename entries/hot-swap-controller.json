@@ -1,0 +1,82 @@
+{
+  "slug": "hot-swap-controller",
+  "name": "Hot-swap controller",
+  "kind": "symbol",
+  "abbreviation": "HOT-SWAP",
+  "aliases": [
+    "inrush control IC",
+    "live insertion controller"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Controls a power path during equipment insertion or power-up to manage the documented inrush sequence.",
+  "description": [
+    "Controls a power path during equipment insertion or power-up to manage the documented inrush sequence.",
+    "On a schematic, identify the sense resistor, external switch, timing and fault pins and trace the power-entry connection and power-good/fault interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Hot-swap control addresses insertion and startup behaviour; it is not a generic mechanical isolating switch.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the sense resistor, external switch, timing and fault pins.",
+    "Trace the power-entry connection and power-good/fault interface."
+  ],
+  "drawingChecklist": [
+    "Label the sense resistor, external switch, timing and fault pins.",
+    "Cross-reference the power-entry connection and power-good/fault interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Hot-swap control addresses insertion and startup behaviour; it is not a generic mechanical isolating switch.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "HOT-SWAP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The sense resistor, external switch, timing and fault pins"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-hot-swap",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-hot-swap",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/hot-swap-controller",
+  "illustration": "https://eloragrid.ai/library/illustrations/hot-swap-controller.svg",
+  "id": "hot-swap-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/hot-swap-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/hot-swap-controller.json",
+  "svgPath": "artwork/svg/hot-swap-controller.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-hot-swap",
+      "title": "LTC4215 — hot-swap power-path control",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ltc4215.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for hot-swap power-path control. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

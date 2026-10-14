@@ -1,0 +1,98 @@
+{
+  "slug": "38-bearing-protective-device",
+  "name": "Bearing protective device",
+  "kind": "function",
+  "abbreviation": "38",
+  "aliases": [
+    "bearing protection",
+    "bearing temperature relay",
+    "ANSI 38",
+    "IEEE device 38"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Supervises an abnormal condition at a machine bearing, often using temperature or mechanical sensing.",
+  "description": [
+    "Supervises an abnormal condition at a machine bearing, often using temperature or mechanical sensing.",
+    "In a drafting package, connect this reference to the bearing identity and sensor type. The associated drawing should trace the bearing alarm or machine trip destination; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the bearing identity and sensor type.",
+    "Trace the bearing alarm or machine trip destination."
+  ],
+  "drawingChecklist": [
+    "Label the bearing identity and sensor type.",
+    "Cross-reference the bearing alarm or machine trip destination.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Bearing protection is tied to a monitored bearing; winding thermal protection addresses a different equipment location.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "38"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The bearing identity and sensor type"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "motor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/38-bearing-protective-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/38-bearing-protective-device.svg",
+  "id": "38-bearing-protective-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/38-bearing-protective-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/38-bearing-protective-device.json",
+  "svgPath": "artwork/svg/38-bearing-protective-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

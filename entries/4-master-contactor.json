@@ -1,0 +1,97 @@
+{
+  "slug": "4-master-contactor",
+  "name": "Master contactor",
+  "kind": "function",
+  "abbreviation": "4",
+  "aliases": [
+    "main master contactor",
+    "ANSI 4",
+    "IEEE device 4"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Switches the main control or operating circuit under the unit's master command.",
+  "description": [
+    "Switches the main control or operating circuit under the unit's master command.",
+    "In a drafting package, connect this reference to the master control coil and power contacts. The associated drawing should trace the circuit energised by the contactor; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the master control coil and power contacts.",
+    "Trace the circuit energised by the contactor."
+  ],
+  "drawingChecklist": [
+    "Label the master control coil and power contacts.",
+    "Cross-reference the circuit energised by the contactor.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A master contactor is a switching device; the master element numbered 1 can be a control function.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "4"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The master control coil and power contacts"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "contactor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/4-master-contactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/4-master-contactor.svg",
+  "id": "4-master-contactor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/4-master-contactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/4-master-contactor.json",
+  "svgPath": "artwork/svg/4-master-contactor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

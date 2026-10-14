@@ -1,0 +1,82 @@
+{
+  "slug": "active-high-pass-filter",
+  "name": "Active high-pass filter",
+  "kind": "symbol",
+  "abbreviation": "HPF",
+  "aliases": [
+    "high pass analogue filter",
+    "DC blocking active filter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Attenuates lower-frequency content while passing the intended higher-frequency signal band.",
+  "description": [
+    "Attenuates lower-frequency content while passing the intended higher-frequency signal band.",
+    "On a schematic, identify the signal reference, filter order and lower-band boundary and trace the filtered output and its downstream gain/measurement path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "High-pass behaviour differs from low-pass filtering and does not imply galvanic isolation of the signal.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the signal reference, filter order and lower-band boundary.",
+    "Trace the filtered output and its downstream gain/measurement path."
+  ],
+  "drawingChecklist": [
+    "Label the signal reference, filter order and lower-band boundary.",
+    "Cross-reference the filtered output and its downstream gain/measurement path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "High-pass behaviour differs from low-pass filtering and does not imply galvanic isolation of the signal.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "HPF — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The signal reference, filter order and lower-band boundary"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-active-filters",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "active-low-pass-filter",
+    "plc-io"
+  ],
+  "artwork": "electronics-filter-high",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-high-pass-filter",
+  "illustration": "https://eloragrid.ai/library/illustrations/active-high-pass-filter.svg",
+  "id": "active-high-pass-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-high-pass-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-high-pass-filter.json",
+  "svgPath": "artwork/svg/active-high-pass-filter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-active-filters",
+      "title": "Basic Linear Design, Chapter 8: analogue filter response families",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/media/en/training-seminars/design-handbooks/Basic-Linear-Design/Chapter8.pdf",
+      "type": "manufacturer",
+      "scope": "Public primary handbook context for low-pass, high-pass, band-pass and band-rejection responses. The miniature response sketches are original conceptual illustrations, with no claimed cutoff, order or component values.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "on-delay-timer-relay",
+  "name": "On-delay timer relay",
+  "kind": "symbol",
+  "abbreviation": "TON",
+  "aliases": [
+    "HTD1N",
+    "VTD1N"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An on-delay timer postpones a specified output transition after its timing condition becomes active.",
+  "description": [
+    "An on-delay timer postpones a specified output transition after its timing condition becomes active. The timing input, auxiliary supply and delayed output must be distinguished in the schematic."
+  ],
+  "readingNotes": [
+    "Read the timing diagram to establish when the interval starts and how interruption resets it.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show initiating condition",
+    "State time setting",
+    "Link delayed output contact"
+  ],
+  "distinction": "On-delay postpones the specified transition on operation; off-delay postpones a transition after removal of the initiating condition.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Timed operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HTD1N, VTD1N (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-timers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-on-delay-timer-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/on-delay-timer-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/on-delay-timer-relay.svg",
+  "id": "on-delay-timer-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/on-delay-timer-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/on-delay-timer-relay.json",
+  "svgPath": "artwork/svg/on-delay-timer-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-timers",
+      "title": "AutoCAD Electrical: Time-delay relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA927086-EEAF-48CB-B9B1-634A4B48C8C7.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

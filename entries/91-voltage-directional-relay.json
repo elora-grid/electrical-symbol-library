@@ -1,0 +1,98 @@
+{
+  "slug": "91-voltage-directional-relay",
+  "name": "Voltage directional relay",
+  "kind": "function",
+  "abbreviation": "91",
+  "aliases": [
+    "directional voltage",
+    "ANSI 91",
+    "IEEE device 91"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Uses a voltage relationship with a defined direction criterion in a specialist protection or control scheme.",
+  "description": [
+    "Uses a voltage relationship with a defined direction criterion in a specialist protection or control scheme.",
+    "In a drafting package, connect this reference to the compared voltage references and polarity convention. The associated drawing should trace the directional-voltage operating circuit; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the compared voltage references and polarity convention.",
+    "Trace the directional-voltage operating circuit."
+  ],
+  "drawingChecklist": [
+    "Label the compared voltage references and polarity convention.",
+    "Cross-reference the directional-voltage operating circuit.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Directional voltage 91 is not equivalent to directional power 32 or ordinary overvoltage 59.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "91"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The compared voltage references and polarity convention"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/91-voltage-directional-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/91-voltage-directional-relay.svg",
+  "id": "91-voltage-directional-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/91-voltage-directional-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/91-voltage-directional-relay.json",
+  "svgPath": "artwork/svg/91-voltage-directional-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "isolation-amplifier",
+  "name": "Isolation amplifier",
+  "kind": "symbol",
+  "abbreviation": "ISO-AMP",
+  "aliases": [
+    "isolated amplifier",
+    "galvanically isolated analogue amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers an analogue measurement across the documented electrical isolation boundary.",
+  "description": [
+    "Transfers an analogue measurement across the documented electrical isolation boundary.",
+    "On a schematic, identify the two supply domains, input reference and output interface and trace the isolated measurement signal and downstream processing. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An isolation amplifier has an analogue signal-transfer role; a digital isolator transfers encoded logic rather than a generic continuous voltage.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the two supply domains, input reference and output interface.",
+    "Trace the isolated measurement signal and downstream processing."
+  ],
+  "drawingChecklist": [
+    "Label the two supply domains, input reference and output interface.",
+    "Cross-reference the isolated measurement signal and downstream processing.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An isolation amplifier has an analogue signal-transfer role; a digital isolator transfers encoded logic rather than a generic continuous voltage.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "ISO-AMP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two supply domains, input reference and output interface"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-isolation-amp",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "capacitive-digital-isolator",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-isolation",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolation-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/isolation-amplifier.svg",
+  "id": "isolation-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolation-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolation-amplifier.json",
+  "svgPath": "artwork/svg/isolation-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-isolation-amp",
+      "title": "AMC1301 — isolated analogue amplification",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/AMC1301",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of isolated analogue amplification. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

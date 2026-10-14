@@ -1,0 +1,102 @@
+{
+  "slug": "battery-cabinet",
+  "name": "Battery storage cabinet",
+  "kind": "object",
+  "abbreviation": "BESS cabinet",
+  "aliases": [
+    "BESS enclosure",
+    "battery cabinet",
+    "battery rack",
+    "energy storage cabinet"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic storage-equipment envelope linked to the selected battery system.",
+  "description": [
+    "A battery cabinet contains the storage equipment defined by its product system. A BESS arrangement can also include power conversion, control and auxiliary equipment. The GA should identify those equipment boundaries rather than treat every cabinet as an identical storage block.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Match the cabinet identifier to the selected system configuration.",
+    "Keep storage, conversion and control equipment distinct."
+  ],
+  "drawingChecklist": [
+    "Reference the product and installation documentation.",
+    "Identify interfaces and specified access requirements.",
+    "Link the cabinet to system and equipment schedules."
+  ],
+  "distinction": "A BESS cabinet is not necessarily a complete BESS. Equipment scope and installation requirements are product-specific.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "battery-cabinets",
+      "relevance": "Public example of battery, control and conversion equipment within a storage system."
+    },
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public explanation of storage and converter interfaces."
+    }
+  ],
+  "related": [
+    "battery",
+    "pcs-cabinet",
+    "power-converter"
+  ],
+  "artwork": "bess",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/battery-cabinet",
+  "illustration": "https://eloragrid.ai/library/illustrations/battery-cabinet.svg",
+  "id": "battery-cabinet",
+  "canonicalUrl": "https://eloragrid.ai/objects/battery-cabinet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-cabinet.json",
+  "svgPath": "artwork/svg/battery-cabinet.svg",
+  "publicSources": [
+    {
+      "id": "battery-cabinets",
+      "title": "xStorage battery energy storage system",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/energy-storage/xstorage-battery-energy-storage-system.html",
+      "type": "manufacturer",
+      "scope": "Public example of battery cabinets, power conversion and control equipment within a storage system.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public example of battery, control and conversion equipment within a storage system."
+    },
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of storage and converter interfaces."
+    }
+  ]
+}

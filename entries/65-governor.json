@@ -1,0 +1,98 @@
+{
+  "slug": "65-governor",
+  "name": "Governor",
+  "kind": "function",
+  "abbreviation": "65",
+  "aliases": [
+    "speed governor",
+    "machine governor",
+    "ANSI 65",
+    "IEEE device 65"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Regulates the operating speed or mechanical input of a generating or rotating unit.",
+  "description": [
+    "Regulates the operating speed or mechanical input of a generating or rotating unit.",
+    "In a drafting package, connect this reference to the speed reference and prime-mover control interface. The associated drawing should trace the governor actuator and controller commands; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the speed reference and prime-mover control interface.",
+    "Trace the governor actuator and controller commands."
+  ],
+  "drawingChecklist": [
+    "Label the speed reference and prime-mover control interface.",
+    "Cross-reference the governor actuator and controller commands.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A governor regulates mechanical input; an AVR numbered 90 regulates an electrical voltage objective.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "65"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The speed reference and prime-mover control interface"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/65-governor",
+  "illustration": "https://eloragrid.ai/library/illustrations/65-governor.svg",
+  "id": "65-governor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/65-governor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/65-governor.json",
+  "svgPath": "artwork/svg/65-governor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

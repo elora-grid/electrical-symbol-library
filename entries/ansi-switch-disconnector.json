@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-switch-disconnector",
+  "name": "ANSI/IEEE switch-disconnector symbol",
+  "kind": "symbol",
+  "abbreviation": "SD",
+  "aliases": [
+    "IEEE switch-disconnector symbol",
+    "ANSI switch-disconnector symbol",
+    "HDS11Q69"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for switch-disconnector, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "A switch-disconnector representation identifies operational switching combined with a documented isolation function. The distinction matters when selecting a library element for a feeder that must both switch its assigned load and provide isolation.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "The equipment label must confirm both functions.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State utilization duty",
+    "Identify isolation designation",
+    "Show connected poles"
+  ],
+  "distinction": "A disconnector and a switch-disconnector can share a family of contact graphics without sharing the same switching duty.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Disconnect 1 Pole"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HDS11Q69 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7c62d3de-6494-4cbf-b3cf-3e3da309d6a4",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "switch-disconnector",
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-ansi-switch-disconnector",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Disconnect 1 Pole functional form",
+    "counterpart": "switch-disconnector",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-switch-disconnector",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-switch-disconnector.svg",
+  "id": "ansi-switch-disconnector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-switch-disconnector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-switch-disconnector.json",
+  "svgPath": "artwork/svg/ansi-switch-disconnector.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7c62d3de-6494-4cbf-b3cf-3e3da309d6a4",
+      "title": "Autodesk IEEE Symbol Preview — Disconnect 1 Pole",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7C62D3DE-6494-4CBF-B3CF-3E3DA309D6A4.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

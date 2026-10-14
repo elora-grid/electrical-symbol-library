@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-liquid-flow-switch",
+  "name": "ANSI/IEEE liquid flow switch symbol",
+  "kind": "symbol",
+  "abbreviation": "FS LIQ",
+  "aliases": [
+    "IEEE liquid flow switch symbol",
+    "ANSI liquid flow switch symbol",
+    "HFS11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for liquid flow switch, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The flow-switch form associates an electrical contact with a documented flow condition. A cooling-system permissive or loss-of-flow alarm needs the process circuit and operate condition to be identified, rather than a bare contact label.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "State whether the contact indicates adequate flow or another specified condition.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Name fluid circuit",
+    "Record operation/reset conditions",
+    "Reference signal destination"
+  ],
+  "distinction": "A flow switch reports a discrete condition while a flow transmitter reports a measured quantity.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Miscellaneous Switches"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HFS11 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "liquid-flow-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-liquid-flow-switch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Miscellaneous Switches functional form",
+    "counterpart": "liquid-flow-switch",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-liquid-flow-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-liquid-flow-switch.svg",
+  "id": "ansi-liquid-flow-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-liquid-flow-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-liquid-flow-switch.json",
+  "svgPath": "artwork/svg/ansi-liquid-flow-switch.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

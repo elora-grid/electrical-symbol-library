@@ -1,0 +1,102 @@
+{
+  "slug": "cable-ladder",
+  "name": "Cable ladder / tray",
+  "kind": "object",
+  "abbreviation": "Cable support",
+  "aliases": [
+    "cable tray",
+    "cable support route",
+    "ladder tray",
+    "cable ladder GA"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic route object connecting cable-support layout to the selected system.",
+  "description": [
+    "A cable-support route identifies where a selected tray or ladder system carries cables through an arrangement. Straight lengths, bends, fittings and supports belong to a manufacturer system, and their dimensions and capabilities should be documented for that selection.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Read the route and changes of direction together with support and fitting information.",
+    "Distinguish cable-routing space from the physical support-system envelope."
+  ],
+  "drawingChecklist": [
+    "Reference the selected support system.",
+    "Identify route levels, fittings and interfaces.",
+    "Link the cable and support documentation."
+  ],
+  "distinction": "A drawn route does not establish support spacing, loading capability or installation compliance.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "cable-support",
+      "relevance": "Public cable ladder and tray equipment families."
+    },
+    {
+      "sourceId": "cable-cad",
+      "relevance": "Official support-system CAD/BIM directory."
+    }
+  ],
+  "related": [
+    "busbar-trunking",
+    "switchgear-panel",
+    "control-cabinet"
+  ],
+  "artwork": "ladder",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/cable-ladder",
+  "illustration": "https://eloragrid.ai/library/illustrations/cable-ladder.svg",
+  "id": "cable-ladder",
+  "canonicalUrl": "https://eloragrid.ai/objects/cable-ladder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/cable-ladder.json",
+  "svgPath": "artwork/svg/cable-ladder.svg",
+  "publicSources": [
+    {
+      "id": "cable-support",
+      "title": "Cable tray and ladder systems",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/products/support-systems/cable-tray-and-ladder-systems.html",
+      "type": "manufacturer",
+      "scope": "Public cable-management families and official support-system resources.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public cable ladder and tray equipment families."
+    },
+    {
+      "id": "cable-cad",
+      "title": "Cable-support CAD and BIM specifier resources",
+      "publisher": "Eaton",
+      "url": "https://salesassistant.eaton.com/us/en-us/products/support-systems/b-line-series-cospec-specifier-center/cable-tray-systems-and-supports-cable-management.html",
+      "type": "cad-reference",
+      "scope": "Official directory of cable-support design content. Assets are linked rather than redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official support-system CAD/BIM directory."
+    }
+  ]
+}

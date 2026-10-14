@@ -1,0 +1,91 @@
+{
+  "slug": "iec-spring-return-qualifier",
+  "name": "Spring-return qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070107",
+  "aliases": [
+    "Spring-return qualifier symbol",
+    "Q070107",
+    "Spring-return qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A spring-return qualifier indicates return after the specified operating force is removed.",
+  "description": [
+    "A spring-return qualifier indicates return after the specified operating force is removed. Removing the operating force allows the mechanism to return to its specified resting position. A centre-return selector and a returning pushbutton can share this principle while operating different contact sets.",
+    "Make the resting position explicit in the position table or legend. If several contacts are linked to the actuator, record their individual states in that resting position."
+  ],
+  "readingNotes": [
+    "Show which position is the resting position and which contacts change during return.",
+    "Spring return does not define whether the resting contacts are open or closed."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Show which position is the resting position and which contacts change during return.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Spring return does not define whether the resting contacts are open or closed.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070107 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Show which position is the resting position and which contacts change during return."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-spring-return-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Spring-return qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-spring-return-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-spring-return-qualifier.svg",
+  "id": "iec-spring-return-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-spring-return-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-spring-return-qualifier.json",
+  "svgPath": "artwork/svg/iec-spring-return-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

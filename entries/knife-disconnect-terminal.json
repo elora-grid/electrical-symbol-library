@@ -1,0 +1,76 @@
+{
+  "slug": "knife-disconnect-terminal",
+  "name": "Knife-disconnect terminal",
+  "kind": "symbol",
+  "abbreviation": "TB KNIFE",
+  "aliases": [],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A knife-disconnect terminal opens its circuit path using a documented pivoting knife element.",
+  "description": [
+    "A knife-disconnect terminal opens its circuit path using a documented pivoting knife element. The schematic records the separable connection and the terminal plan identifies the selected physical terminal."
+  ],
+  "readingNotes": [
+    "Follow the knife element rather than assuming every terminal level opens together.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show opened path",
+    "State normal knife position",
+    "Reference terminal model"
+  ],
+  "distinction": "A visible knife disconnect differs mechanically from an isolating plug terminal.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Wiring interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-terminal-families",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "terminal-strip"
+  ],
+  "artwork": "edu-knife-disconnect-terminal",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/knife-disconnect-terminal",
+  "illustration": "https://eloragrid.ai/library/illustrations/knife-disconnect-terminal.svg",
+  "id": "knife-disconnect-terminal",
+  "canonicalUrl": "https://eloragrid.ai/symbols/knife-disconnect-terminal",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/knife-disconnect-terminal.json",
+  "svgPath": "artwork/svg/knife-disconnect-terminal.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-terminal-families",
+      "title": "Terminal block functional families",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

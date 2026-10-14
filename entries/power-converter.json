@@ -1,0 +1,87 @@
+{
+  "slug": "power-converter",
+  "name": "Power converter / inverter",
+  "kind": "symbol",
+  "abbreviation": "PCS",
+  "aliases": [
+    "inverter",
+    "power conversion system",
+    "AC DC converter",
+    "battery inverter",
+    "PV inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An identified interface converting electrical power between documented circuit forms.",
+  "description": [
+    "A power converter changes electrical power between the circuit forms specified for its application. In a battery energy storage system, a power conversion system commonly provides the interface between DC storage and an AC system. Direction of power flow and operating capabilities are product-specific.",
+    "The drawing should label the AC and DC interfaces and identify switching, protection and controls separately. A generic converter box does not establish grid-forming, grid-following, island operation or export capability. Those behaviours require the selected product and system documentation."
+  ],
+  "readingNotes": [
+    "Read the AC/DC interface labels before following power flow.",
+    "Identify the selected operating capabilities from the product and system documentation."
+  ],
+  "drawingChecklist": [
+    "Identify AC and DC interfaces.",
+    "Reference the selected converter and control equipment.",
+    "Cross-reference isolation and protective devices."
+  ],
+  "distinction": "Inverter, converter and PCS can denote different equipment boundaries. Define what is included in the represented assembly.",
+  "facts": [
+    {
+      "label": "Interfaces",
+      "value": "Application-specific AC and DC connections"
+    },
+    {
+      "label": "Power-flow direction",
+      "value": "Product-specific"
+    },
+    {
+      "label": "Operating capabilities",
+      "value": "Not established by the generic graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Manufacturer explanation of the DC-storage to AC power-conversion interface."
+    }
+  ],
+  "related": [
+    "battery",
+    "pcs-cabinet",
+    "battery-cabinet",
+    "circuit-breaker"
+  ],
+  "artwork": "converter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-converter",
+  "illustration": "https://eloragrid.ai/library/illustrations/power-converter.svg",
+  "id": "power-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-converter.json",
+  "svgPath": "artwork/svg/power-converter.svg",
+  "publicSources": [
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer explanation of the DC-storage to AC power-conversion interface."
+    }
+  ]
+}

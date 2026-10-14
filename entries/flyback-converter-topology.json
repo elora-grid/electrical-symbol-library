@@ -1,0 +1,83 @@
+{
+  "slug": "flyback-converter-topology",
+  "name": "Flyback converter topology",
+  "kind": "symbol",
+  "abbreviation": "FLYBACK",
+  "aliases": [
+    "isolated flyback",
+    "flyback power stage"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A conversion arrangement that uses coupled magnetic energy storage and transfers energy through the documented switching sequence.",
+  "description": [
+    "A conversion arrangement that uses coupled magnetic energy storage and transfers energy through the documented switching sequence.",
+    "On a schematic, identify the coupled-winding polarity, primary switch and secondary rectification and trace the secondary output and isolation/feedback boundary. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Flyback differs from a forward converter's transfer arrangement; a transformer-like glyph alone does not distinguish them.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the coupled-winding polarity, primary switch and secondary rectification.",
+    "Trace the secondary output and isolation/feedback boundary."
+  ],
+  "drawingChecklist": [
+    "Label the coupled-winding polarity, primary switch and secondary rectification.",
+    "Cross-reference the secondary output and isolation/feedback boundary.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Flyback differs from a forward converter's transfer arrangement; a transformer-like glyph alone does not distinguish them.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "FLYBACK — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The coupled-winding polarity, primary switch and secondary rectification"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "forward-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-flyback",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/flyback-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/flyback-converter-topology.svg",
+  "id": "flyback-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/flyback-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/flyback-converter-topology.json",
+  "svgPath": "artwork/svg/flyback-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

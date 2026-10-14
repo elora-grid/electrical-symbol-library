@@ -1,0 +1,82 @@
+{
+  "slug": "logic-bus-transceiver",
+  "name": "Logic bus transceiver",
+  "kind": "symbol",
+  "abbreviation": "BUS-TR",
+  "aliases": [
+    "bidirectional digital buffer",
+    "bus transceiver"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Drives data between two digital buses according to the selected direction and enable conditions.",
+  "description": [
+    "Drives data between two digital buses according to the selected direction and enable conditions.",
+    "On a schematic, identify the A/B bus domains, direction input and output-enable polarity and trace the active direction and high-impedance bus behaviour. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A transceiver supports a defined direction-control arrangement; it is not automatically a protocol controller or an isolator.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the A/B bus domains, direction input and output-enable polarity.",
+    "Trace the active direction and high-impedance bus behaviour."
+  ],
+  "drawingChecklist": [
+    "Label the A/B bus domains, direction input and output-enable polarity.",
+    "Cross-reference the active direction and high-impedance bus behaviour.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A transceiver supports a defined direction-control arrangement; it is not automatically a protocol controller or an isolator.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "BUS-TR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The A/B bus domains, direction input and output-enable polarity"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc245",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-three-state-buffer",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-transceiver",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-bus-transceiver",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-bus-transceiver.svg",
+  "id": "logic-bus-transceiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-bus-transceiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-bus-transceiver.json",
+  "svgPath": "artwork/svg/logic-bus-transceiver.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc245",
+      "title": "SN74HC245 — bidirectional bus transceivers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of bidirectional bus transceivers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-window-current-transformer",
+  "name": "Window current transformer",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "ring CT physical object",
+    "Window current transformer CAD",
+    "Window current transformer general arrangement",
+    "Window current transformer panel layout"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A window CT surrounds a conductor or busbar to provide the specified current measurement.",
+  "description": [
+    "A window CT surrounds a conductor or busbar to provide the specified current measurement.",
+    "Coordinate aperture, primary conductor position and secondary terminal access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate aperture, primary conductor position and secondary terminal access.",
+    "Aperture fit does not establish ratio, class or protection suitability."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate aperture, primary conductor position and secondary terminal access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Aperture fit does not establish ratio, class or protection suitability.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-object-ga-window-current-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-window-current-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-window-current-transformer.svg",
+  "id": "ga-window-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-window-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-window-current-transformer.json",
+  "svgPath": "artwork/svg/ga-window-current-transformer.svg",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

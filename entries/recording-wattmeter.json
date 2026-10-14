@@ -1,0 +1,85 @@
+{
+  "slug": "recording-wattmeter",
+  "name": "Recording wattmeter",
+  "kind": "symbol",
+  "abbreviation": "W REC",
+  "aliases": [
+    "HIN1P17",
+    "VIN1P17"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A recording wattmeter measures active power and records it according to the specified instrument.",
+  "description": [
+    "A recording wattmeter measures active power and records it according to the specified instrument. The schematic identifies voltage and current inputs while the logging settings belong in the instrument configuration."
+  ],
+  "readingNotes": [
+    "Check input phase relationships and the recorded power sign convention.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show voltage and current inputs",
+    "Reference CT/VT ratios",
+    "Identify recording interval"
+  ],
+  "distinction": "A wattmeter records power at a time or interval; an energy meter accumulates power over time.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1P17, VIN1P17 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-recording-wattmeter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/recording-wattmeter",
+  "illustration": "https://eloragrid.ai/library/illustrations/recording-wattmeter.svg",
+  "id": "recording-wattmeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/recording-wattmeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/recording-wattmeter.json",
+  "svgPath": "artwork/svg/recording-wattmeter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

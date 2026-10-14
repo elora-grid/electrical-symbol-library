@@ -1,0 +1,98 @@
+{
+  "slug": "61-density-switch-or-sensor",
+  "name": "Density switch or sensor",
+  "kind": "function",
+  "abbreviation": "61",
+  "aliases": [
+    "gas density sensor",
+    "density monitor",
+    "ANSI 61",
+    "IEEE device 61"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Monitors the density of a medium used by electrical equipment.",
+  "description": [
+    "Monitors the density of a medium used by electrical equipment.",
+    "In a drafting package, connect this reference to the density sensor and monitored compartment. The associated drawing should trace the density alarm, lockout or operating permission; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the density sensor and monitored compartment.",
+    "Trace the density alarm, lockout or operating permission."
+  ],
+  "drawingChecklist": [
+    "Label the density sensor and monitored compartment.",
+    "Cross-reference the density alarm, lockout or operating permission.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Density is distinct from pressure; temperature-compensated gas-density supervision should not be relabelled as 63 solely because a gauge is present.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "61"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The density sensor and monitored compartment"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-secogear",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "switchgear-panel",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/61-density-switch-or-sensor",
+  "illustration": "https://eloragrid.ai/library/illustrations/61-density-switch-or-sensor.svg",
+  "id": "61-density-switch-or-sensor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/61-density-switch-or-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/61-density-switch-or-sensor.json",
+  "svgPath": "artwork/svg/61-density-switch-or-sensor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-secogear",
+      "title": "SecoGear medium-voltage switchgear application and technical guide, DET-882",
+      "publisher": "ABB",
+      "url": "https://library.e.abb.com/public/a06cf4cf38b34800b27bb337ab12f74f/DET-882%20SecoGear%205kV-15kV%20IEEE%20Metal%20Clad%20Switchgear_Application%20and%20installation%20guide.pdf",
+      "type": "manufacturer",
+      "scope": "Public switchgear application guide with a device-number reference table. Used to cross-check 54, 61, 62 and specialist labels. Text, photographs and manufacturer diagrams are linked only and are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

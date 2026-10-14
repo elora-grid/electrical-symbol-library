@@ -1,0 +1,99 @@
+{
+  "slug": "relay-coil-with-diode-and-led",
+  "name": "Relay coil with diode and LED",
+  "kind": "symbol",
+  "abbreviation": "K D LED",
+  "aliases": [
+    "HCR1K35",
+    "VCR1K35"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A relay assembly with diode and LED combines coil transient suppression and a visible energisation indicator.",
+  "description": [
+    "A relay assembly with diode and LED combines coil transient suppression and a visible energisation indicator. The schematic must identify both auxiliary functions without treating the LED as proof of contact movement."
+  ],
+  "readingNotes": [
+    "The indicator reports its own electrical condition, not necessarily the mechanical contact state.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show coil polarity",
+    "Identify indicator circuit",
+    "Reference actual contact feedback"
+  ],
+  "distinction": "An illuminated coil indicator is different from an auxiliary contact confirming device position.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1K35, VCR1K35 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-relay-suppression",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-relay-coil-with-diode-and-led",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/relay-coil-with-diode-and-led",
+  "illustration": "https://eloragrid.ai/library/illustrations/relay-coil-with-diode-and-led.svg",
+  "id": "relay-coil-with-diode-and-led",
+  "canonicalUrl": "https://eloragrid.ai/symbols/relay-coil-with-diode-and-led",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/relay-coil-with-diode-and-led.json",
+  "svgPath": "artwork/svg/relay-coil-with-diode-and-led.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-relay-suppression",
+      "title": "AutoCAD Electrical: Relay suppression components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AF7C83A4-33F4-4144-94BE-4C5F2F448FB8.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

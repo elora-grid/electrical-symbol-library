@@ -1,0 +1,90 @@
+{
+  "slug": "pushbutton-nc",
+  "name": "Normally closed pushbutton",
+  "kind": "symbol",
+  "abbreviation": "PB NC",
+  "aliases": [
+    "stop pushbutton",
+    "NC push button",
+    "momentary break pushbutton",
+    "HPB12",
+    "VPB12"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A pushbutton contact normally shown closed before actuation.",
+  "description": [
+    "A normally closed pushbutton has a contact closed in its specified normal state. Actuation changes that contact state according to the selected operator and contact block. Momentary, maintained, latching and positive-opening characteristics must be identified from device documentation.",
+    "A stop circuit is a common use, but the generic representation does not establish emergency-stop suitability or the required control-system behaviour. Operator labels, device specifications and the complete circuit remain necessary."
+  ],
+  "readingNotes": [
+    "Identify the contact block and its parent operator.",
+    "Read mechanical and contact characteristics from the manufacturer information."
+  ],
+  "drawingChecklist": [
+    "Show terminal designations.",
+    "State the mechanical operating mode.",
+    "Reference the complete circuit purpose and device selection."
+  ],
+  "distinction": "An ordinary NC pushbutton and an emergency-stop device are not interchangeable solely because both drawings show a closed contact.",
+  "facts": [
+    {
+      "label": "Normal contact state",
+      "value": "Closed"
+    },
+    {
+      "label": "Safety function",
+      "value": "Requires complete device and circuit assessment"
+    },
+    {
+      "label": "Operating mode",
+      "value": "Device-specific"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HPB12, VPB12 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-pushbuttons",
+      "relevance": "Public NC pushbutton and actuator variants."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "emergency-stop",
+    "normally-closed-contact",
+    "relay-coil"
+  ],
+  "artwork": "push-nc",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pushbutton-nc",
+  "illustration": "https://eloragrid.ai/library/illustrations/pushbutton-nc.svg",
+  "id": "pushbutton-nc",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pushbutton-nc",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pushbutton-nc.json",
+  "svgPath": "artwork/svg/pushbutton-nc.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-pushbuttons",
+      "title": "Pushbutton contact and actuator variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9E8890C7-7176-47DD-8700-E02A16C1670E.htm",
+      "type": "cad-reference",
+      "scope": "Momentary and latching pushbuttons, normal contact states and mushroom actuators.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public NC pushbutton and actuator variants."
+    }
+  ]
+}

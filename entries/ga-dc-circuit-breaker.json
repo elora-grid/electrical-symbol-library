@@ -1,0 +1,88 @@
+{
+  "slug": "ga-dc-circuit-breaker",
+  "name": "DC circuit breaker",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "direct current breaker",
+    "DC circuit breaker CAD",
+    "DC circuit breaker general arrangement",
+    "DC circuit breaker panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC breaker is selected to interrupt a specified direct-current circuit.",
+  "description": [
+    "A DC breaker is selected to interrupt a specified direct-current circuit.",
+    "Keep polarity requirements, pole connections and cable exit zones visible in the drawing package. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Keep polarity requirements, pole connections and cable exit zones visible in the drawing package.",
+    "An AC breaker cannot be treated as a DC breaker merely because both fit the same rail."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Keep polarity requirements, pole connections and cable exit zones visible in the drawing package.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "An AC breaker cannot be treated as a DC breaker merely because both fit the same rail.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-schneider-ranges",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-dc-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-dc-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-dc-circuit-breaker.svg",
+  "id": "ga-dc-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-dc-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-dc-circuit-breaker.json",
+  "svgPath": "artwork/svg/ga-dc-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-schneider-ranges",
+      "title": "Official product ranges A–Z",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/uk/en/product-range-az/",
+      "type": "manufacturer",
+      "scope": "UK public range identity and product-family links, including legacy flags. Publication here does not imply availability or approvals in another country.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

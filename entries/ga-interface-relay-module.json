@@ -1,0 +1,88 @@
+{
+  "slug": "ga-interface-relay-module",
+  "name": "Interface relay module",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "interposing relay",
+    "Interface relay module CAD",
+    "Interface relay module general arrangement",
+    "Interface relay module panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An interface relay separates a controller signal from the specified switched circuit.",
+  "description": [
+    "An interface relay separates a controller signal from the specified switched circuit.",
+    "Coordinate coil supply, contact terminals and replaceable relay access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate coil supply, contact terminals and replaceable relay access.",
+    "Its contact function and ratings remain model-specific."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate coil supply, contact terminals and replaceable relay access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Its contact function and ratings remain model-specific.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-phoenix-products",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-interface-relay-module",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-interface-relay-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-interface-relay-module.svg",
+  "id": "ga-interface-relay-module",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-interface-relay-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-interface-relay-module.json",
+  "svgPath": "artwork/svg/ga-interface-relay-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-phoenix-products",
+      "title": "Control cabinet components and automation products",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-au/products",
+      "type": "manufacturer",
+      "scope": "Public component categories for supply, control, communication, protection and connection; no exact-model ratings are inferred.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

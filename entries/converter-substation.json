@@ -1,0 +1,85 @@
+{
+  "slug": "converter-substation",
+  "name": "Converter substation",
+  "kind": "symbol",
+  "abbreviation": "CONV STN",
+  "aliases": [
+    "HDV1_S00406",
+    "VDV1_S00406"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A converter-substation representation identifies a documented facility where an electrical conversion function forms part of the network connection.",
+  "description": [
+    "A converter-substation representation identifies a documented facility where an electrical conversion function forms part of the network connection. Its actual conversion equipment and AC/DC boundaries require linked design drawings."
+  ],
+  "readingNotes": [
+    "Identify which network quantities or interfaces the station converts.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name station boundary",
+    "Show AC/DC interface labels",
+    "Reference conversion SLD"
+  ],
+  "distinction": "A converter station is a system-level facility, not a single generic converter component.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDV1_S00406, VDV1_S00406 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-station-types",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "busbar"
+  ],
+  "artwork": "edu-converter-substation",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/converter-substation",
+  "illustration": "https://eloragrid.ai/library/illustrations/converter-substation.svg",
+  "id": "converter-substation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/converter-substation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/converter-substation.json",
+  "svgPath": "artwork/svg/converter-substation.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-station-types",
+      "title": "AutoCAD Electrical: Power station and substation concepts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74EF80E8-018D-4A57-88BD-FF973F1B8185.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

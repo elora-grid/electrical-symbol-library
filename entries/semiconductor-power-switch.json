@@ -1,0 +1,86 @@
+{
+  "slug": "semiconductor-power-switch",
+  "name": "Semiconductor power switch",
+  "kind": "symbol",
+  "abbreviation": "SSW",
+  "aliases": [
+    "HCB11Q53",
+    "VCB11Q53",
+    "solid state power switch"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A semiconductor power switch controls a power path electronically.",
+  "description": [
+    "A semiconductor power switch controls a power path electronically. Its power terminals and control input belong to different circuits, and off-state leakage or isolation characteristics require product documentation."
+  ],
+  "readingNotes": [
+    "Do not interpret the semiconductor off state as a visible mechanical isolation gap.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify input and power terminals",
+    "Reference voltage and current ratings",
+    "Document external isolation provision"
+  ],
+  "distinction": "A solid-state switch is not an isolating disconnector.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB11Q53, VCB11Q53 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-semiconductor-power-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/semiconductor-power-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/semiconductor-power-switch.svg",
+  "id": "semiconductor-power-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/semiconductor-power-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/semiconductor-power-switch.json",
+  "svgPath": "artwork/svg/semiconductor-power-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-switches",
+      "title": "AutoCAD Electrical: Power semiconductor switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-54E4231E-F794-4527-9104-C2D7BA312077.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "insulated-gate-bipolar-transistor",
+  "name": "Insulated-gate bipolar transistor",
+  "kind": "symbol",
+  "abbreviation": "IGBT",
+  "aliases": [
+    "IGBT power transistor",
+    "insulated gate transistor"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A power transistor combining insulated-gate control with a bipolar collector-emitter conduction structure.",
+  "description": [
+    "A power transistor combining insulated-gate control with a bipolar collector-emitter conduction structure.",
+    "On a schematic, identify the gate drive, collector/emitter and any separate emitter-sense connection and trace the converter switching leg and driver return. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An IGBT is not a MOSFET with renamed pins; reverse conduction and antiparallel-diode arrangements depend on the selected device.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the gate drive, collector/emitter and any separate emitter-sense connection.",
+    "Trace the converter switching leg and driver return."
+  ],
+  "drawingChecklist": [
+    "Label the gate drive, collector/emitter and any separate emitter-sense connection.",
+    "Cross-reference the converter switching leg and driver return.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An IGBT is not a MOSFET with renamed pins; reverse conduction and antiparallel-diode arrangements depend on the selected device.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "IGBT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The gate drive, collector/emitter and any separate emitter-sense connection"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-igbt",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-igbt",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/insulated-gate-bipolar-transistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/insulated-gate-bipolar-transistor.svg",
+  "id": "insulated-gate-bipolar-transistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/insulated-gate-bipolar-transistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/insulated-gate-bipolar-transistor.json",
+  "svgPath": "artwork/svg/insulated-gate-bipolar-transistor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-igbt",
+      "title": "IGBT device families",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/products/power/igbt",
+      "type": "manufacturer",
+      "scope": "Public insulated-gate bipolar transistor family documentation. Ratings, antiparallel diode configuration and gate-drive requirements remain device-specific.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

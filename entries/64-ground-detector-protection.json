@@ -1,0 +1,98 @@
+{
+  "slug": "64-ground-detector-protection",
+  "name": "Ground detector protection",
+  "kind": "function",
+  "abbreviation": "64",
+  "aliases": [
+    "earth fault detector",
+    "ground protection",
+    "ANSI 64",
+    "IEEE device 64"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Identifies an earth or ground fault using the circuit arrangement specified for the device.",
+  "description": [
+    "Identifies an earth or ground fault using the circuit arrangement specified for the device.",
+    "In a drafting package, connect this reference to the earthing system and current/voltage detection circuit. The associated drawing should trace the ground-fault alarm or tripping destination; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the earthing system and current/voltage detection circuit.",
+    "Trace the ground-fault alarm or tripping destination."
+  ],
+  "drawingChecklist": [
+    "Label the earthing system and current/voltage detection circuit.",
+    "Cross-reference the ground-fault alarm or tripping destination.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "The base number 64 does not state whether detection uses current, voltage or insulation measurement.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "64"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The earthing system and current/voltage detection circuit"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-secogear",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "protective-earth",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/64-ground-detector-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/64-ground-detector-protection.svg",
+  "id": "64-ground-detector-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/64-ground-detector-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/64-ground-detector-protection.json",
+  "svgPath": "artwork/svg/64-ground-detector-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-secogear",
+      "title": "SecoGear medium-voltage switchgear application and technical guide, DET-882",
+      "publisher": "ABB",
+      "url": "https://library.e.abb.com/public/a06cf4cf38b34800b27bb337ab12f74f/DET-882%20SecoGear%205kV-15kV%20IEEE%20Metal%20Clad%20Switchgear_Application%20and%20installation%20guide.pdf",
+      "type": "manufacturer",
+      "scope": "Public switchgear application guide with a device-number reference table. Used to cross-check 54, 61, 62 and specialist labels. Text, photographs and manufacturer diagrams are linked only and are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

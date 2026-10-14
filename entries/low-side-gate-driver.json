@@ -1,0 +1,82 @@
+{
+  "slug": "low-side-gate-driver",
+  "name": "Low-side gate driver",
+  "kind": "symbol",
+  "abbreviation": "LS-GD",
+  "aliases": [
+    "low-side MOSFET driver",
+    "ground referenced gate driver"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Provides gate-drive current for a power switch referenced to the driver's low-side return.",
+  "description": [
+    "Provides gate-drive current for a power switch referenced to the driver's low-side return.",
+    "On a schematic, identify the command input, driver supply and source/emitter return and trace the gate resistor and controlled low-side power switch. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Low-side reference is an electrical node, not an automatic protective-earth connection.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the command input, driver supply and source/emitter return.",
+    "Trace the gate resistor and controlled low-side power switch."
+  ],
+  "drawingChecklist": [
+    "Label the command input, driver supply and source/emitter return.",
+    "Cross-reference the gate resistor and controlled low-side power switch.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Low-side reference is an electrical node, not an automatic protective-earth connection.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "LS-GD — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The command input, driver supply and source/emitter return"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-low-side-driver",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-driver-low",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/low-side-gate-driver",
+  "illustration": "https://eloragrid.ai/library/illustrations/low-side-gate-driver.svg",
+  "id": "low-side-gate-driver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/low-side-gate-driver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/low-side-gate-driver.json",
+  "svgPath": "artwork/svg/low-side-gate-driver.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-low-side-driver",
+      "title": "UCC27524 — low-side gate-drive interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/UCC27524",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of low-side gate-drive interfaces. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

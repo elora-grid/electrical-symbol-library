@@ -1,0 +1,102 @@
+{
+  "slug": "busbar-trunking",
+  "name": "Busbar trunking",
+  "kind": "object",
+  "abbreviation": "Busway",
+  "aliases": [
+    "bus duct",
+    "busduct",
+    "busbar trunking GA",
+    "busway"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A physical enclosed distribution system with model-specific sections and fittings.",
+  "description": [
+    "Busbar trunking transports and distributes electrical power using a selected enclosed conductor system. The physical GA route can include straight sections, joints, bends and connection units defined by the manufacturer. The SLD represents the electrical connections rather than those physical details.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Match the route and connection units to the selected product system.",
+    "Link physical endpoints to the electrical equipment references."
+  ],
+  "drawingChecklist": [
+    "Reference the selected system and current product drawings.",
+    "Identify joints, fittings and connection interfaces.",
+    "Coordinate the electrical and physical endpoints."
+  ],
+  "distinction": "An SLD busbar line is an electrical node; busbar trunking is an actual distribution assembly with defined geometry.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Public manufacturer busbar-trunking system description."
+    },
+    {
+      "sourceId": "manufacturer-cad",
+      "relevance": "Official equipment CAD directory."
+    }
+  ],
+  "related": [
+    "busbar",
+    "switchboard",
+    "transformer-envelope"
+  ],
+  "artwork": "busduct",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/busbar-trunking",
+  "illustration": "https://eloragrid.ai/library/illustrations/busbar-trunking.svg",
+  "id": "busbar-trunking",
+  "canonicalUrl": "https://eloragrid.ai/objects/busbar-trunking",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/busbar-trunking.json",
+  "svgPath": "artwork/svg/busbar-trunking.svg",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer busbar-trunking system description."
+    },
+    {
+      "id": "manufacturer-cad",
+      "title": "Official CAD drawings and BIM resources",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/work/support/resources-and-tools/cad-drawings/",
+      "type": "cad-reference",
+      "scope": "Manufacturer CAD/BIM directory for model-specific equipment. Download terms remain with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official equipment CAD directory."
+    }
+  ]
+}

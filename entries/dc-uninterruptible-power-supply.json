@@ -1,0 +1,79 @@
+{
+  "slug": "dc-uninterruptible-power-supply",
+  "name": "DC uninterruptible power supply",
+  "kind": "symbol",
+  "abbreviation": "UPS DC",
+  "aliases": [
+    "DC UPS"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC UPS maintains a documented DC load supply during a specified input interruption using an associated energy store.",
+  "description": [
+    "A DC UPS maintains a documented DC load supply during a specified input interruption using an associated energy store. The drawing identifies normal supply, storage and load paths plus monitoring signals."
+  ],
+  "readingNotes": [
+    "Trace the battery or capacitor module separately from the DC load feed.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show normal input",
+    "Show storage connection",
+    "Reference load and autonomy data"
+  ],
+  "distinction": "A DC UPS feeds DC loads; an AC UPS includes a documented AC output path.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-dc-uninterruptible-power-supply",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dc-uninterruptible-power-supply",
+  "illustration": "https://eloragrid.ai/library/illustrations/dc-uninterruptible-power-supply.svg",
+  "id": "dc-uninterruptible-power-supply",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dc-uninterruptible-power-supply",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dc-uninterruptible-power-supply.json",
+  "svgPath": "artwork/svg/dc-uninterruptible-power-supply.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

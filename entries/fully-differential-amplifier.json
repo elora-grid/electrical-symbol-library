@@ -1,0 +1,82 @@
+{
+  "slug": "fully-differential-amplifier",
+  "name": "Fully differential amplifier",
+  "kind": "symbol",
+  "abbreviation": "FDA",
+  "aliases": [
+    "differential output amplifier",
+    "balanced amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Processes an analogue input to provide two complementary output signals around a defined common-mode level.",
+  "description": [
+    "Processes an analogue input to provide two complementary output signals around a defined common-mode level.",
+    "On a schematic, identify the input network, output common-mode control and two output terminals and trace the differential output pair and ADC/load interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Two output terminals distinguish a fully differential amplifier from a single-ended-output difference amplifier.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input network, output common-mode control and two output terminals.",
+    "Trace the differential output pair and ADC/load interface."
+  ],
+  "drawingChecklist": [
+    "Label the input network, output common-mode control and two output terminals.",
+    "Cross-reference the differential output pair and ADC/load interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Two output terminals distinguish a fully differential amplifier from a single-ended-output difference amplifier.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "FDA — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input network, output common-mode control and two output terminals"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-fda",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "difference-amplifier",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-fda",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/fully-differential-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/fully-differential-amplifier.svg",
+  "id": "fully-differential-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/fully-differential-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/fully-differential-amplifier.json",
+  "svgPath": "artwork/svg/fully-differential-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-fda",
+      "title": "THS4551 — fully differential amplification",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/THS4551",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of fully differential amplification. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

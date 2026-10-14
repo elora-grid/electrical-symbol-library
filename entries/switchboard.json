@@ -1,0 +1,104 @@
+{
+  "slug": "switchboard",
+  "name": "Switchboard",
+  "kind": "object",
+  "abbreviation": "Board",
+  "aliases": [
+    "LV switchboard",
+    "distribution board",
+    "main switchboard",
+    "MSB",
+    "MDB",
+    "panelboard"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A distribution assembly represented by a generic envelope in an arrangement drawing.",
+  "description": [
+    "A switchboard arrangement combines distribution equipment in an assembly whose configuration is defined by the selected design and manufacturer. A GA describes physical sections and interfaces; an SLD describes electrical connections and device functions.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Match section identifiers between the GA and electrical schedule.",
+    "Read the access and cable arrangement from the selected assembly documentation."
+  ],
+  "drawingChecklist": [
+    "Reference the assembly GA and schedule.",
+    "Identify section interfaces and cable entries.",
+    "Link equipment tags to electrical drawings."
+  ],
+  "distinction": "A generic switchboard outline is not a production drawing, assembly design or verified installation envelope.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "manufacturer-cad",
+      "relevance": "Official CAD/BIM resources for distribution equipment."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public distribution switching equipment context."
+    }
+  ],
+  "related": [
+    "switchgear-panel",
+    "busbar",
+    "busbar-trunking"
+  ],
+  "artwork": "switchboard",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/switchboard",
+  "illustration": "https://eloragrid.ai/library/illustrations/switchboard.svg",
+  "id": "switchboard",
+  "canonicalUrl": "https://eloragrid.ai/objects/switchboard",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchboard.json",
+  "svgPath": "artwork/svg/switchboard.svg",
+  "publicSources": [
+    {
+      "id": "manufacturer-cad",
+      "title": "Official CAD drawings and BIM resources",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/work/support/resources-and-tools/cad-drawings/",
+      "type": "cad-reference",
+      "scope": "Manufacturer CAD/BIM directory for model-specific equipment. Download terms remain with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official CAD/BIM resources for distribution equipment."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public distribution switching equipment context."
+    }
+  ]
+}

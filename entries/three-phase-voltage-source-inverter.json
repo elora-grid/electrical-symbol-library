@@ -1,0 +1,83 @@
+{
+  "slug": "three-phase-voltage-source-inverter",
+  "name": "Three-phase voltage-source inverter",
+  "kind": "symbol",
+  "abbreviation": "3PH-VSI",
+  "aliases": [
+    "three phase inverter bridge",
+    "three leg voltage source inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A three-leg bridge producing the documented three-phase output from a DC-link source.",
+  "description": [
+    "A three-leg bridge producing the documented three-phase output from a DC-link source.",
+    "On a schematic, identify the DC-link rails, three switching midpoints and phase labels and trace the three-phase load/connection and driver/control circuits. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The stage topology does not establish whether the system is grid forming, grid following or suitable for a particular connection.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the DC-link rails, three switching midpoints and phase labels.",
+    "Trace the three-phase load/connection and driver/control circuits."
+  ],
+  "drawingChecklist": [
+    "Label the DC-link rails, three switching midpoints and phase labels.",
+    "Cross-reference the three-phase load/connection and driver/control circuits.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The stage topology does not establish whether the system is grid forming, grid following or suitable for a particular connection.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "3PH-VSI — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The DC-link rails, three switching midpoints and phase labels"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-inverter",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "three-phase-sixpack-power-module",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-three-vsi",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-voltage-source-inverter",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-voltage-source-inverter.svg",
+  "id": "three-phase-voltage-source-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-voltage-source-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-voltage-source-inverter.json",
+  "svgPath": "artwork/svg/three-phase-voltage-source-inverter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-inverter",
+      "title": "Bidirectional three-/single-phase AC/DC PFC and inverter application note",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/assets/row/public/documents/24/42/infineon-ac-dc-pfc-11-kw-high-efficiency-high-density-bidirectional-three-single-phase-inverter-applicationnotes-en.pdf",
+      "type": "manufacturer",
+      "scope": "Public application context for actively switched AC/DC and inverter stages. Independent miniature topology illustrations have no copied product-specific values, wiring layouts or control implementation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

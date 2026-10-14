@@ -1,0 +1,82 @@
+{
+  "slug": "three-phase-sixpack-power-module",
+  "name": "Three-phase sixpack power module",
+  "kind": "symbol",
+  "abbreviation": "6-PACK",
+  "aliases": [
+    "six switch power module",
+    "three phase bridge module"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A power module containing three switching legs for a three-phase bridge arrangement.",
+  "description": [
+    "A power module containing three switching legs for a three-phase bridge arrangement.",
+    "On a schematic, identify the DC-link terminals, three phase midpoints and six gate-drive circuits and trace the inverter phase connections and sensing/driver returns. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A sixpack describes the switching arrangement; it is not a guarantee of integrated control, isolation or protection electronics.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the DC-link terminals, three phase midpoints and six gate-drive circuits.",
+    "Trace the inverter phase connections and sensing/driver returns."
+  ],
+  "drawingChecklist": [
+    "Label the DC-link terminals, three phase midpoints and six gate-drive circuits.",
+    "Cross-reference the inverter phase connections and sensing/driver returns.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A sixpack describes the switching arrangement; it is not a guarantee of integrated control, isolation or protection electronics.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "6-PACK — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The DC-link terminals, three phase midpoints and six gate-drive circuits"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-modules",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "half-bridge-power-module",
+    "diode"
+  ],
+  "artwork": "electronics-sixpack",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-sixpack-power-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-sixpack-power-module.svg",
+  "id": "three-phase-sixpack-power-module",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-sixpack-power-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-sixpack-power-module.json",
+  "svgPath": "artwork/svg/three-phase-sixpack-power-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-modules",
+      "title": "Power semiconductor module families",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/products/power/modules",
+      "type": "manufacturer",
+      "scope": "Public module descriptions and topology documentation, including switching-leg and bridge arrangements. No packaged-module terminal map, dimensioned outline or thermal rating is reproduced.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

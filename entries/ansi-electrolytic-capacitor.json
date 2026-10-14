@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-electrolytic-capacitor",
+  "name": "ANSI/IEEE electrolytic capacitor symbol",
+  "kind": "symbol",
+  "abbreviation": "C ELEC",
+  "aliases": [
+    "IEEE electrolytic capacitor symbol",
+    "ANSI electrolytic capacitor symbol",
+    "HCA1EL"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for electrolytic capacitor, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The electrolytic capacitor form adds a documented construction or polarity qualifier to the capacitive function. The actual component determines whether polarity marking is required; this original preview illustrates a polarised use rather than declaring every electrolytic type identical.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Check component polarity and allowed voltage before following the DC connection.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State capacitance/voltage",
+    "Preserve documented polarity",
+    "Reference component type"
+  ],
+  "distinction": "Electrolytic construction is different from simply rotating a generic capacitor graphic.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Capacitive Components"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HCA1EL (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-0f8673c7-d786-441c-ab55-f2cdb8d5b288",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "electrolytic-capacitor",
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-ansi-electrolytic-capacitor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Capacitive Components functional form",
+    "counterpart": "electrolytic-capacitor",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-electrolytic-capacitor",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-electrolytic-capacitor.svg",
+  "id": "ansi-electrolytic-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-electrolytic-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-electrolytic-capacitor.json",
+  "svgPath": "artwork/svg/ansi-electrolytic-capacitor.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-0f8673c7-d786-441c-ab55-f2cdb8d5b288",
+      "title": "Autodesk IEEE Symbol Preview — Capacitive Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0F8673C7-D786-441C-AB55-F2CDB8D5B288.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

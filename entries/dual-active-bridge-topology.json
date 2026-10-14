@@ -1,0 +1,83 @@
+{
+  "slug": "dual-active-bridge-topology",
+  "name": "Dual-active-bridge topology",
+  "kind": "symbol",
+  "abbreviation": "DAB",
+  "aliases": [
+    "bidirectional dual active bridge",
+    "isolated bidirectional converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A conversion stage with controlled bridges on both sides of a coupled magnetic link.",
+  "description": [
+    "A conversion stage with controlled bridges on both sides of a coupled magnetic link.",
+    "On a schematic, identify the two DC ports, both active bridges and isolation boundary and trace the bidirectional energy path and bridge control references. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Two actively switched sides distinguish a DAB from a primary bridge with passive secondary rectification.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the two DC ports, both active bridges and isolation boundary.",
+    "Trace the bidirectional energy path and bridge control references."
+  ],
+  "drawingChecklist": [
+    "Label the two DC ports, both active bridges and isolation boundary.",
+    "Cross-reference the bidirectional energy path and bridge control references.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Two actively switched sides distinguish a DAB from a primary bridge with passive secondary rectification.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "DAB — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two DC ports, both active bridges and isolation boundary"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-dab",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "full-bridge-dc-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-dab",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dual-active-bridge-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/dual-active-bridge-topology.svg",
+  "id": "dual-active-bridge-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dual-active-bridge-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dual-active-bridge-topology.json",
+  "svgPath": "artwork/svg/dual-active-bridge-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-dab",
+      "title": "TIDA-010054: bidirectional dual-active-bridge reference design",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/tool/TIDA-010054",
+      "type": "manufacturer",
+      "scope": "Public DAB system topology and interface reference. Only an independently described functional topology is included; design files, drawings and product ratings remain on the publisher site.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

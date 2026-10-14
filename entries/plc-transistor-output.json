@@ -1,0 +1,76 @@
+{
+  "slug": "plc-transistor-output",
+  "name": "PLC transistor output",
+  "kind": "symbol",
+  "abbreviation": "DO TRANS",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC transistor output switches a documented electronic path for a field load.",
+  "description": [
+    "A PLC transistor output switches a documented electronic path for a field load. Output polarity, common connections and load protection follow the selected module wiring instructions."
+  ],
+  "readingNotes": [
+    "Check output sourcing or sinking behaviour before connecting the actuator.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify channel and common",
+    "State output polarity",
+    "Reference load and protection requirements"
+  ],
+  "distinction": "A transistor output differs from an isolated mechanical relay contact.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Controller interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-digital-io",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "terminal"
+  ],
+  "artwork": "edu-plc-transistor-output",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-transistor-output",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-transistor-output.svg",
+  "id": "plc-transistor-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-transistor-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-transistor-output.json",
+  "svgPath": "artwork/svg/plc-transistor-output.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-digital-io",
+      "title": "Modicon TM3 digital I/O hardware guide",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ca/en/download/document/EIO0000003125/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

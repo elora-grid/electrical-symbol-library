@@ -1,0 +1,85 @@
+{
+  "slug": "ampere-hour-meter",
+  "name": "Ampere-hour meter",
+  "kind": "symbol",
+  "abbreviation": "Ah",
+  "aliases": [
+    "HIN1AHM",
+    "VIN1AHM"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An ampere-hour meter integrates current over time for a documented measurement purpose.",
+  "description": [
+    "An ampere-hour meter integrates current over time for a documented measurement purpose. Battery circuits need direction, current-sensor scaling and any reset or retention conditions."
+  ],
+  "readingNotes": [
+    "Do not infer battery state of charge directly from an unlabeled accumulated-current value.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify current sensor",
+    "State charge/discharge convention",
+    "Reference reset and scaling"
+  ],
+  "distinction": "Ampere-hours and kilowatt-hours represent different measured quantities.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1AHM, VIN1AHM (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-ampere-hour-meter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ampere-hour-meter",
+  "illustration": "https://eloragrid.ai/library/illustrations/ampere-hour-meter.svg",
+  "id": "ampere-hour-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ampere-hour-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ampere-hour-meter.json",
+  "svgPath": "artwork/svg/ampere-hour-meter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

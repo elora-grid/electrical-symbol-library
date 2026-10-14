@@ -1,0 +1,82 @@
+{
+  "slug": "mosfet-body-diode",
+  "name": "MOSFET body diode",
+  "kind": "symbol",
+  "abbreviation": "BODY-D",
+  "aliases": [
+    "intrinsic MOSFET diode",
+    "parasitic body diode"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "The intrinsic diode associated with a MOSFET's semiconductor structure, often shown within the device reference.",
+  "description": [
+    "The intrinsic diode associated with a MOSFET's semiconductor structure, often shown within the device reference.",
+    "On a schematic, identify the MOSFET type and diode direction relative to drain/source and trace the commutation or reverse-current route. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The body diode is internal to the MOSFET; its presence does not establish that an external freewheeling diode is unnecessary.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the MOSFET type and diode direction relative to drain/source.",
+    "Trace the commutation or reverse-current route."
+  ],
+  "drawingChecklist": [
+    "Label the MOSFET type and diode direction relative to drain/source.",
+    "Cross-reference the commutation or reverse-current route.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The body diode is internal to the MOSFET; its presence does not establish that an external freewheeling diode is unnecessary.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "BODY-D — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The MOSFET type and diode direction relative to drain/source"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nexperia-mosfet",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-mos-body-diode",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/mosfet-body-diode",
+  "illustration": "https://eloragrid.ai/library/illustrations/mosfet-body-diode.svg",
+  "id": "mosfet-body-diode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/mosfet-body-diode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/mosfet-body-diode.json",
+  "svgPath": "artwork/svg/mosfet-body-diode.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nexperia-mosfet",
+      "title": "MOSFET families and application documentation",
+      "publisher": "Nexperia",
+      "url": "https://www.nexperia.com/products/mosfets",
+      "type": "manufacturer",
+      "scope": "Public MOSFET device and application information, including intrinsic body-diode context. The generic artwork does not establish an accessible bulk terminal or a selected package pinout.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "temperature-measuring-transducer",
+  "name": "Temperature measuring transducer",
+  "kind": "symbol",
+  "abbreviation": "TEMP TX",
+  "aliases": [],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A temperature transducer converts a documented temperature-sensor input into an instrument signal.",
+  "description": [
+    "A temperature transducer converts a documented temperature-sensor input into an instrument signal. The drawing identifies sensor type, conductor arrangement, supply and output loop."
+  ],
+  "readingNotes": [
+    "Confirm the selected RTD or thermocouple configuration before tracing the output scaling.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name sensor type",
+    "Show input conductor count",
+    "State output range and scaling"
+  ],
+  "distinction": "A transducer converts a measurement signal; a temperature switch produces a discrete condition.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-temperature-input",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-temperature-measuring-transducer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/temperature-measuring-transducer",
+  "illustration": "https://eloragrid.ai/library/illustrations/temperature-measuring-transducer.svg",
+  "id": "temperature-measuring-transducer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/temperature-measuring-transducer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/temperature-measuring-transducer.json",
+  "svgPath": "artwork/svg/temperature-measuring-transducer.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-temperature-input",
+      "title": "RTD and thermocouple temperature transducer inputs",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/temperature-measuring-transducer-macx-mcr-1ts-i-olp-1145192?type=pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

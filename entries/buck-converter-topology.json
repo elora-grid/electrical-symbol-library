@@ -1,0 +1,83 @@
+{
+  "slug": "buck-converter-topology",
+  "name": "Buck converter topology",
+  "kind": "symbol",
+  "abbreviation": "BUCK",
+  "aliases": [
+    "step down switching converter",
+    "buck regulator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A switching converter arrangement used to produce a lower DC output from its input under the documented operating conditions.",
+  "description": [
+    "A switching converter arrangement used to produce a lower DC output from its input under the documented operating conditions.",
+    "On a schematic, identify the input supply, switching node, energy-storage inductor and return and trace the regulated output, feedback path and freewheeling arrangement. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Buck identifies a conversion topology; its schematic does not by itself define an isolated supply or an allowed operating range.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the input supply, switching node, energy-storage inductor and return.",
+    "Trace the regulated output, feedback path and freewheeling arrangement."
+  ],
+  "drawingChecklist": [
+    "Label the input supply, switching node, energy-storage inductor and return.",
+    "Cross-reference the regulated output, feedback path and freewheeling arrangement.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Buck identifies a conversion topology; its schematic does not by itself define an isolated supply or an allowed operating range.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "BUCK — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input supply, switching node, energy-storage inductor and return"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "boost-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-buck",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/buck-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/buck-converter-topology.svg",
+  "id": "buck-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/buck-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/buck-converter-topology.json",
+  "svgPath": "artwork/svg/buck-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

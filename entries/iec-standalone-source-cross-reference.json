@@ -1,0 +1,84 @@
+{
+  "slug": "iec-standalone-source-cross-reference",
+  "name": "Standalone source cross-reference",
+  "kind": "symbol",
+  "abbreviation": "HA2S1_REF",
+  "aliases": [
+    "Standalone source cross-reference symbol",
+    "HA2S1_REF, HA3S1_REF, HA5S1_REF"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A source cross-reference identifies the originating side of a diagram continuation relationship.",
+  "description": [
+    "A source cross-reference identifies the originating side of a diagram continuation relationship. This is a navigation and association element linking a circuit or signal to its continuation. Its source role is meaningful only when the matching destination reference is present.",
+    "Use consistent reference text, sheet identifiers and locations at both ends. Cosmetic source shapes do not create different circuit functions."
+  ],
+  "readingNotes": [
+    "Provide the matching destination reference, sheet and location information.",
+    "Rectangle, hexagon and ellipse presentation styles are kept as one source-reference concept."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Provide the matching destination reference, sheet and location information.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Rectangle, hexagon and ellipse presentation styles are kept as one source-reference concept.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Publisher drafting annotation / connectivity convention"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HA2S1_REF, HA3S1_REF, HA5S1_REF (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Provide the matching destination reference, sheet and location information."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-crossref",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "terminal",
+    "busbar"
+  ],
+  "artwork": "edu-iec-standalone-source-cross-reference",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-standalone-source-cross-reference",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-standalone-source-cross-reference.svg",
+  "id": "iec-standalone-source-cross-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-standalone-source-cross-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-standalone-source-cross-reference.json",
+  "svgPath": "artwork/svg/iec-standalone-source-cross-reference.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-crossref",
+      "title": "Autodesk IEC-60617 preview: Standalone source and destination cross-references",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9517DC1C-1B8E-4C09-89EE-433B372FE3ED.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

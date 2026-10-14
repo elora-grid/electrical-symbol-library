@@ -1,0 +1,85 @@
+{
+  "slug": "three-phase-synchronous-motor",
+  "name": "Three-phase synchronous motor",
+  "kind": "symbol",
+  "abbreviation": "M 3PH SYNC",
+  "aliases": [
+    "HMO1M17",
+    "VMO1M17"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A synchronous motor operates with a documented synchronous relationship to the electrical supply.",
+  "description": [
+    "A synchronous motor operates with a documented synchronous relationship to the electrical supply. Its excitation arrangement and starting/control system require device-specific information."
+  ],
+  "readingNotes": [
+    "Identify any field or excitation supply separately from the main stator circuit.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State motor rating",
+    "Show excitation reference",
+    "Link starting and protection circuits"
+  ],
+  "distinction": "Synchronous operation is different from an induction motor's operating principle.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M17, VMO1M17 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-three-phase-synchronous-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-synchronous-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-synchronous-motor.svg",
+  "id": "three-phase-synchronous-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-synchronous-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-synchronous-motor.json",
+  "svgPath": "artwork/svg/three-phase-synchronous-motor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-motors",
+      "title": "Three-phase motor symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-385CBE83-33A3-4314-913E-3B59A6D05F22.htm",
+      "type": "cad-reference",
+      "scope": "Motor variants including asynchronous, synchronous and connection-count differences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

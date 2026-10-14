@@ -1,0 +1,99 @@
+{
+  "slug": "73-load-resistor-contactor",
+  "name": "Load-resistor contactor",
+  "kind": "function",
+  "abbreviation": "73",
+  "aliases": [
+    "load resistor switch",
+    "resistor contactor",
+    "ANSI 73",
+    "IEEE device 73"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Switches a resistor used to impose, remove or change electrical load in a machine arrangement.",
+  "description": [
+    "Switches a resistor used to impose, remove or change electrical load in a machine arrangement.",
+    "In a drafting package, connect this reference to the load resistor and switched power connection. The associated drawing should trace the contactor control and resistor duty references; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the load resistor and switched power connection.",
+    "Trace the contactor control and resistor duty references."
+  ],
+  "drawingChecklist": [
+    "Label the load resistor and switched power connection.",
+    "Cross-reference the contactor control and resistor duty references.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A load-resistor contactor switches the resistor circuit; the resistor's rating and ventilation remain separate design data.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "73"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The load resistor and switched power connection"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "resistor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/73-load-resistor-contactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/73-load-resistor-contactor.svg",
+  "id": "73-load-resistor-contactor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/73-load-resistor-contactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/73-load-resistor-contactor.json",
+  "svgPath": "artwork/svg/73-load-resistor-contactor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

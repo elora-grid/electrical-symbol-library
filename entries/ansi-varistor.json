@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-varistor",
+  "name": "ANSI/IEEE varistor symbol",
+  "kind": "symbol",
+  "abbreviation": "VDR",
+  "aliases": [
+    "IEEE varistor symbol",
+    "ANSI varistor symbol",
+    "HVR1R3"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for varistor, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The varistor form adds a voltage-dependent characteristic to a resistive component. The connection point and selected voltage and surge data establish the protective use; its drawing modifier does not replace the equipment rating.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Check continuous-voltage duty separately from surge-limiting data.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Name protected nodes",
+    "State voltage rating",
+    "Reference surge capability"
+  ],
+  "distinction": "A nonlinear varistor and a fixed current-limiting resistor do not provide the same response.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Resistive Components"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HVR1R3 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-1a45de3a-cd2a-4ad9-8125-219905c870b1",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "varistor",
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-ansi-varistor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Resistive Components functional form",
+    "counterpart": "varistor",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-varistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-varistor.svg",
+  "id": "ansi-varistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-varistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-varistor.json",
+  "svgPath": "artwork/svg/ansi-varistor.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-1a45de3a-cd2a-4ad9-8125-219905c870b1",
+      "title": "Autodesk IEEE Symbol Preview — Resistive Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1A45DE3A-CD2A-4AD9-8125-219905C870B1.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

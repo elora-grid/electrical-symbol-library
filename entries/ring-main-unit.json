@@ -1,0 +1,85 @@
+{
+  "slug": "ring-main-unit",
+  "name": "Ring main unit",
+  "kind": "object",
+  "abbreviation": "RMU",
+  "aliases": [
+    "ring main switchgear",
+    "secondary distribution unit"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A secondary-distribution switchgear assembly with a selected combination of switching functions.",
+  "description": [
+    "A ring main unit is a compact secondary-distribution switchgear assembly with a manufacturer-defined combination of switching functions. Its electrical configuration and physical envelope depend on the chosen product, rather than on the abbreviation RMU alone.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Identify the number and function of the selected ways.",
+    "Keep the electrical configuration linked to the manufacturer GA."
+  ],
+  "drawingChecklist": [
+    "Reference the exact unit configuration.",
+    "Check cable interfaces and installation information.",
+    "Match the SLD ways to physical sections."
+  ],
+  "distinction": "RMU does not specify one universal technology, dimension or combination of breaker, switch and fused ways.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-switchgear",
+      "relevance": "Public ring-main-unit and secondary-distribution equipment families."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "load-break-switch",
+    "earthing-switch"
+  ],
+  "artwork": "rmu",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ring-main-unit",
+  "illustration": "https://eloragrid.ai/library/illustrations/ring-main-unit.svg",
+  "id": "ring-main-unit",
+  "canonicalUrl": "https://eloragrid.ai/objects/ring-main-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ring-main-unit.json",
+  "svgPath": "artwork/svg/ring-main-unit.svg",
+  "publicSources": [
+    {
+      "id": "abb-switchgear",
+      "title": "Secondary-distribution switchgear and ring main units",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/switchgear/secondary-distribution",
+      "type": "manufacturer",
+      "scope": "Public equipment families for secondary distribution. Footprints and ratings must come from the chosen model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public ring-main-unit and secondary-distribution equipment families."
+    }
+  ]
+}

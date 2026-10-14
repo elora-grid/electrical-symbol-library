@@ -1,0 +1,80 @@
+{
+  "slug": "air-circuit-breaker",
+  "name": "Air circuit breaker",
+  "kind": "symbol",
+  "abbreviation": "ACB",
+  "aliases": [
+    "air breaker"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An ACB is a low-voltage circuit breaker using air as its interrupting medium.",
+  "description": [
+    "An ACB is a low-voltage circuit breaker using air as its interrupting medium. It is frequently used for main incomers or bus couplers and may be fixed or withdrawable."
+  ],
+  "readingNotes": [
+    "The draw-out mechanism, trip unit and main poles are distinct pieces of drawing information.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State fixed or withdrawable construction",
+    "Reference main-pole ratings",
+    "Link control and position indication"
+  ],
+  "distinction": "ACB denotes an interrupting technology and product family, not a generic synonym for every breaker.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-breaker-types",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-air-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/air-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/air-circuit-breaker.svg",
+  "id": "air-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/air-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/air-circuit-breaker.json",
+  "svgPath": "artwork/svg/air-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-breaker-types",
+      "title": "Circuit breakers and switches",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/product-category/4200-circuit-breakers-and-switches/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "sepic-converter-topology",
+  "name": "SEPIC converter topology",
+  "kind": "symbol",
+  "abbreviation": "SEPIC",
+  "aliases": [
+    "single ended primary inductance converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A non-inverting conversion topology using its documented inductive and series-capacitor energy-transfer arrangement.",
+  "description": [
+    "A non-inverting conversion topology using its documented inductive and series-capacitor energy-transfer arrangement.",
+    "On a schematic, identify the inductors, series coupling capacitor and switch/diode paths and trace the output and controller feedback references. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "SEPIC is a distinct arrangement from a four-switch buck-boost; the mnemonic does not mean galvanic isolation.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the inductors, series coupling capacitor and switch/diode paths.",
+    "Trace the output and controller feedback references."
+  ],
+  "drawingChecklist": [
+    "Label the inductors, series coupling capacitor and switch/diode paths.",
+    "Cross-reference the output and controller feedback references.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "SEPIC is a distinct arrangement from a four-switch buck-boost; the mnemonic does not mean galvanic isolation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "SEPIC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The inductors, series coupling capacitor and switch/diode paths"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "cuk-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-sepic",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/sepic-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/sepic-converter-topology.svg",
+  "id": "sepic-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/sepic-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/sepic-converter-topology.json",
+  "svgPath": "artwork/svg/sepic-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

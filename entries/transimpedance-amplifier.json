@@ -1,0 +1,82 @@
+{
+  "slug": "transimpedance-amplifier",
+  "name": "Transimpedance amplifier",
+  "kind": "symbol",
+  "abbreviation": "TIA",
+  "aliases": [
+    "current to voltage amplifier",
+    "photodiode amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Converts an input current into an output voltage through the documented feedback arrangement.",
+  "description": [
+    "Converts an input current into an output voltage through the documented feedback arrangement.",
+    "On a schematic, identify the detector/current input, feedback impedance and input reference and trace the voltage output and receiving acquisition circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A transimpedance amplifier relates current to voltage; a transconductance amplifier relates voltage to current.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the detector/current input, feedback impedance and input reference.",
+    "Trace the voltage output and receiving acquisition circuit."
+  ],
+  "drawingChecklist": [
+    "Label the detector/current input, feedback impedance and input reference.",
+    "Cross-reference the voltage output and receiving acquisition circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A transimpedance amplifier relates current to voltage; a transconductance amplifier relates voltage to current.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "TIA — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The detector/current input, feedback impedance and input reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-tia",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "operational-transconductance-amplifier",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-tia",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/transimpedance-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/transimpedance-amplifier.svg",
+  "id": "transimpedance-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transimpedance-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transimpedance-amplifier.json",
+  "svgPath": "artwork/svg/transimpedance-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-tia",
+      "title": "ADA4530-1 — electrometer and current-to-voltage acquisition",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ada4530-1.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for electrometer and current-to-voltage acquisition. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

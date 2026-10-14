@@ -1,0 +1,83 @@
+{
+  "slug": "iec-unconnected-conductor-crossing",
+  "name": "Unconnected conductor crossing",
+  "kind": "symbol",
+  "abbreviation": "CROSSING",
+  "aliases": [
+    "Unconnected conductor crossing symbol"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An unconnected crossing shows conductors passing across each other in the drawing without an electrical junction.",
+  "description": [
+    "An unconnected crossing shows conductors passing across each other in the drawing without an electrical junction. The wires overlap in the two-dimensional page layout but remain distinct circuits. A gap or bridge/loop makes that distinction visible where the selected drawing convention uses one.",
+    "Check both the displayed graphic and the CAD network topology. A crossing must not acquire an unintended junction when drawing segments are moved or edited."
+  ],
+  "readingNotes": [
+    "Apply the selected gap or loop convention consistently and check that no connection node is created.",
+    "A gap or bridge is a drafting convention, not a physical cable crossover dimension."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Apply the selected gap or loop convention consistently and check that no connection node is created.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A gap or bridge is a drafting convention, not a physical cable crossover dimension.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Publisher drafting annotation / connectivity convention"
+    },
+    {
+      "label": "Documentation scope",
+      "value": "Wire insertion and connectivity behaviour; no publisher block identifier or IEC database ID is asserted."
+    },
+    {
+      "label": "Information added",
+      "value": "Apply the selected gap or loop convention consistently and check that no connection node is created."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-wire-connections",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "terminal",
+    "busbar"
+  ],
+  "artwork": "edu-iec-unconnected-conductor-crossing",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-unconnected-conductor-crossing",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-unconnected-conductor-crossing.svg",
+  "id": "iec-unconnected-conductor-crossing",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-unconnected-conductor-crossing",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-unconnected-conductor-crossing.json",
+  "svgPath": "artwork/svg/iec-unconnected-conductor-crossing.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-wire-connections",
+      "title": "Wire connection dots, crossing gaps and loops",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2020/ENU/AutoCAD-Electrical/files/GUID-936BB8A9-9C01-4AC6-B833-CB97700A7203.htm",
+      "type": "cad-reference",
+      "scope": "Public drafting-tool documentation. The annotation is a connectivity or identification convention, not a verified IEC standard graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

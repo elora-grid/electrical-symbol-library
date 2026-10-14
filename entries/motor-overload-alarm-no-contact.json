@@ -1,0 +1,84 @@
+{
+  "slug": "motor-overload-alarm-no-contact",
+  "name": "Motor overload alarm NO contact",
+  "kind": "symbol",
+  "abbreviation": "OL NO",
+  "aliases": [
+    "HOL21",
+    "VOL21"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An overload alarm NO contact closes on the documented overload relay operation.",
+  "description": [
+    "An overload alarm NO contact closes on the documented overload relay operation. The schematic identifies the alarm or feedback path independently of the motor-stopping contact."
+  ],
+  "readingNotes": [
+    "Verify the contact behaviour after reset and after loss of auxiliary supply.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Link overload device",
+    "Identify alarm destination",
+    "Reference contact terminal pair"
+  ],
+  "distinction": "A trip alarm contact is different from a contactor position indication contact.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HOL21, VOL21 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-motor-control",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-motor-overload-alarm-no-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/motor-overload-alarm-no-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/motor-overload-alarm-no-contact.svg",
+  "id": "motor-overload-alarm-no-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-overload-alarm-no-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-overload-alarm-no-contact.json",
+  "svgPath": "artwork/svg/motor-overload-alarm-no-contact.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-motor-control",
+      "title": "AutoCAD Electrical: Motor control and overloads",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-D74101D4-8702-418C-B349-B15EEAEFAA20.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

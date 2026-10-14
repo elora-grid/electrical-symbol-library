@@ -1,0 +1,102 @@
+{
+  "slug": "generator-package",
+  "name": "Generator package",
+  "kind": "object",
+  "abbreviation": "Genset GA",
+  "aliases": [
+    "generator enclosure",
+    "diesel generator package",
+    "genset footprint",
+    "generator GA"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic generating-package envelope linked to official equipment and installation drawings.",
+  "description": [
+    "A generator package can include the electrical machine, prime mover and equipment defined by its supply scope. Its enclosure and installation interfaces depend on the selected package. The GA must therefore reference the actual product and project equipment scope.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Identify which accessories are included in the represented package.",
+    "Connect the physical package reference to the electrical source on the SLD."
+  ],
+  "drawingChecklist": [
+    "Reference the manufacturer package GA.",
+    "Identify electrical and other installation interfaces.",
+    "Link the generator and control schedules."
+  ],
+  "distinction": "A generic generator outline does not define ventilation, exhaust, fuel, acoustic performance or service access requirements.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public manufacturer generator-system and control context."
+    },
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public source-transfer system context."
+    }
+  ],
+  "related": [
+    "generator",
+    "transfer-switch",
+    "control-cabinet"
+  ],
+  "artwork": "genset",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/generator-package",
+  "illustration": "https://eloragrid.ai/library/illustrations/generator-package.svg",
+  "id": "generator-package",
+  "canonicalUrl": "https://eloragrid.ai/objects/generator-package",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/generator-package.json",
+  "svgPath": "artwork/svg/generator-package.svg",
+  "publicSources": [
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer generator-system and control context."
+    },
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public source-transfer system context."
+    }
+  ]
+}

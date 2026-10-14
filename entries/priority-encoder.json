@@ -1,0 +1,82 @@
+{
+  "slug": "priority-encoder",
+  "name": "Priority encoder",
+  "kind": "symbol",
+  "abbreviation": "ENC-PRI",
+  "aliases": [
+    "digital priority encoder",
+    "input priority coding"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Encodes the highest-priority qualifying input into the specified binary output word.",
+  "description": [
+    "Encodes the highest-priority qualifying input into the specified binary output word.",
+    "On a schematic, identify the input active levels, priority order and enable controls and trace the encoded outputs and validity/cascade signals. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A priority encoder resolves simultaneous inputs using its specified order; a basic encoder does not necessarily resolve them.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input active levels, priority order and enable controls.",
+    "Trace the encoded outputs and validity/cascade signals."
+  ],
+  "drawingChecklist": [
+    "Label the input active levels, priority order and enable controls.",
+    "Cross-reference the encoded outputs and validity/cascade signals.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A priority encoder resolves simultaneous inputs using its specified order; a basic encoder does not necessarily resolve them.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "ENC-PRI — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input active levels, priority order and enable controls"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc148",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "binary-decoder-demultiplexer",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-encoder",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/priority-encoder",
+  "illustration": "https://eloragrid.ai/library/illustrations/priority-encoder.svg",
+  "id": "priority-encoder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/priority-encoder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/priority-encoder.json",
+  "svgPath": "artwork/svg/priority-encoder.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc148",
+      "title": "SN74HC148 — priority encoding",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc148.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of priority encoding. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

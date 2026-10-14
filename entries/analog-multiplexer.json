@@ -1,0 +1,82 @@
+{
+  "slug": "analog-multiplexer",
+  "name": "Analogue multiplexer",
+  "kind": "symbol",
+  "abbreviation": "A-MUX",
+  "aliases": [
+    "analog multiplexer",
+    "analogue channel selector"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects a continuous-signal channel through the documented controlled switching arrangement.",
+  "description": [
+    "Selects a continuous-signal channel through the documented controlled switching arrangement.",
+    "On a schematic, identify the analogue channels, common terminal, supplies and address/enable pins and trace the selected measurement path and ADC interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An analogue multiplexer passes signals within its limits; a digital multiplexer regenerates defined logic states.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the analogue channels, common terminal, supplies and address/enable pins.",
+    "Trace the selected measurement path and ADC interface."
+  ],
+  "drawingChecklist": [
+    "Label the analogue channels, common terminal, supplies and address/enable pins.",
+    "Cross-reference the selected measurement path and ADC interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An analogue multiplexer passes signals within its limits; a digital multiplexer regenerates defined logic states.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "A-MUX — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The analogue channels, common terminal, supplies and address/enable pins"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-analog-mux",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "digital-multiplexer",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-mux",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/analog-multiplexer",
+  "illustration": "https://eloragrid.ai/library/illustrations/analog-multiplexer.svg",
+  "id": "analog-multiplexer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/analog-multiplexer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/analog-multiplexer.json",
+  "svgPath": "artwork/svg/analog-multiplexer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-analog-mux",
+      "title": "CD4051B — analogue channel multiplexing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/cd4051b.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of analogue channel multiplexing. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

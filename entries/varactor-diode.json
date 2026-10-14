@@ -1,0 +1,83 @@
+{
+  "slug": "varactor-diode",
+  "name": "Varactor diode",
+  "kind": "symbol",
+  "abbreviation": "VAR",
+  "aliases": [
+    "varicap",
+    "tuning diode",
+    "voltage-variable capacitance diode"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A reverse-biased diode whose junction capacitance is used as a voltage-controlled circuit element.",
+  "description": [
+    "A reverse-biased diode whose junction capacitance is used as a voltage-controlled circuit element.",
+    "On a schematic, identify the tuning bias, cathode orientation and RF node and trace the tuned or phase-control circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A varactor uses junction capacitance under reverse bias; it is not an adjustable mechanical capacitor.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the tuning bias, cathode orientation and RF node.",
+    "Trace the tuned or phase-control circuit."
+  ],
+  "drawingChecklist": [
+    "Label the tuning bias, cathode orientation and RF node.",
+    "Cross-reference the tuned or phase-control circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A varactor uses junction capacitance under reverse bias; it is not an adjustable mechanical capacitor.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "VAR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The tuning bias, cathode orientation and RF node"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nxp-varactor",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "adjustable-capacitor",
+    "diode"
+  ],
+  "artwork": "electronics-diode-varactor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/varactor-diode",
+  "illustration": "https://eloragrid.ai/library/illustrations/varactor-diode.svg",
+  "id": "varactor-diode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/varactor-diode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/varactor-diode.json",
+  "svgPath": "artwork/svg/varactor-diode.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nxp-varactor",
+      "title": "BB181 variable-capacitance diode documentation",
+      "publisher": "NXP Semiconductors",
+      "url": "https://www.nxp.com/docs/en/data-sheet/BB181.pdf",
+      "type": "manufacturer",
+      "scope": "Public historical component reference for a variable-capacitance diode, with anode/cathode roles and tuning applications. Used for terminology, not current product availability or a design recommendation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

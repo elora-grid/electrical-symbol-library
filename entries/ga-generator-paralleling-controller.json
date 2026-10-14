@@ -1,0 +1,88 @@
+{
+  "slug": "ga-generator-paralleling-controller",
+  "name": "Generator paralleling controller",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "synchronising controller",
+    "Generator paralleling controller CAD",
+    "Generator paralleling controller general arrangement",
+    "Generator paralleling controller panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A paralleling controller coordinates specified generator and switching functions.",
+  "description": [
+    "A paralleling controller coordinates specified generator and switching functions.",
+    "Coordinate controller terminals, metering inputs, communications and operator interfaces. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate controller terminals, metering inputs, communications and operator interfaces.",
+    "A controller outline does not establish the site's synchronising, protection or transfer sequence."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate controller terminals, metering inputs, communications and operator interfaces.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A controller outline does not establish the site's synchronising, protection or transfer sequence.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-generator-paralleling-controller",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-generator-paralleling-controller",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-generator-paralleling-controller.svg",
+  "id": "ga-generator-paralleling-controller",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-generator-paralleling-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-generator-paralleling-controller.json",
+  "svgPath": "artwork/svg/ga-generator-paralleling-controller.svg",
+  "publicSources": [
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

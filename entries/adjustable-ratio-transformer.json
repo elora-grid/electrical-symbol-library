@@ -1,0 +1,85 @@
+{
+  "slug": "adjustable-ratio-transformer",
+  "name": "Adjustable-ratio transformer",
+  "kind": "symbol",
+  "abbreviation": "TX ADJ",
+  "aliases": [
+    "HXF1T5",
+    "VXF1T5"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An adjustable-ratio transformer includes a documented means of varying its voltage ratio.",
+  "description": [
+    "An adjustable-ratio transformer includes a documented means of varying its voltage ratio. The functional drawing should identify the adjustment or tap connection without assuming on-load operation."
+  ],
+  "readingNotes": [
+    "Establish whether changes are permitted energised or only under the manufacturer's off-circuit conditions.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record adjustment range",
+    "Identify operating mechanism",
+    "Reference tap-position notation"
+  ],
+  "distinction": "Adjustable ratio does not automatically imply an on-load tap changer.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1T5, VXF1T5 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-adjustable-ratio-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/adjustable-ratio-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/adjustable-ratio-transformer.svg",
+  "id": "adjustable-ratio-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/adjustable-ratio-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/adjustable-ratio-transformer.json",
+  "svgPath": "artwork/svg/adjustable-ratio-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

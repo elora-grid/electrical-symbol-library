@@ -1,0 +1,100 @@
+{
+  "slug": "busbar",
+  "name": "Busbar",
+  "kind": "symbol",
+  "abbreviation": "Bus",
+  "aliases": [
+    "bus bar",
+    "bus section",
+    "bus connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A common conductive connection distributing power to connected circuits.",
+  "description": [
+    "A busbar connects multiple power circuits to a common electrical node. In an SLD it is commonly represented as a line with feeder connections. The representation describes connectivity; physical conductor dimensions, enclosure, phase arrangement and current-carrying capabilities are separate equipment information.",
+    "Bus sections and bus couplers describe how those electrical nodes can be connected or separated. Keep bus labels consistent between the system drawing, switchboard schedule and equipment documentation. A drawing line is not a scale representation of a physical busbar."
+  ],
+  "readingNotes": [
+    "Identify each feeder connected to the same bus section.",
+    "Use device positions to determine which sections are shown as connected in the stated drawing condition."
+  ],
+  "drawingChecklist": [
+    "Name each bus or bus section.",
+    "Reference ratings and fault-duty information.",
+    "Cross-reference any coupler or section device."
+  ],
+  "distinction": "A busbar is an electrical connection. Busbar trunking is a physical distribution system with model-specific enclosures and fittings.",
+  "facts": [
+    {
+      "label": "Drawing meaning",
+      "value": "Shared electrical node"
+    },
+    {
+      "label": "Physical dimensions",
+      "value": "Separate from the SLD mark"
+    },
+    {
+      "label": "Related equipment",
+      "value": "Busbar trunking and switchboard assemblies"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public bus-tap and power-distribution drawing categories."
+    },
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Manufacturer example of a physical busbar distribution system."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "busbar-trunking",
+    "switchboard",
+    "power-transformer"
+  ],
+  "artwork": "busbar",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/busbar",
+  "illustration": "https://eloragrid.ai/library/illustrations/busbar.svg",
+  "id": "busbar",
+  "canonicalUrl": "https://eloragrid.ai/symbols/busbar",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/busbar.json",
+  "svgPath": "artwork/svg/busbar.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public bus-tap and power-distribution drawing categories."
+    },
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer example of a physical busbar distribution system."
+    }
+  ]
+}

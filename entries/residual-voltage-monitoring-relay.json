@@ -1,0 +1,84 @@
+{
+  "slug": "residual-voltage-monitoring-relay",
+  "name": "Residual-voltage monitoring relay",
+  "kind": "symbol",
+  "abbreviation": "U RES",
+  "aliases": [
+    "HCR1F38",
+    "VCR1F38"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A residual-voltage relay responds to the specified residual-voltage measurement.",
+  "description": [
+    "A residual-voltage relay responds to the specified residual-voltage measurement. Its drawing needs the voltage-transformer connection and the input quantity definition."
+  ],
+  "readingNotes": [
+    "Check the measurement circuit that produces the residual voltage.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show VT connection",
+    "State residual input scaling",
+    "Reference operating threshold"
+  ],
+  "distinction": "Residual voltage is different from phase-to-neutral voltage at an arbitrary single phase.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1F38, VCR1F38 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-voltage-relays",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "edu-residual-voltage-monitoring-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/residual-voltage-monitoring-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/residual-voltage-monitoring-relay.svg",
+  "id": "residual-voltage-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/residual-voltage-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/residual-voltage-monitoring-relay.json",
+  "svgPath": "artwork/svg/residual-voltage-monitoring-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-voltage-relays",
+      "title": "AutoCAD Electrical: Voltage monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5296749E-9336-4B07-9956-160963D6C848.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

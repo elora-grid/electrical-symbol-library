@@ -1,0 +1,84 @@
+{
+  "slug": "photodiode",
+  "name": "Photodiode",
+  "kind": "symbol",
+  "abbreviation": "PD",
+  "aliases": [
+    "HDI1B4",
+    "VDI1B4"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A photodiode is a light-sensitive semiconductor device used in a documented sensing circuit.",
+  "description": [
+    "A photodiode is a light-sensitive semiconductor device used in a documented sensing circuit. Its electrical connections and optical input are separate aspects of the representation."
+  ],
+  "readingNotes": [
+    "Identify whether the associated circuit biases the diode or measures its generated response.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show polarity and bias circuit",
+    "Reference optical input",
+    "State selected device type"
+  ],
+  "distinction": "A photodiode senses light; an LED emits light.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Semiconductor function"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDI1B4, VDI1B4 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "power-converter"
+  ],
+  "artwork": "edu-photodiode",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photodiode",
+  "illustration": "https://eloragrid.ai/library/illustrations/photodiode.svg",
+  "id": "photodiode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photodiode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photodiode.json",
+  "svgPath": "artwork/svg/photodiode.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

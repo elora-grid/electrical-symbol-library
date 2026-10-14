@@ -1,0 +1,82 @@
+{
+  "slug": "phase-locked-loop",
+  "name": "Phase-locked loop",
+  "kind": "symbol",
+  "abbreviation": "PLL",
+  "aliases": [
+    "phase locked loop",
+    "frequency tracking loop"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Controls an oscillator through a phase-comparison feedback arrangement to follow the documented reference.",
+  "description": [
+    "Controls an oscillator through a phase-comparison feedback arrangement to follow the documented reference.",
+    "On a schematic, identify the reference input, phase detector, loop filter and VCO control and trace the oscillator output, lock indication and feedback divider. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A PLL is a closed control loop; a VCO alone has no phase-comparison feedback function.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the reference input, phase detector, loop filter and VCO control.",
+    "Trace the oscillator output, lock indication and feedback divider."
+  ],
+  "drawingChecklist": [
+    "Label the reference input, phase detector, loop filter and VCO control.",
+    "Cross-reference the oscillator output, lock indication and feedback divider.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A PLL is a closed control loop; a VCO alone has no phase-comparison feedback function.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PLL — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The reference input, phase detector, loop filter and VCO control"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-cd4046",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "voltage-controlled-oscillator",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-pll",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phase-locked-loop",
+  "illustration": "https://eloragrid.ai/library/illustrations/phase-locked-loop.svg",
+  "id": "phase-locked-loop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phase-locked-loop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phase-locked-loop.json",
+  "svgPath": "artwork/svg/phase-locked-loop.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-cd4046",
+      "title": "CD4046B — phase-locked loops and voltage-controlled oscillators",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD4046B",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of phase-locked loops and voltage-controlled oscillators. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "permanent-magnet-dc-motor",
+  "name": "Permanent-magnet DC motor",
+  "kind": "symbol",
+  "abbreviation": "M DC PM",
+  "aliases": [
+    "HMO1M13",
+    "VMO1M13"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A permanent-magnet DC motor uses a permanent magnetic field rather than a separately connected field winding.",
+  "description": [
+    "A permanent-magnet DC motor uses a permanent magnetic field rather than a separately connected field winding. Its armature and control connections still require product documentation."
+  ],
+  "readingNotes": [
+    "Do not draw a separate excitation supply unless the actual motor has one.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify armature polarity",
+    "State motor rating",
+    "Reference speed/control circuit"
+  ],
+  "distinction": "Permanent-magnet construction differs from a separately excited DC field winding.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M13, VMO1M13 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-dc-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-permanent-magnet-dc-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/permanent-magnet-dc-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/permanent-magnet-dc-motor.svg",
+  "id": "permanent-magnet-dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/permanent-magnet-dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/permanent-magnet-dc-motor.json",
+  "svgPath": "artwork/svg/permanent-magnet-dc-motor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-dc-motors",
+      "title": "AutoCAD Electrical: DC motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F5F3061F-E0DE-4A9A-BE88-C017545A9A36.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

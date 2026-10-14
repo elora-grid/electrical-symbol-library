@@ -1,0 +1,88 @@
+{
+  "slug": "ga-industrial-ventilation-fan",
+  "name": "Industrial ventilation fan",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "air movement fan",
+    "Industrial ventilation fan CAD",
+    "Industrial ventilation fan general arrangement",
+    "Industrial ventilation fan panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An industrial ventilation fan moves air through a selected room or equipment ventilation route.",
+  "description": [
+    "An industrial ventilation fan moves air through a selected room or equipment ventilation route.",
+    "Coordinate mounting, air direction, service access and power/control connections. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate mounting, air direction, service access and power/control connections.",
+    "A fan model must be selected for the documented system resistance and airflow duty."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate mounting, air direction, service access and power/control connections.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A fan model must be selected for the documented system resistance and airflow duty.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-greenheck-products",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-industrial-ventilation-fan",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-industrial-ventilation-fan",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-industrial-ventilation-fan.svg",
+  "id": "ga-industrial-ventilation-fan",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-industrial-ventilation-fan",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-industrial-ventilation-fan.json",
+  "svgPath": "artwork/svg/ga-industrial-ventilation-fan.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-greenheck-products",
+      "title": "Ventilation product families",
+      "publisher": "Greenheck",
+      "url": "https://www.greenheck.com/shop/products",
+      "type": "manufacturer",
+      "scope": "Public fans, louvers, dampers and ventilation categories. Airflow, pressure, fire performance and dimensions are project and product specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

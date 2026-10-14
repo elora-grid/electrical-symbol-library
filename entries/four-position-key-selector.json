@@ -1,0 +1,84 @@
+{
+  "slug": "four-position-key-selector",
+  "name": "Four-position key selector",
+  "kind": "symbol",
+  "abbreviation": "KEY SEL 4",
+  "aliases": [
+    "HSS11S46",
+    "VSS11S46"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A four-position key selector provides key-controlled selection among four documented positions.",
+  "description": [
+    "A four-position key selector provides key-controlled selection among four documented positions. The schematic and operator schedule should agree on position numbering and permitted key removal."
+  ],
+  "readingNotes": [
+    "Check the contact table against the front-panel legend.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Define position order",
+    "State key removal",
+    "Reference contact terminals"
+  ],
+  "distinction": "A keyed four-position operator is different from four separately keyed switches.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Position selection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HSS11S46, VSS11S46 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-selector-four",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "changeover-contact"
+  ],
+  "artwork": "edu-four-position-key-selector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/four-position-key-selector",
+  "illustration": "https://eloragrid.ai/library/illustrations/four-position-key-selector.svg",
+  "id": "four-position-key-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/four-position-key-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/four-position-key-selector.json",
+  "svgPath": "artwork/svg/four-position-key-selector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-selector-four",
+      "title": "AutoCAD Electrical: Four-position selectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09243080-0BE8-4401-8E79-11156DF1CDDF.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

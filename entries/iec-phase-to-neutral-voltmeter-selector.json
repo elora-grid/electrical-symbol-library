@@ -1,0 +1,91 @@
+{
+  "slug": "iec-phase-to-neutral-voltmeter-selector",
+  "name": "Phase-to-neutral voltmeter selector",
+  "kind": "symbol",
+  "abbreviation": "HSW1S91",
+  "aliases": [
+    "Phase-to-neutral voltmeter selector symbol",
+    "HSW1S91",
+    "Phase-to-neutral voltmeter selector IEC reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This representation identifies selection among phase-to-neutral voltage measurement connections.",
+  "description": [
+    "This representation identifies selection among phase-to-neutral voltage measurement connections. The meter is connected to the selected phase relative to the documented neutral or reference point. That connection differs from measuring between two phase conductors.",
+    "Show the reference terminal and each selectable measurement path. The position table should make clear which reading the operator receives at each position."
+  ],
+  "readingNotes": [
+    "Show the neutral/reference connection and each selected phase in the position table.",
+    "Phase-to-neutral and phase-to-phase measurements have different connection paths."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Show the neutral/reference connection and each selected phase in the position table.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Phase-to-neutral and phase-to-phase measurements have different connection paths.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HSW1S91 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Show the neutral/reference connection and each selected phase in the position table."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-misc-switches",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-iec-phase-to-neutral-voltmeter-selector",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Phase-to-neutral voltmeter selector",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Measurement-selection and mechanically operated switch forms; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-phase-to-neutral-voltmeter-selector",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-phase-to-neutral-voltmeter-selector.svg",
+  "id": "iec-phase-to-neutral-voltmeter-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-phase-to-neutral-voltmeter-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-phase-to-neutral-voltmeter-selector.json",
+  "svgPath": "artwork/svg/iec-phase-to-neutral-voltmeter-selector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-misc-switches",
+      "title": "AutoCAD Electrical: Level, flow, keyed and measurement switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1FB94435-C954-4479-BD97-25796DB8F728.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

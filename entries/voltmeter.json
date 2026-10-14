@@ -1,0 +1,85 @@
+{
+  "slug": "voltmeter",
+  "name": "Voltmeter",
+  "kind": "symbol",
+  "abbreviation": "V",
+  "aliases": [
+    "HVM1",
+    "VVM1"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A voltmeter indicates electrical potential difference between its measurement inputs.",
+  "description": [
+    "A voltmeter indicates electrical potential difference between its measurement inputs. The drawing identifies the measured conductors and any instrument transformer or selector associated with those inputs."
+  ],
+  "readingNotes": [
+    "Trace both voltage inputs rather than only the phase connection.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name measured voltage",
+    "State direct or VT connection",
+    "Reference measuring range"
+  ],
+  "distinction": "A voltmeter indicates voltage; a voltage relay issues an output according to a voltage condition.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HVM1, VVM1 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-voltmeter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltmeter",
+  "illustration": "https://eloragrid.ai/library/illustrations/voltmeter.svg",
+  "id": "voltmeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltmeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltmeter.json",
+  "svgPath": "artwork/svg/voltmeter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

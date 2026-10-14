@@ -1,0 +1,85 @@
+{
+  "slug": "variable-resistor",
+  "name": "Variable resistor",
+  "kind": "symbol",
+  "abbreviation": "R VAR",
+  "aliases": [
+    "HVR1B",
+    "VVR1B"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A variable resistor provides a documented adjustable resistance in a circuit path.",
+  "description": [
+    "A variable resistor provides a documented adjustable resistance in a circuit path. Its range, terminal usage and adjustment method must be stated when they affect the control function."
+  ],
+  "readingNotes": [
+    "Check whether the device is used as a two-terminal resistance or a three-terminal divider.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State resistance range",
+    "Show connected terminals",
+    "Reference adjustment method"
+  ],
+  "distinction": "A variable resistor is a broader function than a three-terminal potentiometer connection.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HVR1B, VVR1B (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-variable-resistor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/variable-resistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/variable-resistor.svg",
+  "id": "variable-resistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/variable-resistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/variable-resistor.json",
+  "svgPath": "artwork/svg/variable-resistor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

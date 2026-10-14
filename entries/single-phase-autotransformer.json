@@ -1,0 +1,85 @@
+{
+  "slug": "single-phase-autotransformer",
+  "name": "Single-phase autotransformer",
+  "kind": "symbol",
+  "abbreviation": "AT 1PH",
+  "aliases": [
+    "HXF1P1AUTO",
+    "VXF1P1AUTO"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A single-phase autotransformer uses a winding portion shared electrically by its input and output circuits.",
+  "description": [
+    "A single-phase autotransformer uses a winding portion shared electrically by its input and output circuits. Its drawing must make the common connection clear because it does not provide winding separation like a two-winding transformer."
+  ],
+  "readingNotes": [
+    "Trace the common winding terminal and identify the supply and load tap positions.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State input and output voltages",
+    "Show common winding connection",
+    "Reference tap and rating data"
+  ],
+  "distinction": "An autotransformer is not an isolating two-winding transformer.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1P1AUTO, VXF1P1AUTO (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-single-phase-autotransformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/single-phase-autotransformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/single-phase-autotransformer.svg",
+  "id": "single-phase-autotransformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-phase-autotransformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-phase-autotransformer.json",
+  "svgPath": "artwork/svg/single-phase-autotransformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

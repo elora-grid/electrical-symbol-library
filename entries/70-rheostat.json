@@ -1,0 +1,99 @@
+{
+  "slug": "70-rheostat",
+  "name": "Rheostat",
+  "kind": "function",
+  "abbreviation": "70",
+  "aliases": [
+    "field rheostat",
+    "adjustable resistance",
+    "ANSI 70",
+    "IEEE device 70"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Provides adjustable resistance in a control, excitation or machine circuit.",
+  "description": [
+    "Provides adjustable resistance in a control, excitation or machine circuit.",
+    "In a drafting package, connect this reference to the resistance circuit, adjustment mechanism and operating range reference. The associated drawing should trace the rheostat terminals and drive/control interface; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the resistance circuit, adjustment mechanism and operating range reference.",
+    "Trace the rheostat terminals and drive/control interface."
+  ],
+  "drawingChecklist": [
+    "Label the resistance circuit, adjustment mechanism and operating range reference.",
+    "Cross-reference the rheostat terminals and drive/control interface.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A rheostat is a variable resistor arrangement; it is not a complete voltage regulator.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "70"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The resistance circuit, adjustment mechanism and operating range reference"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "resistor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/70-rheostat",
+  "illustration": "https://eloragrid.ai/library/illustrations/70-rheostat.svg",
+  "id": "70-rheostat",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/70-rheostat",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/70-rheostat.json",
+  "svgPath": "artwork/svg/70-rheostat.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

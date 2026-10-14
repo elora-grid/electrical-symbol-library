@@ -1,0 +1,104 @@
+{
+  "slug": "64g-stator-ground-fault-protection",
+  "name": "Stator ground-fault protection",
+  "kind": "function",
+  "abbreviation": "64G",
+  "aliases": [
+    "stator earth fault",
+    "generator ground protection",
+    "ANSI 64G",
+    "IEEE 64G"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises generator stator earth faults using the selected stator-ground protection method.",
+  "description": [
+    "Supervises generator stator earth faults using the selected stator-ground protection method.",
+    "The drafting record should connect this function to the generator neutral arrangement and the voltage/current or injection inputs, then trace the stator-ground alarm and generator trip matrix. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL generator protection feature table). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the generator neutral arrangement and the voltage/current or injection inputs.",
+    "Trace the stator-ground alarm and generator trip matrix."
+  ],
+  "drawingChecklist": [
+    "Label the generator neutral arrangement and the voltage/current or injection inputs.",
+    "Cross-reference the stator-ground alarm and generator trip matrix.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "The number 64G alone does not establish 100-percent winding coverage; that depends on the actual method and equipment configuration.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "64G"
+    },
+    {
+      "label": "Base function",
+      "value": "64 — Ground detector protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL generator protection feature table"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-generator",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "64-ground-detector-protection",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/64g-stator-ground-fault-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/64g-stator-ground-fault-protection.svg",
+  "id": "64g-stator-ground-fault-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/64g-stator-ground-fault-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/64g-stator-ground-fault-protection.json",
+  "svgPath": "artwork/svg/64g-stator-ground-fault-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-generator",
+      "title": "Generator protection feature and function comparison",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/comparisons/generator-protection/",
+      "type": "manufacturer",
+      "scope": "Public mappings for generator functions, including phase distance, field/stator ground, thermal RTD, sequence-current and vector-shift applications. Product availability depends on model/options; no settings are provided here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

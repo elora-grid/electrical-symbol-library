@@ -1,0 +1,84 @@
+{
+  "slug": "flashing-beacon",
+  "name": "Flashing beacon",
+  "kind": "symbol",
+  "abbreviation": "BEACON FLASH",
+  "aliases": [
+    "HBE1RFL",
+    "VBE1RFL"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A flashing beacon gives a documented conspicuous visual signal.",
+  "description": [
+    "A flashing beacon gives a documented conspicuous visual signal. The electrical schematic identifies its supply and command, while the layout identifies the mounting location."
+  ],
+  "readingNotes": [
+    "Keep beacon colour and signal meaning in the indication schedule.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State voltage and colour",
+    "Name alarm/command source",
+    "Reference mounting location"
+  ],
+  "distinction": "A beacon is a visible signalling device rather than a lighting load intended to illuminate a workspace.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Visual signal"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HBE1RFL, VBE1RFL (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-flashing-beacons",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "indicator-lamp",
+    "relay-coil"
+  ],
+  "artwork": "edu-flashing-beacon",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/flashing-beacon",
+  "illustration": "https://eloragrid.ai/library/illustrations/flashing-beacon.svg",
+  "id": "flashing-beacon",
+  "canonicalUrl": "https://eloragrid.ai/symbols/flashing-beacon",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/flashing-beacon.json",
+  "svgPath": "artwork/svg/flashing-beacon.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-flashing-beacons",
+      "title": "AutoCAD Electrical: Flashing beacons",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-386067DE-60EA-4653-B9B9-3F88948B35C0.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

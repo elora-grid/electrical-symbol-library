@@ -1,0 +1,83 @@
+{
+  "slug": "sample-and-hold-amplifier",
+  "name": "Sample-and-hold amplifier",
+  "kind": "symbol",
+  "abbreviation": "S/H",
+  "aliases": [
+    "sample hold",
+    "track and hold",
+    "SHA"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Acquires an analogue signal during the documented sampling interval and retains a representation during hold.",
+  "description": [
+    "Acquires an analogue signal during the documented sampling interval and retains a representation during hold.",
+    "On a schematic, identify the analogue input, sample/hold control and storage or timing reference and trace the held analogue output and converter interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Hold behaviour is an analogue acquisition function; it differs from digital storage in a latch or flip-flop.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the analogue input, sample/hold control and storage or timing reference.",
+    "Trace the held analogue output and converter interface."
+  ],
+  "drawingChecklist": [
+    "Label the analogue input, sample/hold control and storage or timing reference.",
+    "Cross-reference the held analogue output and converter interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Hold behaviour is an analogue acquisition function; it differs from digital storage in a latch or flip-flop.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "S/H — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The analogue input, sample/hold control and storage or timing reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-sample-hold",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "positive-edge-d-flip-flop",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-sample-hold",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/sample-and-hold-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/sample-and-hold-amplifier.svg",
+  "id": "sample-and-hold-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/sample-and-hold-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/sample-and-hold-amplifier.json",
+  "svgPath": "artwork/svg/sample-and-hold-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-sample-hold",
+      "title": "AN-1515: sample-and-hold function using an analogue switch",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/resources/app-notes/an-1515.html",
+      "type": "manufacturer",
+      "scope": "Public application note establishing the sample-and-hold acquisition function. No complete manufacturer example circuit or component values are reproduced.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

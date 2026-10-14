@@ -1,0 +1,111 @@
+{
+  "slug": "residual-current-circuit-breaker",
+  "name": "Residual-current circuit breaker",
+  "kind": "symbol",
+  "abbreviation": "RCCB",
+  "aliases": [
+    "residual-current device without overcurrent protection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An RCCB operates on residual current and has no integral overcurrent protection.",
+  "description": [
+    "An RCCB operates on residual current and has no integral overcurrent protection. The schematic needs both the sensing arrangement and the upstream or associated overcurrent protective device."
+  ],
+  "readingNotes": [
+    "Follow all monitored live conductors through the residual-current measurement path.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State residual-current rating",
+    "Identify type and pole count",
+    "Show associated overcurrent protection"
+  ],
+  "distinction": "An RCBO also includes overcurrent protection; an RCCB does not.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-breakers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-rcd-categories",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "core-balance-current-transformer",
+    "protective-earth"
+  ],
+  "artwork": "edu-residual-current-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/residual-current-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/residual-current-circuit-breaker.svg",
+  "id": "residual-current-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/residual-current-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/residual-current-circuit-breaker.json",
+  "svgPath": "artwork/svg/residual-current-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-breakers",
+      "title": "Circuit-breaker symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DB1548A3-A4D3-47E5-86AC-37000DC57D80.htm",
+      "type": "cad-reference",
+      "scope": "Circuit-breaker variants and thermal, magnetic and differential qualifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-rcd-categories",
+      "title": "Residual current device categories",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/faqs/FAQ000218859/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

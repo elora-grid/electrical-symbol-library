@@ -1,0 +1,78 @@
+{
+  "slug": "star-winding-connection",
+  "name": "Star winding connection",
+  "kind": "symbol",
+  "abbreviation": "STAR Y",
+  "aliases": [],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A star winding joins one end of each phase winding at a common point.",
+  "description": [
+    "A star winding joins one end of each phase winding at a common point. The external phase terminals and the common point determine the winding topology."
+  ],
+  "readingNotes": [
+    "Check whether the common point is internal or brought out as a neutral terminal.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show phase winding ends",
+    "Identify common point",
+    "Reference terminal designations"
+  ],
+  "distinction": "A drawn star point does not mean that it is accessible for external connection.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Three-phase winding"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-windings",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "generator"
+  ],
+  "artwork": "edu-star-winding-connection",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/star-winding-connection",
+  "illustration": "https://eloragrid.ai/library/illustrations/star-winding-connection.svg",
+  "id": "star-winding-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/star-winding-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/star-winding-connection.json",
+  "svgPath": "artwork/svg/star-winding-connection.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-windings",
+      "title": "AutoCAD Electrical: Winding arrangements and AC/DC indications",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3F5A759D-872A-4990-8AAE-7CCAFBBBD4C5.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

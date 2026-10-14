@@ -1,0 +1,88 @@
+{
+  "slug": "ga-battery-management-system-module",
+  "name": "Battery management system module",
+  "kind": "object",
+  "abbreviation": "BMS",
+  "aliases": [
+    "BMS controller",
+    "Battery management system module CAD",
+    "Battery management system module general arrangement",
+    "Battery management system module panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A BMS module performs the selected battery monitoring and control interface functions.",
+  "description": [
+    "A BMS module performs the selected battery monitoring and control interface functions.",
+    "Coordinate sensing, contactor-control, communications and battery connections. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate sensing, contactor-control, communications and battery connections.",
+    "A BMS controller and the complete battery enclosure are different scheduled objects."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate sensing, contactor-control, communications and battery connections.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A BMS controller and the complete battery enclosure are different scheduled objects.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-support",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-battery-management-system-module",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-battery-management-system-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-battery-management-system-module.svg",
+  "id": "ga-battery-management-system-module",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-battery-management-system-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-battery-management-system-module.json",
+  "svgPath": "artwork/svg/ga-battery-management-system-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-support",
+      "title": "Official Victron product documentation directory",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/support",
+      "type": "manufacturer",
+      "scope": "Public names and official product/manual resources for inverter, charger, storage, metering and control families. Product suitability and installation geometry require selected-model documentation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

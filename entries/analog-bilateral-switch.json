@@ -1,0 +1,82 @@
+{
+  "slug": "analog-bilateral-switch",
+  "name": "Analogue bilateral switch",
+  "kind": "symbol",
+  "abbreviation": "A-SW",
+  "aliases": [
+    "analog switch",
+    "bilateral transmission switch"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects or disconnects an analogue signal path under its documented digital control.",
+  "description": [
+    "Connects or disconnects an analogue signal path under its documented digital control.",
+    "On a schematic, identify the two signal terminals, supply rails and control active level and trace the switched analogue path and its reference limits. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Bilateral signal routing does not imply unrestricted voltage, current or galvanic isolation.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the two signal terminals, supply rails and control active level.",
+    "Trace the switched analogue path and its reference limits."
+  ],
+  "drawingChecklist": [
+    "Label the two signal terminals, supply rails and control active level.",
+    "Cross-reference the switched analogue path and its reference limits.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Bilateral signal routing does not imply unrestricted voltage, current or galvanic isolation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "A-SW — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two signal terminals, supply rails and control active level"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-analog-switch",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "digital-multiplexer",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-switch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/analog-bilateral-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/analog-bilateral-switch.svg",
+  "id": "analog-bilateral-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/analog-bilateral-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/analog-bilateral-switch.json",
+  "svgPath": "artwork/svg/analog-bilateral-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-analog-switch",
+      "title": "CD4066B — analogue bilateral switching",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/cd4066b.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of analogue bilateral switching. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

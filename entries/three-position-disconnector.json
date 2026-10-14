@@ -1,0 +1,100 @@
+{
+  "slug": "three-position-disconnector",
+  "name": "Three-position disconnector",
+  "kind": "symbol",
+  "abbreviation": "DS 3POS",
+  "aliases": [
+    "HDS11Q89",
+    "VDS11Q89"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-position disconnector selects between two paths and an intermediate position.",
+  "description": [
+    "A three-position disconnector selects between two paths and an intermediate position. Switchgear schematics must define each position and any linked earth or isolation function explicitly."
+  ],
+  "readingNotes": [
+    "The middle position must be labelled rather than assumed to be open or earthed.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name all three positions",
+    "Draw each connected path",
+    "Reference mechanical interlocks"
+  ],
+  "distinction": "Three positions describe available states; they do not imply that every transition can occur under load.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDS11Q89, VDS11Q89 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-disconnect-variants",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-three-position-disconnector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-position-disconnector",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-position-disconnector.svg",
+  "id": "three-position-disconnector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-position-disconnector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-position-disconnector.json",
+  "svgPath": "artwork/svg/three-position-disconnector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-disconnect-variants",
+      "title": "AutoCAD Electrical: Disconnector variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-745AF70A-8A25-4729-AAB7-408A61929B9E.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

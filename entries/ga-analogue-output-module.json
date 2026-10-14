@@ -1,0 +1,88 @@
+{
+  "slug": "ga-analogue-output-module",
+  "name": "Analogue output module",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "AO analog output card",
+    "Analogue output module CAD",
+    "Analogue output module general arrangement",
+    "Analogue output module panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An analogue output module sends the specified continuous command signals.",
+  "description": [
+    "An analogue output module sends the specified continuous command signals.",
+    "Document output commons, shielding and the receiving-device connection. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Document output commons, shielding and the receiving-device connection.",
+    "A module outline does not state its configured signal range or channel isolation."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Document output commons, shielding and the receiving-device connection.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A module outline does not state its configured signal range or channel isolation.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-analogue-output-module",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-analogue-output-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-analogue-output-module.svg",
+  "id": "ga-analogue-output-module",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-analogue-output-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-analogue-output-module.json",
+  "svgPath": "artwork/svg/ga-analogue-output-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

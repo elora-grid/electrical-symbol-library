@@ -1,0 +1,99 @@
+{
+  "slug": "indicator-lamp",
+  "name": "Indicator lamp",
+  "kind": "symbol",
+  "abbreviation": "Lamp",
+  "aliases": [
+    "pilot light",
+    "indicating light",
+    "status lamp"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A visual indicator associated with a documented control or equipment condition.",
+  "description": [
+    "An indicator lamp shows an operating condition defined by its circuit and label. The generic representation identifies an indicating element; it does not define what illumination means, the supply voltage or whether the device is continuously lit or flashing.",
+    "A schematic should explain the condition driving the indication. The front-panel description should match the electrical label, so a reviewer can follow the indication from operator interface to contact, relay or controller output."
+  ],
+  "readingNotes": [
+    "Read the text describing the indicated condition.",
+    "Follow the circuit supplying the lamp and identify any flashing or test function."
+  ],
+  "drawingChecklist": [
+    "Record the indication label.",
+    "Reference the supply and device type.",
+    "Align schematic identification with the panel layout."
+  ],
+  "distinction": "An indication mark does not establish that equipment is safe, isolated or de-energised. Its meaning comes from the full circuit and operating documentation.",
+  "facts": [
+    {
+      "label": "Purpose",
+      "value": "Visual indication"
+    },
+    {
+      "label": "Meaning",
+      "value": "Defined by label and control circuit"
+    },
+    {
+      "label": "Electrical characteristics",
+      "value": "Device-specific"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-lamps",
+      "relevance": "Public pilot-light and indication categories."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public lighting and indication drawing categories."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "relay-coil",
+    "plc-io",
+    "control-cabinet"
+  ],
+  "artwork": "lamp",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/indicator-lamp",
+  "illustration": "https://eloragrid.ai/library/illustrations/indicator-lamp.svg",
+  "id": "indicator-lamp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/indicator-lamp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/indicator-lamp.json",
+  "svgPath": "artwork/svg/indicator-lamp.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-lamps",
+      "title": "Pilot lights: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BBCEBBBA-24AD-4D3A-B106-39550AAACA6C.htm",
+      "type": "cad-reference",
+      "scope": "Pilot-light and indication variants. A symbol alone does not establish the indicated operating condition.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public pilot-light and indication categories."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public lighting and indication drawing categories."
+    }
+  ]
+}

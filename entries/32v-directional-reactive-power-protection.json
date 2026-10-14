@@ -1,0 +1,105 @@
+{
+  "slug": "32v-directional-reactive-power-protection",
+  "name": "Directional reactive-power protection",
+  "kind": "function",
+  "abbreviation": "32V",
+  "aliases": [
+    "VAR protection",
+    "directional VAr",
+    "reverse reactive power",
+    "ANSI 32V",
+    "IEEE 32V"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises forward or reverse reactive power using the selected relay's power-direction convention.",
+  "description": [
+    "Supervises forward or reverse reactive power using the selected relay's power-direction convention.",
+    "The drafting record should connect this function to the CT/VT measurement pairs and reactive-power sign reference, then trace the reactive-power alarm or operating output. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the CT/VT measurement pairs and reactive-power sign reference.",
+    "Trace the reactive-power alarm or operating output."
+  ],
+  "drawingChecklist": [
+    "Label the CT/VT measurement pairs and reactive-power sign reference.",
+    "Cross-reference the reactive-power alarm or operating output.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "In the cited Eaton devices 32V denotes VAR protection; V is not a universal indication of a voltage-only function.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "32V"
+    },
+    {
+      "label": "Base function",
+      "value": "32 — Directional power"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "32-directional-power",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/32v-directional-reactive-power-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/32v-directional-reactive-power-protection.svg",
+  "id": "32v-directional-reactive-power-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/32v-directional-reactive-power-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/32v-directional-reactive-power-protection.json",
+  "svgPath": "artwork/svg/32v-directional-reactive-power-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

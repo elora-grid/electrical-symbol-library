@@ -1,0 +1,85 @@
+{
+  "slug": "electrolytic-capacitor",
+  "name": "Electrolytic capacitor",
+  "kind": "symbol",
+  "abbreviation": "C ELEC",
+  "aliases": [
+    "HCA1EL",
+    "VCA1EL"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An electrolytic capacitor has a specified capacitance, voltage rating and any documented polarity requirement.",
+  "description": [
+    "An electrolytic capacitor has a specified capacitance, voltage rating and any documented polarity requirement. The drawing must preserve polarity where the chosen component is polarised."
+  ],
+  "readingNotes": [
+    "Check the actual component type before applying a polarity annotation.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State capacitance and voltage",
+    "Mark polarity if applicable",
+    "Reference operating conditions"
+  ],
+  "distinction": "Electrolytic construction does not describe every capacitor as interchangeable or necessarily nonpolarised.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCA1EL, VCA1EL (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-electrolytic-capacitor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/electrolytic-capacitor",
+  "illustration": "https://eloragrid.ai/library/illustrations/electrolytic-capacitor.svg",
+  "id": "electrolytic-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/electrolytic-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/electrolytic-capacitor.json",
+  "svgPath": "artwork/svg/electrolytic-capacitor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

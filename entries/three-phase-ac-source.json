@@ -1,0 +1,85 @@
+{
+  "slug": "three-phase-ac-source",
+  "name": "Three-phase AC source",
+  "kind": "symbol",
+  "abbreviation": "AC 3PH",
+  "aliases": [
+    "HPW1_3PH",
+    "VPW1_3PH"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-phase AC source identifies a documented three-phase supply boundary.",
+  "description": [
+    "A three-phase AC source identifies a documented three-phase supply boundary. Its nominal voltage, phase sequence and neutral availability must be stated where the design relies on them."
+  ],
+  "readingNotes": [
+    "Locate the source boundary before interpreting upstream ownership or available fault data.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name supply origin",
+    "State voltage and phase sequence",
+    "Reference neutral/earthing arrangement"
+  ],
+  "distinction": "Three-phase source designation does not establish an accessible neutral conductor.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPW1_3PH, VPW1_3PH (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "busbar"
+  ],
+  "artwork": "edu-three-phase-ac-source",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-ac-source",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-ac-source.svg",
+  "id": "three-phase-ac-source",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-ac-source",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-ac-source.json",
+  "svgPath": "artwork/svg/three-phase-ac-source.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

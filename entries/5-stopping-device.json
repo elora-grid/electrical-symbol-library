@@ -1,0 +1,98 @@
+{
+  "slug": "5-stopping-device",
+  "name": "Stopping device",
+  "kind": "function",
+  "abbreviation": "5",
+  "aliases": [
+    "stop device",
+    "stop function",
+    "ANSI 5",
+    "IEEE device 5"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Initiates a machine or unit shutdown by removing the relevant operating permission.",
+  "description": [
+    "Initiates a machine or unit shutdown by removing the relevant operating permission.",
+    "In a drafting package, connect this reference to the stop command and normally defined state. The associated drawing should trace the shutdown path and affected contactors; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the stop command and normally defined state.",
+    "Trace the shutdown path and affected contactors."
+  ],
+  "drawingChecklist": [
+    "Label the stop command and normally defined state.",
+    "Cross-reference the shutdown path and affected contactors.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A stopping device does not automatically provide an emergency-stop safety function.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "5"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The stop command and normally defined state"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "emergency-stop",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/5-stopping-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/5-stopping-device.svg",
+  "id": "5-stopping-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/5-stopping-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/5-stopping-device.json",
+  "svgPath": "artwork/svg/5-stopping-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

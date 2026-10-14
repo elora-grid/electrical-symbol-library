@@ -1,0 +1,86 @@
+{
+  "slug": "transfer-switch",
+  "name": "Transfer-switch assembly",
+  "kind": "object",
+  "abbreviation": "ATS",
+  "aliases": [
+    "automatic transfer switch",
+    "changeover assembly",
+    "source transfer switch"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An equipment assembly connecting a load to the selected supply source.",
+  "description": [
+    "A transfer-switch assembly connects a load to a selected source according to its documented operating arrangement. Automatic control can monitor sources and coordinate transfer, while the equipment and application establish the transition type and operating capabilities.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Identify source and load connections separately.",
+    "Read the permitted transition and control arrangement from the selected device documentation."
+  ],
+  "drawingChecklist": [
+    "Reference the exact assembly and transition type.",
+    "Identify source and load interfaces.",
+    "Link controls, switching and equipment drawings."
+  ],
+  "distinction": "A transfer switch and a generator paralleling system have different operating arrangements. An ATS label does not establish parallel-operation capability.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public manufacturer explanation of source-transfer functions."
+    }
+  ],
+  "related": [
+    "generator",
+    "circuit-breaker",
+    "switchboard"
+  ],
+  "artwork": "ats",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/transfer-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/transfer-switch.svg",
+  "id": "transfer-switch",
+  "canonicalUrl": "https://eloragrid.ai/objects/transfer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transfer-switch.json",
+  "svgPath": "artwork/svg/transfer-switch.svg",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer explanation of source-transfer functions."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "generator",
+  "name": "Generator",
+  "kind": "symbol",
+  "abbreviation": "GEN",
+  "aliases": [
+    "genset",
+    "generator set",
+    "alternator",
+    "HPW1G7",
+    "VPW1G7"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An electrical generating source represented in a power-system drawing.",
+  "description": [
+    "A generator representation identifies an electrical source in a power system. Its electrical connections and associated switching describe how it supplies the system. The equipment documentation establishes machine type, rating, voltage, earthing and operating capabilities.",
+    "Generator systems can also include transfer controls, synchronising, protection and paralleling equipment. These functions should be identified separately rather than compressed into a single generic generator mark. A GA drawing provides the physical package and interface information."
+  ],
+  "readingNotes": [
+    "Follow the generator connection through the associated switching and protection.",
+    "Identify whether the drawing describes standby transfer, parallel operation or another documented system arrangement."
+  ],
+  "drawingChecklist": [
+    "Reference the generator equipment schedule.",
+    "Cross-reference switching, control and protection.",
+    "Link the package GA and installation interfaces."
+  ],
+  "distinction": "A generator symbol identifies an electrical source. It does not establish permission to parallel with another source or define the transfer sequence.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Electrical source"
+    },
+    {
+      "label": "Operating arrangement",
+      "value": "Documented at system level"
+    },
+    {
+      "label": "Physical package",
+      "value": "Separate GA and equipment reference"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HPW1G7, VPW1G7 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public generator types and representations."
+    },
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Manufacturer generator switchgear and controls context."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "transfer-switch",
+    "25-synchronism-check",
+    "32-directional-power"
+  ],
+  "artwork": "generator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/generator.svg",
+  "id": "generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/generator.json",
+  "svgPath": "artwork/svg/generator.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator types and representations."
+    },
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer generator switchgear and controls context."
+    }
+  ]
+}

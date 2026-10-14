@@ -1,0 +1,88 @@
+{
+  "slug": "ga-disconnect-terminal-block",
+  "name": "Disconnect terminal block",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "knife disconnect terminal",
+    "Disconnect terminal block CAD",
+    "Disconnect terminal block general arrangement",
+    "Disconnect terminal block panel layout"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A disconnect terminal provides a defined separable point in a wiring circuit.",
+  "description": [
+    "A disconnect terminal provides a defined separable point in a wiring circuit.",
+    "Show the opening direction, test-access space and normal operating position. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show the opening direction, test-access space and normal operating position.",
+    "A signal disconnect terminal should not be assumed suitable for CT secondary testing."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show the opening direction, test-access space and normal operating position.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A signal disconnect terminal should not be assumed suitable for CT secondary testing.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-phoenix-terminals",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "terminal-strip",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-disconnect-terminal-block",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-disconnect-terminal-block",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-disconnect-terminal-block.svg",
+  "id": "ga-disconnect-terminal-block",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-disconnect-terminal-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-disconnect-terminal-block.json",
+  "svgPath": "artwork/svg/ga-disconnect-terminal-block.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-phoenix-terminals",
+      "title": "Terminal-block types and assembly accessories",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public terminal-block categories and manufacturer assembly information; selected product documentation controls dimensions and connection details.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "set-reset-latch",
+  "name": "Set-reset latch",
+  "kind": "symbol",
+  "abbreviation": "SR-LATCH",
+  "aliases": [
+    "S R latch",
+    "RS bistable",
+    "set reset memory"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Retains a digital state that is changed by the defined set or reset input conditions.",
+  "description": [
+    "Retains a digital state that is changed by the defined set or reset input conditions.",
+    "On a schematic, identify the set/reset active levels and any prohibited simultaneous condition and trace the stored output and reset/startup logic. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Active-high and active-low SR implementations have different input conventions; a bare SR label does not resolve simultaneous-input behaviour.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the set/reset active levels and any prohibited simultaneous condition.",
+    "Trace the stored output and reset/startup logic."
+  ],
+  "drawingChecklist": [
+    "Label the set/reset active levels and any prohibited simultaneous condition.",
+    "Cross-reference the stored output and reset/startup logic.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Active-high and active-low SR implementations have different input conventions; a bare SR label does not resolve simultaneous-input behaviour.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "SR-LATCH — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The set/reset active levels and any prohibited simultaneous condition"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-ls279",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "transparent-d-latch",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-sr",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/set-reset-latch",
+  "illustration": "https://eloragrid.ai/library/illustrations/set-reset-latch.svg",
+  "id": "set-reset-latch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/set-reset-latch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/set-reset-latch.json",
+  "svgPath": "artwork/svg/set-reset-latch.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-ls279",
+      "title": "SN74LS279A — set-reset latches",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74LS279A",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of set-reset latches. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

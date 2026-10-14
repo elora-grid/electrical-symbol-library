@@ -1,0 +1,90 @@
+{
+  "slug": "normally-open-contact",
+  "name": "Normally open contact",
+  "kind": "symbol",
+  "abbreviation": "NO",
+  "aliases": [
+    "make contact",
+    "NO contact",
+    "open contact",
+    "HCR21",
+    "VCR21"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A contact shown open in the normal state defined for its device.",
+  "description": [
+    "A normally open contact is open in the normal state defined for the device. Operating its relay, pushbutton or other parent device may close the contact. The meaning of normal must be established from the drawing convention and equipment documentation; it is not necessarily the current live condition of the installation.",
+    "A schematic usually identifies the parent device and the relevant terminals. Several contact representations can belong to one relay or contactor. Cross-references connect those representations to their coil or parent equipment."
+  ],
+  "readingNotes": [
+    "Read the parent device identifier before interpreting the contact function.",
+    "Check the terminal identifiers and the state convention in the drawing legend."
+  ],
+  "drawingChecklist": [
+    "Identify the parent coil or actuator.",
+    "Use the documented terminal designation.",
+    "Cross-reference other contacts belonging to the same device."
+  ],
+  "distinction": "Normally open describes the stated normal condition. A position indication or operating snapshot may use a different state convention.",
+  "facts": [
+    {
+      "label": "Normal state",
+      "value": "Open, as defined for the parent device"
+    },
+    {
+      "label": "Terminal designation",
+      "value": "Manufacturer-specific"
+    },
+    {
+      "label": "Parent relationship",
+      "value": "Coil, actuator or equipment cross-reference"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HCR21, VCR21 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public normally open relay contact categories."
+    }
+  ],
+  "related": [
+    "normally-closed-contact",
+    "changeover-contact",
+    "relay-coil",
+    "pushbutton-no"
+  ],
+  "artwork": "contact-no",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/normally-open-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/normally-open-contact.svg",
+  "id": "normally-open-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/normally-open-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/normally-open-contact.json",
+  "svgPath": "artwork/svg/normally-open-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public normally open relay contact categories."
+    }
+  ]
+}

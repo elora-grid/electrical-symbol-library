@@ -1,0 +1,104 @@
+{
+  "slug": "87h-unrestrained-high-set-differential-protection",
+  "name": "Unrestrained high-set differential protection",
+  "kind": "function",
+  "abbreviation": "87H",
+  "aliases": [
+    "high set differential",
+    "unrestrained differential",
+    "ANSI 87H",
+    "IEEE 87H"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Provides the documented high-set or unrestrained differential element in the cited relay family.",
+  "description": [
+    "Provides the documented high-set or unrestrained differential element in the cited relay family.",
+    "The drafting record should connect this function to the same protected-zone CT inputs and high-set element reference, then trace the unrestrained differential trip output. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the same protected-zone CT inputs and high-set element reference.",
+    "Trace the unrestrained differential trip output."
+  ],
+  "drawingChecklist": [
+    "Label the same protected-zone CT inputs and high-set element reference.",
+    "Cross-reference the unrestrained differential trip output.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "An unrestrained high-set element differs from the percentage-restrained differential element and must retain its own setting reference.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "87H"
+    },
+    {
+      "label": "Base function",
+      "value": "87 — Differential protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "87-differential",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/87h-unrestrained-high-set-differential-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/87h-unrestrained-high-set-differential-protection.svg",
+  "id": "87h-unrestrained-high-set-differential-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/87h-unrestrained-high-set-differential-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/87h-unrestrained-high-set-differential-protection.json",
+  "svgPath": "artwork/svg/87h-unrestrained-high-set-differential-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

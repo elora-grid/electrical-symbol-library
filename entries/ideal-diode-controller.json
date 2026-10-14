@@ -1,0 +1,82 @@
+{
+  "slug": "ideal-diode-controller",
+  "name": "Ideal-diode controller",
+  "kind": "symbol",
+  "abbreviation": "IDEAL-D",
+  "aliases": [
+    "active diode controller",
+    "reverse current blocking controller"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Controls an external transistor to obtain the documented low-loss directional or reverse-blocking power path.",
+  "description": [
+    "Controls an external transistor to obtain the documented low-loss directional or reverse-blocking power path.",
+    "On a schematic, identify the input/output sensing nodes and external MOSFET gate/source connections and trace the protected supply path and reverse-current control. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An ideal-diode controller is an active circuit with operating limits; the term does not mean a lossless physical diode.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input/output sensing nodes and external MOSFET gate/source connections.",
+    "Trace the protected supply path and reverse-current control."
+  ],
+  "drawingChecklist": [
+    "Label the input/output sensing nodes and external MOSFET gate/source connections.",
+    "Cross-reference the protected supply path and reverse-current control.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An ideal-diode controller is an active circuit with operating limits; the term does not mean a lossless physical diode.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "IDEAL-D — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input/output sensing nodes and external MOSFET gate/source connections"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ideal-diode",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "redundant-power-supply-decoupling-module",
+    "diode"
+  ],
+  "artwork": "electronics-ideal-diode",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ideal-diode-controller",
+  "illustration": "https://eloragrid.ai/library/illustrations/ideal-diode-controller.svg",
+  "id": "ideal-diode-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ideal-diode-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ideal-diode-controller.json",
+  "svgPath": "artwork/svg/ideal-diode-controller.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ideal-diode",
+      "title": "LM74700-Q1 — ideal-diode controller",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/LM74700-Q1",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of ideal-diode controller. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

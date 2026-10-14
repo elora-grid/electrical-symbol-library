@@ -1,0 +1,88 @@
+{
+  "slug": "ga-enclosure-air-to-air-heat-exchanger",
+  "name": "Enclosure air-to-air heat exchanger",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "panel heat exchanger",
+    "Enclosure air-to-air heat exchanger CAD",
+    "Enclosure air-to-air heat exchanger general arrangement",
+    "Enclosure air-to-air heat exchanger panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A heat exchanger transfers heat across the specified cabinet/environment boundary.",
+  "description": [
+    "A heat exchanger transfers heat across the specified cabinet/environment boundary.",
+    "Coordinate both air paths, mounting and service access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate both air paths, mounting and service access.",
+    "Its cooling behaviour differs from a refrigeration air conditioner."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate both air paths, mounting and service access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Its cooling behaviour differs from a refrigeration air conditioner.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-enclosure-air-to-air-heat-exchanger",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-enclosure-air-to-air-heat-exchanger",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-enclosure-air-to-air-heat-exchanger.svg",
+  "id": "ga-enclosure-air-to-air-heat-exchanger",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-enclosure-air-to-air-heat-exchanger",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-enclosure-air-to-air-heat-exchanger.json",
+  "svgPath": "artwork/svg/ga-enclosure-air-to-air-heat-exchanger.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "iec-gas-flow-actuation-qualifier",
+  "name": "Gas-flow actuation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021404",
+  "aliases": [
+    "Gas-flow actuation qualifier symbol",
+    "Q021404",
+    "Gas-flow actuation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A gas-flow qualifier identifies operation responding to gas movement.",
+  "description": [
+    "A gas-flow qualifier identifies operation responding to gas movement. Gas-flow actuation identifies the moving-gas condition used by the device. It is not equivalent to a static pressure condition, even where both participate in one ventilation or process sequence.",
+    "Document the monitored path and the resulting electrical input. A separate description is needed for any alarm delay, operating threshold or fan permissive."
+  ],
+  "readingNotes": [
+    "Distinguish the gas process from any adjacent liquid-flow or pressure measurement.",
+    "Gas flow and gas pressure are different process quantities."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Distinguish the gas process from any adjacent liquid-flow or pressure measurement.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Gas flow and gas pressure are different process quantities.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021404 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Distinguish the gas process from any adjacent liquid-flow or pressure measurement."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-gas-flow-actuation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Gas-flow actuation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-gas-flow-actuation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-gas-flow-actuation-qualifier.svg",
+  "id": "iec-gas-flow-actuation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-gas-flow-actuation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-gas-flow-actuation-qualifier.json",
+  "svgPath": "artwork/svg/iec-gas-flow-actuation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

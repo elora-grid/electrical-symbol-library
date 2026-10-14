@@ -1,0 +1,77 @@
+{
+  "slug": "ac-to-dc-power-supply",
+  "name": "AC-to-DC power supply",
+  "kind": "symbol",
+  "abbreviation": "PSU AC-DC",
+  "aliases": [],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An AC/DC power supply converts a documented AC input to a DC output for control or auxiliary circuits.",
+  "description": [
+    "An AC/DC power supply converts a documented AC input to a DC output for control or auxiliary circuits. Its input protection, DC common and any PE connection are shown separately."
+  ],
+  "readingNotes": [
+    "Identify the DC output polarity and any intentional connection to earth.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State AC input range",
+    "State DC output rating",
+    "Show input protection and PE"
+  ],
+  "distinction": "A regulated power supply includes functions beyond a bridge rectifier alone.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-supplies",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-ac-to-dc-power-supply",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ac-to-dc-power-supply",
+  "illustration": "https://eloragrid.ai/library/illustrations/ac-to-dc-power-supply.svg",
+  "id": "ac-to-dc-power-supply",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ac-to-dc-power-supply",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ac-to-dc-power-supply.json",
+  "svgPath": "artwork/svg/ac-to-dc-power-supply.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-supplies",
+      "title": "AC/DC power supplies and DC/DC converters",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/power-supplies/power-supplies-with-maximum-functionality",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "75-position-changing-mechanism",
+  "name": "Position-changing mechanism",
+  "kind": "function",
+  "abbreviation": "75",
+  "aliases": [
+    "position changing device",
+    "position mechanism",
+    "ANSI 75",
+    "IEEE device 75"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Moves an apparatus between defined physical positions.",
+  "description": [
+    "Moves an apparatus between defined physical positions.",
+    "In a drafting package, connect this reference to the mechanism drive and selected target positions. The associated drawing should trace the actuator command, travel limits and status circuits; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the mechanism drive and selected target positions.",
+    "Trace the actuator command, travel limits and status circuits."
+  ],
+  "drawingChecklist": [
+    "Label the mechanism drive and selected target positions.",
+    "Cross-reference the actuator command, travel limits and status circuits.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Device 75 moves equipment; device 33 observes a position and device 84 describes an operating mechanism.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "75"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The mechanism drive and selected target positions"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/75-position-changing-mechanism",
+  "illustration": "https://eloragrid.ai/library/illustrations/75-position-changing-mechanism.svg",
+  "id": "75-position-changing-mechanism",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/75-position-changing-mechanism",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/75-position-changing-mechanism.json",
+  "svgPath": "artwork/svg/75-position-changing-mechanism.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-generator-starting-battery",
+  "name": "Generator starting battery",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "engine cranking battery",
+    "Generator starting battery CAD",
+    "Generator starting battery general arrangement",
+    "Generator starting battery panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A starting battery supplies the documented engine starting circuit.",
+  "description": [
+    "A starting battery supplies the documented engine starting circuit.",
+    "Show battery restraint, cable approach and replacement access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show battery restraint, cable approach and replacement access.",
+    "A starting battery and a station control battery perform different duties."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show battery restraint, cable approach and replacement access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A starting battery and a station control battery perform different duties.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-generator-starting-battery",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-generator-starting-battery",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-generator-starting-battery.svg",
+  "id": "ga-generator-starting-battery",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-generator-starting-battery",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-generator-starting-battery.json",
+  "svgPath": "artwork/svg/ga-generator-starting-battery.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

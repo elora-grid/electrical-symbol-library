@@ -1,0 +1,91 @@
+{
+  "slug": "iec-liquid-level-actuation-qualifier",
+  "name": "Liquid-level actuation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021401",
+  "aliases": [
+    "Liquid-level actuation qualifier symbol",
+    "Q021401",
+    "Liquid-level actuation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies actuation responding to liquid level.",
+  "description": [
+    "This qualifier identifies actuation responding to liquid level. Level is the process condition that initiates operation. It should be distinguished from a drawing of the level instrument, the electrical output contact and the control action that follows.",
+    "In a generator fuel system, for example, a level input may participate in pump control or an alarm. The qualifier identifies the input principle while the cause-and-effect schedule states what happens."
+  ],
+  "readingNotes": [
+    "State the sensed vessel or level point and the associated contact condition.",
+    "A level-actuation qualifier does not provide a setpoint or switch mounting height."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the sensed vessel or level point and the associated contact condition.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A level-actuation qualifier does not provide a setpoint or switch mounting height.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021401 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "State the sensed vessel or level point and the associated contact condition."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-liquid-level-actuation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Liquid-level actuation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-liquid-level-actuation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-liquid-level-actuation-qualifier.svg",
+  "id": "iec-liquid-level-actuation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-liquid-level-actuation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-liquid-level-actuation-qualifier.json",
+  "svgPath": "artwork/svg/iec-liquid-level-actuation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

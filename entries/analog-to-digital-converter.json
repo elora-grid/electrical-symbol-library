@@ -1,0 +1,83 @@
+{
+  "slug": "analog-to-digital-converter",
+  "name": "Analogue-to-digital converter",
+  "kind": "symbol",
+  "abbreviation": "ADC",
+  "aliases": [
+    "analog to digital converter",
+    "A D converter",
+    "A/D"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Converts a sampled analogue quantity into the selected digital representation.",
+  "description": [
+    "Converts a sampled analogue quantity into the selected digital representation.",
+    "On a schematic, identify the analogue input, reference, sampling/clock and supply domains and trace the output word or serial interface and data-ready signal. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An ADC block does not define resolution, coding, bandwidth or input limits without the chosen converter documentation.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the analogue input, reference, sampling/clock and supply domains.",
+    "Trace the output word or serial interface and data-ready signal."
+  ],
+  "drawingChecklist": [
+    "Label the analogue input, reference, sampling/clock and supply domains.",
+    "Cross-reference the output word or serial interface and data-ready signal.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An ADC block does not define resolution, coding, bandwidth or input limits without the chosen converter documentation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "ADC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The analogue input, reference, sampling/clock and supply domains"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-adc",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "plc-analog-input",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-adc",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/analog-to-digital-converter",
+  "illustration": "https://eloragrid.ai/library/illustrations/analog-to-digital-converter.svg",
+  "id": "analog-to-digital-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/analog-to-digital-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/analog-to-digital-converter.json",
+  "svgPath": "artwork/svg/analog-to-digital-converter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-adc",
+      "title": "AD4682 — analogue-to-digital conversion",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ad4682.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for analogue-to-digital conversion. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

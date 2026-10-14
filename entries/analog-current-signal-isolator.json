@@ -1,0 +1,77 @@
+{
+  "slug": "analog-current-signal-isolator",
+  "name": "Analog current signal isolator",
+  "kind": "symbol",
+  "abbreviation": "ISO I-I",
+  "aliases": [],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A current signal isolator transfers a documented analog current input to an output while providing the specified electrical separation.",
+  "description": [
+    "A current signal isolator transfers a documented analog current input to an output while providing the specified electrical separation. Signal input, output and auxiliary supply are distinct terminal groups."
+  ],
+  "readingNotes": [
+    "Determine active and passive current-loop roles at both interfaces.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State input/output range",
+    "Show separate commons",
+    "Reference supply and isolation rating"
+  ],
+  "distinction": "Signal isolation is different from changing the power-system voltage with a transformer.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-signal-isolator",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-analog-current-signal-isolator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/analog-current-signal-isolator",
+  "illustration": "https://eloragrid.ai/library/illustrations/analog-current-signal-isolator.svg",
+  "id": "analog-current-signal-isolator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/analog-current-signal-isolator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/analog-current-signal-isolator.json",
+  "svgPath": "artwork/svg/analog-current-signal-isolator.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-signal-isolator",
+      "title": "Analog current signal isolation",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-us/products/signal-conditioner-mcr-c-i-i-0b-0b-dci-2810955",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

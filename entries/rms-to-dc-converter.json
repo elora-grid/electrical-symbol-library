@@ -1,0 +1,82 @@
+{
+  "slug": "rms-to-dc-converter",
+  "name": "RMS-to-DC converter",
+  "kind": "symbol",
+  "abbreviation": "RMS-DC",
+  "aliases": [
+    "true RMS converter",
+    "RMS measurement IC"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Produces a DC output related to the RMS value of its input signal under the selected implementation.",
+  "description": [
+    "Produces a DC output related to the RMS value of its input signal under the selected implementation.",
+    "On a schematic, identify the AC input scaling, averaging/filter network and output reference and trace the RMS measurement output and receiving converter. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "RMS conversion measures a specific signal quantity; an ordinary rectifier/average circuit does not universally produce the same result.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the AC input scaling, averaging/filter network and output reference.",
+    "Trace the RMS measurement output and receiving converter."
+  ],
+  "drawingChecklist": [
+    "Label the AC input scaling, averaging/filter network and output reference.",
+    "Cross-reference the RMS measurement output and receiving converter.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "RMS conversion measures a specific signal quantity; an ordinary rectifier/average circuit does not universally produce the same result.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "RMS-DC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The AC input scaling, averaging/filter network and output reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-rms",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "active-power-indicator",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-rms",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/rms-to-dc-converter",
+  "illustration": "https://eloragrid.ai/library/illustrations/rms-to-dc-converter.svg",
+  "id": "rms-to-dc-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/rms-to-dc-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/rms-to-dc-converter.json",
+  "svgPath": "artwork/svg/rms-to-dc-converter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-rms",
+      "title": "AD8436 — RMS-to-DC conversion",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ad8436.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for rms-to-dc conversion. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

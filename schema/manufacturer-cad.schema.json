@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/elora-grid/electrical-symbol-library/main/schema/manufacturer-cad.schema.json",
+  "title": "External manufacturer CAD file metadata",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1800
+    },
+    "canonicalDirectory": {
+      "const": "https://eloragrid.ai/library/manufacturer-cad"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1800
+    },
+    "query": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "page": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "limit": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "returned": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "totalPages": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "bulkExport": {
+      "const": "https://eloragrid.ai/library/manufacturer-cad.json?all=1"
+    },
+    "fileListings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "family": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "format": {
+            "enum": [
+              "DWG",
+              "DXF",
+              "STEP",
+              "IGES",
+              "RFA",
+              "IFC",
+              "SAT",
+              "DGN"
+            ]
+          },
+          "downloadUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "sourceId": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "access": {
+            "enum": [
+              "direct",
+              "archive-member"
+            ]
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "archiveMember": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 800
+          }
+        },
+        "required": [
+          "id",
+          "publisher",
+          "family",
+          "name",
+          "format",
+          "downloadUrl",
+          "sourceUrl",
+          "sourceId",
+          "checkedOn",
+          "access",
+          "scope"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "publisher",
+    "canonicalDirectory",
+    "scope",
+    "query",
+    "count",
+    "page",
+    "limit",
+    "returned",
+    "totalPages",
+    "bulkExport",
+    "fileListings"
+  ],
+  "additionalProperties": false
+}

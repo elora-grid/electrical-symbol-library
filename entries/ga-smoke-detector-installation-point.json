@@ -1,0 +1,88 @@
+{
+  "slug": "ga-smoke-detector-installation-point",
+  "name": "Smoke detector installation point",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "fire detection device",
+    "Smoke detector installation point CAD",
+    "Smoke detector installation point general arrangement",
+    "Smoke detector installation point panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A detector installation point records the selected fire-detection location in a coordinated room drawing.",
+  "description": [
+    "A detector installation point records the selected fire-detection location in a coordinated room drawing.",
+    "Cross-reference the fire designer's device type, location and wiring documentation. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Cross-reference the fire designer's device type, location and wiring documentation.",
+    "A concept position does not establish fire-code coverage or suitability for a battery environment."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Cross-reference the fire designer's device type, location and wiring documentation.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A concept position does not establish fire-code coverage or suitability for a battery environment.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-smoke-detector-installation-point",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-smoke-detector-installation-point",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-smoke-detector-installation-point.svg",
+  "id": "ga-smoke-detector-installation-point",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-smoke-detector-installation-point",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-smoke-detector-installation-point.json",
+  "svgPath": "artwork/svg/ga-smoke-detector-installation-point.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "p-channel-jfet",
+  "name": "P-channel JFET",
+  "kind": "symbol",
+  "abbreviation": "P-JFET",
+  "aliases": [
+    "junction FET P channel"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A junction field-effect transistor using a P-type channel and the corresponding gate-bias polarity.",
+  "description": [
+    "A junction field-effect transistor using a P-type channel and the corresponding gate-bias polarity.",
+    "On a schematic, identify the gate junction polarity and drain/source references and trace the analogue control or amplifier path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "P-channel and N-channel JFETs use opposite gate-bias polarity; the arrow and manufacturer terminal diagram resolve the type.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the gate junction polarity and drain/source references.",
+    "Trace the analogue control or amplifier path."
+  ],
+  "drawingChecklist": [
+    "Label the gate junction polarity and drain/source references.",
+    "Cross-reference the analogue control or amplifier path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "P-channel and N-channel JFETs use opposite gate-bias polarity; the arrow and manufacturer terminal diagram resolve the type.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "P-JFET — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The gate junction polarity and drain/source references"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-jfet-p",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-jfet",
+    "diode"
+  ],
+  "artwork": "electronics-jfet-p",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/p-channel-jfet",
+  "illustration": "https://eloragrid.ai/library/illustrations/p-channel-jfet.svg",
+  "id": "p-channel-jfet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/p-channel-jfet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/p-channel-jfet.json",
+  "svgPath": "artwork/svg/p-channel-jfet.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-jfet-p",
+      "title": "JFET master table with explicit P-channel device classification",
+      "publisher": "InterFET",
+      "url": "https://interfet.com/jfet-master-table/",
+      "type": "manufacturer",
+      "scope": "Public primary manufacturer table identifying P-channel and N-channel device families. Referenced for device-type evidence; table values and package geometry are not reproduced.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

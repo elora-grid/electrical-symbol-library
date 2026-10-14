@@ -1,0 +1,84 @@
+{
+  "slug": "late-break-normally-closed-contact",
+  "name": "Late-break normally-closed contact",
+  "kind": "symbol",
+  "abbreviation": "NC LATE",
+  "aliases": [
+    "HCR228F",
+    "VCR228F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A late-break NC contact opens later in the documented operating sequence than specified associated contacts.",
+  "description": [
+    "A late-break NC contact opens later in the documented operating sequence than specified associated contacts. The function requires a common-device reference and a sequence description."
+  ],
+  "readingNotes": [
+    "Trace the retained circuit path while other contacts have already changed state.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify linked contacts",
+    "State late-opening order",
+    "Reference device sequence"
+  ],
+  "distinction": "A late-break contact and an off-delay contact achieve delay by different mechanisms.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR228F, VCR228F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-late-break-normally-closed-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/late-break-normally-closed-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/late-break-normally-closed-contact.svg",
+  "id": "late-break-normally-closed-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/late-break-normally-closed-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/late-break-normally-closed-contact.json",
+  "svgPath": "artwork/svg/late-break-normally-closed-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-mppt-solar-charge-controller",
+  "name": "MPPT solar charge controller",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "solar regulator",
+    "MPPT solar charge controller CAD",
+    "MPPT solar charge controller general arrangement",
+    "MPPT solar charge controller panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An MPPT controller interfaces the selected photovoltaic source with a DC charging arrangement.",
+  "description": [
+    "An MPPT controller interfaces the selected photovoltaic source with a DC charging arrangement.",
+    "Coordinate PV and battery terminals, cooling and communication interfaces. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate PV and battery terminals, cooling and communication interfaces.",
+    "A charge controller is not a grid-connected AC inverter."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate PV and battery terminals, cooling and communication interfaces.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A charge controller is not a grid-connected AC inverter.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-support",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-mppt-solar-charge-controller",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-mppt-solar-charge-controller",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-mppt-solar-charge-controller.svg",
+  "id": "ga-mppt-solar-charge-controller",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-mppt-solar-charge-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-mppt-solar-charge-controller.json",
+  "svgPath": "artwork/svg/ga-mppt-solar-charge-controller.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-support",
+      "title": "Official Victron product documentation directory",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/support",
+      "type": "manufacturer",
+      "scope": "Public names and official product/manual resources for inverter, charger, storage, metering and control families. Product suitability and installation geometry require selected-model documentation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

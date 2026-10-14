@@ -1,0 +1,76 @@
+{
+  "slug": "plc-analog-input",
+  "name": "PLC analog input",
+  "kind": "symbol",
+  "abbreviation": "AI",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC analog input measures a documented voltage, current or sensor quantity.",
+  "description": [
+    "A PLC analog input measures a documented voltage, current or sensor quantity. Its signal range, common and any shield/earth connection require explicit wiring information."
+  ],
+  "readingNotes": [
+    "Identify the selected channel mode before interpreting its terminals.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State signal type/range",
+    "Show signal common and shield",
+    "Reference channel configuration"
+  ],
+  "distinction": "Analog measurement carries a range of values; a digital input reads a discrete state.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Controller interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-analog-io",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "terminal"
+  ],
+  "artwork": "edu-plc-analog-input",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-analog-input",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-analog-input.svg",
+  "id": "plc-analog-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-analog-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-analog-input.json",
+  "svgPath": "artwork/svg/plc-analog-input.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-analog-io",
+      "title": "Modicon TM3 analog I/O hardware guide",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/EIO0000003131/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "46pd-phase-discontinuity-protection",
+  "name": "Phase-discontinuity protection",
+  "kind": "function",
+  "abbreviation": "46PD",
+  "aliases": [
+    "open phase",
+    "phase discontinuity",
+    "PDNSPTOC",
+    "ANSI 46PD",
+    "IEEE 46PD"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Uses current-sequence relationships to detect a phase-discontinuity condition.",
+  "description": [
+    "Uses current-sequence relationships to detect a phase-discontinuity condition.",
+    "The drafting record should connect this function to the three phase CT circuits and current-unbalance ratio reference, then trace the open-phase alarm or trip logic. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (ABB Relion 620 function mapping). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the three phase CT circuits and current-unbalance ratio reference.",
+    "Trace the open-phase alarm or trip logic."
+  ],
+  "drawingChecklist": [
+    "Label the three phase CT circuits and current-unbalance ratio reference.",
+    "Cross-reference the open-phase alarm or trip logic.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "ABB's 46PD application is phase discontinuity; a phase-order relay and an ordinary overcurrent element address different conditions.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "46PD"
+    },
+    {
+      "label": "Base function",
+      "value": "46 — Current unbalance / negative sequence"
+    },
+    {
+      "label": "Published mapping",
+      "value": "ABB Relion 620 function mapping"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-mappings",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "46-current-unbalance",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/46pd-phase-discontinuity-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/46pd-phase-discontinuity-protection.svg",
+  "id": "46pd-phase-discontinuity-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/46pd-phase-discontinuity-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/46pd-phase-discontinuity-protection.json",
+  "svgPath": "artwork/svg/46pd-phase-discontinuity-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-mappings",
+      "title": "Relion 620 series: published protection function and designation mappings",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Manufacturer mapping of function names, IEC identifiers and ANSI labels. These are examples for a documented product family, not universal equivalences between standards or products.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

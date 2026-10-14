@@ -1,0 +1,84 @@
+{
+  "slug": "three-wire-inductive-proximity-switch",
+  "name": "Three-wire inductive proximity switch",
+  "kind": "symbol",
+  "abbreviation": "PROX IND 3W",
+  "aliases": [
+    "HPX11IN3",
+    "VPX11IN3"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-wire inductive proximity switch uses separate supply, common and output conductors.",
+  "description": [
+    "A three-wire inductive proximity switch uses separate supply, common and output conductors. Its output polarity and load connection must match the receiving input module."
+  ],
+  "readingNotes": [
+    "Follow the output common and receiving input polarity together.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name three terminals",
+    "State PNP or NPN as specified",
+    "Reference PLC input compatibility"
+  ],
+  "distinction": "Three-wire construction describes wiring; NO or NC describes the output's documented switching behaviour.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPX11IN3, VPX11IN3 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-inductive-sensors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-three-wire-inductive-proximity-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-wire-inductive-proximity-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-wire-inductive-proximity-switch.svg",
+  "id": "three-wire-inductive-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-wire-inductive-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-wire-inductive-proximity-switch.json",
+  "svgPath": "artwork/svg/three-wire-inductive-proximity-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-inductive-sensors",
+      "title": "AutoCAD Electrical: Inductive proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-596652AB-6555-4F9A-B575-555D40C2ECD4.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

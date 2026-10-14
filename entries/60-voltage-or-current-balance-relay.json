@@ -1,0 +1,99 @@
+{
+  "slug": "60-voltage-or-current-balance-relay",
+  "name": "Voltage or current balance relay",
+  "kind": "function",
+  "abbreviation": "60",
+  "aliases": [
+    "balance relay",
+    "loss of potential",
+    "VT fuse failure",
+    "ANSI 60",
+    "IEEE device 60"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Compares related measured circuits or quantities to detect an abnormal imbalance.",
+  "description": [
+    "Compares related measured circuits or quantities to detect an abnormal imbalance.",
+    "In a drafting package, connect this reference to the compared voltage or current circuits. The associated drawing should trace the balance alarm and any blocked protection functions; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the compared voltage or current circuits.",
+    "Trace the balance alarm and any blocked protection functions."
+  ],
+  "drawingChecklist": [
+    "Label the compared voltage or current circuits.",
+    "Cross-reference the balance alarm and any blocked protection functions.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A 60 label may denote loss-of-potential supervision in a modern relay; it is not universally a complete VT fuse-failure scheme.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "60"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The compared voltage or current circuits"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-secogear",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/60-voltage-or-current-balance-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/60-voltage-or-current-balance-relay.svg",
+  "id": "60-voltage-or-current-balance-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/60-voltage-or-current-balance-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/60-voltage-or-current-balance-relay.json",
+  "svgPath": "artwork/svg/60-voltage-or-current-balance-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-secogear",
+      "title": "SecoGear medium-voltage switchgear application and technical guide, DET-882",
+      "publisher": "ABB",
+      "url": "https://library.e.abb.com/public/a06cf4cf38b34800b27bb337ab12f74f/DET-882%20SecoGear%205kV-15kV%20IEEE%20Metal%20Clad%20Switchgear_Application%20and%20installation%20guide.pdf",
+      "type": "manufacturer",
+      "scope": "Public switchgear application guide with a device-number reference table. Used to cross-check 54, 61, 62 and specialist labels. Text, photographs and manufacturer diagrams are linked only and are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

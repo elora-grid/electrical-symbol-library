@@ -1,0 +1,84 @@
+{
+  "slug": "loss-of-voltage-monitoring-relay",
+  "name": "Loss-of-voltage monitoring relay",
+  "kind": "symbol",
+  "abbreviation": "U LOSS",
+  "aliases": [
+    "HCR1F39",
+    "VCR1F39"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A loss-of-voltage relay changes its output for a documented absence-of-voltage condition.",
+  "description": [
+    "A loss-of-voltage relay changes its output for a documented absence-of-voltage condition. Schematics distinguish measurement failure, actual source loss and auxiliary-supply loss where the design requires them."
+  ],
+  "readingNotes": [
+    "Trace the monitored voltage independently from relay auxiliary power.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify monitored source",
+    "State loss criterion",
+    "Show output and supply-loss behaviour"
+  ],
+  "distinction": "Loss-of-voltage indication is not necessarily the same function as breaker undervoltage release.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1F39, VCR1F39 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-voltage-relays",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "edu-loss-of-voltage-monitoring-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/loss-of-voltage-monitoring-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/loss-of-voltage-monitoring-relay.svg",
+  "id": "loss-of-voltage-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/loss-of-voltage-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/loss-of-voltage-monitoring-relay.json",
+  "svgPath": "artwork/svg/loss-of-voltage-monitoring-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-voltage-relays",
+      "title": "AutoCAD Electrical: Voltage monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5296749E-9336-4B07-9956-160963D6C848.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

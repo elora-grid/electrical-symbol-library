@@ -1,0 +1,98 @@
+{
+  "slug": "88-auxiliary-motor-or-motor-generator",
+  "name": "Auxiliary motor or motor-generator",
+  "kind": "function",
+  "abbreviation": "88",
+  "aliases": [
+    "auxiliary motor",
+    "auxiliary motor generator",
+    "ANSI 88",
+    "IEEE device 88"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Identifies a motor or motor-generator serving an auxiliary equipment function.",
+  "description": [
+    "Identifies a motor or motor-generator serving an auxiliary equipment function.",
+    "In a drafting package, connect this reference to the auxiliary power supply and driven load. The associated drawing should trace the auxiliary starter and equipment service reference; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the auxiliary power supply and driven load.",
+    "Trace the auxiliary starter and equipment service reference."
+  ],
+  "drawingChecklist": [
+    "Label the auxiliary power supply and driven load.",
+    "Cross-reference the auxiliary starter and equipment service reference.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "The auxiliary-machine role differs from the principal generating unit or main process motor.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "88"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The auxiliary power supply and driven load"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "motor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/88-auxiliary-motor-or-motor-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/88-auxiliary-motor-or-motor-generator.svg",
+  "id": "88-auxiliary-motor-or-motor-generator",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/88-auxiliary-motor-or-motor-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/88-auxiliary-motor-or-motor-generator.json",
+  "svgPath": "artwork/svg/88-auxiliary-motor-or-motor-generator.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

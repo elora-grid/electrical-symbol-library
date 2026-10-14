@@ -1,0 +1,104 @@
+{
+  "slug": "27q-reactive-power-undervoltage-protection",
+  "name": "Reactive-power undervoltage protection",
+  "kind": "function",
+  "abbreviation": "27Q",
+  "aliases": [
+    "reactive power undervoltage",
+    "Q U protection",
+    "ANSI 27Q",
+    "IEEE 27Q"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Combines a reactive-power criterion with undervoltage supervision in the cited interconnection application.",
+  "description": [
+    "Combines a reactive-power criterion with undervoltage supervision in the cited interconnection application.",
+    "The drafting record should connect this function to the voltage and current inputs and defined reactive-power direction, then trace the combined reactive-power and undervoltage operating logic. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the voltage and current inputs and defined reactive-power direction.",
+    "Trace the combined reactive-power and undervoltage operating logic."
+  ],
+  "drawingChecklist": [
+    "Label the voltage and current inputs and defined reactive-power direction.",
+    "Cross-reference the combined reactive-power and undervoltage operating logic.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "27Q is an Eaton application designation; ABB separately labels a related function 32Q,27, so retain the device-specific legend.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "27Q"
+    },
+    {
+      "label": "Base function",
+      "value": "27 — Undervoltage"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "27-undervoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/27q-reactive-power-undervoltage-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/27q-reactive-power-undervoltage-protection.svg",
+  "id": "27q-reactive-power-undervoltage-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/27q-reactive-power-undervoltage-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/27q-reactive-power-undervoltage-protection.json",
+  "svgPath": "artwork/svg/27q-reactive-power-undervoltage-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

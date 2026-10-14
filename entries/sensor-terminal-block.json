@@ -1,0 +1,91 @@
+{
+  "slug": "sensor-terminal-block",
+  "name": "Sensor terminal block",
+  "kind": "symbol",
+  "abbreviation": "TB SENSOR",
+  "aliases": [],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A sensor terminal organises supply, return and signal connections for a documented sensor wiring arrangement.",
+  "description": [
+    "A sensor terminal organises supply, return and signal connections for a documented sensor wiring arrangement. Multilevel construction may separate the signal path from bridged supply potentials."
+  ],
+  "readingNotes": [
+    "Follow each level to the sensor's supply and output terminals.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify signal level",
+    "Show supply bridges",
+    "Reference sensor conductor count"
+  ],
+  "distinction": "A sensor terminal's physical levels do not imply that all conductors are electrically common.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Wiring interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-terminal-families",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-sensor-terminal",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "terminal-strip"
+  ],
+  "artwork": "edu-sensor-terminal-block",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/sensor-terminal-block",
+  "illustration": "https://eloragrid.ai/library/illustrations/sensor-terminal-block.svg",
+  "id": "sensor-terminal-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/sensor-terminal-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/sensor-terminal-block.json",
+  "svgPath": "artwork/svg/sensor-terminal-block.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-terminal-families",
+      "title": "Terminal block functional families",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-sensor-terminal",
+      "title": "Sensor and actuator terminal wiring",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks/sensor-terminal-blocks-and-actuator-terminal-blocks?p=5",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

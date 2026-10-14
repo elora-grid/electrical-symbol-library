@@ -1,0 +1,104 @@
+{
+  "slug": "59m-main-input-overvoltage",
+  "name": "Main-input overvoltage",
+  "kind": "function",
+  "abbreviation": "59M",
+  "aliases": [
+    "main overvoltage",
+    "main input OV",
+    "ANSI 59M",
+    "IEEE 59M"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises high voltage using the main three-phase inputs in the cited Eaton family.",
+  "description": [
+    "Supervises high voltage using the main three-phase inputs in the cited Eaton family.",
+    "The drafting record should connect this function to the main VT circuit and phase input assignments, then trace the main overvoltage operating outputs. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the main VT circuit and phase input assignments.",
+    "Trace the main overvoltage operating outputs."
+  ],
+  "drawingChecklist": [
+    "Label the main VT circuit and phase input assignments.",
+    "Cross-reference the main overvoltage operating outputs.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "59M and 59A can supervise different voltage sources; their labels should match the VT circuits shown.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "59M"
+    },
+    {
+      "label": "Base function",
+      "value": "59 — Overvoltage"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "59-overvoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/59m-main-input-overvoltage",
+  "illustration": "https://eloragrid.ai/library/illustrations/59m-main-input-overvoltage.svg",
+  "id": "59m-main-input-overvoltage",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/59m-main-input-overvoltage",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/59m-main-input-overvoltage.json",
+  "svgPath": "artwork/svg/59m-main-input-overvoltage.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

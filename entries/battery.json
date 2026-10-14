@@ -1,0 +1,100 @@
+{
+  "slug": "battery",
+  "name": "Battery",
+  "kind": "symbol",
+  "abbreviation": "BAT",
+  "aliases": [
+    "battery bank",
+    "battery storage",
+    "DC battery"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An electrochemical electrical source or storage element represented in a circuit.",
+  "description": [
+    "A battery representation identifies an electrochemical source or energy-storage element. The generic depiction can suggest cells or polarity, but it does not determine the number of cells, chemistry, voltage, energy capacity or protective equipment in the selected system.",
+    "A battery energy storage system adds controls, power conversion and other equipment around its storage element. System drawings should distinguish the DC battery circuit from AC conversion, switching and protection. The physical battery cabinet is a separate GA object."
+  ],
+  "readingNotes": [
+    "Identify whether the drawing denotes a cell, battery bank or complete storage system.",
+    "Read DC polarity and the conversion interface from the documented arrangement."
+  ],
+  "drawingChecklist": [
+    "Reference voltage and storage equipment data.",
+    "Separate DC storage and AC interfaces.",
+    "Cross-reference protective and isolation equipment."
+  ],
+  "distinction": "A battery is a storage element. A BESS includes additional equipment and controls; the terms do not identify identical scope.",
+  "facts": [
+    {
+      "label": "Electrical interface",
+      "value": "DC"
+    },
+    {
+      "label": "Physical package",
+      "value": "Model-specific"
+    },
+    {
+      "label": "System boundary",
+      "value": "Distinguish battery from complete BESS"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public explanation of storage and power conversion."
+    },
+    {
+      "sourceId": "battery-cabinets",
+      "relevance": "Manufacturer example of a storage-system equipment composition."
+    }
+  ],
+  "related": [
+    "battery-cabinet",
+    "power-converter",
+    "pcs-cabinet",
+    "busbar"
+  ],
+  "artwork": "battery",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery",
+  "illustration": "https://eloragrid.ai/library/illustrations/battery.svg",
+  "id": "battery",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery.json",
+  "svgPath": "artwork/svg/battery.svg",
+  "publicSources": [
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of storage and power conversion."
+    },
+    {
+      "id": "battery-cabinets",
+      "title": "xStorage battery energy storage system",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/energy-storage/xstorage-battery-energy-storage-system.html",
+      "type": "manufacturer",
+      "scope": "Public example of battery cabinets, power conversion and control equipment within a storage system.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer example of a storage-system equipment composition."
+    }
+  ]
+}

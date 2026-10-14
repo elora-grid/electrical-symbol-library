@@ -1,0 +1,101 @@
+{
+  "slug": "switch-disconnector",
+  "name": "Switch-disconnector",
+  "kind": "symbol",
+  "abbreviation": "SD",
+  "aliases": [
+    "HDS11Q69",
+    "VDS11Q69",
+    "load-break isolator"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A switch-disconnector combines operational switching with an isolation function.",
+  "description": [
+    "A switch-disconnector combines operational switching with an isolation function. Its designation should distinguish it from a disconnector that is not intended to interrupt load current."
+  ],
+  "readingNotes": [
+    "Check both switching duty and the documented isolation function.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify utilization category",
+    "Show pole and neutral arrangement",
+    "Document isolation designation"
+  ],
+  "distinction": "A load-break switch is not automatically a switch-disconnector; isolation suitability must be documented.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDS11Q69, VDS11Q69 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-disconnect-variants",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-switch-disconnector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/switch-disconnector",
+  "illustration": "https://eloragrid.ai/library/illustrations/switch-disconnector.svg",
+  "id": "switch-disconnector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switch-disconnector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switch-disconnector.json",
+  "svgPath": "artwork/svg/switch-disconnector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-disconnect-variants",
+      "title": "AutoCAD Electrical: Disconnector variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-745AF70A-8A25-4729-AAB7-408A61929B9E.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

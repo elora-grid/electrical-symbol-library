@@ -1,0 +1,100 @@
+{
+  "slug": "current-limiting-circuit-breaker",
+  "name": "Current-limiting circuit breaker",
+  "kind": "symbol",
+  "abbreviation": "CB LIM",
+  "aliases": [
+    "HCB11THI",
+    "VCB11THI"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A current-limiting breaker reduces the fault-current peak and energy passed to downstream equipment within its documented operating range.",
+  "description": [
+    "A current-limiting breaker reduces the fault-current peak and energy passed to downstream equipment within its documented operating range. The drawing tag identifies the characteristic, while coordination data belongs in the design documentation."
+  ],
+  "readingNotes": [
+    "Use manufacturer let-through curves for the applicable prospective fault level.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify limiting device model",
+    "Reference let-through data",
+    "Document coordination assumptions"
+  ],
+  "distinction": "Current limitation is a fault-interruption characteristic, not a continuously regulated load-current function.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB11THI, VCB11THI (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-breakers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-current-limiting-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-limiting-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/current-limiting-circuit-breaker.svg",
+  "id": "current-limiting-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-limiting-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-limiting-circuit-breaker.json",
+  "svgPath": "artwork/svg/current-limiting-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-breakers",
+      "title": "Circuit-breaker symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DB1548A3-A4D3-47E5-86AC-37000DC57D80.htm",
+      "type": "cad-reference",
+      "scope": "Circuit-breaker variants and thermal, magnetic and differential qualifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "disconnector-auxiliary-no-contact",
+  "name": "Disconnector auxiliary NO contact",
+  "kind": "symbol",
+  "abbreviation": "DS AUX NO",
+  "aliases": [
+    "HDS21AUX",
+    "VDS21AUX"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A normally-open disconnector auxiliary contact provides a separate indication or permissive circuit associated with the disconnector mechanism.",
+  "description": [
+    "A normally-open disconnector auxiliary contact provides a separate indication or permissive circuit associated with the disconnector mechanism. Its state is read against the documented reference position."
+  ],
+  "readingNotes": [
+    "The contact tag must link to the disconnector rather than to an unrelated relay coil.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State reference disconnector position",
+    "Identify auxiliary terminals",
+    "Link the main-device tag"
+  ],
+  "distinction": "Auxiliary contacts report or interlock operation; they do not carry the feeder load.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDS21AUX, VDS21AUX (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-additional-breaker-poles",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-fused-disconnects",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-disconnector-auxiliary-no-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/disconnector-auxiliary-no-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/disconnector-auxiliary-no-contact.svg",
+  "id": "disconnector-auxiliary-no-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-auxiliary-no-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/disconnector-auxiliary-no-contact.json",
+  "svgPath": "artwork/svg/disconnector-auxiliary-no-contact.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-additional-breaker-poles",
+      "title": "AutoCAD Electrical: Additional circuit-breaker poles",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-8B9070E1-A978-429D-A552-27BEFAE1C60E.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-fused-disconnects",
+      "title": "AutoCAD Electrical: Fusible disconnects",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-FE7E6B30-F585-41F4-9F66-215ACD95A36D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

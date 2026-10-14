@@ -1,0 +1,92 @@
+{
+  "slug": "iec-isolation-function-qualifier",
+  "name": "Isolation-function qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070103",
+  "aliases": [
+    "Isolation-function qualifier symbol",
+    "Q070103",
+    "Isolation-function qualifier IEC reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An isolation qualifier identifies the documented disconnector function attached to a switching representation.",
+  "description": [
+    "An isolation qualifier identifies the documented disconnector function attached to a switching representation. Isolation is a device function that must be distinguished from the ability to interrupt load current or clear faults. A switching representation can therefore carry an isolation qualifier alongside other functional information.",
+    "On an SLD, keep the associated device identity and switching function readable. The selected equipment data establishes the actual isolation and operating requirements."
+  ],
+  "readingNotes": [
+    "Distinguish isolation capability from load interruption and automatic tripping.",
+    "The qualifier does not give isolation clearances or an equipment rating."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Distinguish isolation capability from load interruption and automatic tripping.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The qualifier does not give isolation clearances or an equipment rating.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070103 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Distinguish isolation capability from load interruption and automatic tripping."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "edu-iec-isolation-function-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Isolation-function qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-isolation-function-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-isolation-function-qualifier.svg",
+  "id": "iec-isolation-function-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-isolation-function-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-isolation-function-qualifier.json",
+  "svgPath": "artwork/svg/iec-isolation-function-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

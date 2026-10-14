@@ -1,0 +1,82 @@
+{
+  "slug": "negative-edge-jk-flip-flop",
+  "name": "Negative-edge JK flip-flop",
+  "kind": "symbol",
+  "abbreviation": "JK-FF",
+  "aliases": [
+    "J K flip flop",
+    "JK bistable"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Updates or toggles its stored state from J and K inputs at the selected negative clock edge.",
+  "description": [
+    "Updates or toggles its stored state from J and K inputs at the selected negative clock edge.",
+    "On a schematic, identify the J/K inputs, clock polarity and asynchronous controls and trace the Q/complemented outputs and feedback connections. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "JK input combinations define hold, set, reset or toggle behaviour; the clock-edge indication must match the selected device.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the J/K inputs, clock polarity and asynchronous controls.",
+    "Trace the Q/complemented outputs and feedback connections."
+  ],
+  "drawingChecklist": [
+    "Label the J/K inputs, clock polarity and asynchronous controls.",
+    "Cross-reference the Q/complemented outputs and feedback connections.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "JK input combinations define hold, set, reset or toggle behaviour; the clock-edge indication must match the selected device.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "JK-FF — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The J/K inputs, clock polarity and asynchronous controls"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc112",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "positive-edge-d-flip-flop",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-jk",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/negative-edge-jk-flip-flop",
+  "illustration": "https://eloragrid.ai/library/illustrations/negative-edge-jk-flip-flop.svg",
+  "id": "negative-edge-jk-flip-flop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/negative-edge-jk-flip-flop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/negative-edge-jk-flip-flop.json",
+  "svgPath": "artwork/svg/negative-edge-jk-flip-flop.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc112",
+      "title": "SN74HC112 — negative-edge JK flip-flops",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc112.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of negative-edge jk flip-flops. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

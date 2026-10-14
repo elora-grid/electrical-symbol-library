@@ -1,0 +1,85 @@
+{
+  "slug": "permanent-magnet-synchronous-generator",
+  "name": "Permanent-magnet synchronous generator",
+  "kind": "symbol",
+  "abbreviation": "G 3PH PM",
+  "aliases": [
+    "HPW1G6",
+    "VPW1G6"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A permanent-magnet synchronous generator provides an AC source using a permanent magnetic excitation system.",
+  "description": [
+    "A permanent-magnet synchronous generator provides an AC source using a permanent magnetic excitation system. Any converter between this source and the AC network must be shown separately."
+  ],
+  "readingNotes": [
+    "Distinguish machine output from the downstream converter's controlled network output.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State machine rating",
+    "Identify winding terminals",
+    "Reference converter interface"
+  ],
+  "distinction": "Permanent-magnet excitation does not mean direct grid connection is appropriate for every machine.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Generating source"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPW1G6, VPW1G6 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "25-synchronism-check"
+  ],
+  "artwork": "edu-permanent-magnet-synchronous-generator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/permanent-magnet-synchronous-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/permanent-magnet-synchronous-generator.svg",
+  "id": "permanent-magnet-synchronous-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/permanent-magnet-synchronous-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/permanent-magnet-synchronous-generator.json",
+  "svgPath": "artwork/svg/permanent-magnet-synchronous-generator.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

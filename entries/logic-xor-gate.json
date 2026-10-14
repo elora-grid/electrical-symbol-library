@@ -1,0 +1,82 @@
+{
+  "slug": "logic-xor-gate",
+  "name": "Exclusive-OR gate",
+  "kind": "symbol",
+  "abbreviation": "XOR",
+  "aliases": [
+    "exclusive OR",
+    "inequality gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "For two positive-logic inputs, produces a true output when the input states differ.",
+  "description": [
+    "For two positive-logic inputs, produces a true output when the input states differ.",
+    "On a schematic, identify the two compared digital states and trace the inequality output and its control or monitoring use. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Two-input XOR is not inclusive OR; for more inputs verify whether the device implements odd parity or another specified function.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the two compared digital states.",
+    "Trace the inequality output and its control or monitoring use."
+  ],
+  "drawingChecklist": [
+    "Label the two compared digital states.",
+    "Cross-reference the inequality output and its control or monitoring use.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Two-input XOR is not inclusive OR; for more inputs verify whether the device implements odd parity or another specified function.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "XOR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two compared digital states"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc86",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-xnor-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-xor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-xor-gate",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-xor-gate.svg",
+  "id": "logic-xor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-xor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-xor-gate.json",
+  "svgPath": "artwork/svg/logic-xor-gate.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc86",
+      "title": "SN74HC86 — XOR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of xor gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

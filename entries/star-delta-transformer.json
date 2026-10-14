@@ -1,0 +1,100 @@
+{
+  "slug": "star-delta-transformer",
+  "name": "Star-delta transformer",
+  "kind": "symbol",
+  "abbreviation": "TX Y-D",
+  "aliases": [
+    "HXF1P3SD",
+    "VXF1P3SD"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A star-delta transformer connects one winding set in star and the other in delta.",
+  "description": [
+    "A star-delta transformer connects one winding set in star and the other in delta. The notation identifies winding topology; a clock-number or equivalent phase-displacement designation is still needed where system phase relationships matter."
+  ],
+  "readingNotes": [
+    "Read which side is star from the declared primary and secondary labels.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify winding sides",
+    "State complete vector group",
+    "Show neutral availability"
+  ],
+  "distinction": "Y-D topology alone does not specify a complete transformer vector group.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1P3SD, VXF1P3SD (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-three-phase-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-star-delta-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/star-delta-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/star-delta-transformer.svg",
+  "id": "star-delta-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/star-delta-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/star-delta-transformer.json",
+  "svgPath": "artwork/svg/star-delta-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-three-phase-transformers",
+      "title": "AutoCAD Electrical: Three-phase transformer connections",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EB13DB13-01EE-4541-BED7-19B9001BE8FC.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "87q-negative-sequence-differential-protection",
+  "name": "Negative-sequence differential protection",
+  "kind": "function",
+  "abbreviation": "87Q",
+  "aliases": [
+    "negative sequence differential",
+    "I2 differential",
+    "ANSI 87Q",
+    "IEEE 87Q"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Compares negative-sequence current information across a differential protection zone.",
+  "description": [
+    "Compares negative-sequence current information across a differential protection zone.",
+    "The drafting record should connect this function to the zone-boundary phase-current measurements and sequence compensation reference, then trace the negative-sequence differential element and associated trip output. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL public device-number table). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the zone-boundary phase-current measurements and sequence compensation reference.",
+    "Trace the negative-sequence differential element and associated trip output."
+  ],
+  "drawingChecklist": [
+    "Label the zone-boundary phase-current measurements and sequence compensation reference.",
+    "Cross-reference the negative-sequence differential element and associated trip output.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Sequence differential 87Q is not the same as local negative-sequence overcurrent 51Q; it compares quantities across a zone.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "87Q"
+    },
+    {
+      "label": "Base function",
+      "value": "87 — Differential protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL public device-number table"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "87-differential",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/87q-negative-sequence-differential-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/87q-negative-sequence-differential-protection.svg",
+  "id": "87q-negative-sequence-differential-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/87q-negative-sequence-differential-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/87q-negative-sequence-differential-protection.json",
+  "svgPath": "artwork/svg/87q-negative-sequence-differential-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

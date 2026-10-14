@@ -1,0 +1,84 @@
+{
+  "slug": "connector-plug-half",
+  "name": "Connector plug half",
+  "kind": "symbol",
+  "abbreviation": "PLUG",
+  "aliases": [
+    "HC01P_",
+    "VC01P_"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A plug-half representation identifies one side of a detachable connector.",
+  "description": [
+    "A plug-half representation identifies one side of a detachable connector. Its mating reference and pin number preserve the circuit path when the other half appears elsewhere."
+  ],
+  "readingNotes": [
+    "Locate the mating socket before treating the endpoint as an unconnected conductor.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify connector tag",
+    "State pin number",
+    "Cross-reference mating half"
+  ],
+  "distinction": "A separately drawn plug is not a terminal block or an off-sheet wire arrow.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Detachable connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HC01P_, VC01P_ (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "plc-io"
+  ],
+  "artwork": "edu-connector-plug-half",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/connector-plug-half",
+  "illustration": "https://eloragrid.ai/library/illustrations/connector-plug-half.svg",
+  "id": "connector-plug-half",
+  "canonicalUrl": "https://eloragrid.ai/symbols/connector-plug-half",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/connector-plug-half.json",
+  "svgPath": "artwork/svg/connector-plug-half.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

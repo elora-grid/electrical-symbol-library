@@ -1,0 +1,84 @@
+{
+  "slug": "triac",
+  "name": "TRIAC",
+  "kind": "symbol",
+  "abbreviation": "TRIAC",
+  "aliases": [
+    "HDI1_S00659",
+    "VDI1_S00659"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A TRIAC is a bidirectional thyristor used for a documented AC switching or control function.",
+  "description": [
+    "A TRIAC is a bidirectional thyristor used for a documented AC switching or control function. Its main terminals and gate connections must match the selected component."
+  ],
+  "readingNotes": [
+    "Identify the gate reference main terminal from the component data.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label main terminals and gate",
+    "Reference gate trigger circuit",
+    "State AC load conditions"
+  ],
+  "distinction": "A TRIAC is a controlled bidirectional device, unlike a DIAC trigger element.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Semiconductor function"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDI1_S00659, VDI1_S00659 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "power-converter"
+  ],
+  "artwork": "edu-triac",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/triac",
+  "illustration": "https://eloragrid.ai/library/illustrations/triac.svg",
+  "id": "triac",
+  "canonicalUrl": "https://eloragrid.ai/symbols/triac",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/triac.json",
+  "svgPath": "artwork/svg/triac.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "iron-core-reactor",
+  "name": "Iron-core reactor",
+  "kind": "symbol",
+  "abbreviation": "L IRON",
+  "aliases": [
+    "HRT1IC",
+    "VRT1IC"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An iron-core reactor uses a documented magnetic core to provide its inductive characteristic.",
+  "description": [
+    "An iron-core reactor uses a documented magnetic core to provide its inductive characteristic. Its core and saturation behaviour belong to the selected equipment data."
+  ],
+  "readingNotes": [
+    "Do not infer linear behaviour at every current level from an iron-core marker.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify circuit connection",
+    "State rated current/inductance",
+    "Reference core operating limits"
+  ],
+  "distinction": "Iron-core construction is different from an air-core reactor.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Inductive component"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HRT1IC, VRT1IC (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-reactors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor"
+  ],
+  "artwork": "edu-iron-core-reactor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iron-core-reactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/iron-core-reactor.svg",
+  "id": "iron-core-reactor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iron-core-reactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iron-core-reactor.json",
+  "svgPath": "artwork/svg/iron-core-reactor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-reactors",
+      "title": "AutoCAD Electrical: Reactors and inductors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BAD50DBF-0951-44A0-BB4C-A57B4A4ED895.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

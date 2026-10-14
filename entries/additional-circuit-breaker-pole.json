@@ -1,0 +1,85 @@
+{
+  "slug": "additional-circuit-breaker-pole",
+  "name": "Additional circuit-breaker pole",
+  "kind": "symbol",
+  "abbreviation": "CB POLE",
+  "aliases": [
+    "HCB2",
+    "VCB2"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An additional pole is a separately drawn part of a multipole circuit breaker.",
+  "description": [
+    "An additional pole is a separately drawn part of a multipole circuit breaker. Parent and child representations retain a shared device identity while allowing the phase conductors to appear on separate schematic lines."
+  ],
+  "readingNotes": [
+    "Verify common operation and the shared breaker tag across all poles.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Match parent device tag",
+    "Identify pole terminal numbers",
+    "Show common mechanical operation"
+  ],
+  "distinction": "A second schematic pole is not a second independently operated breaker.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB2, VCB2 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-additional-breaker-poles",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-additional-circuit-breaker-pole",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/additional-circuit-breaker-pole",
+  "illustration": "https://eloragrid.ai/library/illustrations/additional-circuit-breaker-pole.svg",
+  "id": "additional-circuit-breaker-pole",
+  "canonicalUrl": "https://eloragrid.ai/symbols/additional-circuit-breaker-pole",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/additional-circuit-breaker-pole.json",
+  "svgPath": "artwork/svg/additional-circuit-breaker-pole.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-additional-breaker-poles",
+      "title": "AutoCAD Electrical: Additional circuit-breaker poles",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-8B9070E1-A978-429D-A552-27BEFAE1C60E.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

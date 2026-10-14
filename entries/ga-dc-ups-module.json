@@ -1,0 +1,88 @@
+{
+  "slug": "ga-dc-ups-module",
+  "name": "DC UPS module",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "DIN rail uninterruptible power supply",
+    "DC UPS module CAD",
+    "DC UPS module general arrangement",
+    "DC UPS module panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC UPS module manages continuity of a DC auxiliary supply with its specified energy-storage interface.",
+  "description": [
+    "A DC UPS module manages continuity of a DC auxiliary supply with its specified energy-storage interface.",
+    "Reserve the controller and storage-module zones and cross-reference alarm wiring. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Reserve the controller and storage-module zones and cross-reference alarm wiring.",
+    "The controller outline alone does not include external batteries or their maintenance space."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Reserve the controller and storage-module zones and cross-reference alarm wiring.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "The controller outline alone does not include external batteries or their maintenance space.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-tdk-din",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-dc-ups-module",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-dc-ups-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-dc-ups-module.svg",
+  "id": "ga-dc-ups-module",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-dc-ups-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-dc-ups-module.json",
+  "svgPath": "artwork/svg/ga-dc-ups-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-tdk-din",
+      "title": "DIN-rail power supply, buffer, redundancy and UPS families",
+      "publisher": "TDK-Lambda",
+      "url": "https://www.emea.lambda.tdk.com/uk/products/din-rail",
+      "type": "manufacturer",
+      "scope": "Public functional classification of DIN-rail product families; exact model selection and technical values remain in the data sheet.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

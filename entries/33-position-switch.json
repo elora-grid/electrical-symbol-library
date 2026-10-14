@@ -1,0 +1,98 @@
+{
+  "slug": "33-position-switch",
+  "name": "Position switch",
+  "kind": "function",
+  "abbreviation": "33",
+  "aliases": [
+    "limit switch",
+    "position limit contact",
+    "ANSI 33",
+    "IEEE device 33"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Changes an electrical indication when a mechanism reaches a defined physical position.",
+  "description": [
+    "Changes an electrical indication when a mechanism reaches a defined physical position.",
+    "In a drafting package, connect this reference to the mechanism position and contact's normal-state convention. The associated drawing should trace the position indication and permissive circuits; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the mechanism position and contact's normal-state convention.",
+    "Trace the position indication and permissive circuits."
+  ],
+  "drawingChecklist": [
+    "Label the mechanism position and contact's normal-state convention.",
+    "Cross-reference the position indication and permissive circuits.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A position switch identifies position, not necessarily that an electrically commanded operation has succeeded.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "33"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The mechanism position and contact's normal-state convention"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/33-position-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/33-position-switch.svg",
+  "id": "33-position-switch",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/33-position-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/33-position-switch.json",
+  "svgPath": "artwork/svg/33-position-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

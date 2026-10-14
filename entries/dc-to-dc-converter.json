@@ -1,0 +1,77 @@
+{
+  "slug": "dc-to-dc-converter",
+  "name": "DC-to-DC converter",
+  "kind": "symbol",
+  "abbreviation": "DC-DC",
+  "aliases": [],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC/DC converter changes a documented DC input into another DC output.",
+  "description": [
+    "A DC/DC converter changes a documented DC input into another DC output. Isolation, regulation and polarity depend on the selected model and must not be inferred from the conversion label."
+  ],
+  "readingNotes": [
+    "Check whether input and output commons are connected internally.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State input/output ratings",
+    "Identify isolation specification",
+    "Show input/output polarity"
+  ],
+  "distinction": "A DC/DC conversion function does not automatically provide galvanic isolation.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-supplies",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-dc-to-dc-converter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dc-to-dc-converter",
+  "illustration": "https://eloragrid.ai/library/illustrations/dc-to-dc-converter.svg",
+  "id": "dc-to-dc-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dc-to-dc-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dc-to-dc-converter.json",
+  "svgPath": "artwork/svg/dc-to-dc-converter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-supplies",
+      "title": "AC/DC power supplies and DC/DC converters",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/power-supplies/power-supplies-with-maximum-functionality",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

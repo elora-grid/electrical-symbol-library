@@ -1,0 +1,85 @@
+{
+  "slug": "normally-open-limit-switch",
+  "name": "Normally-open limit switch",
+  "kind": "symbol",
+  "abbreviation": "LS NO",
+  "aliases": [
+    "HLS11",
+    "VLS11",
+    "NO limit switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A normally-open limit switch closes when the documented mechanical travel or position condition actuates it.",
+  "description": [
+    "A normally-open limit switch closes when the documented mechanical travel or position condition actuates it. It identifies a position input rather than the complete mechanical arrangement."
+  ],
+  "readingNotes": [
+    "State which equipment position actuates the switch.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name monitored position",
+    "Label actuator reference",
+    "Show contact terminals"
+  ],
+  "distinction": "A limit switch responds to mechanical position; a pushbutton responds to an operator action.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HLS11, VLS11 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-limits",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-normally-open-limit-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/normally-open-limit-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/normally-open-limit-switch.svg",
+  "id": "normally-open-limit-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/normally-open-limit-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/normally-open-limit-switch.json",
+  "svgPath": "artwork/svg/normally-open-limit-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-limits",
+      "title": "AutoCAD Electrical: Limit switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3CF4BE45-A302-4757-B5C9-C1AFF9BDC512.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

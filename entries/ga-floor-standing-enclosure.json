@@ -1,0 +1,88 @@
+{
+  "slug": "ga-floor-standing-enclosure",
+  "name": "Floor-standing enclosure",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "free standing cabinet",
+    "Floor-standing enclosure CAD",
+    "Floor-standing enclosure general arrangement",
+    "Floor-standing enclosure panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A floor-standing enclosure provides a physical housing for an electrical assembly.",
+  "description": [
+    "A floor-standing enclosure provides a physical housing for an electrical assembly.",
+    "Coordinate base fixing, doors, cable entries and internal mounting surfaces. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate base fixing, doors, cable entries and internal mounting surfaces.",
+    "An enclosure is not automatically a verified switchboard assembly."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate base fixing, doors, cable entries and internal mounting surfaces.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "An enclosure is not automatically a verified switchboard assembly.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-count-abb-lv",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-floor-standing-enclosure",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-floor-standing-enclosure",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-floor-standing-enclosure.svg",
+  "id": "ga-floor-standing-enclosure",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-floor-standing-enclosure",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-floor-standing-enclosure.json",
+  "svgPath": "artwork/svg/ga-floor-standing-enclosure.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-count-abb-lv",
+      "title": "ABB low-voltage switchgear portfolio",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/low-voltage/power-distribution-systems/switchgear",
+      "type": "manufacturer",
+      "scope": "Public low-voltage assembly family descriptions. Project configuration determines footprint and enclosure interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

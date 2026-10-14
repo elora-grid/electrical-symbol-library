@@ -1,0 +1,98 @@
+{
+  "slug": "30-annunciator-relay",
+  "name": "Annunciator relay",
+  "kind": "function",
+  "abbreviation": "30",
+  "aliases": [
+    "annunciator",
+    "alarm annunciation",
+    "ANSI 30",
+    "IEEE device 30"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Operates an indication system that presents a detected condition to the operator.",
+  "description": [
+    "Operates an indication system that presents a detected condition to the operator.",
+    "In a drafting package, connect this reference to the individual alarm inputs and acknowledgement/reset paths. The associated drawing should trace the annunciator window, horn or common alarm output; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the individual alarm inputs and acknowledgement/reset paths.",
+    "Trace the annunciator window, horn or common alarm output."
+  ],
+  "drawingChecklist": [
+    "Label the individual alarm inputs and acknowledgement/reset paths.",
+    "Cross-reference the annunciator window, horn or common alarm output.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Annunciation presents a condition; a separate trip relay may act on the same condition.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "30"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The individual alarm inputs and acknowledgement/reset paths"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "indicator-lamp",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/30-annunciator-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/30-annunciator-relay.svg",
+  "id": "30-annunciator-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/30-annunciator-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/30-annunciator-relay.json",
+  "svgPath": "artwork/svg/30-annunciator-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

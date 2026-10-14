@@ -1,0 +1,77 @@
+{
+  "slug": "redundant-power-supply-decoupling-module",
+  "name": "Redundant power-supply decoupling module",
+  "kind": "symbol",
+  "abbreviation": "PSU RED",
+  "aliases": [],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A redundancy module decouples documented power-supply inputs before they feed a common load circuit.",
+  "description": [
+    "A redundancy module decouples documented power-supply inputs before they feed a common load circuit. The drawing shows each source input and the combined output so the redundancy arrangement is reviewable."
+  ],
+  "readingNotes": [
+    "Check each source's ability to supply the required load under the defined operating condition.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show both source inputs",
+    "Identify common output",
+    "Reference monitoring/decoupling behaviour"
+  ],
+  "distinction": "Two parallel supplies alone do not establish the same decoupling function as a redundancy module.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-supplies",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-redundant-power-supply-decoupling-module",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/redundant-power-supply-decoupling-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/redundant-power-supply-decoupling-module.svg",
+  "id": "redundant-power-supply-decoupling-module",
+  "canonicalUrl": "https://eloragrid.ai/symbols/redundant-power-supply-decoupling-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/redundant-power-supply-decoupling-module.json",
+  "svgPath": "artwork/svg/redundant-power-supply-decoupling-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-supplies",
+      "title": "AC/DC power supplies and DC/DC converters",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/power-supplies/power-supplies-with-maximum-functionality",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

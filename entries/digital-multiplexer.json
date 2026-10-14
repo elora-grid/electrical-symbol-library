@@ -1,0 +1,82 @@
+{
+  "slug": "digital-multiplexer",
+  "name": "Digital multiplexer",
+  "kind": "symbol",
+  "abbreviation": "MUX",
+  "aliases": [
+    "digital data selector",
+    "logic multiplexer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects one of several digital inputs for the documented output according to its selection controls.",
+  "description": [
+    "Selects one of several digital inputs for the documented output according to its selection controls.",
+    "On a schematic, identify the data inputs, selector bits and enable polarity and trace the selected digital output and any complementary output. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A digital multiplexer processes logic levels; an analogue multiplexer passes a continuous signal within its electrical limits.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the data inputs, selector bits and enable polarity.",
+    "Trace the selected digital output and any complementary output."
+  ],
+  "drawingChecklist": [
+    "Label the data inputs, selector bits and enable polarity.",
+    "Cross-reference the selected digital output and any complementary output.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A digital multiplexer processes logic levels; an analogue multiplexer passes a continuous signal within its electrical limits.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "MUX — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The data inputs, selector bits and enable polarity"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc151",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "analog-multiplexer",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-mux",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/digital-multiplexer",
+  "illustration": "https://eloragrid.ai/library/illustrations/digital-multiplexer.svg",
+  "id": "digital-multiplexer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/digital-multiplexer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/digital-multiplexer.json",
+  "svgPath": "artwork/svg/digital-multiplexer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc151",
+      "title": "SN74HC151 — digital multiplexing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc151.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of digital multiplexing. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

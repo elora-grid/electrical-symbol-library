@@ -1,0 +1,92 @@
+{
+  "slug": "dc-to-ac-inverter",
+  "name": "DC-to-AC inverter",
+  "kind": "symbol",
+  "abbreviation": "INV DC-AC",
+  "aliases": [],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC/AC inverter converts a documented DC supply into an AC output.",
+  "description": [
+    "A DC/AC inverter converts a documented DC supply into an AC output. The output waveform, voltage, frequency and operating mode belong in the equipment and control records."
+  ],
+  "readingNotes": [
+    "Distinguish a standalone AC output from an inverter intended to follow a network.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State DC input rating",
+    "State AC output parameters",
+    "Reference operating mode"
+  ],
+  "distinction": "A DC/AC inverter is a conversion stage; its system-control capabilities depend on the selected equipment.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Energy conversion"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-supplies",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-pv-inverter",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery"
+  ],
+  "artwork": "edu-dc-to-ac-inverter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dc-to-ac-inverter",
+  "illustration": "https://eloragrid.ai/library/illustrations/dc-to-ac-inverter.svg",
+  "id": "dc-to-ac-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dc-to-ac-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dc-to-ac-inverter.json",
+  "svgPath": "artwork/svg/dc-to-ac-inverter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-supplies",
+      "title": "AC/DC power supplies and DC/DC converters",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/power-supplies/power-supplies-with-maximum-functionality",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-pv-inverter",
+      "title": "Photovoltaic technology and inverter functions",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_background%2C_technology",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

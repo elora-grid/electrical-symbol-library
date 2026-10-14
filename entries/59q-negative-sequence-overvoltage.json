@@ -1,0 +1,104 @@
+{
+  "slug": "59q-negative-sequence-overvoltage",
+  "name": "Negative-sequence overvoltage",
+  "kind": "function",
+  "abbreviation": "59Q",
+  "aliases": [
+    "negative sequence voltage",
+    "V2 overvoltage",
+    "ANSI 59Q",
+    "IEEE 59Q"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises the negative-sequence component derived from three-phase voltage measurements.",
+  "description": [
+    "Supervises the negative-sequence component derived from three-phase voltage measurements.",
+    "The drafting record should connect this function to the three phase voltage inputs and sequence calculation reference, then trace the voltage-unbalance-sensitive element and selected output. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL public device-number table). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the three phase voltage inputs and sequence calculation reference.",
+    "Trace the voltage-unbalance-sensitive element and selected output."
+  ],
+  "drawingChecklist": [
+    "Label the three phase voltage inputs and sequence calculation reference.",
+    "Cross-reference the voltage-unbalance-sensitive element and selected output.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Negative-sequence overvoltage indicates an unbalanced voltage component; it differs from a high positive-sequence or phase-voltage threshold.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "59Q"
+    },
+    {
+      "label": "Base function",
+      "value": "59 — Overvoltage"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL public device-number table"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "59-overvoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/59q-negative-sequence-overvoltage",
+  "illustration": "https://eloragrid.ai/library/illustrations/59q-negative-sequence-overvoltage.svg",
+  "id": "59q-negative-sequence-overvoltage",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/59q-negative-sequence-overvoltage",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/59q-negative-sequence-overvoltage.json",
+  "svgPath": "artwork/svg/59q-negative-sequence-overvoltage.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

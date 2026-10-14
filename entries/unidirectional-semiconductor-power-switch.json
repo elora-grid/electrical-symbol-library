@@ -1,0 +1,85 @@
+{
+  "slug": "unidirectional-semiconductor-power-switch",
+  "name": "Unidirectional semiconductor power switch",
+  "kind": "symbol",
+  "abbreviation": "SSW UNI",
+  "aliases": [
+    "HCB11Q57",
+    "VCB11Q57"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A unidirectional semiconductor switch has a specified direction for its power conduction or control behaviour.",
+  "description": [
+    "A unidirectional semiconductor switch has a specified direction for its power conduction or control behaviour. The functional direction must be identified so reversing a schematic orientation does not reverse the intended meaning."
+  ],
+  "readingNotes": [
+    "Use terminal polarity and the product circuit rather than page orientation to determine direction.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show permitted conduction direction",
+    "Identify control polarity",
+    "Reference reverse-voltage capability"
+  ],
+  "distinction": "Unidirectional operation concerns the circuit path; it does not describe the direction of all system power flows.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB11Q57, VCB11Q57 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-unidirectional-semiconductor-power-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/unidirectional-semiconductor-power-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/unidirectional-semiconductor-power-switch.svg",
+  "id": "unidirectional-semiconductor-power-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/unidirectional-semiconductor-power-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/unidirectional-semiconductor-power-switch.json",
+  "svgPath": "artwork/svg/unidirectional-semiconductor-power-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-switches",
+      "title": "AutoCAD Electrical: Power semiconductor switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-54E4231E-F794-4527-9104-C2D7BA312077.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

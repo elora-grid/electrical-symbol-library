@@ -1,0 +1,105 @@
+{
+  "slug": "50j-motor-jam-or-stall-protection",
+  "name": "Motor jam or stall protection",
+  "kind": "function",
+  "abbreviation": "50J",
+  "aliases": [
+    "jam protection",
+    "stall protection",
+    "motor load jam",
+    "ANSI 50J",
+    "IEEE 50J"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises a motor current condition associated with a jam or stall in the cited relay application.",
+  "description": [
+    "Supervises a motor current condition associated with a jam or stall in the cited relay application.",
+    "The drafting record should connect this function to the motor CT inputs and running/starting-state logic, then trace the jam or stall trip and reset/restart interface. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton EMR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the motor CT inputs and running/starting-state logic.",
+    "Trace the jam or stall trip and reset/restart interface."
+  ],
+  "drawingChecklist": [
+    "Label the motor CT inputs and running/starting-state logic.",
+    "Cross-reference the jam or stall trip and reset/restart interface.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "A jam/stall element requires its application context; starting locked-rotor and running jam protection can use different supervision.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "50J"
+    },
+    {
+      "label": "Base function",
+      "value": "50 — Instantaneous overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton EMR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-motor",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "50-instantaneous-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/50j-motor-jam-or-stall-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/50j-motor-jam-or-stall-protection.svg",
+  "id": "50j-motor-jam-or-stall-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/50j-motor-jam-or-stall-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/50j-motor-jam-or-stall-protection.json",
+  "svgPath": "artwork/svg/50j-motor-jam-or-stall-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-motor",
+      "title": "EMR motor protection: public function comparison",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/motor-relays.html",
+      "type": "manufacturer",
+      "scope": "Public motor-relay application mappings including jam/stall protection, current input variants, breaker failure and motor differential. Suffix interpretation applies to the cited family.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

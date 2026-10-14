@@ -1,0 +1,88 @@
+{
+  "slug": "ga-power-factor-correction-capacitor-bank",
+  "name": "Power-factor-correction capacitor bank",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "PFC APFC cabinet",
+    "Power-factor-correction capacitor bank CAD",
+    "Power-factor-correction capacitor bank general arrangement",
+    "Power-factor-correction capacitor bank panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A capacitor bank supplies reactive power compensation under the specified control scheme.",
+  "description": [
+    "A capacitor bank supplies reactive power compensation under the specified control scheme.",
+    "Allow the controller, switching devices, capacitor modules and any reactors within the cabinet. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Allow the controller, switching devices, capacitor modules and any reactors within the cabinet.",
+    "A capacitor-bank cabinet and an active harmonic filter address different power-quality functions."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Allow the controller, switching devices, capacitor modules and any reactors within the cabinet.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A capacitor-bank cabinet and an active harmonic filter address different power-quality functions.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-schneider-ranges",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-power-factor-correction-capacitor-bank",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-power-factor-correction-capacitor-bank",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-power-factor-correction-capacitor-bank.svg",
+  "id": "ga-power-factor-correction-capacitor-bank",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-power-factor-correction-capacitor-bank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-power-factor-correction-capacitor-bank.json",
+  "svgPath": "artwork/svg/ga-power-factor-correction-capacitor-bank.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-schneider-ranges",
+      "title": "Official product ranges A–Z",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/uk/en/product-range-az/",
+      "type": "manufacturer",
+      "scope": "UK public range identity and product-family links, including legacy flags. Publication here does not imply availability or approvals in another country.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

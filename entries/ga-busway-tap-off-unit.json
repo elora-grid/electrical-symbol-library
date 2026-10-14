@@ -1,0 +1,88 @@
+{
+  "slug": "ga-busway-tap-off-unit",
+  "name": "Busway tap-off unit",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "busbar trunking tap box",
+    "Busway tap-off unit CAD",
+    "Busway tap-off unit general arrangement",
+    "Busway tap-off unit panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A tap-off unit connects an outgoing circuit to the selected busbar trunking system.",
+  "description": [
+    "A tap-off unit connects an outgoing circuit to the selected busbar trunking system.",
+    "Reserve insertion, removal and operating access around the tap point. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Reserve insertion, removal and operating access around the tap point.",
+    "A tap-off enclosure must match the specified busway system and orientation."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Reserve insertion, removal and operating access around the tap point.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A tap-off enclosure must match the specified busway system and orientation.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-busway-tap-off-unit",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-busway-tap-off-unit",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-busway-tap-off-unit.svg",
+  "id": "ga-busway-tap-off-unit",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-busway-tap-off-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-busway-tap-off-unit.json",
+  "svgPath": "artwork/svg/ga-busway-tap-off-unit.svg",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

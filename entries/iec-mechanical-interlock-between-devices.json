@@ -1,0 +1,91 @@
+{
+  "slug": "iec-mechanical-interlock-between-devices",
+  "name": "Mechanical interlock between devices",
+  "kind": "symbol",
+  "abbreviation": "Q021211",
+  "aliases": [
+    "Mechanical interlock between devices symbol",
+    "Q021211",
+    "Mechanical interlock between devices IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A mechanical interlock indication links devices whose movements are constrained by a physical relationship.",
+  "description": [
+    "A mechanical interlock indication links devices whose movements are constrained by a physical relationship. A physical interlock constrains the movements of two associated mechanisms. It remains a mechanical relationship even when the electrical circuit also contains permissive contacts.",
+    "Use both device tags and the intended exclusive positions to make the relationship readable. Draw any electrical feedback or auxiliary interlock contact separately, since it represents another interface."
+  ],
+  "readingNotes": [
+    "Identify both devices and the prohibited simultaneous condition.",
+    "Mechanical interlocking differs from an electrical interlock contact or software permissive."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify both devices and the prohibited simultaneous condition.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Mechanical interlocking differs from an electrical interlock contact or software permissive.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021211 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Identify both devices and the prohibited simultaneous condition."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-mechanical",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-mechanical-interlock-between-devices",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Mechanical interlock between devices",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Mechanical return and interlock qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-mechanical-interlock-between-devices",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-mechanical-interlock-between-devices.svg",
+  "id": "iec-mechanical-interlock-between-devices",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-mechanical-interlock-between-devices",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-mechanical-interlock-between-devices.json",
+  "svgPath": "artwork/svg/iec-mechanical-interlock-between-devices.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-mechanical",
+      "title": "Autodesk IEC-60617 preview: Mechanical return and interlock qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-084BF99C-FD3E-4ECF-A86B-608EF93DF6E5.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

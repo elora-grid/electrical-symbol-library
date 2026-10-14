@@ -1,0 +1,88 @@
+{
+  "slug": "ga-generator-day-tank",
+  "name": "Generator day tank",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "fuel service tank",
+    "Generator day tank CAD",
+    "Generator day tank general arrangement",
+    "Generator day tank panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A day tank provides the selected local fuel supply arrangement for a generator.",
+  "description": [
+    "A day tank provides the selected local fuel supply arrangement for a generator.",
+    "Coordinate tank envelope, fuel lines, level controls and servicing access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate tank envelope, fuel lines, level controls and servicing access.",
+    "A day tank and a bulk storage tank have different system roles."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate tank envelope, fuel lines, level controls and servicing access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A day tank and a bulk storage tank have different system roles.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-generator-day-tank",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-generator-day-tank",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-generator-day-tank.svg",
+  "id": "ga-generator-day-tank",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-generator-day-tank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-generator-day-tank.json",
+  "svgPath": "artwork/svg/ga-generator-day-tank.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

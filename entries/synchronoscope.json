@@ -1,0 +1,85 @@
+{
+  "slug": "synchronoscope",
+  "name": "Synchronoscope",
+  "kind": "symbol",
+  "abbreviation": "SYNC SCOPE",
+  "aliases": [
+    "HIN1P11",
+    "VIN1P11"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A synchronoscope indicates the phase relationship and relative frequency behaviour of two AC sources.",
+  "description": [
+    "A synchronoscope indicates the phase relationship and relative frequency behaviour of two AC sources. Its input connections identify which source is incoming and which is the reference."
+  ],
+  "readingNotes": [
+    "Trace both source inputs and their selected voltage phases.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name incoming and reference sources",
+    "Show measurement selection",
+    "Reference operating indication convention"
+  ],
+  "distinction": "A synchronoscope provides indication; a synchronism-check relay provides a configured permissive output.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1P11, VIN1P11 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-synchronoscope",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/synchronoscope",
+  "illustration": "https://eloragrid.ai/library/illustrations/synchronoscope.svg",
+  "id": "synchronoscope",
+  "canonicalUrl": "https://eloragrid.ai/symbols/synchronoscope",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/synchronoscope.json",
+  "svgPath": "artwork/svg/synchronoscope.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

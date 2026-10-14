@@ -1,0 +1,76 @@
+{
+  "slug": "plc-temperature-input",
+  "name": "PLC temperature input",
+  "kind": "symbol",
+  "abbreviation": "TI",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC temperature input connects a documented RTD, thermocouple or compatible sensor through the selected module.",
+  "description": [
+    "A PLC temperature input connects a documented RTD, thermocouple or compatible sensor through the selected module. Sensor type and conductor count determine its wiring and configuration."
+  ],
+  "readingNotes": [
+    "Preserve thermocouple polarity or RTD lead arrangement in the schematic.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State sensor type",
+    "Show conductor/polarity arrangement",
+    "Reference channel scaling"
+  ],
+  "distinction": "A dedicated temperature input is different from an analog input receiving a conditioned transmitter signal.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Controller interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-analog-io",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "terminal"
+  ],
+  "artwork": "edu-plc-temperature-input",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-temperature-input",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-temperature-input.svg",
+  "id": "plc-temperature-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-temperature-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-temperature-input.json",
+  "svgPath": "artwork/svg/plc-temperature-input.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-analog-io",
+      "title": "Modicon TM3 analog I/O hardware guide",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/EIO0000003131/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

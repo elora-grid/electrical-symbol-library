@@ -1,0 +1,84 @@
+{
+  "slug": "early-break-normally-closed-contact",
+  "name": "Early-break normally-closed contact",
+  "kind": "symbol",
+  "abbreviation": "NC EARLY",
+  "aliases": [
+    "HCR227F",
+    "VCR227F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An early-break NC contact opens earlier in a documented mechanical sequence than associated contacts.",
+  "description": [
+    "An early-break NC contact opens earlier in a documented mechanical sequence than associated contacts. It may participate in interlocks whose operation depends on this order."
+  ],
+  "readingNotes": [
+    "Determine which other contact transitions are used as the reference sequence.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Link common operator",
+    "Label early opening",
+    "Reference contact sequence"
+  ],
+  "distinction": "Early break is a mechanical sequence annotation, not an instantaneous protection threshold.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR227F, VCR227F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-early-break-normally-closed-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/early-break-normally-closed-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/early-break-normally-closed-contact.svg",
+  "id": "early-break-normally-closed-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/early-break-normally-closed-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/early-break-normally-closed-contact.json",
+  "svgPath": "artwork/svg/early-break-normally-closed-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

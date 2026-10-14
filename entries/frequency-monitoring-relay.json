@@ -1,0 +1,84 @@
+{
+  "slug": "frequency-monitoring-relay",
+  "name": "Frequency monitoring relay",
+  "kind": "symbol",
+  "abbreviation": "f MON",
+  "aliases": [
+    "HCR1F40",
+    "VCR1F40"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A frequency relay issues a documented output for a configured frequency condition.",
+  "description": [
+    "A frequency relay issues a documented output for a configured frequency condition. The schematic identifies its measurement input and links its thresholds to the settings record."
+  ],
+  "readingNotes": [
+    "Determine whether high frequency, low frequency or both are monitored.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name measured bus",
+    "Reference thresholds and delay",
+    "Show output contacts"
+  ],
+  "distinction": "A frequency relay applies operating criteria; a frequency meter only indicates the measured value.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1F40, VCR1F40 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-monitoring-relays",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "edu-frequency-monitoring-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/frequency-monitoring-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/frequency-monitoring-relay.svg",
+  "id": "frequency-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/frequency-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/frequency-monitoring-relay.json",
+  "svgPath": "artwork/svg/frequency-monitoring-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-monitoring-relays",
+      "title": "AutoCAD Electrical: Miscellaneous monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-31F4CF79-F8E0-4E5A-8C51-4D71640ACDB8.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "35-brush-operating-or-slip-ring-short-circuiting-device",
+  "name": "Brush-operating or slip-ring short-circuiting device",
+  "kind": "function",
+  "abbreviation": "35",
+  "aliases": [
+    "brush lifting device",
+    "slip ring shorting device",
+    "ANSI 35",
+    "IEEE device 35"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Changes the brush or slip-ring arrangement as part of a wound-rotor machine sequence.",
+  "description": [
+    "Changes the brush or slip-ring arrangement as part of a wound-rotor machine sequence.",
+    "In a drafting package, connect this reference to the brush mechanism and slip-ring circuit. The associated drawing should trace the mechanism drive and proof-of-position contacts; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the brush mechanism and slip-ring circuit.",
+    "Trace the mechanism drive and proof-of-position contacts."
+  ],
+  "drawingChecklist": [
+    "Label the brush mechanism and slip-ring circuit.",
+    "Cross-reference the mechanism drive and proof-of-position contacts.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "This is a specialist wound-rotor machine function, not a general terminal shorting link.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "35"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The brush mechanism and slip-ring circuit"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "motor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/35-brush-operating-or-slip-ring-short-circuiting-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/35-brush-operating-or-slip-ring-short-circuiting-device.svg",
+  "id": "35-brush-operating-or-slip-ring-short-circuiting-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/35-brush-operating-or-slip-ring-short-circuiting-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/35-brush-operating-or-slip-ring-short-circuiting-device.json",
+  "svgPath": "artwork/svg/35-brush-operating-or-slip-ring-short-circuiting-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

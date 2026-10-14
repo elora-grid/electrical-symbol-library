@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-led-indicator-lamp",
+  "name": "ANSI/IEEE led indicator lamp symbol",
+  "kind": "symbol",
+  "abbreviation": "LAMP LED",
+  "aliases": [
+    "IEEE led indicator lamp symbol",
+    "ANSI led indicator lamp symbol",
+    "HLT1H25"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for led indicator lamp, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The LED indicator form identifies a documented panel indication assembly using a light-emitting semiconductor. Its rated input and any polarity requirement belong to the complete assembly rather than to an assumed bare LED.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Read the assembly terminal and supply data.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State indicator voltage",
+    "Preserve specified polarity",
+    "Name visual signal meaning"
+  ],
+  "distinction": "A panel LED indicator may contain internal limiting or protection components absent from a bare LED symbol.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — LEDs"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HLT1H25 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-21296086-a519-4a08-b8ac-0aff670b8f53",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "led-indicator-lamp",
+    "indicator-lamp",
+    "relay-coil"
+  ],
+  "artwork": "edu-ansi-led-indicator-lamp",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented LEDs functional form",
+    "counterpart": "led-indicator-lamp",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-led-indicator-lamp",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-led-indicator-lamp.svg",
+  "id": "ansi-led-indicator-lamp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-led-indicator-lamp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-led-indicator-lamp.json",
+  "svgPath": "artwork/svg/ansi-led-indicator-lamp.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-21296086-a519-4a08-b8ac-0aff670b8f53",
+      "title": "Autodesk IEEE Symbol Preview — LEDs",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-21296086-A519-4A08-B8AC-0AFF670B8F53.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-backdraft-damper",
+  "name": "Backdraft damper",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "nonreturn air damper",
+    "Backdraft damper CAD",
+    "Backdraft damper general arrangement",
+    "Backdraft damper panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A backdraft damper controls reverse airflow through the specified opening.",
+  "description": [
+    "A backdraft damper controls reverse airflow through the specified opening.",
+    "Coordinate orientation, access and blade-operating zone. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate orientation, access and blade-operating zone.",
+    "Gravity or pressure operation must suit the actual installation arrangement."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate orientation, access and blade-operating zone.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Gravity or pressure operation must suit the actual installation arrangement.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-greenheck-aircontrol",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-backdraft-damper",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-backdraft-damper",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-backdraft-damper.svg",
+  "id": "ga-backdraft-damper",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-backdraft-damper",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-backdraft-damper.json",
+  "svgPath": "artwork/svg/ga-backdraft-damper.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-greenheck-aircontrol",
+      "title": "Air-control product categories",
+      "publisher": "Greenheck",
+      "url": "https://www.greenheck.com/products/air-conditioning/ChangeLanguage",
+      "type": "manufacturer",
+      "scope": "Official product navigation for fire/smoke/backdraft/control dampers and louvers; classification links are not certification claims.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "50bf-circuit-breaker-failure-protection",
+  "name": "Circuit-breaker failure protection",
+  "kind": "function",
+  "abbreviation": "50BF",
+  "aliases": [
+    "breaker failure",
+    "CB failure",
+    "BF protection",
+    "ANSI 50BF",
+    "IEEE 50BF"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Initiates the documented backup action when a breaker does not clear the monitored condition after a trip initiation.",
+  "description": [
+    "Initiates the documented backup action when a breaker does not clear the monitored condition after a trip initiation.",
+    "The drafting record should connect this function to the initiating trips, breaker current/status and failure timer, then trace the retrip and upstream or adjacent breaker trip matrix. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton EMR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the initiating trips, breaker current/status and failure timer.",
+    "Trace the retrip and upstream or adjacent breaker trip matrix."
+  ],
+  "drawingChecklist": [
+    "Label the initiating trips, breaker current/status and failure timer.",
+    "Cross-reference the retrip and upstream or adjacent breaker trip matrix.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Breaker failure is a sequence involving initiation and clearance supervision; it is not ordinary instantaneous feeder overcurrent.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "50BF"
+    },
+    {
+      "label": "Base function",
+      "value": "50 — Instantaneous overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton EMR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-motor",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "50-instantaneous-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/50bf-circuit-breaker-failure-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/50bf-circuit-breaker-failure-protection.svg",
+  "id": "50bf-circuit-breaker-failure-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/50bf-circuit-breaker-failure-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/50bf-circuit-breaker-failure-protection.json",
+  "svgPath": "artwork/svg/50bf-circuit-breaker-failure-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-motor",
+      "title": "EMR motor protection: public function comparison",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/motor-relays.html",
+      "type": "manufacturer",
+      "scope": "Public motor-relay application mappings including jam/stall protection, current input variants, breaker failure and motor differential. Suffix interpretation applies to the cited family.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "logic-inverter",
+  "name": "Logic inverter",
+  "kind": "symbol",
+  "abbreviation": "NOT",
+  "aliases": [
+    "NOT gate",
+    "logical inversion"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Produces the opposite logical state of its defined digital input.",
+  "description": [
+    "Produces the opposite logical state of its defined digital input.",
+    "On a schematic, identify the input/output polarity and logic supply domain and trace the inverted signal and receiving-device interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A digital NOT gate inverts a logic state; an inverting analogue amplifier changes a continuous signal with a gain relationship.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input/output polarity and logic supply domain.",
+    "Trace the inverted signal and receiving-device interface."
+  ],
+  "drawingChecklist": [
+    "Label the input/output polarity and logic supply domain.",
+    "Cross-reference the inverted signal and receiving-device interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A digital NOT gate inverts a logic state; an inverting analogue amplifier changes a continuous signal with a gain relationship.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NOT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input/output polarity and logic supply domain"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc04",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-and-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-not",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-inverter",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-inverter.svg",
+  "id": "logic-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-inverter.json",
+  "svgPath": "artwork/svg/logic-inverter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc04",
+      "title": "SN74HC04 — digital inverters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of digital inverters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

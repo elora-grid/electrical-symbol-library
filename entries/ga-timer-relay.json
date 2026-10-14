@@ -1,0 +1,88 @@
+{
+  "slug": "ga-timer-relay",
+  "name": "Timer relay",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "time delay relay",
+    "Timer relay CAD",
+    "Timer relay general arrangement",
+    "Timer relay panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A timer relay changes its outputs according to the selected time function.",
+  "description": [
+    "A timer relay changes its outputs according to the selected time function.",
+    "Leave the setting controls and terminal labels accessible. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Leave the setting controls and terminal labels accessible.",
+    "On-delay, off-delay and other modes require explicit schematic and schedule descriptions."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Leave the setting controls and terminal labels accessible.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "On-delay, off-delay and other modes require explicit schematic and schedule descriptions.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-timer-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-timer-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-timer-relay.svg",
+  "id": "ga-timer-relay",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-timer-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-timer-relay.json",
+  "svgPath": "artwork/svg/ga-timer-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

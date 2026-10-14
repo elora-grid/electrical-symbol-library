@@ -1,0 +1,82 @@
+{
+  "slug": "isolated-gate-driver",
+  "name": "Isolated gate driver",
+  "kind": "symbol",
+  "abbreviation": "ISO-GD",
+  "aliases": [
+    "isolated IGBT driver",
+    "isolated MOSFET driver"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers a switching command across an isolation barrier and drives a power-transistor gate circuit.",
+  "description": [
+    "Transfers a switching command across an isolation barrier and drives a power-transistor gate circuit.",
+    "On a schematic, identify input/output domain supplies, driver return and fault/desaturation pins and trace the gate connection, interlock and converter protection interfaces. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A gate driver adds drive capability and device-specific supervision; it is not merely a general-purpose digital isolator.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify input/output domain supplies, driver return and fault/desaturation pins.",
+    "Trace the gate connection, interlock and converter protection interfaces."
+  ],
+  "drawingChecklist": [
+    "Label input/output domain supplies, driver return and fault/desaturation pins.",
+    "Cross-reference the gate connection, interlock and converter protection interfaces.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A gate driver adds drive capability and device-specific supervision; it is not merely a general-purpose digital isolator.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "ISO-GD — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "Input/output domain supplies, driver return and fault/desaturation pins"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-isolated-driver",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "insulated-gate-bipolar-transistor",
+    "diode"
+  ],
+  "artwork": "electronics-isolated-driver",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-gate-driver",
+  "illustration": "https://eloragrid.ai/library/illustrations/isolated-gate-driver.svg",
+  "id": "isolated-gate-driver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-gate-driver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-gate-driver.json",
+  "svgPath": "artwork/svg/isolated-gate-driver.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-isolated-driver",
+      "title": "UCC21750 — isolated gate-driver interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/UCC21750",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of isolated gate-driver interfaces. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

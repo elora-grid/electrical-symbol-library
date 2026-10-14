@@ -1,0 +1,104 @@
+{
+  "slug": "51n-time-neutral-overcurrent-protection",
+  "name": "Time neutral-overcurrent protection",
+  "kind": "function",
+  "abbreviation": "51N",
+  "aliases": [
+    "neutral IDMT",
+    "residual time overcurrent",
+    "ANSI 51N",
+    "IEEE 51N"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises neutral or residual overcurrent with the configured timing characteristic.",
+  "description": [
+    "Supervises neutral or residual overcurrent with the configured timing characteristic.",
+    "The drafting record should connect this function to the neutral or residual measurement source and CT reference, then trace the neutral time-overcurrent output and earth-fault coordination reference. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL public device-number table). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the neutral or residual measurement source and CT reference.",
+    "Trace the neutral time-overcurrent output and earth-fault coordination reference."
+  ],
+  "drawingChecklist": [
+    "Label the neutral or residual measurement source and CT reference.",
+    "Cross-reference the neutral time-overcurrent output and earth-fault coordination reference.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Neutral/residual 51N does not determine whether the source is a neutral CT or a residual sum; show the source explicitly.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "51N"
+    },
+    {
+      "label": "Base function",
+      "value": "51 — Time overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL public device-number table"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "51-time-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/51n-time-neutral-overcurrent-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/51n-time-neutral-overcurrent-protection.svg",
+  "id": "51n-time-neutral-overcurrent-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/51n-time-neutral-overcurrent-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/51n-time-neutral-overcurrent-protection.json",
+  "svgPath": "artwork/svg/51n-time-neutral-overcurrent-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

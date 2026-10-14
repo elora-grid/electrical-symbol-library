@@ -1,0 +1,119 @@
+{
+  "slug": "iec-yz11-transformer-connection-reference",
+  "name": "Yz11 transformer connection reference",
+  "kind": "symbol",
+  "abbreviation": "Yz11",
+  "aliases": [
+    "Yz11 transformer connection reference symbol",
+    "HXF1T30",
+    "Yz11 transformer connection reference IEC reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This reference identifies the publisher's Yz11 transformer connection form with star/zigzag winding topology.",
+  "description": [
+    "Yz11 combines an HV-side star winding designation with an LV-side zigzag designation and clock group 11. The letters describe connection topology; the final number identifies the phase relationship recorded with the transformer connection diagram. It is different from the voltage ratio or the number of terminals.",
+    "A drafter should preserve the full Yz11 designation across the SLD, transformer schedule and protection references. Two devices with the same winding letters but a different clock number are not the same connection reference. Check the selected transformer terminal diagram and the protection application documentation; the concept preview does not specify polarity tests, parallel-operation suitability or relay settings."
+  ],
+  "readingNotes": [
+    "Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram.",
+    "The clock-group suffix is different from a voltage ratio, power rating or physical terminal number."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The clock-group suffix is different from a voltage ratio, power rating or physical terminal number.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HXF1T30 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "HV winding topology",
+      "value": "star"
+    },
+    {
+      "label": "LV winding topology",
+      "value": "zigzag"
+    },
+    {
+      "label": "Clock-group label",
+      "value": "11"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-three-phase-transformers",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    },
+    {
+      "sourceId": "iec-public-vector-interpretation",
+      "relevance": "Manufacturer application context explains why winding type and clock number must be kept distinct in transformer protection documentation. No relay settings are prescribed here."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-iec-yz11-transformer-connection-reference",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Yz11 transformer connection reference",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Three-phase transformer and vector-group forms; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-yz11-transformer-connection-reference",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-yz11-transformer-connection-reference.svg",
+  "id": "iec-yz11-transformer-connection-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-yz11-transformer-connection-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-yz11-transformer-connection-reference.json",
+  "svgPath": "artwork/svg/iec-yz11-transformer-connection-reference.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-three-phase-transformers",
+      "title": "AutoCAD Electrical: Three-phase transformer connections",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EB13DB13-01EE-4541-BED7-19B9001BE8FC.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    },
+    {
+      "id": "iec-public-vector-interpretation",
+      "title": "Transformer vector-group interpretation in protection application",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/SSC600-and-SSC600-SW-Technical-Manual/1.5/en-US/TR2PTDF-Operation-principle?contentId=_tVeRElk4P5wHpFgF2sYvw",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context distinguishes transformer winding types, clock numbers and measurement compensation. Used for interpretation, not to supply protection settings or a standard database graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer application context explains why winding type and clock number must be kept distinct in transformer protection documentation. No relay settings are prescribed here."
+    }
+  ]
+}

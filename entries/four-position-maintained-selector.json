@@ -1,0 +1,84 @@
+{
+  "slug": "four-position-maintained-selector",
+  "name": "Four-position maintained selector",
+  "kind": "symbol",
+  "abbreviation": "SEL 4 HOLD",
+  "aliases": [
+    "HSS114",
+    "VSS114"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A four-position maintained selector provides four stable operating choices.",
+  "description": [
+    "A four-position maintained selector provides four stable operating choices. Each contact's state across those choices is recorded in a schedule instead of trying to express the complete logic in one contact outline."
+  ],
+  "readingNotes": [
+    "Verify the sequence and order of all four positions.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name four positions",
+    "Provide switching table",
+    "Identify common operator tag"
+  ],
+  "distinction": "Four positions do not imply four independent contact poles.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Position selection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HSS114, VSS114 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-selector-four",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "changeover-contact"
+  ],
+  "artwork": "edu-four-position-maintained-selector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/four-position-maintained-selector",
+  "illustration": "https://eloragrid.ai/library/illustrations/four-position-maintained-selector.svg",
+  "id": "four-position-maintained-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/four-position-maintained-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/four-position-maintained-selector.json",
+  "svgPath": "artwork/svg/four-position-maintained-selector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-selector-four",
+      "title": "AutoCAD Electrical: Four-position selectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09243080-0BE8-4401-8E79-11156DF1CDDF.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

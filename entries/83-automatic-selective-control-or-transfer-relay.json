@@ -1,0 +1,98 @@
+{
+  "slug": "83-automatic-selective-control-or-transfer-relay",
+  "name": "Automatic selective control or transfer relay",
+  "kind": "function",
+  "abbreviation": "83",
+  "aliases": [
+    "automatic transfer control",
+    "selective control",
+    "ANSI 83",
+    "IEEE device 83"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Automatically selects between control circuits or operating sources under defined conditions.",
+  "description": [
+    "Automatically selects between control circuits or operating sources under defined conditions.",
+    "In a drafting package, connect this reference to the source availability and transfer-permission signals. The associated drawing should trace the selected source command and switching interlocks; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the source availability and transfer-permission signals.",
+    "Trace the selected source command and switching interlocks."
+  ],
+  "drawingChecklist": [
+    "Label the source availability and transfer-permission signals.",
+    "Cross-reference the selected source command and switching interlocks.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Automatic transfer logic 83 is different from a manually operated selector 43.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "83"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The source availability and transfer-permission signals"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "transfer-switch",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/83-automatic-selective-control-or-transfer-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/83-automatic-selective-control-or-transfer-relay.svg",
+  "id": "83-automatic-selective-control-or-transfer-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/83-automatic-selective-control-or-transfer-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/83-automatic-selective-control-or-transfer-relay.json",
+  "svgPath": "artwork/svg/83-automatic-selective-control-or-transfer-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "four-switch-buck-boost-topology",
+  "name": "Four-switch buck-boost topology",
+  "kind": "symbol",
+  "abbreviation": "4SW-BB",
+  "aliases": [
+    "noninverting buck boost",
+    "four switch converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A non-inverting conversion arrangement with switching legs that support documented buck and boost operation.",
+  "description": [
+    "A non-inverting conversion arrangement with switching legs that support documented buck and boost operation.",
+    "On a schematic, identify the two switching legs, shared inductor and common reference and trace the positive-polarity output and controller feedback. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Four-switch buck-boost and inverting buck-boost have different power paths and output polarity.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the two switching legs, shared inductor and common reference.",
+    "Trace the positive-polarity output and controller feedback."
+  ],
+  "drawingChecklist": [
+    "Label the two switching legs, shared inductor and common reference.",
+    "Cross-reference the positive-polarity output and controller feedback.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Four-switch buck-boost and inverting buck-boost have different power paths and output polarity.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "4SW-BB — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two switching legs, shared inductor and common reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "inverting-buck-boost-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-four-switch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/four-switch-buck-boost-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/four-switch-buck-boost-topology.svg",
+  "id": "four-switch-buck-boost-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/four-switch-buck-boost-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/four-switch-buck-boost-topology.json",
+  "svgPath": "artwork/svg/four-switch-buck-boost-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

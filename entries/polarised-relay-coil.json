@@ -1,0 +1,84 @@
+{
+  "slug": "polarised-relay-coil",
+  "name": "Polarised relay coil",
+  "kind": "symbol",
+  "abbreviation": "K POL",
+  "aliases": [
+    "HCR1POL",
+    "VCR1POL"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A polarised relay has operation or a specified response that depends on the documented electrical polarity.",
+  "description": [
+    "A polarised relay has operation or a specified response that depends on the documented electrical polarity. Its terminal and polarity markings must be preserved when the drawing is rearranged."
+  ],
+  "readingNotes": [
+    "The device polarity is established by terminal data, not by the left-to-right direction of a rung.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show coil polarity",
+    "State operating voltage",
+    "Reference contact behaviour"
+  ],
+  "distinction": "Polarised relay operation is different from merely fitting a suppression diode to an otherwise ordinary coil.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1POL, VCR1POL (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-polarised-relay-coil",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/polarised-relay-coil",
+  "illustration": "https://eloragrid.ai/library/illustrations/polarised-relay-coil.svg",
+  "id": "polarised-relay-coil",
+  "canonicalUrl": "https://eloragrid.ai/symbols/polarised-relay-coil",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/polarised-relay-coil.json",
+  "svgPath": "artwork/svg/polarised-relay-coil.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

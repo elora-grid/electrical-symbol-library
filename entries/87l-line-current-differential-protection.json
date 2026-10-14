@@ -1,0 +1,105 @@
+{
+  "slug": "87l-line-current-differential-protection",
+  "name": "Line current differential protection",
+  "kind": "function",
+  "abbreviation": "87L",
+  "aliases": [
+    "line differential",
+    "line diff",
+    "current differential line",
+    "ANSI 87L",
+    "IEEE 87L"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Compares current information from the terminals of a protected line using a communication-assisted differential scheme.",
+  "description": [
+    "Compares current information from the terminals of a protected line using a communication-assisted differential scheme.",
+    "The drafting record should connect this function to the local and remote terminal CTs and protection communication links, then trace the line differential zone and terminal breaker trips. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL line differential documentation). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the local and remote terminal CTs and protection communication links.",
+    "Trace the line differential zone and terminal breaker trips."
+  ],
+  "drawingChecklist": [
+    "Label the local and remote terminal CTs and protection communication links.",
+    "Cross-reference the line differential zone and terminal breaker trips.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Line differential requires its measurement and communication arrangement; it is not a local distance zone or directional permissive alone.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "87L"
+    },
+    {
+      "label": "Base function",
+      "value": "87 — Differential protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL line differential documentation"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "87-differential",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/87l-line-current-differential-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/87l-line-current-differential-protection.svg",
+  "id": "87l-line-current-differential-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/87l-line-current-differential-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/87l-line-current-differential-protection.json",
+  "svgPath": "artwork/svg/87l-line-current-differential-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

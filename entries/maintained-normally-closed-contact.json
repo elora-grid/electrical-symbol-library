@@ -1,0 +1,84 @@
+{
+  "slug": "maintained-normally-closed-contact",
+  "name": "Maintained normally-closed contact",
+  "kind": "symbol",
+  "abbreviation": "NC HOLD",
+  "aliases": [
+    "HCR2222F",
+    "VCR2222F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A maintained NC contact retains its actuated position until the documented return action occurs.",
+  "description": [
+    "A maintained NC contact retains its actuated position until the documented return action occurs. The unactuated closed state and retained operated state must both be understood."
+  ],
+  "readingNotes": [
+    "Trace the specified reset action before evaluating the next operating cycle.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show reference condition",
+    "Identify retained position",
+    "Cross-reference reset control"
+  ],
+  "distinction": "A maintained contact is not necessarily an electrically latching relay.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR2222F, VCR2222F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-maintained-normally-closed-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/maintained-normally-closed-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/maintained-normally-closed-contact.svg",
+  "id": "maintained-normally-closed-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/maintained-normally-closed-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/maintained-normally-closed-contact.json",
+  "svgPath": "artwork/svg/maintained-normally-closed-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

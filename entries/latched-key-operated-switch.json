@@ -1,0 +1,84 @@
+{
+  "slug": "latched-key-operated-switch",
+  "name": "Latched key-operated switch",
+  "kind": "symbol",
+  "abbreviation": "KEY HOLD",
+  "aliases": [
+    "HPB11KSL",
+    "VPB11KSL"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A latched key-operated switch retains its commanded position according to the selected mechanism.",
+  "description": [
+    "A latched key-operated switch retains its commanded position according to the selected mechanism. The drawing should specify how the latched position is released and where the key is removable."
+  ],
+  "readingNotes": [
+    "Separate the mechanical retention from any electrical seal-in circuit.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "List stable positions",
+    "Show reset action",
+    "Document key-removal constraints"
+  ],
+  "distinction": "Mechanically latched operation is different from a relay holding circuit.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Manual operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPB11KSL, VPB11KSL (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-misc-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "edu-latched-key-operated-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/latched-key-operated-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/latched-key-operated-switch.svg",
+  "id": "latched-key-operated-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/latched-key-operated-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/latched-key-operated-switch.json",
+  "svgPath": "artwork/svg/latched-key-operated-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-misc-switches",
+      "title": "AutoCAD Electrical: Level, flow, keyed and measurement switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1FB94435-C954-4479-BD97-25796DB8F728.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

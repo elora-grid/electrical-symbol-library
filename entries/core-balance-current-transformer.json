@@ -1,0 +1,111 @@
+{
+  "slug": "core-balance-current-transformer",
+  "name": "Core-balance current transformer",
+  "kind": "symbol",
+  "abbreviation": "CBCT",
+  "aliases": [
+    "zero sequence current transformer",
+    "residual current transformer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A core-balance CT measures residual current from the net magnetic effect of conductors passing through its window.",
+  "description": [
+    "A core-balance CT measures residual current from the net magnetic effect of conductors passing through its window. It is used with earth-fault protection where the conductor arrangement and sheath routing affect the measurement."
+  ],
+  "readingNotes": [
+    "Verify the included conductors and cable-sheath treatment against the protection scheme.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify enclosed conductors",
+    "Show polarity and relay input",
+    "Reference sheath-earthing detail"
+  ],
+  "distinction": "A CBCT measures a combined residual quantity; a phase CT measures an individual conductor current.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Current measurement"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal"
+  ],
+  "artwork": "edu-core-balance-current-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/core-balance-current-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/core-balance-current-transformer.svg",
+  "id": "core-balance-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/core-balance-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/core-balance-current-transformer.json",
+  "svgPath": "artwork/svg/core-balance-current-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

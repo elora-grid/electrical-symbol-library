@@ -1,0 +1,97 @@
+{
+  "slug": "10-unit-sequence-switch",
+  "name": "Unit sequence switch",
+  "kind": "function",
+  "abbreviation": "10",
+  "aliases": [
+    "unit sequence selector",
+    "ANSI 10",
+    "IEEE device 10"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Selects or determines the order in which multiple units enter an operating sequence.",
+  "description": [
+    "Selects or determines the order in which multiple units enter an operating sequence.",
+    "In a drafting package, connect this reference to the selected unit order and selector positions. The associated drawing should trace the unit-specific start-permission circuits; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the selected unit order and selector positions.",
+    "Trace the unit-specific start-permission circuits."
+  ],
+  "drawingChecklist": [
+    "Label the selected unit order and selector positions.",
+    "Cross-reference the unit-specific start-permission circuits.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Unit ordering differs from device 34, which sequences the operations inside a unit or system.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "10"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The selected unit order and selector positions"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/10-unit-sequence-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/10-unit-sequence-switch.svg",
+  "id": "10-unit-sequence-switch",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/10-unit-sequence-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/10-unit-sequence-switch.json",
+  "svgPath": "artwork/svg/10-unit-sequence-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

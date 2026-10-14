@@ -1,0 +1,85 @@
+{
+  "slug": "three-phase-motor-with-fan",
+  "name": "Three-phase motor with fan",
+  "kind": "symbol",
+  "abbreviation": "M 3PH FAN",
+  "aliases": [
+    "HMO1M2",
+    "VMO1M2"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-phase motor with fan identifies an electrically driven ventilation or cooling load.",
+  "description": [
+    "A three-phase motor with fan identifies an electrically driven ventilation or cooling load. The motor supply and the mechanical airflow arrangement are documented through linked tags."
+  ],
+  "readingNotes": [
+    "Identify whether the fan is an independent auxiliary load or associated with another machine.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Match motor/fan tag",
+    "State supply and power",
+    "Reference control and airflow requirements"
+  ],
+  "distinction": "The fan symbol describes driven equipment while the motor symbol describes its electrical load.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M2, VMO1M2 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-three-phase-motor-with-fan",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-motor-with-fan",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-motor-with-fan.svg",
+  "id": "three-phase-motor-with-fan",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-motor-with-fan",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-motor-with-fan.json",
+  "svgPath": "artwork/svg/three-phase-motor-with-fan.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-motors",
+      "title": "Three-phase motor symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-385CBE83-33A3-4314-913E-3B59A6D05F22.htm",
+      "type": "cad-reference",
+      "scope": "Motor variants including asynchronous, synchronous and connection-count differences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

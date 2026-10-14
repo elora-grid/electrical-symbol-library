@@ -1,0 +1,84 @@
+{
+  "slug": "motor-overload-trip-nc-contact",
+  "name": "Motor overload trip NC contact",
+  "kind": "symbol",
+  "abbreviation": "OL NC",
+  "aliases": [
+    "HOL22",
+    "VOL22"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An overload trip NC contact opens on the documented overload relay operation.",
+  "description": [
+    "An overload trip NC contact opens on the documented overload relay operation. It is commonly wired in the motor-control path while the overload sensing elements belong to the power circuit."
+  ],
+  "readingNotes": [
+    "Use the overload device tag to link sensing and control-contact representations.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify overload relay",
+    "State contact terminals",
+    "Show reset and trip logic"
+  ],
+  "distinction": "The auxiliary overload contact interrupts a control path; it does not itself carry the motor feeder current.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HOL22, VOL22 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-motor-control",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-motor-overload-trip-nc-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/motor-overload-trip-nc-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/motor-overload-trip-nc-contact.svg",
+  "id": "motor-overload-trip-nc-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-overload-trip-nc-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-overload-trip-nc-contact.json",
+  "svgPath": "artwork/svg/motor-overload-trip-nc-contact.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-motor-control",
+      "title": "AutoCAD Electrical: Motor control and overloads",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-D74101D4-8702-418C-B349-B15EEAEFAA20.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

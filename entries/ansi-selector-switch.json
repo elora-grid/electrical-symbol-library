@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-selector-switch",
+  "name": "ANSI/IEEE selector switch symbol",
+  "kind": "symbol",
+  "abbreviation": "SS",
+  "aliases": [
+    "IEEE selector switch symbol",
+    "ANSI selector switch symbol",
+    "HSS112"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for selector switch, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The two-position maintained selector form links an operator position to a defined contact state. A position/contact schedule supplies the full control meaning; the operator label alone cannot describe multiple contact blocks on the same handle.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Read the selected position against the contact table.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Name operator positions",
+    "Provide contact-state schedule",
+    "Identify terminal pairs"
+  ],
+  "distinction": "Operator positions count mechanical choices, while poles count electrical paths.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Selector Switches"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HSS112 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-6a68e692-a1dd-4c48-a19f-86b13916830d",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "changeover-contact",
+    "pushbutton-no",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-selector-switch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Selector Switches functional form",
+    "counterpart": "selector-switch",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-selector-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-selector-switch.svg",
+  "id": "ansi-selector-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-selector-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-selector-switch.json",
+  "svgPath": "artwork/svg/ansi-selector-switch.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-6a68e692-a1dd-4c48-a19f-86b13916830d",
+      "title": "Autodesk IEEE Symbol Preview — Selector Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A68E692-A1DD-4C48-A19F-86B13916830D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

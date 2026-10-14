@@ -1,0 +1,93 @@
+{
+  "slug": "general-purpose-full-range-fuse",
+  "name": "General-purpose full-range fuse",
+  "kind": "symbol",
+  "abbreviation": "gG",
+  "aliases": [],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A gG fuse-link provides full-range overcurrent protection for general applications within its documented ratings.",
+  "description": [
+    "A gG fuse-link provides full-range overcurrent protection for general applications within its documented ratings. The fuse symbol is paired with the utilization category and selected current and voltage ratings."
+  ],
+  "readingNotes": [
+    "Coordination requires the actual time-current and let-through data, not the letters alone.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record utilization category",
+    "State rated current and voltage",
+    "Reference breaking and coordination data"
+  ],
+  "distinction": "An aM fuse-link has a partial protection range for motor circuits and needs associated overload protection.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Fused circuit"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-fuses",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "fuse",
+    "load-break-switch"
+  ],
+  "artwork": "edu-general-purpose-full-range-fuse",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/general-purpose-full-range-fuse",
+  "illustration": "https://eloragrid.ai/library/illustrations/general-purpose-full-range-fuse.svg",
+  "id": "general-purpose-full-range-fuse",
+  "canonicalUrl": "https://eloragrid.ai/symbols/general-purpose-full-range-fuse",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/general-purpose-full-range-fuse.json",
+  "svgPath": "artwork/svg/general-purpose-full-range-fuse.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-fuses",
+      "title": "Fuse and neutral-link symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E540AE83-CEE1-4CA9-B43C-B19004025EAA.htm",
+      "type": "cad-reference",
+      "scope": "Fuses, auxiliary contacts, indication and open/closed neutral-link variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

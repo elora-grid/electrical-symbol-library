@@ -1,0 +1,82 @@
+{
+  "slug": "npn-bipolar-transistor",
+  "name": "NPN bipolar transistor",
+  "kind": "symbol",
+  "abbreviation": "NPN",
+  "aliases": [
+    "NPN BJT",
+    "bipolar junction transistor NPN"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A bipolar transistor with base, collector and emitter terminals arranged for NPN operation.",
+  "description": [
+    "A bipolar transistor with base, collector and emitter terminals arranged for NPN operation.",
+    "On a schematic, identify the base drive, collector node and emitter reference and trace the switched or amplified collector circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The emitter arrow distinguishes NPN from PNP in common schematics; the package pin order must still come from the selected part.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the base drive, collector node and emitter reference.",
+    "Trace the switched or amplified collector circuit."
+  ],
+  "drawingChecklist": [
+    "Label the base drive, collector node and emitter reference.",
+    "Cross-reference the switched or amplified collector circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The emitter arrow distinguishes NPN from PNP in common schematics; the package pin order must still come from the selected part.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NPN — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The base drive, collector node and emitter reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nexperia-npn",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "pnp-bipolar-transistor",
+    "diode"
+  ],
+  "artwork": "electronics-bjt-npn",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/npn-bipolar-transistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/npn-bipolar-transistor.svg",
+  "id": "npn-bipolar-transistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/npn-bipolar-transistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/npn-bipolar-transistor.json",
+  "svgPath": "artwork/svg/npn-bipolar-transistor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nexperia-npn",
+      "title": "BC847 NPN transistor documentation",
+      "publisher": "Nexperia",
+      "url": "https://assets.nexperia.com/documents/data-sheet/BC847X_SER.pdf",
+      "type": "manufacturer",
+      "scope": "Public NPN transistor terminal and component reference. The catalogue supplies no manufacturer package pinout or product-rating substitute.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

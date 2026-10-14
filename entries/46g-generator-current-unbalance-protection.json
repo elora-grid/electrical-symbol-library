@@ -1,0 +1,104 @@
+{
+  "slug": "46g-generator-current-unbalance-protection",
+  "name": "Generator current-unbalance protection",
+  "kind": "function",
+  "abbreviation": "46G",
+  "aliases": [
+    "generator unbalance",
+    "generator negative sequence",
+    "ANSI 46G",
+    "IEEE 46G"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises generator current imbalance using the manufacturer's machine protection implementation.",
+  "description": [
+    "Supervises generator current imbalance using the manufacturer's machine protection implementation.",
+    "The drafting record should connect this function to the generator's three phase-current measurements, then trace the generator unbalance alarm or trip function. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton EGR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the generator's three phase-current measurements.",
+    "Trace the generator unbalance alarm or trip function."
+  ],
+  "drawingChecklist": [
+    "Label the generator's three phase-current measurements.",
+    "Cross-reference the generator unbalance alarm or trip function.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "46G names a generator application in the cited Eaton family; it does not universally mean ground overcurrent.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "46G"
+    },
+    {
+      "label": "Base function",
+      "value": "46 — Current unbalance / negative sequence"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton EGR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-generator",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "46-current-unbalance",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/46g-generator-current-unbalance-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/46g-generator-current-unbalance-protection.svg",
+  "id": "46g-generator-current-unbalance-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/46g-generator-current-unbalance-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/46g-generator-current-unbalance-protection.json",
+  "svgPath": "artwork/svg/46g-generator-current-unbalance-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-generator",
+      "title": "EGR-5000 generator protection: public function overview",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/generator-relays.html",
+      "type": "manufacturer",
+      "scope": "Public generator-relay application reference. Detailed protection function mapping is also published in the E-Series brochure; naming does not establish the selected device configuration.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

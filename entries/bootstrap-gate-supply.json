@@ -1,0 +1,82 @@
+{
+  "slug": "bootstrap-gate-supply",
+  "name": "Bootstrap gate-drive supply",
+  "kind": "symbol",
+  "abbreviation": "BOOT",
+  "aliases": [
+    "bootstrap diode capacitor",
+    "bootstrap gate circuit"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A diode-capacitor arrangement used to supply a floating high-side gate-driver circuit under documented switching conditions.",
+  "description": [
+    "A diode-capacitor arrangement used to supply a floating high-side gate-driver circuit under documented switching conditions.",
+    "On a schematic, identify the bootstrap diode, capacitor and switching-node return and trace the driver's floating supply and charging path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A bootstrap circuit depends on its charging opportunity; it is not a continuous independent isolated DC supply.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the bootstrap diode, capacitor and switching-node return.",
+    "Trace the driver's floating supply and charging path."
+  ],
+  "drawingChecklist": [
+    "Label the bootstrap diode, capacitor and switching-node return.",
+    "Cross-reference the driver's floating supply and charging path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A bootstrap circuit depends on its charging opportunity; it is not a continuous independent isolated DC supply.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "BOOT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The bootstrap diode, capacitor and switching-node return"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-high-side-driver",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "high-side-gate-driver",
+    "diode"
+  ],
+  "artwork": "electronics-bootstrap",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bootstrap-gate-supply",
+  "illustration": "https://eloragrid.ai/library/illustrations/bootstrap-gate-supply.svg",
+  "id": "bootstrap-gate-supply",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bootstrap-gate-supply",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bootstrap-gate-supply.json",
+  "svgPath": "artwork/svg/bootstrap-gate-supply.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-high-side-driver",
+      "title": "UCC27714 — high-side and low-side gate drive with bootstrap context",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/UCC27714",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of high-side and low-side gate drive with bootstrap context. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

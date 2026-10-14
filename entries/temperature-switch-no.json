@@ -1,0 +1,84 @@
+{
+  "slug": "temperature-switch-no",
+  "name": "Temperature switch NO",
+  "kind": "symbol",
+  "abbreviation": "TS NO",
+  "aliases": [
+    "HTS11",
+    "VTS11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A temperature-operated NO switch changes from open to closed under its specified actuation condition.",
+  "description": [
+    "A temperature-operated NO switch changes from open to closed under its specified actuation condition. The drawing must identify the sensed location and temperature direction."
+  ],
+  "readingNotes": [
+    "Do not assume a normally-open contact always means rising-temperature alarm.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name sensed location",
+    "State operating temperature and direction",
+    "Reference reset behaviour"
+  ],
+  "distinction": "A temperature switch provides a discrete contact state; an RTD provides a resistance measurement.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HTS11, VTS11 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pressure-temperature",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-temperature-switch-no",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/temperature-switch-no",
+  "illustration": "https://eloragrid.ai/library/illustrations/temperature-switch-no.svg",
+  "id": "temperature-switch-no",
+  "canonicalUrl": "https://eloragrid.ai/symbols/temperature-switch-no",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/temperature-switch-no.json",
+  "svgPath": "artwork/svg/temperature-switch-no.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pressure-temperature",
+      "title": "AutoCAD Electrical: Pressure and temperature switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-46061E42-55B7-4804-8D50-C31DF292F01D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

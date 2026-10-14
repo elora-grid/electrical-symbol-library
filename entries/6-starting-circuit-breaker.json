@@ -1,0 +1,97 @@
+{
+  "slug": "6-starting-circuit-breaker",
+  "name": "Starting circuit breaker",
+  "kind": "function",
+  "abbreviation": "6",
+  "aliases": [
+    "starting breaker",
+    "ANSI 6",
+    "IEEE device 6"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Connects a machine to the electrical supply used during starting.",
+  "description": [
+    "Connects a machine to the electrical supply used during starting.",
+    "In a drafting package, connect this reference to the starting supply and machine connection. The associated drawing should trace the starting breaker control and status; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the starting supply and machine connection.",
+    "Trace the starting breaker control and status."
+  ],
+  "drawingChecklist": [
+    "Label the starting supply and machine connection.",
+    "Cross-reference the starting breaker control and status.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A starting breaker serves the start arrangement; device 42 identifies the normal running connection.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "6"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The starting supply and machine connection"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/6-starting-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/6-starting-circuit-breaker.svg",
+  "id": "6-starting-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/6-starting-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/6-starting-circuit-breaker.json",
+  "svgPath": "artwork/svg/6-starting-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

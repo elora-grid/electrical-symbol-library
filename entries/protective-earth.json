@@ -1,0 +1,101 @@
+{
+  "slug": "protective-earth",
+  "name": "Protective earth",
+  "kind": "symbol",
+  "abbreviation": "PE",
+  "aliases": [
+    "protective ground",
+    "PE connection",
+    "protective earthing",
+    "ground symbol"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An identified connection serving the protective earthing function.",
+  "description": [
+    "Protective-earth identification indicates a connection serving the protective earthing function. It should be distinguished from functional earthing, signal references and other grounding conventions. The drawing context and applicable documentation establish the meaning of each connection.",
+    "A protective-earth mark does not specify conductor size, bonding arrangement or installation compliance. Those requirements are documented in the electrical design, equipment information and applicable installation rules. Equipment-marking symbols and diagram symbols can belong to different standards."
+  ],
+  "readingNotes": [
+    "Read the connection label and its intended function.",
+    "Keep diagram references distinct from markings physically applied to equipment."
+  ],
+  "drawingChecklist": [
+    "Identify the protective connection.",
+    "Reference bonding and conductor information separately.",
+    "Avoid ambiguous earth or signal-reference labels."
+  ],
+  "distinction": "Protective earth, functional earth and a signal common are different functions even when a drawing uses visually related marks.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Protective earthing"
+    },
+    {
+      "label": "Installation detail",
+      "value": "Separate design documentation"
+    },
+    {
+      "label": "Equipment markings",
+      "value": "May reference a different symbol standard"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "Official diagram-symbol reference and related symbol standards."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public electrical drawing-category reference."
+    }
+  ],
+  "related": [
+    "earthing-switch",
+    "terminal",
+    "control-cabinet",
+    "switchboard"
+  ],
+  "artwork": "earth",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/protective-earth",
+  "illustration": "https://eloragrid.ai/library/illustrations/protective-earth.svg",
+  "id": "protective-earth",
+  "canonicalUrl": "https://eloragrid.ai/symbols/protective-earth",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/protective-earth.json",
+  "svgPath": "artwork/svg/protective-earth.svg",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official diagram-symbol reference and related symbol standards."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public electrical drawing-category reference."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-transformer-fed-indicator-lamp",
+  "name": "ANSI/IEEE transformer-fed indicator lamp symbol",
+  "kind": "symbol",
+  "abbreviation": "LAMP TX",
+  "aliases": [
+    "IEEE transformer-fed indicator lamp symbol",
+    "ANSI transformer-fed indicator lamp symbol",
+    "HLT1H23A"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for transformer-fed indicator lamp, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The transformer-fed lamp form identifies an indicator assembly with a documented internal voltage-conversion arrangement. Wiring uses the assembly input rating, while the internal lamp function explains the indication.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Separate assembly input voltage from internal lamp voltage.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State input rating",
+    "Identify assembly terminals",
+    "Name indicated condition"
+  ],
+  "distinction": "A lamp's built-in transformer is different from a separately supplied panel control transformer.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Transformer Lights"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HLT1H23A (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-37d8a291-6170-4348-820d-d9a03321186d",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "transformer-fed-indicator-lamp",
+    "indicator-lamp",
+    "relay-coil"
+  ],
+  "artwork": "edu-ansi-transformer-fed-indicator-lamp",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Transformer Lights functional form",
+    "counterpart": "transformer-fed-indicator-lamp",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-transformer-fed-indicator-lamp",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-transformer-fed-indicator-lamp.svg",
+  "id": "ansi-transformer-fed-indicator-lamp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-transformer-fed-indicator-lamp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-transformer-fed-indicator-lamp.json",
+  "svgPath": "artwork/svg/ansi-transformer-fed-indicator-lamp.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-37d8a291-6170-4348-820d-d9a03321186d",
+      "title": "Autodesk IEEE Symbol Preview — Transformer Lights",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37D8A291-6170-4348-820D-D9A03321186D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

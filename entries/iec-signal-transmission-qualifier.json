@@ -1,0 +1,91 @@
+{
+  "slug": "iec-signal-transmission-qualifier",
+  "name": "Signal-transmission qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q020504",
+  "aliases": [
+    "Signal-transmission qualifier symbol",
+    "Q020504",
+    "Signal-transmission qualifier IEC reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A transmission qualifier identifies the sending role of a signal interface.",
+  "description": [
+    "A transmission qualifier identifies the sending role of a signal interface. Transmission identifies the source role of a signal relationship. It can be used beside a transducer, communications interface or other function whose output is conveyed elsewhere.",
+    "Identify the receiving function through a tag or cross-reference. Signal units and electrical interface details belong in the associated I/O or communications schedule."
+  ],
+  "readingNotes": [
+    "Label the signal and the connected receiving function.",
+    "A transmitter-role indication does not identify the physical medium or electrical levels."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Label the signal and the connected receiving function.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A transmitter-role indication does not identify the physical medium or electrical levels.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q020504 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Label the signal and the connected receiving function."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "plc-io"
+  ],
+  "artwork": "edu-iec-signal-transmission-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Signal-transmission qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Propagation and signal-flow qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-signal-transmission-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-signal-transmission-qualifier.svg",
+  "id": "iec-signal-transmission-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-signal-transmission-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-signal-transmission-qualifier.json",
+  "svgPath": "artwork/svg/iec-signal-transmission-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

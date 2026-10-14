@@ -1,0 +1,82 @@
+{
+  "slug": "active-notch-filter",
+  "name": "Active notch filter",
+  "kind": "symbol",
+  "abbreviation": "NOTCH",
+  "aliases": [
+    "band stop filter",
+    "band rejection filter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Attenuates a defined frequency region while retaining the intended content outside it.",
+  "description": [
+    "Attenuates a defined frequency region while retaining the intended content outside it.",
+    "On a schematic, identify the rejection-frequency reference, bandwidth and active circuit supplies and trace the filtered output and measurement use. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The notch response does not identify the actual frequency or depth without the selected filter design.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the rejection-frequency reference, bandwidth and active circuit supplies.",
+    "Trace the filtered output and measurement use."
+  ],
+  "drawingChecklist": [
+    "Label the rejection-frequency reference, bandwidth and active circuit supplies.",
+    "Cross-reference the filtered output and measurement use.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The notch response does not identify the actual frequency or depth without the selected filter design.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NOTCH — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The rejection-frequency reference, bandwidth and active circuit supplies"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-active-filters",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "active-band-pass-filter",
+    "plc-io"
+  ],
+  "artwork": "electronics-filter-notch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-notch-filter",
+  "illustration": "https://eloragrid.ai/library/illustrations/active-notch-filter.svg",
+  "id": "active-notch-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-notch-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-notch-filter.json",
+  "svgPath": "artwork/svg/active-notch-filter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-active-filters",
+      "title": "Basic Linear Design, Chapter 8: analogue filter response families",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/media/en/training-seminars/design-handbooks/Basic-Linear-Design/Chapter8.pdf",
+      "type": "manufacturer",
+      "scope": "Public primary handbook context for low-pass, high-pass, band-pass and band-rejection responses. The miniature response sketches are original conceptual illustrations, with no claimed cutoff, order or component values.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

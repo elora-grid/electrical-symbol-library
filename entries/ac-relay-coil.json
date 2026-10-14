@@ -1,0 +1,84 @@
+{
+  "slug": "ac-relay-coil",
+  "name": "AC relay coil",
+  "kind": "symbol",
+  "abbreviation": "K AC",
+  "aliases": [
+    "HCR1AC",
+    "VCR1AC"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An AC relay coil is intended for a specified alternating-current control supply.",
+  "description": [
+    "An AC relay coil is intended for a specified alternating-current control supply. Voltage and frequency form part of its coil rating and cannot be inferred from the relay tag."
+  ],
+  "readingNotes": [
+    "Identify the actual control-supply frequency and voltage.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State coil voltage and frequency",
+    "Label coil terminals",
+    "Link contact references"
+  ],
+  "distinction": "AC coil suitability does not mean its contacts can switch every AC or DC load.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1AC, VCR1AC (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ac-relay-coil",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ac-relay-coil",
+  "illustration": "https://eloragrid.ai/library/illustrations/ac-relay-coil.svg",
+  "id": "ac-relay-coil",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ac-relay-coil",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ac-relay-coil.json",
+  "svgPath": "artwork/svg/ac-relay-coil.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

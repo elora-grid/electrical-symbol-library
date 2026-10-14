@@ -1,0 +1,84 @@
+{
+  "slug": "counter-relay-with-manual-reset",
+  "name": "Counter relay with manual reset",
+  "kind": "symbol",
+  "abbreviation": "COUNT MAN",
+  "aliases": [
+    "HCR1CNM",
+    "VCR1CNM"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A manually reset counter relay records qualifying events and retains a count until the documented reset action.",
+  "description": [
+    "A manually reset counter relay records qualifying events and retains a count until the documented reset action. Event input, count condition and reset control should be identifiable on the drawing."
+  ],
+  "readingNotes": [
+    "Count events at the configured input rather than assuming every power cycle is an event.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label count input",
+    "Show manual reset",
+    "Reference preset and output function"
+  ],
+  "distinction": "A counter accumulates events; a timer measures duration.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1CNM, VCR1CNM (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-counters",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-counter-relay-with-manual-reset",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/counter-relay-with-manual-reset",
+  "illustration": "https://eloragrid.ai/library/illustrations/counter-relay-with-manual-reset.svg",
+  "id": "counter-relay-with-manual-reset",
+  "canonicalUrl": "https://eloragrid.ai/symbols/counter-relay-with-manual-reset",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/counter-relay-with-manual-reset.json",
+  "svgPath": "artwork/svg/counter-relay-with-manual-reset.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-counters",
+      "title": "AutoCAD Electrical: Counter relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EDA5C048-228A-4ABF-B77B-D305F4BB656A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

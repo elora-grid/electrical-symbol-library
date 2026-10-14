@@ -1,0 +1,98 @@
+{
+  "slug": "26-apparatus-thermal-device",
+  "name": "Apparatus thermal device",
+  "kind": "function",
+  "abbreviation": "26",
+  "aliases": [
+    "thermal switch",
+    "equipment thermal device",
+    "ANSI 26",
+    "IEEE device 26"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Responds to the temperature of equipment or a monitored part of that equipment.",
+  "description": [
+    "Responds to the temperature of equipment or a monitored part of that equipment.",
+    "In a drafting package, connect this reference to the thermal sensor location and contact type. The associated drawing should trace the alarm, trip or cooling-control destination; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the thermal sensor location and contact type.",
+    "Trace the alarm, trip or cooling-control destination."
+  ],
+  "drawingChecklist": [
+    "Label the thermal sensor location and contact type.",
+    "Cross-reference the alarm, trip or cooling-control destination.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "An apparatus thermal device can be a direct sensor or switch; a 49 function may instead use a calculated thermal model.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "26"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The thermal sensor location and contact type"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "49-thermal-protection",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/26-apparatus-thermal-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/26-apparatus-thermal-device.svg",
+  "id": "26-apparatus-thermal-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/26-apparatus-thermal-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/26-apparatus-thermal-device.json",
+  "svgPath": "artwork/svg/26-apparatus-thermal-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

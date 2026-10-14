@@ -1,0 +1,99 @@
+{
+  "slug": "54-turning-gear-engaging-device",
+  "name": "Turning-gear engaging device",
+  "kind": "function",
+  "abbreviation": "54",
+  "aliases": [
+    "turning gear",
+    "turning gear engagement",
+    "ANSI 54",
+    "IEEE device 54"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Controls engagement of the turning gear used to rotate a large machine at low speed.",
+  "description": [
+    "Controls engagement of the turning gear used to rotate a large machine at low speed.",
+    "In a drafting package, connect this reference to the turning-gear mechanism and speed/interlock signals. The associated drawing should trace the engagement actuator and proof-of-position circuit; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the turning-gear mechanism and speed/interlock signals.",
+    "Trace the engagement actuator and proof-of-position circuit."
+  ],
+  "drawingChecklist": [
+    "Label the turning-gear mechanism and speed/interlock signals.",
+    "Cross-reference the engagement actuator and proof-of-position circuit.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Turning-gear engagement is a specialist machine mechanism, not a bus or generator paralleling breaker.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "54"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The turning-gear mechanism and speed/interlock signals"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-secogear",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/54-turning-gear-engaging-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/54-turning-gear-engaging-device.svg",
+  "id": "54-turning-gear-engaging-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/54-turning-gear-engaging-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/54-turning-gear-engaging-device.json",
+  "svgPath": "artwork/svg/54-turning-gear-engaging-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-secogear",
+      "title": "SecoGear medium-voltage switchgear application and technical guide, DET-882",
+      "publisher": "ABB",
+      "url": "https://library.e.abb.com/public/a06cf4cf38b34800b27bb337ab12f74f/DET-882%20SecoGear%205kV-15kV%20IEEE%20Metal%20Clad%20Switchgear_Application%20and%20installation%20guide.pdf",
+      "type": "manufacturer",
+      "scope": "Public switchgear application guide with a device-number reference table. Used to cross-check 54, 61, 62 and specialist labels. Text, photographs and manufacturer diagrams are linked only and are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-source-transfer-switch-assembly",
+  "name": "Source-transfer switch assembly",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "ATS transfer switching equipment",
+    "Source-transfer switch assembly CAD",
+    "Source-transfer switch assembly general arrangement",
+    "Source-transfer switch assembly panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A source-transfer assembly provides the documented switching arrangement between alternative supplies.",
+  "description": [
+    "A source-transfer assembly provides the documented switching arrangement between alternative supplies.",
+    "Coordinate source cables, controls, interlocks and operating access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate source cables, controls, interlocks and operating access.",
+    "Transfer sequence and switched-neutral arrangements are engineering choices that require explicit documentation."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate source cables, controls, interlocks and operating access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Transfer sequence and switched-neutral arrangements are engineering choices that require explicit documentation.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-source-transfer-switch-assembly",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-source-transfer-switch-assembly",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-source-transfer-switch-assembly.svg",
+  "id": "ga-source-transfer-switch-assembly",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-source-transfer-switch-assembly",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-source-transfer-switch-assembly.json",
+  "svgPath": "artwork/svg/ga-source-transfer-switch-assembly.svg",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

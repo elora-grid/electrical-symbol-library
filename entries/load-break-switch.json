@@ -1,0 +1,85 @@
+{
+  "slug": "load-break-switch",
+  "name": "Load-break switch",
+  "kind": "symbol",
+  "abbreviation": "LBS",
+  "aliases": [
+    "load breaking switch",
+    "switch disconnector",
+    "switch-disconnector"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A switch with a specified capability to make and break normal load current.",
+  "description": [
+    "A load-break switch operates a loaded circuit under the normal conditions covered by its rating. It should not be confused with a circuit breaker, whose specified duties can include interrupting fault current. Some products combine switching and isolation, and some are used with fuses for a protection arrangement.",
+    "The SLD shows where the switch connects the circuit. Its schedule or manufacturer reference establishes the duty and capabilities. The device name, qualifiers and associated protective equipment explain more than the generic mark alone."
+  ],
+  "readingNotes": [
+    "Look for a separately identified fuse or breaker in the protection path.",
+    "Check whether isolation is an additional specified function of the chosen product."
+  ],
+  "drawingChecklist": [
+    "Reference the load-switching capability.",
+    "Identify any associated protection device.",
+    "Record the product type and operating arrangement."
+  ],
+  "distinction": "Fault-making, load-breaking and fault-breaking are different capabilities. Avoid using a single switch label as a substitute for the equipment specification.",
+  "facts": [
+    {
+      "label": "Primary role",
+      "value": "Normal-load switching"
+    },
+    {
+      "label": "Protection",
+      "value": "May rely on separate protective devices"
+    },
+    {
+      "label": "Combined duties",
+      "value": "Product-specific"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public explanation of load-break switches and their relationship to protection."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker",
+    "fuse",
+    "ring-main-unit"
+  ],
+  "artwork": "load-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/load-break-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/load-break-switch.svg",
+  "id": "load-break-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/load-break-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/load-break-switch.json",
+  "svgPath": "artwork/svg/load-break-switch.svg",
+  "publicSources": [
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of load-break switches and their relationship to protection."
+    }
+  ]
+}

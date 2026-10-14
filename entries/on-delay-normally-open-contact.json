@@ -1,0 +1,77 @@
+{
+  "slug": "on-delay-normally-open-contact",
+  "name": "On-delay normally-open contact",
+  "kind": "symbol",
+  "abbreviation": "TON NO",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An on-delay NO contact changes from its unoperated open state only after the associated timing condition has persisted for the documented delay.",
+  "description": [
+    "An on-delay NO contact changes from its unoperated open state only after the associated timing condition has persisted for the documented delay. The contact tag links it to the timer element."
+  ],
+  "readingNotes": [
+    "The delay applies to the indicated operating transition, not automatically to both directions.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Match timer tag",
+    "Label delayed closing",
+    "Reference reset behaviour"
+  ],
+  "distinction": "A timed contact adds transition information to the basic normally-open state.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Timed operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-timers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-on-delay-normally-open-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/on-delay-normally-open-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/on-delay-normally-open-contact.svg",
+  "id": "on-delay-normally-open-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/on-delay-normally-open-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/on-delay-normally-open-contact.json",
+  "svgPath": "artwork/svg/on-delay-normally-open-contact.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-timers",
+      "title": "AutoCAD Electrical: Time-delay relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA927086-EEAF-48CB-B9B1-634A4B48C8C7.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

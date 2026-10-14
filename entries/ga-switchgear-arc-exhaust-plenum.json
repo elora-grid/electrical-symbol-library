@@ -1,0 +1,88 @@
+{
+  "slug": "ga-switchgear-arc-exhaust-plenum",
+  "name": "Switchgear arc exhaust plenum",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "arc duct pressure relief chamber",
+    "Switchgear arc exhaust plenum CAD",
+    "Switchgear arc exhaust plenum general arrangement",
+    "Switchgear arc exhaust plenum panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An exhaust plenum forms part of a specified switchgear pressure-relief arrangement.",
+  "description": [
+    "An exhaust plenum forms part of a specified switchgear pressure-relief arrangement.",
+    "Coordinate duct path, outlet zone and interfaces with the building. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate duct path, outlet zone and interfaces with the building.",
+    "A ventilation duct cannot be assumed to fulfil an arc-exhaust function."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate duct path, outlet zone and interfaces with the building.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A ventilation duct cannot be assumed to fulfil an arc-exhaust function.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-abb-unigear",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-switchgear-arc-exhaust-plenum",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-switchgear-arc-exhaust-plenum",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-switchgear-arc-exhaust-plenum.svg",
+  "id": "ga-switchgear-arc-exhaust-plenum",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-switchgear-arc-exhaust-plenum",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-switchgear-arc-exhaust-plenum.json",
+  "svgPath": "artwork/svg/ga-switchgear-arc-exhaust-plenum.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-abb-unigear",
+      "title": "UniGear medium-voltage switchgear portfolio",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/air-insulated/unigear",
+      "type": "manufacturer",
+      "scope": "Official primary-distribution air-insulated switchgear family; no project-specific layout or dimensions reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

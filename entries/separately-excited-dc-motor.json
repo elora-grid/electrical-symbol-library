@@ -1,0 +1,85 @@
+{
+  "slug": "separately-excited-dc-motor",
+  "name": "Separately excited DC motor",
+  "kind": "symbol",
+  "abbreviation": "M DC SEP",
+  "aliases": [
+    "HMO1M12",
+    "VMO1M12"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A separately excited DC motor has a documented field circuit supplied separately from the armature circuit.",
+  "description": [
+    "A separately excited DC motor has a documented field circuit supplied separately from the armature circuit. The schematic must show both supplies and their relevant controls."
+  ],
+  "readingNotes": [
+    "Trace the field source independently from armature power.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify field supply",
+    "Identify armature supply",
+    "Reference coordinated control sequence"
+  ],
+  "distinction": "Separately excited and series-excited motors do not share the same field-current path.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M12, VMO1M12 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-dc-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-separately-excited-dc-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/separately-excited-dc-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/separately-excited-dc-motor.svg",
+  "id": "separately-excited-dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/separately-excited-dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/separately-excited-dc-motor.json",
+  "svgPath": "artwork/svg/separately-excited-dc-motor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-dc-motors",
+      "title": "AutoCAD Electrical: DC motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F5F3061F-E0DE-4A9A-BE88-C017545A9A36.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

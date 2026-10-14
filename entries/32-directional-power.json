@@ -1,0 +1,97 @@
+{
+  "slug": "32-directional-power",
+  "name": "Directional power",
+  "kind": "function",
+  "abbreviation": "32",
+  "aliases": [
+    "reverse power",
+    "directional power relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "A function responding to power with a specified direction and operating condition.",
+  "description": [
+    "Directional power protection uses the direction and magnitude of power according to the implementation and configured purpose. Reverse-power applications are one use encountered in generating systems; the generic device number does not specify the complete application.",
+    "On a power drawing, keep this function reference connected to the selected equipment and its complete designation. A multifunction relay can implement several numbered functions. This entry explains the reference; it supplies no settings or commissioning procedure."
+  ],
+  "readingNotes": [
+    "Identify both the current and voltage measurement references.",
+    "Read the defined forward or reverse direction from the system and relay documentation."
+  ],
+  "drawingChecklist": [
+    "Document measurement references.",
+    "State the applied direction convention.",
+    "Link the protection application and associated device."
+  ],
+  "distinction": "Directional power and directional overcurrent measure different operating quantities. The numbers 32 and 67 are not interchangeable.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "32"
+    },
+    {
+      "label": "Equipment implementation",
+      "value": "Consult the selected device manual"
+    },
+    {
+      "label": "Suffix interpretation",
+      "value": "Application and manufacturer documentation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ],
+  "related": [
+    "67-directional-overcurrent",
+    "current-transformer",
+    "generator"
+  ],
+  "artwork": "function",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/32-directional-power",
+  "illustration": "https://eloragrid.ai/library/illustrations/32-directional-power.svg",
+  "id": "32-directional-power",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/32-directional-power",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/32-directional-power.json",
+  "svgPath": "artwork/svg/32-directional-power.svg",
+  "publicSources": [
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ]
+}

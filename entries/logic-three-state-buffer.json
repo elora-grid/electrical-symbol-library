@@ -1,0 +1,83 @@
+{
+  "slug": "logic-three-state-buffer",
+  "name": "Three-state logic buffer",
+  "kind": "symbol",
+  "abbreviation": "3STATE",
+  "aliases": [
+    "tri-state buffer",
+    "tristate driver",
+    "high impedance output buffer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A digital output stage that can drive logical states or enter its documented high-impedance state.",
+  "description": [
+    "A digital output stage that can drive logical states or enter its documented high-impedance state.",
+    "On a schematic, identify the data input, output-enable polarity and shared-bus ownership and trace the output bus and disabled-state behaviour. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "High impedance differs from driving logical zero; disabled outputs still have device-specific leakage and voltage limits.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the data input, output-enable polarity and shared-bus ownership.",
+    "Trace the output bus and disabled-state behaviour."
+  ],
+  "drawingChecklist": [
+    "Label the data input, output-enable polarity and shared-bus ownership.",
+    "Cross-reference the output bus and disabled-state behaviour.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "High impedance differs from driving logical zero; disabled outputs still have device-specific leakage and voltage limits.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "3STATE — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The data input, output-enable polarity and shared-bus ownership"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc125",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-bus-transceiver",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-tristate",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-three-state-buffer",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-three-state-buffer.svg",
+  "id": "logic-three-state-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-three-state-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-three-state-buffer.json",
+  "svgPath": "artwork/svg/logic-three-state-buffer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc125",
+      "title": "SN74HC125 — three-state buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of three-state buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-dc-generator",
+  "name": "ANSI/IEEE dc generator symbol",
+  "kind": "symbol",
+  "abbreviation": "G DC",
+  "aliases": [
+    "IEEE dc generator symbol",
+    "ANSI dc generator symbol",
+    "HPW1G9"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for dc generator, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The DC generator form identifies a documented source of direct-current output. Polarity and excitation connections establish how the generated circuit supplies its load, while the mechanical prime mover is referenced separately.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Read source polarity before tracing downstream DC distribution.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State output rating",
+    "Mark positive/negative terminals",
+    "Reference excitation arrangement"
+  ],
+  "distinction": "A DC source-generating function differs from a DC motor load despite related machine principles.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Generators"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HPW1G9 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-6a9fa93b-3010-4274-ae51-20db3520999c",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "dc-generator",
+    "generator",
+    "25-synchronism-check"
+  ],
+  "artwork": "edu-ansi-dc-generator",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Generators functional form",
+    "counterpart": "dc-generator",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-dc-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-dc-generator.svg",
+  "id": "ansi-dc-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-dc-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-dc-generator.json",
+  "svgPath": "artwork/svg/ansi-dc-generator.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-6a9fa93b-3010-4274-ae51-20db3520999c",
+      "title": "Autodesk IEEE Symbol Preview — Generators",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A9FA93B-3010-4274-AE51-20DB3520999C.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

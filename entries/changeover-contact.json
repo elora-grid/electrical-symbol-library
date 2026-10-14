@@ -1,0 +1,91 @@
+{
+  "slug": "changeover-contact",
+  "name": "Changeover contact",
+  "kind": "symbol",
+  "abbreviation": "CO",
+  "aliases": [
+    "Form C",
+    "SPDT",
+    "single pole double throw",
+    "transfer contact",
+    "HCR23R",
+    "VCR23R"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A contact arrangement switching a common connection between two contact paths.",
+  "description": [
+    "A changeover contact connects a common terminal to one of two alternative contact paths according to its operating state. Form C and SPDT are terms commonly encountered for this arrangement. The actual terminal numbering and transfer behaviour come from the selected device.",
+    "The schematic should make the common terminal and normal state clear. A mirrored or differently oriented drawing can retain the same logical arrangement, but terminal associations must not be inferred from appearance alone."
+  ],
+  "readingNotes": [
+    "Locate the common terminal and determine the path shown in the defined normal state.",
+    "Use device data to identify transfer timing and any special overlap behaviour."
+  ],
+  "drawingChecklist": [
+    "Identify the common terminal.",
+    "Link both switched paths to the parent device.",
+    "Keep terminal identifiers consistent with wiring documentation."
+  ],
+  "distinction": "Two unrelated NO/NC contacts are not automatically one changeover contact. Confirm whether they share a common connection and operating mechanism.",
+  "facts": [
+    {
+      "label": "Connections",
+      "value": "Common and two alternative paths"
+    },
+    {
+      "label": "Alternative terms",
+      "value": "Form C; SPDT"
+    },
+    {
+      "label": "Transfer characteristics",
+      "value": "Device-specific"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HCR23R, VCR23R (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public Form C relay contact variants."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact",
+    "selector-switch",
+    "relay-coil"
+  ],
+  "artwork": "changeover",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/changeover-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/changeover-contact.svg",
+  "id": "changeover-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/changeover-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/changeover-contact.json",
+  "svgPath": "artwork/svg/changeover-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Form C relay contact variants."
+    }
+  ]
+}

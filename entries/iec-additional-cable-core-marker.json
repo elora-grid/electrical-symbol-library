@@ -1,0 +1,91 @@
+{
+  "slug": "iec-additional-cable-core-marker",
+  "name": "Additional cable-core marker",
+  "kind": "symbol",
+  "abbreviation": "HW02",
+  "aliases": [
+    "Additional cable-core marker symbol",
+    "HW02",
+    "Additional cable-core marker IEC reference"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An additional-core marker associates another conductor with an existing cable record.",
+  "description": [
+    "An additional-core marker associates another conductor with an existing cable record. A child or additional-core marker expands the same cable identity to another conductor. It should preserve both the parent cable association and the unique core designation.",
+    "Check the parent/child association when copying or moving circuits. The additional marker is another view of the cable, not another cable to procure."
+  ],
+  "readingNotes": [
+    "Link it to the cable parent and preserve the individual core identity.",
+    "A child cable marker should not be counted as another physical cable."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Link it to the cable parent and preserve the individual core identity.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A child cable marker should not be counted as another physical cable.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HW02 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Link it to the cable parent and preserve the individual core identity."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "terminal",
+    "busbar"
+  ],
+  "artwork": "edu-iec-additional-cable-core-marker",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Additional cable-core marker",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Cable identification and twisted-pair annotation; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-additional-cable-core-marker",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-additional-cable-core-marker.svg",
+  "id": "iec-additional-cable-core-marker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-additional-cable-core-marker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-additional-cable-core-marker.json",
+  "svgPath": "artwork/svg/iec-additional-cable-core-marker.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

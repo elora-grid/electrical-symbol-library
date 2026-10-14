@@ -1,0 +1,82 @@
+{
+  "slug": "photodiode-optocoupler",
+  "name": "Photodiode optocoupler",
+  "kind": "symbol",
+  "abbreviation": "OPTO-PD",
+  "aliases": [
+    "linear optocoupler",
+    "photodiode isolation"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An optically coupled component using photodiode output sensing for an isolation or feedback arrangement.",
+  "description": [
+    "An optically coupled component using photodiode output sensing for an isolation or feedback arrangement.",
+    "On a schematic, identify the emitter drive, detector terminals and feedback/output channels and trace the isolated analogue signal and amplifier circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A photodiode-output optocoupler needs its detector/amplifier arrangement; it is not a transistor-output switch with the same pins.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the emitter drive, detector terminals and feedback/output channels.",
+    "Trace the isolated analogue signal and amplifier circuit."
+  ],
+  "drawingChecklist": [
+    "Label the emitter drive, detector terminals and feedback/output channels.",
+    "Cross-reference the isolated analogue signal and amplifier circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A photodiode-output optocoupler needs its detector/amplifier arrangement; it is not a transistor-output switch with the same pins.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "OPTO-PD — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The emitter drive, detector terminals and feedback/output channels"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-vishay-linear-opto",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "photodiode",
+    "diode"
+  ],
+  "artwork": "electronics-opto-photodiode",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photodiode-optocoupler",
+  "illustration": "https://eloragrid.ai/library/illustrations/photodiode-optocoupler.svg",
+  "id": "photodiode-optocoupler",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photodiode-optocoupler",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photodiode-optocoupler.json",
+  "svgPath": "artwork/svg/photodiode-optocoupler.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-vishay-linear-opto",
+      "title": "IL300 linear photodiode optocoupler documentation",
+      "publisher": "Vishay",
+      "url": "https://www.vishay.com/docs/83622/il300.pdf",
+      "type": "manufacturer",
+      "scope": "Public optical emitter/detector feedback arrangement. The educational block indicates optical isolation and does not reproduce the dual-detector product pinout or certify linearity.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "58-rectification-failure-relay",
+  "name": "Rectification failure relay",
+  "kind": "function",
+  "abbreviation": "58",
+  "aliases": [
+    "rectifier failure",
+    "rectification monitoring",
+    "ANSI 58",
+    "IEEE device 58"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Detects failure or abnormal operation in a rectifier arrangement.",
+  "description": [
+    "Detects failure or abnormal operation in a rectifier arrangement.",
+    "In a drafting package, connect this reference to the rectifier monitoring circuit and DC output reference. The associated drawing should trace the failure alarm or associated excitation trip path; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the rectifier monitoring circuit and DC output reference.",
+    "Trace the failure alarm or associated excitation trip path."
+  ],
+  "drawingChecklist": [
+    "Label the rectifier monitoring circuit and DC output reference.",
+    "Cross-reference the failure alarm or associated excitation trip path.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Rectification failure supervision differs from a general DC undervoltage function.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "58"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The rectifier monitoring circuit and DC output reference"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/58-rectification-failure-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/58-rectification-failure-relay.svg",
+  "id": "58-rectification-failure-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/58-rectification-failure-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/58-rectification-failure-relay.json",
+  "svgPath": "artwork/svg/58-rectification-failure-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-ac-line-reactor",
+  "name": "AC line reactor",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "input reactor choke",
+    "AC line reactor CAD",
+    "AC line reactor general arrangement",
+    "AC line reactor panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A line reactor is an inductive device placed in a power circuit for a specified application.",
+  "description": [
+    "A line reactor is an inductive device placed in a power circuit for a specified application.",
+    "Show its mounting orientation, ventilation and heavy-conductor terminal access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show its mounting orientation, ventilation and heavy-conductor terminal access.",
+    "A reactor and a transformer may have similar packages but perform different circuit functions."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show its mounting orientation, ventilation and heavy-conductor terminal access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A reactor and a transformer may have similar packages but perform different circuit functions.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-ac-line-reactor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-ac-line-reactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-ac-line-reactor.svg",
+  "id": "ga-ac-line-reactor",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-ac-line-reactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-ac-line-reactor.json",
+  "svgPath": "artwork/svg/ga-ac-line-reactor.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

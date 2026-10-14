@@ -1,0 +1,120 @@
+{
+  "slug": "current-transformer",
+  "name": "Current transformer",
+  "kind": "symbol",
+  "abbreviation": "CT",
+  "aliases": [
+    "current transducer",
+    "instrument transformer current",
+    "HXF1CT",
+    "VXF1CT"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A current-measurement transformer used with metering and protection equipment.",
+  "description": [
+    "A current transformer produces a secondary current related to the current in its primary conductor. A drawing uses the CT representation to show where current is measured and which metering or protection circuit receives that measurement. It does not, by itself, specify the CT ratio, accuracy class, burden or secondary connection.",
+    "On a single line diagram, the CT is placed at the measurement location. A schematic expands the secondary wiring, terminals and connected devices. Multi-core and multi-secondary CT arrangements require additional information; one generic preview cannot describe every configuration."
+  ],
+  "readingNotes": [
+    "Follow the primary conductor through the CT and then identify the secondary circuit separately.",
+    "Polarity marks and terminal labels belong to the selected device and its documented connections."
+  ],
+  "drawingChecklist": [
+    "Identify the metering or protection purpose.",
+    "Reference the ratio, class and burden in the equipment documentation.",
+    "Cross-reference secondary terminals and any test facility."
+  ],
+  "distinction": "A CT measures current. A VT measures voltage. Their secondary circuits and isolation/testing arrangements are different.",
+  "facts": [
+    {
+      "label": "Quantity represented",
+      "value": "Current"
+    },
+    {
+      "label": "Information to document",
+      "value": "Ratio, class, burden and polarity"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Consult the applicable standard and drawing legend"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HXF1CT, VXF1CT (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public CT symbol categories and secondary-winding variants."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Manufacturer examples of current and voltage transformers."
+    },
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Manufacturer reference for CT test-terminal arrangements."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "ct-test-terminal",
+    "50-instantaneous-overcurrent",
+    "51-time-overcurrent"
+  ],
+  "artwork": "ct",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/current-transformer.svg",
+  "id": "current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-transformer.json",
+  "svgPath": "artwork/svg/current-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public CT symbol categories and secondary-winding variants."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer examples of current and voltage transformers."
+    },
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer reference for CT test-terminal arrangements."
+    }
+  ]
+}

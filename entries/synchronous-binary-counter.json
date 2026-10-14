@@ -1,0 +1,82 @@
+{
+  "slug": "synchronous-binary-counter",
+  "name": "Synchronous binary counter",
+  "kind": "symbol",
+  "abbreviation": "CTR-SYNC",
+  "aliases": [
+    "synchronous counter",
+    "binary count register"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Updates its binary count from a common clock with the documented count-enable, load and clear controls.",
+  "description": [
+    "Updates its binary count from a common clock with the documented count-enable, load and clear controls.",
+    "On a schematic, identify the common clock, enables, load data and reset timing and trace the count outputs and carry/cascade signal. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Synchronous operation does not remove setup/hold and output-delay requirements; reset can be synchronous or asynchronous depending on the part.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the common clock, enables, load data and reset timing.",
+    "Trace the count outputs and carry/cascade signal."
+  ],
+  "drawingChecklist": [
+    "Label the common clock, enables, load data and reset timing.",
+    "Cross-reference the count outputs and carry/cascade signal.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Synchronous operation does not remove setup/hold and output-delay requirements; reset can be synchronous or asynchronous depending on the part.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "CTR-SYNC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The common clock, enables, load data and reset timing"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc163",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "ripple-binary-counter",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-counter",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/synchronous-binary-counter",
+  "illustration": "https://eloragrid.ai/library/illustrations/synchronous-binary-counter.svg",
+  "id": "synchronous-binary-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/synchronous-binary-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/synchronous-binary-counter.json",
+  "svgPath": "artwork/svg/synchronous-binary-counter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc163",
+      "title": "SN74HC163 — synchronous binary counters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of synchronous binary counters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

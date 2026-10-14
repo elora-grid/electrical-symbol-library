@@ -1,0 +1,82 @@
+{
+  "slug": "one-hot-decade-counter",
+  "name": "Decoded decade counter",
+  "kind": "symbol",
+  "abbreviation": "DECADE",
+  "aliases": [
+    "one hot decade counter",
+    "Johnson decade counter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Advances a decoded output sequence through the documented ten-state counter arrangement.",
+  "description": [
+    "Advances a decoded output sequence through the documented ten-state counter arrangement.",
+    "On a schematic, identify the clock, inhibit and reset controls and trace the decoded outputs and carry/cascade path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Decoded decade outputs differ from a binary-coded ten-state word; the selected device's sequence table defines the actual mapping.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the clock, inhibit and reset controls.",
+    "Trace the decoded outputs and carry/cascade path."
+  ],
+  "drawingChecklist": [
+    "Label the clock, inhibit and reset controls.",
+    "Cross-reference the decoded outputs and carry/cascade path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Decoded decade outputs differ from a binary-coded ten-state word; the selected device's sequence table defines the actual mapping.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "DECADE — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The clock, inhibit and reset controls"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-cd4017",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "synchronous-binary-counter",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-decade",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/one-hot-decade-counter",
+  "illustration": "https://eloragrid.ai/library/illustrations/one-hot-decade-counter.svg",
+  "id": "one-hot-decade-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/one-hot-decade-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/one-hot-decade-counter.json",
+  "svgPath": "artwork/svg/one-hot-decade-counter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-cd4017",
+      "title": "CD4017B — decoded decade counters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/cd4017b.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of decoded decade counters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

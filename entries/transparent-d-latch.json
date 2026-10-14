@@ -1,0 +1,82 @@
+{
+  "slug": "transparent-d-latch",
+  "name": "Transparent D latch",
+  "kind": "symbol",
+  "abbreviation": "D-LATCH",
+  "aliases": [
+    "level sensitive latch",
+    "transparent data latch"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Follows the input data while its latch-enable condition is active and retains it when that condition ends.",
+  "description": [
+    "Follows the input data while its latch-enable condition is active and retains it when that condition ends.",
+    "On a schematic, identify the data input, latch-enable level and output-enable control and trace the retained data outputs and receiving circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A transparent latch is level-sensitive; a D flip-flop captures data at a defined clock transition.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the data input, latch-enable level and output-enable control.",
+    "Trace the retained data outputs and receiving circuit."
+  ],
+  "drawingChecklist": [
+    "Label the data input, latch-enable level and output-enable control.",
+    "Cross-reference the retained data outputs and receiving circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A transparent latch is level-sensitive; a D flip-flop captures data at a defined clock transition.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "D-LATCH — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The data input, latch-enable level and output-enable control"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc373",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "positive-edge-d-flip-flop",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-latch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/transparent-d-latch",
+  "illustration": "https://eloragrid.ai/library/illustrations/transparent-d-latch.svg",
+  "id": "transparent-d-latch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transparent-d-latch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transparent-d-latch.json",
+  "svgPath": "artwork/svg/transparent-d-latch.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc373",
+      "title": "SN74HC373 — transparent D latches",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc373.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of transparent d latches. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

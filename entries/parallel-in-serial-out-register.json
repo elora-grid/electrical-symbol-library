@@ -1,0 +1,82 @@
+{
+  "slug": "parallel-in-serial-out-register",
+  "name": "Parallel-in serial-out register",
+  "kind": "symbol",
+  "abbreviation": "PISO",
+  "aliases": [
+    "parallel to serial register",
+    "PISO shift register"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Loads a parallel word and presents its bits through a serial shift output.",
+  "description": [
+    "Loads a parallel word and presents its bits through a serial shift output.",
+    "On a schematic, identify the parallel inputs, load control and shift clock and trace the serial data output and bit-order convention. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "PISO serialises a parallel state; it is not the reverse pin connection of an arbitrary SIPO part.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the parallel inputs, load control and shift clock.",
+    "Trace the serial data output and bit-order convention."
+  ],
+  "drawingChecklist": [
+    "Label the parallel inputs, load control and shift clock.",
+    "Cross-reference the serial data output and bit-order convention.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "PISO serialises a parallel state; it is not the reverse pin connection of an arbitrary SIPO part.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PISO — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The parallel inputs, load control and shift clock"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc165",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "serial-in-parallel-out-register",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-piso",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/parallel-in-serial-out-register",
+  "illustration": "https://eloragrid.ai/library/illustrations/parallel-in-serial-out-register.svg",
+  "id": "parallel-in-serial-out-register",
+  "canonicalUrl": "https://eloragrid.ai/symbols/parallel-in-serial-out-register",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/parallel-in-serial-out-register.json",
+  "svgPath": "artwork/svg/parallel-in-serial-out-register.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc165",
+      "title": "SN74HC165 — parallel-load serial shift storage",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of parallel-load serial shift storage. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "photoelectric-emitter-receiver-switch",
+  "name": "Photoelectric emitter-receiver switch",
+  "kind": "symbol",
+  "abbreviation": "PHOTO",
+  "aliases": [
+    "HPE11B16",
+    "VPE11B16"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A photoelectric emitter-receiver device uses an optical path to determine a switching output.",
+  "description": [
+    "A photoelectric emitter-receiver device uses an optical path to determine a switching output. The schematic needs the supply and output connections, while the layout defines the optical arrangement."
+  ],
+  "readingNotes": [
+    "Establish whether the indicated state corresponds to a received or interrupted beam.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show supply and output",
+    "Define light-on or dark-on function",
+    "Reference emitter/receiver arrangement"
+  ],
+  "distinction": "Optical detection is not the same sensing principle as inductive or capacitive proximity.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPE11B16, VPE11B16 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-optical-sensors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-photoelectric-emitter-receiver-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photoelectric-emitter-receiver-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/photoelectric-emitter-receiver-switch.svg",
+  "id": "photoelectric-emitter-receiver-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photoelectric-emitter-receiver-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photoelectric-emitter-receiver-switch.json",
+  "svgPath": "artwork/svg/photoelectric-emitter-receiver-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-optical-sensors",
+      "title": "AutoCAD Electrical: Photoelectric emitter/receiver switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-15ABE47A-723F-4004-BF2A-9CC285DE7882.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "difference-amplifier",
+  "name": "Difference amplifier",
+  "kind": "symbol",
+  "abbreviation": "DIFF-AMP",
+  "aliases": [
+    "differential amplifier",
+    "subtractor amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Produces an analogue output related to the difference between two input signals with the documented gain/reference arrangement.",
+  "description": [
+    "Produces an analogue output related to the difference between two input signals with the documented gain/reference arrangement.",
+    "On a schematic, identify the two inputs, resistor-ratio or integrated-gain definition and reference terminal and trace the difference signal and its receiving circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A difference amplifier rejects common input content according to its implementation; it does not establish galvanic isolation.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the two inputs, resistor-ratio or integrated-gain definition and reference terminal.",
+    "Trace the difference signal and its receiving circuit."
+  ],
+  "drawingChecklist": [
+    "Label the two inputs, resistor-ratio or integrated-gain definition and reference terminal.",
+    "Cross-reference the difference signal and its receiving circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A difference amplifier rejects common input content according to its implementation; it does not establish galvanic isolation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "DIFF-AMP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two inputs, resistor-ratio or integrated-gain definition and reference terminal"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-difference",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "instrumentation-amplifier",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-difference",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/difference-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/difference-amplifier.svg",
+  "id": "difference-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/difference-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/difference-amplifier.json",
+  "svgPath": "artwork/svg/difference-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-difference",
+      "title": "AD8276 — difference amplification",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ad8276.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for difference amplification. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

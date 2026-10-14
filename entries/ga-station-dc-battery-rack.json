@@ -1,0 +1,88 @@
+{
+  "slug": "ga-station-dc-battery-rack",
+  "name": "Station DC battery rack",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "control battery stand",
+    "Station DC battery rack CAD",
+    "Station DC battery rack general arrangement",
+    "Station DC battery rack panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A battery rack supports cells or modules for a stationary auxiliary DC system.",
+  "description": [
+    "A battery rack supports cells or modules for a stationary auxiliary DC system.",
+    "Coordinate terminals, lifting/removal access and the selected battery environment. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate terminals, lifting/removal access and the selected battery environment.",
+    "A rack arrangement and a cabinet arrangement impose different access and enclosure requirements."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate terminals, lifting/removal access and the selected battery environment.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A rack arrangement and a cabinet arrangement impose different access and enclosure requirements.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-station-dc-battery-rack",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-station-dc-battery-rack",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-station-dc-battery-rack.svg",
+  "id": "ga-station-dc-battery-rack",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-station-dc-battery-rack",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-station-dc-battery-rack.json",
+  "svgPath": "artwork/svg/ga-station-dc-battery-rack.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

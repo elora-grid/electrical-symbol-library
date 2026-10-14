@@ -1,0 +1,88 @@
+{
+  "slug": "ga-cable-termination-compartment",
+  "name": "Cable termination compartment",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "cable chamber",
+    "Cable termination compartment CAD",
+    "Cable termination compartment general arrangement",
+    "Cable termination compartment panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A cable compartment contains the documented field-cable termination zone.",
+  "description": [
+    "A cable compartment contains the documented field-cable termination zone.",
+    "Reserve lug access, cable bends and removal of covers or barriers. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Reserve lug access, cable bends and removal of covers or barriers.",
+    "The terminal zone must be coordinated with actual cable size and entry direction."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Reserve lug access, cable bends and removal of covers or barriers.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "The terminal zone must be coordinated with actual cable size and entry direction.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-eaton-fundamentals",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-cable-termination-compartment",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-cable-termination-compartment",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-cable-termination-compartment.svg",
+  "id": "ga-cable-termination-compartment",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-cable-termination-compartment",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-cable-termination-compartment.json",
+  "svgPath": "artwork/svg/ga-cable-termination-compartment.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-eaton-fundamentals",
+      "title": "Low-voltage switchgear compartment fundamentals",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/ph/en-us/products/low-voltage-power-distribution-control-systems/switchgear-lv/low-voltage-switchgear-fundamentals---eaton.html",
+      "type": "manufacturer",
+      "scope": "Public descriptions of breaker, bus and cable compartments. Illustrations here are independent spatial concepts.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

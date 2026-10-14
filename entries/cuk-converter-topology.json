@@ -1,0 +1,83 @@
+{
+  "slug": "cuk-converter-topology",
+  "name": "Cuk converter topology",
+  "kind": "symbol",
+  "abbreviation": "CUK",
+  "aliases": [
+    "Ćuk converter",
+    "inverting capacitive energy transfer"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An inverting conversion topology using a capacitor as part of the energy-transfer path between inductive stages.",
+  "description": [
+    "An inverting conversion topology using a capacitor as part of the energy-transfer path between inductive stages.",
+    "On a schematic, identify the input/output inductors, transfer capacitor and reference polarity and trace the negative output and feedback path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Cuk and SEPIC are different circuit arrangements; the output polarity and energy-transfer connections must be shown correctly.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the input/output inductors, transfer capacitor and reference polarity.",
+    "Trace the negative output and feedback path."
+  ],
+  "drawingChecklist": [
+    "Label the input/output inductors, transfer capacitor and reference polarity.",
+    "Cross-reference the negative output and feedback path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Cuk and SEPIC are different circuit arrangements; the output polarity and energy-transfer connections must be shown correctly.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "CUK — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input/output inductors, transfer capacitor and reference polarity"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "sepic-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-cuk",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/cuk-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/cuk-converter-topology.svg",
+  "id": "cuk-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/cuk-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/cuk-converter-topology.json",
+  "svgPath": "artwork/svg/cuk-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

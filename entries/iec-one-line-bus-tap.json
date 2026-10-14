@@ -1,0 +1,93 @@
+{
+  "slug": "iec-one-line-bus-tap",
+  "name": "One-line bus tap",
+  "kind": "symbol",
+  "abbreviation": "HDV1_BT_1-",
+  "aliases": [
+    "One-line bus tap symbol",
+    "HDV1_BT_1-, HDV1_BTT_1-, HDV1_BTL_1-",
+    "One-line bus tap IEC reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A bus-tap representation identifies a branch from a bus in a simplified power circuit.",
+  "description": [
+    "A bus-tap representation identifies a branch from a bus in a simplified power circuit.",
+    "Label the outgoing feeder and distinguish actual branch connectivity from crossing lines.",
+    "Dot, tee and corner layouts are presentation variants, not separate equipment models."
+  ],
+  "readingNotes": [
+    "Label the outgoing feeder and distinguish actual branch connectivity from crossing lines.",
+    "Dot, tee and corner layouts are presentation variants, not separate equipment models."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Label the outgoing feeder and distinguish actual branch connectivity from crossing lines.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Dot, tee and corner layouts are presentation variants, not separate equipment models.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HDV1_BT_1-, HDV1_BTT_1-, HDV1_BTL_1- (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Label the outgoing feeder and distinguish actual branch connectivity from crossing lines."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-one-bus",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "edu-iec-one-line-bus-tap",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "One-line bus tap",
+    "reference": "Autodesk IEC-60617 Symbol Preview — One-line bus-tap representation; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-one-line-bus-tap",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-one-line-bus-tap.svg",
+  "id": "iec-one-line-bus-tap",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-one-line-bus-tap",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-one-line-bus-tap.json",
+  "svgPath": "artwork/svg/iec-one-line-bus-tap.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-one-bus",
+      "title": "Autodesk IEC-60617 preview: One-line bus-tap representation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9EC851F1-8B92-428B-A657-5B21B2325C62.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

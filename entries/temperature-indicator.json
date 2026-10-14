@@ -1,0 +1,85 @@
+{
+  "slug": "temperature-indicator",
+  "name": "Temperature indicator",
+  "kind": "symbol",
+  "abbreviation": "TEMP",
+  "aliases": [
+    "HIN1THM",
+    "VIN1THM"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A temperature indicator displays the temperature derived from its specified sensor or input.",
+  "description": [
+    "A temperature indicator displays the temperature derived from its specified sensor or input. The drawing links it to the sensor location and input characteristic."
+  ],
+  "readingNotes": [
+    "Confirm whether the input is thermocouple, resistance or a transmitter signal.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify sensor tag",
+    "State sensor/input type",
+    "Reference displayed unit and range"
+  ],
+  "distinction": "A temperature display does not imply a separate temperature-switch contact is provided.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1THM, VIN1THM (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-temperature-indicator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/temperature-indicator",
+  "illustration": "https://eloragrid.ai/library/illustrations/temperature-indicator.svg",
+  "id": "temperature-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/temperature-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/temperature-indicator.json",
+  "svgPath": "artwork/svg/temperature-indicator.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

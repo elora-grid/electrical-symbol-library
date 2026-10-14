@@ -1,0 +1,82 @@
+{
+  "slug": "series-voltage-reference",
+  "name": "Series voltage reference",
+  "kind": "symbol",
+  "abbreviation": "VREF-S",
+  "aliases": [
+    "series reference",
+    "precision voltage reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Provides a reference voltage through a series-connected supply and output arrangement.",
+  "description": [
+    "Provides a reference voltage through a series-connected supply and output arrangement.",
+    "On a schematic, identify the input supply, reference output and reference return and trace the ADC/DAC reference network and any buffering. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A reference establishes a measurement datum; it is not automatically a load-power regulator.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input supply, reference output and reference return.",
+    "Trace the ADC/DAC reference network and any buffering."
+  ],
+  "drawingChecklist": [
+    "Label the input supply, reference output and reference return.",
+    "Cross-reference the ADC/DAC reference network and any buffering.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A reference establishes a measurement datum; it is not automatically a load-power regulator.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "VREF-S — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input supply, reference output and reference return"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-series-ref",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "analog-to-digital-converter",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-series-ref",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/series-voltage-reference",
+  "illustration": "https://eloragrid.ai/library/illustrations/series-voltage-reference.svg",
+  "id": "series-voltage-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/series-voltage-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/series-voltage-reference.json",
+  "svgPath": "artwork/svg/series-voltage-reference.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-series-ref",
+      "title": "ADR4525 — series voltage reference",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/adr4525.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for series voltage reference. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

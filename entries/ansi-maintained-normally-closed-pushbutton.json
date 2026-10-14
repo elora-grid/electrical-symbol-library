@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-maintained-normally-closed-pushbutton",
+  "name": "ANSI/IEEE maintained normally-closed pushbutton symbol",
+  "kind": "symbol",
+  "abbreviation": "PB NC HOLD",
+  "aliases": [
+    "IEEE maintained normally-closed pushbutton symbol",
+    "ANSI maintained normally-closed pushbutton symbol",
+    "HPB12S76"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for maintained normally-closed pushbutton, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The non-auto-return NC pushbutton form identifies a contact that is closed in its reference state and retained after the operator changes it. The release or reset description determines when continuity is restored.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Trace the circuit's permissive state through the retained operation.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State initial condition",
+    "Show reset/return mechanism",
+    "Name switched circuit"
+  ],
+  "distinction": "A retained NC operator is not automatically an emergency-stop device.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Illuminated Push Buttons"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HPB12S76 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f7efade2-2944-42a1-a5b7-db6b64694806",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "maintained-normally-closed-pushbutton",
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "edu-ansi-maintained-normally-closed-pushbutton",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Illuminated Push Buttons functional form",
+    "counterpart": "maintained-normally-closed-pushbutton",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-maintained-normally-closed-pushbutton",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-maintained-normally-closed-pushbutton.svg",
+  "id": "ansi-maintained-normally-closed-pushbutton",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-maintained-normally-closed-pushbutton",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-maintained-normally-closed-pushbutton.json",
+  "svgPath": "artwork/svg/ansi-maintained-normally-closed-pushbutton.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f7efade2-2944-42a1-a5b7-db6b64694806",
+      "title": "Autodesk IEEE Symbol Preview — Illuminated Push Buttons",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F7EFADE2-2944-42A1-A5B7-DB6B64694806.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

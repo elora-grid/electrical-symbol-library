@@ -1,0 +1,88 @@
+{
+  "slug": "ga-industrial-vpn-router",
+  "name": "Industrial VPN router",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "remote access gateway",
+    "Industrial VPN router CAD",
+    "Industrial VPN router general arrangement",
+    "Industrial VPN router panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A remote-access router provides the specified network interface between control equipment and other networks.",
+  "description": [
+    "A remote-access router provides the specified network interface between control equipment and other networks.",
+    "Coordinate antenna or network connections, supply and segregation boundaries. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate antenna or network connections, supply and segregation boundaries.",
+    "Physical placement does not establish cybersecurity configuration or permission to connect a plant."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate antenna or network connections, supply and segregation boundaries.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Physical placement does not establish cybersecurity configuration or permission to connect a plant.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-industrial-vpn-router",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-industrial-vpn-router",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-industrial-vpn-router.svg",
+  "id": "ga-industrial-vpn-router",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-industrial-vpn-router",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-industrial-vpn-router.json",
+  "svgPath": "artwork/svg/ga-industrial-vpn-router.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

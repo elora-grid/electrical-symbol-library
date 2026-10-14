@@ -1,0 +1,106 @@
+{
+  "slug": "fuse",
+  "name": "Fuse",
+  "kind": "symbol",
+  "abbreviation": "FU",
+  "aliases": [
+    "fuse link",
+    "fuse-link",
+    "fused protection",
+    "HFU1",
+    "VFU1"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An overcurrent protective element that interrupts a circuit by melting its fuse link.",
+  "description": [
+    "A fuse representation identifies a protective fuse link in a circuit. Its rating and operating characteristics are additional information: a generic fuse mark does not specify utilization category, current, voltage, breaking capacity or coordination with other protective equipment.",
+    "Fuses appear in main power circuits, transformer circuits and control supplies. Some assemblies add indication or auxiliary contacts. A drawing should distinguish the protective link from the holder, disconnect mechanism and any indication function."
+  ],
+  "readingNotes": [
+    "Follow the protected circuit and identify how many fuse links are represented.",
+    "Treat associated indication contacts as separate schematic elements."
+  ],
+  "drawingChecklist": [
+    "Reference the fuse type and rating.",
+    "Identify the holder or fuse-switch assembly when relevant.",
+    "Keep auxiliary indication and replacement information linked."
+  ],
+  "distinction": "A fuse and a fused disconnector may share protective components, but the assembly also includes a switching or isolation function.",
+  "facts": [
+    {
+      "label": "Primary role",
+      "value": "Overcurrent protection"
+    },
+    {
+      "label": "Selection data",
+      "value": "Type, voltage, current and breaking capacity"
+    },
+    {
+      "label": "Assembly details",
+      "value": "Holder and switching functions are separate"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HFU1, VFU1 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-fuses",
+      "relevance": "Public fuse, auxiliary-contact and indication categories."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Manufacturer explanation of fuse categories."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "load-break-switch",
+    "terminal",
+    "voltage-transformer"
+  ],
+  "artwork": "fuse",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/fuse",
+  "illustration": "https://eloragrid.ai/library/illustrations/fuse.svg",
+  "id": "fuse",
+  "canonicalUrl": "https://eloragrid.ai/symbols/fuse",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/fuse.json",
+  "svgPath": "artwork/svg/fuse.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-fuses",
+      "title": "Fuse and neutral-link symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E540AE83-CEE1-4CA9-B43C-B19004025EAA.htm",
+      "type": "cad-reference",
+      "scope": "Fuses, auxiliary contacts, indication and open/closed neutral-link variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public fuse, auxiliary-contact and indication categories."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer explanation of fuse categories."
+    }
+  ]
+}

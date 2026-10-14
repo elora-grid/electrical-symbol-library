@@ -1,0 +1,91 @@
+{
+  "slug": "iec-two-way-latching-device",
+  "name": "Two-way latching device",
+  "kind": "symbol",
+  "abbreviation": "Q1020603",
+  "aliases": [
+    "Two-way latching device symbol",
+    "Q1020603",
+    "Two-way latching device IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This form identifies the publisher's two-way latching-device arrangement.",
+  "description": [
+    "This form identifies the publisher's two-way latching-device arrangement. A two-way latch represents retention associated with more than one movement or position relationship. The electrical contacts operated by that mechanism can still have their own independent state table.",
+    "Document the positions that are retained and how the mechanism changes between them. Device tagging connects the latch representation to the operated contacts or actuator."
+  ],
+  "readingNotes": [
+    "Document the positions retained by the latch and the changeover action.",
+    "Two-way retention does not imply a two-way electrical contact arrangement."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Document the positions retained by the latch and the changeover action.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Two-way retention does not imply a two-way electrical contact arrangement.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q1020603 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Document the positions retained by the latch and the changeover action."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-latch",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-two-way-latching-device",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Two-way latching device",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Latching-device qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-two-way-latching-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-two-way-latching-device.svg",
+  "id": "iec-two-way-latching-device",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-two-way-latching-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-two-way-latching-device.json",
+  "svgPath": "artwork/svg/iec-two-way-latching-device.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-latch",
+      "title": "Autodesk IEC-60617 preview: Latching-device qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9FC7824E-1A3B-4B47-B157-590CB8AE62FC.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

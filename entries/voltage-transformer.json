@@ -1,0 +1,106 @@
+{
+  "slug": "voltage-transformer",
+  "name": "Voltage transformer",
+  "kind": "symbol",
+  "abbreviation": "VT / PT",
+  "aliases": [
+    "potential transformer",
+    "PT",
+    "voltage instrument transformer",
+    "HXF1PT",
+    "VXF1PT"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A transformer providing a voltage signal for metering or protection.",
+  "description": [
+    "A voltage transformer provides a secondary voltage related to the voltage on its primary winding. VT and PT, for potential transformer, are common terms encountered in power drawings. Its representation identifies a measurement function; winding connections, fuses, earthing and secondary circuits need their own documented detail.",
+    "A single line diagram places the VT at the system connection being measured. The associated schematic shows how that voltage reaches a meter, relay or control system. A power transformer can look similar in a simplified drawing, so the label and context matter."
+  ],
+  "readingNotes": [
+    "Check the measured voltage connection and the number of windings or secondaries shown.",
+    "Read polarity, ratio and secondary earthing from the specified device documentation."
+  ],
+  "drawingChecklist": [
+    "Identify the measured bus or feeder.",
+    "Record the specified ratio and accuracy information.",
+    "Cross-reference primary and secondary protection and terminals."
+  ],
+  "distinction": "A VT supplies a voltage measurement; a power transformer supplies a power circuit. A shared transformer-like outline does not make their functions interchangeable.",
+  "facts": [
+    {
+      "label": "Quantity represented",
+      "value": "Voltage"
+    },
+    {
+      "label": "Alternative term",
+      "value": "Potential transformer"
+    },
+    {
+      "label": "Device data",
+      "value": "Model-specific winding and terminal information"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HXF1PT, VXF1PT (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public potential- and voltage-transformer categories."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Manufacturer instrument-transformer information."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "power-transformer",
+    "27-undervoltage",
+    "59-overvoltage"
+  ],
+  "artwork": "vt",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltage-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/voltage-transformer.svg",
+  "id": "voltage-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltage-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltage-transformer.json",
+  "svgPath": "artwork/svg/voltage-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public potential- and voltage-transformer categories."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer instrument-transformer information."
+    }
+  ]
+}

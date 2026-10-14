@@ -1,0 +1,82 @@
+{
+  "slug": "digital-magnitude-comparator",
+  "name": "Digital magnitude comparator",
+  "kind": "symbol",
+  "abbreviation": "MAG-COMP",
+  "aliases": [
+    "binary comparator",
+    "digital word comparison"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Compares two digital words to provide the specified equality and magnitude indications.",
+  "description": [
+    "Compares two digital words to provide the specified equality and magnitude indications.",
+    "On a schematic, identify the two word buses, bit significance and cascade inputs and trace the equal, greater-than and less-than outputs. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Digital word comparison differs from an analogue voltage comparator, even though both can use a comparison block in a diagram.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the two word buses, bit significance and cascade inputs.",
+    "Trace the equal, greater-than and less-than outputs."
+  ],
+  "drawingChecklist": [
+    "Label the two word buses, bit significance and cascade inputs.",
+    "Cross-reference the equal, greater-than and less-than outputs.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Digital word comparison differs from an analogue voltage comparator, even though both can use a comparison block in a diagram.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "MAG-COMP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two word buses, bit significance and cascade inputs"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc85",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "voltage-comparator",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-comparator",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/digital-magnitude-comparator",
+  "illustration": "https://eloragrid.ai/library/illustrations/digital-magnitude-comparator.svg",
+  "id": "digital-magnitude-comparator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/digital-magnitude-comparator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/digital-magnitude-comparator.json",
+  "svgPath": "artwork/svg/digital-magnitude-comparator.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc85",
+      "title": "CD74HC85 — digital magnitude comparators",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD74HC85",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of digital magnitude comparators. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

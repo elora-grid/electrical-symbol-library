@@ -1,0 +1,91 @@
+{
+  "slug": "capacitor",
+  "name": "Capacitor",
+  "kind": "symbol",
+  "abbreviation": "C",
+  "aliases": [
+    "capacitor bank",
+    "capacitive component",
+    "power factor correction capacitor",
+    "HCA1",
+    "VCA1"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A capacitive component or bank identified with its circuit function and ratings.",
+  "description": [
+    "A capacitor representation identifies a capacitive component or arrangement in a circuit. Polarised, non-polarised, adjustable and other variants need the appropriate representation and annotations. In power drawings a capacitor bank is a system assembly, rather than merely a scaled-up generic component mark.",
+    "Ratings, discharge arrangements, switching and associated reactors or protection depend on the application and selected equipment. A symbol is an identification aid; it does not provide those design values."
+  ],
+  "readingNotes": [
+    "Identify whether the drawing denotes a component or a bank assembly.",
+    "Read polarity or adjustable features only where the selected variant documents them."
+  ],
+  "drawingChecklist": [
+    "Reference the component or bank rating.",
+    "Identify any switching and associated protective equipment.",
+    "Link the equipment documentation for discharge or reactor arrangements."
+  ],
+  "distinction": "A capacitor-bank representation does not identify every component of the assembled bank or establish its switching duty.",
+  "facts": [
+    {
+      "label": "Variant",
+      "value": "Application-specific"
+    },
+    {
+      "label": "Polarity",
+      "value": "Must be explicitly represented where relevant"
+    },
+    {
+      "label": "Ratings",
+      "value": "Separate equipment data"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HCA1, VCA1 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public capacitor categories and variants."
+    }
+  ],
+  "related": [
+    "busbar",
+    "circuit-breaker",
+    "resistor",
+    "power-transformer"
+  ],
+  "artwork": "capacitor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/capacitor",
+  "illustration": "https://eloragrid.ai/library/illustrations/capacitor.svg",
+  "id": "capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitor.json",
+  "svgPath": "artwork/svg/capacitor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public capacitor categories and variants."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "thermal-magnetic-circuit-breaker",
+  "name": "Thermal-magnetic circuit breaker",
+  "kind": "symbol",
+  "abbreviation": "CB TM",
+  "aliases": [
+    "HCB11Q9",
+    "VCB11Q9"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A thermal-magnetic breaker combines overload response with a magnetic response to high current.",
+  "description": [
+    "A thermal-magnetic breaker combines overload response with a magnetic response to high current. Its functional annotation helps distinguish the trip mechanism from an electronic trip unit."
+  ],
+  "readingNotes": [
+    "A curve designation alone does not state every operating limit or breaking rating.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record rated current and curve",
+    "Show protected poles",
+    "Reference short-circuit rating"
+  ],
+  "distinction": "An electronic trip unit may provide similar protection functions through a different measurement and operating system.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB11Q9, VCB11Q9 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-breakers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-thermal-magnetic-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/thermal-magnetic-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/thermal-magnetic-circuit-breaker.svg",
+  "id": "thermal-magnetic-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/thermal-magnetic-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/thermal-magnetic-circuit-breaker.json",
+  "svgPath": "artwork/svg/thermal-magnetic-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-breakers",
+      "title": "Circuit-breaker symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DB1548A3-A4D3-47E5-86AC-37000DC57D80.htm",
+      "type": "cad-reference",
+      "scope": "Circuit-breaker variants and thermal, magnetic and differential qualifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

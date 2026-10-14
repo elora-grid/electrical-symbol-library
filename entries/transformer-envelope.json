@@ -1,0 +1,85 @@
+{
+  "slug": "transformer-envelope",
+  "name": "Transformer envelope",
+  "kind": "object",
+  "abbreviation": "Transformer GA",
+  "aliases": [
+    "transformer footprint",
+    "distribution transformer GA"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic transformer object for locating the equipment and its documented interfaces.",
+  "description": [
+    "A transformer envelope connects a GA placement to a selected transformer and its manufacturer drawing. The physical information can include connection locations, accessories and maintenance or installation requirements, all of which depend on the product and application.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Distinguish the equipment envelope from any separately documented access area.",
+    "Use the actual manufacturer view and reference orientation."
+  ],
+  "drawingChecklist": [
+    "Reference the selected transformer GA.",
+    "Identify connection interfaces and accessories.",
+    "Link ratings to the equipment schedule."
+  ],
+  "distinction": "An SLD transformer symbol is not a scaled footprint. A generic envelope has no model-specific dimensions.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "manufacturer-cad",
+      "relevance": "Official directory for transformer and distribution-equipment CAD."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "switchgear-panel",
+    "busbar-trunking"
+  ],
+  "artwork": "transformer-object",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/transformer-envelope",
+  "illustration": "https://eloragrid.ai/library/illustrations/transformer-envelope.svg",
+  "id": "transformer-envelope",
+  "canonicalUrl": "https://eloragrid.ai/objects/transformer-envelope",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-envelope.json",
+  "svgPath": "artwork/svg/transformer-envelope.svg",
+  "publicSources": [
+    {
+      "id": "manufacturer-cad",
+      "title": "Official CAD drawings and BIM resources",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/work/support/resources-and-tools/cad-drawings/",
+      "type": "cad-reference",
+      "scope": "Manufacturer CAD/BIM directory for model-specific equipment. Download terms remain with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official directory for transformer and distribution-equipment CAD."
+    }
+  ]
+}

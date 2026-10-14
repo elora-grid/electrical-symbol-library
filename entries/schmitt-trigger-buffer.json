@@ -1,0 +1,82 @@
+{
+  "slug": "schmitt-trigger-buffer",
+  "name": "Schmitt-trigger buffer",
+  "kind": "symbol",
+  "abbreviation": "SCHMITT",
+  "aliases": [
+    "noninverting Schmitt trigger",
+    "hysteresis buffer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A non-inverting digital element with separate rising and falling input thresholds.",
+  "description": [
+    "A non-inverting digital element with separate rising and falling input thresholds.",
+    "On a schematic, identify the input signal and manufacturer hysteresis/threshold definition and trace the non-inverted digital output. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A Schmitt buffer preserves logical polarity, unlike a Schmitt-trigger inverter.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input signal and manufacturer hysteresis/threshold definition.",
+    "Trace the non-inverted digital output."
+  ],
+  "drawingChecklist": [
+    "Label the input signal and manufacturer hysteresis/threshold definition.",
+    "Cross-reference the non-inverted digital output.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A Schmitt buffer preserves logical polarity, unlike a Schmitt-trigger inverter.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "SCHMITT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input signal and manufacturer hysteresis/threshold definition"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-lvc17",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "schmitt-trigger-inverter",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-schmitt",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/schmitt-trigger-buffer",
+  "illustration": "https://eloragrid.ai/library/illustrations/schmitt-trigger-buffer.svg",
+  "id": "schmitt-trigger-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/schmitt-trigger-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/schmitt-trigger-buffer.json",
+  "svgPath": "artwork/svg/schmitt-trigger-buffer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-lvc17",
+      "title": "SN74LVC1G17 — non-inverting Schmitt buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74LVC1G17",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of non-inverting schmitt buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

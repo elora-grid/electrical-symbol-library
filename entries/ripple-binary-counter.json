@@ -1,0 +1,82 @@
+{
+  "slug": "ripple-binary-counter",
+  "name": "Ripple binary counter",
+  "kind": "symbol",
+  "abbreviation": "CTR-RIP",
+  "aliases": [
+    "asynchronous binary counter",
+    "ripple counter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Counts clock events through cascaded storage stages whose output changes do not occur simultaneously.",
+  "description": [
+    "Counts clock events through cascaded storage stages whose output changes do not occur simultaneously.",
+    "On a schematic, identify the count input, clock polarity and clear input and trace the binary outputs and any decoded control signals. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Ripple transitions can briefly expose intermediate combinations; synchronous counters have a different update arrangement.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the count input, clock polarity and clear input.",
+    "Trace the binary outputs and any decoded control signals."
+  ],
+  "drawingChecklist": [
+    "Label the count input, clock polarity and clear input.",
+    "Cross-reference the binary outputs and any decoded control signals.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Ripple transitions can briefly expose intermediate combinations; synchronous counters have a different update arrangement.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "CTR-RIP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The count input, clock polarity and clear input"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc393",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "synchronous-binary-counter",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-ripple",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ripple-binary-counter",
+  "illustration": "https://eloragrid.ai/library/illustrations/ripple-binary-counter.svg",
+  "id": "ripple-binary-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ripple-binary-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ripple-binary-counter.json",
+  "svgPath": "artwork/svg/ripple-binary-counter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc393",
+      "title": "SN74HC393 — ripple binary counters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of ripple binary counters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

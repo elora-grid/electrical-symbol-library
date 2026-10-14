@@ -1,0 +1,84 @@
+{
+  "slug": "make-before-break-changeover-contact",
+  "name": "Make-before-break changeover contact",
+  "kind": "symbol",
+  "abbreviation": "MBB",
+  "aliases": [
+    "HSW1SC7_F",
+    "VSW1SC7_F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A make-before-break changeover contact establishes the next path before releasing the previous path during its documented transfer.",
+  "description": [
+    "A make-before-break changeover contact establishes the next path before releasing the previous path during its documented transfer. The temporary overlap must be understood for the connected circuits."
+  ],
+  "readingNotes": [
+    "Identify any circuits that would be interconnected during the overlap.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label common and throw terminals",
+    "State overlap sequence",
+    "Reference connected-circuit compatibility"
+  ],
+  "distinction": "A break-before-make transfer opens the previous path before establishing the next.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HSW1SC7_F, VSW1SC7_F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-misc-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-make-before-break-changeover-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/make-before-break-changeover-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/make-before-break-changeover-contact.svg",
+  "id": "make-before-break-changeover-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/make-before-break-changeover-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/make-before-break-changeover-contact.json",
+  "svgPath": "artwork/svg/make-before-break-changeover-contact.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-misc-switches",
+      "title": "AutoCAD Electrical: Level, flow, keyed and measurement switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1FB94435-C954-4479-BD97-25796DB8F728.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

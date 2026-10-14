@@ -1,0 +1,84 @@
+{
+  "slug": "magnetic-proximity-switch",
+  "name": "Magnetic proximity switch",
+  "kind": "symbol",
+  "abbreviation": "PROX MAG",
+  "aliases": [
+    "HPX1M",
+    "VPX1M"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A magnetic proximity switch detects a documented magnetic target or field condition.",
+  "description": [
+    "A magnetic proximity switch detects a documented magnetic target or field condition. The drawing identifies supply and output where applicable, and the equipment detail identifies the magnet or actuator."
+  ],
+  "readingNotes": [
+    "Locate the magnetic target as well as the switch body.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name target reference",
+    "State output/contact type",
+    "Identify sensing arrangement"
+  ],
+  "distinction": "A magnetic proximity input is different from a relay coil operating its own contacts.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPX1M, VPX1M (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-magnetic-sensors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-magnetic-proximity-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/magnetic-proximity-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/magnetic-proximity-switch.svg",
+  "id": "magnetic-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/magnetic-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/magnetic-proximity-switch.json",
+  "svgPath": "artwork/svg/magnetic-proximity-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-magnetic-sensors",
+      "title": "AutoCAD Electrical: Magnetic proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B80666C6-215A-40C9-93CD-F394C29C3D33.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

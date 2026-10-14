@@ -1,0 +1,100 @@
+{
+  "slug": "earthing-switch",
+  "name": "Earthing switch",
+  "kind": "symbol",
+  "abbreviation": "ES",
+  "aliases": [
+    "grounding switch",
+    "earth switch",
+    "ground switch"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A switch used to connect an identified circuit section to earth.",
+  "description": [
+    "An earthing-switch representation identifies a switching connection between an electrical circuit section and earth. This is a switching device, not merely an earth-reference mark. On an SLD, its location helps explain which part of the switchgear or circuit is connected to earth when the device operates.",
+    "Switchgear documentation can include earthing-switch position indications and interlocks with other devices. Those relationships need to be shown or referenced separately. The generic concept here does not establish operating sequence, duty, interlock logic or permission to operate equipment."
+  ],
+  "readingNotes": [
+    "Identify the circuit section and earth connection on either side of the switching element.",
+    "Follow interlock and position references in the equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify the associated panel or circuit.",
+    "Reference the specified device duty.",
+    "Cross-reference interlocks and position indication."
+  ],
+  "distinction": "A protective-earth mark identifies a connection or function. An earthing switch identifies equipment that makes a switching connection.",
+  "facts": [
+    {
+      "label": "Primary role",
+      "value": "Switching connection to earth"
+    },
+    {
+      "label": "Operating arrangement",
+      "value": "Specified by equipment documentation"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Concept illustration"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-functions",
+      "relevance": "Public earthing-switch control and indication functions."
+    },
+    {
+      "sourceId": "abb-switchgear",
+      "relevance": "Manufacturer switchgear equipment context."
+    }
+  ],
+  "related": [
+    "protective-earth",
+    "disconnector",
+    "switchgear-panel",
+    "ring-main-unit"
+  ],
+  "artwork": "earth-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/earthing-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/earthing-switch.svg",
+  "id": "earthing-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/earthing-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/earthing-switch.json",
+  "svgPath": "artwork/svg/earthing-switch.svg",
+  "publicSources": [
+    {
+      "id": "abb-functions",
+      "title": "Relion 620: functions, codes and symbols",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Published product mappings between function names, IEC 61850 identifiers, IEC mnemonics and ANSI designations. These are product examples, not universal equivalences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public earthing-switch control and indication functions."
+    },
+    {
+      "id": "abb-switchgear",
+      "title": "Secondary-distribution switchgear and ring main units",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/switchgear/secondary-distribution",
+      "type": "manufacturer",
+      "scope": "Public equipment families for secondary distribution. Footprints and ratings must come from the chosen model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer switchgear equipment context."
+    }
+  ]
+}

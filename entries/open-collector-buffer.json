@@ -1,0 +1,82 @@
+{
+  "slug": "open-collector-buffer",
+  "name": "Open-collector buffer",
+  "kind": "symbol",
+  "abbreviation": "OC-BUF",
+  "aliases": [
+    "open collector logic",
+    "pull up output driver"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Provides a logic output through a transistor pull-down stage requiring the documented external load or pull-up.",
+  "description": [
+    "Provides a logic output through a transistor pull-down stage requiring the documented external load or pull-up.",
+    "On a schematic, identify the logic supply, collector output and pull-up/load supply and trace the wired output signal and receiving input. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An open collector can sink current under its limits; it does not actively drive the high state like a push-pull output.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the logic supply, collector output and pull-up/load supply.",
+    "Trace the wired output signal and receiving input."
+  ],
+  "drawingChecklist": [
+    "Label the logic supply, collector output and pull-up/load supply.",
+    "Cross-reference the wired output signal and receiving input.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An open collector can sink current under its limits; it does not actively drive the high state like a push-pull output.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "OC-BUF — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The logic supply, collector output and pull-up/load supply"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-ls07",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-three-state-buffer",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-open-collector",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/open-collector-buffer",
+  "illustration": "https://eloragrid.ai/library/illustrations/open-collector-buffer.svg",
+  "id": "open-collector-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/open-collector-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/open-collector-buffer.json",
+  "svgPath": "artwork/svg/open-collector-buffer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-ls07",
+      "title": "SN74LS07 — open-collector output buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls07.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of open-collector output buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "ga-power-quality-meter",
+  "name": "Power quality meter",
+  "kind": "object",
+  "abbreviation": "PQM",
+  "aliases": [
+    "power quality analyser",
+    "power quality analyzer",
+    "power quality monitor",
+    "disturbance recorder meter",
+    "power-quality meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "GA",
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A measuring device used to monitor electrical quantities and documented power-quality events or waveform characteristics.",
+  "description": [
+    "A power quality meter measures electrical quantities and provides the power-quality monitoring functions documented for its model. Examples include waveform or disturbance recording and analysis of abnormal supply conditions. An ordinary energy meter should not be assumed to provide these functions.",
+    "Coordinate the installed meter or remote display, voltage and current inputs, auxiliary supply and communication interfaces. A complete drawing package links the GA location to the metering schematic and the configuration requirements for the monitoring system."
+  ],
+  "readingNotes": [
+    "Read the selected model documentation to identify which measurements, event captures and recording functions are provided.",
+    "Trace voltage/current measurement channels separately from auxiliary power and network or time-reference connections."
+  ],
+  "drawingChecklist": [
+    "Identify the exact meter model, installation form and display arrangement.",
+    "Cross-reference voltage inputs, CT connections, protection/test interfaces and auxiliary supply.",
+    "Show communication, time-reference and data-system interfaces required by the documented application."
+  ],
+  "distinction": "Power-quality monitoring and energy registration overlap in some meters. A meter label or network connection alone does not prove the event capture, accuracy class or recording capabilities needed for a particular study.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic metering and monitoring GA object"
+    },
+    {
+      "label": "Interface groups",
+      "value": "Measurement inputs, auxiliary supply, communication and any documented time reference"
+    },
+    {
+      "label": "Capability verification",
+      "value": "Selected model manual and application configuration; no universal accuracy or recording specification asserted"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-power-quality-meter",
+      "relevance": "Public advanced energy and power-quality meter manual provides installation and operating context."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "original-power-quality-meter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-power-quality-meter",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-power-quality-meter.svg",
+  "id": "ga-power-quality-meter",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-power-quality-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-power-quality-meter.json",
+  "svgPath": "artwork/svg/ga-power-quality-meter.svg",
+  "publicSources": [
+    {
+      "id": "public-power-quality-meter",
+      "title": "PowerLogic ION9000 user manual",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/26719674/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer documentation for the installation, operation and configuration of an advanced energy and power-quality meter. Exact functions and terminals depend on the selected model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public advanced energy and power-quality meter manual provides installation and operating context."
+    }
+  ]
+}

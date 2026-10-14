@@ -1,0 +1,82 @@
+{
+  "slug": "watchdog-timer",
+  "name": "Watchdog timer",
+  "kind": "symbol",
+  "abbreviation": "WDT",
+  "aliases": [
+    "watchdog IC",
+    "processor timeout monitor"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Supervises a qualifying activity signal and operates its output when the documented watchdog timing condition is violated.",
+  "description": [
+    "Supervises a qualifying activity signal and operates its output when the documented watchdog timing condition is violated.",
+    "On a schematic, identify the watchdog input, enable and timeout configuration and trace the reset/fault output and supervised controller. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A watchdog supervises activity timing; it does not prove that the processor's control algorithm is correct.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the watchdog input, enable and timeout configuration.",
+    "Trace the reset/fault output and supervised controller."
+  ],
+  "drawingChecklist": [
+    "Label the watchdog input, enable and timeout configuration.",
+    "Cross-reference the reset/fault output and supervised controller.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A watchdog supervises activity timing; it does not prove that the processor's control algorithm is correct.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "WDT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The watchdog input, enable and timeout configuration"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-watchdog",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "retriggerable-monostable",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-watchdog",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/watchdog-timer",
+  "illustration": "https://eloragrid.ai/library/illustrations/watchdog-timer.svg",
+  "id": "watchdog-timer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/watchdog-timer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/watchdog-timer.json",
+  "svgPath": "artwork/svg/watchdog-timer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-watchdog",
+      "title": "TPS3431 — watchdog timing supervision",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TPS3431",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of watchdog timing supervision. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

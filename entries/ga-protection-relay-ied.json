@@ -1,0 +1,88 @@
+{
+  "slug": "ga-protection-relay-ied",
+  "name": "Protection relay IED",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "intelligent electronic device",
+    "Protection relay IED CAD",
+    "Protection relay IED general arrangement",
+    "Protection relay IED panel layout"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A protection relay IED implements the selected measurement, protection and control functions.",
+  "description": [
+    "A protection relay IED implements the selected measurement, protection and control functions.",
+    "Coordinate the case cut-out, rear terminal depth, communications and test access. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate the case cut-out, rear terminal depth, communications and test access.",
+    "Relay case size does not determine the enabled protection functions or settings."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate the case cut-out, rear terminal depth, communications and test access.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Relay case size does not determine the enabled protection functions or settings.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-micom-cad",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-object-ga-protection-relay-ied",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-protection-relay-ied",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-protection-relay-ied.svg",
+  "id": "ga-protection-relay-ied",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-protection-relay-ied",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-protection-relay-ied.json",
+  "svgPath": "artwork/svg/ga-protection-relay-ied.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-micom-cad",
+      "title": "MiCOM official CAD drawing collection",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/download/document/MiCOM-CAD-DRAWINGS/",
+      "type": "cad-reference",
+      "scope": "Official public relay-family CAD resource. Existing and current MiCOM variants must be distinguished by model and document revision.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

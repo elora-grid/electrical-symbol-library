@@ -1,0 +1,83 @@
+{
+  "slug": "p-channel-enhancement-mosfet",
+  "name": "P-channel enhancement MOSFET",
+  "kind": "symbol",
+  "abbreviation": "P-MOS",
+  "aliases": [
+    "PMOS",
+    "P-channel MOSFET",
+    "enhancement P FET"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An insulated-gate transistor using a P-channel and the corresponding gate-to-source drive polarity.",
+  "description": [
+    "An insulated-gate transistor using a P-channel and the corresponding gate-to-source drive polarity.",
+    "On a schematic, identify the source supply, gate-drive reference and drain load and trace the controlled current path and body-diode orientation. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "P-channel gate drive is referenced to its own source; a flipped N-channel symbol is not an equivalent part.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the source supply, gate-drive reference and drain load.",
+    "Trace the controlled current path and body-diode orientation."
+  ],
+  "drawingChecklist": [
+    "Label the source supply, gate-drive reference and drain load.",
+    "Cross-reference the controlled current path and body-diode orientation.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "P-channel gate drive is referenced to its own source; a flipped N-channel symbol is not an equivalent part.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "P-MOS — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The source supply, gate-drive reference and drain load"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nexperia-mosfet",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-mos-p-enh",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/p-channel-enhancement-mosfet",
+  "illustration": "https://eloragrid.ai/library/illustrations/p-channel-enhancement-mosfet.svg",
+  "id": "p-channel-enhancement-mosfet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/p-channel-enhancement-mosfet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/p-channel-enhancement-mosfet.json",
+  "svgPath": "artwork/svg/p-channel-enhancement-mosfet.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nexperia-mosfet",
+      "title": "MOSFET families and application documentation",
+      "publisher": "Nexperia",
+      "url": "https://www.nexperia.com/products/mosfets",
+      "type": "manufacturer",
+      "scope": "Public MOSFET device and application information, including intrinsic body-diode context. The generic artwork does not establish an accessible bulk terminal or a selected package pinout.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

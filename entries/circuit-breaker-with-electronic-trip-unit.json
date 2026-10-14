@@ -1,0 +1,100 @@
+{
+  "slug": "circuit-breaker-with-electronic-trip-unit",
+  "name": "Circuit breaker with electronic trip unit",
+  "kind": "symbol",
+  "abbreviation": "CB ETU",
+  "aliases": [
+    "HCB11Q138",
+    "VCB11Q138"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A breaker electronic trip unit measures current and applies configured protection functions.",
+  "description": [
+    "A breaker electronic trip unit measures current and applies configured protection functions. A functional tag should link the breaker to its selected trip unit, sensors and settings record."
+  ],
+  "readingNotes": [
+    "Protection setting letters and function names depend on the trip unit family.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name trip unit model",
+    "Reference sensor and rating plug",
+    "Link protection settings"
+  ],
+  "distinction": "The electronic trip unit is part of breaker protection; a remote protection relay is a separate device unless the design documents otherwise.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB11Q138, VCB11Q138 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-breakers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "edu-circuit-breaker-with-electronic-trip-unit",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/circuit-breaker-with-electronic-trip-unit",
+  "illustration": "https://eloragrid.ai/library/illustrations/circuit-breaker-with-electronic-trip-unit.svg",
+  "id": "circuit-breaker-with-electronic-trip-unit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/circuit-breaker-with-electronic-trip-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/circuit-breaker-with-electronic-trip-unit.json",
+  "svgPath": "artwork/svg/circuit-breaker-with-electronic-trip-unit.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-breakers",
+      "title": "Circuit-breaker symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DB1548A3-A4D3-47E5-86AC-37000DC57D80.htm",
+      "type": "cad-reference",
+      "scope": "Circuit-breaker variants and thermal, magnetic and differential qualifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

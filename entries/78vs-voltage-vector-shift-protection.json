@@ -1,0 +1,105 @@
+{
+  "slug": "78vs-voltage-vector-shift-protection",
+  "name": "Voltage vector-shift protection",
+  "kind": "function",
+  "abbreviation": "78VS",
+  "aliases": [
+    "vector shift",
+    "vector surge",
+    "78V",
+    "ANSI 78VS",
+    "IEEE 78VS"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises an abrupt change in the measured voltage phase angle using the selected relay's vector-shift method.",
+  "description": [
+    "Supervises an abrupt change in the measured voltage phase angle using the selected relay's vector-shift method.",
+    "The drafting record should connect this function to the measured voltage inputs and interconnection point, then trace the vector-shift operating output and interconnection protection logic. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (SEL generator protection feature table). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the measured voltage inputs and interconnection point.",
+    "Trace the vector-shift operating output and interconnection protection logic."
+  ],
+  "drawingChecklist": [
+    "Label the measured voltage inputs and interconnection point.",
+    "Cross-reference the vector-shift operating output and interconnection protection logic.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Vector shift 78VS/78V is a product-mapped function and differs from the complete out-of-step or pole-slip application of base 78.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "78VS"
+    },
+    {
+      "label": "Base function",
+      "value": "78 — Phase-angle or out-of-step protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "SEL generator protection feature table"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-generator",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "78-phase-angle-or-out-of-step-protection",
+    "voltage-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/78vs-voltage-vector-shift-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/78vs-voltage-vector-shift-protection.svg",
+  "id": "78vs-voltage-vector-shift-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/78vs-voltage-vector-shift-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/78vs-voltage-vector-shift-protection.json",
+  "svgPath": "artwork/svg/78vs-voltage-vector-shift-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-generator",
+      "title": "Generator protection feature and function comparison",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/comparisons/generator-protection/",
+      "type": "manufacturer",
+      "scope": "Public mappings for generator functions, including phase distance, field/stator ground, thermal RTD, sequence-current and vector-shift applications. Product availability depends on model/options; no settings are provided here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "59-overvoltage",
+  "name": "Overvoltage",
+  "kind": "function",
+  "abbreviation": "59",
+  "aliases": [
+    "over voltage",
+    "OV protection",
+    "59N"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "A function responding to voltage above its configured operating criteria.",
+  "description": [
+    "An overvoltage function detects a voltage condition above its configured criteria. The full designation and manufacturer information identify the measured quantity, implementation and application. A generic 59 reference does not establish trip values or time delays.",
+    "On a power drawing, keep this function reference connected to the selected equipment and its complete designation. A multifunction relay can implement several numbered functions. This entry explains the reference; it supplies no settings or commissioning procedure."
+  ],
+  "readingNotes": [
+    "Identify the voltage measurement and full function suffix.",
+    "Read whether the configured result is an alarm, trip or other control action."
+  ],
+  "drawingChecklist": [
+    "Reference voltage inputs.",
+    "Identify the full relay function.",
+    "Link the operating logic and settings documentation."
+  ],
+  "distinction": "A phase overvoltage element and a residual-voltage or neutral-displacement application may use different measurements and suffixes.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "59"
+    },
+    {
+      "label": "Equipment implementation",
+      "value": "Consult the selected device manual"
+    },
+    {
+      "label": "Suffix interpretation",
+      "value": "Application and manufacturer documentation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative publication reference for the device-function convention."
+    },
+    {
+      "sourceId": "abb-functions",
+      "relevance": "Public examples of manufacturer-specific function names and suffixes."
+    }
+  ],
+  "related": [
+    "27-undervoltage",
+    "voltage-transformer",
+    "power-converter"
+  ],
+  "artwork": "function",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/59-overvoltage",
+  "illustration": "https://eloragrid.ai/library/illustrations/59-overvoltage.svg",
+  "id": "59-overvoltage",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/59-overvoltage",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/59-overvoltage.json",
+  "svgPath": "artwork/svg/59-overvoltage.svg",
+  "publicSources": [
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative publication reference for the device-function convention."
+    },
+    {
+      "id": "abb-functions",
+      "title": "Relion 620: functions, codes and symbols",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Published product mappings between function names, IEC 61850 identifiers, IEC mnemonics and ANSI designations. These are product examples, not universal equivalences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public examples of manufacturer-specific function names and suffixes."
+    }
+  ]
+}

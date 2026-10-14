@@ -1,0 +1,82 @@
+{
+  "slug": "light-emitting-diode",
+  "name": "Light-emitting diode",
+  "kind": "symbol",
+  "abbreviation": "LED",
+  "aliases": [
+    "bare LED",
+    "electroluminescent diode"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A semiconductor diode that emits light when operated with the appropriate forward current.",
+  "description": [
+    "A semiconductor diode that emits light when operated with the appropriate forward current.",
+    "On a schematic, identify anode/cathode polarity and the current-limiting circuit and trace the optical indication or emitter function. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A bare LED needs its external operating circuit; the existing LED indicator-lamp record describes an assembled indicating device.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify anode/cathode polarity and the current-limiting circuit.",
+    "Trace the optical indication or emitter function."
+  ],
+  "drawingChecklist": [
+    "Label anode/cathode polarity and the current-limiting circuit.",
+    "Cross-reference the optical indication or emitter function.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A bare LED needs its external operating circuit; the existing LED indicator-lamp record describes an assembled indicating device.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "LED — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "Anode/cathode polarity and the current-limiting circuit"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-vishay-led",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "led-indicator-lamp",
+    "diode"
+  ],
+  "artwork": "electronics-diode-led",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/light-emitting-diode",
+  "illustration": "https://eloragrid.ai/library/illustrations/light-emitting-diode.svg",
+  "id": "light-emitting-diode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/light-emitting-diode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/light-emitting-diode.json",
+  "svgPath": "artwork/svg/light-emitting-diode.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-vishay-led",
+      "title": "Visible LED component families",
+      "publisher": "Vishay",
+      "url": "https://www.vishay.com/en/leds/",
+      "type": "manufacturer",
+      "scope": "Public LED family and component documentation. A bare component reference is distinct from an assembled panel indicator.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-equipment-removal-route",
+  "name": "Equipment removal route",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "replacement path",
+    "Equipment removal route CAD",
+    "Equipment removal route general arrangement",
+    "Equipment removal route panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A removal route identifies the documented path for replacing major equipment.",
+  "description": [
+    "A removal route identifies the documented path for replacing major equipment.",
+    "Coordinate door openings, turning areas, lifting methods and floor capacity references. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate door openings, turning areas, lifting methods and floor capacity references.",
+    "A route centreline alone does not prove that an assembled item will fit through every opening."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate door openings, turning areas, lifting methods and floor capacity references.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A route centreline alone does not prove that an assembled item will fit through every opening.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-equipment-removal-route",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-equipment-removal-route",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-equipment-removal-route.svg",
+  "id": "ga-equipment-removal-route",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-equipment-removal-route",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-equipment-removal-route.json",
+  "svgPath": "artwork/svg/ga-equipment-removal-route.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

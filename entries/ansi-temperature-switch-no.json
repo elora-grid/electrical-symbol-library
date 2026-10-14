@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-temperature-switch-no",
+  "name": "ANSI/IEEE temperature switch no symbol",
+  "kind": "symbol",
+  "abbreviation": "TS NO",
+  "aliases": [
+    "IEEE temperature switch no symbol",
+    "ANSI temperature switch no symbol",
+    "HTS11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for temperature switch no, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The temperature-operated NO form relates a discrete contact to a specified thermal condition. Sensor placement and rising or falling temperature action need annotations beyond the actuation modifier.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Do not infer alarm direction from the NO contact alone.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Name sensed location",
+    "State operate temperature/direction",
+    "Reference reset action"
+  ],
+  "distinction": "A temperature switch is distinct from an RTD or thermocouple measurement input.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Pressure and Temperature Switches"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HTS11 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-fb8b55db-cba8-4a86-b8d1-aa59012f1a8e",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "temperature-switch-no",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-temperature-switch-no",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Pressure and Temperature Switches functional form",
+    "counterpart": "temperature-switch-no",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-temperature-switch-no",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-temperature-switch-no.svg",
+  "id": "ansi-temperature-switch-no",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-temperature-switch-no",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-temperature-switch-no.json",
+  "svgPath": "artwork/svg/ansi-temperature-switch-no.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-fb8b55db-cba8-4a86-b8d1-aa59012f1a8e",
+      "title": "Autodesk IEEE Symbol Preview — Pressure and Temperature Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-FB8B55DB-CBA8-4A86-B8D1-AA59012F1A8E.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

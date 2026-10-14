@@ -1,0 +1,85 @@
+{
+  "slug": "single-phase-motor-with-fan",
+  "name": "Single-phase motor with fan",
+  "kind": "symbol",
+  "abbreviation": "M 1PH FAN",
+  "aliases": [
+    "HMO1M3M",
+    "VMO1M3M"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A single-phase motor with an associated fan identifies the driven function as well as the electrical load.",
+  "description": [
+    "A single-phase motor with an associated fan identifies the driven function as well as the electrical load. Its schematic supply is separate from the airflow or installation detail."
+  ],
+  "readingNotes": [
+    "Link the motor tag to the cabinet or auxiliary fan shown on the layout.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name fan/motor tag",
+    "State electrical rating",
+    "Reference airflow and installation data"
+  ],
+  "distinction": "A fan annotation identifies driven equipment, not a new electrical phase system.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M3M, VMO1M3M (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-single-phase-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-single-phase-motor-with-fan",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/single-phase-motor-with-fan",
+  "illustration": "https://eloragrid.ai/library/illustrations/single-phase-motor-with-fan.svg",
+  "id": "single-phase-motor-with-fan",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-phase-motor-with-fan",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-phase-motor-with-fan.json",
+  "svgPath": "artwork/svg/single-phase-motor-with-fan.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-single-phase-motors",
+      "title": "AutoCAD Electrical: Single-phase motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F82048DA-0D71-4720-B9F7-3E64B7500E76.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

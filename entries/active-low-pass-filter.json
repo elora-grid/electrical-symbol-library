@@ -1,0 +1,82 @@
+{
+  "slug": "active-low-pass-filter",
+  "name": "Active low-pass filter",
+  "kind": "symbol",
+  "abbreviation": "LPF",
+  "aliases": [
+    "low pass analogue filter",
+    "anti alias filter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Passes the intended lower-frequency signal content while attenuating higher-frequency content through an active filter circuit.",
+  "description": [
+    "Passes the intended lower-frequency signal content while attenuating higher-frequency content through an active filter circuit.",
+    "On a schematic, identify the input/output references, filter order and corner-frequency documentation and trace the filtered measurement path and receiving converter. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The LPF label describes a response class; it does not set cutoff, gain, order or component values.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input/output references, filter order and corner-frequency documentation.",
+    "Trace the filtered measurement path and receiving converter."
+  ],
+  "drawingChecklist": [
+    "Label the input/output references, filter order and corner-frequency documentation.",
+    "Cross-reference the filtered measurement path and receiving converter.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The LPF label describes a response class; it does not set cutoff, gain, order or component values.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "LPF — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input/output references, filter order and corner-frequency documentation"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-active-filters",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "active-high-pass-filter",
+    "plc-io"
+  ],
+  "artwork": "electronics-filter-low",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-low-pass-filter",
+  "illustration": "https://eloragrid.ai/library/illustrations/active-low-pass-filter.svg",
+  "id": "active-low-pass-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-low-pass-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-low-pass-filter.json",
+  "svgPath": "artwork/svg/active-low-pass-filter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-active-filters",
+      "title": "Basic Linear Design, Chapter 8: analogue filter response families",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/media/en/training-seminars/design-handbooks/Basic-Linear-Design/Chapter8.pdf",
+      "type": "manufacturer",
+      "scope": "Public primary handbook context for low-pass, high-pass, band-pass and band-rejection responses. The miniature response sketches are original conceptual illustrations, with no claimed cutoff, order or component values.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

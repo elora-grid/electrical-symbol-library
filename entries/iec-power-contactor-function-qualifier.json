@@ -1,0 +1,92 @@
+{
+  "slug": "iec-power-contactor-function-qualifier",
+  "name": "Power-contactor function qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070101",
+  "aliases": [
+    "Power-contactor function qualifier symbol",
+    "Q070101",
+    "Power-contactor function qualifier IEC reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier marks the power-contactor function of the associated switching device.",
+  "description": [
+    "This qualifier marks the power-contactor function of the associated switching device. A contactor function identifies switching under its control input, with main contacts and auxiliary contacts forming related circuit views. The operating coil may be drawn far from the power circuit.",
+    "Use common device tagging to link the coil and contact sets. Fault protection and overload functions should be identified through their actual devices rather than assumed from the contactor mark."
+  ],
+  "readingNotes": [
+    "Cross-reference coil control and the device's main and auxiliary contacts.",
+    "A contactor function does not imply independent short-circuit protection."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Cross-reference coil control and the device's main and auxiliary contacts.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A contactor function does not imply independent short-circuit protection.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070101 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Cross-reference coil control and the device's main and auxiliary contacts."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "edu-iec-power-contactor-function-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Power-contactor function qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-power-contactor-function-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-power-contactor-function-qualifier.svg",
+  "id": "iec-power-contactor-function-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-power-contactor-function-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-power-contactor-function-qualifier.json",
+  "svgPath": "artwork/svg/iec-power-contactor-function-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

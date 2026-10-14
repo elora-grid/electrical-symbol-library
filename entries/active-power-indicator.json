@@ -1,0 +1,85 @@
+{
+  "slug": "active-power-indicator",
+  "name": "Active-power indicator",
+  "kind": "symbol",
+  "abbreviation": "kW",
+  "aliases": [
+    "HIN1P19",
+    "VIN1P19"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An active-power indicator displays real power derived from its specified measurement inputs.",
+  "description": [
+    "An active-power indicator displays real power derived from its specified measurement inputs. On an SLD it identifies the monitored feeder or source; the schematic supplies phase and ratio details."
+  ],
+  "readingNotes": [
+    "Identify the power-flow sign reference at the measurement location.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name measured feeder",
+    "Show current/voltage inputs",
+    "State import/export convention"
+  ],
+  "distinction": "Active-power indication differs from reverse-power protection, even when both use the same measured quantity.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1P19, VIN1P19 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-active-power-indicator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-power-indicator",
+  "illustration": "https://eloragrid.ai/library/illustrations/active-power-indicator.svg",
+  "id": "active-power-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-power-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-power-indicator.json",
+  "svgPath": "artwork/svg/active-power-indicator.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "single-phase-ac-motor",
+  "name": "Single-phase AC motor",
+  "kind": "symbol",
+  "abbreviation": "M 1PH AC",
+  "aliases": [
+    "HMO1M9",
+    "VMO1M9"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A single-phase AC motor represents a load supplied from a documented single-phase source.",
+  "description": [
+    "A single-phase AC motor represents a load supplied from a documented single-phase source. Its actual winding, starting component and terminal arrangement require the selected motor connection diagram."
+  ],
+  "readingNotes": [
+    "A simplified motor image does not show every start or run winding.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State supply voltage",
+    "Reference motor terminal diagram",
+    "Show starting/protection arrangement"
+  ],
+  "distinction": "Single-phase supply and the motor's starting method are different drawing attributes.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M9, VMO1M9 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-single-phase-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-single-phase-ac-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/single-phase-ac-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/single-phase-ac-motor.svg",
+  "id": "single-phase-ac-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-phase-ac-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-phase-ac-motor.json",
+  "svgPath": "artwork/svg/single-phase-ac-motor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-single-phase-motors",
+      "title": "AutoCAD Electrical: Single-phase motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F82048DA-0D71-4720-B9F7-3E64B7500E76.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

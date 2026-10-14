@@ -1,0 +1,83 @@
+{
+  "slug": "n-channel-enhancement-mosfet",
+  "name": "N-channel enhancement MOSFET",
+  "kind": "symbol",
+  "abbreviation": "N-MOS",
+  "aliases": [
+    "NMOS",
+    "N-channel MOSFET",
+    "enhancement N FET"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An insulated-gate transistor whose N-channel conduction is enabled by the documented gate-to-source drive.",
+  "description": [
+    "An insulated-gate transistor whose N-channel conduction is enabled by the documented gate-to-source drive.",
+    "On a schematic, identify gate, drain, source and any exposed bulk or Kelvin-source terminal and trace the switching path, driver return and body-diode orientation. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Enhancement mode differs from depletion mode; a MOSFET gate must not be treated as a bipolar base-current input.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify gate, drain, source and any exposed bulk or Kelvin-source terminal.",
+    "Trace the switching path, driver return and body-diode orientation."
+  ],
+  "drawingChecklist": [
+    "Label gate, drain, source and any exposed bulk or Kelvin-source terminal.",
+    "Cross-reference the switching path, driver return and body-diode orientation.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Enhancement mode differs from depletion mode; a MOSFET gate must not be treated as a bipolar base-current input.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "N-MOS — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "Gate, drain, source and any exposed bulk or Kelvin-source terminal"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nexperia-mosfet",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-depletion-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-mos-n-enh",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/n-channel-enhancement-mosfet",
+  "illustration": "https://eloragrid.ai/library/illustrations/n-channel-enhancement-mosfet.svg",
+  "id": "n-channel-enhancement-mosfet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/n-channel-enhancement-mosfet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/n-channel-enhancement-mosfet.json",
+  "svgPath": "artwork/svg/n-channel-enhancement-mosfet.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nexperia-mosfet",
+      "title": "MOSFET families and application documentation",
+      "publisher": "Nexperia",
+      "url": "https://www.nexperia.com/products/mosfets",
+      "type": "manufacturer",
+      "scope": "Public MOSFET device and application information, including intrinsic body-diode context. The generic artwork does not establish an accessible bulk terminal or a selected package pinout.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

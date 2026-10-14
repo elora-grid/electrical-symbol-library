@@ -1,0 +1,90 @@
+{
+  "slug": "normally-closed-contact",
+  "name": "Normally closed contact",
+  "kind": "symbol",
+  "abbreviation": "NC",
+  "aliases": [
+    "break contact",
+    "NC contact",
+    "closed contact",
+    "HCR22",
+    "VCR22"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A contact shown closed in the normal state defined for its device.",
+  "description": [
+    "A normally closed contact is closed in the normal state specified for its device. Actuating the parent device may open it. The drawing must establish that state convention and associate the contact with the appropriate equipment and terminal designations.",
+    "NC contacts occur in relay logic, indication and control circuits. The contact representation alone does not establish safety behaviour, failure response or suitability for a safety function. Those properties depend on the complete device and system design."
+  ],
+  "readingNotes": [
+    "Follow the parent-device reference and the relevant circuit path.",
+    "Check whether the drawing describes a de-energised, unactuated or explicitly stated operating state."
+  ],
+  "drawingChecklist": [
+    "Reference the parent device.",
+    "Document the contact terminals.",
+    "Explain any state convention that differs from the general legend."
+  ],
+  "distinction": "An NC mark does not prove a circuit is fail-safe or establish positive-opening characteristics. Consult the selected device and complete control design.",
+  "facts": [
+    {
+      "label": "Normal state",
+      "value": "Closed, as defined for the parent device"
+    },
+    {
+      "label": "Safety characteristics",
+      "value": "Not established by the generic symbol"
+    },
+    {
+      "label": "Device association",
+      "value": "Parent identifier and terminals"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HCR22, VCR22 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public normally closed relay contact categories."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "changeover-contact",
+    "relay-coil",
+    "emergency-stop"
+  ],
+  "artwork": "contact-nc",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/normally-closed-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/normally-closed-contact.svg",
+  "id": "normally-closed-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/normally-closed-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/normally-closed-contact.json",
+  "svgPath": "artwork/svg/normally-closed-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public normally closed relay contact categories."
+    }
+  ]
+}

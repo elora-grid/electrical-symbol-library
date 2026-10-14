@@ -1,0 +1,98 @@
+{
+  "slug": "89-line-switch",
+  "name": "Line switch",
+  "kind": "function",
+  "abbreviation": "89",
+  "aliases": [
+    "ANSI 89",
+    "line disconnector",
+    "line disconnect"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "The device-function number used for a line-switching or disconnecting device in its documented application.",
+  "description": [
+    "Device function number 89 identifies a line switch in the power-system device-function convention. The selected equipment and drawing context establish its actual operating duties and capabilities; the number is not a substitute for a switch specification.",
+    "On a power drawing, keep this function reference connected to the selected equipment and its complete designation. A multifunction relay can implement several numbered functions. This entry explains the reference; it supplies no settings or commissioning procedure."
+  ],
+  "readingNotes": [
+    "Identify the physical device associated with the reference.",
+    "Read switching, isolation and position information separately."
+  ],
+  "drawingChecklist": [
+    "Link the equipment identification.",
+    "Reference the selected device capabilities.",
+    "Cross-reference control and position circuits."
+  ],
+  "distinction": "The number 89 and number 52 identify different device functions. A drawing reference does not establish equivalent interruption capability.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "89"
+    },
+    {
+      "label": "Equipment implementation",
+      "value": "Consult the selected device manual"
+    },
+    {
+      "label": "Suffix interpretation",
+      "value": "Application and manufacturer documentation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "load-break-switch",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "function",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/89-line-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/89-line-switch.svg",
+  "id": "89-line-switch",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/89-line-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/89-line-switch.json",
+  "svgPath": "artwork/svg/89-line-switch.svg",
+  "publicSources": [
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ]
+}

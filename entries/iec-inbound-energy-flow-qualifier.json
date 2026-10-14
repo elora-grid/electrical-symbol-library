@@ -1,0 +1,92 @@
+{
+  "slug": "iec-inbound-energy-flow-qualifier",
+  "name": "Inbound-energy-flow qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q020507",
+  "aliases": [
+    "Inbound-energy-flow qualifier symbol",
+    "Q020507",
+    "Inbound-energy-flow qualifier IEC reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An inbound-energy qualifier identifies energy entering a represented device or system.",
+  "description": [
+    "An inbound-energy qualifier identifies energy entering a represented device or system. Energy is shown entering the represented boundary in the documented mode. The source may be the grid, a generator or another system interface.",
+    "Identify the receiving device and the source path without confusing them with the diagram’s current-reference arrows. Capacity and energy limits remain in the equipment and operating schedules."
+  ],
+  "readingNotes": [
+    "Name the receiving boundary and the energy interface.",
+    "The qualifier does not supply a power value or establish an import/export limit."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Name the receiving boundary and the energy interface.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The qualifier does not supply a power value or establish an import/export limit.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q020507 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Name the receiving boundary and the energy interface."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-energy",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "plc-io"
+  ],
+  "artwork": "edu-iec-inbound-energy-flow-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Inbound-energy-flow qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Energy-flow qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-inbound-energy-flow-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-inbound-energy-flow-qualifier.svg",
+  "id": "iec-inbound-energy-flow-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-inbound-energy-flow-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-inbound-energy-flow-qualifier.json",
+  "svgPath": "artwork/svg/iec-inbound-energy-flow-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-energy",
+      "title": "Autodesk IEC-60617 preview: Energy-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-2039C5DD-1C01-4D77-AD97-584052C53D75.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

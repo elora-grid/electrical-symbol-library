@@ -1,0 +1,85 @@
+{
+  "slug": "generic-electrical-load",
+  "name": "Generic electrical load",
+  "kind": "symbol",
+  "abbreviation": "LOAD",
+  "aliases": [
+    "HDV1_1-",
+    "VDV1_1-"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A generic electrical load identifies a documented consuming circuit or aggregate load on an SLD.",
+  "description": [
+    "A generic electrical load identifies a documented consuming circuit or aggregate load on an SLD. It is used where the equipment details are supplied through a load schedule or linked schematic."
+  ],
+  "readingNotes": [
+    "Read the load description and ratings rather than assigning a motor function to every load endpoint.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name load reference",
+    "State load rating/type",
+    "Cross-reference load schedule"
+  ],
+  "distinction": "A generic load does not imply a specific motor, heater or converter construction.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDV1_1-, VDV1_1- (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-one-line-load",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "busbar"
+  ],
+  "artwork": "edu-generic-electrical-load",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/generic-electrical-load",
+  "illustration": "https://eloragrid.ai/library/illustrations/generic-electrical-load.svg",
+  "id": "generic-electrical-load",
+  "canonicalUrl": "https://eloragrid.ai/symbols/generic-electrical-load",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/generic-electrical-load.json",
+  "svgPath": "artwork/svg/generic-electrical-load.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-one-line-load",
+      "title": "AutoCAD Electrical: One-line load and receptacle",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AF38B0E2-9CF4-4F69-9C2B-09D542998ED7.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

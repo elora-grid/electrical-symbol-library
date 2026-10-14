@@ -1,0 +1,88 @@
+{
+  "slug": "ga-signal-conditioner",
+  "name": "Signal conditioner",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "isolating transducer signal converter",
+    "Signal conditioner CAD",
+    "Signal conditioner general arrangement",
+    "Signal conditioner panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A signal conditioner converts or isolates the specified instrumentation signal.",
+  "description": [
+    "A signal conditioner converts or isolates the specified instrumentation signal.",
+    "Coordinate input/output ranges, supply and shielding in separate terminal groups. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate input/output ranges, supply and shielding in separate terminal groups.",
+    "Signal conditioning does not replace a protection relay unless that duty is explicitly specified."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate input/output ranges, supply and shielding in separate terminal groups.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Signal conditioning does not replace a protection relay unless that duty is explicitly specified.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-phoenix-products",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-signal-conditioner",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-signal-conditioner",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-signal-conditioner.svg",
+  "id": "ga-signal-conditioner",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-signal-conditioner",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-signal-conditioner.json",
+  "svgPath": "artwork/svg/ga-signal-conditioner.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-phoenix-products",
+      "title": "Control cabinet components and automation products",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-au/products",
+      "type": "manufacturer",
+      "scope": "Public component categories for supply, control, communication, protection and connection; no exact-model ratings are inferred.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "current-sense-amplifier",
+  "name": "Current-sense amplifier",
+  "kind": "symbol",
+  "abbreviation": "CSA",
+  "aliases": [
+    "shunt amplifier",
+    "current measurement amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Amplifies a voltage associated with a current-sensing shunt using the selected measurement-input arrangement.",
+  "description": [
+    "Amplifies a voltage associated with a current-sensing shunt using the selected measurement-input arrangement.",
+    "On a schematic, identify the shunt polarity, input common-mode reference and gain definition and trace the current-related output and ADC or protection circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A current-sense amplifier measures a shunt voltage; it does not replace the shunt or establish an isolated current-transformer connection.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the shunt polarity, input common-mode reference and gain definition.",
+    "Trace the current-related output and ADC or protection circuit."
+  ],
+  "drawingChecklist": [
+    "Label the shunt polarity, input common-mode reference and gain definition.",
+    "Cross-reference the current-related output and ADC or protection circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A current-sense amplifier measures a shunt voltage; it does not replace the shunt or establish an isolated current-transformer connection.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "CSA — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The shunt polarity, input common-mode reference and gain definition"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-current-sense",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "current-measuring-shunt",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-current-sense",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-sense-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/current-sense-amplifier.svg",
+  "id": "current-sense-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-sense-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-sense-amplifier.json",
+  "svgPath": "artwork/svg/current-sense-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-current-sense",
+      "title": "AD8418 — shunt-current sensing",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ad8418.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for shunt-current sensing. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

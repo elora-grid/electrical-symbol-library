@@ -1,0 +1,82 @@
+{
+  "slug": "phototriac-optocoupler",
+  "name": "Phototriac optocoupler",
+  "kind": "symbol",
+  "abbreviation": "OPTO-TRIAC",
+  "aliases": [
+    "opto triac",
+    "triac driver optocoupler"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An optical isolation device whose output is a light-triggered triac-type switching element.",
+  "description": [
+    "An optical isolation device whose output is a light-triggered triac-type switching element.",
+    "On a schematic, identify the LED input, output main terminals and any zero-cross feature and trace the external AC switching or triggering circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A phototriac driver is not necessarily the load-carrying power TRIAC; zero-cross and random-phase variants need the selected manual.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the LED input, output main terminals and any zero-cross feature.",
+    "Trace the external AC switching or triggering circuit."
+  ],
+  "drawingChecklist": [
+    "Label the LED input, output main terminals and any zero-cross feature.",
+    "Cross-reference the external AC switching or triggering circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A phototriac driver is not necessarily the load-carrying power TRIAC; zero-cross and random-phase variants need the selected manual.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "OPTO-TRIAC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The LED input, output main terminals and any zero-cross feature"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-vishay-opto",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "triac",
+    "diode"
+  ],
+  "artwork": "electronics-opto-triac",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phototriac-optocoupler",
+  "illustration": "https://eloragrid.ai/library/illustrations/phototriac-optocoupler.svg",
+  "id": "phototriac-optocoupler",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phototriac-optocoupler",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phototriac-optocoupler.json",
+  "svgPath": "artwork/svg/phototriac-optocoupler.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-vishay-opto",
+      "title": "Optocoupler output-family reference",
+      "publisher": "Vishay",
+      "url": "https://www.vishay.com/en/optocouplers/",
+      "type": "manufacturer",
+      "scope": "Public family information for phototransistor and other optocoupler outputs, including application documentation. Isolation ratings and output operating method must be selected from the actual device.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

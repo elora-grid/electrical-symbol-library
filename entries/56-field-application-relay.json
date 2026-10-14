@@ -1,0 +1,99 @@
+{
+  "slug": "56-field-application-relay",
+  "name": "Field application relay",
+  "kind": "function",
+  "abbreviation": "56",
+  "aliases": [
+    "field application",
+    "field apply relay",
+    "ANSI 56",
+    "IEEE device 56"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Initiates application of excitation at the appropriate step of a machine starting sequence.",
+  "description": [
+    "Initiates application of excitation at the appropriate step of a machine starting sequence.",
+    "In a drafting package, connect this reference to the speed/sequence permission and excitation supply. The associated drawing should trace the field application command and field switching device; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the speed/sequence permission and excitation supply.",
+    "Trace the field application command and field switching device."
+  ],
+  "drawingChecklist": [
+    "Label the speed/sequence permission and excitation supply.",
+    "Cross-reference the field application command and field switching device.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Field application is a sequence action; loss-of-excitation 40 supervises abnormal excitation after or during operation.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "56"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The speed/sequence permission and excitation supply"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "motor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/56-field-application-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/56-field-application-relay.svg",
+  "id": "56-field-application-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/56-field-application-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/56-field-application-relay.json",
+  "svgPath": "artwork/svg/56-field-application-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

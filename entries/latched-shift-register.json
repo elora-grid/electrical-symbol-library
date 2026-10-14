@@ -1,0 +1,82 @@
+{
+  "slug": "latched-shift-register",
+  "name": "Shift register with output latch",
+  "kind": "symbol",
+  "abbreviation": "SHIFT-LATCH",
+  "aliases": [
+    "serial output latch",
+    "output registered shift register"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Combines a serial shift path with a separate output-storage stage.",
+  "description": [
+    "Combines a serial shift path with a separate output-storage stage.",
+    "On a schematic, identify the shift clock, output-latch clock and output-enable polarity and trace the output word and serial-cascade connection. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The shift clock changes internal shift storage; a separate latch action updates the retained output word.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the shift clock, output-latch clock and output-enable polarity.",
+    "Trace the output word and serial-cascade connection."
+  ],
+  "drawingChecklist": [
+    "Label the shift clock, output-latch clock and output-enable polarity.",
+    "Cross-reference the output word and serial-cascade connection.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The shift clock changes internal shift storage; a separate latch action updates the retained output word.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "SHIFT-LATCH — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The shift clock, output-latch clock and output-enable polarity"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc595",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "serial-in-parallel-out-register",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-shift-latch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/latched-shift-register",
+  "illustration": "https://eloragrid.ai/library/illustrations/latched-shift-register.svg",
+  "id": "latched-shift-register",
+  "canonicalUrl": "https://eloragrid.ai/symbols/latched-shift-register",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/latched-shift-register.json",
+  "svgPath": "artwork/svg/latched-shift-register.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc595",
+      "title": "SN74HC595 — shift registers with separate output storage",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of shift registers with separate output storage. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

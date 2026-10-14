@@ -1,0 +1,99 @@
+{
+  "slug": "52-ac-circuit-breaker",
+  "name": "AC circuit breaker",
+  "kind": "function",
+  "abbreviation": "52",
+  "aliases": [
+    "ANSI 52",
+    "AC breaker",
+    "52a",
+    "52b"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "The device-function number identifying an AC circuit breaker.",
+  "description": [
+    "Device function number 52 identifies an AC circuit breaker in the power-system device-function convention. It can appear in equipment identification, control references or a protection drawing, but it remains distinct from the graphical symbol and product specification.",
+    "On a power drawing, keep this function reference connected to the selected equipment and its complete designation. A multifunction relay can implement several numbered functions. This entry explains the reference; it supplies no settings or commissioning procedure."
+  ],
+  "readingNotes": [
+    "Associate the number with the intended breaker equipment reference.",
+    "Read auxiliary-contact and control designations from the applicable documentation."
+  ],
+  "drawingChecklist": [
+    "Link the breaker equipment tag.",
+    "Cross-reference close and trip circuits.",
+    "Reference auxiliary contacts and device documentation."
+  ],
+  "distinction": "The number 52 identifies a device function. It is not an IEC graphical-symbol identifier, breaker current rating or manufacturer model.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "52"
+    },
+    {
+      "label": "Equipment implementation",
+      "value": "Consult the selected device manual"
+    },
+    {
+      "label": "Suffix interpretation",
+      "value": "Application and manufacturer documentation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "normally-open-contact",
+    "86-lockout"
+  ],
+  "artwork": "function",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/52-ac-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/52-ac-circuit-breaker.svg",
+  "id": "52-ac-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/52-ac-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/52-ac-circuit-breaker.json",
+  "svgPath": "artwork/svg/52-ac-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ]
+}

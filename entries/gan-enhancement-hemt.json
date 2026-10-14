@@ -1,0 +1,83 @@
+{
+  "slug": "gan-enhancement-hemt",
+  "name": "GaN enhancement-mode HEMT",
+  "kind": "symbol",
+  "abbreviation": "E-HEMT",
+  "aliases": [
+    "GaN FET",
+    "GaN HEMT",
+    "enhancement HEMT"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A normally-off gallium-nitride high-electron-mobility transistor used as a controlled power switch.",
+  "description": [
+    "A normally-off gallium-nitride high-electron-mobility transistor used as a controlled power switch.",
+    "On a schematic, identify the gate, drain/source and manufacturer drive/reference requirements and trace the converter power path and dedicated gate-drive circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "GaN device technology should not be inferred from an ordinary MOSFET glyph; its reverse conduction and gate limits need the device documentation.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the gate, drain/source and manufacturer drive/reference requirements.",
+    "Trace the converter power path and dedicated gate-drive circuit."
+  ],
+  "drawingChecklist": [
+    "Label the gate, drain/source and manufacturer drive/reference requirements.",
+    "Cross-reference the converter power path and dedicated gate-drive circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "GaN device technology should not be inferred from an ordinary MOSFET glyph; its reverse conduction and gate limits need the device documentation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "E-HEMT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The gate, drain/source and manufacturer drive/reference requirements"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-gan",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-gan",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/gan-enhancement-hemt",
+  "illustration": "https://eloragrid.ai/library/illustrations/gan-enhancement-hemt.svg",
+  "id": "gan-enhancement-hemt",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gan-enhancement-hemt",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gan-enhancement-hemt.json",
+  "svgPath": "artwork/svg/gan-enhancement-hemt.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-gan",
+      "title": "GaN HEMT structure and operating-mode overview",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/product-information/gan-hemt-structure-architecture-physics-operation",
+      "type": "manufacturer",
+      "scope": "Public primary explanation of enhancement-mode versus normally-on HEMT behaviour. No claim that a generic MOSFET glyph establishes GaN material or gate limits.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

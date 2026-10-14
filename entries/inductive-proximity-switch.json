@@ -1,0 +1,84 @@
+{
+  "slug": "inductive-proximity-switch",
+  "name": "Inductive proximity switch",
+  "kind": "symbol",
+  "abbreviation": "PROX IND",
+  "aliases": [
+    "HPX1I",
+    "VPX1I"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An inductive proximity switch detects a documented target without a mechanical contact actuator.",
+  "description": [
+    "An inductive proximity switch detects a documented target without a mechanical contact actuator. The schematic shows its supply and output arrangement, while target distance and material are specified elsewhere."
+  ],
+  "readingNotes": [
+    "Distinguish a two-wire output path from a three-wire supply and signal arrangement.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State output type",
+    "Identify supply and common",
+    "Reference target and sensing distance"
+  ],
+  "distinction": "An inductive proximity switch detects an electromagnetic target interaction, not capacitance or an optical beam.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPX1I, VPX1I (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-inductive-sensors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-inductive-proximity-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/inductive-proximity-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/inductive-proximity-switch.svg",
+  "id": "inductive-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/inductive-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/inductive-proximity-switch.json",
+  "svgPath": "artwork/svg/inductive-proximity-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-inductive-sensors",
+      "title": "AutoCAD Electrical: Inductive proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-596652AB-6555-4F9A-B575-555D40C2ECD4.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

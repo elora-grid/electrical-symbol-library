@@ -1,0 +1,83 @@
+{
+  "slug": "binary-full-adder",
+  "name": "Binary full adder",
+  "kind": "symbol",
+  "abbreviation": "ADD",
+  "aliases": [
+    "binary adder",
+    "full adder",
+    "digital addition"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Adds binary input words with the documented carry-in and produces sum and carry outputs.",
+  "description": [
+    "Adds binary input words with the documented carry-in and produces sum and carry outputs.",
+    "On a schematic, identify the input word buses, bit order and carry-in and trace the sum word and carry-out/cascade connection. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A full adder performs arithmetic; an OR gate cannot replace its sum/carry relationships.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input word buses, bit order and carry-in.",
+    "Trace the sum word and carry-out/cascade connection."
+  ],
+  "drawingChecklist": [
+    "Label the input word buses, bit order and carry-in.",
+    "Cross-reference the sum word and carry-out/cascade connection.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A full adder performs arithmetic; an OR gate cannot replace its sum/carry relationships.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "ADD — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input word buses, bit order and carry-in"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc283",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-xor-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-adder",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/binary-full-adder",
+  "illustration": "https://eloragrid.ai/library/illustrations/binary-full-adder.svg",
+  "id": "binary-full-adder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/binary-full-adder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/binary-full-adder.json",
+  "svgPath": "artwork/svg/binary-full-adder.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc283",
+      "title": "CD74HC283 — binary full adders",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD74HC283",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of binary full adders. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

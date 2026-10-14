@@ -1,0 +1,88 @@
+{
+  "slug": "ga-generator-acoustic-canopy",
+  "name": "Generator acoustic canopy",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "genset sound enclosure",
+    "Generator acoustic canopy CAD",
+    "Generator acoustic canopy general arrangement",
+    "Generator acoustic canopy panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An acoustic canopy surrounds the selected generator with its documented access and ventilation arrangement.",
+  "description": [
+    "An acoustic canopy surrounds the selected generator with its documented access and ventilation arrangement.",
+    "Coordinate doors, intake/discharge openings and equipment removal route. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate doors, intake/discharge openings and equipment removal route.",
+    "A canopy envelope can be significantly larger than the underlying generator skid."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate doors, intake/discharge openings and equipment removal route.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A canopy envelope can be significantly larger than the underlying generator skid.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-generator-acoustic-canopy",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-generator-acoustic-canopy",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-generator-acoustic-canopy.svg",
+  "id": "ga-generator-acoustic-canopy",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-generator-acoustic-canopy",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-generator-acoustic-canopy.json",
+  "svgPath": "artwork/svg/ga-generator-acoustic-canopy.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

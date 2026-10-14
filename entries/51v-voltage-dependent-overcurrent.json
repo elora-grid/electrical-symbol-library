@@ -1,0 +1,104 @@
+{
+  "slug": "51v-voltage-dependent-overcurrent",
+  "name": "Voltage-dependent overcurrent",
+  "kind": "function",
+  "abbreviation": "51V",
+  "aliases": [
+    "voltage restrained overcurrent",
+    "voltage controlled overcurrent",
+    "ANSI 51V",
+    "IEEE 51V"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Changes overcurrent operation according to the measured voltage using the relay's documented voltage-dependent method.",
+  "description": [
+    "Changes overcurrent operation according to the measured voltage using the relay's documented voltage-dependent method.",
+    "The drafting record should connect this function to the current inputs, VT circuit and selected voltage-dependence mode, then trace the overcurrent trip logic and voltage-supervision reference. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the current inputs, VT circuit and selected voltage-dependence mode.",
+    "Trace the overcurrent trip logic and voltage-supervision reference."
+  ],
+  "drawingChecklist": [
+    "Label the current inputs, VT circuit and selected voltage-dependence mode.",
+    "Cross-reference the overcurrent trip logic and voltage-supervision reference.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Voltage restraint and voltage control are distinct implementations; a 51V label must be accompanied by the selected device's mode.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "51V"
+    },
+    {
+      "label": "Base function",
+      "value": "51 — Time overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "51-time-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/51v-voltage-dependent-overcurrent",
+  "illustration": "https://eloragrid.ai/library/illustrations/51v-voltage-dependent-overcurrent.svg",
+  "id": "51v-voltage-dependent-overcurrent",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/51v-voltage-dependent-overcurrent",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/51v-voltage-dependent-overcurrent.json",
+  "svgPath": "artwork/svg/51v-voltage-dependent-overcurrent.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

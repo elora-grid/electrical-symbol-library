@@ -1,0 +1,76 @@
+{
+  "slug": "multilevel-terminal-block",
+  "name": "Multilevel terminal block",
+  "kind": "symbol",
+  "abbreviation": "TB LEVEL",
+  "aliases": [],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A multilevel terminal carries two or more documented connection levels within one terminal body.",
+  "description": [
+    "A multilevel terminal carries two or more documented connection levels within one terminal body. Each level needs its electrical identity even when the physical device occupies one terminal-strip position."
+  ],
+  "readingNotes": [
+    "Do not connect levels together unless the internal diagram or bridging plan explicitly does so.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label every level",
+    "Show internal connections",
+    "Reference physical terminal position"
+  ],
+  "distinction": "Multiple levels do not necessarily share one electrical potential.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Wiring interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-terminal-families",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "terminal-strip"
+  ],
+  "artwork": "edu-multilevel-terminal-block",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/multilevel-terminal-block",
+  "illustration": "https://eloragrid.ai/library/illustrations/multilevel-terminal-block.svg",
+  "id": "multilevel-terminal-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/multilevel-terminal-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/multilevel-terminal-block.json",
+  "svgPath": "artwork/svg/multilevel-terminal-block.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-terminal-families",
+      "title": "Terminal block functional families",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "photovoltaic-generator",
+  "name": "Photovoltaic generator",
+  "kind": "symbol",
+  "abbreviation": "PV GEN",
+  "aliases": [
+    "HPW1_S00908",
+    "VPW1_S00908",
+    "solar array"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A photovoltaic generator represents the electrical production of PV cells or modules.",
+  "description": [
+    "A photovoltaic generator represents the electrical production of PV cells or modules. On an SLD it is linked to documented series/parallel strings, DC protection and the inverter interface."
+  ],
+  "readingNotes": [
+    "Differentiate the generating array from its inverter and any energy-storage branch.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Reference module/string arrangement",
+    "State DC ratings",
+    "Show connected inverter/protection"
+  ],
+  "distinction": "The PV generator is a DC generating function; the inverter produces the documented AC interface.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPW1_S00908, VPW1_S00908 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pv-generator",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-pv-system",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "busbar"
+  ],
+  "artwork": "edu-photovoltaic-generator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/photovoltaic-generator.svg",
+  "id": "photovoltaic-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-generator.json",
+  "svgPath": "artwork/svg/photovoltaic-generator.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pv-generator",
+      "title": "AutoCAD Electrical: Photovoltaic generator representation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B290927E-1008-47FA-9D29-3C3149A5382A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-pv-system",
+      "title": "PV system equipment and string connection layouts",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_system%3A_electrical_equipments_selection",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

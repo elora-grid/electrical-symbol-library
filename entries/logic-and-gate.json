@@ -1,0 +1,82 @@
+{
+  "slug": "logic-and-gate",
+  "name": "AND gate",
+  "kind": "symbol",
+  "abbreviation": "AND",
+  "aliases": [
+    "conjunction gate",
+    "logical AND"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A logic element whose output is true when all stated positive-logic inputs are true.",
+  "description": [
+    "A logic element whose output is true when all stated positive-logic inputs are true.",
+    "On a schematic, identify the input signal polarity and the required simultaneous conditions and trace the gate output and its destination. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An AND gate combines logical conditions; it does not specify relay-contact current capacity or a safety integrity level.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input signal polarity and the required simultaneous conditions.",
+    "Trace the gate output and its destination."
+  ],
+  "drawingChecklist": [
+    "Label the input signal polarity and the required simultaneous conditions.",
+    "Cross-reference the gate output and its destination.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An AND gate combines logical conditions; it does not specify relay-contact current capacity or a safety integrity level.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "AND — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input signal polarity and the required simultaneous conditions"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc08",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-or-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-and",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-and-gate",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-and-gate.svg",
+  "id": "logic-and-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-and-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-and-gate.json",
+  "svgPath": "artwork/svg/logic-and-gate.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc08",
+      "title": "SN74HC08 — AND gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of and gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

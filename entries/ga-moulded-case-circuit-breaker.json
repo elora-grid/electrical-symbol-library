@@ -1,0 +1,88 @@
+{
+  "slug": "ga-moulded-case-circuit-breaker",
+  "name": "Moulded-case circuit breaker",
+  "kind": "object",
+  "abbreviation": "MCCB",
+  "aliases": [
+    "MCCB molded case breaker",
+    "Moulded-case circuit breaker CAD",
+    "Moulded-case circuit breaker general arrangement",
+    "Moulded-case circuit breaker panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A moulded-case breaker combines circuit switching and overcurrent protection in an insulated case.",
+  "description": [
+    "A moulded-case breaker combines circuit switching and overcurrent protection in an insulated case.",
+    "Locate terminals and operating handle; account for side accessories and any rotary handle or door coupling. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Locate terminals and operating handle; account for side accessories and any rotary handle or door coupling.",
+    "Frame size, trip setting and interrupting capacity are separate attributes and cannot be read from a rectangle."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Locate terminals and operating handle; account for side accessories and any rotary handle or door coupling.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Frame size, trip setting and interrupting capacity are separate attributes and cannot be read from a rectangle.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-fuji-cad",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-moulded-case-circuit-breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-moulded-case-circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-moulded-case-circuit-breaker.svg",
+  "id": "ga-moulded-case-circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-moulded-case-circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-moulded-case-circuit-breaker.json",
+  "svgPath": "artwork/svg/ga-moulded-case-circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-fuji-cad",
+      "title": "Distribution and control: official CAD data",
+      "publisher": "Fuji Electric Corp. of America",
+      "url": "https://americas.fujielectric.com/products/power-distribution-control/distribution-control-support/cad-data/",
+      "type": "cad-reference",
+      "scope": "Official Americas product-family and model listing. Consult exact catalogue number and current regional availability; vendor drawings remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

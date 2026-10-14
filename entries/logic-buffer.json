@@ -1,0 +1,82 @@
+{
+  "slug": "logic-buffer",
+  "name": "Non-inverting logic buffer",
+  "kind": "symbol",
+  "abbreviation": "BUF",
+  "aliases": [
+    "digital buffer",
+    "logic driver"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers a digital state through a non-inverting logic output stage.",
+  "description": [
+    "Transfers a digital state through a non-inverting logic output stage.",
+    "On a schematic, identify the input voltage domain, supply and output loading and trace the driven logic line and receiving inputs. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A buffer can provide drive capability without inversion; it is not a galvanic isolation barrier.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input voltage domain, supply and output loading.",
+    "Trace the driven logic line and receiving inputs."
+  ],
+  "drawingChecklist": [
+    "Label the input voltage domain, supply and output loading.",
+    "Cross-reference the driven logic line and receiving inputs.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A buffer can provide drive capability without inversion; it is not a galvanic isolation barrier.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "BUF — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input voltage domain, supply and output loading"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-ls07",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-three-state-buffer",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-buffer",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-buffer",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-buffer.svg",
+  "id": "logic-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-buffer.json",
+  "svgPath": "artwork/svg/logic-buffer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-ls07",
+      "title": "SN74LS07 — open-collector output buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls07.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of open-collector output buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "electrostatically-screened-transformer",
+  "name": "Electrostatically screened transformer",
+  "kind": "symbol",
+  "abbreviation": "TX SCREEN",
+  "aliases": [
+    "HXF1T3",
+    "VXF1T3"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A screened transformer includes a documented screen between windings.",
+  "description": [
+    "A screened transformer includes a documented screen between windings. The drawing must show the screen connection separately from the magnetic coupling and winding terminals."
+  ],
+  "readingNotes": [
+    "Trace the screen lead to the earth or bonding point specified by the manufacturer.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show screen terminal",
+    "Identify winding voltages",
+    "Reference screen-earthing instructions"
+  ],
+  "distinction": "A screen connection is not an extra power winding or a guarantee of every isolation requirement.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1T3, VXF1T3 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-electrostatically-screened-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/electrostatically-screened-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/electrostatically-screened-transformer.svg",
+  "id": "electrostatically-screened-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/electrostatically-screened-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/electrostatically-screened-transformer.json",
+  "svgPath": "artwork/svg/electrostatically-screened-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

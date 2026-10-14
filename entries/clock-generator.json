@@ -1,0 +1,82 @@
+{
+  "slug": "clock-generator",
+  "name": "Clock generator",
+  "kind": "symbol",
+  "abbreviation": "CLK-GEN",
+  "aliases": [
+    "timing clock IC",
+    "clock source block"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Provides the documented clock signal or signals used by digital circuitry.",
+  "description": [
+    "Provides the documented clock signal or signals used by digital circuitry.",
+    "On a schematic, identify the reference oscillator/input, supply and enable/configuration pins and trace the clock outputs and receiving clock domains. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A clock-generator block does not define frequency, jitter or electrical interface without its selected component documentation.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the reference oscillator/input, supply and enable/configuration pins.",
+    "Trace the clock outputs and receiving clock domains."
+  ],
+  "drawingChecklist": [
+    "Label the reference oscillator/input, supply and enable/configuration pins.",
+    "Cross-reference the clock outputs and receiving clock domains.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A clock-generator block does not define frequency, jitter or electrical interface without its selected component documentation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "CLK-GEN — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The reference oscillator/input, supply and enable/configuration pins"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-clock",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "positive-edge-d-flip-flop",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-clock",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/clock-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/clock-generator.svg",
+  "id": "clock-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/clock-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/clock-generator.json",
+  "svgPath": "artwork/svg/clock-generator.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-clock",
+      "title": "CDCE913 — clock-generation interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CDCE913",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of clock-generation interfaces. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

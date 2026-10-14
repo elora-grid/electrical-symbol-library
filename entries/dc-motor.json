@@ -1,0 +1,85 @@
+{
+  "slug": "dc-motor",
+  "name": "DC motor",
+  "kind": "symbol",
+  "abbreviation": "M DC",
+  "aliases": [
+    "HMO1M6",
+    "VMO1M6"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A DC motor represents a documented DC electrical load whose armature and any field winding arrangements need to be identified.",
+  "description": [
+    "A DC motor represents a documented DC electrical load whose armature and any field winding arrangements need to be identified. The generic function does not select the excitation method."
+  ],
+  "readingNotes": [
+    "Trace armature polarity and the control or starting circuit.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State DC voltage and rating",
+    "Identify armature terminals",
+    "Reference excitation arrangement"
+  ],
+  "distinction": "A generic DC motor does not imply permanent-magnet or series-field construction.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M6, VMO1M6 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-dc-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-dc-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dc-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/dc-motor.svg",
+  "id": "dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dc-motor.json",
+  "svgPath": "artwork/svg/dc-motor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-dc-motors",
+      "title": "AutoCAD Electrical: DC motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F5F3061F-E0DE-4A9A-BE88-C017545A9A36.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

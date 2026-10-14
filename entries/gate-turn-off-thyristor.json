@@ -1,0 +1,85 @@
+{
+  "slug": "gate-turn-off-thyristor",
+  "name": "Gate-turn-off thyristor",
+  "kind": "symbol",
+  "abbreviation": "GTO",
+  "aliases": [
+    "HDI1_S00655",
+    "VDI1_S00655",
+    "gate turn off thyristor"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A gate-turn-off thyristor has a documented gate-controlled turn-off capability.",
+  "description": [
+    "A gate-turn-off thyristor has a documented gate-controlled turn-off capability. Its drive requirements and power-terminal connections are part of the selected converter design."
+  ],
+  "readingNotes": [
+    "Do not substitute a simple SCR gate circuit for the documented turn-off drive.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify power terminals",
+    "Reference gate-drive circuit",
+    "State selected device rating"
+  ],
+  "distinction": "Gate-turn-off capability distinguishes this device from a conventional latching SCR.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Semiconductor function"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDI1_S00655, VDI1_S00655 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "power-converter"
+  ],
+  "artwork": "edu-gate-turn-off-thyristor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/gate-turn-off-thyristor",
+  "illustration": "https://eloragrid.ai/library/illustrations/gate-turn-off-thyristor.svg",
+  "id": "gate-turn-off-thyristor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gate-turn-off-thyristor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gate-turn-off-thyristor.json",
+  "svgPath": "artwork/svg/gate-turn-off-thyristor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "power-transformer",
+  "name": "Power transformer",
+  "kind": "symbol",
+  "abbreviation": "TX",
+  "aliases": [
+    "two winding transformer",
+    "distribution transformer",
+    "power transformer symbol",
+    "HXF1T2",
+    "VXF1T2"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "Equipment transferring electrical power between winding circuits.",
+  "description": [
+    "A power-transformer representation identifies equipment transferring electrical power between winding circuits. The generic mark can show the relationship between windings, but voltage levels, winding connections, vector group, rating and earthing information require additional annotations and equipment references.",
+    "Two-winding, three-winding and autotransformer arrangements describe different configurations. The SLD should identify the intended configuration clearly and link it to the transformer schedule and any associated protection or GA drawings."
+  ],
+  "readingNotes": [
+    "Read the winding count and electrical connections before interpreting the rating labels.",
+    "Use the equipment reference to distinguish a power transformer from an instrument transformer."
+  ],
+  "drawingChecklist": [
+    "Document the specified rating and winding connections.",
+    "Reference earthing and protection arrangements.",
+    "Link the equipment schedule and physical drawing."
+  ],
+  "distinction": "A transformer used for voltage measurement is a VT or PT. Its function and secondary circuit differ from those of a power transformer.",
+  "facts": [
+    {
+      "label": "Configuration",
+      "value": "Winding arrangement must be specified"
+    },
+    {
+      "label": "Ratings",
+      "value": "Equipment schedule"
+    },
+    {
+      "label": "Physical drawing",
+      "value": "Model-specific GA and manufacturer information"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HXF1T2, VXF1T2 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public transformer types and winding variants."
+    },
+    {
+      "sourceId": "manufacturer-cad",
+      "relevance": "Official directory for model-specific equipment CAD."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "current-transformer",
+    "transformer-envelope",
+    "87-differential"
+  ],
+  "artwork": "transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/power-transformer.svg",
+  "id": "power-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-transformer.json",
+  "svgPath": "artwork/svg/power-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transformer types and winding variants."
+    },
+    {
+      "id": "manufacturer-cad",
+      "title": "Official CAD drawings and BIM resources",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/work/support/resources-and-tools/cad-drawings/",
+      "type": "cad-reference",
+      "scope": "Manufacturer CAD/BIM directory for model-specific equipment. Download terms remain with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official directory for model-specific equipment CAD."
+    }
+  ]
+}

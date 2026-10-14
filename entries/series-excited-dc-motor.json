@@ -1,0 +1,85 @@
+{
+  "slug": "series-excited-dc-motor",
+  "name": "Series-excited DC motor",
+  "kind": "symbol",
+  "abbreviation": "M DC SERIES",
+  "aliases": [
+    "HMO1M7",
+    "VMO1M7"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A series-excited DC motor connects its documented field winding in series with the armature circuit.",
+  "description": [
+    "A series-excited DC motor connects its documented field winding in series with the armature circuit. Both winding and armature terminals need to remain identifiable in expanded schematics."
+  ],
+  "readingNotes": [
+    "Follow the field current through the armature path.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show series field connection",
+    "Identify armature terminals",
+    "Reference starting/control arrangement"
+  ],
+  "distinction": "A series field and a shunt field have different circuit connections.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HMO1M7, VMO1M7 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-dc-motors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "motor",
+    "contactor"
+  ],
+  "artwork": "edu-series-excited-dc-motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/series-excited-dc-motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/series-excited-dc-motor.svg",
+  "id": "series-excited-dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/series-excited-dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/series-excited-dc-motor.json",
+  "svgPath": "artwork/svg/series-excited-dc-motor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-dc-motors",
+      "title": "AutoCAD Electrical: DC motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F5F3061F-E0DE-4A9A-BE88-C017545A9A36.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

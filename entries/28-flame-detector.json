@@ -1,0 +1,98 @@
+{
+  "slug": "28-flame-detector",
+  "name": "Flame detector",
+  "kind": "function",
+  "abbreviation": "28",
+  "aliases": [
+    "flame monitor",
+    "burner flame detector",
+    "ANSI 28",
+    "IEEE device 28"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Provides electrical indication that combustion flame is present or absent.",
+  "description": [
+    "Provides electrical indication that combustion flame is present or absent.",
+    "In a drafting package, connect this reference to the burner or combustion equipment and detector supply. The associated drawing should trace the flame-proven permissive and fuel shutdown chain; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the burner or combustion equipment and detector supply.",
+    "Trace the flame-proven permissive and fuel shutdown chain."
+  ],
+  "drawingChecklist": [
+    "Label the burner or combustion equipment and detector supply.",
+    "Cross-reference the flame-proven permissive and fuel shutdown chain.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A flame detector supervises combustion; it is not a smoke detector or electrical arc-flash sensor.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "28"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The burner or combustion equipment and detector supply"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/28-flame-detector",
+  "illustration": "https://eloragrid.ai/library/illustrations/28-flame-detector.svg",
+  "id": "28-flame-detector",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/28-flame-detector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/28-flame-detector.json",
+  "svgPath": "artwork/svg/28-flame-detector.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

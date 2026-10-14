@@ -1,0 +1,84 @@
+{
+  "slug": "capacitive-proximity-switch",
+  "name": "Capacitive proximity switch",
+  "kind": "symbol",
+  "abbreviation": "PROX CAP",
+  "aliases": [
+    "HPX1C",
+    "VPX1C"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A capacitive proximity switch detects a target through a change in its sensing capacitance.",
+  "description": [
+    "A capacitive proximity switch detects a target through a change in its sensing capacitance. Its supply and switching output are shown separately from the target or process material."
+  ],
+  "readingNotes": [
+    "Read sensitivity and target conditions from the product selection.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify supply terminals",
+    "State output function",
+    "Reference target material and sensitivity"
+  ],
+  "distinction": "Capacitive sensing is different from inductive metal-target sensing.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPX1C, VPX1C (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-capacitive-sensors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-capacitive-proximity-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/capacitive-proximity-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/capacitive-proximity-switch.svg",
+  "id": "capacitive-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitive-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitive-proximity-switch.json",
+  "svgPath": "artwork/svg/capacitive-proximity-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-capacitive-sensors",
+      "title": "AutoCAD Electrical: Capacitive proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F2CC4639-9203-4C6A-8A9F-2A32717D2BE3.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

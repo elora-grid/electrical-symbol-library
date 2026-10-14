@@ -1,0 +1,76 @@
+{
+  "slug": "plc-digital-input",
+  "name": "PLC digital input",
+  "kind": "symbol",
+  "abbreviation": "DI",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC digital input reads a documented discrete electrical state from field wiring.",
+  "description": [
+    "A PLC digital input reads a documented discrete electrical state from field wiring. The schematic identifies input channel, signal common and field supply as required by the chosen module."
+  ],
+  "readingNotes": [
+    "Check whether the input expects sourcing or sinking field wiring.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify channel address",
+    "Show input common/supply",
+    "Reference field signal polarity"
+  ],
+  "distinction": "A digital input reads a state; it does not provide the power output used to drive an actuator.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Controller interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-digital-io",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "terminal"
+  ],
+  "artwork": "edu-plc-digital-input",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-digital-input",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-digital-input.svg",
+  "id": "plc-digital-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-digital-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-digital-input.json",
+  "svgPath": "artwork/svg/plc-digital-input.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-digital-io",
+      "title": "Modicon TM3 digital I/O hardware guide",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ca/en/download/document/EIO0000003125/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

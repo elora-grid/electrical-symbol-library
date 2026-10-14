@@ -1,0 +1,104 @@
+{
+  "slug": "51r-calculated-residual-time-overcurrent",
+  "name": "Calculated residual time-overcurrent",
+  "kind": "function",
+  "abbreviation": "51R",
+  "aliases": [
+    "calculated residual IDMT",
+    "calculated ground time overcurrent",
+    "ANSI 51R",
+    "IEEE 51R"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Applies time-overcurrent protection to the calculated residual-current input in the cited Eaton family.",
+  "description": [
+    "Applies time-overcurrent protection to the calculated residual-current input in the cited Eaton family.",
+    "The drafting record should connect this function to the phase CT inputs and calculated residual-current channel, then trace the residual time-current element and earth-fault trip. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the phase CT inputs and calculated residual-current channel.",
+    "Trace the residual time-current element and earth-fault trip."
+  ],
+  "drawingChecklist": [
+    "Label the phase CT inputs and calculated residual-current channel.",
+    "Cross-reference the residual time-current element and earth-fault trip.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Eaton's 51R uses a calculated quantity; 51X uses a separately measured ground or neutral input.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "51R"
+    },
+    {
+      "label": "Base function",
+      "value": "51 — Time overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "51-time-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/51r-calculated-residual-time-overcurrent",
+  "illustration": "https://eloragrid.ai/library/illustrations/51r-calculated-residual-time-overcurrent.svg",
+  "id": "51r-calculated-residual-time-overcurrent",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/51r-calculated-residual-time-overcurrent",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/51r-calculated-residual-time-overcurrent.json",
+  "svgPath": "artwork/svg/51r-calculated-residual-time-overcurrent.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

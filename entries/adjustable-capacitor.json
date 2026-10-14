@@ -1,0 +1,78 @@
+{
+  "slug": "adjustable-capacitor",
+  "name": "Adjustable capacitor",
+  "kind": "symbol",
+  "abbreviation": "C ADJ",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An adjustable capacitor provides a documented variable capacitance.",
+  "description": [
+    "An adjustable capacitor provides a documented variable capacitance. Its control or preset adjustment is specified separately from the two main circuit terminals."
+  ],
+  "readingNotes": [
+    "Identify whether adjustment is operational or a commissioning preset.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State capacitance range",
+    "Show circuit terminals",
+    "Reference adjustment method"
+  ],
+  "distinction": "Adjustable capacitance changes a capacitive parameter; it is not an adjustable resistor.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-adjustable-capacitor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/adjustable-capacitor",
+  "illustration": "https://eloragrid.ai/library/illustrations/adjustable-capacitor.svg",
+  "id": "adjustable-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/adjustable-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/adjustable-capacitor.json",
+  "svgPath": "artwork/svg/adjustable-capacitor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

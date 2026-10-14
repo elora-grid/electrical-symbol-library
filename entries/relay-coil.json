@@ -1,0 +1,90 @@
+{
+  "slug": "relay-coil",
+  "name": "Relay coil",
+  "kind": "symbol",
+  "abbreviation": "Coil",
+  "aliases": [
+    "control relay",
+    "relay operating coil",
+    "solenoid coil",
+    "HCR1",
+    "VCR1"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "The operating element associated with a relay and its separately drawn contacts.",
+  "description": [
+    "A relay coil represents an operating element that changes the state of associated contacts when the device operates. Coil and contact representations are often drawn in different locations to make the circuit easier to read. Their shared identifier and cross-references establish the relationship.",
+    "The coil representation does not determine whether its supply is AC or DC, its voltage, polarity, suppression or operating duty. Those details belong to the device specification and schematic annotations. Latching and other special operating modes need explicit identification."
+  ],
+  "readingNotes": [
+    "Find the device tag and follow references to its contacts.",
+    "Read supply and polarity information from the specified coil, not from an unqualified rectangle."
+  ],
+  "drawingChecklist": [
+    "Reference coil supply requirements.",
+    "Identify suppression or polarity features if fitted.",
+    "Cross-reference all associated contacts."
+  ],
+  "distinction": "A relay coil is not a contactor power pole. Similar operating-element marks can represent equipment with different switching duties.",
+  "facts": [
+    {
+      "label": "Device relationship",
+      "value": "Parent operating element"
+    },
+    {
+      "label": "Supply",
+      "value": "Selected coil specification"
+    },
+    {
+      "label": "Variants",
+      "value": "Latching, polarized and other device types"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HCR1, VCR1 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public relay-coil, latching and polarized variants."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact",
+    "contactor",
+    "selector-switch"
+  ],
+  "artwork": "coil",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/relay-coil",
+  "illustration": "https://eloragrid.ai/library/illustrations/relay-coil.svg",
+  "id": "relay-coil",
+  "canonicalUrl": "https://eloragrid.ai/symbols/relay-coil",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/relay-coil.json",
+  "svgPath": "artwork/svg/relay-coil.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public relay-coil, latching and polarized variants."
+    }
+  ]
+}

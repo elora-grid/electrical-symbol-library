@@ -1,0 +1,91 @@
+{
+  "slug": "iec-unidirectional-propagation-qualifier",
+  "name": "Unidirectional propagation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q020501",
+  "aliases": [
+    "Unidirectional propagation qualifier symbol",
+    "Q020501",
+    "Unidirectional propagation qualifier IEC reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier indicates a signal or propagation path with one documented direction.",
+  "description": [
+    "This qualifier indicates a signal or propagation path with one documented direction. The flow is an information or signal relationship, rather than necessarily a conductive power path. A sending element and receiving element can each need separate auxiliary supplies.",
+    "Label the signal and interface at each end. Keep supply conductors and signal-direction annotations visually distinct when both appear in the same diagram."
+  ],
+  "readingNotes": [
+    "Identify the source, destination and signal type in the surrounding diagram.",
+    "Signal direction must not be confused with the direction of power flow."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify the source, destination and signal type in the surrounding diagram.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Signal direction must not be confused with the direction of power flow.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q020501 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Identify the source, destination and signal type in the surrounding diagram."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "plc-io"
+  ],
+  "artwork": "edu-iec-unidirectional-propagation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Unidirectional propagation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Propagation and signal-flow qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-unidirectional-propagation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-unidirectional-propagation-qualifier.svg",
+  "id": "iec-unidirectional-propagation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-unidirectional-propagation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-unidirectional-propagation-qualifier.json",
+  "svgPath": "artwork/svg/iec-unidirectional-propagation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

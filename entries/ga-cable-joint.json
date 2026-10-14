@@ -1,0 +1,85 @@
+{
+  "slug": "ga-cable-joint",
+  "name": "Power cable joint",
+  "kind": "object",
+  "abbreviation": "CABLE JOINT",
+  "aliases": [
+    "cable joint",
+    "power cable splice",
+    "MV cable joint",
+    "inline cable joint",
+    "underground cable splice"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An assembly joining power-cable sections while maintaining the required conductor, insulation, screen and environmental interfaces.",
+  "description": [
+    "A power cable joint connects cable sections as an installed assembly. The selected joint must be compatible with the cable construction and its conductor, insulation, screen and environmental interfaces.",
+    "In a GA or cable-routing drawing, locate the joint bay or connection position and coordinate space for jointing work, cable approach and the completed assembly. Reference the cable schedule and selected manufacturer instructions rather than inferring a kit from a generic outline."
+  ],
+  "readingNotes": [
+    "Identify the circuits and cable sections joined at the marked location, including screen or neutral continuity.",
+    "A joint extends a cable route; a termination connects a cable to equipment or another defined interface."
+  ],
+  "drawingChecklist": [
+    "Cross-reference the circuit identifier and both cable section specifications.",
+    "Identify the selected joint kit and installation instructions for the actual cable construction.",
+    "Coordinate joint location, cable approach, accessibility and space for the installed assembly."
+  ],
+  "distinction": "A control-wire splice is a connection concept. A power-cable joint is an installed assembly that must also address insulation, shielding and environmental interfaces for the selected cable.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic cable-system GA object"
+    },
+    {
+      "label": "Selection inputs",
+      "value": "Cable construction, conductor, insulation and screen interfaces; installation environment"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the selected joint kit documentation; no dimensions supplied here"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Public manufacturer overview confirms cable joint, splice, termination and grounding accessory applications."
+    }
+  ],
+  "related": [
+    "wire-splice",
+    "cable-ladder",
+    "ga-cable-gland"
+  ],
+  "artwork": "original-power-cable-joint",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-cable-joint",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-cable-joint.svg",
+  "id": "ga-cable-joint",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-cable-joint",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-cable-joint.json",
+  "svgPath": "artwork/svg/ga-cable-joint.svg",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview confirms cable joint, splice, termination and grounding accessory applications."
+    }
+  ]
+}

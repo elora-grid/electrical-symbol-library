@@ -1,0 +1,82 @@
+{
+  "slug": "pin-diode",
+  "name": "PIN diode",
+  "kind": "symbol",
+  "abbreviation": "PIN",
+  "aliases": [
+    "RF switching diode",
+    "PIN attenuator diode"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A diode structure used in applications such as RF switching or attenuation with a documented bias circuit.",
+  "description": [
+    "A diode structure used in applications such as RF switching or attenuation with a documented bias circuit.",
+    "On a schematic, identify the anode/cathode connection and DC bias path and trace the RF signal route and isolation components. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The letters PIN describe the semiconductor structure and do not mean a connector pin or digital input.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the anode/cathode connection and DC bias path.",
+    "Trace the RF signal route and isolation components."
+  ],
+  "drawingChecklist": [
+    "Label the anode/cathode connection and DC bias path.",
+    "Cross-reference the RF signal route and isolation components.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The letters PIN describe the semiconductor structure and do not mean a connector pin or digital input.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PIN — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The anode/cathode connection and DC bias path"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nxp-pin",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "diode",
+    "power-converter"
+  ],
+  "artwork": "electronics-diode-pin",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pin-diode",
+  "illustration": "https://eloragrid.ai/library/illustrations/pin-diode.svg",
+  "id": "pin-diode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pin-diode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pin-diode.json",
+  "svgPath": "artwork/svg/pin-diode.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nxp-pin",
+      "title": "BAP64-02 silicon PIN diode documentation",
+      "publisher": "NXP Semiconductors",
+      "url": "https://www.nxp.com/docs/en/data-sheet/BAP64-02.pdf",
+      "type": "manufacturer",
+      "scope": "Public PIN diode description, terminal roles and RF switching/attenuation context. Product diagrams and device ratings are linked only.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "pushbutton-no",
+  "name": "Normally open pushbutton",
+  "kind": "symbol",
+  "abbreviation": "PB NO",
+  "aliases": [
+    "start pushbutton",
+    "NO push button",
+    "momentary make pushbutton",
+    "HPB11",
+    "VPB11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A pushbutton contact normally shown open before actuation.",
+  "description": [
+    "A normally open pushbutton combines an operator-actuated mechanism with a contact shown open in its defined normal state. Momentary and maintained or latching operation are separate characteristics that must be described explicitly.",
+    "Control schematics should identify both the contact function and the operator-facing purpose. A start label is a circuit-specific use, not an intrinsic property of every NO pushbutton. Multiple contact blocks can belong to a single actuator."
+  ],
+  "readingNotes": [
+    "Read the actuator description and contact-block association.",
+    "Check whether the operating mode is momentary, maintained or latching."
+  ],
+  "drawingChecklist": [
+    "Identify the actuator and contact terminals.",
+    "State the intended operating mode.",
+    "Link additional contact blocks to the same operator device."
+  ],
+  "distinction": "A NO contact symbol by itself does not identify the pushbutton actuator or its mechanical operating mode.",
+  "facts": [
+    {
+      "label": "Normal contact state",
+      "value": "Open"
+    },
+    {
+      "label": "Operating mode",
+      "value": "Momentary or maintained; specify explicitly"
+    },
+    {
+      "label": "Actuator purpose",
+      "value": "Circuit-specific label"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HPB11, VPB11 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-pushbuttons",
+      "relevance": "Public NO pushbutton and operating-mode variants."
+    }
+  ],
+  "related": [
+    "pushbutton-nc",
+    "normally-open-contact",
+    "selector-switch",
+    "relay-coil"
+  ],
+  "artwork": "push-no",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pushbutton-no",
+  "illustration": "https://eloragrid.ai/library/illustrations/pushbutton-no.svg",
+  "id": "pushbutton-no",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pushbutton-no",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pushbutton-no.json",
+  "svgPath": "artwork/svg/pushbutton-no.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-pushbuttons",
+      "title": "Pushbutton contact and actuator variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9E8890C7-7176-47DD-8700-E02A16C1670E.htm",
+      "type": "cad-reference",
+      "scope": "Momentary and latching pushbuttons, normal contact states and mushroom actuators.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public NO pushbutton and operating-mode variants."
+    }
+  ]
+}

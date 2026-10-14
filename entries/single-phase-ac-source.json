@@ -1,0 +1,85 @@
+{
+  "slug": "single-phase-ac-source",
+  "name": "Single-phase AC source",
+  "kind": "symbol",
+  "abbreviation": "AC 1PH",
+  "aliases": [
+    "HPW1_1PH",
+    "VPW1_1PH"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A single-phase AC source identifies a documented source boundary in a schematic or SLD.",
+  "description": [
+    "A single-phase AC source identifies a documented source boundary in a schematic or SLD. The source label and supply data explain what provides the circuit's voltage and frequency."
+  ],
+  "readingNotes": [
+    "Determine whether the source is a utility connection, transformer winding or auxiliary source.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name source origin",
+    "State voltage/frequency",
+    "Show conductor and neutral arrangement"
+  ],
+  "distinction": "A source-boundary symbol is not a product-specific generator or transformer diagram.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPW1_1PH, VPW1_1PH (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "busbar"
+  ],
+  "artwork": "edu-single-phase-ac-source",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/single-phase-ac-source",
+  "illustration": "https://eloragrid.ai/library/illustrations/single-phase-ac-source.svg",
+  "id": "single-phase-ac-source",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-phase-ac-source",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-phase-ac-source.json",
+  "svgPath": "artwork/svg/single-phase-ac-source.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

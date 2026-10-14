@@ -1,0 +1,100 @@
+{
+  "slug": "current-transformer-with-two-secondaries",
+  "name": "Current transformer with two secondaries",
+  "kind": "symbol",
+  "abbreviation": "CT 2SEC",
+  "aliases": [
+    "HXF1T31",
+    "VXF1T31"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A CT with two secondary windings supplies two documented secondary circuits.",
+  "description": [
+    "A CT with two secondary windings supplies two documented secondary circuits. A common magnetic circuit must not be mistaken for independent protection cores."
+  ],
+  "readingNotes": [
+    "Identify which winding supplies each instrument or relay and how the manufacturer rates their combined loading.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name both windings",
+    "Record ratios and burdens",
+    "Draw each secondary terminal pair"
+  ],
+  "distinction": "Two secondaries on a common magnetic circuit are different from separate CT cores.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Current measurement"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1T31, VXF1T31 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal"
+  ],
+  "artwork": "edu-current-transformer-with-two-secondaries",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-transformer-with-two-secondaries",
+  "illustration": "https://eloragrid.ai/library/illustrations/current-transformer-with-two-secondaries.svg",
+  "id": "current-transformer-with-two-secondaries",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-transformer-with-two-secondaries",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-transformer-with-two-secondaries.json",
+  "svgPath": "artwork/svg/current-transformer-with-two-secondaries.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

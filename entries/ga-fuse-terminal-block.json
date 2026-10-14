@@ -1,0 +1,88 @@
+{
+  "slug": "ga-fuse-terminal-block",
+  "name": "Fuse terminal block",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "fused terminal",
+    "Fuse terminal block CAD",
+    "Fuse terminal block general arrangement",
+    "Fuse terminal block panel layout"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A fuse terminal combines a terminal position with a selected fuse arrangement.",
+  "description": [
+    "A fuse terminal combines a terminal position with a selected fuse arrangement.",
+    "Reserve carrier-opening space and identify fuse type and indication wiring. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Reserve carrier-opening space and identify fuse type and indication wiring.",
+    "A fused terminal and a circuit-breaker module have different replacement and protection arrangements."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Reserve carrier-opening space and identify fuse type and indication wiring.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A fused terminal and a circuit-breaker module have different replacement and protection arrangements.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-phoenix-terminals",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "terminal-strip",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-fuse-terminal-block",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-fuse-terminal-block",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-fuse-terminal-block.svg",
+  "id": "ga-fuse-terminal-block",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-fuse-terminal-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-fuse-terminal-block.json",
+  "svgPath": "artwork/svg/ga-fuse-terminal-block.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-phoenix-terminals",
+      "title": "Terminal-block types and assembly accessories",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public terminal-block categories and manufacturer assembly information; selected product documentation controls dimensions and connection details.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

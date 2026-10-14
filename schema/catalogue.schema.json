@@ -1,0 +1,382 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/elora-grid/electrical-symbol-library/main/schema/catalogue.schema.json",
+  "title": "Public electrical reference catalogue",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "manufacturerCadDirectory": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "json": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1800
+        }
+      },
+      "required": [
+        "count",
+        "url",
+        "json",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1800
+    },
+    "updatedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1800
+    },
+    "originalArtworkLicense": {
+      "const": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "thirdPartyMaterials": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1800
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "kind": {
+            "enum": [
+              "symbol",
+              "function",
+              "object"
+            ]
+          },
+          "abbreviation": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1800
+            },
+            "minItems": 0
+          },
+          "category": {
+            "enum": [
+              "power-distribution",
+              "measurement-protection",
+              "control-circuits",
+              "connections-wiring",
+              "equipment-layouts",
+              "microgrid-systems",
+              "electronics-components",
+              "logic-signals",
+              "installation-communications"
+            ]
+          },
+          "drawingTypes": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "SLD",
+                "Schematic",
+                "GA"
+              ]
+            },
+            "minItems": 1
+          },
+          "referenceFamilies": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "IEC",
+                "IEEE / ANSI",
+                "Manufacturer"
+              ]
+            },
+            "minItems": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 25,
+            "maxLength": 180
+          },
+          "description": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1800
+            },
+            "minItems": 1
+          },
+          "readingNotes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1800
+            },
+            "minItems": 2
+          },
+          "drawingChecklist": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1800
+            },
+            "minItems": 3
+          },
+          "distinction": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "facts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1800
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1800
+                }
+              },
+              "required": [
+                "label",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 2
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "sourceId": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "relevance": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1800
+                }
+              },
+              "required": [
+                "sourceId",
+                "relevance"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "related": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            "minItems": 2
+          },
+          "artwork": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "publishedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "updatedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "provenance": {
+            "const": "independent-public-research"
+          },
+          "symbolVariant": {
+            "type": "object",
+            "properties": {
+              "convention": {
+                "enum": [
+                  "IEC",
+                  "IEEE / ANSI"
+                ]
+              },
+              "form": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1800
+              },
+              "reference": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1800
+              },
+              "counterpart": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              }
+            },
+            "required": [
+              "convention",
+              "form",
+              "reference"
+            ],
+            "additionalProperties": false
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "illustration": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        },
+        "required": [
+          "slug",
+          "name",
+          "kind",
+          "abbreviation",
+          "aliases",
+          "category",
+          "drawingTypes",
+          "referenceFamilies",
+          "summary",
+          "description",
+          "readingNotes",
+          "drawingChecklist",
+          "distinction",
+          "facts",
+          "references",
+          "related",
+          "artwork",
+          "publishedOn",
+          "updatedOn",
+          "provenance",
+          "url",
+          "illustration"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "type": {
+            "enum": [
+              "standard",
+              "manufacturer",
+              "cad-reference",
+              "licensing"
+            ]
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1800
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "reuse": {
+            "const": "link-only"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "publisher",
+          "url",
+          "type",
+          "scope",
+          "checkedOn",
+          "reuse"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "manufacturerCadDirectory",
+    "publisher",
+    "updatedOn",
+    "scope",
+    "originalArtworkLicense",
+    "thirdPartyMaterials",
+    "entries",
+    "sources"
+  ],
+  "additionalProperties": false
+}

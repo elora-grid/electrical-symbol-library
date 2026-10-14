@@ -1,0 +1,88 @@
+{
+  "slug": "ga-generator-fuel-transfer-pump",
+  "name": "Generator fuel transfer pump",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "day tank supply pump",
+    "Generator fuel transfer pump CAD",
+    "Generator fuel transfer pump general arrangement",
+    "Generator fuel transfer pump panel layout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A transfer pump moves fuel along the documented tank supply arrangement.",
+  "description": [
+    "A transfer pump moves fuel along the documented tank supply arrangement.",
+    "Show pump access, supply/control connections and connected pipe interfaces. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show pump access, supply/control connections and connected pipe interfaces.",
+    "Fuel transfer control must be coordinated with tank levels and the actual fuel system."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show pump access, supply/control connections and connected pipe interfaces.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Fuel transfer control must be coordinated with tank levels and the actual fuel system.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "battery-cabinet"
+  ],
+  "artwork": "edu-object-ga-generator-fuel-transfer-pump",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-generator-fuel-transfer-pump",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-generator-fuel-transfer-pump.svg",
+  "id": "ga-generator-fuel-transfer-pump",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-generator-fuel-transfer-pump",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-generator-fuel-transfer-pump.json",
+  "svgPath": "artwork/svg/ga-generator-fuel-transfer-pump.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

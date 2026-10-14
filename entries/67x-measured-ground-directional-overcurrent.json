@@ -1,0 +1,104 @@
+{
+  "slug": "67x-measured-ground-directional-overcurrent",
+  "name": "Measured ground directional overcurrent",
+  "kind": "function",
+  "abbreviation": "67X",
+  "aliases": [
+    "measured ground directional",
+    "measured neutral directional",
+    "ANSI 67X",
+    "IEEE 67X"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Applies directional supervision to the separately measured ground or neutral current element in the cited Eaton family.",
+  "description": [
+    "Applies directional supervision to the separately measured ground or neutral current element in the cited Eaton family.",
+    "The drafting record should connect this function to the dedicated ground/neutral CT input and polarising references, then trace the measured directional earth-fault trip. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton EGR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the dedicated ground/neutral CT input and polarising references.",
+    "Trace the measured directional earth-fault trip."
+  ],
+  "drawingChecklist": [
+    "Label the dedicated ground/neutral CT input and polarising references.",
+    "Cross-reference the measured directional earth-fault trip.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "The X suffix has a product-specific measured-input meaning here; retain the relay manual reference rather than assuming a universal suffix rule.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "67X"
+    },
+    {
+      "label": "Base function",
+      "value": "67 — Directional overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton EGR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-generator",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "67-directional-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/67x-measured-ground-directional-overcurrent",
+  "illustration": "https://eloragrid.ai/library/illustrations/67x-measured-ground-directional-overcurrent.svg",
+  "id": "67x-measured-ground-directional-overcurrent",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/67x-measured-ground-directional-overcurrent",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/67x-measured-ground-directional-overcurrent.json",
+  "svgPath": "artwork/svg/67x-measured-ground-directional-overcurrent.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-generator",
+      "title": "EGR-5000 generator protection: public function overview",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/generator-relays.html",
+      "type": "manufacturer",
+      "scope": "Public generator-relay application reference. Detailed protection function mapping is also published in the E-Series brochure; naming does not establish the selected device configuration.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

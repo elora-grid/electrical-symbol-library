@@ -1,0 +1,85 @@
+{
+  "slug": "feedthrough-capacitor",
+  "name": "Feedthrough capacitor",
+  "kind": "symbol",
+  "abbreviation": "C FEED",
+  "aliases": [
+    "HCA1C2",
+    "VCA1C2"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A feedthrough capacitor is arranged with a conductor path and a documented capacitive connection used in filtering.",
+  "description": [
+    "A feedthrough capacitor is arranged with a conductor path and a documented capacitive connection used in filtering. The schematic must identify both the through path and the return connection."
+  ],
+  "readingNotes": [
+    "Trace the filtered conductor separately from the capacitive return.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show through conductor",
+    "Identify return or case connection",
+    "Reference component rating"
+  ],
+  "distinction": "A feedthrough capacitor is a filter connection arrangement, not a removable wiring terminal.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCA1C2, VCA1C2 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-feedthrough-capacitor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/feedthrough-capacitor",
+  "illustration": "https://eloragrid.ai/library/illustrations/feedthrough-capacitor.svg",
+  "id": "feedthrough-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/feedthrough-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/feedthrough-capacitor.json",
+  "svgPath": "artwork/svg/feedthrough-capacitor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

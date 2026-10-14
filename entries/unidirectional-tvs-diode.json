@@ -1,0 +1,82 @@
+{
+  "slug": "unidirectional-tvs-diode",
+  "name": "Unidirectional TVS diode",
+  "kind": "symbol",
+  "abbreviation": "TVS",
+  "aliases": [
+    "transient voltage suppressor",
+    "unidirectional suppressor"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A transient-suppression diode intended to clamp a documented surge polarity across a protected circuit.",
+  "description": [
+    "A transient-suppression diode intended to clamp a documented surge polarity across a protected circuit.",
+    "On a schematic, identify cathode orientation and the protected supply/signal node and trace the transient diversion path and return conductor. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A TVS clamping rating is not the normal working voltage; unidirectional and bidirectional devices have different polarity behaviour.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify cathode orientation and the protected supply/signal node.",
+    "Trace the transient diversion path and return conductor."
+  ],
+  "drawingChecklist": [
+    "Label cathode orientation and the protected supply/signal node.",
+    "Cross-reference the transient diversion path and return conductor.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A TVS clamping rating is not the normal working voltage; unidirectional and bidirectional devices have different polarity behaviour.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "TVS — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "Cathode orientation and the protected supply/signal node"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nexperia-tvs",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "bidirectional-breakdown-diode",
+    "diode"
+  ],
+  "artwork": "electronics-diode-tvs",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/unidirectional-tvs-diode",
+  "illustration": "https://eloragrid.ai/library/illustrations/unidirectional-tvs-diode.svg",
+  "id": "unidirectional-tvs-diode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/unidirectional-tvs-diode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/unidirectional-tvs-diode.json",
+  "svgPath": "artwork/svg/unidirectional-tvs-diode.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nexperia-tvs",
+      "title": "ESD protection and TVS device families",
+      "publisher": "Nexperia",
+      "url": "https://www.nexperia.com/products/esd-protection-tvs-filtering-and-signal-conditioning",
+      "type": "manufacturer",
+      "scope": "Public documentation of transient-protection families. The educational entry does not assert a clamping rating or protected-equipment qualification.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

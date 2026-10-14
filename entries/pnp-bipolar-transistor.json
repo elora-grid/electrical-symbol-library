@@ -1,0 +1,82 @@
+{
+  "slug": "pnp-bipolar-transistor",
+  "name": "PNP bipolar transistor",
+  "kind": "symbol",
+  "abbreviation": "PNP",
+  "aliases": [
+    "PNP BJT",
+    "bipolar junction transistor PNP"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A bipolar transistor with base, collector and emitter terminals arranged for PNP operation.",
+  "description": [
+    "A bipolar transistor with base, collector and emitter terminals arranged for PNP operation.",
+    "On a schematic, identify the base drive and emitter supply/reference and trace the collector load and switching or amplification path. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "PNP polarity differs from NPN; mirrored graphics do not change a transistor's type or package pin assignment.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the base drive and emitter supply/reference.",
+    "Trace the collector load and switching or amplification path."
+  ],
+  "drawingChecklist": [
+    "Label the base drive and emitter supply/reference.",
+    "Cross-reference the collector load and switching or amplification path.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "PNP polarity differs from NPN; mirrored graphics do not change a transistor's type or package pin assignment.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PNP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The base drive and emitter supply/reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-nexperia-pnp",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "npn-bipolar-transistor",
+    "diode"
+  ],
+  "artwork": "electronics-bjt-pnp",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pnp-bipolar-transistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/pnp-bipolar-transistor.svg",
+  "id": "pnp-bipolar-transistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pnp-bipolar-transistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pnp-bipolar-transistor.json",
+  "svgPath": "artwork/svg/pnp-bipolar-transistor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-nexperia-pnp",
+      "title": "BC856/BC857/BC858 PNP transistor documentation",
+      "publisher": "Nexperia",
+      "url": "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf",
+      "type": "manufacturer",
+      "scope": "Public complementary PNP transistor reference. Terminal roles and component polarity are used without copying the datasheet artwork.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

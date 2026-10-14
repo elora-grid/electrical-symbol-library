@@ -1,0 +1,98 @@
+{
+  "slug": "86-lockout",
+  "name": "Lockout",
+  "kind": "function",
+  "abbreviation": "86",
+  "aliases": [
+    "lockout relay",
+    "master trip lockout",
+    "ANSI 86"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "A lockout function or device with the documented reset and blocking behaviour.",
+  "description": [
+    "A lockout function or device latches an operating condition and participates in the specified trip or blocking arrangement. Its reset and implementation depend on the selected scheme. It can be realised in physical equipment or through documented control logic.",
+    "On a power drawing, keep this function reference connected to the selected equipment and its complete designation. A multifunction relay can implement several numbered functions. This entry explains the reference; it supplies no settings or commissioning procedure."
+  ],
+  "readingNotes": [
+    "Identify the initiating conditions and the affected devices.",
+    "Read reset and blocking behaviour from the actual scheme documentation."
+  ],
+  "drawingChecklist": [
+    "Reference initiating functions.",
+    "Identify blocked or tripped devices.",
+    "Document the selected reset arrangement."
+  ],
+  "distinction": "A lockout reference is not a mechanical isolation procedure and does not itself establish an authorised operating instruction.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "86"
+    },
+    {
+      "label": "Equipment implementation",
+      "value": "Consult the selected device manual"
+    },
+    {
+      "label": "Suffix interpretation",
+      "value": "Application and manufacturer documentation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ],
+  "related": [
+    "52-ac-circuit-breaker",
+    "87-differential",
+    "relay-coil"
+  ],
+  "artwork": "function",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/86-lockout",
+  "illustration": "https://eloragrid.ai/library/illustrations/86-lockout.svg",
+  "id": "86-lockout",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/86-lockout",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/86-lockout.json",
+  "svgPath": "artwork/svg/86-lockout.svg",
+  "publicSources": [
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative publication reference for the device-function convention."
+    }
+  ]
+}

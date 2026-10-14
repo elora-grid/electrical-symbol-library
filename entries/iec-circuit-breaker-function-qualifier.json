@@ -1,0 +1,92 @@
+{
+  "slug": "iec-circuit-breaker-function-qualifier",
+  "name": "Circuit-breaker function qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070102",
+  "aliases": [
+    "Circuit-breaker function qualifier symbol",
+    "Q070102",
+    "Circuit-breaker function qualifier IEC reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A breaker-function qualifier identifies automatic interruption capability in the compound representation.",
+  "description": [
+    "A breaker-function qualifier identifies automatic interruption capability in the compound representation. The function element helps distinguish a breaker from other mechanically similar switching representations. Its associated protection may be shown as integrated releases or through a separately documented relay/trip circuit.",
+    "Record the breaker and trip interfaces consistently between the SLD and schematic. The function qualifier cannot replace the trip-unit or protection schedule."
+  ],
+  "readingNotes": [
+    "Identify the actual trip functions and device schedule separately.",
+    "The qualifier does not specify thermal, magnetic or electronic trip details."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify the actual trip functions and device schedule separately.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The qualifier does not specify thermal, magnetic or electronic trip details.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070102 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Identify the actual trip functions and device schedule separately."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "edu-iec-circuit-breaker-function-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Circuit-breaker function qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-circuit-breaker-function-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-circuit-breaker-function-qualifier.svg",
+  "id": "iec-circuit-breaker-function-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-circuit-breaker-function-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-circuit-breaker-function-qualifier.json",
+  "svgPath": "artwork/svg/iec-circuit-breaker-function-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "inverting-buck-boost-topology",
+  "name": "Inverting buck-boost topology",
+  "kind": "symbol",
+  "abbreviation": "INV-BB",
+  "aliases": [
+    "negative output buck boost",
+    "inverting DC DC"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A buck-boost arrangement whose output polarity is opposite to its defined input reference.",
+  "description": [
+    "A buck-boost arrangement whose output polarity is opposite to its defined input reference.",
+    "On a schematic, identify the switch/inductor path, input return and negative-output reference and trace the energy-transfer and feedback circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Negative output polarity distinguishes this arrangement from a non-inverting four-switch buck-boost stage.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the switch/inductor path, input return and negative-output reference.",
+    "Trace the energy-transfer and feedback circuit."
+  ],
+  "drawingChecklist": [
+    "Label the switch/inductor path, input return and negative-output reference.",
+    "Cross-reference the energy-transfer and feedback circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Negative output polarity distinguishes this arrangement from a non-inverting four-switch buck-boost stage.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "INV-BB — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The switch/inductor path, input return and negative-output reference"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "four-switch-buck-boost-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-inverting",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/inverting-buck-boost-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/inverting-buck-boost-topology.svg",
+  "id": "inverting-buck-boost-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/inverting-buck-boost-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/inverting-buck-boost-topology.json",
+  "svgPath": "artwork/svg/inverting-buck-boost-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

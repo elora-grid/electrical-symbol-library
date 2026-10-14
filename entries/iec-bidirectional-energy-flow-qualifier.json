@@ -1,0 +1,92 @@
+{
+  "slug": "iec-bidirectional-energy-flow-qualifier",
+  "name": "Bidirectional-energy-flow qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q020508",
+  "aliases": [
+    "Bidirectional-energy-flow qualifier symbol",
+    "Q020508",
+    "Bidirectional-energy-flow qualifier IEC reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies an energy interface intended to operate in both directions.",
+  "description": [
+    "This qualifier identifies an energy interface intended to operate in both directions. Storage and conversion systems can exchange energy in opposite directions under different modes. A bidirectional qualifier describes that capability without defining when either direction is enabled.",
+    "Name the charge/discharge or import/export modes and their interfaces. The operating strategy and protective controls are documented separately from the energy-flow mark."
+  ],
+  "readingNotes": [
+    "State the supported operating modes and associated control conditions.",
+    "A bidirectional energy indication does not by itself certify grid-forming or islanding capability."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the supported operating modes and associated control conditions.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A bidirectional energy indication does not by itself certify grid-forming or islanding capability.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q020508 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "State the supported operating modes and associated control conditions."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-energy",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "plc-io"
+  ],
+  "artwork": "edu-iec-bidirectional-energy-flow-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Bidirectional-energy-flow qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Energy-flow qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-bidirectional-energy-flow-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-bidirectional-energy-flow-qualifier.svg",
+  "id": "iec-bidirectional-energy-flow-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-bidirectional-energy-flow-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-bidirectional-energy-flow-qualifier.json",
+  "svgPath": "artwork/svg/iec-bidirectional-energy-flow-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-energy",
+      "title": "Autodesk IEC-60617 preview: Energy-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-2039C5DD-1C01-4D77-AD97-584052C53D75.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

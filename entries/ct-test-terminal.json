@@ -1,0 +1,99 @@
+{
+  "slug": "ct-test-terminal",
+  "name": "CT test terminal",
+  "kind": "symbol",
+  "abbreviation": "CT test",
+  "aliases": [
+    "CT shorting terminal",
+    "current transformer test block",
+    "test disconnect terminal"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A current-transformer terminal arrangement providing documented test and shorting facilities.",
+  "description": [
+    "A CT test-terminal arrangement connects current-transformer secondary wiring to measurement or protection equipment and provides the test or short-circuit facilities specified for the selected assembly. Its representation must be read with the manufacturer circuit and operating documentation.",
+    "Test-disconnect terminals are not all interchangeable. CT applications require the correct shorting behaviour and accessory arrangement. This reference explains what to identify in a drawing, not a procedure for disconnecting or working on a live CT circuit."
+  ],
+  "readingNotes": [
+    "Identify each CT secondary path and the associated test or shorting connections.",
+    "Do not infer the operation of a test plug or link from a generic terminal mark."
+  ],
+  "drawingChecklist": [
+    "Reference the exact terminal assembly.",
+    "Identify shorting links and test accessories.",
+    "Cross-reference the CT and connected measurement device."
+  ],
+  "distinction": "A generic disconnect terminal is not automatically suitable for a CT secondary circuit. Use an arrangement specified for the CT application.",
+  "facts": [
+    {
+      "label": "Application",
+      "value": "CT secondary measuring and test circuit"
+    },
+    {
+      "label": "Shorting behaviour",
+      "value": "Specific to selected assembly"
+    },
+    {
+      "label": "Operating procedure",
+      "value": "Follow manufacturer and authorised work instructions"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Manufacturer CT measuring, testing and leading-short-circuit terminal arrangements."
+    },
+    {
+      "sourceId": "terminal-disconnect",
+      "relevance": "Contrast with generic disconnect-terminal products."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "terminal",
+    "terminal-strip",
+    "50-instantaneous-overcurrent"
+  ],
+  "artwork": "ct-test",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ct-test-terminal",
+  "illustration": "https://eloragrid.ai/library/illustrations/ct-test-terminal.svg",
+  "id": "ct-test-terminal",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ct-test-terminal",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ct-test-terminal.json",
+  "svgPath": "artwork/svg/ct-test-terminal.svg",
+  "publicSources": [
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer CT measuring, testing and leading-short-circuit terminal arrangements."
+    },
+    {
+      "id": "terminal-disconnect",
+      "title": "Disconnect and knife-disconnect terminal blocks",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-au/products/terminal-blocks/disconnect-and-knife-disconnect-terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public disconnect-terminal products, test access and model-dependent connection characteristics.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Contrast with generic disconnect-terminal products."
+    }
+  ]
+}

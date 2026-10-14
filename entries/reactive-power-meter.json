@@ -1,0 +1,85 @@
+{
+  "slug": "reactive-power-meter",
+  "name": "Reactive-power meter",
+  "kind": "symbol",
+  "abbreviation": "var",
+  "aliases": [
+    "HIN1P21",
+    "VIN1P21"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A reactive-power meter indicates reactive power using the instrument's documented voltage and current inputs.",
+  "description": [
+    "A reactive-power meter indicates reactive power using the instrument's documented voltage and current inputs. Import/export or leading/lagging conventions must be stated where operational decisions depend on them."
+  ],
+  "readingNotes": [
+    "Read sign and quadrant conventions from the selected meter.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show input phases",
+    "State reactive-power sign convention",
+    "Reference transformer ratios"
+  ],
+  "distinction": "Reactive power in var is different from reactive energy in varh.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1P21, VIN1P21 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-reactive-power-meter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/reactive-power-meter",
+  "illustration": "https://eloragrid.ai/library/illustrations/reactive-power-meter.svg",
+  "id": "reactive-power-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/reactive-power-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/reactive-power-meter.json",
+  "svgPath": "artwork/svg/reactive-power-meter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

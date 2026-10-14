@@ -1,0 +1,106 @@
+{
+  "slug": "81r-rate-of-change-of-frequency-protection",
+  "name": "Rate-of-change-of-frequency protection",
+  "kind": "function",
+  "abbreviation": "81R",
+  "aliases": [
+    "ROCOF",
+    "df dt",
+    "df/dt",
+    "frequency rate of change",
+    "ANSI 81R",
+    "IEEE 81R"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises the rate at which measured electrical frequency changes.",
+  "description": [
+    "Supervises the rate at which measured electrical frequency changes.",
+    "The drafting record should connect this function to the frequency measurement source, observation method and voltage supervision, then trace the ROCOF output and interconnection protection matrix. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton E-Series function mapping). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the frequency measurement source, observation method and voltage supervision.",
+    "Trace the ROCOF output and interconnection protection matrix."
+  ],
+  "drawingChecklist": [
+    "Label the frequency measurement source, observation method and voltage supervision.",
+    "Cross-reference the ROCOF output and interconnection protection matrix.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "ROCOF differs from a simple underfrequency threshold; measurement window and supervision are device-specific settings.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "81R"
+    },
+    {
+      "label": "Base function",
+      "value": "81 — Frequency protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton E-Series function mapping"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-brochure",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "81-frequency",
+    "voltage-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/81r-rate-of-change-of-frequency-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/81r-rate-of-change-of-frequency-protection.svg",
+  "id": "81r-rate-of-change-of-frequency-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/81r-rate-of-change-of-frequency-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/81r-rate-of-change-of-frequency-protection.json",
+  "svgPath": "artwork/svg/81r-rate-of-change-of-frequency-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-brochure",
+      "title": "E-Series protective relays: public family comparison brochure",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/content/dam/eaton/products/electrical-circuit-protection/protective-relays-and-predictive-devices/e-series-protective-relays-br026001en.pdf",
+      "type": "manufacturer",
+      "scope": "Public function-name and suffix mappings across feeder, motor, transformer and generator relays. Linked as documentation only; no illustrations or product drawings are copied.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

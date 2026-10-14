@@ -1,0 +1,91 @@
+{
+  "slug": "iec-two-way-rotary-motion-qualifier",
+  "name": "Two-way rotary-motion qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q020404",
+  "aliases": [
+    "Two-way rotary-motion qualifier symbol",
+    "Q020404",
+    "Two-way rotary-motion qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies a mechanism capable of rotary movement in either direction.",
+  "description": [
+    "This qualifier identifies a mechanism capable of rotary movement in either direction. Both directions of rotation are part of the represented mechanism. The reversal can be controlled electrically or mechanically, depending on the selected equipment.",
+    "Identify the two command paths and any permitted transition between them. Interlocks and feedback should be shown as actual circuit relationships rather than inferred from the double arrow."
+  ],
+  "readingNotes": [
+    "Cross-reference forward/reverse commands and any position limits.",
+    "Reversible rotation and unrestricted continuous rotation are different attributes."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Cross-reference forward/reverse commands and any position limits.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Reversible rotation and unrestricted continuous rotation are different attributes.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q020404 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Cross-reference forward/reverse commands and any position limits."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-rotary",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-two-way-rotary-motion-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Two-way rotary-motion qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Rotary force and motion qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-two-way-rotary-motion-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-two-way-rotary-motion-qualifier.svg",
+  "id": "iec-two-way-rotary-motion-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-two-way-rotary-motion-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-two-way-rotary-motion-qualifier.json",
+  "svgPath": "artwork/svg/iec-two-way-rotary-motion-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-rotary",
+      "title": "Autodesk IEC-60617 preview: Rotary force and motion qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-A2633343-7A99-4CAF-BF09-F108A4714D55.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

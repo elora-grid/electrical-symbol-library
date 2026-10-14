@@ -1,0 +1,84 @@
+{
+  "slug": "plug-and-socket-connector-pair",
+  "name": "Plug and socket connector pair",
+  "kind": "symbol",
+  "abbreviation": "PLUG SOCKET",
+  "aliases": [
+    "HC01PJ",
+    "VC01PJ"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A plug/socket pair represents a detachable electrical connection with two mating sides.",
+  "description": [
+    "A plug/socket pair represents a detachable electrical connection with two mating sides. Pin identity and mating references are needed to follow each circuit through the connector."
+  ],
+  "readingNotes": [
+    "Check connector naming and pin numbering on both mating halves.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name both connector halves",
+    "Identify pin numbers",
+    "Reference connected-state convention"
+  ],
+  "distinction": "A connector pair is different from a permanent wire splice.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Detachable connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HC01PJ, VC01PJ (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "plc-io"
+  ],
+  "artwork": "edu-plug-and-socket-connector-pair",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plug-and-socket-connector-pair",
+  "illustration": "https://eloragrid.ai/library/illustrations/plug-and-socket-connector-pair.svg",
+  "id": "plug-and-socket-connector-pair",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plug-and-socket-connector-pair",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plug-and-socket-connector-pair.json",
+  "svgPath": "artwork/svg/plug-and-socket-connector-pair.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-plc-power-module",
+  "name": "PLC power module",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "controller rack supply",
+    "PLC power module CAD",
+    "PLC power module general arrangement",
+    "PLC power module panel layout"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC power module supplies the specified controller and expansion system.",
+  "description": [
+    "A PLC power module supplies the specified controller and expansion system.",
+    "Keep its input protection and rack connections consistent with the selected platform. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Keep its input protection and rack connections consistent with the selected platform.",
+    "A controller power module is not necessarily interchangeable with a general external DC supply."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Keep its input protection and rack connections consistent with the selected platform.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A controller power module is not necessarily interchangeable with a general external DC supply.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-ad-drawings",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-plc-power-module",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-plc-power-module",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-plc-power-module.svg",
+  "id": "ga-plc-power-module",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-plc-power-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-plc-power-module.json",
+  "svgPath": "artwork/svg/ga-plc-power-module.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-ad-drawings",
+      "title": "Official product-line CAD drawing index",
+      "publisher": "AutomationDirect",
+      "url": "https://support.automationdirect.com/docs/drawings.html",
+      "type": "cad-reference",
+      "scope": "Manufacturer/supplier index identifies the named product lines. Only product identity and links are used; archives, drawings and vendor copyright material are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

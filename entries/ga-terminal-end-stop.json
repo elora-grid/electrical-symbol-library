@@ -1,0 +1,88 @@
+{
+  "slug": "ga-terminal-end-stop",
+  "name": "Terminal end stop",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "rail end clamp",
+    "Terminal end stop CAD",
+    "Terminal end stop general arrangement",
+    "Terminal end stop panel layout"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An end stop retains a specified terminal assembly on its mounting rail.",
+  "description": [
+    "An end stop retains a specified terminal assembly on its mounting rail.",
+    "Include end-stop space in the terminal-row length. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Include end-stop space in the terminal-row length.",
+    "It is an assembly accessory, not an electrical terminal position."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Include end-stop space in the terminal-row length.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "It is an assembly accessory, not an electrical terminal position.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-phoenix-terminals",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "terminal-strip",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-terminal-end-stop",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-terminal-end-stop",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-terminal-end-stop.svg",
+  "id": "ga-terminal-end-stop",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-terminal-end-stop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-terminal-end-stop.json",
+  "svgPath": "artwork/svg/ga-terminal-end-stop.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-phoenix-terminals",
+      "title": "Terminal-block types and assembly accessories",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public terminal-block categories and manufacturer assembly information; selected product documentation controls dimensions and connection details.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

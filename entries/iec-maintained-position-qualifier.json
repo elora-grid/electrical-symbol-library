@@ -1,0 +1,91 @@
+{
+  "slug": "iec-maintained-position-qualifier",
+  "name": "Maintained-position qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070108",
+  "aliases": [
+    "Maintained-position qualifier symbol",
+    "Q070108",
+    "Maintained-position qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A maintained-position qualifier indicates that the operating position remains after actuation.",
+  "description": [
+    "A maintained-position qualifier indicates that the operating position remains after actuation. The mechanism retains the selected position after the operating action ends. The next manual action, release or other documented event changes that retained state.",
+    "This is especially useful when a maintained selector and a momentary command appear in the same control circuit. Draw their contact states and release relationships explicitly."
+  ],
+  "readingNotes": [
+    "State the action required to release or change the maintained state.",
+    "Maintained operation differs from a timed hold and from automatic spring return."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the action required to release or change the maintained state.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Maintained operation differs from a timed hold and from automatic spring return.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070108 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "State the action required to release or change the maintained state."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-maintained-position-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Maintained-position qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-maintained-position-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-maintained-position-qualifier.svg",
+  "id": "iec-maintained-position-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-maintained-position-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-maintained-position-qualifier.json",
+  "svgPath": "artwork/svg/iec-maintained-position-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

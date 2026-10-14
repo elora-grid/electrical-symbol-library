@@ -1,0 +1,105 @@
+{
+  "slug": "32n-wattmetric-earth-fault-protection",
+  "name": "Wattmetric earth-fault protection",
+  "kind": "function",
+  "abbreviation": "32N",
+  "aliases": [
+    "wattmetric earth fault",
+    "neutral directional power",
+    "WPWDE",
+    "ANSI 32N",
+    "IEEE 32N"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Uses residual voltage and current to assess earth-fault power in the documented neutral-system application.",
+  "description": [
+    "Uses residual voltage and current to assess earth-fault power in the documented neutral-system application.",
+    "The drafting record should connect this function to the residual voltage and current sources and polarity convention, then trace the wattmetric element and feeder earth-fault trip. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (ABB Relion 620 function mapping). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the residual voltage and current sources and polarity convention.",
+    "Trace the wattmetric element and feeder earth-fault trip."
+  ],
+  "drawingChecklist": [
+    "Label the residual voltage and current sources and polarity convention.",
+    "Cross-reference the wattmetric element and feeder earth-fault trip.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "ABB's 32N mapping identifies wattmetric earth-fault protection; it differs from generator reverse active-power protection.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "32N"
+    },
+    {
+      "label": "Base function",
+      "value": "32 — Directional power"
+    },
+    {
+      "label": "Published mapping",
+      "value": "ABB Relion 620 function mapping"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-mappings",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "32-directional-power",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/32n-wattmetric-earth-fault-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/32n-wattmetric-earth-fault-protection.svg",
+  "id": "32n-wattmetric-earth-fault-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/32n-wattmetric-earth-fault-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/32n-wattmetric-earth-fault-protection.json",
+  "svgPath": "artwork/svg/32n-wattmetric-earth-fault-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-mappings",
+      "title": "Relion 620 series: published protection function and designation mappings",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Manufacturer mapping of function names, IEC identifiers and ANSI labels. These are examples for a documented product family, not universal equivalences between standards or products.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

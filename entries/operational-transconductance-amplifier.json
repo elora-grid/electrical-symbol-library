@@ -1,0 +1,82 @@
+{
+  "slug": "operational-transconductance-amplifier",
+  "name": "Operational transconductance amplifier",
+  "kind": "symbol",
+  "abbreviation": "OTA",
+  "aliases": [
+    "transconductance amp",
+    "voltage to current amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Produces an output current controlled by its differential input voltage and documented bias arrangement.",
+  "description": [
+    "Produces an output current controlled by its differential input voltage and documented bias arrangement.",
+    "On a schematic, identify the differential inputs, bias-current control and output-current node and trace the current-mode signal or controlled filter/amplifier circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Transconductance relates input voltage to output current; it differs from an ordinary voltage-output op amp.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the differential inputs, bias-current control and output-current node.",
+    "Trace the current-mode signal or controlled filter/amplifier circuit."
+  ],
+  "drawingChecklist": [
+    "Label the differential inputs, bias-current control and output-current node.",
+    "Cross-reference the current-mode signal or controlled filter/amplifier circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Transconductance relates input voltage to output current; it differs from an ordinary voltage-output op amp.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "OTA — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The differential inputs, bias-current control and output-current node"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-ota",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "operational-amplifier",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-ota",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/operational-transconductance-amplifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/operational-transconductance-amplifier.svg",
+  "id": "operational-transconductance-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/operational-transconductance-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/operational-transconductance-amplifier.json",
+  "svgPath": "artwork/svg/operational-transconductance-amplifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-ota",
+      "title": "LM13700 — operational transconductance amplification",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/LM13700",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of operational transconductance amplification. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

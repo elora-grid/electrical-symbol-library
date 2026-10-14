@@ -1,0 +1,84 @@
+{
+  "slug": "iec-three-phase-conductor-group",
+  "name": "Three-phase conductor group",
+  "kind": "symbol",
+  "abbreviation": "3~",
+  "aliases": [
+    "Three-phase conductor group symbol"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A conductor group represents the documented phase conductors of a circuit shown individually.",
+  "description": [
+    "A conductor group represents the documented phase conductors of a circuit shown individually. Drawing the phase conductors individually expands a system that may also appear as one line in an SLD. The individual view makes terminations and phase mapping visible.",
+    "Keep phase labels through branches and changes of direction. Where the drawing returns to a simplified one-line view, provide a clear circuit cross-reference."
+  ],
+  "readingNotes": [
+    "Keep phase sequence and connection mapping explicit when the group branches or changes direction.",
+    "A three-line group is different from a single-line equivalent representation of the same system."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Keep phase sequence and connection mapping explicit when the group branches or changes direction.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A three-line group is different from a single-line equivalent representation of the same system.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Publisher drafting annotation / connectivity convention"
+    },
+    {
+      "label": "Documentation scope",
+      "value": "Wire insertion and connectivity behaviour; no publisher block identifier or IEC database ID is asserted."
+    },
+    {
+      "label": "Information added",
+      "value": "Keep phase sequence and connection mapping explicit when the group branches or changes direction."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-wire-connections",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "edu-iec-three-phase-conductor-group",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-three-phase-conductor-group",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-three-phase-conductor-group.svg",
+  "id": "iec-three-phase-conductor-group",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-phase-conductor-group",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-three-phase-conductor-group.json",
+  "svgPath": "artwork/svg/iec-three-phase-conductor-group.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-wire-connections",
+      "title": "Wire connection dots, crossing gaps and loops",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2020/ENU/AutoCAD-Electrical/files/GUID-936BB8A9-9C01-4AC6-B833-CB97700A7203.htm",
+      "type": "cad-reference",
+      "scope": "Public drafting-tool documentation. The annotation is a connectivity or identification convention, not a verified IEC standard graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

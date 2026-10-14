@@ -1,0 +1,107 @@
+{
+  "slug": "iec-mechanical-stop-latch-in-neutral-state",
+  "name": "Mechanical stop latch in neutral state",
+  "kind": "symbol",
+  "abbreviation": "Q021209",
+  "aliases": [
+    "Mechanical stop latch in neutral state symbol",
+    "Q021209",
+    "Mechanical stop latch in neutral state IEC reference",
+    "Q021213"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This form identifies the neutral state of the represented stop-latch mechanism.",
+  "description": [
+    "This form identifies the neutral state of the represented stop-latch mechanism. Neutral describes the represented retaining mechanism, not every electrical contact belonging to the assembly. A state table provides the relationship between latch condition and contact states.",
+    "Identify the associated mechanism and define the neutral condition in its operating sequence. Use separate contact and position references when those interfaces appear elsewhere in the schematic."
+  ],
+  "readingNotes": [
+    "Keep neutral and engaged states explicit in state or sequence documentation.",
+    "Neutral is a mechanism state, not an assertion that every contact is open."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Keep neutral and engaged states explicit in state or sequence documentation.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Neutral is a mechanism state, not an assertion that every contact is open.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021209, Q021213 (Autodesk tokens; not verified IEC database IDs)"
+    },
+    {
+      "label": "Information added",
+      "value": "Keep neutral and engaged states explicit in state or sequence documentation."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-mechanical",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    },
+    {
+      "sourceId": "iec-public-latch",
+      "relevance": "Public alternate engaged/neutral latching-device tokens are consolidated with the matching mechanical state concept."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-mechanical-stop-latch-in-neutral-state",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Mechanical stop latch in neutral state",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Mechanical return and interlock qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-mechanical-stop-latch-in-neutral-state",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-mechanical-stop-latch-in-neutral-state.svg",
+  "id": "iec-mechanical-stop-latch-in-neutral-state",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-mechanical-stop-latch-in-neutral-state",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-mechanical-stop-latch-in-neutral-state.json",
+  "svgPath": "artwork/svg/iec-mechanical-stop-latch-in-neutral-state.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-mechanical",
+      "title": "Autodesk IEC-60617 preview: Mechanical return and interlock qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-084BF99C-FD3E-4ECF-A86B-608EF93DF6E5.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    },
+    {
+      "id": "iec-public-latch",
+      "title": "Autodesk IEC-60617 preview: Latching-device qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9FC7824E-1A3B-4B47-B157-590CB8AE62FC.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public alternate engaged/neutral latching-device tokens are consolidated with the matching mechanical state concept."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "iec-cable-identification-marker",
+  "name": "Cable identification marker",
+  "kind": "symbol",
+  "abbreviation": "HW01",
+  "aliases": [
+    "Cable identification marker symbol",
+    "HW01",
+    "Cable identification marker IEC reference"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A cable marker identifies a cable association within a schematic conductor group.",
+  "description": [
+    "A cable marker identifies a cable association within a schematic conductor group. The cable is an assembly identity shared by its cores, whereas individual wires and terminals have their own identifiers. A cable marker links schematic conductors with the cable schedule.",
+    "Keep cable tags, core designations and end connections consistent across the drawing package. A marker placed on one conductor does not imply that the cable contains only one core."
+  ],
+  "readingNotes": [
+    "Coordinate the cable tag, core identity and from/to schedule.",
+    "A cable tag and a wire or core number identify different levels of the wiring arrangement."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Coordinate the cable tag, core identity and from/to schedule.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A cable tag and a wire or core number identify different levels of the wiring arrangement.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HW01 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Coordinate the cable tag, core identity and from/to schedule."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "terminal",
+    "busbar"
+  ],
+  "artwork": "edu-iec-cable-identification-marker",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Cable identification marker",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Cable identification and twisted-pair annotation; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-cable-identification-marker",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-cable-identification-marker.svg",
+  "id": "iec-cable-identification-marker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-identification-marker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-cable-identification-marker.json",
+  "svgPath": "artwork/svg/iec-cable-identification-marker.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

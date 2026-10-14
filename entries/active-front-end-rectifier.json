@@ -1,0 +1,84 @@
+{
+  "slug": "active-front-end-rectifier",
+  "name": "Active front-end rectifier",
+  "kind": "symbol",
+  "abbreviation": "AFE",
+  "aliases": [
+    "active rectifier",
+    "PWM rectifier",
+    "bidirectional AC DC front end"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An actively switched AC/DC stage using a documented current-control and DC-link regulation arrangement.",
+  "description": [
+    "An actively switched AC/DC stage using a documented current-control and DC-link regulation arrangement.",
+    "On a schematic, identify the AC connection, coupling inductors/filter and active switching bridge and trace the DC-link energy path and front-end control interfaces. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "An AFE differs from a passive diode bridge; bidirectional operation and power-factor behaviour depend on the actual system/control implementation.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the AC connection, coupling inductors/filter and active switching bridge.",
+    "Trace the DC-link energy path and front-end control interfaces."
+  ],
+  "drawingChecklist": [
+    "Label the AC connection, coupling inductors/filter and active switching bridge.",
+    "Cross-reference the DC-link energy path and front-end control interfaces.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "An AFE differs from a passive diode bridge; bidirectional operation and power-factor behaviour depend on the actual system/control implementation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "AFE — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The AC connection, coupling inductors/filter and active switching bridge"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-inverter",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "three-phase-bridge-rectifier",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-afe",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-front-end-rectifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/active-front-end-rectifier.svg",
+  "id": "active-front-end-rectifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-front-end-rectifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-front-end-rectifier.json",
+  "svgPath": "artwork/svg/active-front-end-rectifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-inverter",
+      "title": "Bidirectional three-/single-phase AC/DC PFC and inverter application note",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/assets/row/public/documents/24/42/infineon-ac-dc-pfc-11-kw-high-efficiency-high-density-bidirectional-three-single-phase-inverter-applicationnotes-en.pdf",
+      "type": "manufacturer",
+      "scope": "Public application context for actively switched AC/DC and inverter stages. Independent miniature topology illustrations have no copied product-specific values, wiring layouts or control implementation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

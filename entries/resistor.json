@@ -1,0 +1,105 @@
+{
+  "slug": "resistor",
+  "name": "Resistor",
+  "kind": "symbol",
+  "abbreviation": "R",
+  "aliases": [
+    "resistive component",
+    "fixed resistor",
+    "shunt resistor",
+    "HRE1B",
+    "VRE1B"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A resistive component with its value and purpose documented separately.",
+  "description": [
+    "A resistor representation identifies a resistive component in a circuit. Different drawing conventions can use different basic outlines, while additional qualifiers distinguish variable resistors, shunts or heating elements. The value, rating and purpose are separate annotations.",
+    "In power-system controls, a resistive component may belong to measurement, suppression or another specific circuit. A neutral-earthing resistor is a specialised system component and should not be identified only with an unqualified generic resistor mark."
+  ],
+  "readingNotes": [
+    "Read the component value and application label alongside the mark.",
+    "Check whether a qualifier identifies a variable device, heater, shunt or another variant."
+  ],
+  "drawingChecklist": [
+    "Reference resistance and rating information.",
+    "Identify the circuit purpose.",
+    "Distinguish specialised assemblies from a generic component."
+  ],
+  "distinction": "IEC-style rectangular and other conventional resistor depictions can describe the same component concept, but qualifiers and documentation still matter.",
+  "facts": [
+    {
+      "label": "Component data",
+      "value": "Resistance and power rating"
+    },
+    {
+      "label": "Variants",
+      "value": "Fixed, variable, shunt and other applications"
+    },
+    {
+      "label": "Graphic convention",
+      "value": "Check the drawing legend"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HRE1B, VRE1B (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public fixed, variable, shunt and heater categories."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Historical graphic-symbol reference; vendor conventions may differ."
+    }
+  ],
+  "related": [
+    "capacitor",
+    "relay-coil",
+    "terminal",
+    "power-transformer"
+  ],
+  "artwork": "resistor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/resistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/resistor.svg",
+  "id": "resistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/resistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/resistor.json",
+  "svgPath": "artwork/svg/resistor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public fixed, variable, shunt and heater categories."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Historical graphic-symbol reference; vendor conventions may differ."
+    }
+  ]
+}

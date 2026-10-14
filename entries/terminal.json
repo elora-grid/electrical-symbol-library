@@ -1,0 +1,106 @@
+{
+  "slug": "terminal",
+  "name": "Terminal connection",
+  "kind": "symbol",
+  "abbreviation": "Terminal",
+  "aliases": [
+    "terminal block symbol",
+    "terminal point",
+    "connection terminal",
+    "terminal strip connection",
+    "HT0002",
+    "VT0002"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An identified electrical connection point linking schematic and wiring information.",
+  "description": [
+    "A terminal representation identifies a connection point for conductors. The terminal number and strip or assembly identifier link the schematic to physical wiring documentation. A wire number and terminal number identify different things and should not be substituted for one another.",
+    "Terminal assemblies can include links, disconnect facilities, fuses or test access. Those properties require additional identification. A generic round terminal representation does not establish the construction or rating of a selected terminal block."
+  ],
+  "readingNotes": [
+    "Read the strip identifier and terminal identifier together.",
+    "Check whether the representation denotes a simple connection or an additional device function."
+  ],
+  "drawingChecklist": [
+    "Match the terminal schedule.",
+    "Keep wire and terminal numbers distinct.",
+    "Reference links, test facilities and device data where applicable."
+  ],
+  "distinction": "An electrical junction and a physical terminal are different concepts. A connection dot alone does not necessarily identify a terminal block.",
+  "facts": [
+    {
+      "label": "Identification",
+      "value": "Strip or assembly plus terminal number"
+    },
+    {
+      "label": "Wire number",
+      "value": "Separate conductor identification"
+    },
+    {
+      "label": "Physical construction",
+      "value": "Manufacturer-specific"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HT0002, VT0002 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-terminals",
+      "relevance": "Public terminal-number and wire-number variants."
+    },
+    {
+      "sourceId": "terminal-disconnect",
+      "relevance": "Manufacturer example of terminals with added disconnect functions."
+    }
+  ],
+  "related": [
+    "ct-test-terminal",
+    "terminal-strip",
+    "normally-open-contact",
+    "protective-earth"
+  ],
+  "artwork": "terminal",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/terminal",
+  "illustration": "https://eloragrid.ai/library/illustrations/terminal.svg",
+  "id": "terminal",
+  "canonicalUrl": "https://eloragrid.ai/symbols/terminal",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/terminal.json",
+  "svgPath": "artwork/svg/terminal.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-terminals",
+      "title": "Terminal symbol and numbering variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC31431B-1EB8-492C-8201-B09DE3A4D8A3.htm",
+      "type": "cad-reference",
+      "scope": "Terminal representations with terminal numbers and wire-number variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public terminal-number and wire-number variants."
+    },
+    {
+      "id": "terminal-disconnect",
+      "title": "Disconnect and knife-disconnect terminal blocks",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-au/products/terminal-blocks/disconnect-and-knife-disconnect-terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public disconnect-terminal products, test access and model-dependent connection characteristics.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer example of terminals with added disconnect functions."
+    }
+  ]
+}

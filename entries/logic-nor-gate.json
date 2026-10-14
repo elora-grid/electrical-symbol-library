@@ -1,0 +1,82 @@
+{
+  "slug": "logic-nor-gate",
+  "name": "NOR gate",
+  "kind": "symbol",
+  "abbreviation": "NOR",
+  "aliases": [
+    "NOT OR",
+    "inverted OR"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A logic gate that inverts an inclusive-OR result.",
+  "description": [
+    "A logic gate that inverts an inclusive-OR result.",
+    "On a schematic, identify the input truth convention and inverted output and trace the downstream logic and reset/permissive interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "NOR is different from NAND because the underlying input combination is OR rather than AND.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the input truth convention and inverted output.",
+    "Trace the downstream logic and reset/permissive interface."
+  ],
+  "drawingChecklist": [
+    "Label the input truth convention and inverted output.",
+    "Cross-reference the downstream logic and reset/permissive interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "NOR is different from NAND because the underlying input combination is OR rather than AND.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NOR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input truth convention and inverted output"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc02",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-or-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-nor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-nor-gate",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-nor-gate.svg",
+  "id": "logic-nor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-nor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-nor-gate.json",
+  "svgPath": "artwork/svg/logic-nor-gate.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc02",
+      "title": "SN74HC02 — NOR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of nor gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

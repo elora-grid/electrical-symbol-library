@@ -1,0 +1,85 @@
+{
+  "slug": "phase-angle-meter",
+  "name": "Phase-angle meter",
+  "kind": "symbol",
+  "abbreviation": "PHASE",
+  "aliases": [
+    "HIN1PHM",
+    "VIN1PHM"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A phase-angle meter indicates the phase relationship between documented signals.",
+  "description": [
+    "A phase-angle meter indicates the phase relationship between documented signals. The schematic names the reference and compared input so the displayed angle is interpretable."
+  ],
+  "readingNotes": [
+    "Check which signal is the reference and which is compared.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label compared inputs",
+    "State reference convention",
+    "Reference measurement range"
+  ],
+  "distinction": "A phase-angle meter is not automatically a synchronism-check permissive relay.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HIN1PHM, VIN1PHM (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-phase-angle-meter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phase-angle-meter",
+  "illustration": "https://eloragrid.ai/library/illustrations/phase-angle-meter.svg",
+  "id": "phase-angle-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phase-angle-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phase-angle-meter.json",
+  "svgPath": "artwork/svg/phase-angle-meter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

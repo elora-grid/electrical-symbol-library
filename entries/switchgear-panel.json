@@ -1,0 +1,101 @@
+{
+  "slug": "switchgear-panel",
+  "name": "Switchgear panel",
+  "kind": "object",
+  "abbreviation": "Panel",
+  "aliases": [
+    "switchgear cubicle",
+    "switchgear cabinet",
+    "MV panel"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic arrangement object linking switching equipment to its manufacturer drawings.",
+  "description": [
+    "A switchgear-panel object represents the equipment envelope and interfaces used when arranging a switchroom or substation. The manufacturer and panel configuration establish the physical dimensions, cable entries, access sides and other installation information.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Read plan and elevation views together.",
+    "Identify the actual panel configuration before placing its footprint."
+  ],
+  "drawingChecklist": [
+    "Reference the current product GA.",
+    "Identify cable interfaces and access sides.",
+    "Link the SLD equipment identifier."
+  ],
+  "distinction": "The panel envelope is a physical object; the breaker or switch symbol inside an SLD is an electrical representation.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-switchgear",
+      "relevance": "Public switchgear equipment families."
+    },
+    {
+      "sourceId": "manufacturer-cad",
+      "relevance": "Official model-specific CAD directory."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "ring-main-unit",
+    "switchboard"
+  ],
+  "artwork": "panel",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/switchgear-panel",
+  "illustration": "https://eloragrid.ai/library/illustrations/switchgear-panel.svg",
+  "id": "switchgear-panel",
+  "canonicalUrl": "https://eloragrid.ai/objects/switchgear-panel",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchgear-panel.json",
+  "svgPath": "artwork/svg/switchgear-panel.svg",
+  "publicSources": [
+    {
+      "id": "abb-switchgear",
+      "title": "Secondary-distribution switchgear and ring main units",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/switchgear/secondary-distribution",
+      "type": "manufacturer",
+      "scope": "Public equipment families for secondary distribution. Footprints and ratings must come from the chosen model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public switchgear equipment families."
+    },
+    {
+      "id": "manufacturer-cad",
+      "title": "Official CAD drawings and BIM resources",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/work/support/resources-and-tools/cad-drawings/",
+      "type": "cad-reference",
+      "scope": "Manufacturer CAD/BIM directory for model-specific equipment. Download terms remain with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official model-specific CAD directory."
+    }
+  ]
+}

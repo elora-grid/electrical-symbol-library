@@ -1,0 +1,91 @@
+{
+  "slug": "iec-protected-access-manual-operation-qualifier",
+  "name": "Protected-access manual-operation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021302",
+  "aliases": [
+    "Protected-access manual-operation qualifier symbol",
+    "Q021302",
+    "Protected-access manual-operation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier indicates that manual access to the operating mechanism is protected or restricted.",
+  "description": [
+    "This qualifier indicates that manual access to the operating mechanism is protected or restricted. An operating mechanism may sit behind a cover or another access restriction. The qualifier draws attention to that access condition without describing the construction of the cover, lock or enclosure.",
+    "A circuit drawing can record the access-qualified operation while a GA or equipment document shows the actual opening and hardware. Do not infer a particular key sequence from this qualifier."
+  ],
+  "readingNotes": [
+    "Record the actual access arrangement separately from the contact logic.",
+    "A protected-access indication does not specify a keyed lock, enclosure rating or permission system by itself."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Record the actual access arrangement separately from the contact logic.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A protected-access indication does not specify a keyed lock, enclosure rating or permission system by itself.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021302 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Record the actual access arrangement separately from the contact logic."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-protected-access-manual-operation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Protected-access manual-operation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-protected-access-manual-operation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-protected-access-manual-operation-qualifier.svg",
+  "id": "iec-protected-access-manual-operation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-protected-access-manual-operation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-protected-access-manual-operation-qualifier.json",
+  "svgPath": "artwork/svg/iec-protected-access-manual-operation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

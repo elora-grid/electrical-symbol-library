@@ -1,0 +1,82 @@
+{
+  "slug": "serial-in-parallel-out-register",
+  "name": "Serial-in parallel-out register",
+  "kind": "symbol",
+  "abbreviation": "SIPO",
+  "aliases": [
+    "serial to parallel register",
+    "SIPO shift register"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shifts serial input data through storage stages to parallel outputs at the documented clock events.",
+  "description": [
+    "Shifts serial input data through storage stages to parallel outputs at the documented clock events.",
+    "On a schematic, identify the serial input, shift clock and clear control and trace the parallel output bits and their bit-order mapping. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A SIPO register exposes its shifted bits; an output-latched register can retain a separate displayed output word.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the serial input, shift clock and clear control.",
+    "Trace the parallel output bits and their bit-order mapping."
+  ],
+  "drawingChecklist": [
+    "Label the serial input, shift clock and clear control.",
+    "Cross-reference the parallel output bits and their bit-order mapping.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A SIPO register exposes its shifted bits; an output-latched register can retain a separate displayed output word.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "SIPO — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The serial input, shift clock and clear control"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc164",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "latched-shift-register",
+    "plc-io"
+  ],
+  "artwork": "electronics-memory-sipo",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/serial-in-parallel-out-register",
+  "illustration": "https://eloragrid.ai/library/illustrations/serial-in-parallel-out-register.svg",
+  "id": "serial-in-parallel-out-register",
+  "canonicalUrl": "https://eloragrid.ai/symbols/serial-in-parallel-out-register",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/serial-in-parallel-out-register.json",
+  "svgPath": "artwork/svg/serial-in-parallel-out-register.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc164",
+      "title": "SN74HC164 — serial-in parallel-out shift storage",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of serial-in parallel-out shift storage. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

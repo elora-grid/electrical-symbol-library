@@ -1,0 +1,83 @@
+{
+  "slug": "full-bridge-dc-converter-topology",
+  "name": "Full-bridge DC converter topology",
+  "kind": "symbol",
+  "abbreviation": "FB-DC",
+  "aliases": [
+    "full bridge isolated converter",
+    "H bridge DC DC"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC conversion stage using two switching legs to apply the documented waveform to a magnetic primary.",
+  "description": [
+    "A DC conversion stage using two switching legs to apply the documented waveform to a magnetic primary.",
+    "On a schematic, identify the four switches, two bridge midpoints and transformer winding and trace the secondary transfer circuit and bridge control interfaces. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A full-bridge DC converter includes a secondary DC power path; a full-bridge inverter instead supplies an AC output arrangement.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the four switches, two bridge midpoints and transformer winding.",
+    "Trace the secondary transfer circuit and bridge control interfaces."
+  ],
+  "drawingChecklist": [
+    "Label the four switches, two bridge midpoints and transformer winding.",
+    "Cross-reference the secondary transfer circuit and bridge control interfaces.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A full-bridge DC converter includes a secondary DC power path; a full-bridge inverter instead supplies an AC output arrangement.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "FB-DC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The four switches, two bridge midpoints and transformer winding"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "single-phase-voltage-source-inverter",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-full-dc",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/full-bridge-dc-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/full-bridge-dc-converter-topology.svg",
+  "id": "full-bridge-dc-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/full-bridge-dc-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/full-bridge-dc-converter-topology.json",
+  "svgPath": "artwork/svg/full-bridge-dc-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

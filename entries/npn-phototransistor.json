@@ -1,0 +1,82 @@
+{
+  "slug": "npn-phototransistor",
+  "name": "NPN phototransistor",
+  "kind": "symbol",
+  "abbreviation": "PHOTO-NPN",
+  "aliases": [
+    "phototransistor",
+    "light-controlled transistor"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An NPN transistor whose collector-emitter conduction responds to incident light in the documented detector arrangement.",
+  "description": [
+    "An NPN transistor whose collector-emitter conduction responds to incident light in the documented detector arrangement.",
+    "On a schematic, identify the collector/emitter connections and any accessible base terminal and trace the optical sensing and load circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A phototransistor provides transistor action; a photodiode generates a different detector current response.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the collector/emitter connections and any accessible base terminal.",
+    "Trace the optical sensing and load circuit."
+  ],
+  "drawingChecklist": [
+    "Label the collector/emitter connections and any accessible base terminal.",
+    "Cross-reference the optical sensing and load circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A phototransistor provides transistor action; a photodiode generates a different detector current response.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PHOTO-NPN — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The collector/emitter connections and any accessible base terminal"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-vishay-optical",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "photodiode",
+    "diode"
+  ],
+  "artwork": "electronics-photo-npn",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/npn-phototransistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/npn-phototransistor.svg",
+  "id": "npn-phototransistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/npn-phototransistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/npn-phototransistor.json",
+  "svgPath": "artwork/svg/npn-phototransistor.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-vishay-optical",
+      "title": "BPW77 silicon NPN phototransistor documentation",
+      "publisher": "Vishay",
+      "url": "https://www.vishay.com/docs/81527/bpw77n.pdf",
+      "type": "manufacturer",
+      "scope": "Public detector documentation identifying NPN transistor action and terminal roles. Optical package geometry and measurement curves remain on the publisher site.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

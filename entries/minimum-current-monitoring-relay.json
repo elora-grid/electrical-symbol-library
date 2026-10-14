@@ -1,0 +1,84 @@
+{
+  "slug": "minimum-current-monitoring-relay",
+  "name": "Minimum-current monitoring relay",
+  "kind": "symbol",
+  "abbreviation": "I LOW",
+  "aliases": [
+    "HCR1F26",
+    "VCR1F26"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A minimum-current relay operates according to a configured low-current condition.",
+  "description": [
+    "A minimum-current relay operates according to a configured low-current condition. Control drawings must identify whether it supervises an operating load, a permissive or another circuit."
+  ],
+  "readingNotes": [
+    "Check how the relay handles zero current during intentional shutdown.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name supervised circuit",
+    "Reference enable condition",
+    "State threshold and delay"
+  ],
+  "distinction": "Low current can be an intentional stopped state; the control logic defines when it is abnormal.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1F26, VCR1F26 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "edu-minimum-current-monitoring-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/minimum-current-monitoring-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/minimum-current-monitoring-relay.svg",
+  "id": "minimum-current-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/minimum-current-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/minimum-current-monitoring-relay.json",
+  "svgPath": "artwork/svg/minimum-current-monitoring-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "iec-switch-disconnector-function-qualifier",
+  "name": "Switch-disconnector function qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070104",
+  "aliases": [
+    "Switch-disconnector function qualifier symbol",
+    "Q070104",
+    "Switch-disconnector function qualifier IEC reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies combined switching and isolation in the associated representation.",
+  "description": [
+    "This qualifier identifies combined switching and isolation in the associated representation. The combined function tells the reader that switching and isolation belong to the associated device representation. It does not add an overcurrent trip function.",
+    "When the SLD is expanded into a control schematic, retain the device tag and show any auxiliary contacts or operating mechanism separately. Protective devices elsewhere in the circuit remain separate items."
+  ],
+  "readingNotes": [
+    "Read it with the complete power device and its operating-state information.",
+    "Switch-disconnector duty is different from automatic circuit-breaker interruption."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Read it with the complete power device and its operating-state information.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Switch-disconnector duty is different from automatic circuit-breaker interruption.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070104 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Read it with the complete power device and its operating-state information."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "edu-iec-switch-disconnector-function-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Switch-disconnector function qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-switch-disconnector-function-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-switch-disconnector-function-qualifier.svg",
+  "id": "iec-switch-disconnector-function-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-switch-disconnector-function-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-switch-disconnector-function-qualifier.json",
+  "svgPath": "artwork/svg/iec-switch-disconnector-function-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

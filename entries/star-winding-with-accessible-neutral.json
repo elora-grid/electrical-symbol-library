@@ -1,0 +1,78 @@
+{
+  "slug": "star-winding-with-accessible-neutral",
+  "name": "Star winding with accessible neutral",
+  "kind": "symbol",
+  "abbreviation": "Y N",
+  "aliases": [],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An accessible-neutral star winding brings the common star point to a documented terminal.",
+  "description": [
+    "An accessible-neutral star winding brings the common star point to a documented terminal. Earthing and neutral loading details are supplied separately by the system design."
+  ],
+  "readingNotes": [
+    "Trace the neutral conductor separately from protective earth.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label neutral terminal",
+    "Show neutral earthing arrangement",
+    "Reference neutral rating"
+  ],
+  "distinction": "An accessible neutral is not automatically a protective-earth conductor.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Three-phase winding"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-windings",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "generator"
+  ],
+  "artwork": "edu-star-winding-with-accessible-neutral",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/star-winding-with-accessible-neutral",
+  "illustration": "https://eloragrid.ai/library/illustrations/star-winding-with-accessible-neutral.svg",
+  "id": "star-winding-with-accessible-neutral",
+  "canonicalUrl": "https://eloragrid.ai/symbols/star-winding-with-accessible-neutral",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/star-winding-with-accessible-neutral.json",
+  "svgPath": "artwork/svg/star-winding-with-accessible-neutral.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-windings",
+      "title": "AutoCAD Electrical: Winding arrangements and AC/DC indications",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3F5A759D-872A-4990-8AAE-7CCAFBBBD4C5.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

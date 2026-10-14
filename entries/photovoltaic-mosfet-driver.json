@@ -1,0 +1,82 @@
+{
+  "slug": "photovoltaic-mosfet-driver",
+  "name": "Photovoltaic MOSFET driver",
+  "kind": "symbol",
+  "abbreviation": "PV-DRV",
+  "aliases": [
+    "photovoltaic optocoupler",
+    "optically isolated MOSFET drive"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An optical component producing an isolated photovoltaic output used to drive a MOSFET gate circuit.",
+  "description": [
+    "An optical component producing an isolated photovoltaic output used to drive a MOSFET gate circuit.",
+    "On a schematic, identify the LED input, photovoltaic output polarity and gate-discharge arrangement and trace the isolated MOSFET switching circuit. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The photovoltaic output drives a gate circuit; this component is distinct from a solar-generator power connection.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the LED input, photovoltaic output polarity and gate-discharge arrangement.",
+    "Trace the isolated MOSFET switching circuit."
+  ],
+  "drawingChecklist": [
+    "Label the LED input, photovoltaic output polarity and gate-discharge arrangement.",
+    "Cross-reference the isolated MOSFET switching circuit.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The photovoltaic output drives a gate circuit; this component is distinct from a solar-generator power connection.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PV-DRV — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The LED input, photovoltaic output polarity and gate-discharge arrangement"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-vishay-pv-driver",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "n-channel-enhancement-mosfet",
+    "diode"
+  ],
+  "artwork": "electronics-opto-pv",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-mosfet-driver",
+  "illustration": "https://eloragrid.ai/library/illustrations/photovoltaic-mosfet-driver.svg",
+  "id": "photovoltaic-mosfet-driver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-mosfet-driver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-mosfet-driver.json",
+  "svgPath": "artwork/svg/photovoltaic-mosfet-driver.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-vishay-pv-driver",
+      "title": "VOM1271 photovoltaic MOSFET driver documentation",
+      "publisher": "Vishay",
+      "url": "https://www.vishay.com/docs/83469/vom1271.pdf",
+      "type": "manufacturer",
+      "scope": "Public photovoltaic optocoupler gate-drive reference. Input/output relationships are described independently; the manufacturer’s circuit diagrams are linked only.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

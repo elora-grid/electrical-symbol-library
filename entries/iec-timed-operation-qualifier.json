@@ -1,0 +1,91 @@
+{
+  "slug": "iec-timed-operation-qualifier",
+  "name": "Timed-operation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021327",
+  "aliases": [
+    "Timed-operation qualifier symbol",
+    "Q021327",
+    "Timed-operation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A timed-operation qualifier identifies operation influenced by the documented timing function.",
+  "description": [
+    "A timed-operation qualifier identifies operation influenced by the documented timing function. A timing relationship describes when an action follows an initiating event. It does not decide whether the timing continues after the input disappears or how the function resets.",
+    "Document the input transition, the timed output and the intended timing mode. The main contact or actuator representation still supplies the resulting state."
+  ],
+  "readingNotes": [
+    "State the trigger, timing mode and reset condition separately.",
+    "A generic timing indication does not distinguish on-delay, off-delay or pulse operation."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the trigger, timing mode and reset condition separately.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A generic timing indication does not distinguish on-delay, off-delay or pulse operation.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021327 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "State the trigger, timing mode and reset condition separately."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-timed-operation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Timed-operation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-timed-operation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-timed-operation-qualifier.svg",
+  "id": "iec-timed-operation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-timed-operation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-timed-operation-qualifier.json",
+  "svgPath": "artwork/svg/iec-timed-operation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

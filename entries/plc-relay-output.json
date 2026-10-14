@@ -1,0 +1,76 @@
+{
+  "slug": "plc-relay-output",
+  "name": "PLC relay output",
+  "kind": "symbol",
+  "abbreviation": "DO RELAY",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC relay output switches a documented contact path through the module's relay interface.",
+  "description": [
+    "A PLC relay output switches a documented contact path through the module's relay interface. The load supply and contact common may be separate from the PLC electronics supply."
+  ],
+  "readingNotes": [
+    "Trace the load source through the output contact and common terminal.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify output channel",
+    "Show load supply/common",
+    "Reference contact/load rating"
+  ],
+  "distinction": "A relay output is a contact interface, not a transistor output with the same supply/common behaviour.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Controller interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-digital-io",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "terminal"
+  ],
+  "artwork": "edu-plc-relay-output",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-relay-output",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-relay-output.svg",
+  "id": "plc-relay-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-relay-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-relay-output.json",
+  "svgPath": "artwork/svg/plc-relay-output.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-digital-io",
+      "title": "Modicon TM3 digital I/O hardware guide",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ca/en/download/document/EIO0000003125/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

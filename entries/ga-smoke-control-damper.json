@@ -1,0 +1,88 @@
+{
+  "slug": "ga-smoke-control-damper",
+  "name": "Smoke-control damper",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "smoke damper",
+    "Smoke-control damper CAD",
+    "Smoke-control damper general arrangement",
+    "Smoke-control damper panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A smoke damper controls the specified smoke-related airflow boundary.",
+  "description": [
+    "A smoke damper controls the specified smoke-related airflow boundary.",
+    "Show actuator, access panel and the documented fire-control interface. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show actuator, access panel and the documented fire-control interface.",
+    "Smoke and fire performance classifications must be verified for the selected device and installation."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show actuator, access panel and the documented fire-control interface.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Smoke and fire performance classifications must be verified for the selected device and installation.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-greenheck-aircontrol",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-smoke-control-damper",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-smoke-control-damper",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-smoke-control-damper.svg",
+  "id": "ga-smoke-control-damper",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-smoke-control-damper",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-smoke-control-damper.json",
+  "svgPath": "artwork/svg/ga-smoke-control-damper.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-greenheck-aircontrol",
+      "title": "Air-control product categories",
+      "publisher": "Greenheck",
+      "url": "https://www.greenheck.com/products/air-conditioning/ChangeLanguage",
+      "type": "manufacturer",
+      "scope": "Official product navigation for fire/smoke/backdraft/control dampers and louvers; classification links are not certification claims.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

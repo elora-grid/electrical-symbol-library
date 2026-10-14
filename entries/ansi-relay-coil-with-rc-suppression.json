@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-relay-coil-with-rc-suppression",
+  "name": "ANSI/IEEE relay coil with rc suppression symbol",
+  "kind": "symbol",
+  "abbreviation": "K RC",
+  "aliases": [
+    "IEEE relay coil with rc suppression symbol",
+    "ANSI relay coil with rc suppression symbol",
+    "HCR1K39"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for relay coil with rc suppression, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The RC-suppressed relay form associates resistance and capacitance with the operating circuit. Its actual network location and compatibility come from the selected assembly, while the contact circuit remains separately referenced.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Determine whether suppression is in the coil, socket or external wiring.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Show network location",
+    "State coil supply",
+    "Reference compatible suppression module"
+  ],
+  "distinction": "An RC network and a diode suppressor are different component arrangements, not interchangeable graphic decorations.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Relays with Suppression"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HCR1K39 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-538b6a25-1215-4f1b-a824-0181d01be721",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "relay-coil-with-rc-suppression",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-relay-coil-with-rc-suppression",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Relays with Suppression functional form",
+    "counterpart": "relay-coil-with-rc-suppression",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-relay-coil-with-rc-suppression",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-relay-coil-with-rc-suppression.svg",
+  "id": "ansi-relay-coil-with-rc-suppression",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-relay-coil-with-rc-suppression",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-relay-coil-with-rc-suppression.json",
+  "svgPath": "artwork/svg/ansi-relay-coil-with-rc-suppression.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-538b6a25-1215-4f1b-a824-0181d01be721",
+      "title": "Autodesk IEEE Symbol Preview — Relays with Suppression",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-538B6A25-1215-4F1B-A824-0181D01BE721.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

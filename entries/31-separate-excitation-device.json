@@ -1,0 +1,99 @@
+{
+  "slug": "31-separate-excitation-device",
+  "name": "Separate excitation device",
+  "kind": "function",
+  "abbreviation": "31",
+  "aliases": [
+    "separate excitation",
+    "excitation connection device",
+    "ANSI 31",
+    "IEEE device 31"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Connects or controls a separately supplied excitation arrangement for a machine.",
+  "description": [
+    "Connects or controls a separately supplied excitation arrangement for a machine.",
+    "In a drafting package, connect this reference to the separate excitation supply and machine field connection. The associated drawing should trace the excitation switching command and sequence references; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings.",
+    "This designation is useful when reading machine and legacy control drawings. Retain the documented function on an existing drawing and consult the original equipment manual before assigning it to a new design."
+  ],
+  "readingNotes": [
+    "Identify the separate excitation supply and machine field connection.",
+    "Trace the excitation switching command and sequence references."
+  ],
+  "drawingChecklist": [
+    "Label the separate excitation supply and machine field connection.",
+    "Cross-reference the excitation switching command and sequence references.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "This specialist machine-control reference should be interpreted with the excitation drawing; device 41 identifies a field breaker.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "31"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The separate excitation supply and machine field connection"
+    },
+    {
+      "label": "Application scope",
+      "value": "Specialist or legacy machine-control use; interpret with the equipment legend."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/31-separate-excitation-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/31-separate-excitation-device.svg",
+  "id": "31-separate-excitation-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/31-separate-excitation-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/31-separate-excitation-device.json",
+  "svgPath": "artwork/svg/31-separate-excitation-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

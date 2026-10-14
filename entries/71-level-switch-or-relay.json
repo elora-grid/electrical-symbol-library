@@ -1,0 +1,99 @@
+{
+  "slug": "71-level-switch-or-relay",
+  "name": "Level switch or relay",
+  "kind": "function",
+  "abbreviation": "71",
+  "aliases": [
+    "liquid level relay",
+    "gas level relay",
+    "level switch",
+    "ANSI 71",
+    "IEEE device 71"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Signals a defined level condition in the monitored equipment.",
+  "description": [
+    "Signals a defined level condition in the monitored equipment.",
+    "In a drafting package, connect this reference to the level sensor location and high/low contact meaning. The associated drawing should trace the level alarm, pump control or trip destination; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the level sensor location and high/low contact meaning.",
+    "Trace the level alarm, pump control or trip destination."
+  ],
+  "drawingChecklist": [
+    "Label the level sensor location and high/low contact meaning.",
+    "Cross-reference the level alarm, pump control or trip destination.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A level switch supervises level; flow switch 80 supervises movement through a circuit.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "71"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The level sensor location and high/low contact meaning"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "transformer-envelope",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/71-level-switch-or-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/71-level-switch-or-relay.svg",
+  "id": "71-level-switch-or-relay",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/71-level-switch-or-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/71-level-switch-or-relay.json",
+  "svgPath": "artwork/svg/71-level-switch-or-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

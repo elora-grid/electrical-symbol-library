@@ -1,0 +1,88 @@
+{
+  "slug": "ga-busbar-support-insulator",
+  "name": "Busbar support insulator",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "busbar standoff",
+    "Busbar support insulator CAD",
+    "Busbar support insulator general arrangement",
+    "Busbar support insulator panel layout"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A support insulator locates and separates busbar conductors within an assembly.",
+  "description": [
+    "A support insulator locates and separates busbar conductors within an assembly.",
+    "Coordinate conductor fixing interfaces, support positions and barrier clearances. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate conductor fixing interfaces, support positions and barrier clearances.",
+    "Electrical and mechanical suitability depend on the complete verified assembly."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate conductor fixing interfaces, support positions and barrier clearances.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Electrical and mechanical suitability depend on the complete verified assembly.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-busbar-support-insulator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-busbar-support-insulator",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-busbar-support-insulator.svg",
+  "id": "ga-busbar-support-insulator",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-busbar-support-insulator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-busbar-support-insulator.json",
+  "svgPath": "artwork/svg/ga-busbar-support-insulator.svg",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-adjustable-core-inductor",
+  "name": "ANSI/IEEE adjustable-core inductor symbol",
+  "kind": "symbol",
+  "abbreviation": "L ADJ",
+  "aliases": [
+    "IEEE adjustable-core inductor symbol",
+    "ANSI adjustable-core inductor symbol",
+    "HRT1L4"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for adjustable-core inductor, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The adjustable inductor form combines a winding with an adjustment function. Its drawing must identify the adjusted parameter and the product's permitted range, rather than interpreting an arrow as a signal connection.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Separate the adjustment indication from the winding leads.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State inductance range",
+    "Identify adjustment method",
+    "Reference component limits"
+  ],
+  "distinction": "An adjustment arrow does not represent an extra conducting terminal unless the actual device diagram says so.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Reactors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HRT1L4 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-2246c552-4410-48ff-9e4b-05b6460b62f7",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "adjustable-core-inductor",
+    "power-transformer",
+    "capacitor"
+  ],
+  "artwork": "edu-ansi-adjustable-core-inductor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Reactors functional form",
+    "counterpart": "adjustable-core-inductor",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-adjustable-core-inductor",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-adjustable-core-inductor.svg",
+  "id": "ansi-adjustable-core-inductor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-adjustable-core-inductor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-adjustable-core-inductor.json",
+  "svgPath": "artwork/svg/ansi-adjustable-core-inductor.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-2246c552-4410-48ff-9e4b-05b6460b62f7",
+      "title": "Autodesk IEEE Symbol Preview — Reactors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-2246C552-4410-48FF-9E4B-05B6460B62F7.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

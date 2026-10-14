@@ -1,0 +1,85 @@
+{
+  "slug": "three-phase-star-autotransformer",
+  "name": "Three-phase star autotransformer",
+  "kind": "symbol",
+  "abbreviation": "AT 3PH Y",
+  "aliases": [
+    "HXF1T19",
+    "VXF1T19"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-phase star-connected autotransformer has electrically shared winding portions arranged in a three-phase star connection.",
+  "description": [
+    "A three-phase star-connected autotransformer has electrically shared winding portions arranged in a three-phase star connection. Its neutral and tap connections need explicit identification."
+  ],
+  "readingNotes": [
+    "Determine how the common star point and any accessible neutral are used by the design.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show star point",
+    "State winding voltage ratios",
+    "Reference tap terminals"
+  ],
+  "distinction": "A star autotransformer is electrically different from a star-star two-winding transformer.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1T19, VXF1T19 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-three-phase-star-autotransformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-star-autotransformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-star-autotransformer.svg",
+  "id": "three-phase-star-autotransformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-star-autotransformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-star-autotransformer.json",
+  "svgPath": "artwork/svg/three-phase-star-autotransformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

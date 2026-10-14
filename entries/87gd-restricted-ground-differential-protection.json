@@ -1,0 +1,106 @@
+{
+  "slug": "87gd-restricted-ground-differential-protection",
+  "name": "Restricted ground differential protection",
+  "kind": "function",
+  "abbreviation": "87GD",
+  "aliases": [
+    "restricted ground fault",
+    "restricted earth fault",
+    "REF",
+    "ground differential",
+    "ANSI 87GD",
+    "IEEE 87GD"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Compares ground-fault-related currents for the restricted zone defined by the cited relay application.",
+  "description": [
+    "Compares ground-fault-related currents for the restricted zone defined by the cited relay application.",
+    "The drafting record should connect this function to the phase and neutral CT arrangement and winding earthing point, then trace the restricted ground differential zone and trip outputs. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton ETR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the phase and neutral CT arrangement and winding earthing point.",
+    "Trace the restricted ground differential zone and trip outputs."
+  ],
+  "drawingChecklist": [
+    "Label the phase and neutral CT arrangement and winding earthing point.",
+    "Cross-reference the restricted ground differential zone and trip outputs.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Restricted ground differential protects a defined earthed zone; it is distinct from the transformer-wide phase differential element.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "87GD"
+    },
+    {
+      "label": "Base function",
+      "value": "87 — Differential protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton ETR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "87-differential",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/87gd-restricted-ground-differential-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/87gd-restricted-ground-differential-protection.svg",
+  "id": "87gd-restricted-ground-differential-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/87gd-restricted-ground-differential-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/87gd-restricted-ground-differential-protection.json",
+  "svgPath": "artwork/svg/87gd-restricted-ground-differential-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

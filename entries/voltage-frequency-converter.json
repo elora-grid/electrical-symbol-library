@@ -1,0 +1,83 @@
+{
+  "slug": "voltage-frequency-converter",
+  "name": "Voltage / frequency converter",
+  "kind": "symbol",
+  "abbreviation": "V/F",
+  "aliases": [
+    "voltage to frequency",
+    "frequency to voltage",
+    "V F V converter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Converts between an analogue voltage and a pulse-frequency representation in the documented selected configuration.",
+  "description": [
+    "Converts between an analogue voltage and a pulse-frequency representation in the documented selected configuration.",
+    "On a schematic, identify the signal input, conversion direction and timing/scaling network and trace the pulse or analogue output and its receiving interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The drawing must state the selected direction; the same component family may support V-to-F and F-to-V through different external connections.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the signal input, conversion direction and timing/scaling network.",
+    "Trace the pulse or analogue output and its receiving interface."
+  ],
+  "drawingChecklist": [
+    "Label the signal input, conversion direction and timing/scaling network.",
+    "Cross-reference the pulse or analogue output and its receiving interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The drawing must state the selected direction; the same component family may support V-to-F and F-to-V through different external connections.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "V/F — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The signal input, conversion direction and timing/scaling network"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-vf",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "frequency-meter",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-vf",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltage-frequency-converter",
+  "illustration": "https://eloragrid.ai/library/illustrations/voltage-frequency-converter.svg",
+  "id": "voltage-frequency-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltage-frequency-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltage-frequency-converter.json",
+  "svgPath": "artwork/svg/voltage-frequency-converter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-vf",
+      "title": "AD650 — voltage/frequency conversion",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ad650.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for voltage/frequency conversion. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

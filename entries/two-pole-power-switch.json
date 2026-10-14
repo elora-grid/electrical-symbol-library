@@ -1,0 +1,85 @@
+{
+  "slug": "two-pole-power-switch",
+  "name": "Two-pole power switch",
+  "kind": "symbol",
+  "abbreviation": "SW 2P",
+  "aliases": [
+    "HCB11Q50",
+    "VCB11Q50"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A two-pole power switch operates two circuit conductors through a common device.",
+  "description": [
+    "A two-pole power switch operates two circuit conductors through a common device. The schematic may use separate pole elements linked by a mechanism annotation."
+  ],
+  "readingNotes": [
+    "Identify whether the two poles are phases, a phase and neutral, or DC conductors.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name both conductors",
+    "Show common operator",
+    "Reference switching ratings"
+  ],
+  "distinction": "Two poles do not necessarily mean a two-phase supply.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCB11Q50, VCB11Q50 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-power-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "edu-two-pole-power-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/two-pole-power-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/two-pole-power-switch.svg",
+  "id": "two-pole-power-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/two-pole-power-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/two-pole-power-switch.json",
+  "svgPath": "artwork/svg/two-pole-power-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-power-switches",
+      "title": "AutoCAD Electrical: Power semiconductor switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-54E4231E-F794-4527-9104-C2D7BA312077.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

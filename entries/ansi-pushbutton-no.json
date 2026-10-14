@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-pushbutton-no",
+  "name": "ANSI/IEEE normally open pushbutton symbol",
+  "kind": "symbol",
+  "abbreviation": "PB NO",
+  "aliases": [
+    "IEEE normally open pushbutton symbol",
+    "ANSI normally open pushbutton symbol",
+    "HPB11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for normally open pushbutton, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The momentary NO pushbutton form associates an operator action with an initially open contact. Read the actuator and contact together, then identify the control path that becomes continuous while the button is operated.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Keep the operator's release action separate from any electrical holding circuit.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State operator function",
+    "Show contact terminals",
+    "Reference controlled circuit"
+  ],
+  "distinction": "A momentary pushbutton returns mechanically; a latched pushbutton retains its position.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Push Buttons"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HPB11 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-863a2eb5-8ecd-4348-90c7-49a37de11b8b",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "pushbutton-nc",
+    "normally-open-contact",
+    "selector-switch"
+  ],
+  "artwork": "edu-ansi-pushbutton-no",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Push Buttons functional form",
+    "counterpart": "pushbutton-no",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-pushbutton-no",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-pushbutton-no.svg",
+  "id": "ansi-pushbutton-no",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-pushbutton-no",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-pushbutton-no.json",
+  "svgPath": "artwork/svg/ansi-pushbutton-no.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-863a2eb5-8ecd-4348-90c7-49a37de11b8b",
+      "title": "Autodesk IEEE Symbol Preview — Push Buttons",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-863A2EB5-8ECD-4348-90C7-49A37DE11B8B.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "parity-generator-checker",
+  "name": "Parity generator / checker",
+  "kind": "symbol",
+  "abbreviation": "PARITY",
+  "aliases": [
+    "odd even parity",
+    "parity check logic"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Computes a parity indication from the defined digital input word.",
+  "description": [
+    "Computes a parity indication from the defined digital input word.",
+    "On a schematic, identify the data width, odd/even convention and cascade mapping and trace the parity output and check/alarm interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A parity check detects a defined class of bit errors; it is not a complete CRC, data-integrity or safety protocol.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the data width, odd/even convention and cascade mapping.",
+    "Trace the parity output and check/alarm interface."
+  ],
+  "drawingChecklist": [
+    "Label the data width, odd/even convention and cascade mapping.",
+    "Cross-reference the parity output and check/alarm interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A parity check detects a defined class of bit errors; it is not a complete CRC, data-integrity or safety protocol.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PARITY — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The data width, odd/even convention and cascade mapping"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-ls280",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-xor-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-parity",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/parity-generator-checker",
+  "illustration": "https://eloragrid.ai/library/illustrations/parity-generator-checker.svg",
+  "id": "parity-generator-checker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/parity-generator-checker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/parity-generator-checker.json",
+  "svgPath": "artwork/svg/parity-generator-checker.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-ls280",
+      "title": "SN74LS280 — odd/even parity generation and checking",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74LS280",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of odd/even parity generation and checking. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

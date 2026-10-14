@@ -1,0 +1,78 @@
+{
+  "slug": "zigzag-winding-connection",
+  "name": "Zigzag winding connection",
+  "kind": "symbol",
+  "abbreviation": "ZIGZAG",
+  "aliases": [],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A zigzag winding interconnects portions of phase windings in a specified arrangement.",
+  "description": [
+    "A zigzag winding interconnects portions of phase windings in a specified arrangement. Its neutral and zero-sequence behaviour depend on the actual transformer connection and ratings."
+  ],
+  "readingNotes": [
+    "Use the manufacturer's winding diagram to identify all interconnections.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State zigzag designation",
+    "Identify neutral point",
+    "Reference earthing or transformer duty"
+  ],
+  "distinction": "A zigzag winding is different from a three-phase star formed from one winding per phase.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Three-phase winding"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-windings",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "generator"
+  ],
+  "artwork": "edu-zigzag-winding-connection",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/zigzag-winding-connection",
+  "illustration": "https://eloragrid.ai/library/illustrations/zigzag-winding-connection.svg",
+  "id": "zigzag-winding-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/zigzag-winding-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/zigzag-winding-connection.json",
+  "svgPath": "artwork/svg/zigzag-winding-connection.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-windings",
+      "title": "AutoCAD Electrical: Winding arrangements and AC/DC indications",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3F5A759D-872A-4990-8AAE-7CCAFBBBD4C5.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

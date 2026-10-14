@@ -1,0 +1,91 @@
+{
+  "slug": "selector-switch",
+  "name": "Selector switch",
+  "kind": "symbol",
+  "abbreviation": "SS",
+  "aliases": [
+    "hand off auto",
+    "HOA",
+    "local remote switch",
+    "manual automatic selector",
+    "HSS112",
+    "VSS112"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An operator switch selecting between documented control positions.",
+  "description": [
+    "A selector switch provides a choice between operating positions such as local and remote or manual and automatic. Its contacts may be shown separately from the operator symbol. The contact truth table or switching schedule defines which contacts operate in each position.",
+    "Maintained positions and spring-return positions behave differently. Labels, detents and return direction should be made explicit. A contact mark alone cannot describe the full switching sequence of a multi-position selector."
+  ],
+  "readingNotes": [
+    "Read the position labels and any contact schedule together.",
+    "Identify maintained positions and returning positions from documented operator data."
+  ],
+  "drawingChecklist": [
+    "Name each position.",
+    "Reference the associated contact blocks and terminals.",
+    "Show the return behaviour and switching schedule."
+  ],
+  "distinction": "A changeover contact describes connections; a selector switch also includes an operator and its position behaviour.",
+  "facts": [
+    {
+      "label": "Operating positions",
+      "value": "Defined by the selected operator"
+    },
+    {
+      "label": "Return behaviour",
+      "value": "Maintained or returning"
+    },
+    {
+      "label": "Contact relationship",
+      "value": "Switching schedule and terminal documentation"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HSS112, VSS112 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-selectors",
+      "relevance": "Public selector-switch positions and contact variants."
+    }
+  ],
+  "related": [
+    "changeover-contact",
+    "pushbutton-no",
+    "normally-open-contact",
+    "control-cabinet"
+  ],
+  "artwork": "selector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/selector-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/selector-switch.svg",
+  "id": "selector-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/selector-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/selector-switch.json",
+  "svgPath": "artwork/svg/selector-switch.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-selectors",
+      "title": "Selector-switch contact and operating variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E1B4D1DE-C709-4E3E-AF7C-1A8989D096E9.htm",
+      "type": "cad-reference",
+      "scope": "Maintained and returning selector-switch positions and associated contacts.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public selector-switch positions and contact variants."
+    }
+  ]
+}

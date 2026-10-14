@@ -1,0 +1,76 @@
+{
+  "slug": "plc-analog-output",
+  "name": "PLC analog output",
+  "kind": "symbol",
+  "abbreviation": "AO",
+  "aliases": [],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PLC analog output provides a documented variable voltage or current signal to another device.",
+  "description": [
+    "A PLC analog output provides a documented variable voltage or current signal to another device. The receiving input and output common must match the configured signal range."
+  ],
+  "readingNotes": [
+    "Check active/passive loop roles for current outputs.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State output range",
+    "Identify output/common terminals",
+    "Reference receiving-device input"
+  ],
+  "distinction": "An analog output commands a continuous signal; it is different from a switched relay contact.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Controller interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-analog-io",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "terminal"
+  ],
+  "artwork": "edu-plc-analog-output",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plc-analog-output",
+  "illustration": "https://eloragrid.ai/library/illustrations/plc-analog-output.svg",
+  "id": "plc-analog-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plc-analog-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plc-analog-output.json",
+  "svgPath": "artwork/svg/plc-analog-output.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-analog-io",
+      "title": "Modicon TM3 analog I/O hardware guide",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/EIO0000003131/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

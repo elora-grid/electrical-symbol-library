@@ -1,0 +1,85 @@
+{
+  "slug": "three-phase-synchronous-generator",
+  "name": "Three-phase synchronous generator",
+  "kind": "symbol",
+  "abbreviation": "G 3PH SYNC",
+  "aliases": [
+    "HPW1G7",
+    "VPW1G7"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-phase synchronous generator supplies a documented AC source associated with its mechanical prime mover and excitation system.",
+  "description": [
+    "A three-phase synchronous generator supplies a documented AC source associated with its mechanical prime mover and excitation system. The electrical drawing identifies terminals, neutral and generator-control connections."
+  ],
+  "readingNotes": [
+    "Locate the voltage/current measurement points used by the generator controls.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State output and winding ratings",
+    "Show neutral arrangement",
+    "Reference excitation and protection"
+  ],
+  "distinction": "The electrical generator representation is different from the complete mechanical generator package envelope.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Generating source"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPW1G7, VPW1G7 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "25-synchronism-check"
+  ],
+  "artwork": "edu-three-phase-synchronous-generator",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-synchronous-generator",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-phase-synchronous-generator.svg",
+  "id": "three-phase-synchronous-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-synchronous-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-synchronous-generator.json",
+  "svgPath": "artwork/svg/three-phase-synchronous-generator.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

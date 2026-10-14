@@ -1,0 +1,84 @@
+{
+  "slug": "key-operated-normally-closed-switch",
+  "name": "Key-operated normally-closed switch",
+  "kind": "symbol",
+  "abbreviation": "KEY NC",
+  "aliases": [
+    "HPB12KS",
+    "VPB12KS"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A key-operated NC switch opens its reference closed contact through the key mechanism.",
+  "description": [
+    "A key-operated NC switch opens its reference closed contact through the key mechanism. Its access and switching functions must be documented separately."
+  ],
+  "readingNotes": [
+    "Read the reference position from the operator schedule.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Define normal key position",
+    "State contact action",
+    "Reference key-removal restrictions"
+  ],
+  "distinction": "NC identifies the contact reference state, not a guarantee of tamper-proof control.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Manual operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPB12KS, VPB12KS (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-misc-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "edu-key-operated-normally-closed-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/key-operated-normally-closed-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/key-operated-normally-closed-switch.svg",
+  "id": "key-operated-normally-closed-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/key-operated-normally-closed-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/key-operated-normally-closed-switch.json",
+  "svgPath": "artwork/svg/key-operated-normally-closed-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-misc-switches",
+      "title": "AutoCAD Electrical: Level, flow, keyed and measurement switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1FB94435-C954-4479-BD97-25796DB8F728.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "motor",
+  "name": "Three-phase motor",
+  "kind": "symbol",
+  "abbreviation": "M",
+  "aliases": [
+    "electric motor",
+    "3 phase motor",
+    "motor load",
+    "HMO13",
+    "VMO13"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An electrical motor load connected to its switching and protective equipment.",
+  "description": [
+    "A motor representation identifies an electrical machine operating as a load in the stated system arrangement. Connection count, motor type and additional winding or rotor detail can change the representation. Its nameplate and equipment schedule provide the selected machine data.",
+    "The SLD places the motor and its feeder equipment. A schematic shows the controller, coil supply, protection interfaces and auxiliary functions. A simple circle and motor label do not establish a complete motor-starting or protective arrangement."
+  ],
+  "readingNotes": [
+    "Follow the feeder back to its switching and protective devices.",
+    "Read the documented motor connection and starting arrangement."
+  ],
+  "drawingChecklist": [
+    "Reference motor rating and connection data.",
+    "Identify the starter or control arrangement.",
+    "Cross-reference auxiliary and protection circuits."
+  ],
+  "distinction": "A contactor switches the motor circuit. Motor protection and short-circuit interruption may be provided by additional specified equipment.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Electrical machine load"
+    },
+    {
+      "label": "Connection detail",
+      "value": "Motor-specific"
+    },
+    {
+      "label": "Feeder equipment",
+      "value": "Separate switching and protection"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HMO13, VMO13 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-motors",
+      "relevance": "Public three-phase motor variants."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Manufacturer description of contactor and protective roles."
+    }
+  ],
+  "related": [
+    "contactor",
+    "circuit-breaker",
+    "49-thermal-protection",
+    "relay-coil"
+  ],
+  "artwork": "motor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/motor",
+  "illustration": "https://eloragrid.ai/library/illustrations/motor.svg",
+  "id": "motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor.json",
+  "svgPath": "artwork/svg/motor.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-motors",
+      "title": "Three-phase motor symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-385CBE83-33A3-4314-913E-3B59A6D05F22.htm",
+      "type": "cad-reference",
+      "scope": "Motor variants including asynchronous, synchronous and connection-count differences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public three-phase motor variants."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer description of contactor and protective roles."
+    }
+  ]
+}

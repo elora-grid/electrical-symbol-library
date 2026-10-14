@@ -1,0 +1,82 @@
+{
+  "slug": "op-amp-differentiator",
+  "name": "Op-amp differentiator",
+  "kind": "symbol",
+  "abbreviation": "DIFFERENTIATOR",
+  "aliases": [
+    "analogue differentiator",
+    "differentiating amplifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses an amplifier input/feedback arrangement to obtain a differentiating response over its intended operating band.",
+  "description": [
+    "Uses an amplifier input/feedback arrangement to obtain a differentiating response over its intended operating band.",
+    "On a schematic, identify the input capacitance, feedback path and bandwidth-limiting network and trace the differentiated output and reference. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A practical differentiator has an intended frequency range; the ideal mathematical label does not specify a stable component circuit.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the input capacitance, feedback path and bandwidth-limiting network.",
+    "Trace the differentiated output and reference."
+  ],
+  "drawingChecklist": [
+    "Label the input capacitance, feedback path and bandwidth-limiting network.",
+    "Cross-reference the differentiated output and reference.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A practical differentiator has an intended frequency range; the ideal mathematical label does not specify a stable component circuit.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "DIFFERENTIATOR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The input capacitance, feedback path and bandwidth-limiting network"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-differentiator",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "op-amp-integrator",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-differentiator",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/op-amp-differentiator",
+  "illustration": "https://eloragrid.ai/library/illustrations/op-amp-differentiator.svg",
+  "id": "op-amp-differentiator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/op-amp-differentiator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/op-amp-differentiator.json",
+  "svgPath": "artwork/svg/op-amp-differentiator.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-differentiator",
+      "title": "Differentiator circuit reference, SBOA276",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/pdf/sboa276",
+      "type": "manufacturer",
+      "scope": "Public differentiating-amplifier function and bandwidth context. No component values, complete design or manufacturer drawing is copied.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "87t-transformer-differential-protection",
+  "name": "Transformer differential protection",
+  "kind": "function",
+  "abbreviation": "87T",
+  "aliases": [
+    "transformer differential",
+    "transformer diff",
+    "ANSI 87T",
+    "IEEE 87T"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Compares currents associated with a transformer protection zone using the selected relay's differential method.",
+  "description": [
+    "Compares currents associated with a transformer protection zone using the selected relay's differential method.",
+    "The drafting record should connect this function to the transformer winding CT circuits, polarity and ratio references, then trace the transformer differential zone and breaker trip matrix. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (ABB Relion 620 function mapping). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the transformer winding CT circuits, polarity and ratio references.",
+    "Trace the transformer differential zone and breaker trip matrix."
+  ],
+  "drawingChecklist": [
+    "Label the transformer winding CT circuits, polarity and ratio references.",
+    "Cross-reference the transformer differential zone and breaker trip matrix.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "Transformer differential needs a defined zone and winding compensation; it differs from restricted earth-fault protection limited to one earthed winding.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "87T"
+    },
+    {
+      "label": "Base function",
+      "value": "87 — Differential protection"
+    },
+    {
+      "label": "Published mapping",
+      "value": "ABB Relion 620 function mapping"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-abb-mappings",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "87-differential",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/87t-transformer-differential-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/87t-transformer-differential-protection.svg",
+  "id": "87t-transformer-differential-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/87t-transformer-differential-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/87t-transformer-differential-protection.json",
+  "svgPath": "artwork/svg/87t-transformer-differential-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-abb-mappings",
+      "title": "Relion 620 series: published protection function and designation mappings",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Manufacturer mapping of function names, IEC identifiers and ANSI labels. These are examples for a documented product family, not universal equivalences between standards or products.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

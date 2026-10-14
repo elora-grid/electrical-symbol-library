@@ -1,0 +1,84 @@
+{
+  "slug": "three-position-key-selector",
+  "name": "Three-position key selector",
+  "kind": "symbol",
+  "abbreviation": "KEY SEL 3",
+  "aliases": [
+    "HSS11S40",
+    "VSS11S40"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-position key selector combines position selection with a key-operated mechanism.",
+  "description": [
+    "A three-position key selector combines position selection with a key-operated mechanism. Stable positions, return behaviour and key-removal conditions are all required for a complete control description."
+  ],
+  "readingNotes": [
+    "Do not assume that a removable key is allowed in every selected position.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "List positions",
+    "State key-removal conditions",
+    "Cross-reference contact schedule"
+  ],
+  "distinction": "Key operation adds access control to a selector; it does not change its electrical contact ratings.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Position selection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HSS11S40, VSS11S40 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-selector-three",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "changeover-contact"
+  ],
+  "artwork": "edu-three-position-key-selector",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-position-key-selector",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-position-key-selector.svg",
+  "id": "three-position-key-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-position-key-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-position-key-selector.json",
+  "svgPath": "artwork/svg/three-position-key-selector.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-selector-three",
+      "title": "AutoCAD Electrical: Three-position selectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-D8675B9D-9CBF-4B7F-8F09-2444779614D0.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

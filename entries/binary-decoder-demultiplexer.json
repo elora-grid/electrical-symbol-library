@@ -1,0 +1,83 @@
+{
+  "slug": "binary-decoder-demultiplexer",
+  "name": "Binary decoder / demultiplexer",
+  "kind": "symbol",
+  "abbreviation": "DEC",
+  "aliases": [
+    "binary decoder",
+    "demultiplexer",
+    "one of many selection"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses binary selection and enable conditions to activate the documented selected output.",
+  "description": [
+    "Uses binary selection and enable conditions to activate the documented selected output.",
+    "On a schematic, identify the binary address inputs, enable polarities and output active level and trace the selected output channels and destination mapping. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A decoder and a demultiplexer can share a device implementation; this record combines those uses rather than counting the same hardware twice.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the binary address inputs, enable polarities and output active level.",
+    "Trace the selected output channels and destination mapping."
+  ],
+  "drawingChecklist": [
+    "Label the binary address inputs, enable polarities and output active level.",
+    "Cross-reference the selected output channels and destination mapping.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A decoder and a demultiplexer can share a device implementation; this record combines those uses rather than counting the same hardware twice.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "DEC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The binary address inputs, enable polarities and output active level"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc138",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "digital-multiplexer",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-decoder",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/binary-decoder-demultiplexer",
+  "illustration": "https://eloragrid.ai/library/illustrations/binary-decoder-demultiplexer.svg",
+  "id": "binary-decoder-demultiplexer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/binary-decoder-demultiplexer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/binary-decoder-demultiplexer.json",
+  "svgPath": "artwork/svg/binary-decoder-demultiplexer.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc138",
+      "title": "SN74HC138 — binary decoding and demultiplexing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of binary decoding and demultiplexing. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

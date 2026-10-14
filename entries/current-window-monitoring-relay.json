@@ -1,0 +1,84 @@
+{
+  "slug": "current-window-monitoring-relay",
+  "name": "Current window monitoring relay",
+  "kind": "symbol",
+  "abbreviation": "I WINDOW",
+  "aliases": [
+    "HCR1F27",
+    "VCR1F27"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A current-window relay supervises both minimum and maximum current conditions.",
+  "description": [
+    "A current-window relay supervises both minimum and maximum current conditions. Its drawing links the measured circuit to separate or combined outputs according to the actual relay configuration."
+  ],
+  "readingNotes": [
+    "Identify the permitted current band and any start-up inhibition.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State both thresholds",
+    "Reference timing/inhibit logic",
+    "Show output assignment"
+  ],
+  "distinction": "A current window is a range-supervision function, not a measurement accuracy band.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1F27, VCR1F27 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "edu-current-window-monitoring-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-window-monitoring-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/current-window-monitoring-relay.svg",
+  "id": "current-window-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-window-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-window-monitoring-relay.json",
+  "svgPath": "artwork/svg/current-window-monitoring-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

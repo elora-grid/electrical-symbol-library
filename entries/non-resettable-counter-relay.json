@@ -1,0 +1,84 @@
+{
+  "slug": "non-resettable-counter-relay",
+  "name": "Non-resettable counter relay",
+  "kind": "symbol",
+  "abbreviation": "COUNT TOTAL",
+  "aliases": [
+    "HCR1CNN",
+    "VCR1CNN"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A non-resettable counter records events without a normal user reset function.",
+  "description": [
+    "A non-resettable counter records events without a normal user reset function. It is used where the total event history is part of the documented equipment indication."
+  ],
+  "readingNotes": [
+    "Check the specified retention behaviour when the auxiliary supply is lost.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Define qualifying event",
+    "State counter supply",
+    "Reference retention and rollover"
+  ],
+  "distinction": "A totalising counter is different from a preset counter intended to be reset each operating cycle.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR1CNN, VCR1CNN (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-counters",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-non-resettable-counter-relay",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/non-resettable-counter-relay",
+  "illustration": "https://eloragrid.ai/library/illustrations/non-resettable-counter-relay.svg",
+  "id": "non-resettable-counter-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/non-resettable-counter-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/non-resettable-counter-relay.json",
+  "svgPath": "artwork/svg/non-resettable-counter-relay.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-counters",
+      "title": "AutoCAD Electrical: Counter relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EDA5C048-228A-4ABF-B77B-D305F4BB656A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ga-fire-alarm-control-panel-location",
+  "name": "Fire alarm control panel location",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "FACP",
+    "Fire alarm control panel location CAD",
+    "Fire alarm control panel location general arrangement",
+    "Fire alarm control panel location panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A fire-alarm panel location coordinates the specified control equipment within the room or building layout.",
+  "description": [
+    "A fire-alarm panel location coordinates the specified control equipment within the room or building layout.",
+    "Reserve operation, wiring and service access defined by the fire design. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Reserve operation, wiring and service access defined by the fire design.",
+    "Its position must be coordinated with the project fire system rather than selected from this library preview."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Reserve operation, wiring and service access defined by the fire design.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "Its position must be coordinated with the project fire system rather than selected from this library preview.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-fire-alarm-control-panel-location",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-fire-alarm-control-panel-location",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-fire-alarm-control-panel-location.svg",
+  "id": "ga-fire-alarm-control-panel-location",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-fire-alarm-control-panel-location",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-fire-alarm-control-panel-location.json",
+  "svgPath": "artwork/svg/ga-fire-alarm-control-panel-location.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

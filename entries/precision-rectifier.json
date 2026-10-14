@@ -1,0 +1,83 @@
+{
+  "slug": "precision-rectifier",
+  "name": "Precision rectifier",
+  "kind": "symbol",
+  "abbreviation": "PREC-RECT",
+  "aliases": [
+    "active rectifier",
+    "signal rectifier",
+    "super diode"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses an active amplifier/diode arrangement to rectify a signal according to the documented circuit.",
+  "description": [
+    "Uses an active amplifier/diode arrangement to rectify a signal according to the documented circuit.",
+    "On a schematic, identify the signal polarity, amplifier rails and diode feedback paths and trace the rectified measurement output. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "Signal precision rectification differs from a power bridge rectifier and still depends on amplifier limits and circuit bandwidth.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the signal polarity, amplifier rails and diode feedback paths.",
+    "Trace the rectified measurement output."
+  ],
+  "drawingChecklist": [
+    "Label the signal polarity, amplifier rails and diode feedback paths.",
+    "Cross-reference the rectified measurement output.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "Signal precision rectification differs from a power bridge rectifier and still depends on amplifier limits and circuit bandwidth.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "PREC-RECT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The signal polarity, amplifier rails and diode feedback paths"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-precision-rectifier",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "single-phase-bridge-rectifier",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-rectifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/precision-rectifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/precision-rectifier.svg",
+  "id": "precision-rectifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/precision-rectifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/precision-rectifier.json",
+  "svgPath": "artwork/svg/precision-rectifier.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-precision-rectifier",
+      "title": "Precision full-wave signal rectification reference",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/tool/CIRCUIT060058",
+      "type": "manufacturer",
+      "scope": "Public active signal-rectifier circuit description. Only the function is explained; the manufacturer’s selected complete circuit, values and simulation files are not rehosted.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

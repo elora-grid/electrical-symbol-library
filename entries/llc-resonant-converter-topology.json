@@ -1,0 +1,83 @@
+{
+  "slug": "llc-resonant-converter-topology",
+  "name": "LLC resonant converter topology",
+  "kind": "symbol",
+  "abbreviation": "LLC",
+  "aliases": [
+    "LLC resonant converter",
+    "resonant DC DC"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A converter arrangement using the documented resonant inductive/capacitive network and magnetic transfer path.",
+  "description": [
+    "A converter arrangement using the documented resonant inductive/capacitive network and magnetic transfer path.",
+    "On a schematic, identify the resonant inductor/capacitor, magnetising inductance and switching bridge and trace the secondary output and resonant-controller interface. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "The LLC designation identifies a resonant network arrangement; it does not state component values, switching limits or efficiency.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the resonant inductor/capacitor, magnetising inductance and switching bridge.",
+    "Trace the secondary output and resonant-controller interface."
+  ],
+  "drawingChecklist": [
+    "Label the resonant inductor/capacitor, magnetising inductance and switching bridge.",
+    "Cross-reference the secondary output and resonant-controller interface.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "The LLC designation identifies a resonant network arrangement; it does not state component values, switching limits or efficiency.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "LLC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The resonant inductor/capacitor, magnetising inductance and switching bridge"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-llc",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "half-bridge-dc-converter-topology",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-llc",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/llc-resonant-converter-topology",
+  "illustration": "https://eloragrid.ai/library/illustrations/llc-resonant-converter-topology.svg",
+  "id": "llc-resonant-converter-topology",
+  "canonicalUrl": "https://eloragrid.ai/symbols/llc-resonant-converter-topology",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/llc-resonant-converter-topology.json",
+  "svgPath": "artwork/svg/llc-resonant-converter-topology.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-llc",
+      "title": "UCC256404 — LLC resonant-converter control",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/UCC256404",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of llc resonant-converter control. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

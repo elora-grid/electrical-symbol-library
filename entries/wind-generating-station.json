@@ -1,0 +1,85 @@
+{
+  "slug": "wind-generating-station",
+  "name": "Wind generating station",
+  "kind": "symbol",
+  "abbreviation": "WIND STN",
+  "aliases": [
+    "HDV1_S00402",
+    "VDV1_S00402"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A wind generating station is a system-level representation of a documented wind-generation facility.",
+  "description": [
+    "A wind generating station is a system-level representation of a documented wind-generation facility. The internal machines, converters and collection system require separate drawing detail."
+  ],
+  "readingNotes": [
+    "Identify the facility connection point separately from individual turbine sources.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name site boundary",
+    "Reference collector SLD",
+    "State network connection"
+  ],
+  "distinction": "A wind-station marker does not specify the generator or converter technology of each turbine.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HDV1_S00402, VDV1_S00402 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-station-types",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "generator",
+    "busbar"
+  ],
+  "artwork": "edu-wind-generating-station",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/wind-generating-station",
+  "illustration": "https://eloragrid.ai/library/illustrations/wind-generating-station.svg",
+  "id": "wind-generating-station",
+  "canonicalUrl": "https://eloragrid.ai/symbols/wind-generating-station",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/wind-generating-station.json",
+  "svgPath": "artwork/svg/wind-generating-station.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-station-types",
+      "title": "AutoCAD Electrical: Power station and substation concepts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74EF80E8-018D-4A57-88BD-FF973F1B8185.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-terminal",
+  "name": "ANSI/IEEE terminal connection symbol",
+  "kind": "symbol",
+  "abbreviation": "Terminal",
+  "aliases": [
+    "IEEE terminal connection symbol",
+    "ANSI terminal connection symbol",
+    "HT0_02"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for terminal connection, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The round terminal form identifies a connection point in the vendor's IEEE-oriented library. Terminal identity and wire-number conventions tell the reader whether it is a physical terminal, a diagram connection reference or another declared interface.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Use the terminal plan to resolve physical position.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "State terminal identifier",
+    "Show connected conductors",
+    "Reference terminal-strip plan"
+  ],
+  "distinction": "A terminal mark is different from a wire-junction dot when the drawing assigns it a physical connection identity.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Terminals"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HT0_02 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7c566b17-0c91-47f1-ad86-73893490622c",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "terminal",
+    "ct-test-terminal",
+    "terminal-strip",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-terminal",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Terminals functional form",
+    "counterpart": "terminal",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-terminal",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-terminal.svg",
+  "id": "ansi-terminal",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-terminal.json",
+  "svgPath": "artwork/svg/ansi-terminal.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7c566b17-0c91-47f1-ad86-73893490622c",
+      "title": "Autodesk IEEE Symbol Preview — Terminals",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7C566B17-0C91-47F1-AD86-73893490622C.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

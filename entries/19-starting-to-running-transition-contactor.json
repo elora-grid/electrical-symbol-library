@@ -1,0 +1,98 @@
+{
+  "slug": "19-starting-to-running-transition-contactor",
+  "name": "Starting-to-running transition contactor",
+  "kind": "function",
+  "abbreviation": "19",
+  "aliases": [
+    "transition contactor",
+    "start run contactor",
+    "ANSI 19",
+    "IEEE device 19"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Changes the machine connection from its starting arrangement to its running arrangement.",
+  "description": [
+    "Changes the machine connection from its starting arrangement to its running arrangement.",
+    "In a drafting package, connect this reference to the starting and running power connections. The associated drawing should trace the transition coil and interlocked contactors; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the starting and running power connections.",
+    "Trace the transition coil and interlocked contactors."
+  ],
+  "drawingChecklist": [
+    "Label the starting and running power connections.",
+    "Cross-reference the transition coil and interlocked contactors.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "A transition contactor changes the starting arrangement; it is not a generic reversing contactor.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "19"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The starting and running power connections"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "contactor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/19-starting-to-running-transition-contactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/19-starting-to-running-transition-contactor.svg",
+  "id": "19-starting-to-running-transition-contactor",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/19-starting-to-running-transition-contactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/19-starting-to-running-transition-contactor.json",
+  "svgPath": "artwork/svg/19-starting-to-running-transition-contactor.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

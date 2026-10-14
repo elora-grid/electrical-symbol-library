@@ -1,0 +1,84 @@
+{
+  "slug": "three-position-selector-returning-from-right",
+  "name": "Three-position selector returning from right",
+  "kind": "symbol",
+  "abbreviation": "SEL 3 RRET",
+  "aliases": [
+    "HSS113R",
+    "VSS113R"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This three-position selector returns from its right position according to its mechanism.",
+  "description": [
+    "This three-position selector returns from its right position according to its mechanism. The mode or command schedule needs to state which positions are momentary and which are retained."
+  ],
+  "readingNotes": [
+    "Trace the right-hand command after the operator releases the handle.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label stable positions",
+    "Show right-side return",
+    "Identify affected contacts"
+  ],
+  "distinction": "The printed right position depends on the defined front view of the operator.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Position selection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HSS113R, VSS113R (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-selector-three",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "changeover-contact"
+  ],
+  "artwork": "edu-three-position-selector-returning-from-right",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-position-selector-returning-from-right",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-position-selector-returning-from-right.svg",
+  "id": "three-position-selector-returning-from-right",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-position-selector-returning-from-right",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-position-selector-returning-from-right.json",
+  "svgPath": "artwork/svg/three-position-selector-returning-from-right.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-selector-three",
+      "title": "AutoCAD Electrical: Three-position selectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-D8675B9D-9CBF-4B7F-8F09-2444779614D0.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

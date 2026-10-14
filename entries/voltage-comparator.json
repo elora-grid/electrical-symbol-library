@@ -1,0 +1,82 @@
+{
+  "slug": "voltage-comparator",
+  "name": "Voltage comparator",
+  "kind": "symbol",
+  "abbreviation": "COMP",
+  "aliases": [
+    "analogue comparator",
+    "analog voltage comparator"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Compares two analogue input voltages and produces the documented output-state indication.",
+  "description": [
+    "Compares two analogue input voltages and produces the documented output-state indication.",
+    "On a schematic, identify the plus/minus voltage inputs, hysteresis and output driver type and trace the logic or switching output and any required pull-up. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A comparator output conveys a comparison result; an op amp operated without feedback is not universally an appropriate substitute.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the plus/minus voltage inputs, hysteresis and output driver type.",
+    "Trace the logic or switching output and any required pull-up."
+  ],
+  "drawingChecklist": [
+    "Label the plus/minus voltage inputs, hysteresis and output driver type.",
+    "Cross-reference the logic or switching output and any required pull-up.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A comparator output conveys a comparison result; an op amp operated without feedback is not universally an appropriate substitute.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "COMP — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The plus/minus voltage inputs, hysteresis and output driver type"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-comparator",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "operational-amplifier",
+    "plc-io"
+  ],
+  "artwork": "electronics-amp-comparator",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltage-comparator",
+  "illustration": "https://eloragrid.ai/library/illustrations/voltage-comparator.svg",
+  "id": "voltage-comparator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltage-comparator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltage-comparator.json",
+  "svgPath": "artwork/svg/voltage-comparator.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-comparator",
+      "title": "TLV3201 — voltage comparison",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TLV3201",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of voltage comparison. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

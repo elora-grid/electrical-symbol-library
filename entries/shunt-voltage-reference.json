@@ -1,0 +1,82 @@
+{
+  "slug": "shunt-voltage-reference",
+  "name": "Shunt voltage reference",
+  "kind": "symbol",
+  "abbreviation": "VREF-H",
+  "aliases": [
+    "shunt reference",
+    "programmable shunt reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Establishes a reference voltage using a shunt-current path and the documented bias or feedback circuit.",
+  "description": [
+    "Establishes a reference voltage using a shunt-current path and the documented bias or feedback circuit.",
+    "On a schematic, identify the shunt terminals, bias-current source and adjustment network and trace the reference node and return conductor. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A shunt reference requires its bias arrangement; its terminals cannot be substituted directly for a three-terminal series reference.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the shunt terminals, bias-current source and adjustment network.",
+    "Trace the reference node and return conductor."
+  ],
+  "drawingChecklist": [
+    "Label the shunt terminals, bias-current source and adjustment network.",
+    "Cross-reference the reference node and return conductor.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A shunt reference requires its bias arrangement; its terminals cannot be substituted directly for a three-terminal series reference.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "VREF-H — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The shunt terminals, bias-current source and adjustment network"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-shunt-ref",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "zener-diode",
+    "plc-io"
+  ],
+  "artwork": "electronics-analogue-shunt-ref",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/shunt-voltage-reference",
+  "illustration": "https://eloragrid.ai/library/illustrations/shunt-voltage-reference.svg",
+  "id": "shunt-voltage-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/shunt-voltage-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/shunt-voltage-reference.json",
+  "svgPath": "artwork/svg/shunt-voltage-reference.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-shunt-ref",
+      "title": "TL431 — programmable shunt references",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TL431",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of programmable shunt references. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

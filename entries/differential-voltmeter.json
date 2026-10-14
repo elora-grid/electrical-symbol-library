@@ -1,0 +1,85 @@
+{
+  "slug": "differential-voltmeter",
+  "name": "Differential voltmeter",
+  "kind": "symbol",
+  "abbreviation": "DELTA V",
+  "aliases": [
+    "HVM1P7",
+    "VVM1P7"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A differential voltmeter indicates a difference between documented voltage inputs.",
+  "description": [
+    "A differential voltmeter indicates a difference between documented voltage inputs. Its reference and compared circuits must be identifiable so the indicated difference has a defined meaning."
+  ],
+  "readingNotes": [
+    "Verify the input connection arrangement against the actual instrument diagram.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify both compared inputs",
+    "State polarity/reference",
+    "Reference measurement range"
+  ],
+  "distinction": "A differential voltage indicator is different from a transformer differential protection function.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HVM1P7, VVM1P7 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-differential-voltmeter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/differential-voltmeter",
+  "illustration": "https://eloragrid.ai/library/illustrations/differential-voltmeter.svg",
+  "id": "differential-voltmeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/differential-voltmeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/differential-voltmeter.json",
+  "svgPath": "artwork/svg/differential-voltmeter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

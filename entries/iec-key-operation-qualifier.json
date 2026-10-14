@@ -1,0 +1,91 @@
+{
+  "slug": "iec-key-operation-qualifier",
+  "name": "Key-operation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021313",
+  "aliases": [
+    "Key-operation qualifier symbol",
+    "Q021313",
+    "Key-operation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A key-operation qualifier identifies a mechanism requiring the specified key action.",
+  "description": [
+    "A key-operation qualifier identifies a mechanism requiring the specified key action. A key may control whether a mechanism can be moved or which positions are available. That access role is separate from the contact state produced by the movement.",
+    "Identify the keyed operator and any related locks through their tags. For an interlocking sequence, reference the sequence document instead of relying on one key-operation mark."
+  ],
+  "readingNotes": [
+    "Cross-reference the key sequence and any related locking devices.",
+    "A keyed actuator and a trapped-key interlock perform different documented roles."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Cross-reference the key sequence and any related locking devices.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A keyed actuator and a trapped-key interlock perform different documented roles.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021313 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Cross-reference the key sequence and any related locking devices."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-key-operation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Key-operation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-key-operation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-key-operation-qualifier.svg",
+  "id": "iec-key-operation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-key-operation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-key-operation-qualifier.json",
+  "svgPath": "artwork/svg/iec-key-operation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

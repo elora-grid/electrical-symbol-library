@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-on-delay-normally-open-contact",
+  "name": "ANSI/IEEE on-delay normally-open contact symbol",
+  "kind": "symbol",
+  "abbreviation": "TON NO",
+  "aliases": [
+    "IEEE on-delay normally-open contact symbol",
+    "ANSI on-delay normally-open contact symbol",
+    "HTD21N"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for on-delay normally-open contact, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The on-delay NO contact form specifically describes a delayed-closing transition. Its timer reference supplies the initiating condition and interval, while the unoperated contact remains open; release or reset behaviour comes from the documented timing chart.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Separate the delay-close transition from the contact's return action.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Link timer element",
+    "State closing delay",
+    "Reference reset behaviour"
+  ],
+  "distinction": "A timed output contact differs from the timer coil or trigger that initiates its timing.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Time Delay Relays"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HTD21N (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-bbff0443-6ea2-4a05-a761-f411e16ba070",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "on-delay-normally-open-contact",
+    "relay-coil",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-ansi-on-delay-normally-open-contact",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Time Delay Relays functional form",
+    "counterpart": "on-delay-normally-open-contact",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-on-delay-normally-open-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-on-delay-normally-open-contact.svg",
+  "id": "ansi-on-delay-normally-open-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-on-delay-normally-open-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-on-delay-normally-open-contact.json",
+  "svgPath": "artwork/svg/ansi-on-delay-normally-open-contact.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-bbff0443-6ea2-4a05-a761-f411e16ba070",
+      "title": "Autodesk IEEE Symbol Preview — Time Delay Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BBFF0443-6EA2-4A05-A761-F411E16BA070.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

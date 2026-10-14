@@ -1,0 +1,100 @@
+{
+  "slug": "pcs-cabinet",
+  "name": "Power conversion cabinet",
+  "kind": "object",
+  "abbreviation": "PCS cabinet",
+  "aliases": [
+    "inverter cabinet",
+    "power conversion enclosure"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic envelope for the selected power-conversion equipment and its interfaces.",
+  "description": [
+    "A PCS cabinet represents physical power-conversion equipment, such as the AC/DC interface in a battery energy storage system. It should link to the exact selected product and documented AC, DC, controls and auxiliary interfaces.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Read the equipment boundary and interface labels from the system documentation.",
+    "Use manufacturer information for access, cooling and connection arrangements."
+  ],
+  "drawingChecklist": [
+    "Identify AC and DC connection interfaces.",
+    "Reference the selected product GA.",
+    "Link controls and auxiliary-supply information."
+  ],
+  "distinction": "A converter symbol identifies an electrical function. A PCS cabinet is physical equipment with a model-specific footprint.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Manufacturer description of the power-conversion role."
+    },
+    {
+      "sourceId": "battery-cabinets",
+      "relevance": "Public example of a storage-system equipment arrangement."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "battery-cabinet",
+    "battery"
+  ],
+  "artwork": "pcs",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/pcs-cabinet",
+  "illustration": "https://eloragrid.ai/library/illustrations/pcs-cabinet.svg",
+  "id": "pcs-cabinet",
+  "canonicalUrl": "https://eloragrid.ai/objects/pcs-cabinet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pcs-cabinet.json",
+  "svgPath": "artwork/svg/pcs-cabinet.svg",
+  "publicSources": [
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer description of the power-conversion role."
+    },
+    {
+      "id": "battery-cabinets",
+      "title": "xStorage battery energy storage system",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/energy-storage/xstorage-battery-energy-storage-system.html",
+      "type": "manufacturer",
+      "scope": "Public example of battery cabinets, power conversion and control equipment within a storage system.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public example of a storage-system equipment arrangement."
+    }
+  ]
+}

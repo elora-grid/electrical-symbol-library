@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-motor-overload-alarm-no-contact",
+  "name": "ANSI/IEEE motor overload alarm no contact symbol",
+  "kind": "symbol",
+  "abbreviation": "OL NO",
+  "aliases": [
+    "IEEE motor overload alarm no contact symbol",
+    "ANSI motor overload alarm no contact symbol",
+    "HOL21"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for motor overload alarm no contact, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The overload NO contact form identifies a signal path associated with overload-device operation. Its destination may be a lamp, controller or alarm circuit and is separate from the contact used to interrupt the motor command.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Verify the alarm contact state after reset.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Link overload tag",
+    "Show alarm destination",
+    "Reference contact sequence"
+  ],
+  "distinction": "Overload alarm status and contactor closed-position status describe different equipment conditions.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Motor Control"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HOL21 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-3b645a95-bc10-4fa4-8bbf-9a5fff6be802",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "motor-overload-alarm-no-contact",
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-ansi-motor-overload-alarm-no-contact",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Motor Control functional form",
+    "counterpart": "motor-overload-alarm-no-contact",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-motor-overload-alarm-no-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-motor-overload-alarm-no-contact.svg",
+  "id": "ansi-motor-overload-alarm-no-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-motor-overload-alarm-no-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-motor-overload-alarm-no-contact.json",
+  "svgPath": "artwork/svg/ansi-motor-overload-alarm-no-contact.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-3b645a95-bc10-4fa4-8bbf-9a5fff6be802",
+      "title": "Autodesk IEEE Symbol Preview — Motor Control",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3B645A95-BC10-4FA4-8BBF-9A5FFF6BE802.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "gapped-core-inductor",
+  "name": "Gapped-core inductor",
+  "kind": "symbol",
+  "abbreviation": "L GAP",
+  "aliases": [
+    "HRT1L3",
+    "VRT1L3"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A gapped-core inductor includes a documented air gap in its magnetic circuit.",
+  "description": [
+    "A gapped-core inductor includes a documented air gap in its magnetic circuit. The drawing identifies that construction while the component data establishes inductance and operating limits."
+  ],
+  "readingNotes": [
+    "A core gap marker describes the magnetic circuit, not an electrical disconnect.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State inductance",
+    "Reference current rating",
+    "Identify gap/core construction"
+  ],
+  "distinction": "A magnetic air gap is different from an open power-circuit connection.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Inductive component"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HRT1L3, VRT1L3 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-reactors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor"
+  ],
+  "artwork": "edu-gapped-core-inductor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/gapped-core-inductor",
+  "illustration": "https://eloragrid.ai/library/illustrations/gapped-core-inductor.svg",
+  "id": "gapped-core-inductor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gapped-core-inductor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gapped-core-inductor.json",
+  "svgPath": "artwork/svg/gapped-core-inductor.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-reactors",
+      "title": "AutoCAD Electrical: Reactors and inductors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BAD50DBF-0951-44A0-BB4C-A57B4A4ED895.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "residual-connection-of-phase-cts",
+  "name": "Residual connection of phase CTs",
+  "kind": "symbol",
+  "abbreviation": "CT RES",
+  "aliases": [],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A residual CT connection combines secondary currents from phase CTs to obtain a residual-current input.",
+  "description": [
+    "A residual CT connection combines secondary currents from phase CTs to obtain a residual-current input. This is a connection arrangement that should be drawn explicitly rather than assigned an unsupported separate standard-symbol number."
+  ],
+  "readingNotes": [
+    "Match secondary polarity and CT characteristics across the connected phases.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show each phase CT",
+    "Identify residual summation node",
+    "Link earth-fault relay input"
+  ],
+  "distinction": "Residual connection of three phase CTs is not the same physical sensor as a core-balance CT.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Current measurement"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal"
+  ],
+  "artwork": "edu-residual-connection-of-phase-cts",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/residual-connection-of-phase-cts",
+  "illustration": "https://eloragrid.ai/library/illustrations/residual-connection-of-phase-cts.svg",
+  "id": "residual-connection-of-phase-cts",
+  "canonicalUrl": "https://eloragrid.ai/symbols/residual-connection-of-phase-cts",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/residual-connection-of-phase-cts.json",
+  "svgPath": "artwork/svg/residual-connection-of-phase-cts.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "early-make-normally-open-contact",
+  "name": "Early-make normally-open contact",
+  "kind": "symbol",
+  "abbreviation": "NO EARLY",
+  "aliases": [
+    "HCR217F",
+    "VCR217F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An early-make NO contact closes earlier in the mechanism sequence than specified associated contacts.",
+  "description": [
+    "An early-make NO contact closes earlier in the mechanism sequence than specified associated contacts. The relative sequence is meaningful only when the linked contacts and common operator are identified."
+  ],
+  "readingNotes": [
+    "Compare the contact timing against the other poles of the same device.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Link common operator",
+    "Identify comparison contacts",
+    "Document switching sequence"
+  ],
+  "distinction": "Early make is a relative operating sequence, not a fixed millisecond time delay.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR217F, VCR217F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-early-make-normally-open-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/early-make-normally-open-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/early-make-normally-open-contact.svg",
+  "id": "early-make-normally-open-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/early-make-normally-open-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/early-make-normally-open-contact.json",
+  "svgPath": "artwork/svg/early-make-normally-open-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

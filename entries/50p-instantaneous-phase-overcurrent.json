@@ -1,0 +1,104 @@
+{
+  "slug": "50p-instantaneous-phase-overcurrent",
+  "name": "Instantaneous phase overcurrent",
+  "kind": "function",
+  "abbreviation": "50P",
+  "aliases": [
+    "phase instantaneous overcurrent",
+    "phase IOC",
+    "ANSI 50P",
+    "IEEE 50P"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Supervises phase-current magnitude for the instantaneous overcurrent element.",
+  "description": [
+    "Supervises phase-current magnitude for the instantaneous overcurrent element.",
+    "The drafting record should connect this function to the individual phase CT inputs and protected feeder direction reference, then trace the phase overcurrent trip and any intentional timer stage. Keep the complete designation and equipment tag together so that the SLD, relay logic and terminal schedule describe the same implementation.",
+    "The cited mapping is a public manufacturer example (Eaton EMR family). Suffixes are not universal equivalences across products, and this reference supplies neither a protection setting nor certification of the selected scheme."
+  ],
+  "readingNotes": [
+    "Identify the individual phase CT inputs and protected feeder direction reference.",
+    "Trace the phase overcurrent trip and any intentional timer stage."
+  ],
+  "drawingChecklist": [
+    "Label the individual phase CT inputs and protected feeder direction reference.",
+    "Cross-reference the phase overcurrent trip and any intentional timer stage.",
+    "Retain the complete suffix, selected device tag and manufacturer manual revision."
+  ],
+  "distinction": "P identifies phase-current elements in the cited families; 50N and 50G concern separately defined neutral or ground-current inputs.",
+  "facts": [
+    {
+      "label": "Function designation",
+      "value": "50P"
+    },
+    {
+      "label": "Base function",
+      "value": "50 — Instantaneous overcurrent"
+    },
+    {
+      "label": "Published mapping",
+      "value": "Eaton EMR family"
+    },
+    {
+      "label": "Suffix scope",
+      "value": "Application or manufacturer specific; check the complete drawing legend and selected device manual."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-motor",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ],
+  "related": [
+    "50-instantaneous-overcurrent",
+    "current-transformer"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/50p-instantaneous-phase-overcurrent",
+  "illustration": "https://eloragrid.ai/library/illustrations/50p-instantaneous-phase-overcurrent.svg",
+  "id": "50p-instantaneous-phase-overcurrent",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/50p-instantaneous-phase-overcurrent",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/50p-instantaneous-phase-overcurrent.json",
+  "svgPath": "artwork/svg/50p-instantaneous-phase-overcurrent.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-motor",
+      "title": "EMR motor protection: public function comparison",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/motor-relays.html",
+      "type": "manufacturer",
+      "scope": "Public motor-relay application mappings including jam/stall protection, current input variants, breaker failure and motor differential. Suffix interpretation applies to the cited family.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public primary-source function or application mapping used to identify this designation; wording and drafting notes are original."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Device-number and suffix convention. This page is not a reproduction of the full licensed standard."
+    }
+  ]
+}

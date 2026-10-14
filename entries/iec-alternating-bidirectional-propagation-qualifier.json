@@ -1,0 +1,91 @@
+{
+  "slug": "iec-alternating-bidirectional-propagation-qualifier",
+  "name": "Alternating bidirectional propagation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q020503",
+  "aliases": [
+    "Alternating bidirectional propagation qualifier symbol",
+    "Q020503",
+    "Alternating bidirectional propagation qualifier IEC reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies opposite-direction propagation occurring alternately.",
+  "description": [
+    "This qualifier identifies opposite-direction propagation occurring alternately. The two directions are used at different times, making the temporal relationship different from simultaneous two-way propagation. The underlying link can still appear as a single path.",
+    "Record which functions send and receive and how the documented operation changes direction. Do not interpret the qualifier as two independent physical cables."
+  ],
+  "readingNotes": [
+    "Describe the direction-changing or turn-taking arrangement separately.",
+    "Alternating bidirectional propagation differs from simultaneous bidirectional transmission."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Describe the direction-changing or turn-taking arrangement separately.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Alternating bidirectional propagation differs from simultaneous bidirectional transmission.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q020503 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Describe the direction-changing or turn-taking arrangement separately."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "power-converter",
+    "plc-io"
+  ],
+  "artwork": "edu-iec-alternating-bidirectional-propagation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Alternating bidirectional propagation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Propagation and signal-flow qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-alternating-bidirectional-propagation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-alternating-bidirectional-propagation-qualifier.svg",
+  "id": "iec-alternating-bidirectional-propagation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-alternating-bidirectional-propagation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-alternating-bidirectional-propagation-qualifier.json",
+  "svgPath": "artwork/svg/iec-alternating-bidirectional-propagation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

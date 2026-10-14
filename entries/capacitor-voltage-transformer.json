@@ -1,0 +1,100 @@
+{
+  "slug": "capacitor-voltage-transformer",
+  "name": "Capacitor voltage transformer",
+  "kind": "symbol",
+  "abbreviation": "CVT / CCVT",
+  "aliases": [
+    "capacitive voltage transformer",
+    "coupling capacitor voltage transformer",
+    "CVT",
+    "CCVT",
+    "capacitor potential transformer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An instrument transformer using a capacitive voltage divider and an electromagnetic unit to supply documented voltage measurement or protection signals.",
+  "description": [
+    "A capacitor voltage transformer combines a capacitive divider with an electromagnetic unit to provide voltage signals for its documented metering or protection application. Manufacturer arrangements may also provide interfaces for power-line carrier equipment.",
+    "In a single line diagram, identify the high-voltage connection and the measurement or protection circuits served by the secondary outputs. The conceptual preview illustrates the operating arrangement; it is not a certified standard symbol or a manufacturer connection drawing."
+  ],
+  "readingNotes": [
+    "Distinguish the capacitive divider and electromagnetic unit from a standalone coupling capacitor.",
+    "Trace the secondary circuits and any carrier interface using the selected model documentation rather than assuming they share the same connection."
+  ],
+  "drawingChecklist": [
+    "Identify the exact CVT/CCVT equipment tag and the voltage circuit represented.",
+    "Reference the specified primary/secondary arrangement, measurement duties and secondary earthing details.",
+    "Cross-reference the manufacturer terminal diagram and any documented carrier or damping-system interfaces."
+  ],
+  "distinction": "An inductive voltage transformer and a capacitor voltage transformer can both supply voltage signals, but their operating arrangements and transient behaviour differ. A coupling capacitor alone is not a complete CVT.",
+  "facts": [
+    {
+      "label": "Operating arrangement",
+      "value": "Capacitive divider plus electromagnetic unit; exact construction depends on manufacturer design"
+    },
+    {
+      "label": "Code scope",
+      "value": "CVT and CCVT are common equipment abbreviations, not an assigned graphical-symbol identifier"
+    },
+    {
+      "label": "Preview scope",
+      "value": "Independently drawn functional concept; not official standard artwork"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cvt-cpb",
+      "relevance": "Public CVT application description supports metering, protection and optional carrier context."
+    },
+    {
+      "sourceId": "public-cvt-working-principle",
+      "relevance": "Public manufacturer construction explanation supports the divider/electromagnetic-unit distinction."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "capacitor",
+    "current-transformer"
+  ],
+  "artwork": "original-cvt-concept",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/capacitor-voltage-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/capacitor-voltage-transformer.svg",
+  "id": "capacitor-voltage-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitor-voltage-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitor-voltage-transformer.json",
+  "svgPath": "artwork/svg/capacitor-voltage-transformer.svg",
+  "publicSources": [
+    {
+      "id": "public-cvt-cpb",
+      "title": "CPB capacitor voltage transformer",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/uk-ie/en/products-and-solutions/instrument-transformers/voltage-transformers/cpb-72-800-kv",
+      "type": "manufacturer",
+      "scope": "Public manufacturer description of a capacitor voltage transformer for high-voltage metering, protection and power-line carrier applications. Exact model data remains with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public CVT application description supports metering, protection and optional carrier context."
+    },
+    {
+      "id": "public-cvt-working-principle",
+      "title": "CCV/CVT and coupling capacitors brochure",
+      "publisher": "GE Vernova",
+      "url": "https://www.gevernova.com/grid-solutions/sites/default/files/2025-09/CCV-CVT-And-CC-Coupling-Capacitors-Brochure-EN-N50166-Hybrid-202505-R002.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of capacitive sections, electromagnetic unit, terminal arrangements and the distinction from a coupling capacitor. Original publisher graphics are not reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer construction explanation supports the divider/electromagnetic-unit distinction."
+    }
+  ]
+}

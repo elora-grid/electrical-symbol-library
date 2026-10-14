@@ -1,0 +1,116 @@
+{
+  "slug": "51-time-overcurrent",
+  "name": "Time overcurrent",
+  "kind": "function",
+  "abbreviation": "51",
+  "aliases": [
+    "time delayed overcurrent",
+    "inverse time overcurrent",
+    "51P",
+    "51N",
+    "51G",
+    "time over current"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "An overcurrent function with a documented time characteristic.",
+  "description": [
+    "A time overcurrent function detects an overcurrent condition using the configured time characteristic. Depending on the device and application, the implementation can include inverse-time or definite-time behaviour. Its number does not specify a curve, pickup or delay.",
+    "On a power drawing, keep this function reference connected to the selected equipment and its complete designation. A multifunction relay can implement several numbered functions. This entry explains the reference; it supplies no settings or commissioning procedure."
+  ],
+  "readingNotes": [
+    "Read the full function designation, including any phase or earth-fault suffix.",
+    "Use the protection settings and coordination documentation to interpret its operation."
+  ],
+  "drawingChecklist": [
+    "Reference measured current inputs.",
+    "Identify the applied time characteristic separately.",
+    "Link the relay and trip scheme."
+  ],
+  "distinction": "Functions 50 and 51 describe different time behaviour. One multifunction relay can implement both without becoming two separate physical devices.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "51"
+    },
+    {
+      "label": "Equipment implementation",
+      "value": "Consult the selected device manual"
+    },
+    {
+      "label": "Suffix interpretation",
+      "value": "Application and manufacturer documentation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative publication reference for the device-function convention."
+    },
+    {
+      "sourceId": "abb-functions",
+      "relevance": "Public examples of manufacturer-specific function names and suffixes."
+    }
+  ],
+  "related": [
+    "50-instantaneous-overcurrent",
+    "current-transformer",
+    "67-directional-overcurrent"
+  ],
+  "artwork": "function",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/51-time-overcurrent",
+  "illustration": "https://eloragrid.ai/library/illustrations/51-time-overcurrent.svg",
+  "id": "51-time-overcurrent",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/51-time-overcurrent",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/51-time-overcurrent.json",
+  "svgPath": "artwork/svg/51-time-overcurrent.svg",
+  "publicSources": [
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer table used to check the base function-number name."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative publication reference for the device-function convention."
+    },
+    {
+      "id": "abb-functions",
+      "title": "Relion 620: functions, codes and symbols",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Published product mappings between function names, IEC 61850 identifiers, IEC mnemonics and ANSI designations. These are product examples, not universal equivalences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public examples of manufacturer-specific function names and suffixes."
+    }
+  ]
+}

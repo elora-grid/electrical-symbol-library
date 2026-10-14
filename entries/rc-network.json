@@ -1,0 +1,85 @@
+{
+  "slug": "rc-network",
+  "name": "RC network",
+  "kind": "symbol",
+  "abbreviation": "RC",
+  "aliases": [
+    "HRE1RCN",
+    "VRE1RCN"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An RC network combines resistance and capacitance in a specified circuit arrangement.",
+  "description": [
+    "An RC network combines resistance and capacitance in a specified circuit arrangement. Its function may be filtering or transient control, so the actual connection and values are needed."
+  ],
+  "readingNotes": [
+    "Read the series or parallel topology rather than assuming one universal RC circuit.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show R/C connection",
+    "State component values",
+    "Reference intended function"
+  ],
+  "distinction": "An RC network is not equivalent to a diode suppression network.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HRE1RCN, VRE1RCN (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-rc-network",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/rc-network",
+  "illustration": "https://eloragrid.ai/library/illustrations/rc-network.svg",
+  "id": "rc-network",
+  "canonicalUrl": "https://eloragrid.ai/symbols/rc-network",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/rc-network.json",
+  "svgPath": "artwork/svg/rc-network.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

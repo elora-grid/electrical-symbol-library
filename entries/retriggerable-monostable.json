@@ -1,0 +1,82 @@
+{
+  "slug": "retriggerable-monostable",
+  "name": "Retriggerable monostable",
+  "kind": "symbol",
+  "abbreviation": "ONE-SHOT",
+  "aliases": [
+    "one shot",
+    "retriggerable pulse timer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Produces a timed output pulse that can be extended by a qualifying retrigger condition.",
+  "description": [
+    "Produces a timed output pulse that can be extended by a qualifying retrigger condition.",
+    "On a schematic, identify the trigger polarities, clear input and timing components and trace the pulse/complemented outputs and timed control use. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A retriggerable one-shot differs from a non-retriggerable pulse generator or a free-running oscillator.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the trigger polarities, clear input and timing components.",
+    "Trace the pulse/complemented outputs and timed control use."
+  ],
+  "drawingChecklist": [
+    "Label the trigger polarities, clear input and timing components.",
+    "Cross-reference the pulse/complemented outputs and timed control use.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A retriggerable one-shot differs from a non-retriggerable pulse generator or a free-running oscillator.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "ONE-SHOT — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The trigger polarities, clear input and timing components"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc123",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "watchdog-timer",
+    "plc-io"
+  ],
+  "artwork": "electronics-logic-monostable",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/retriggerable-monostable",
+  "illustration": "https://eloragrid.ai/library/illustrations/retriggerable-monostable.svg",
+  "id": "retriggerable-monostable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/retriggerable-monostable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/retriggerable-monostable.json",
+  "svgPath": "artwork/svg/retriggerable-monostable.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc123",
+      "title": "CD74HC123 — retriggerable monostables",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD74HC123",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of retriggerable monostables. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

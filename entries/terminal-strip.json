@@ -1,0 +1,101 @@
+{
+  "slug": "terminal-strip",
+  "name": "Terminal strip assembly",
+  "kind": "object",
+  "abbreviation": "Terminal strip",
+  "aliases": [
+    "terminal rail",
+    "terminal assembly",
+    "DIN rail terminal strip"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A physical assembly of identified terminals and the selected connecting accessories.",
+  "description": [
+    "A terminal strip assembles connection points and accessories into an identified physical arrangement. Its schedule connects terminals to conductors, field devices and equipment. Additional links, disconnect facilities or test accessories change the assembly scope.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Match physical terminal order to the terminal schedule.",
+    "Identify accessories and special-function terminals separately."
+  ],
+  "drawingChecklist": [
+    "Reference the terminal products and accessories.",
+    "Match strip and terminal identification.",
+    "Link the schematic and wiring schedule."
+  ],
+  "distinction": "A terminal connection symbol is an electrical reference; a terminal strip is a physical assembly with a documented arrangement.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "terminal-disconnect",
+      "relevance": "Public terminal product and disconnect-function information."
+    },
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Public example of specialised measuring/test terminal assemblies."
+    }
+  ],
+  "related": [
+    "terminal",
+    "ct-test-terminal",
+    "control-cabinet"
+  ],
+  "artwork": "terminal-strip",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/terminal-strip",
+  "illustration": "https://eloragrid.ai/library/illustrations/terminal-strip.svg",
+  "id": "terminal-strip",
+  "canonicalUrl": "https://eloragrid.ai/objects/terminal-strip",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/terminal-strip.json",
+  "svgPath": "artwork/svg/terminal-strip.svg",
+  "publicSources": [
+    {
+      "id": "terminal-disconnect",
+      "title": "Disconnect and knife-disconnect terminal blocks",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-au/products/terminal-blocks/disconnect-and-knife-disconnect-terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public disconnect-terminal products, test access and model-dependent connection characteristics.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public terminal product and disconnect-function information."
+    },
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public example of specialised measuring/test terminal assemblies."
+    }
+  ]
+}

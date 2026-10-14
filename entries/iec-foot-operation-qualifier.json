@@ -1,0 +1,91 @@
+{
+  "slug": "iec-foot-operation-qualifier",
+  "name": "Foot-operation qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q021310",
+  "aliases": [
+    "Foot-operation qualifier symbol",
+    "Q021310",
+    "Foot-operation qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "This qualifier identifies actuation by a foot-operated mechanism.",
+  "description": [
+    "This qualifier identifies actuation by a foot-operated mechanism. A foot-operated mechanism allows an operator action to be applied through a pedal or similar member. The electrical function remains in the associated switch or control contacts.",
+    "A foot operation can initiate a pulse or maintain a state, depending on the device. Show the actual return and latch behaviour so the circuit is readable without guessing from the actuator type."
+  ],
+  "readingNotes": [
+    "Link the actuation indication to its contact set and defined release behaviour.",
+    "A foot actuator may be momentary or maintained; its return behaviour needs a separate indication."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Link the actuation indication to its contact set and defined release behaviour.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A foot actuator may be momentary or maintained; its return behaviour needs a separate indication.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q021310 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Link the actuation indication to its contact set and defined release behaviour."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-foot-operation-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Foot-operation qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-foot-operation-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-foot-operation-qualifier.svg",
+  "id": "iec-foot-operation-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-foot-operation-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-foot-operation-qualifier.json",
+  "svgPath": "artwork/svg/iec-foot-operation-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

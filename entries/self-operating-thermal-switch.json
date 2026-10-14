@@ -1,0 +1,84 @@
+{
+  "slug": "self-operating-thermal-switch",
+  "name": "Self-operating thermal switch",
+  "kind": "symbol",
+  "abbreviation": "TS SELF",
+  "aliases": [
+    "HTS12S59C",
+    "VTS12S59C"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A self-operating thermal switch responds directly to its thermal condition rather than through a separate powered relay input.",
+  "description": [
+    "A self-operating thermal switch responds directly to its thermal condition rather than through a separate powered relay input. Its contact and reset behaviour are device-specific."
+  ],
+  "readingNotes": [
+    "Trace the thermal device separately from any PLC or auxiliary supply.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State thermal threshold",
+    "Identify reset characteristic",
+    "Reference mounted location"
+  ],
+  "distinction": "A self-operating thermal switch is not the same as a powered temperature monitoring relay.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HTS12S59C, VTS12S59C (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pressure-temperature",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-self-operating-thermal-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/self-operating-thermal-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/self-operating-thermal-switch.svg",
+  "id": "self-operating-thermal-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/self-operating-thermal-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/self-operating-thermal-switch.json",
+  "svgPath": "artwork/svg/self-operating-thermal-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pressure-temperature",
+      "title": "AutoCAD Electrical: Pressure and temperature switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-46061E42-55B7-4804-8D50-C31DF292F01D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

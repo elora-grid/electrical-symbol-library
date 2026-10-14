@@ -1,0 +1,76 @@
+{
+  "slug": "protective-earth-terminal-block",
+  "name": "Protective-earth terminal block",
+  "kind": "symbol",
+  "abbreviation": "TB PE",
+  "aliases": [],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PE terminal provides a documented protective-conductor connection, often including a specified connection to the mounting rail.",
+  "description": [
+    "A PE terminal provides a documented protective-conductor connection, often including a specified connection to the mounting rail. The circuit and terminal plan must show the bonding path actually relied upon."
+  ],
+  "readingNotes": [
+    "Trace the protective path to the assembly's earth connection.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify PE terminal",
+    "Show rail/bonding connection",
+    "Reference terminal suitability"
+  ],
+  "distinction": "A PE terminal is not a signal-common terminal.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Wiring interface"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-terminal-families",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "terminal",
+    "terminal-strip"
+  ],
+  "artwork": "edu-protective-earth-terminal-block",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/protective-earth-terminal-block",
+  "illustration": "https://eloragrid.ai/library/illustrations/protective-earth-terminal-block.svg",
+  "id": "protective-earth-terminal-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/protective-earth-terminal-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/protective-earth-terminal-block.json",
+  "svgPath": "artwork/svg/protective-earth-terminal-block.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-terminal-families",
+      "title": "Terminal block functional families",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

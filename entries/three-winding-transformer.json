@@ -1,0 +1,85 @@
+{
+  "slug": "three-winding-transformer",
+  "name": "Three-winding transformer",
+  "kind": "symbol",
+  "abbreviation": "TX 3W",
+  "aliases": [
+    "HXF1T6",
+    "VXF1T6"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A three-winding transformer couples three windings through its magnetic system.",
+  "description": [
+    "A three-winding transformer couples three windings through its magnetic system. Each winding has its own voltage, connection and loading information, so a third winding must remain visible in the drawing and equipment schedule."
+  ],
+  "readingNotes": [
+    "Determine whether the third winding is intended for a load, a tertiary function or another documented purpose.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify all winding ratings",
+    "Record winding connections",
+    "Cross-reference terminals and protection"
+  ],
+  "distinction": "A third winding is different from a tap on a single winding.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HXF1T6, VXF1T6 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "edu-three-winding-transformer",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-winding-transformer",
+  "illustration": "https://eloragrid.ai/library/illustrations/three-winding-transformer.svg",
+  "id": "three-winding-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-winding-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-winding-transformer.json",
+  "svgPath": "artwork/svg/three-winding-transformer.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "circuit-breaker",
+  "name": "Circuit breaker",
+  "kind": "symbol",
+  "abbreviation": "CB",
+  "aliases": [
+    "breaker",
+    "ACB",
+    "MCCB",
+    "MCB",
+    "air circuit breaker",
+    "moulded case circuit breaker",
+    "molded case circuit breaker",
+    "miniature circuit breaker",
+    "HCB1",
+    "VCB1"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A switching device that can interrupt a circuit, with specified fault-interruption capability.",
+  "description": [
+    "A circuit-breaker representation identifies a device capable of interrupting its circuit under the operating conditions for which it is rated. The drawing should connect that device to its equipment identification, protection arrangement and control information. The graphical mark alone does not establish the current rating, breaking capacity or trip settings.",
+    "Breaker representations vary between drawing conventions and may include qualifiers for operating mechanism or protection. An SLD gives system position and major connections. A control schematic expands the close, trip, indication and auxiliary-contact circuits."
+  ],
+  "readingNotes": [
+    "Read device state according to the drawing legend, rather than assuming every open-looking mark means equipment is currently open.",
+    "Keep the equipment tag, graphical symbol and ANSI device-function number 52 distinct."
+  ],
+  "drawingChecklist": [
+    "Reference the voltage, current and breaking-capacity data.",
+    "Identify poles and the applicable protection arrangement.",
+    "Link the control circuit and auxiliary contacts."
+  ],
+  "distinction": "A disconnector provides isolation; it is not automatically a fault-interrupting circuit breaker. Check published device capabilities.",
+  "facts": [
+    {
+      "label": "Related function number",
+      "value": "52 for an AC circuit breaker"
+    },
+    {
+      "label": "Device specification",
+      "value": "Voltage, current, interruption and trip information"
+    },
+    {
+      "label": "Preview",
+      "value": "Generic educational representation"
+    },
+    {
+      "label": "Public Autodesk reference names",
+      "value": "HCB1, VCB1 (vendor identifiers, not IEC symbol IDs)"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-breakers",
+      "relevance": "Public breaker categories and qualifying features."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Manufacturer explanation of circuit-breaker characteristics."
+    },
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public reference for device-function number 52."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "load-break-switch",
+    "52-ac-circuit-breaker",
+    "normally-open-contact"
+  ],
+  "artwork": "breaker",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/circuit-breaker",
+  "illustration": "https://eloragrid.ai/library/illustrations/circuit-breaker.svg",
+  "id": "circuit-breaker",
+  "canonicalUrl": "https://eloragrid.ai/symbols/circuit-breaker",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/circuit-breaker.json",
+  "svgPath": "artwork/svg/circuit-breaker.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-breakers",
+      "title": "Circuit-breaker symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DB1548A3-A4D3-47E5-86AC-37000DC57D80.htm",
+      "type": "cad-reference",
+      "scope": "Circuit-breaker variants and thermal, magnetic and differential qualifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public breaker categories and qualifying features."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer explanation of circuit-breaker characteristics."
+    },
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public reference for device-function number 52."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "contactor",
+  "name": "Contactor",
+  "kind": "symbol",
+  "abbreviation": "KM",
+  "aliases": [
+    "motor contactor",
+    "power contactor"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An electrically operated switching device commonly used for repeated switching duties.",
+  "description": [
+    "A contactor uses an operating mechanism to switch its main contacts and may include auxiliary contacts for control or indication. On a power drawing it represents the main switching path; on a schematic its coil and contacts may be distributed and connected by identifiers.",
+    "Its ability to switch a particular load depends on the selected device and utilization category. Overload or short-circuit protection can be provided by other devices in the arrangement. Do not treat the generic contactor representation as a complete protective device."
+  ],
+  "readingNotes": [
+    "Distinguish main power poles from auxiliary control contacts.",
+    "Use the common equipment identifier to connect the power and control drawings."
+  ],
+  "drawingChecklist": [
+    "Reference the load duty and contactor specification.",
+    "Show the coil supply and associated contacts.",
+    "Identify separate protective equipment where applicable."
+  ],
+  "distinction": "A contactor and circuit breaker have different duties. Adding an overload relay does not make every contactor assembly equivalent to a circuit breaker.",
+  "facts": [
+    {
+      "label": "Main role",
+      "value": "Repeated electrical switching"
+    },
+    {
+      "label": "Tag example",
+      "value": "KM is a convention, not a universal requirement"
+    },
+    {
+      "label": "Protection",
+      "value": "Confirm the complete arrangement"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Manufacturer description of contactors and associated protection."
+    },
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public operating-coil and contact representations."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "motor",
+    "circuit-breaker",
+    "normally-open-contact"
+  ],
+  "artwork": "contactor",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/contactor",
+  "illustration": "https://eloragrid.ai/library/illustrations/contactor.svg",
+  "id": "contactor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/contactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/contactor.json",
+  "svgPath": "artwork/svg/contactor.svg",
+  "publicSources": [
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer description of contactors and associated protection."
+    },
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public operating-coil and contact representations."
+    }
+  ]
+}

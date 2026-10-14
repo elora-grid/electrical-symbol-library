@@ -1,0 +1,91 @@
+{
+  "slug": "iec-twisted-pair-indication",
+  "name": "Twisted-pair indication",
+  "kind": "symbol",
+  "abbreviation": "HT0_TW",
+  "aliases": [
+    "Twisted-pair indication symbol",
+    "HT0_TW",
+    "Twisted-pair indication IEC reference"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A twisted-pair indication identifies the documented association of two conductors as a twisted pair.",
+  "description": [
+    "A twisted-pair indication identifies the documented association of two conductors as a twisted pair. The pair association matters to conductor identification and termination, even when the two wires are drawn apart elsewhere. It does not by itself describe the cable screen or its termination.",
+    "Preserve pair numbers and polarity through connector and terminal schedules. If a screen is required, draw and document that interface separately."
+  ],
+  "readingNotes": [
+    "Record pair identity and the actual conductor mapping separately.",
+    "Twisting and shielding are different cable attributes; a twist indication does not prove a screen is present."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Record pair identity and the actual conductor mapping separately.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Twisting and shielding are different cable attributes; a twist indication does not prove a screen is present.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HT0_TW (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Record pair identity and the actual conductor mapping separately."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "terminal",
+    "busbar"
+  ],
+  "artwork": "edu-iec-twisted-pair-indication",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Twisted-pair indication",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Cable identification and twisted-pair annotation; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-twisted-pair-indication",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-twisted-pair-indication.svg",
+  "id": "iec-twisted-pair-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-twisted-pair-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-twisted-pair-indication.json",
+  "svgPath": "artwork/svg/iec-twisted-pair-indication.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

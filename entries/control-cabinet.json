@@ -1,0 +1,102 @@
+{
+  "slug": "control-cabinet",
+  "name": "Control / marshalling cabinet",
+  "kind": "object",
+  "abbreviation": "Control GA",
+  "aliases": [
+    "marshalling cabinet",
+    "control panel enclosure",
+    "junction cabinet",
+    "electrical enclosure"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A generic cabinet organising control equipment, terminals and field interfaces.",
+  "description": [
+    "A control or marshalling cabinet houses the components and interfaces defined by its scope. A GA can show the equipment envelope, mounting surfaces, operator devices and cable interfaces. An internal layout links those objects to the schematic and wiring schedules.",
+    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+  ],
+  "readingNotes": [
+    "Identify the cabinet scope and internal equipment references.",
+    "Keep operator-facing devices aligned with their schematic identifiers."
+  ],
+  "drawingChecklist": [
+    "Reference the enclosure and mounting arrangement.",
+    "Identify operator devices and cable interfaces.",
+    "Link terminal schedules and internal layouts."
+  ],
+  "distinction": "A cabinet outline is not an internal wiring diagram. Enclosure properties and equipment ratings require the selected product information.",
+  "facts": [
+    {
+      "label": "Object type",
+      "value": "Generic equipment reference"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Use the exact manufacturer/model drawing"
+    },
+    {
+      "label": "Illustration scale",
+      "value": "Not to scale"
+    },
+    {
+      "label": "Download scope",
+      "value": "Original concept envelope only"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "enclosures",
+      "relevance": "Public enclosure construction and installation features."
+    },
+    {
+      "sourceId": "mounting-plates",
+      "relevance": "Public enclosure mounting-surface references."
+    }
+  ],
+  "related": [
+    "terminal-strip",
+    "mounting-plate",
+    "plc-io"
+  ],
+  "artwork": "control-cabinet",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/control-cabinet",
+  "illustration": "https://eloragrid.ai/library/illustrations/control-cabinet.svg",
+  "id": "control-cabinet",
+  "canonicalUrl": "https://eloragrid.ai/objects/control-cabinet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/control-cabinet.json",
+  "svgPath": "artwork/svg/control-cabinet.svg",
+  "publicSources": [
+    {
+      "id": "enclosures",
+      "title": "AX enclosure system",
+      "publisher": "Rittal",
+      "url": "https://webinfo.rittal.com/en/plastic-enclosures-ax",
+      "type": "manufacturer",
+      "scope": "Public enclosure system with mounting and earthing features. No model-specific dimensions are reproduced here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public enclosure construction and installation features."
+    },
+    {
+      "id": "mounting-plates",
+      "title": "Enclosure mounting plates",
+      "publisher": "Rittal",
+      "url": "https://www.rittal.com/com-en/products/PG20231215ZUB101/PG20240403ZUB102/PG20240403ZUB104",
+      "type": "manufacturer",
+      "scope": "Public mounting-plate accessories and enclosure installation surfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public enclosure mounting-surface references."
+    }
+  ]
+}

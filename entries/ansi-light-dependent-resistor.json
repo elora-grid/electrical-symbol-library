@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-light-dependent-resistor",
+  "name": "ANSI/IEEE light-dependent resistor symbol",
+  "kind": "symbol",
+  "abbreviation": "LDR",
+  "aliases": [
+    "IEEE light-dependent resistor symbol",
+    "ANSI light-dependent resistor symbol",
+    "HRE1LDR"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for light-dependent resistor, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The light-dependent resistor form identifies a resistive component affected by illumination. Its sensing modifier describes the physical influence rather than a new electrical terminal, while the surrounding circuit translates the resistance change into a usable signal.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Trace the electrical leads independently of the optical indication.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Identify resistive terminals",
+    "Reference illumination conditions",
+    "Show associated sensing circuit"
+  ],
+  "distinction": "An LDR changes resistance; a photodiode has a semiconductor junction and different measurement behaviour.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Resistive Components"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HRE1LDR (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-1a45de3a-cd2a-4ad9-8125-219905c870b1",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "light-dependent-resistor",
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "edu-ansi-light-dependent-resistor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Resistive Components functional form",
+    "counterpart": "light-dependent-resistor",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-light-dependent-resistor",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-light-dependent-resistor.svg",
+  "id": "ansi-light-dependent-resistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-light-dependent-resistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-light-dependent-resistor.json",
+  "svgPath": "artwork/svg/ansi-light-dependent-resistor.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-1a45de3a-cd2a-4ad9-8125-219905c870b1",
+      "title": "Autodesk IEEE Symbol Preview — Resistive Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1A45DE3A-CD2A-4AD9-8125-219905C870B1.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

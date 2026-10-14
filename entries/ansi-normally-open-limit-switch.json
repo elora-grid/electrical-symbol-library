@@ -1,0 +1,108 @@
+{
+  "slug": "ansi-normally-open-limit-switch",
+  "name": "ANSI/IEEE normally-open limit switch symbol",
+  "kind": "symbol",
+  "abbreviation": "LS NO",
+  "aliases": [
+    "IEEE normally-open limit switch symbol",
+    "ANSI normally-open limit switch symbol",
+    "HLS11"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented graphical reference for normally-open limit switch, with public vendor evidence and drawing-reading notes.",
+  "description": [
+    "The NO limit-switch form links a discrete contact to mechanical position or travel. Its electrical state is only interpretable after the drawing identifies the actuated equipment position and the switch's reference condition.",
+    "This is a convention-specific lookup based on the publisher's IEEE-labelled preview. The geometry here is independently drawn to explain the connection or operation; it is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Locate the mechanism position that closes the contact.",
+    "Read the selected library and the project legend together. A vendor block identifier is meaningful within its named library and is not a universal standard-symbol code."
+  ],
+  "drawingChecklist": [
+    "Name monitored position",
+    "Identify switch terminals",
+    "Reference actuator detail"
+  ],
+  "distinction": "A limit switch senses equipment movement; a manually operated pushbutton supplies an operator command.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview — Limit Switches"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HLS11 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-c0135d6b-f4a5-4954-85e0-5b188e5ff5c9",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "normally-open-limit-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-ansi-normally-open-limit-switch",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Limit Switches functional form",
+    "counterpart": "normally-open-limit-switch",
+    "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-normally-open-limit-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/ansi-normally-open-limit-switch.svg",
+  "id": "ansi-normally-open-limit-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-normally-open-limit-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-normally-open-limit-switch.json",
+  "svgPath": "artwork/svg/ansi-normally-open-limit-switch.svg",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-c0135d6b-f4a5-4954-85e0-5b188e5ff5c9",
+      "title": "Autodesk IEEE Symbol Preview — Limit Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C0135D6B-F4A5-4954-85E0-5B188E5FF5C9.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page verifying the component name and vendor block identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

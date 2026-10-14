@@ -1,0 +1,98 @@
+{
+  "slug": "23-temperature-control-device",
+  "name": "Temperature control device",
+  "kind": "function",
+  "abbreviation": "23",
+  "aliases": [
+    "temperature controller",
+    "thermostatic control",
+    "ANSI 23",
+    "IEEE device 23"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Controls heating, cooling or another process action using a temperature input.",
+  "description": [
+    "Controls heating, cooling or another process action using a temperature input.",
+    "In a drafting package, connect this reference to the temperature sensor and controlled equipment. The associated drawing should trace the heating, cooling or regulating output; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the temperature sensor and controlled equipment.",
+    "Trace the heating, cooling or regulating output."
+  ],
+  "drawingChecklist": [
+    "Label the temperature sensor and controlled equipment.",
+    "Cross-reference the heating, cooling or regulating output.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Temperature control maintains a process condition; thermal protection 49 addresses the protected equipment's thermal duty.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "23"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The temperature sensor and controlled equipment"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "control-cabinet",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/23-temperature-control-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/23-temperature-control-device.svg",
+  "id": "23-temperature-control-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/23-temperature-control-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/23-temperature-control-device.json",
+  "svgPath": "artwork/svg/23-temperature-control-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

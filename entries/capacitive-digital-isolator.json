@@ -1,0 +1,82 @@
+{
+  "slug": "capacitive-digital-isolator",
+  "name": "Capacitive digital isolator",
+  "kind": "symbol",
+  "abbreviation": "DIG-ISO",
+  "aliases": [
+    "digital isolator",
+    "capacitive isolation IC"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers digital information between separately referenced electrical domains through a capacitive isolation structure.",
+  "description": [
+    "Transfers digital information between separately referenced electrical domains through a capacitive isolation structure.",
+    "On a schematic, identify the two domain supplies, channel directions and isolation boundary and trace the isolated data, enable and fault/status paths. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "A digital isolator transfers logic; it does not by itself provide an isolated power supply.",
+    "The preview is an independently drawn educational functional reference. Add the selected component’s actual power pins, terminal numbers, timing or analogue reference details when producing a construction drawing."
+  ],
+  "readingNotes": [
+    "Identify the two domain supplies, channel directions and isolation boundary.",
+    "Trace the isolated data, enable and fault/status paths."
+  ],
+  "drawingChecklist": [
+    "Label the two domain supplies, channel directions and isolation boundary.",
+    "Cross-reference the isolated data, enable and fault/status paths.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "A digital isolator transfers logic; it does not by itself provide an isolated power supply.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "DIG-ISO — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The two domain supplies, channel directions and isolation boundary"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational functional/circuit reference; not a selected product pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-digital-isolator",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "plc-digital-input",
+    "diode"
+  ],
+  "artwork": "electronics-digital-isolator",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/capacitive-digital-isolator",
+  "illustration": "https://eloragrid.ai/library/illustrations/capacitive-digital-isolator.svg",
+  "id": "capacitive-digital-isolator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitive-digital-isolator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitive-digital-isolator.json",
+  "svgPath": "artwork/svg/capacitive-digital-isolator.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-digital-isolator",
+      "title": "ISO7741 — capacitive digital isolation",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/ISO7741",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of capacitive digital isolation. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

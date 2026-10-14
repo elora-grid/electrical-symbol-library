@@ -1,0 +1,99 @@
+{
+  "slug": "40-field-or-loss-of-excitation-protection",
+  "name": "Field or loss-of-excitation protection",
+  "kind": "function",
+  "abbreviation": "40",
+  "aliases": [
+    "loss of field",
+    "loss of excitation",
+    "underexcitation",
+    "ANSI 40",
+    "IEEE device 40"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Detects an abnormal machine excitation condition using the implementation's field or electrical measurements.",
+  "description": [
+    "Detects an abnormal machine excitation condition using the implementation's field or electrical measurements.",
+    "In a drafting package, connect this reference to the machine measurements and excitation reference. The associated drawing should trace the excitation alarm or generator trip path; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the machine measurements and excitation reference.",
+    "Trace the excitation alarm or generator trip path."
+  ],
+  "drawingChecklist": [
+    "Label the machine measurements and excitation reference.",
+    "Cross-reference the excitation alarm or generator trip path.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "Loss-of-excitation protection supervises a condition; device 41 switches the field circuit.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "40"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The machine measurements and excitation reference"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "generator",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/40-field-or-loss-of-excitation-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/40-field-or-loss-of-excitation-protection.svg",
+  "id": "40-field-or-loss-of-excitation-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/40-field-or-loss-of-excitation-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/40-field-or-loss-of-excitation-protection.json",
+  "svgPath": "artwork/svg/40-field-or-loss-of-excitation-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

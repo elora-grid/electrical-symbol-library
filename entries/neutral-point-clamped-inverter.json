@@ -1,0 +1,83 @@
+{
+  "slug": "neutral-point-clamped-inverter",
+  "name": "Neutral-point-clamped inverter",
+  "kind": "symbol",
+  "abbreviation": "NPC",
+  "aliases": [
+    "three level NPC",
+    "diode clamped inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A multilevel switching arrangement using the documented split DC link and neutral-point clamping paths.",
+  "description": [
+    "A multilevel switching arrangement using the documented split DC link and neutral-point clamping paths.",
+    "On a schematic, identify the split-link midpoint, clamping devices and phase-leg switches and trace the phase output and DC-link balancing/control references. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "NPC identifies a specific multilevel arrangement; active-NPC variants replace parts of the clamping arrangement and need separate device documentation.",
+    "The preview is a conceptual topology reference rather than a complete power-stage circuit. Switching sequences, magnetic design, component selection and control/protection details belong in the equipment design documentation."
+  ],
+  "readingNotes": [
+    "Identify the split-link midpoint, clamping devices and phase-leg switches.",
+    "Trace the phase output and DC-link balancing/control references."
+  ],
+  "drawingChecklist": [
+    "Label the split-link midpoint, clamping devices and phase-leg switches.",
+    "Cross-reference the phase output and DC-link balancing/control references.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "NPC identifies a specific multilevel arrangement; active-NPC variants replace parts of the clamping arrangement and need separate device documentation.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "NPC — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The split-link midpoint, clamping devices and phase-leg switches"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original conceptual topology block; not a complete switch-level circuit."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-npc",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "three-phase-voltage-source-inverter",
+    "power-converter"
+  ],
+  "artwork": "electronics-power-npc",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/neutral-point-clamped-inverter",
+  "illustration": "https://eloragrid.ai/library/illustrations/neutral-point-clamped-inverter.svg",
+  "id": "neutral-point-clamped-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/neutral-point-clamped-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/neutral-point-clamped-inverter.json",
+  "svgPath": "artwork/svg/neutral-point-clamped-inverter.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-npc",
+      "title": "Multilevel NPC converter application context",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/product-information/sic-modules-for-ups-design-and-efficiency-guide",
+      "type": "manufacturer",
+      "scope": "Public explanation of two-level and neutral-point-clamped converter contexts. The catalogue indicates a split-link/clamping concept; it is not an exact standard circuit or a selected module internal diagram.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

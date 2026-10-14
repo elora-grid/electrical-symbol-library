@@ -1,0 +1,98 @@
+{
+  "slug": "11-multifunction-device",
+  "name": "Multifunction device",
+  "kind": "function",
+  "abbreviation": "11",
+  "aliases": [
+    "multifunction relay",
+    "multiple function device",
+    "ANSI 11",
+    "IEEE device 11"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Identifies a device that performs several separately described protection or control functions.",
+  "description": [
+    "Identifies a device that performs several separately described protection or control functions.",
+    "In a drafting package, connect this reference to the device's enabled-function list. The associated drawing should trace the function-specific outputs and terminal references; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the device's enabled-function list.",
+    "Trace the function-specific outputs and terminal references."
+  ],
+  "drawingChecklist": [
+    "Label the device's enabled-function list.",
+    "Cross-reference the function-specific outputs and terminal references.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "The number 11 does not reveal which protection elements are enabled; show their individual codes as well.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "11"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The device's enabled-function list"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "control-cabinet",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/11-multifunction-device",
+  "illustration": "https://eloragrid.ai/library/illustrations/11-multifunction-device.svg",
+  "id": "11-multifunction-device",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/11-multifunction-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/11-multifunction-device.json",
+  "svgPath": "artwork/svg/11-multifunction-device.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "37-undercurrent-or-underpower-protection",
+  "name": "Undercurrent or underpower protection",
+  "kind": "function",
+  "abbreviation": "37",
+  "aliases": [
+    "undercurrent relay",
+    "underpower relay",
+    "loss of load",
+    "ANSI 37",
+    "IEEE device 37"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "Recognises a current or power level below the documented minimum operating criterion.",
+  "description": [
+    "Recognises a current or power level below the documented minimum operating criterion.",
+    "In a drafting package, connect this reference to the measured current or power and running-state supervision. The associated drawing should trace the underload alarm or machine stopping path; the number identifies the role and does not specify the terminal arrangement, ratings or operating settings."
+  ],
+  "readingNotes": [
+    "Identify the measured current or power and running-state supervision.",
+    "Trace the underload alarm or machine stopping path."
+  ],
+  "drawingChecklist": [
+    "Label the measured current or power and running-state supervision.",
+    "Cross-reference the underload alarm or machine stopping path.",
+    "Identify the device tag, manual revision and logic drawing that define this implementation."
+  ],
+  "distinction": "An underload reference must state its measured quantity; device 32 describes directional power rather than a generic low-current condition.",
+  "facts": [
+    {
+      "label": "ANSI / IEEE function number",
+      "value": "37"
+    },
+    {
+      "label": "Drawing context",
+      "value": "The measured current or power and running-state supervision"
+    },
+    {
+      "label": "Application scope",
+      "value": "Protection or apparatus-control role; exact implementation is defined by the equipment documentation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-numbers",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "sourceId": "ieee-functions",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ],
+  "related": [
+    "motor",
+    "52-ac-circuit-breaker"
+  ],
+  "artwork": "pub-function-box",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/protection-functions/37-undercurrent-or-underpower-protection",
+  "illustration": "https://eloragrid.ai/library/illustrations/37-undercurrent-or-underpower-protection.svg",
+  "id": "37-undercurrent-or-underpower-protection",
+  "canonicalUrl": "https://eloragrid.ai/protection-functions/37-undercurrent-or-underpower-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/37-undercurrent-or-underpower-protection.json",
+  "svgPath": "artwork/svg/37-undercurrent-or-underpower-protection.svg",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-numbers",
+      "title": "ANSI device-number and suffix reference table",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/pt/products/tables/ansi/",
+      "type": "manufacturer",
+      "scope": "Public Portuguese-language base-number and application-suffix table. Used to cross-check public number associations. Application-specific and historical labels need the selected drawing legend; this table is not a substitute for the licensed IEEE standard.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer number/name association. Drafting explanations are independently written."
+    },
+    {
+      "id": "ieee-functions",
+      "title": "IEEE C37.2-2022: power-system device function numbers",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9984140",
+      "type": "standard",
+      "scope": "Device function numbers, acronyms and contact designations. The full publication may require access through IEEE.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Normative device-number publication; exact edition wording and compliance require the licensed standard."
+    }
+  ]
+}

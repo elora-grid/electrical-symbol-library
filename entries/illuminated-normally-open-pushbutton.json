@@ -1,0 +1,84 @@
+{
+  "slug": "illuminated-normally-open-pushbutton",
+  "name": "Illuminated normally-open pushbutton",
+  "kind": "symbol",
+  "abbreviation": "PB NO LAMP",
+  "aliases": [
+    "HPB11S75",
+    "VPB11S75"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An illuminated NO pushbutton combines a manual normally-open contact function with an indication lamp.",
+  "description": [
+    "An illuminated NO pushbutton combines a manual normally-open contact function with an indication lamp. The lamp circuit is drawn or referenced separately because its indication need not follow the contact state."
+  ],
+  "readingNotes": [
+    "Trace the lamp supply independently from the pushbutton contact circuit.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify contact terminals",
+    "Identify lamp supply and colour",
+    "State the indicated condition"
+  ],
+  "distinction": "An illuminated actuator does not make its contact a lamp-test contact.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Manual operation"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HPB11S75, VPB11S75 (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-illuminated-pushbuttons",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "edu-illuminated-normally-open-pushbutton",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/illuminated-normally-open-pushbutton",
+  "illustration": "https://eloragrid.ai/library/illustrations/illuminated-normally-open-pushbutton.svg",
+  "id": "illuminated-normally-open-pushbutton",
+  "canonicalUrl": "https://eloragrid.ai/symbols/illuminated-normally-open-pushbutton",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/illuminated-normally-open-pushbutton.json",
+  "svgPath": "artwork/svg/illuminated-normally-open-pushbutton.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-illuminated-pushbuttons",
+      "title": "AutoCAD Electrical: Illuminated push buttons",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7B13B543-97A4-4A7E-8D08-49386A153A33.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

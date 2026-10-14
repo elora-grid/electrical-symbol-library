@@ -1,0 +1,80 @@
+{
+  "slug": "reactive-energy-meter",
+  "name": "Reactive-energy meter",
+  "kind": "symbol",
+  "abbreviation": "kvarh",
+  "aliases": [
+    "var hour meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A reactive-energy meter accumulates reactive power over time according to the specified register convention.",
+  "description": [
+    "A reactive-energy meter accumulates reactive power over time according to the specified register convention. Its input connections and quadrant definitions are needed for correct interpretation."
+  ],
+  "readingNotes": [
+    "Read delivered and received register definitions from the selected meter.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify metering point",
+    "State register/sign convention",
+    "Reference meter configuration"
+  ],
+  "distinction": "Reactive energy in kvarh is different from reactive power in kvar.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Indicated quantity"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer",
+    "active-power-indicator"
+  ],
+  "artwork": "edu-reactive-energy-meter",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/reactive-energy-meter",
+  "illustration": "https://eloragrid.ai/library/illustrations/reactive-energy-meter.svg",
+  "id": "reactive-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/reactive-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/reactive-energy-meter.json",
+  "svgPath": "artwork/svg/reactive-energy-meter.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "manually-unlatched-no-contact",
+  "name": "Manually unlatched NO contact",
+  "kind": "symbol",
+  "abbreviation": "NO UNLATCH",
+  "aliases": [
+    "HCR2121F",
+    "VCR2121F"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A manually unlatched NO contact includes a mechanical retaining action released by a documented manual operation.",
+  "description": [
+    "A manually unlatched NO contact includes a mechanical retaining action released by a documented manual operation. Its schematic modifier explains why removal of an initiating signal may not restore the initial state."
+  ],
+  "readingNotes": [
+    "Follow the manual reset to the retaining device tag.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify latch mechanism",
+    "Show manual unlatch",
+    "Reference contact terminals"
+  ],
+  "distinction": "Manual unlatching concerns the mechanism, not the contact's load interrupting rating.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HCR2121F, VCR2121F (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-contacts",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "edu-manually-unlatched-no-contact",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/manually-unlatched-no-contact",
+  "illustration": "https://eloragrid.ai/library/illustrations/manually-unlatched-no-contact.svg",
+  "id": "manually-unlatched-no-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/manually-unlatched-no-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/manually-unlatched-no-contact.json",
+  "svgPath": "artwork/svg/manually-unlatched-no-contact.svg",
+  "publicSources": [
+    {
+      "id": "autodesk-contacts",
+      "title": "Relays and contacts: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm",
+      "type": "cad-reference",
+      "scope": "Normally open, normally closed and changeover contacts, relay coils and latching relay variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

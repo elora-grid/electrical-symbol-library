@@ -1,0 +1,88 @@
+{
+  "slug": "ga-bus-coupler-compartment",
+  "name": "Bus-coupler compartment",
+  "kind": "object",
+  "abbreviation": "GA",
+  "aliases": [
+    "bus tie bay",
+    "Bus-coupler compartment CAD",
+    "Bus-coupler compartment general arrangement",
+    "Bus-coupler compartment panel layout"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A bus-coupler compartment contains the specified switching connection between bus sections.",
+  "description": [
+    "A bus-coupler compartment contains the specified switching connection between bus sections.",
+    "Show operating controls, bus connections and interlock references. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Show operating controls, bus connections and interlock references.",
+    "A bus tie is a circuit function; its physical bay depends on the assembly configuration."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Show operating controls, bus connections and interlock references.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A bus tie is a circuit function; its physical bay depends on the assembly configuration.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Generic equipment / layout object"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-eaton-fundamentals",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ],
+  "related": [
+    "switchboard",
+    "control-cabinet"
+  ],
+  "artwork": "edu-object-ga-bus-coupler-compartment",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/ga-bus-coupler-compartment",
+  "illustration": "https://eloragrid.ai/library/illustrations/ga-bus-coupler-compartment.svg",
+  "id": "ga-bus-coupler-compartment",
+  "canonicalUrl": "https://eloragrid.ai/objects/ga-bus-coupler-compartment",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ga-bus-coupler-compartment.json",
+  "svgPath": "artwork/svg/ga-bus-coupler-compartment.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-eaton-fundamentals",
+      "title": "Low-voltage switchgear compartment fundamentals",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/ph/en-us/products/low-voltage-power-distribution-control-systems/switchgear-lv/low-voltage-switchgear-fundamentals---eaton.html",
+      "type": "manufacturer",
+      "scope": "Public descriptions of breaker, bus and cable compartments. Illustrations here are independent spatial concepts.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer or design reference relevant to this equipment class."
+    }
+  ]
+}

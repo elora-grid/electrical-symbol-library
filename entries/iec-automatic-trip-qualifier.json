@@ -1,0 +1,91 @@
+{
+  "slug": "iec-automatic-trip-qualifier",
+  "name": "Automatic-trip qualifier",
+  "kind": "symbol",
+  "abbreviation": "Q070105",
+  "aliases": [
+    "Automatic-trip qualifier symbol",
+    "Q070105",
+    "Automatic-trip qualifier IEC reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "An automatic-trip qualifier indicates that the associated mechanism can operate automatically under its documented condition.",
+  "description": [
+    "An automatic-trip qualifier indicates that the associated mechanism can operate automatically under its documented condition. An automatic trip describes an operating action initiated by a condition in the device or associated controls. The input that causes tripping may be protective, process-related or another documented trigger.",
+    "Show the trip source and resulting contact/device state through the circuit and cross-references. Reset, reclosure and return behaviour remain separate design information."
+  ],
+  "readingNotes": [
+    "Identify the initiating protection or process condition in the surrounding circuit.",
+    "Automatic tripping and automatic return describe different parts of the operating sequence."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify the initiating protection or process condition in the surrounding circuit.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Automatic tripping and automatic return describe different parts of the operating sequence.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Specific public IEC-context family form"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "Q070105 (Autodesk token; not a verified IEC database ID)"
+    },
+    {
+      "label": "Information added",
+      "value": "Identify the initiating protection or process condition in the surrounding circuit."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "edu-iec-automatic-trip-qualifier",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Automatic-trip qualifier",
+    "reference": "Autodesk IEC-60617 Symbol Preview — Operating-device and function qualifiers; vendor family reference, not certified IEC geometry or database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-automatic-trip-qualifier",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-automatic-trip-qualifier.svg",
+  "id": "iec-automatic-trip-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-automatic-trip-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-automatic-trip-qualifier.json",
+  "svgPath": "artwork/svg/iec-automatic-trip-qualifier.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}

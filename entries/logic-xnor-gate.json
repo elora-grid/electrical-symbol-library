@@ -1,0 +1,82 @@
+{
+  "slug": "logic-xnor-gate",
+  "name": "Exclusive-NOR gate",
+  "kind": "symbol",
+  "abbreviation": "XNOR",
+  "aliases": [
+    "exclusive NOR",
+    "equality gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "For two positive-logic inputs, produces a true output when the input states are equal.",
+  "description": [
+    "For two positive-logic inputs, produces a true output when the input states are equal.",
+    "On a schematic, identify the compared input signals and the output driver type and trace the equality output and any required external pull-up. Keep the component tag and signal/reference names consistent across the control drawing, terminal schedule and device documentation.",
+    "XNOR specifies a logical function; an open-drain implementation is a separate electrical output characteristic.",
+    "Terminal letters describe electrical roles, not package pin numbers. Check the selected public datasheet for the actual pin assignment, polarity and any internally connected terminals before completing the drawing."
+  ],
+  "readingNotes": [
+    "Identify the compared input signals and the output driver type.",
+    "Trace the equality output and any required external pull-up."
+  ],
+  "drawingChecklist": [
+    "Label the compared input signals and the output driver type.",
+    "Cross-reference the equality output and any required external pull-up.",
+    "Add the selected device or circuit documentation revision, power/reference connections and project signal convention."
+  ],
+  "distinction": "XNOR specifies a logical function; an open-drain implementation is a separate electrical output characteristic.",
+  "facts": [
+    {
+      "label": "Common schematic mnemonic",
+      "value": "XNOR — descriptive only; project/device documentation defines reference designations."
+    },
+    {
+      "label": "Terminal / interface focus",
+      "value": "The compared input signals and the output driver type"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational component glyph; not a certified standard graphic or package pinout."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc266",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ],
+  "related": [
+    "logic-xor-gate",
+    "plc-io"
+  ],
+  "artwork": "electronics-gate-xnor",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/logic-xnor-gate",
+  "illustration": "https://eloragrid.ai/library/illustrations/logic-xnor-gate.svg",
+  "id": "logic-xnor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/logic-xnor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/logic-xnor-gate.json",
+  "svgPath": "artwork/svg/logic-xnor-gate.svg",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc266",
+      "title": "SN74HC266 — XNOR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc266.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of xnor gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public primary manufacturer documentation establishes the component function or circuit/topology relationship. Preview geometry and drafting explanations are independently authored."
+    }
+  ]
+}

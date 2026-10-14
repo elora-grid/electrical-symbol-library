@@ -1,0 +1,100 @@
+{
+  "slug": "fuse-switch",
+  "name": "Fuse-switch",
+  "kind": "symbol",
+  "abbreviation": "FUSE SW",
+  "aliases": [
+    "HFU1FS",
+    "VFU1FS"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A fuse-switch uses a fuse-link or fuse carrier as part of its moving switching contact system.",
+  "description": [
+    "A fuse-switch uses a fuse-link or fuse carrier as part of its moving switching contact system. The equipment designation must identify the actual assembly rather than treating every fused switch as mechanically identical."
+  ],
+  "readingNotes": [
+    "Read the manufacturer's construction and operating instructions to establish the switching mechanism.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify assembly type",
+    "Name compatible fuse links",
+    "Show operating handle reference"
+  ],
+  "distinction": "Fuse-switch describes the moving contact construction; a fused switch is a broader functional description.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Fused circuit"
+    },
+    {
+      "label": "Representation scope",
+      "value": "Functional concept; not an official standard graphic or a product footprint"
+    },
+    {
+      "label": "Public vendor block reference",
+      "value": "HFU1FS, VFU1FS (Autodesk identifiers; not IEC symbol numbers)"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-fuse-switches",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "fuse",
+    "load-break-switch"
+  ],
+  "artwork": "edu-fuse-switch",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/fuse-switch",
+  "illustration": "https://eloragrid.ai/library/illustrations/fuse-switch.svg",
+  "id": "fuse-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/fuse-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/fuse-switch.json",
+  "svgPath": "artwork/svg/fuse-switch.svg",
+  "publicSources": [
+    {
+      "id": "pub-symbol-fuse-switches",
+      "title": "AutoCAD Electrical: Fuse switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-D9CE1F87-4B4C-40C7-9C9E-0136BD2A199C.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

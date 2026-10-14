@@ -1,0 +1,105 @@
+{
+  "slug": "victron-energy-smartshunt",
+  "name": "Victron Energy SmartShunt",
+  "kind": "object",
+  "abbreviation": "SmartShunt",
+  "aliases": [
+    "SmartShunt",
+    "SmartShunt CAD",
+    "SmartShunt general arrangement",
+    "SmartShunt panel layout"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Victron Energy SmartShunt is a battery current shunt product family referenced for electrical equipment layout.",
+  "description": [
+    "Victron Energy SmartShunt is a battery current shunt product family referenced for electrical equipment layout.",
+    "Coordinate high-current connections and separate sense-wire routing. The GA locates the physical item; the associated schematic or equipment schedule records its electrical interfaces.",
+    "This record identifies Victron Energy SmartShunt from the official public resource. Select the shunt version and coordinate the high-current and sense-wire connection zones.",
+    "The preview is independent educational geometry and is not a manufacturer outline, fabrication drawing or verified standard graphic. Obtain the applicable model drawing from the cited official source before making a dimensional layout."
+  ],
+  "readingNotes": [
+    "Coordinate high-current connections and separate sense-wire routing.",
+    "A shunt measures voltage drop for its instrument; it is not a CT."
+  ],
+  "drawingChecklist": [
+    "Confirm the exact equipment identity, drawing revision and installation orientation.",
+    "Coordinate high-current connections and separate sense-wire routing.",
+    "Cross-reference the terminals, cable routes and service tasks with the equipment schedule."
+  ],
+  "distinction": "A shunt measures voltage drop for its instrument; it is not a CT.",
+  "facts": [
+    {
+      "label": "Record type",
+      "value": "Manufacturer product family"
+    },
+    {
+      "label": "Drawing role",
+      "value": "Physical location and interface coordination"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Not specified here; use the selected manufacturer drawing"
+    },
+    {
+      "label": "Artwork",
+      "value": "Original conceptual envelope; unitless and not to scale"
+    },
+    {
+      "label": "Manufacturer / publisher",
+      "value": "Victron Energy"
+    },
+    {
+      "label": "Published family / model",
+      "value": "SmartShunt"
+    },
+    {
+      "label": "Market verification",
+      "value": "Source region and selected catalogue number must be checked; no regional approval is inferred"
+    },
+    {
+      "label": "Configuration note",
+      "value": "Select the shunt version and coordinate the high-current and sense-wire connection zones."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-smartshunt",
+      "relevance": "Official public equipment-family identity and documentation route; exact model must be selected."
+    }
+  ],
+  "related": [
+    "ga-battery-current-shunt",
+    "current-transformer"
+  ],
+  "artwork": "edu-object-victron-energy-smartshunt",
+  "publishedOn": "2026-10-13",
+  "updatedOn": "2026-10-13",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/victron-energy-smartshunt",
+  "illustration": "https://eloragrid.ai/library/illustrations/victron-energy-smartshunt.svg",
+  "id": "victron-energy-smartshunt",
+  "canonicalUrl": "https://eloragrid.ai/objects/victron-energy-smartshunt",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/victron-energy-smartshunt.json",
+  "svgPath": "artwork/svg/victron-energy-smartshunt.svg",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-smartshunt",
+      "title": "SmartShunt official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/battery-monitors/smart-battery-shunt",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Official public equipment-family identity and documentation route; exact model must be selected."
+    }
+  ]
+}

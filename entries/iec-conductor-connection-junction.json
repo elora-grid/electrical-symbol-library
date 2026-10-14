@@ -1,0 +1,83 @@
+{
+  "slug": "iec-conductor-connection-junction",
+  "name": "Conductor connection junction",
+  "kind": "symbol",
+  "abbreviation": "JUNCTION",
+  "aliases": [
+    "Conductor connection junction symbol"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A junction indication marks a documented electrical connection between conductor branches.",
+  "description": [
+    "A junction indication marks a documented electrical connection between conductor branches. The junction is a drawing connectivity statement: the branches belong to one connected electrical network at that point. It is different from a hardware splice which may have its own material and installation record.",
+    "Apply the drawing legend’s junction convention consistently and check the CAD connection data. Visual line overlap is not sufficient evidence that an automatic wire report will treat the lines as connected."
+  ],
+  "readingNotes": [
+    "Check the connection mark and CAD connectivity at every branch rather than inferring connection from line proximity.",
+    "A crossing line is not necessarily a connected conductor."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Check the connection mark and CAD connectivity at every branch rather than inferring connection from line proximity.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A crossing line is not necessarily a connected conductor.",
+  "facts": [
+    {
+      "label": "Reference scope",
+      "value": "Publisher drafting annotation / connectivity convention"
+    },
+    {
+      "label": "Documentation scope",
+      "value": "Wire insertion and connectivity behaviour; no publisher block identifier or IEC database ID is asserted."
+    },
+    {
+      "label": "Information added",
+      "value": "Check the connection mark and CAD connectivity at every branch rather than inferring connection from line proximity."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-wire-connections",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ],
+  "related": [
+    "terminal",
+    "busbar"
+  ],
+  "artwork": "edu-iec-conductor-connection-junction",
+  "publishedOn": "2026-10-14",
+  "updatedOn": "2026-10-14",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-conductor-connection-junction",
+  "illustration": "https://eloragrid.ai/library/illustrations/iec-conductor-connection-junction.svg",
+  "id": "iec-conductor-connection-junction",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-conductor-connection-junction",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-conductor-connection-junction.json",
+  "svgPath": "artwork/svg/iec-conductor-connection-junction.svg",
+  "publicSources": [
+    {
+      "id": "iec-public-wire-connections",
+      "title": "Wire connection dots, crossing gaps and loops",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2020/ENU/AutoCAD-Electrical/files/GUID-936BB8A9-9C01-4AC6-B833-CB97700A7203.htm",
+      "type": "cad-reference",
+      "scope": "Public drafting-tool documentation. The annotation is a connectivity or identification convention, not a verified IEC standard graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Official public publisher family name and reference context; vendor identifiers and graphics are distinct from licensed IEC database content."
+    }
+  ]
+}
