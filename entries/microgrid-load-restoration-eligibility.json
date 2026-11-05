@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-load-restoration-eligibility",
+  "name": "Microgrid load-restoration eligibility",
+  "kind": "symbol",
+  "abbreviation": "MLE",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Reserve and load eligibility",
+    "Restoration permission"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Checks the defined electrical and resource conditions before a shed load can be restored.",
+  "description": [
+    "Checks the defined electrical and resource conditions before a shed load can be restored. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Reserve and load eligibility” at the input and “Restoration permission” at the output. Restoration also involves inrush and process constraints.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reserve and load eligibility. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Restoration permission. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Restoration also involves inrush and process constraints.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reserve and load eligibility.",
+    "Identify the destination and defined state of restoration permission.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Restoration also involves inrush and process constraints."
+  ],
+  "distinction": "Restoration also involves inrush and process constraints. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reserve and load eligibility"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Restoration permission"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MLE is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-staged-load-restoration-scheduler"
+  ],
+  "artwork": "pi26-microgrid-load-restoration-eligibility",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Reserve and load eligibility",
+    "output": "Restoration permission"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-load-restoration-eligibility",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-load-restoration-eligibility.svg",
+  "id": "microgrid-load-restoration-eligibility",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-load-restoration-eligibility",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-load-restoration-eligibility.json",
+  "svgPath": "artwork/svg/microgrid-load-restoration-eligibility.svg",
+  "referencePath": "references/microgrid-load-restoration-eligibility.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

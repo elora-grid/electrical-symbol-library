@@ -1,0 +1,118 @@
+{
+  "slug": "iec-cooker-control-unit",
+  "name": "Cooker control unit",
+  "kind": "symbol",
+  "abbreviation": "CCU",
+  "aliases": [
+    "cooker switch",
+    "cooker connection unit",
+    "range isolator"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for the double-pole control switch and outlet serving a fixed cooking appliance.",
+  "description": [
+    "A cooker control unit is a high-current double-pole switch, sometimes with an auxiliary socket outlet, that controls and isolates a fixed cooker or hob. Plan legends usually draw a switch box with the letters CCU or a cooker mark, placed within reach of the appliance but not above the hob.",
+    "The symbol tells the electrician to run a dedicated radial circuit sized for the appliance, often 32 A or larger, and to install a separate cooker connection plate behind the appliance. Two symbols are often shown together: the control unit on the splashback and the connection outlet low behind the cooker. It does not show the cable size or the diversity used in the design. Those belong in the circuit schedule."
+  ],
+  "readingNotes": [
+    "Look for a paired connection plate behind the appliance position.",
+    "Check whether the unit includes an auxiliary outlet."
+  ],
+  "drawingChecklist": [
+    "State switch rating and auxiliary outlet requirement.",
+    "Show the connection plate position.",
+    "Tag the dedicated circuit."
+  ],
+  "distinction": "A general isolator mark has no auxiliary outlet and is not tied to a cooking appliance; the cooker control unit is a dedicated appliance accessory.",
+  "facts": [
+    {
+      "label": "Switching",
+      "value": "Double-pole, rated for the cooker circuit"
+    },
+    {
+      "label": "Typical position",
+      "value": "Beside, not above, the hob"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Explains elementary switching functions such as isolation, control and functional switching."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "iec-local-isolator-plan-mark",
+    "iec-flex-outlet-plate",
+    "switch-disconnector"
+  ],
+  "artwork": "s28-iec-cooker-control-unit",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Cooker control unit",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-cooker-control-unit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-cooker-control-unit.svg",
+  "id": "iec-cooker-control-unit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-cooker-control-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-cooker-control-unit.json",
+  "svgPath": "artwork/svg/iec-cooker-control-unit.svg",
+  "referencePath": "references/iec-cooker-control-unit.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains elementary switching functions such as isolation, control and functional switching."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

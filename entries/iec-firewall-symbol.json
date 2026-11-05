@@ -1,0 +1,82 @@
+{
+  "slug": "iec-firewall-symbol",
+  "name": "Firewall symbol",
+  "kind": "symbol",
+  "abbreviation": "FW",
+  "aliases": [
+    "network firewall",
+    "security gateway",
+    "packet filter"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Network symbol for a firewall, drawn as a brick wall, separating network zones on communication drawings.",
+  "description": [
+    "A firewall controls traffic between network zones according to rules, and is drawn on network diagrams as a brick wall block. Industrial drawings place it between the corporate network and control networks or between a remote access link and the plant.",
+    "Many industrial routers include firewall functions, so the drawing may show the firewall as a logical function inside a router. Where a separate appliance is used, its power and rack position appear on the electrical drawing. The symbol does not show the rule set or zones. Those belong in the cyber security documentation."
+  ],
+  "readingNotes": [
+    "Identify the zones on each side.",
+    "Check whether it is a separate device or a router function."
+  ],
+  "drawingChecklist": [
+    "Label zones.",
+    "State device or function.",
+    "Show power if a separate appliance."
+  ],
+  "distinction": "A router connects networks; a firewall filters traffic by policy, even when both are in one device.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Traffic filtering between zones"
+    },
+    {
+      "label": "Graphic form",
+      "value": "Brick wall block"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; plan symbols for this device vary between legends, so read the project key"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-westermo-cellular-routers",
+      "relevance": "Public product family page describing routers and gateways, including stateful firewall functions."
+    }
+  ],
+  "related": [
+    "iec-network-router-symbol",
+    "ga-industrial-vpn-router"
+  ],
+  "artwork": "s28-iec-firewall-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-firewall-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-firewall-symbol.svg",
+  "id": "iec-firewall-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-firewall-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-firewall-symbol.json",
+  "svgPath": "artwork/svg/iec-firewall-symbol.svg",
+  "referencePath": "references/iec-firewall-symbol.md",
+  "publicSources": [
+    {
+      "id": "s28-westermo-cellular-routers",
+      "title": "Industrial cellular routers and gateways",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/routers-and-gateways/cellular-routers-and-gateways",
+      "type": "manufacturer",
+      "scope": "Public product family page for industrial routers and gateways, including stateful firewall functions.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing routers and gateways, including stateful firewall functions."
+    }
+  ]
+}

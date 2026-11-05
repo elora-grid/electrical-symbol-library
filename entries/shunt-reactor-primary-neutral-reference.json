@@ -1,0 +1,105 @@
+{
+  "slug": "shunt-reactor-primary-neutral-reference",
+  "name": "Shunt-reactor primary neutral reference",
+  "kind": "symbol",
+  "abbreviation": "SPNR",
+  "aliases": [
+    "High-voltage primary equipment references",
+    "switchyards High-voltage primary equipment references",
+    "switchyards",
+    "Switchyards",
+    "Reactor winding neutral",
+    "Assigned neutral connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the selected reactor neutral connection and its relationship to the earthing arrangement.",
+  "description": [
+    "Identifies the selected reactor neutral connection and its relationship to the earthing arrangement. High-voltage primary equipment carries, interrupts, measures or conditions the main power circuit. Its function, insulation arrangement and equipment boundaries need to be distinguished from the secondary signals used to control it.",
+    "In a switchyard equipment diagram, the primary reference identifies the electrical role of an installed component while the linked equipment schedule and manufacturer drawing supply its exact construction and dimensions. For this reference, the drawing identifies “Reactor winding neutral” at the input and “Assigned neutral connection” at the output. Neutral duty follows the reactor application.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reactor winding neutral. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned neutral connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Neutral duty follows the reactor application.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reactor winding neutral.",
+    "Identify the destination and defined state of assigned neutral connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Neutral duty follows the reactor application."
+  ],
+  "distinction": "Neutral duty follows the reactor application. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reactor winding neutral"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned neutral connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SPNR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-hv-primary",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor-voltage-transformer",
+    "series-reactor-primary-path-reference"
+  ],
+  "artwork": "pi26-shunt-reactor-primary-neutral-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "hv-primary",
+    "input": "Reactor winding neutral",
+    "output": "Assigned neutral connection"
+  },
+  "url": "https://eloragrid.ai/symbols/shunt-reactor-primary-neutral-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/shunt-reactor-primary-neutral-reference.svg",
+  "id": "shunt-reactor-primary-neutral-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/shunt-reactor-primary-neutral-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/shunt-reactor-primary-neutral-reference.json",
+  "svgPath": "artwork/svg/shunt-reactor-primary-neutral-reference.svg",
+  "referencePath": "references/shunt-reactor-primary-neutral-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-hv-primary",
+      "publisher": "Hitachi Energy",
+      "title": "Gas-insulated switchgear",
+      "url": "https://www.hitachienergy.com/products-and-solutions/high-voltage-switchgear-and-breakers/gas-insulated-switchgear",
+      "scope": "Primary switching equipment and instrument-transformer interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "iec-intermediate-light-switch",
+  "name": "Intermediate light switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "SI",
+  "aliases": [
+    "intermediate switch",
+    "four-way switch (US term)",
+    "cross switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for an intermediate switch inserted between two two-way switches to add a third control point.",
+  "description": [
+    "An intermediate switch reverses the connection of the two strapping conductors between a pair of two-way switches, so any number of intermediate switches can be added along a corridor. The plan form uses crossing strokes through the switch circle to suggest the crossover action.",
+    "On long corridors, open-plan stairs and large rooms with several doors, plans show two two-way switches at the ends and intermediate switches at the middle doors. Reading the switching lines confirms which group each set controls.",
+    "The symbol does not give contact arrangement detail or rating. Its presence also implies four-core or two-strapper wiring, which the installer must plan for."
+  ],
+  "readingNotes": [
+    "Confirm the run has two-way switches at each end.",
+    "Count control points to check the number of intermediates."
+  ],
+  "drawingChecklist": [
+    "Show the two end switches and every intermediate.",
+    "Link all to the controlled luminaires.",
+    "Allow for strapper wiring in the cable schedule."
+  ],
+  "distinction": "A two-way switch has a changeover contact; an intermediate switch crosses two strappers and is useless without two-way switches either side.",
+  "facts": [
+    {
+      "label": "Operation",
+      "value": "Crossover of two strapping conductors"
+    },
+    {
+      "label": "US equivalent term",
+      "value": "Four-way switch"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ],
+  "related": [
+    "iec-two-way-light-switch",
+    "ansi-four-way-switch"
+  ],
+  "artwork": "s28-iec-intermediate-light-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Intermediate switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-intermediate-light-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-intermediate-light-switch.svg",
+  "id": "iec-intermediate-light-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-intermediate-light-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-intermediate-light-switch.json",
+  "svgPath": "artwork/svg/iec-intermediate-light-switch.svg",
+  "referencePath": "references/iec-intermediate-light-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ]
+}

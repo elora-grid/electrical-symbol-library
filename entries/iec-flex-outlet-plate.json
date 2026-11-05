@@ -1,0 +1,103 @@
+{
+  "slug": "iec-flex-outlet-plate",
+  "name": "Flex outlet plate",
+  "kind": "symbol",
+  "abbreviation": "FO",
+  "aliases": [
+    "cord outlet",
+    "flex outlet",
+    "connection unit outlet plate"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a cord or flex outlet where fixed equipment is connected directly at a wall plate.",
+  "description": [
+    "A flex outlet plate terminates fixed wiring at a wall plate from which a flexible cord leaves to an appliance, such as a wall heater, hand dryer or kitchen extract hood. Plans usually show a small outlet mark with a short tail or arrow indicating the cord exit, tagged with the equipment it serves.",
+    "The symbol helps coordinate electrical and architectural trades: the appliance supplier sees where the cord must reach and the electrician knows not to install a socket. It also flags that switching or fusing must be provided elsewhere, usually by an adjacent fused connection unit or isolator.",
+    "The mark does not show any protective device. The circuit schedule or an adjacent symbol must provide switching and protection."
+  ],
+  "readingNotes": [
+    "Look for an adjacent fused connection unit or isolator that controls this plate.",
+    "Read the equipment tag to confirm what the cord serves."
+  ],
+  "drawingChecklist": [
+    "Tag the equipment served.",
+    "Show the controlling switch or fuse location.",
+    "Give mounting height relative to the appliance."
+  ],
+  "distinction": "A fused connection unit includes a fuse and often a switch; a flex outlet plate only provides the cord termination.",
+  "facts": [
+    {
+      "label": "Contents",
+      "value": "Cord grip and terminals only"
+    },
+    {
+      "label": "Usual pairing",
+      "value": "Adjacent fused connection unit or isolator"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "fused-connection-unit-plan-mark",
+    "iec-local-isolator-plan-mark"
+  ],
+  "artwork": "s28-iec-flex-outlet-plate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Cord outlet",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-flex-outlet-plate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-flex-outlet-plate.svg",
+  "id": "iec-flex-outlet-plate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-flex-outlet-plate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-flex-outlet-plate.json",
+  "svgPath": "artwork/svg/iec-flex-outlet-plate.svg",
+  "referencePath": "references/iec-flex-outlet-plate.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

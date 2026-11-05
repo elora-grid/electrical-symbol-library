@@ -1,0 +1,105 @@
+{
+  "slug": "hydro-turbine-generator",
+  "name": "Hydro turbine generator",
+  "kind": "symbol",
+  "abbreviation": "HG",
+  "aliases": [
+    "hydro generator",
+    "micro-hydro generating unit",
+    "water turbine generator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A water turbine driving a generator, used for mini and micro hydro sources within microgrids and remote supplies.",
+  "description": [
+    "A hydro turbine generator converts water flow and head into electrical power through a Pelton, Francis, Kaplan or crossflow turbine driving a synchronous or induction generator. In microgrids, small hydro is valuable because it is dispatchable within the limits of the water available and supplies real rotating inertia.",
+    "Drawings show a turbine element on the shaft line to the generator circle, sometimes with a governor or a dump-load controller attached. Very small run-of-river units often regulate frequency by diverting surplus power to a ballast load rather than adjusting water flow, so the dump load may appear beside the generator.",
+    "The symbol does not state head, flow, runaway speed or whether the unit can operate isolated. Penstock and water-hammer constraints limit how quickly load can change, which is not visible on the electrical drawing."
+  ],
+  "readingNotes": [
+    "A ballast or dump load beside a small hydro set indicates electronic load control instead of a mechanical governor.",
+    "Check whether the generator is synchronous or induction."
+  ],
+  "drawingChecklist": [
+    "State turbine type, head and flow.",
+    "Show governor or load controller.",
+    "Reference generator type and protection."
+  ],
+  "distinction": "A hydro unit is driven by water; its control differs from a thermal genset because load changes are limited by penstock dynamics.",
+  "facts": [
+    {
+      "label": "Prime mover",
+      "value": "Water turbine"
+    },
+    {
+      "label": "Speed control",
+      "value": "Governor or electronic ballast load"
+    },
+    {
+      "label": "Inertia",
+      "value": "Rotating machine inertia available"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-station-types",
+      "relevance": "Public power station representation used as site-level context."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context for rotating machines."
+    }
+  ],
+  "related": [
+    "three-phase-synchronous-generator",
+    "dump-load-controller",
+    "three-phase-induction-generator",
+    "generator"
+  ],
+  "artwork": "s28-hydro-turbine-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/hydro-turbine-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/hydro-turbine-generator.svg",
+  "id": "hydro-turbine-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/hydro-turbine-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/hydro-turbine-generator.json",
+  "svgPath": "artwork/svg/hydro-turbine-generator.svg",
+  "referencePath": "references/hydro-turbine-generator.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-station-types",
+      "title": "AutoCAD Electrical: Power station and substation concepts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74EF80E8-018D-4A57-88BD-FF973F1B8185.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public power station representation used as site-level context."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context for rotating machines."
+    }
+  ]
+}

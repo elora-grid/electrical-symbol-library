@@ -1,0 +1,95 @@
+{
+  "slug": "iec-pushbutton-contact-normally-open-push-button-positive-make",
+  "name": "IEC pushbutton contact: normally open push button positive make",
+  "kind": "symbol",
+  "abbreviation": "PB",
+  "aliases": [
+    "HPB11PM",
+    "VPB11PM",
+    "pushbutton contact Normally Open Push Button Positive Make"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Pushbutton contact form: Normally Open Push Button Positive Make.",
+  "description": [
+    "A pushbutton translates a person pressing an operator into a change of electrical contact state. The operator form and the contact state are separate pieces of information, so a mushroom head can operate either a normally-open or a normally-closed contact. This entry identifies the normally open push button positive make form in the publisher's IEC-context family.",
+    "On a machine control sheet, this form lets the reader distinguish the physical button action from the contact used by the controller. Link every contact block to the same operator tag, including a separate indication lamp when fitted. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state. The positive-make qualifier identifies a mechanically imposed closing action; it must not be confused with a positive-opening contact indication.",
+    "The head shape and contact drawing do not establish a safety category, contact rating or emergency-stop suitability. Direct opening, reset behaviour and the selected assembly must be confirmed from its documentation."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "The positive-make qualifier identifies a mechanically imposed closing action; it must not be confused with a positive-opening contact indication.",
+    "The head shape and contact drawing do not establish a safety category, contact rating or emergency-stop suitability. Direct opening, reset behaviour and the selected assembly must be confirmed from its documentation."
+  ],
+  "drawingChecklist": [
+    "Identify the operator and each associated contact block.",
+    "State the contact state before the operator is pressed.",
+    "Show the release or return action and any independent lamp supply."
+  ],
+  "distinction": "This entry adds the normally open push button positive make detail to the broader pushbutton contact family. The head shape and contact drawing do not establish a safety category, contact rating or emergency-stop suitability. Direct opening, reset behaviour and the selected assembly must be confirmed from its documentation.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Normally Open Push Button Positive Make"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPB11PM / VPB11PM. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "pushbutton contact"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-pushbuttons",
+      "relevance": "Public Push Buttons table explicitly lists HPB11PM / VPB11PM with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "pushbutton-nc",
+    "emergency-stop"
+  ],
+  "artwork": "s28-iec-pushbutton-contact-normally-open-push-button-positive-make",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Normally Open Push Button Positive Make",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Push Buttons, HPB11PM / VPB11PM. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-pushbutton-contact-normally-open-push-button-positive-make",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-pushbutton-contact-normally-open-push-button-positive-make.svg",
+  "id": "iec-pushbutton-contact-normally-open-push-button-positive-make",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-pushbutton-contact-normally-open-push-button-positive-make",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-pushbutton-contact-normally-open-push-button-positive-make.json",
+  "svgPath": "artwork/svg/iec-pushbutton-contact-normally-open-push-button-positive-make.svg",
+  "referencePath": "references/iec-pushbutton-contact-normally-open-push-button-positive-make.md",
+  "publicSources": [
+    {
+      "id": "autodesk-pushbuttons",
+      "title": "Pushbutton contact and actuator variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9E8890C7-7176-47DD-8700-E02A16C1670E.htm",
+      "type": "cad-reference",
+      "scope": "Momentary and latching pushbuttons, normal contact states and mushroom actuators.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Push Buttons table explicitly lists HPB11PM / VPB11PM with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

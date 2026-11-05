@@ -1,0 +1,87 @@
+{
+  "slug": "pressure-measurement-interface",
+  "name": "Pressure measurement interface",
+  "kind": "symbol",
+  "abbreviation": "P MEAS",
+  "aliases": [
+    "Pressure measurement interface",
+    "Pressure measurement interface functional block",
+    "Pressure measurement interface schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A pressure interface converts the selected pressure sensor's response into usable measurement information.",
+  "description": [
+    "A pressure interface converts the selected pressure sensor's response into usable measurement information.",
+    "A control system can read a pressure transducer through its matching measurement electronics.",
+    "Identify the pressure sensor and its reference convention, such as gauge, absolute or differential pressure where applicable. Then show the conditioning and output interface. A voltage or current signal only represents pressure after the selected range and scaling are known. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the pressure reference and measurement range.",
+    "Show the sensor and conditioning/interface boundaries.",
+    "Reference output scaling, supply and connection requirements.",
+    "The sensor's pressure reference and range must be known; an electrical signal alone does not define them."
+  ],
+  "drawingChecklist": [
+    "Identify the pressure reference and measurement range.",
+    "Show the sensor and conditioning/interface boundaries.",
+    "Reference output scaling, supply and connection requirements."
+  ],
+  "distinction": "The sensor's pressure reference and range must be known; an electrical signal alone does not define them.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Selected pressure sensor"
+    },
+    {
+      "label": "Concept output",
+      "value": "Scaled pressure information"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-pressure-measurement-interface",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "hall-effect-current-sensor",
+    "magnetic-position-sensor",
+    "inductive-position-sensor"
+  ],
+  "artwork": "expanded-pressure-measurement-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pressure-measurement-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/pressure-measurement-interface.svg",
+  "id": "pressure-measurement-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pressure-measurement-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pressure-measurement-interface.json",
+  "svgPath": "artwork/svg/pressure-measurement-interface.svg",
+  "referencePath": "references/pressure-measurement-interface.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-pressure-measurement-interface",
+      "title": "Pressure-transmitter measurement chain",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/pressure-transmitter",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

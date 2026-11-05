@@ -1,0 +1,105 @@
+{
+  "slug": "station-dc-feeder-selectivity-boundary",
+  "name": "Station DC feeder selectivity boundary",
+  "kind": "symbol",
+  "abbreviation": "SDFSB",
+  "aliases": [
+    "Station battery and charger distribution",
+    "substations Station battery and charger distribution",
+    "substations",
+    "Substations",
+    "DC feeder protective devices",
+    "Defined protection relationship"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the protective-device relationship considered when assigning downstream DC fault isolation.",
+  "description": [
+    "Shows the protective-device relationship considered when assigning downstream DC fault isolation. A station battery system supplies protection, control and other assigned DC loads through a documented charger and distribution arrangement. Charger output, battery contribution and load distribution are related but separately monitored paths.",
+    "In a substation control building, the battery can support breaker trip circuits while the charger AC supply is unavailable. Supervision must identify whether the charger, battery or a downstream feeder is affected. For this reference, the drawing identifies “DC feeder protective devices” at the input and “Defined protection relationship” at the output. Selectivity requires a DC protection assessment.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: DC feeder protective devices. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined protection relationship. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Selectivity requires a DC protection assessment.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for dc feeder protective devices.",
+    "Identify the destination and defined state of defined protection relationship.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Selectivity requires a DC protection assessment."
+  ],
+  "distinction": "Selectivity requires a DC protection assessment. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "DC feeder protective devices"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined protection relationship"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SDFSB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "ga-battery-charger",
+    "station-dc-dual-bus-segregation"
+  ],
+  "artwork": "pi26-station-dc-feeder-selectivity-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-battery",
+    "input": "DC feeder protective devices",
+    "output": "Defined protection relationship"
+  },
+  "url": "https://eloragrid.ai/symbols/station-dc-feeder-selectivity-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-dc-feeder-selectivity-boundary.svg",
+  "id": "station-dc-feeder-selectivity-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-feeder-selectivity-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-dc-feeder-selectivity-boundary.json",
+  "svgPath": "artwork/svg/station-dc-feeder-selectivity-boundary.svg",
+  "referencePath": "references/station-dc-feeder-selectivity-boundary.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

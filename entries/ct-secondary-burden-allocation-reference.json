@@ -1,0 +1,105 @@
+{
+  "slug": "ct-secondary-burden-allocation-reference",
+  "name": "CT secondary burden allocation reference",
+  "kind": "symbol",
+  "abbreviation": "CSBAR",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Connected secondary devices",
+    "Burden allocation information"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Associates the connected measurement loads with the assigned CT secondary circuit.",
+  "description": [
+    "Associates the connected measurement loads with the assigned CT secondary circuit. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “Connected secondary devices” at the input and “Burden allocation information” at the output. Actual burden requires the complete circuit data.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Connected secondary devices. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Burden allocation information. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Actual burden requires the complete circuit data.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for connected secondary devices.",
+    "Identify the destination and defined state of burden allocation information.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Actual burden requires the complete circuit data."
+  ],
+  "distinction": "Actual burden requires the complete circuit data. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Connected secondary devices"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Burden allocation information"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CSBAR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "ct-secondary-lead-resistance-allowance"
+  ],
+  "artwork": "pi26-ct-secondary-burden-allocation-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "Connected secondary devices",
+    "output": "Burden allocation information"
+  },
+  "url": "https://eloragrid.ai/symbols/ct-secondary-burden-allocation-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ct-secondary-burden-allocation-reference.svg",
+  "id": "ct-secondary-burden-allocation-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ct-secondary-burden-allocation-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ct-secondary-burden-allocation-reference.json",
+  "svgPath": "artwork/svg/ct-secondary-burden-allocation-reference.svg",
+  "referencePath": "references/ct-secondary-burden-allocation-reference.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

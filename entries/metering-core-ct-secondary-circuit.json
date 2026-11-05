@@ -1,0 +1,105 @@
+{
+  "slug": "metering-core-ct-secondary-circuit",
+  "name": "Metering-core CT secondary circuit",
+  "kind": "symbol",
+  "abbreviation": "MCSC",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Metering CT core",
+    "Meter current circuit"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the separate CT core supplying the assigned metering circuit.",
+  "description": [
+    "Identifies the separate CT core supplying the assigned metering circuit. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “Metering CT core” at the input and “Meter current circuit” at the output. Metering and protection cores are not automatically interchangeable.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Metering CT core. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Meter current circuit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Metering and protection cores are not automatically interchangeable.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for metering ct core.",
+    "Identify the destination and defined state of meter current circuit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Metering and protection cores are not automatically interchangeable."
+  ],
+  "distinction": "Metering and protection cores are not automatically interchangeable. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Metering CT core"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Meter current circuit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MCSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "dedicated-bus-protection-ct-core-interface"
+  ],
+  "artwork": "pi26-metering-core-ct-secondary-circuit",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "Metering CT core",
+    "output": "Meter current circuit"
+  },
+  "url": "https://eloragrid.ai/symbols/metering-core-ct-secondary-circuit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/metering-core-ct-secondary-circuit.svg",
+  "id": "metering-core-ct-secondary-circuit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/metering-core-ct-secondary-circuit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/metering-core-ct-secondary-circuit.json",
+  "svgPath": "artwork/svg/metering-core-ct-secondary-circuit.svg",
+  "referencePath": "references/metering-core-ct-secondary-circuit.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

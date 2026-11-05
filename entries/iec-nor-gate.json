@@ -1,0 +1,106 @@
+{
+  "slug": "iec-nor-gate",
+  "name": "IEC NOR gate (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "≥1",
+  "aliases": [
+    "IEC NOR element",
+    "rectangular NOR gate",
+    "OR with negated output"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC ≥1 element with a negated output; the output is active only when none of the inputs are active.",
+  "description": [
+    "The IEC NOR element is drawn as the ≥1 OR box with a negation circle at the output. Its output is at the external 1 state only when every input is inactive, which makes it a natural way to show an all-healthy or all-clear permissive on a logic sheet.",
+    "Interlock diagrams sometimes use the NOR element to produce a ready signal from a list of blocking conditions. The reader should check whether the blocking inputs are themselves negated, because a double negation can turn the function back into an AND of healthy signals.",
+    "As with all combinative IEC elements, the drawing says nothing about the response time or the electrical output stage. A NOR used in a safety function must also be traced to its implementing device to confirm the safety rating."
+  ],
+  "readingNotes": [
+    "Count negations along the path; NOR with negated inputs is an AND of the uncomplemented signals.",
+    "Confirm which external level corresponds to the active state."
+  ],
+  "drawingChecklist": [
+    "Place the negation mark at the output edge.",
+    "Label each blocking input.",
+    "Reference the implementing hardware or program block."
+  ],
+  "distinction": "A ≥1 element without the output circle is a plain OR; the circle is the only difference.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "≥1 plus output negation"
+    },
+    {
+      "label": "Common reading",
+      "value": "Output active when all inputs inactive"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Rectangular OR qualifier and output negation."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc02",
+      "relevance": "Manufacturer NOR gate documentation."
+    }
+  ],
+  "related": [
+    "logic-nor-gate",
+    "iec-or-gate",
+    "iec-logic-output-negation"
+  ],
+  "artwork": "s28-iec-nor-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "≥1 rectangular element with output negation circle",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-nor-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-nor-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-nor-gate.svg",
+  "id": "iec-nor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-nor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-nor-gate.json",
+  "svgPath": "artwork/svg/iec-nor-gate.svg",
+  "referencePath": "references/iec-nor-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Rectangular OR qualifier and output negation."
+    },
+    {
+      "id": "pub-electronics-ti-hc02",
+      "title": "SN74HC02 — NOR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of nor gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer NOR gate documentation."
+    }
+  ]
+}

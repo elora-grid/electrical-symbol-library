@@ -1,0 +1,90 @@
+{
+  "slug": "iec-bidirectional-shift-register",
+  "name": "IEC bidirectional (universal) shift register",
+  "kind": "symbol",
+  "abbreviation": "SRG4",
+  "aliases": [
+    "universal shift register",
+    "shift-left shift-right register",
+    "bidirectional register IEC form"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC shift register with mode inputs that select shift right, shift left, parallel load or hold.",
+  "description": [
+    "A universal shift register is drawn as an SRG element with two mode-select inputs grouped to produce modes 0 to 3. The clock label shows shift right under one mode and shift left under another, while data inputs are labelled with their mode and control numbers, such as 1,4D for serial right input and 3,4D for parallel load.",
+    "These devices are used in data conversion, sequence generation and bidirectional serial links. Reading the compound labels left to right, mode first then clock, tells you exactly when each input is used.",
+    "The symbol does not state which mode is safe to change during clocking. Mode changes are normally made with the clock inactive."
+  ],
+  "readingNotes": [
+    "Decode the mode inputs first.",
+    "Compound labels such as 1,4D give mode then clock."
+  ],
+  "drawingChecklist": [
+    "Show the mode-select grouping.",
+    "Label both shift directions on the clock.",
+    "Label serial and parallel data inputs with their mode numbers."
+  ],
+  "distinction": "A single-direction SRG register has no mode inputs and shifts only one way.",
+  "facts": [
+    {
+      "label": "Modes",
+      "value": "Hold, shift right, shift left, parallel load"
+    },
+    {
+      "label": "Notation",
+      "value": "M dependency with shift arrows"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Shift right and left labels and M dependency examples."
+    }
+  ],
+  "related": [
+    "iec-shift-register",
+    "iec-mode-dependency-m",
+    "parallel-in-serial-out-register"
+  ],
+  "artwork": "s28-iec-bidirectional-shift-register",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "SRGm element with mode inputs selecting shift right, shift left and parallel load",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-bidirectional-shift-register",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-bidirectional-shift-register.svg",
+  "id": "iec-bidirectional-shift-register",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-bidirectional-shift-register",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-bidirectional-shift-register.json",
+  "svgPath": "artwork/svg/iec-bidirectional-shift-register.svg",
+  "referencePath": "references/iec-bidirectional-shift-register.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Shift right and left labels and M dependency examples."
+    }
+  ]
+}

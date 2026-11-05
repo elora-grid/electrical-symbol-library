@@ -1,0 +1,105 @@
+{
+  "slug": "breaker-operation-count-feedback",
+  "name": "Breaker operation-count feedback",
+  "kind": "symbol",
+  "abbreviation": "BOF",
+  "aliases": [
+    "Breaker position and status interfaces",
+    "switchgear Breaker position and status interfaces",
+    "switchgear",
+    "Switchgear",
+    "Operation feedback event",
+    "Maintenance counter input"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies a feedback event representing a completed defined mechanical operation.",
+  "description": [
+    "Identifies a feedback event representing a completed defined mechanical operation. Breaker status indications describe the operating mechanism, the removable truck or the health of a supporting system. These signals are related but are not interchangeable: an open breaker can still have its truck connected to live bus contacts.",
+    "In a switchgear control schematic, the bay controller compares independent status contacts before displaying a position or allowing another operation. The signal labels explain which physical state each contact represents. For this reference, the drawing identifies “Operation feedback event” at the input and “Maintenance counter input” at the output. The counted operation must be specified.",
+    "Keep contact reference conditions, terminal numbers and interpretation logic together. Distinguish a mechanically operated indication from a measured current or voltage condition. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Operation feedback event. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Maintenance counter input. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The counted operation must be specified.",
+    "Keep contact reference conditions, terminal numbers and interpretation logic together. Distinguish a mechanically operated indication from a measured current or voltage condition."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for operation feedback event.",
+    "Identify the destination and defined state of maintenance counter input.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The counted operation must be specified."
+  ],
+  "distinction": "The counted operation must be specified. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Operation feedback event"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Maintenance counter input"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BOF is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker position and status interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "normally-open-contact",
+    "breaker-trip-cause-indication"
+  ],
+  "artwork": "pi26-breaker-operation-count-feedback",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "positions",
+    "input": "Operation feedback event",
+    "output": "Maintenance counter input"
+  },
+  "url": "https://eloragrid.ai/symbols/breaker-operation-count-feedback",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/breaker-operation-count-feedback.svg",
+  "id": "breaker-operation-count-feedback",
+  "canonicalUrl": "https://eloragrid.ai/symbols/breaker-operation-count-feedback",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/breaker-operation-count-feedback.json",
+  "svgPath": "artwork/svg/breaker-operation-count-feedback.svg",
+  "referencePath": "references/breaker-operation-count-feedback.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker position and status interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

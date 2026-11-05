@@ -1,0 +1,106 @@
+{
+  "slug": "iec-binary-decoder",
+  "name": "IEC binary decoder (X/Y coder)",
+  "kind": "symbol",
+  "abbreviation": "BIN/OCT",
+  "aliases": [
+    "IEC code converter decoder",
+    "BIN/OCT decoder",
+    "X/Y coder element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC coder marked BIN/OCT or similar, converting a binary input code into one active output.",
+  "description": [
+    "IEC coders use the general qualifier X/Y, where X is the input code and Y is the output code. A three-to-eight-line decoder is therefore marked BIN/OCT, with input weights 1, 2 and 4 and outputs numbered 0 to 7. Enable inputs are often combined with an & element in the common-control area.",
+    "Decoders select one of several devices, relays or indicator lines from a binary code. A drawing should keep the output numbers so a reviewer can confirm that, for example, input code 5 activates output 5.",
+    "The qualifier says nothing about output polarity; polarity triangles at outputs show active-low outputs, which are common on decoder devices."
+  ],
+  "readingNotes": [
+    "X/Y gives input and output codes.",
+    "Check output polarity marks before reading the truth table."
+  ],
+  "drawingChecklist": [
+    "State the code pair, such as BIN/OCT.",
+    "Show input weights.",
+    "Mark active-low outputs."
+  ],
+  "distinction": "A BCD/7SEG coder produces segment drive patterns, not one-of-n outputs.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "X/Y, for example BIN/OCT"
+    },
+    {
+      "label": "Outputs",
+      "value": "One-of-n selection"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "X/Y coder qualifier and coder examples."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc138",
+      "relevance": "Binary decoder and demultiplexer documentation."
+    }
+  ],
+  "related": [
+    "binary-decoder-demultiplexer",
+    "iec-code-converter",
+    "iec-priority-encoder"
+  ],
+  "artwork": "s28-iec-binary-decoder",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular coder with X/Y qualifier such as BIN/OCT",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "binary-decoder-demultiplexer"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-binary-decoder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-binary-decoder.svg",
+  "id": "iec-binary-decoder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-binary-decoder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-binary-decoder.json",
+  "svgPath": "artwork/svg/iec-binary-decoder.svg",
+  "referencePath": "references/iec-binary-decoder.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "X/Y coder qualifier and coder examples."
+    },
+    {
+      "id": "pub-electronics-ti-hc138",
+      "title": "SN74HC138 — binary decoding and demultiplexing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of binary decoding and demultiplexing. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Binary decoder and demultiplexer documentation."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "earthing-switch-position-discrepancy-interface",
+  "name": "Earthing-switch position discrepancy interface",
+  "kind": "symbol",
+  "abbreviation": "EPDI",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Earthing position contacts",
+    "Position discrepancy alarm"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports a defined conflict or missing completion in earthing-switch position feedback.",
+  "description": [
+    "Reports a defined conflict or missing completion in earthing-switch position feedback. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Earthing position contacts” at the input and “Position discrepancy alarm” at the output. Invalid status must remain distinguishable from open status.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Earthing position contacts. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Position discrepancy alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Invalid status must remain distinguishable from open status.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for earthing position contacts.",
+    "Identify the destination and defined state of position discrepancy alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Invalid status must remain distinguishable from open status."
+  ],
+  "distinction": "Invalid status must remain distinguishable from open status. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Earthing position contacts"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Position discrepancy alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "EPDI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "disconnector-manual-drive-engaged-indication"
+  ],
+  "artwork": "pi26-earthing-switch-position-discrepancy-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Earthing position contacts",
+    "output": "Position discrepancy alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/earthing-switch-position-discrepancy-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/earthing-switch-position-discrepancy-interface.svg",
+  "id": "earthing-switch-position-discrepancy-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/earthing-switch-position-discrepancy-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/earthing-switch-position-discrepancy-interface.json",
+  "svgPath": "artwork/svg/earthing-switch-position-discrepancy-interface.svg",
+  "referencePath": "references/earthing-switch-position-discrepancy-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

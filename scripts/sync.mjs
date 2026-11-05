@@ -15,25 +15,25 @@ async function fetchPublic(path,type) {
   return type==="json" ? JSON.parse(text) : text;
 }
 try {
-  const catalogue=await fetchPublic("/library/catalogue.json","json");
-  const cad=await fetchPublic("/library/manufacturer-cad.json?all=1","json");
+  const catalogue=await fetchPublic("/tools/electrical-library/catalogue.json","json");
+  const cad=await fetchPublic("/tools/electrical-library/manufacturer-cad.json?all=1","json");
   validateData(catalogue,cad);
   const svgDir=resolve(root,"artwork/svg");mkdirSync(svgDir,{recursive:true});
   // Download only original illustrations from the catalogue publisher.
   // Manufacturer CAD links are metadata and are never fetched by this script.
-  const pending=[...catalogue.entries];
-  await Promise.all(Array.from({length:4},async()=>{
+  const pending=catalogue.entries.filter(e=>e.kind!=="object");
+  await Promise.all(Array.from({length:8},async()=>{
     for (let e;(e=pending.shift());) {
-      const svg=await fetchPublic(`/library/illustrations/${e.slug}.svg`,"text");
+      const svg=await fetchPublic(`/tools/electrical-library/illustrations/${e.slug}.svg`,"text");
       if (!svg.startsWith("<svg ") || /<(?:script|iframe|foreignObject)\b|\son\w+=|(?:href|src)\s*=|<!DOCTYPE/i.test(svg)) throw new Error(`Unexpected SVG: ${e.slug}`);
       writeFileSync(resolve(svgDir,`${e.slug}.svg`),svg);
     }
   }));
-  const dxf=await fetchPublic("/library/download","text");
-  if (!dxf.includes("AC1009") || !dxf.endsWith("0\nEOF\n")) throw new Error("Unexpected original DXF export.");
-  const slugs=new Set(catalogue.entries.map(e=>e.slug));
+  const slugs=new Set(catalogue.entries.filter(e=>e.kind!=="object").map(e=>e.slug));
   for (const name of readdirSync(svgDir)) if (name.endsWith(".svg")&&!slugs.has(name.slice(0,-4)))rmSync(resolve(svgDir,name));
-  writeFileSync(resolve(root,"artwork/electrical-reference-library.dxf"),dxf);
+  // Current CAD/legend packs use the publisher's registration-controlled routes.
+  // Public GitHub discovery does not replicate those download packages.
+  rmSync(resolve(root,"artwork/electrical-reference-library.dxf"),{force:true});
   writeJson("data/catalogue.json",catalogue);writeJson("data/manufacturer-cad.json",cad);
   build();
   console.log("Public snapshot refreshed. Review the diff and run npm run check before publishing a release.");

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-diac",
+  "name": "ANSI/IEEE DIAC form",
+  "kind": "symbol",
+  "abbreviation": "DIAC",
+  "aliases": [
+    "HDI1V3",
+    "VDI1V3",
+    "IEEE Diac Diode - Two Way",
+    "ANSI DIAC"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of diac: a DIAC is a bidirectional triggering semiconductor device used in a documented control circuit.",
+  "description": [
+    "This reference locates diac in Autodesk's IEEE-oriented semiconductor components family. A DIAC is a bidirectional triggering semiconductor device used in a documented control circuit. Its terminals and breakover characteristics are defined by the selected component. The public library uses HDI1V3 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Follow the actual current path and terminal polarity in the surrounding circuit. The symbol identifies an electrical function; voltage, current, energy limits and the device package pinout come from the selected component data rather than from the outline.",
+    "Follow the trigger circuit rather than treating the device as a controlled switch with a separate gate. A DIAC does not have the same controlled gate terminal as a TRIAC. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Follow the trigger circuit rather than treating the device as a controlled switch with a separate gate.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify connected terminals",
+    "Reference breakover rating",
+    "Show associated trigger network"
+  ],
+  "distinction": "A DIAC does not have the same controlled gate terminal as a TRIAC.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Semiconductor Components; published form: Diac Diode - Two Way."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDI1V3. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Semiconductor function"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-ec01cfc2-47b9-4ae3-ae5e-0fb86d327a82",
+      "relevance": "Public IEEE-oriented Semiconductor Components table explicitly lists HDI1V3 as Diac Diode - Two Way. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "diac",
+    "resistor",
+    "power-converter"
+  ],
+  "artwork": "s28-ansi-diac",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Diac Diode - Two Way",
+    "reference": "Autodesk IEEE Symbol Preview: Semiconductor Components, block HDI1V3. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "diac"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-diac",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-diac.svg",
+  "id": "ansi-diac",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-diac",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-diac.json",
+  "svgPath": "artwork/svg/ansi-diac.svg",
+  "referencePath": "references/ansi-diac.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-ec01cfc2-47b9-4ae3-ae5e-0fb86d327a82",
+      "title": "Autodesk IEEE Symbol Preview — Semiconductor Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC01CFC2-47B9-4AE3-AE5E-0FB86D327A82.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Semiconductor Components table explicitly lists HDI1V3 as Diac Diode - Two Way. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

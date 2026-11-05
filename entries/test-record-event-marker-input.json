@@ -1,0 +1,105 @@
+{
+  "slug": "test-record-event-marker-input",
+  "name": "Test record event-marker input",
+  "kind": "symbol",
+  "abbreviation": "TREI",
+  "aliases": [
+    "Switchgear test and commissioning interfaces",
+    "switchgear Switchgear test and commissioning interfaces",
+    "switchgear",
+    "Switchgear",
+    "Test event marker",
+    "Recorded timing reference"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Marks a reference event in the protection or disturbance record during the documented test.",
+  "description": [
+    "Marks a reference event in the protection or disturbance record during the documented test. A test interface separates measurement, command and indication paths so their behavior can be checked in the documented test configuration. The test boundary must show which real equipment outputs remain enabled.",
+    "In a switchgear relay panel, test links can separate a protective relay from the trip coils while maintaining the specified current-transformer secondary arrangement. For this reference, the drawing identifies “Test event marker” at the input and “Recorded timing reference” at the output. The marker is different from an operating trip.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Test event marker. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Recorded timing reference. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The marker is different from an operating trip.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for test event marker.",
+    "Identify the destination and defined state of recorded timing reference.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The marker is different from an operating trip."
+  ],
+  "distinction": "The marker is different from an operating trip. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Test event marker"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Recorded timing reference"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TREI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relay-test-block",
+    "test-plug",
+    "secondary-injection-current-input-boundary"
+  ],
+  "artwork": "pi26-test-record-event-marker-input",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "testing",
+    "input": "Test event marker",
+    "output": "Recorded timing reference"
+  },
+  "url": "https://eloragrid.ai/symbols/test-record-event-marker-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/test-record-event-marker-input.svg",
+  "id": "test-record-event-marker-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/test-record-event-marker-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/test-record-event-marker-input.json",
+  "svgPath": "artwork/svg/test-record-event-marker-input.svg",
+  "referencePath": "references/test-record-event-marker-input.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

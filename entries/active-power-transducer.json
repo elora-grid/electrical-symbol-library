@@ -1,0 +1,100 @@
+{
+  "slug": "active-power-transducer",
+  "name": "Active-power transducer",
+  "kind": "symbol",
+  "abbreviation": "P/I",
+  "aliases": [
+    "watt transducer",
+    "power transducer",
+    "MW transducer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring transducer that converts CT and VT inputs into a DC signal proportional to active power for SCADA or control.",
+  "description": [
+    "An active-power transducer takes current and voltage inputs and produces a DC current or voltage signal proportional to watts, often bipolar so that export and import give opposite signs. It is used where a governor, load controller or older SCADA needs an analogue power signal.",
+    "The output range, including how negative power is represented, must match the receiving input. The symbol shows the conversion but not the element configuration, response time or the scaling between rated power and output signal."
+  ],
+  "readingNotes": [
+    "Check how reverse power is represented at the output.",
+    "Confirm element configuration matches the system wiring."
+  ],
+  "drawingChecklist": [
+    "State full-scale power",
+    "State output range",
+    "Show CT and VT inputs"
+  ],
+  "distinction": "An active-power transducer outputs a signal; an active power indicator displays the value.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "CT and VT secondaries"
+    },
+    {
+      "label": "Output",
+      "value": "DC signal proportional to active power"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-signal-isolator",
+      "relevance": "Public context for analogue measuring signals and their isolation."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "voltage-measuring-transducer",
+    "active-power-indicator",
+    "analog-current-signal-isolator"
+  ],
+  "artwork": "s28-active-power-transducer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-power-transducer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/active-power-transducer.svg",
+  "id": "active-power-transducer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-power-transducer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-power-transducer.json",
+  "svgPath": "artwork/svg/active-power-transducer.svg",
+  "referencePath": "references/active-power-transducer.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-signal-isolator",
+      "title": "Analog current signal isolation",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-us/products/signal-conditioner-mcr-c-i-i-0b-0b-dci-2810955",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for analogue measuring signals and their isolation."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

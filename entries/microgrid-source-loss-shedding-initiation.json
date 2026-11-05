@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-source-loss-shedding-initiation",
+  "name": "Microgrid source-loss shedding initiation",
+  "kind": "symbol",
+  "abbreviation": "MSSI",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Source-loss status",
+    "Source-loss shedding request"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Starts the defined load-reduction decision when the assigned source is lost.",
+  "description": [
+    "Starts the defined load-reduction decision when the assigned source is lost. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Source-loss status” at the input and “Source-loss shedding request” at the output. Available alternate sources affect the required response.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Source-loss status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Source-loss shedding request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Available alternate sources affect the required response.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for source-loss status.",
+    "Identify the destination and defined state of source-loss shedding request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Available alternate sources affect the required response."
+  ],
+  "distinction": "Available alternate sources affect the required response. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Source-loss status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Source-loss shedding request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MSSI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-reserve-based-load-shedding"
+  ],
+  "artwork": "pi26-microgrid-source-loss-shedding-initiation",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Source-loss status",
+    "output": "Source-loss shedding request"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-source-loss-shedding-initiation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-source-loss-shedding-initiation.svg",
+  "id": "microgrid-source-loss-shedding-initiation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-source-loss-shedding-initiation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-source-loss-shedding-initiation.json",
+  "svgPath": "artwork/svg/microgrid-source-loss-shedding-initiation.svg",
+  "referencePath": "references/microgrid-source-loss-shedding-initiation.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

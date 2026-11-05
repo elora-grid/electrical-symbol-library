@@ -1,0 +1,104 @@
+{
+  "slug": "iec-underwater-cable",
+  "name": "Underwater cable",
+  "kind": "symbol",
+  "abbreviation": "SC",
+  "aliases": [
+    "submarine cable",
+    "subsea cable",
+    "cable under water"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A cable section marked as laid under water, such as a river crossing, offshore export cable or lake crossing.",
+  "description": [
+    "The underwater cable form identifies a section laid on or beneath a water bed. It appears on offshore wind export and array diagrams, island interconnectors and river crossings. The mark is a route indicator, so it sits on the cable line rather than replacing it.",
+    "Submarine cables usually have armour, longer lengths and different charging current from land cables, but the symbol carries none of that information. Transition joints at the landfall and the cable schedule supply those details. Where reactive compensation is fitted to a long submarine section, it appears as separate reactor symbols."
+  ],
+  "readingNotes": [
+    "Locate the landfall transition joints at each end.",
+    "Check whether shunt compensation is shown for long sections."
+  ],
+  "drawingChecklist": [
+    "Identify cable type and armour.",
+    "Mark landfall transition points.",
+    "Reference route survey and length."
+  ],
+  "distinction": "An underwater cable is laid in or under water; an underground cable is buried on land.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Cable line above wave marks"
+    },
+    {
+      "label": "Typical use",
+      "value": "Offshore export cables and water crossings"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for cable accessories at transitions."
+    }
+  ],
+  "related": [
+    "iec-underground-cable",
+    "iec-cable-transition-joint",
+    "reactor"
+  ],
+  "artwork": "s28-iec-underwater-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Underwater cable route form",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-underwater-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-underwater-cable.svg",
+  "id": "iec-underwater-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-underwater-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-underwater-cable.json",
+  "svgPath": "artwork/svg/iec-underwater-cable.svg",
+  "referencePath": "references/iec-underwater-cable.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for cable accessories at transitions."
+    }
+  ]
+}

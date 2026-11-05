@@ -1,0 +1,102 @@
+{
+  "slug": "battery-energy-storage-system",
+  "name": "Battery energy storage system",
+  "kind": "symbol",
+  "abbreviation": "BESS",
+  "aliases": [
+    "BESS",
+    "battery storage system",
+    "grid battery"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A complete battery plant block combining batteries, power conversion and controls, shown as one source or sink on an SLD.",
+  "description": [
+    "A battery energy storage system is the full plant: battery racks, a bidirectional power conversion system, transformers, auxiliary supplies and a plant controller. On higher-level single-line diagrams it is shown as one block with a battery mark and a converter mark, connecting to the network through a breaker and often a step-up transformer.",
+    "The block is labelled with both power and energy ratings, for example MW and MWh, since the two together define how long the system can deliver rated output. More detailed drawings break the block down into racks, the conversion system and auxiliaries.",
+    "The symbol does not show usable energy after depth-of-discharge limits, degradation over life, or whether the converter is grid-forming. These figures, plus the auxiliary load which can be significant for cooling, come from the performance specification."
+  ],
+  "readingNotes": [
+    "Always read both the power and energy ratings.",
+    "Check whether the block includes its own step-up transformer."
+  ],
+  "drawingChecklist": [
+    "State MW, MWh and point of connection voltage.",
+    "Show breaker, transformer and auxiliary supply.",
+    "Reference converter control mode."
+  ],
+  "distinction": "A BESS block is the complete plant; a battery symbol is only the electrochemical store.",
+  "facts": [
+    {
+      "label": "Ratings",
+      "value": "Power and energy"
+    },
+    {
+      "label": "Contents",
+      "value": "Batteries, PCS, controls, auxiliaries"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; not a product outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public battery energy storage and power conversion context."
+    },
+    {
+      "sourceId": "battery-cabinets",
+      "relevance": "Public battery storage system documentation."
+    }
+  ],
+  "related": [
+    "battery-power-conversion-system",
+    "battery-rack",
+    "battery",
+    "battery-cabinet"
+  ],
+  "artwork": "s28-battery-energy-storage-system",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-energy-storage-system",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-energy-storage-system.svg",
+  "id": "battery-energy-storage-system",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-energy-storage-system",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-energy-storage-system.json",
+  "svgPath": "artwork/svg/battery-energy-storage-system.svg",
+  "referencePath": "references/battery-energy-storage-system.md",
+  "publicSources": [
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public battery energy storage and power conversion context."
+    },
+    {
+      "id": "battery-cabinets",
+      "title": "xStorage battery energy storage system",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/energy-storage/xstorage-battery-energy-storage-system.html",
+      "type": "manufacturer",
+      "scope": "Public example of battery cabinets, power conversion and control equipment within a storage system.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public battery storage system documentation."
+    }
+  ]
+}

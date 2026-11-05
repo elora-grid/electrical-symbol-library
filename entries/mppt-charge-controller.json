@@ -1,0 +1,86 @@
+{
+  "slug": "mppt-charge-controller",
+  "name": "MPPT solar charge controller",
+  "kind": "symbol",
+  "abbreviation": "MPPT",
+  "aliases": [
+    "MPPT solar charge controller",
+    "MPPT solar charge controller functional block",
+    "MPPT solar charge controller schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An MPPT charge controller adjusts a solar operating point while controlling its charging output.",
+  "description": [
+    "An MPPT charge controller adjusts a solar operating point while controlling its charging output.",
+    "The controller can seek a useful power operating point as sunlight and other conditions change.",
+    "Show the solar-side input and battery-side charging output separately. MPPT searches for a useful solar operating point, while charging control follows the selected battery requirements. A drawing should identify both jobs instead of suggesting that tracking maximum solar power alone establishes a suitable charging process. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the PV input and battery output arrangements.",
+    "Reference the supported battery charging requirements.",
+    "Show enable, measurement and status interfaces where used.",
+    "Maximum power point tracking and battery charging control are related but different jobs."
+  ],
+  "drawingChecklist": [
+    "Identify the PV input and battery output arrangements.",
+    "Reference the supported battery charging requirements.",
+    "Show enable, measurement and status interfaces where used."
+  ],
+  "distinction": "Maximum power point tracking and battery charging control are related but different jobs.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "PV operating conditions"
+    },
+    {
+      "label": "Concept output",
+      "value": "Controlled battery charging"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pvcontrol",
+      "relevance": "Solar charge controller architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-mppt-solar-charge-controller",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-mppt-charge-controller",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/mppt-charge-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/mppt-charge-controller.svg",
+  "id": "mppt-charge-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/mppt-charge-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/mppt-charge-controller.json",
+  "svgPath": "artwork/svg/mppt-charge-controller.svg",
+  "referencePath": "references/mppt-charge-controller.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pvcontrol",
+      "title": "Solar charge controller architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/solar-charge-controller",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Solar charge controller architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

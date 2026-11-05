@@ -1,0 +1,87 @@
+{
+  "slug": "ac-ev-charge-point",
+  "name": "AC electric vehicle charge point",
+  "kind": "symbol",
+  "abbreviation": "AC EV",
+  "aliases": [
+    "AC electric vehicle charge point",
+    "AC electric vehicle charge point functional block",
+    "AC electric vehicle charge point schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An AC charge point controls the AC supply and charging interface presented to a vehicle.",
+  "description": [
+    "An AC charge point controls the AC supply and charging interface presented to a vehicle.",
+    "The vehicle's onboard charger performs the conversion needed to charge its battery from an AC connection.",
+    "Draw the AC power path, controlled switching and vehicle signalling as separate parts. In AC charging, the vehicle’s onboard charger performs the battery-side conversion. The charge point provides the controlled supply and interface; it should not be drawn as if it were an offboard DC converter. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify supply phases and the selected connector arrangement.",
+    "Separate pilot signalling from charging conductors.",
+    "Reference the complete switching, metering and protection design.",
+    "An AC charge point is different from an offboard DC charger."
+  ],
+  "drawingChecklist": [
+    "Identify supply phases and the selected connector arrangement.",
+    "Separate pilot signalling from charging conductors.",
+    "Reference the complete switching, metering and protection design."
+  ],
+  "distinction": "An AC charge point is different from an offboard DC charger.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "AC supply"
+    },
+    {
+      "label": "Concept output",
+      "value": "Vehicle onboard charger"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ev",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "contactor",
+    "ev-control-pilot-interface",
+    "ev-residual-current-detection",
+    "ev-charging-contactor-control"
+  ],
+  "artwork": "expanded-ac-ev-charge-point",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ac-ev-charge-point",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ac-ev-charge-point.svg",
+  "id": "ac-ev-charge-point",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ac-ev-charge-point",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ac-ev-charge-point.json",
+  "svgPath": "artwork/svg/ac-ev-charge-point.svg",
+  "referencePath": "references/ac-ev-charge-point.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ev",
+      "title": "AC electric vehicle charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/ac-charging-pile-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

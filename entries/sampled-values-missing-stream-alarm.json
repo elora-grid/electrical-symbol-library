@@ -1,0 +1,105 @@
+{
+  "slug": "sampled-values-missing-stream-alarm",
+  "name": "Sampled-values missing-stream alarm",
+  "kind": "symbol",
+  "abbreviation": "SMA",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Stream reception supervision",
+    "Missing measurement alarm"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports loss of the assigned measurement stream at its subscriber.",
+  "description": [
+    "Reports loss of the assigned measurement stream at its subscriber. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Stream reception supervision” at the input and “Missing measurement alarm” at the output. The protection fallback must be separately defined.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Stream reception supervision. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Missing measurement alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The protection fallback must be separately defined.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for stream reception supervision.",
+    "Identify the destination and defined state of missing measurement alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The protection fallback must be separately defined."
+  ],
+  "distinction": "The protection fallback must be separately defined. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Stream reception supervision"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Missing measurement alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SMA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "process-bus-redundant-network-interface"
+  ],
+  "artwork": "pi26-sampled-values-missing-stream-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Stream reception supervision",
+    "output": "Missing measurement alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/sampled-values-missing-stream-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/sampled-values-missing-stream-alarm.svg",
+  "id": "sampled-values-missing-stream-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/sampled-values-missing-stream-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/sampled-values-missing-stream-alarm.json",
+  "svgPath": "artwork/svg/sampled-values-missing-stream-alarm.svg",
+  "referencePath": "references/sampled-values-missing-stream-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

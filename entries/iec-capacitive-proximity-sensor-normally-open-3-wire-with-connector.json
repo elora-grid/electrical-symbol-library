@@ -1,0 +1,96 @@
+{
+  "slug": "iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector",
+  "name": "IEC capacitive proximity sensor: normally open 3 wire with connector",
+  "kind": "symbol",
+  "abbreviation": "CAP",
+  "aliases": [
+    "HPX11C3C",
+    "VPX11C3C",
+    "capacitive proximity sensor Normally Open 3 Wire with connector"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Capacitive proximity sensor form: Normally Open 3 Wire with connector.",
+  "description": [
+    "A capacitive proximity sensor detects a change of capacitance caused by a target entering its sensing field. This entry identifies the normally open 3 wire with connector form in the publisher's IEC-context family.",
+    "A vessel wall or nearby material can change the measured capacitance and indicate a level or presence condition. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state. The three-wire form distinguishes supply, return and switching output. Confirm sourcing or sinking operation from the actual sensor circuit before connecting it to an input.",
+    "The connector variant adds a separable field interface. Keep the mating connector designation, pin numbers and cable-core mapping visible at that boundary. Material, mounting, contamination and adjustment affect operation; a capacitive mark does not guarantee detection through every container or medium."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "The three-wire form distinguishes supply, return and switching output. Confirm sourcing or sinking operation from the actual sensor circuit before connecting it to an input.",
+    "The connector variant adds a separable field interface. Keep the mating connector designation, pin numbers and cable-core mapping visible at that boundary.",
+    "Material, mounting, contamination and adjustment affect operation; a capacitive mark does not guarantee detection through every container or medium."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the normally open 3 wire with connector detail to the broader capacitive proximity sensor family. Material, mounting, contamination and adjustment affect operation; a capacitive mark does not guarantee detection through every container or medium.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Normally Open 3 Wire with connector"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPX11C3C / VPX11C3C. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "capacitive proximity sensor"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-capacitive-sensors",
+      "relevance": "Public Capacitive Switches table explicitly lists HPX11C3C / VPX11C3C with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "capacitive-proximity-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Normally Open 3 Wire with connector",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Capacitive Switches, HPX11C3C / VPX11C3C. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector.svg",
+  "id": "iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector.json",
+  "svgPath": "artwork/svg/iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector.svg",
+  "referencePath": "references/iec-capacitive-proximity-sensor-normally-open-3-wire-with-connector.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-capacitive-sensors",
+      "title": "AutoCAD Electrical: Capacitive proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F2CC4639-9203-4C6A-8A9F-2A32717D2BE3.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Capacitive Switches table explicitly lists HPX11C3C / VPX11C3C with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

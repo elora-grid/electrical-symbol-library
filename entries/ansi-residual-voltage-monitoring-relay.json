@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-residual-voltage-monitoring-relay",
+  "name": "ANSI/IEEE Residual-voltage monitoring relay form",
+  "kind": "symbol",
+  "abbreviation": "U RES",
+  "aliases": [
+    "HCR1F38",
+    "VCR1F38",
+    "IEEE Residual Voltage Protection",
+    "ANSI Residual-voltage monitoring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of residual-voltage monitoring relay: a residual-voltage relay responds to the specified residual-voltage measurement.",
+  "description": [
+    "This reference locates residual-voltage monitoring relay in Autodesk's IEEE-oriented voltage protection relays family. A residual-voltage relay responds to the specified residual-voltage measurement. Its drawing needs the voltage-transformer connection and the input quantity definition. The public library uses HCR1F38 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Check the measurement circuit that produces the residual voltage. Residual voltage is different from phase-to-neutral voltage at an arbitrary single phase. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check the measurement circuit that produces the residual voltage.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show VT connection",
+    "State residual input scaling",
+    "Reference operating threshold"
+  ],
+  "distinction": "Residual voltage is different from phase-to-neutral voltage at an arbitrary single phase.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Voltage Protection Relays; published form: Residual Voltage Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F38. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-voltage-protection-relays",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F38 as Residual Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "residual-voltage-monitoring-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-residual-voltage-monitoring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Residual Voltage Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Voltage Protection Relays, block HCR1F38. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "residual-voltage-monitoring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-residual-voltage-monitoring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-residual-voltage-monitoring-relay.svg",
+  "id": "ansi-residual-voltage-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-residual-voltage-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-residual-voltage-monitoring-relay.json",
+  "svgPath": "artwork/svg/ansi-residual-voltage-monitoring-relay.svg",
+  "referencePath": "references/ansi-residual-voltage-monitoring-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-voltage-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Voltage Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5D942536-ADE3-43EA-8280-CC7907C38F15.htm",
+      "type": "cad-reference",
+      "scope": "Public voltage protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F38 as Residual Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

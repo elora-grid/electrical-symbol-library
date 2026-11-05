@@ -1,0 +1,106 @@
+{
+  "slug": "iec-jk-flip-flop",
+  "name": "IEC JK flip-flop (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1J 1K",
+  "aliases": [
+    "IEC JK bistable",
+    "C1 1J 1K flip-flop",
+    "rectangular JK"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC bistable with 1J and 1K inputs controlled by a dynamic C1 clock; J=K=1 toggles the state.",
+  "description": [
+    "The IEC JK flip-flop has inputs labelled 1J and 1K, both controlled by C1. On the active clock transition J=1, K=0 sets; J=0, K=1 resets; J=K=1 toggles; and J=K=0 holds. A negation mark outside the C1 input with the wedge indicates a falling-edge device.",
+    "JK devices are used in counters and divider chains. On IEC drawings check the clock marking carefully, because rising-edge and falling-edge versions are visually similar and mixing them changes counter sequencing.",
+    "The rectangle does not reveal whether the device is edge-triggered or pulse-triggered unless the clock and output marks are read together. A postponed output mark indicates a pulse-triggered type."
+  ],
+  "readingNotes": [
+    "Read the clock edge from the wedge and any external negation.",
+    "Look for postponed output marks."
+  ],
+  "drawingChecklist": [
+    "Label J and K with the C prefix.",
+    "Show the active clock edge clearly.",
+    "Show asynchronous S and R inputs where present."
+  ],
+  "distinction": "An IEC T flip-flop has a single 1T input; a JK with J and K tied high behaves the same way.",
+  "facts": [
+    {
+      "label": "Key labels",
+      "value": "1J, 1K, C1"
+    },
+    {
+      "label": "J=K=1",
+      "value": "Toggle on active edge"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Bistable element types and J, K label meanings."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc112",
+      "relevance": "Negative-edge JK flip-flop documentation."
+    }
+  ],
+  "related": [
+    "negative-edge-jk-flip-flop",
+    "iec-t-flip-flop",
+    "iec-falling-edge-dynamic-input"
+  ],
+  "artwork": "s28-iec-jk-flip-flop",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular bistable with 1J, 1K and dynamic C1 inputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "negative-edge-jk-flip-flop"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-jk-flip-flop",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-jk-flip-flop.svg",
+  "id": "iec-jk-flip-flop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-jk-flip-flop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-jk-flip-flop.json",
+  "svgPath": "artwork/svg/iec-jk-flip-flop.svg",
+  "referencePath": "references/iec-jk-flip-flop.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Bistable element types and J, K label meanings."
+    },
+    {
+      "id": "pub-electronics-ti-hc112",
+      "title": "SN74HC112 — negative-edge JK flip-flops",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc112.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of negative-edge jk flip-flops. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Negative-edge JK flip-flop documentation."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "passive-cell-balancer",
+  "name": "Passive battery cell balancer",
+  "kind": "symbol",
+  "abbreviation": "BAL R",
+  "aliases": [
+    "Passive battery cell balancer",
+    "Passive battery cell balancer functional block",
+    "Passive battery cell balancer schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A passive balancer removes some energy from selected cells through a dissipative path.",
+  "description": [
+    "A passive balancer removes some energy from selected cells through a dissipative path.",
+    "A balancing circuit can use a resistor to reduce the charge of a selected cell relative to others.",
+    "Draw the balancing branch beside the cell that it can discharge. Passive balancing deliberately turns some stored energy into heat to reduce a selected cell’s charge relative to others. A conceptual diagram should therefore show a dissipative branch, rather than arrows moving energy into a neighbouring cell. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the cells with balancing branches.",
+    "Reference balancing control and thermal requirements.",
+    "Keep balancing current separate from the pack load path.",
+    "Passive balancing dissipates energy; it does not transfer that energy to another cell."
+  ],
+  "drawingChecklist": [
+    "Identify the cells with balancing branches.",
+    "Reference balancing control and thermal requirements.",
+    "Keep balancing current separate from the pack load path."
+  ],
+  "distinction": "Passive balancing dissipates energy; it does not transfer that energy to another cell.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Selected higher-charge cell"
+    },
+    {
+      "label": "Concept output",
+      "value": "Energy dissipated as heat"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-balance",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "battery-cabinet",
+    "battery-cell-voltage-monitor",
+    "active-cell-balancer",
+    "battery-cell-temperature-monitor"
+  ],
+  "artwork": "expanded-passive-cell-balancer",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/passive-cell-balancer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/passive-cell-balancer.svg",
+  "id": "passive-cell-balancer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/passive-cell-balancer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/passive-cell-balancer.json",
+  "svgPath": "artwork/svg/passive-cell-balancer.svg",
+  "referencePath": "references/passive-cell-balancer.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-balance",
+      "title": "Battery monitors and balancers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/battery-management-ics/battery-monitors-balancers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

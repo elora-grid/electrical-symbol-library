@@ -1,0 +1,105 @@
+{
+  "slug": "direct-transfer-trip-receive-interface",
+  "name": "Direct transfer-trip receive interface",
+  "kind": "symbol",
+  "abbreviation": "DTRI",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Remote transfer-trip signal",
+    "Assigned local trip request"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the remote trip command assigned to the local breaker control scheme.",
+  "description": [
+    "Receives the remote trip command assigned to the local breaker control scheme. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Remote transfer-trip signal” at the input and “Assigned local trip request” at the output. Channel supervision and authority require definition.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Remote transfer-trip signal. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned local trip request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Channel supervision and authority require definition.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for remote transfer-trip signal.",
+    "Identify the destination and defined state of assigned local trip request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Channel supervision and authority require definition."
+  ],
+  "distinction": "Channel supervision and authority require definition. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Remote transfer-trip signal"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned local trip request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DTRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "direct-transfer-trip-send-interface"
+  ],
+  "artwork": "pi26-direct-transfer-trip-receive-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Remote transfer-trip signal",
+    "output": "Assigned local trip request"
+  },
+  "url": "https://eloragrid.ai/symbols/direct-transfer-trip-receive-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/direct-transfer-trip-receive-interface.svg",
+  "id": "direct-transfer-trip-receive-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/direct-transfer-trip-receive-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/direct-transfer-trip-receive-interface.json",
+  "svgPath": "artwork/svg/direct-transfer-trip-receive-interface.svg",
+  "referencePath": "references/direct-transfer-trip-receive-interface.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

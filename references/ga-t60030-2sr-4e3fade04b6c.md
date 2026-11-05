@@ -1,0 +1,50 @@
+# AutomationDirect T60030-2SR fuse-system component
+
+T60030-2SR fuse-system component arrangement: mounting, interface and service-space coordination.
+
+[Canonical reference](https://eloragrid.ai/objects/ga-t60030-2sr-4e3fade04b6c) · [Structured record](../entries/ga-t60030-2sr-4e3fade04b6c.json) · [All references](README.md)
+
+Updated: 2026-10-29. Drawing use: GA. Reference families: Manufacturer.
+
+## What it represents
+
+T60030-2SR is the drawing identifier for fuse-system component in AutomationDirect's Edison Class T Fuses collection. A fuse-system component forms part of a selected overcurrent protection arrangement. The fuse link, holder and surrounding terminals may have different mechanical drawings and replacement needs.
+For example, in a control-power panel with a separately selected fuse arrangement, use the T60030-2SR reference to coordinate conductor terminals, replacement route and accessible device identification. Show the neighbouring equipment and the connection route so the installer can understand the intended arrangement.
+Use the reviewed native drawing identified as Power Products/Edison Class T Fuses/T60030-2SR.dwg for the exact physical details. Locate the named file in its original manufacturer archive. Manufacturer drawing previews are shown only when an exact approved source is available. Any illustrative 3D view is a separate concept and is not to scale; use the selected manufacturer documents for dimensions, ratings and installation details.
+
+## How to read it
+
+- Keep conductor terminals, replacement route and accessible device identification visible in the layout.
+- This reference concerns the named T60030-2SR drawing and its fuse-system component role. A drawing in the same collection is not automatic evidence of compatible terminals, mounts or electrical performance.
+
+## Drawing checklist
+
+- Match T60030-2SR, the native drawing identity and the project equipment schedule.
+- Identify the exact fuse-system component and its compatible partners.
+- Coordinate conductor terminals, replacement route and accessible device identification with neighbouring equipment.
+- Confirm the current manufacturer installation instructions, selected revision and any required mounting or clearance details.
+
+## Important distinction
+
+This reference concerns the named T60030-2SR drawing and its fuse-system component role. A drawing in the same collection is not automatic evidence of compatible terminals, mounts or electrical performance.
+
+## Facts
+
+- Manufacturer source: AutomationDirect
+- Native drawing identity: T60030-2SR
+- Reviewed equipment role: fuse-system component
+- CAD scope: Edison Class T Fuses
+- Preview scope: Source-matched manufacturer drawings where available; illustrative 3D is separate and not to scale
+
+## Public references
+
+- [AutomationDirect Edison Class T Fuses official CAD source](https://support.automationdirect.com/docs/drawings.html) — AutomationDirect. Official source collection and exact native drawing identity, with the equipment role checked against native content or the narrowly defined source family.
+
+## Related references
+
+- [Fuse holder](ga-fuse-holder.md)
+- [Equipment maintenance envelope](ga-equipment-maintenance-envelope.md)
+
+GA objects have no standalone 2D icon. Use the canonical equipment page for current manufacturer drawing and 3D preview availability.
+
+Elora-authored explanations are CC BY 4.0. Linked standards and manufacturer material retain their own rights. Confirm project requirements using primary sources.

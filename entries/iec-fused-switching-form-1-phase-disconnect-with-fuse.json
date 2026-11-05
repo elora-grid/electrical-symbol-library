@@ -1,0 +1,94 @@
+{
+  "slug": "iec-fused-switching-form-1-phase-disconnect-with-fuse",
+  "name": "IEC fused switching form: 1 phase disconnect with fuse",
+  "kind": "symbol",
+  "abbreviation": "QS",
+  "aliases": [
+    "HDS11Q81",
+    "VDS11Q81",
+    "fused switching form 1 Phase Disconnect with Fuse"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Fused switching form form: 1 Phase Disconnect with Fuse.",
+  "description": [
+    "A fused switching form identifies a switch and a fuse within the documented arrangement. Switching load current, providing isolation and interrupting a fault are separate capabilities, and the drawing must show which element performs each role. This entry identifies the 1 phase disconnect with fuse form in the publisher's IEC-context family.",
+    "An outgoing panel feeder can show a fused switch with its operating handle and fuse reference. Keep the switching tag linked to the fuse schedule so replacement protection and the intended switching duty can be checked together. ",
+    "The family name does not establish a device utilization category or prove that a fuse carrier may be moved under load. Use the selected assembly documentation for load operation, isolation indication, fuse class and any interlocks."
+  ],
+  "readingNotes": [
+    "An outgoing panel feeder can show a fused switch with its operating handle and fuse reference. Keep the switching tag linked to the fuse schedule so replacement protection and the intended switching duty can be checked together.",
+    "The family name does not establish a device utilization category or prove that a fuse carrier may be moved under load. Use the selected assembly documentation for load operation, isolation indication, fuse class and any interlocks."
+  ],
+  "drawingChecklist": [
+    "Identify the switching element and associated fuse references.",
+    "State whether the device switches load current and provides isolation.",
+    "Reference fuse class, current rating and operating instructions."
+  ],
+  "distinction": "This entry adds the 1 phase disconnect with fuse detail to the broader fused switching form family. The family name does not establish a device utilization category or prove that a fuse carrier may be moved under load. Use the selected assembly documentation for load operation, isolation indication, fuse class and any interlocks.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "1 Phase Disconnect with Fuse"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HDS11Q81 / VDS11Q81. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "fused switching form"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-fused-disconnects",
+      "relevance": "Public Fusible Disconnects table explicitly lists HDS11Q81 / VDS11Q81 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "switch-disconnector",
+    "fused-switch"
+  ],
+  "artwork": "s28-iec-fused-switching-form-1-phase-disconnect-with-fuse",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "1 Phase Disconnect with Fuse",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Fusible Disconnects, HDS11Q81 / VDS11Q81. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-fused-switching-form-1-phase-disconnect-with-fuse",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-fused-switching-form-1-phase-disconnect-with-fuse.svg",
+  "id": "iec-fused-switching-form-1-phase-disconnect-with-fuse",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-fused-switching-form-1-phase-disconnect-with-fuse",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-fused-switching-form-1-phase-disconnect-with-fuse.json",
+  "svgPath": "artwork/svg/iec-fused-switching-form-1-phase-disconnect-with-fuse.svg",
+  "referencePath": "references/iec-fused-switching-form-1-phase-disconnect-with-fuse.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-fused-disconnects",
+      "title": "AutoCAD Electrical: Fusible disconnects",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-FE7E6B30-F585-41F4-9F66-215ACD95A36D.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Fusible Disconnects table explicitly lists HDS11Q81 / VDS11Q81 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

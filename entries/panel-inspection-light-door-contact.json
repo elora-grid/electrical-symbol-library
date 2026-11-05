@@ -1,0 +1,105 @@
+{
+  "slug": "panel-inspection-light-door-contact",
+  "name": "Panel inspection-light door contact",
+  "kind": "symbol",
+  "abbreviation": "PIDC",
+  "aliases": [
+    "Switchroom lighting and access interfaces",
+    "switchrooms Switchroom lighting and access interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Panel door contact",
+    "Inspection-light request"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Relates the selected panel door contact to its local inspection-light control.",
+  "description": [
+    "Relates the selected panel door contact to its local inspection-light control. Lighting and access interfaces coordinate the electrical-room service circuits and their supervision. Normal lighting, emergency illumination and access indication have different power sources and purposes.",
+    "In a switchroom, a normal lighting branch may be switched locally while the specified emergency luminaires remain connected to their own backed-up or integral supply. For this reference, the drawing identifies “Panel door contact” at the input and “Inspection-light request” at the output. Opening a door does not imply electrical isolation.",
+    "Identify the lighting supply type, controlled circuit and the meaning of any test or failure output. A drawing symbol does not establish illumination levels, emergency duration or an approved egress arrangement. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Panel door contact. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Inspection-light request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Opening a door does not imply electrical isolation.",
+    "Identify the lighting supply type, controlled circuit and the meaning of any test or failure output. A drawing symbol does not establish illumination levels, emergency duration or an approved egress arrangement."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for panel door contact.",
+    "Identify the destination and defined state of inspection-light request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Opening a door does not imply electrical isolation."
+  ],
+  "distinction": "Opening a door does not imply electrical isolation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Panel door contact"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Inspection-light request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PIDC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-room-services",
+      "relevance": "Public technical context for switchroom lighting and access interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-maintained-emergency-luminaire",
+    "iec-exit-sign-luminaire",
+    "switchroom-external-lighting-command-interface"
+  ],
+  "artwork": "pi26-panel-inspection-light-door-contact",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-lighting",
+    "input": "Panel door contact",
+    "output": "Inspection-light request"
+  },
+  "url": "https://eloragrid.ai/symbols/panel-inspection-light-door-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/panel-inspection-light-door-contact.svg",
+  "id": "panel-inspection-light-door-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/panel-inspection-light-door-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/panel-inspection-light-door-contact.json",
+  "svgPath": "artwork/svg/panel-inspection-light-door-contact.svg",
+  "referencePath": "references/panel-inspection-light-door-contact.md",
+  "publicSources": [
+    {
+      "id": "pi26-room-services",
+      "publisher": "Schneider Electric",
+      "title": "Indoor substation: lighting, fire and auxiliary services",
+      "url": "https://www.electrical-installation.org/enwiki/Indoor_substation",
+      "scope": "Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom lighting and access interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

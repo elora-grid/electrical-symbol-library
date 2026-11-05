@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-minimum-load-restraint",
+  "name": "Microgrid generator minimum-load restraint",
+  "kind": "symbol",
+  "abbreviation": "MGMR",
+  "aliases": [
+    "Microgrid active-power dispatch controls",
+    "microgrids Microgrid active-power dispatch controls",
+    "microgrids",
+    "Microgrids",
+    "Generator load and permitted range",
+    "Minimum-load dispatch restraint"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Coordinates dispatch with the documented minimum operating-load constraints of assigned generators.",
+  "description": [
+    "Coordinates dispatch with the documented minimum operating-load constraints of assigned generators. Active-power dispatch allocates the electrical work performed by the microgrid resources. A total site target, a resource power limit and the actual measured contribution are different quantities that must be connected clearly in the diagram.",
+    "In a microgrid with solar generation, a battery and generators, the controller can allocate an import/export target among the available resources while reserving the power needed for operating disturbances. For this reference, the drawing identifies “Generator load and permitted range” at the input and “Minimum-load dispatch restraint” at the output. Limits come from the selected generator application.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Generator load and permitted range. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Minimum-load dispatch restraint. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Limits come from the selected generator application.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for generator load and permitted range.",
+    "Identify the destination and defined state of minimum-load dispatch restraint.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Limits come from the selected generator application."
+  ],
+  "distinction": "Limits come from the selected generator application. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Generator load and permitted range"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Minimum-load dispatch restraint"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGMR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-plant-controller",
+    "point-of-common-coupling",
+    "microgrid-resource-runback-request"
+  ],
+  "artwork": "pi26-microgrid-generator-minimum-load-restraint",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-active",
+    "input": "Generator load and permitted range",
+    "output": "Minimum-load dispatch restraint"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-minimum-load-restraint",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-minimum-load-restraint.svg",
+  "id": "microgrid-generator-minimum-load-restraint",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-minimum-load-restraint",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-minimum-load-restraint.json",
+  "svgPath": "artwork/svg/microgrid-generator-minimum-load-restraint.svg",
+  "referencePath": "references/microgrid-generator-minimum-load-restraint.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

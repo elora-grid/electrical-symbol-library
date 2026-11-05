@@ -1,0 +1,90 @@
+{
+  "slug": "altech-ps-ups",
+  "name": "Altech PS-UPS UPS accessory",
+  "kind": "object",
+  "abbreviation": "PS-UPS",
+  "aliases": [
+    "Altech PS-UPS UPS accessory GA",
+    "PS-UPS layout",
+    "PS-UPS CAD",
+    "PS-UPS general arrangement"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "PS-UPS UPS interface layout for backed-up DC control power.",
+  "description": [
+    "The manufacturer index maps drawing group PS_UPS to PS-UPS. Coordinate the accessory with its external battery and load circuits; establish connection roles from current manufacturer documentation.",
+    "Use the linked manufacturer mechanical original for dimensions and exact revision. This illustration is independently drawn, unitless and not to scale."
+  ],
+  "readingNotes": [
+    "Reserve separate supply, battery and backed-up load wiring routes.",
+    "The device envelope does not include an external battery or establish battery compatibility, protection requirements or backup duration."
+  ],
+  "drawingChecklist": [
+    "Identify PS-UPS and its battery connection role.",
+    "Reserve separate supply, battery and backed-up load wiring routes.",
+    "Coordinate external battery location, protection and service access."
+  ],
+  "distinction": "The device envelope does not include an external battery or establish battery compatibility, protection requirements or backup duration.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Altech"
+    },
+    {
+      "label": "Drawing group",
+      "value": "PS-UPS"
+    },
+    {
+      "label": "Drawing scope",
+      "value": "Legacy manufacturer drawing group; only explicitly listed aliases are included"
+    },
+    {
+      "label": "Manufacturer index aliases",
+      "value": "PS-UPS"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual envelope; no measured geometry or certification claim"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-scale-altech-ps-ups",
+      "relevance": "Official drawing identity and configuration scope. Coordination notes and illustration are original educational material."
+    }
+  ],
+  "related": [
+    "ga-dc-ups-module",
+    "ga-station-dc-battery-rack"
+  ],
+  "artwork": "edu-object-altech-ps-ups",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/altech-ps-ups",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/altech-ps-ups",
+  "id": "altech-ps-ups",
+  "canonicalUrl": "https://eloragrid.ai/objects/altech-ps-ups",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/altech-ps-ups.json",
+  "referencePath": "references/altech-ps-ups.md",
+  "publicSources": [
+    {
+      "id": "ga-scale-altech-ps-ups",
+      "title": "Altech PS-UPS UPS accessory: official mechanical resource",
+      "publisher": "Altech Corporation",
+      "url": "https://legacy.altechcorp.com/CAD/1MasterSheet/WebsiteUSE/HTMLWebpages/PowerSupplyMasterSheet.htm",
+      "type": "manufacturer",
+      "scope": "Published model identity, mechanical drawing group and variant scope.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Official drawing identity and configuration scope. Coordination notes and illustration are original educational material."
+    }
+  ]
+}

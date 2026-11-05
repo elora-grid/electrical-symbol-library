@@ -1,0 +1,103 @@
+{
+  "slug": "iec-coaxial-cable",
+  "name": "Coaxial cable",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "coax",
+    "coaxial pair",
+    "concentric cable"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A centre conductor drawn within a concentric outer conductor, used for RF, video and some high-frequency measurement leads.",
+  "description": [
+    "The coaxial cable symbol shows an inner conductor surrounded by a concentric outer conductor that forms the return path. Unlike a screened conductor, the outer conductor of a coaxial cable is part of the signal circuit and sets a defined characteristic impedance. It appears on antenna feeds, GPS time-sync leads to protection relays, video circuits and some partial-discharge sensor connections.",
+    "The symbol does not give the impedance, attenuation or connector type. A 50 ohm and a 75 ohm cable look identical on the drawing, so the cable schedule must identify the type. Where the outer conductor is earthed, show that separately rather than assuming the reader knows the earthing arrangement."
+  ],
+  "readingNotes": [
+    "Check the cable type and impedance against the equipment at both ends.",
+    "Look for connector designations at each end of the coax run."
+  ],
+  "drawingChecklist": [
+    "State characteristic impedance or cable type.",
+    "Name the connector at each end.",
+    "Show earthing of the outer conductor where applicable."
+  ],
+  "distinction": "In coaxial cable the outer conductor carries return current; in a screened conductor the screen only intercepts interference.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Centre line with a concentric outer outline extended to both ends"
+    },
+    {
+      "label": "Typical use",
+      "value": "GPS antenna leads, RF and video circuits"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Standards context for coaxial conductor graphics in IEEE forms."
+    }
+  ],
+  "related": [
+    "iec-coaxial-cable-with-earthed-outer-conductor",
+    "iec-coaxial-plug-and-socket",
+    "iec-screened-conductor"
+  ],
+  "artwork": "s28-iec-coaxial-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Coaxial pair form",
+    "reference": "Independent IEC-context illustration of a concentric pair; consult IEC 60617 for the exact graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-coaxial-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-coaxial-cable.svg",
+  "id": "iec-coaxial-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-coaxial-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-coaxial-cable.json",
+  "svgPath": "artwork/svg/iec-coaxial-cable.svg",
+  "referencePath": "references/iec-coaxial-cable.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Standards context for coaxial conductor graphics in IEEE forms."
+    }
+  ]
+}

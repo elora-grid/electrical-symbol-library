@@ -1,0 +1,87 @@
+{
+  "slug": "isolated-rs-485-transceiver",
+  "name": "Isolated RS-485 transceiver",
+  "kind": "symbol",
+  "abbreviation": "ISO 485",
+  "aliases": [
+    "Isolated RS-485 transceiver",
+    "Isolated RS-485 transceiver functional block",
+    "Isolated RS-485 transceiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An isolated RS-485 interface transfers compatible serial communication across a specified isolation barrier.",
+  "description": [
+    "An isolated RS-485 interface transfers compatible serial communication across a specified isolation barrier.",
+    "A fieldbus interface can separate controller and bus electrical references using the selected isolated device.",
+    "Draw the serial logic connection, isolation barrier and differential bus pair as separate roles. Label bus-side power and any direction-enable signals. Isolation changes the relationship between circuit references; it does not remove the need to define cable topology, termination and the application protocol. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Show controller and bus reference domains.",
+    "Reference bus-side power and direction control.",
+    "Identify termination, protection and the application protocol.",
+    "Isolation does not remove the need to design the cable, termination and bus protection."
+  ],
+  "drawingChecklist": [
+    "Show controller and bus reference domains.",
+    "Reference bus-side power and direction control.",
+    "Identify termination, protection and the application protocol."
+  ],
+  "distinction": "Isolation does not remove the need to design the cable, termination and bus protection.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Controller serial interface"
+    },
+    {
+      "label": "Concept output",
+      "value": "Differential fieldbus pair"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-isolatedbus",
+      "relevance": "Isolated communication interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "capacitive-digital-isolator",
+    "isolated-can-transceiver",
+    "isolated-i2c-interface",
+    "power-converter"
+  ],
+  "artwork": "expanded-isolated-rs-485-transceiver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-rs-485-transceiver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/isolated-rs-485-transceiver.svg",
+  "id": "isolated-rs-485-transceiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-rs-485-transceiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-rs-485-transceiver.json",
+  "svgPath": "artwork/svg/isolated-rs-485-transceiver.svg",
+  "referencePath": "references/isolated-rs-485-transceiver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-isolatedbus",
+      "title": "Isolated communication interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/isolation/isolated-interface-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Isolated communication interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-resistor-with-disconnecting-slider",
+  "name": "ANSI/IEEE Resistor with disconnecting slider form",
+  "kind": "symbol",
+  "abbreviation": "HVR1R5",
+  "aliases": [
+    "HVR1R5",
+    "VVR1R5",
+    "IEEE Resistor with Mobile Contact and Disconnecting Position",
+    "ANSI Resistor with disconnecting slider"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of resistor with disconnecting slider: this form distinguishes a movable resistor contact with a disconnecting position.",
+  "description": [
+    "This reference locates resistor with disconnecting slider in Autodesk's IEEE-oriented resistive components family. This form distinguishes a movable resistor contact with a disconnecting position. The movable contact can leave the resistive track at its documented disconnecting position. This changes circuit continuity as well as the selected resistance. The public library uses HVR1R5 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Follow the actual current path and terminal polarity in the surrounding circuit. The symbol identifies an electrical function; voltage, current, energy limits and the device package pinout come from the selected component data rather than from the outline.",
+    "Show the track ends, slider terminal and the off-position relationship. A generic potentiometer or variable-resistor graphic can omit this important additional operating state. Show the track terminals, movable contact and the circuit condition at the off position. A disconnecting slider is different from a continuously connected potentiometer wiper. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Show the track terminals, movable contact and the circuit condition at the off position.",
+    "A disconnecting slider is different from a continuously connected potentiometer wiper."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Show the track terminals, movable contact and the circuit condition at the off position.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A disconnecting slider is different from a continuously connected potentiometer wiper.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Resistive Components; published form: Resistor with Mobile Contact and Disconnecting Position."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HVR1R5. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Show the track terminals, movable contact and the circuit condition at the off position."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-1a45de3a-cd2a-4ad9-8125-219905c870b1",
+      "relevance": "Public IEEE-oriented Resistive Components table explicitly lists HVR1R5 as Resistor with Mobile Contact and Disconnecting Position. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-resistor-with-disconnecting-slider",
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "s28-ansi-resistor-with-disconnecting-slider",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Resistor with Mobile Contact and Disconnecting Position",
+    "reference": "Autodesk IEEE Symbol Preview: Resistive Components, block HVR1R5. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-resistor-with-disconnecting-slider"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-resistor-with-disconnecting-slider",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-resistor-with-disconnecting-slider.svg",
+  "id": "ansi-resistor-with-disconnecting-slider",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-resistor-with-disconnecting-slider",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-resistor-with-disconnecting-slider.json",
+  "svgPath": "artwork/svg/ansi-resistor-with-disconnecting-slider.svg",
+  "referencePath": "references/ansi-resistor-with-disconnecting-slider.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-1a45de3a-cd2a-4ad9-8125-219905c870b1",
+      "title": "Autodesk IEEE Symbol Preview — Resistive Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1A45DE3A-CD2A-4AD9-8125-219905C870B1.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Resistive Components table explicitly lists HVR1R5 as Resistor with Mobile Contact and Disconnecting Position. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

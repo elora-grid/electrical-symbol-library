@@ -1,0 +1,103 @@
+{
+  "slug": "iec-ceiling-fan-plan-mark",
+  "name": "Ceiling fan plan mark",
+  "kind": "symbol",
+  "abbreviation": "CF",
+  "aliases": [
+    "ceiling sweep fan",
+    "paddle fan symbol",
+    "fan outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a ceiling sweep fan, showing blade positions around a central outlet.",
+  "description": [
+    "Ceiling fans are drawn on lighting plans as a central circle with blades radiating out, sometimes combined with a light symbol where a light kit is fitted. The form tells the installer to provide a fan-rated support at the ceiling and a controller at the wall.",
+    "The plan should also show the controller, which may be a speed controller, a combined fan-light switch or a remote receiver. Clearance from walls and from luminaires is a common coordination check. The mark does not state the sweep diameter or motor rating. These come from the fixture schedule."
+  ],
+  "readingNotes": [
+    "Check the support requirement for the fan weight and torque.",
+    "Locate the controller."
+  ],
+  "drawingChecklist": [
+    "State sweep diameter.",
+    "Show controller location.",
+    "Note any integral light."
+  ],
+  "distinction": "An extract fan moves air out of a room; a ceiling sweep fan circulates air within it.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Centre circle with radiating blades"
+    },
+    {
+      "label": "Companion device",
+      "value": "Speed controller"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Design methodology for fixed loads in final circuits."
+    }
+  ],
+  "related": [
+    "single-phase-motor-with-fan",
+    "iec-extract-fan-plan-mark",
+    "iec-luminaire-general-plan-symbol"
+  ],
+  "artwork": "s28-iec-ceiling-fan-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Ceiling fan",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-ceiling-fan-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-ceiling-fan-plan-mark.svg",
+  "id": "iec-ceiling-fan-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-ceiling-fan-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-ceiling-fan-plan-mark.json",
+  "svgPath": "artwork/svg/iec-ceiling-fan-plan-mark.svg",
+  "referencePath": "references/iec-ceiling-fan-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Design methodology for fixed loads in final circuits."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "iec-cable-screen-cross-bonding",
+  "name": "Cable screen cross-bonding",
+  "kind": "symbol",
+  "abbreviation": "CB",
+  "aliases": [
+    "sheath cross-bonding",
+    "screen transposition",
+    "cross-bonded sheaths"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Screens of three single-core cables transposed at joints so that induced sheath voltages cancel over a major section.",
+  "description": [
+    "On long high voltage single-core circuits, the cable screens are cut at joints and reconnected in rotation so that each screen runs alongside each phase for one third of the section. This cancels most of the induced sheath voltage and circulating current. Bonding diagrams show the screen connections crossing at each joint, with link boxes and sheath voltage limiters.",
+    "The symbol shows the topology, not the link box arrangement or sheath voltage limiter rating. Errors in cross-bonding connections cause large circulating currents and overheating, so phase-to-screen allocation at each joint should be read carefully against the cable drawings."
+  ],
+  "readingNotes": [
+    "Check screen rotation order at each joint.",
+    "Locate link boxes and sheath voltage limiters."
+  ],
+  "drawingChecklist": [
+    "Show screen rotation at each joint.",
+    "Identify link boxes.",
+    "Show solid bonding at section ends."
+  ],
+  "distinction": "Cross-bonding transposes screens between phases; conductor interchange transposes the phase conductors themselves.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Three screen lines crossing in rotation at joints"
+    },
+    {
+      "label": "Purpose",
+      "value": "Cancel induced sheath voltage and circulating current"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for cable joints and accessories."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-cable-straight-through-joint",
+    "iec-conductor-interchange",
+    "surge-arrester"
+  ],
+  "artwork": "s28-iec-cable-screen-cross-bonding",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Cross-bonded cable screen arrangement",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-cable-screen-cross-bonding",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-cable-screen-cross-bonding.svg",
+  "id": "iec-cable-screen-cross-bonding",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-screen-cross-bonding",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-cable-screen-cross-bonding.json",
+  "svgPath": "artwork/svg/iec-cable-screen-cross-bonding.svg",
+  "referencePath": "references/iec-cable-screen-cross-bonding.md",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for cable joints and accessories."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

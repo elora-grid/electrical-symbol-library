@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-double-spark-gap",
+  "name": "ANSI/IEEE Double spark gap form",
+  "kind": "symbol",
+  "abbreviation": "F",
+  "aliases": [
+    "HFU1_S00372",
+    "VFU1_S00372",
+    "IEEE Spark Gap, Double",
+    "ANSI Double spark gap"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of double spark gap: a spark gap form with two gaps sharing a common electrode, used to protect two conductors against a common earth.",
+  "description": [
+    "This reference locates double spark gap in Autodesk's IEEE-oriented miscellaneous family. The double spark gap places two gaps in one element, typically from each of two line conductors to a common centre electrode that is earthed. It protects a pair of conductors, such as a telecom pair, with a single component so that both lines are diverted together. The public library uses HFU1_S00372 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "The symbol does not state breakdown voltages or whether both gaps are matched. If one gap breaks down before the other, a transverse voltage can appear across the protected pair. Check the product data where balanced breakdown matters. Identify the common electrode connection to earth. A double spark gap protects two conductors to a common electrode; a single spark gap protects one path. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the common electrode connection to earth.",
+    "Check breakdown matching between the two gaps."
+  ],
+  "drawingChecklist": [
+    "Show both line connections and the common earth.",
+    "State breakdown voltage.",
+    "Keep the earth lead short."
+  ],
+  "distinction": "A double spark gap protects two conductors to a common electrode; a single spark gap protects one path.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous; published form: Spark Gap, Double."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HFU1_S00372. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Graphic cue",
+      "value": "Two facing gaps sharing a centre electrode"
+    },
+    {
+      "label": "Publisher form",
+      "value": "Spark Gap, Double (HFU1_S00372 Autodesk identifier)"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Public IEEE-oriented Miscellaneous table explicitly lists HFU1_S00372 as Spark Gap, Double. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-double-spark-gap",
+    "spark-gap-protective-element",
+    "ansi-spark-gap",
+    "gas-discharge-protection-tube"
+  ],
+  "artwork": "s28-ansi-double-spark-gap",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Spark Gap, Double",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous, block HFU1_S00372. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-double-spark-gap"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-double-spark-gap",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-double-spark-gap.svg",
+  "id": "ansi-double-spark-gap",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-double-spark-gap",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-double-spark-gap.json",
+  "svgPath": "artwork/svg/ansi-double-spark-gap.svg",
+  "referencePath": "references/ansi-double-spark-gap.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous table explicitly lists HFU1_S00372 as Spark Gap, Double. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

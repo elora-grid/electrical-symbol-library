@@ -1,0 +1,1266 @@
+{
+  "schemaVersion": 1,
+  "category": "measurement-protection",
+  "entries": [
+    {
+      "id": "time-alignment-validation-boundary",
+      "slug": "time-alignment-validation-boundary",
+      "name": "Time-alignment validation boundary",
+      "kind": "symbol",
+      "abbreviation": "TVB",
+      "aliases": [
+        "Substation timing and event interfaces",
+        "substations Substation timing and event interfaces",
+        "substations",
+        "Substations",
+        "Reference and client timing points",
+        "Timing comparison information"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the source and client timing points included in the defined synchronization assessment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-time",
+        "input": "Reference and client timing points",
+        "output": "Timing comparison information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/time-alignment-validation-boundary",
+      "recordPath": "entries/time-alignment-validation-boundary.json",
+      "svgPath": "artwork/svg/time-alignment-validation-boundary.svg",
+      "referencePath": "references/time-alignment-validation-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bay-controller-supervisory-data-interface",
+      "slug": "bay-controller-supervisory-data-interface",
+      "name": "Bay-controller supervisory data interface",
+      "kind": "symbol",
+      "abbreviation": "BSDI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Bay measurements and statuses",
+        "Station bay data"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Collects the assigned bay status and measurements for station-level supervision.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Bay measurements and statuses",
+        "output": "Station bay data"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bay-controller-supervisory-data-interface",
+      "recordPath": "entries/bay-controller-supervisory-data-interface.json",
+      "svgPath": "artwork/svg/bay-controller-supervisory-data-interface.svg",
+      "referencePath": "references/bay-controller-supervisory-data-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-rtu-command-authority-gate",
+      "slug": "station-rtu-command-authority-gate",
+      "name": "Station RTU command-authority gate",
+      "kind": "symbol",
+      "abbreviation": "SRCG",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Remote command and authority",
+        "Authorized station command"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Accepts the documented remote commands only when the station authority conditions permit them.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Remote command and authority",
+        "output": "Authorized station command"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-rtu-command-authority-gate",
+      "recordPath": "entries/station-rtu-command-authority-gate.json",
+      "svgPath": "artwork/svg/station-rtu-command-authority-gate.svg",
+      "referencePath": "references/station-rtu-command-authority-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "select-before-operate-command-interface",
+      "slug": "select-before-operate-command-interface",
+      "name": "Select-before-operate command interface",
+      "kind": "symbol",
+      "abbreviation": "SCI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Selection and operate requests",
+        "Selected equipment command"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Separates equipment selection from the subsequent operating request in the selected control scheme.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Selection and operate requests",
+        "output": "Selected equipment command"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/select-before-operate-command-interface",
+      "recordPath": "entries/select-before-operate-command-interface.json",
+      "svgPath": "artwork/svg/select-before-operate-command-interface.svg",
+      "referencePath": "references/select-before-operate-command-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "direct-operate-command-interface",
+      "slug": "direct-operate-command-interface",
+      "name": "Direct-operate command interface",
+      "kind": "symbol",
+      "abbreviation": "DCI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Authorized direct command",
+        "Assigned device operation request"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned command path that does not use a separate selection transaction.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Authorized direct command",
+        "output": "Assigned device operation request"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/direct-operate-command-interface",
+      "recordPath": "entries/direct-operate-command-interface.json",
+      "svgPath": "artwork/svg/direct-operate-command-interface.svg",
+      "referencePath": "references/direct-operate-command-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bay-command-termination-feedback",
+      "slug": "bay-command-termination-feedback",
+      "name": "Bay command-termination feedback",
+      "kind": "symbol",
+      "abbreviation": "BCF",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Command execution result",
+        "Control transaction completion"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the defined end state of the assigned control transaction.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Command execution result",
+        "output": "Control transaction completion"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bay-command-termination-feedback",
+      "recordPath": "entries/bay-command-termination-feedback.json",
+      "svgPath": "artwork/svg/bay-command-termination-feedback.svg",
+      "referencePath": "references/bay-command-termination-feedback.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-telemetry-stale-data-flag",
+      "slug": "station-telemetry-stale-data-flag",
+      "name": "Station telemetry stale-data flag",
+      "kind": "symbol",
+      "abbreviation": "STSF",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Data age and quality",
+        "Stale information flag"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Indicates that a measurement or status has exceeded its defined freshness condition.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Data age and quality",
+        "output": "Stale information flag"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-telemetry-stale-data-flag",
+      "recordPath": "entries/station-telemetry-stale-data-flag.json",
+      "svgPath": "artwork/svg/station-telemetry-stale-data-flag.svg",
+      "referencePath": "references/station-telemetry-stale-data-flag.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-analogue-scaling-interface",
+      "slug": "station-analogue-scaling-interface",
+      "name": "Station analogue scaling interface",
+      "kind": "symbol",
+      "abbreviation": "SASI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Raw measurement and scale",
+        "Engineering-unit measurement"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Maps the source measurement representation to the assigned station engineering quantity.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Raw measurement and scale",
+        "output": "Engineering-unit measurement"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-analogue-scaling-interface",
+      "recordPath": "entries/station-analogue-scaling-interface.json",
+      "svgPath": "artwork/svg/station-analogue-scaling-interface.svg",
+      "referencePath": "references/station-analogue-scaling-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-double-point-indication-interface",
+      "slug": "station-double-point-indication-interface",
+      "name": "Station double-point indication interface",
+      "kind": "symbol",
+      "abbreviation": "SDII",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Double-point device state",
+        "Mapped station position"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Carries the defined two-contact equipment position through the station point mapping.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Double-point device state",
+        "output": "Mapped station position"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-double-point-indication-interface",
+      "recordPath": "entries/station-double-point-indication-interface.json",
+      "svgPath": "artwork/svg/station-double-point-indication-interface.svg",
+      "referencePath": "references/station-double-point-indication-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-alarm-timestamp-interface",
+      "slug": "station-alarm-timestamp-interface",
+      "name": "Station alarm timestamp interface",
+      "kind": "symbol",
+      "abbreviation": "SATI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Alarm event and time",
+        "Time-tagged alarm"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Associates the source event time with its station alarm record.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Alarm event and time",
+        "output": "Time-tagged alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-alarm-timestamp-interface",
+      "recordPath": "entries/station-alarm-timestamp-interface.json",
+      "svgPath": "artwork/svg/station-alarm-timestamp-interface.svg",
+      "referencePath": "references/station-alarm-timestamp-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-communications-gateway-boundary",
+      "slug": "station-communications-gateway-boundary",
+      "name": "Station communications gateway boundary",
+      "kind": "symbol",
+      "abbreviation": "SCGB",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Station protocol data",
+        "External-system mapped data"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented protocol or data-model translation between the station and external system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Station protocol data",
+        "output": "External-system mapped data"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-communications-gateway-boundary",
+      "recordPath": "entries/station-communications-gateway-boundary.json",
+      "svgPath": "artwork/svg/station-communications-gateway-boundary.svg",
+      "referencePath": "references/station-communications-gateway-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "remote-control-communications-loss-inhibit",
+      "slug": "remote-control-communications-loss-inhibit",
+      "name": "Remote-control communications-loss inhibit",
+      "kind": "symbol",
+      "abbreviation": "RCI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Link health and authority",
+        "Remote-operation restraint"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Applies the documented restraint to remote operating requests when their required communication path is lost.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Link health and authority",
+        "output": "Remote-operation restraint"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/remote-control-communications-loss-inhibit",
+      "recordPath": "entries/remote-control-communications-loss-inhibit.json",
+      "svgPath": "artwork/svg/remote-control-communications-loss-inhibit.svg",
+      "referencePath": "references/remote-control-communications-loss-inhibit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-local-control-ownership-interface",
+      "slug": "station-local-control-ownership-interface",
+      "name": "Station local-control ownership interface",
+      "kind": "symbol",
+      "abbreviation": "SLOI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Local ownership selection",
+        "Selected control authority"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows when station-local operation has authority over the assigned remote supervisory path.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Local ownership selection",
+        "output": "Selected control authority"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-local-control-ownership-interface",
+      "recordPath": "entries/station-local-control-ownership-interface.json",
+      "svgPath": "artwork/svg/station-local-control-ownership-interface.svg",
+      "referencePath": "references/station-local-control-ownership-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-alarm-acknowledgement-return-path",
+      "slug": "station-alarm-acknowledgement-return-path",
+      "name": "Station alarm acknowledgement return path",
+      "kind": "symbol",
+      "abbreviation": "SAARP",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Operator acknowledgement",
+        "Alarm-processing acknowledgement"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Carries acknowledgement from the assigned operator interface to its alarm-processing function.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Operator acknowledgement",
+        "output": "Alarm-processing acknowledgement"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-alarm-acknowledgement-return-path",
+      "recordPath": "entries/station-alarm-acknowledgement-return-path.json",
+      "svgPath": "artwork/svg/station-alarm-acknowledgement-return-path.svg",
+      "referencePath": "references/station-alarm-acknowledgement-return-path.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-controller-watchdog-alarm-interface",
+      "slug": "station-controller-watchdog-alarm-interface",
+      "name": "Station controller watchdog alarm interface",
+      "kind": "symbol",
+      "abbreviation": "SCWAI",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Controller health output",
+        "Station controller fault alarm"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the selected controller's documented watchdog or health failure indication.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Controller health output",
+        "output": "Station controller fault alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-controller-watchdog-alarm-interface",
+      "recordPath": "entries/station-controller-watchdog-alarm-interface.json",
+      "svgPath": "artwork/svg/station-controller-watchdog-alarm-interface.svg",
+      "referencePath": "references/station-controller-watchdog-alarm-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-ied-configuration-revision-reference",
+      "slug": "station-ied-configuration-revision-reference",
+      "name": "Station IED configuration-revision reference",
+      "kind": "symbol",
+      "abbreviation": "SICR",
+      "aliases": [
+        "Substation automation and command interfaces",
+        "substations Substation automation and command interfaces",
+        "substations",
+        "Substations",
+        "Drawing signal map",
+        "Configuration revision link"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Associates the drawing's point and command mappings with the selected IED configuration revision.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-automation",
+        "input": "Drawing signal map",
+        "output": "Configuration revision link"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-ied-configuration-revision-reference",
+      "recordPath": "entries/station-ied-configuration-revision-reference.json",
+      "svgPath": "artwork/svg/station-ied-configuration-revision-reference.svg",
+      "referencePath": "references/station-ied-configuration-revision-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-charger-float-charge-interface",
+      "slug": "station-charger-float-charge-interface",
+      "name": "Station charger float-charge interface",
+      "kind": "symbol",
+      "abbreviation": "SCFI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Charger control and battery condition",
+        "Float-charge operating state"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the charger operating interface that maintains the battery at its specified standby charge condition.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Charger control and battery condition",
+        "output": "Float-charge operating state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-float-charge-interface",
+      "recordPath": "entries/station-charger-float-charge-interface.json",
+      "svgPath": "artwork/svg/station-charger-float-charge-interface.svg",
+      "referencePath": "references/station-charger-float-charge-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-charger-boost-charge-interface",
+      "slug": "station-charger-boost-charge-interface",
+      "name": "Station charger boost-charge interface",
+      "kind": "symbol",
+      "abbreviation": "SCBI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Authorized charge-mode request",
+        "Boost-charge operating state"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the separately controlled charge mode used where the selected battery system permits it.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Authorized charge-mode request",
+        "output": "Boost-charge operating state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-boost-charge-interface",
+      "recordPath": "entries/station-charger-boost-charge-interface.json",
+      "svgPath": "artwork/svg/station-charger-boost-charge-interface.svg",
+      "referencePath": "references/station-charger-boost-charge-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-charger-current-limit-interface",
+      "slug": "station-charger-current-limit-interface",
+      "name": "Station charger current-limit interface",
+      "kind": "symbol",
+      "abbreviation": "SCCI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Charger output current",
+        "Current-limit state"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Represents the selected charger output-current limiting function and its supervisory indication.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Charger output current",
+        "output": "Current-limit state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-current-limit-interface",
+      "recordPath": "entries/station-charger-current-limit-interface.json",
+      "svgPath": "artwork/svg/station-charger-current-limit-interface.svg",
+      "referencePath": "references/station-charger-current-limit-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-charger-ac-failure-indication",
+      "slug": "station-charger-ac-failure-indication",
+      "name": "Station charger AC-failure indication",
+      "kind": "symbol",
+      "abbreviation": "SCAI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Charger AC input health",
+        "Charger AC-failure alarm"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports loss of the assigned charger input supply while distinguishing the available battery path.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Charger AC input health",
+        "output": "Charger AC-failure alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-ac-failure-indication",
+      "recordPath": "entries/station-charger-ac-failure-indication.json",
+      "svgPath": "artwork/svg/station-charger-ac-failure-indication.svg",
+      "referencePath": "references/station-charger-ac-failure-indication.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-charger-dc-output-failure-indication",
+      "slug": "station-charger-dc-output-failure-indication",
+      "name": "Station charger DC-output failure indication",
+      "kind": "symbol",
+      "abbreviation": "SCDFI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Charger output supervision",
+        "DC-output fault alarm"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the charger's defined output failure condition separately from its AC input status.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Charger output supervision",
+        "output": "DC-output fault alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-dc-output-failure-indication",
+      "recordPath": "entries/station-charger-dc-output-failure-indication.json",
+      "svgPath": "artwork/svg/station-charger-dc-output-failure-indication.svg",
+      "referencePath": "references/station-charger-dc-output-failure-indication.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-charger-redundant-unit-sharing-interface",
+      "slug": "station-charger-redundant-unit-sharing-interface",
+      "name": "Station charger redundant-unit sharing interface",
+      "kind": "symbol",
+      "abbreviation": "SCRSI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Charger availability and load",
+        "Coordinated charger contribution"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented coordination between chargers serving the assigned station DC system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Charger availability and load",
+        "output": "Coordinated charger contribution"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-redundant-unit-sharing-interface",
+      "recordPath": "entries/station-charger-redundant-unit-sharing-interface.json",
+      "svgPath": "artwork/svg/station-charger-redundant-unit-sharing-interface.svg",
+      "referencePath": "references/station-charger-redundant-unit-sharing-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-incoming-isolation-boundary",
+      "slug": "station-battery-incoming-isolation-boundary",
+      "name": "Station battery incoming isolation boundary",
+      "kind": "symbol",
+      "abbreviation": "SBIIB",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery output connection",
+        "Defined battery incoming boundary"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Marks the assigned isolation connection between the battery and its DC distribution system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery output connection",
+        "output": "Defined battery incoming boundary"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-incoming-isolation-boundary",
+      "recordPath": "entries/station-battery-incoming-isolation-boundary.json",
+      "svgPath": "artwork/svg/station-battery-incoming-isolation-boundary.svg",
+      "referencePath": "references/station-battery-incoming-isolation-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-discharge-current-measurement",
+      "slug": "station-battery-discharge-current-measurement",
+      "name": "Station battery discharge-current measurement",
+      "kind": "symbol",
+      "abbreviation": "SBDM",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery current sensor",
+        "Discharge-current information"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the measured battery discharge contribution to the station DC load.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery current sensor",
+        "output": "Discharge-current information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-discharge-current-measurement",
+      "recordPath": "entries/station-battery-discharge-current-measurement.json",
+      "svgPath": "artwork/svg/station-battery-discharge-current-measurement.svg",
+      "referencePath": "references/station-battery-discharge-current-measurement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-charge-current-measurement",
+      "slug": "station-battery-charge-current-measurement",
+      "name": "Station battery charge-current measurement",
+      "kind": "symbol",
+      "abbreviation": "SBCM",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery current sensor",
+        "Charge-current information"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the battery charging-current measurement used by the assigned supervisory function.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery current sensor",
+        "output": "Charge-current information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-charge-current-measurement",
+      "recordPath": "entries/station-battery-charge-current-measurement.json",
+      "svgPath": "artwork/svg/station-battery-charge-current-measurement.svg",
+      "referencePath": "references/station-battery-charge-current-measurement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-low-voltage-alarm-block",
+      "slug": "station-battery-low-voltage-alarm-block",
+      "name": "Station battery low-voltage alarm block",
+      "kind": "symbol",
+      "abbreviation": "SBLAB",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery-bus voltage",
+        "Low-voltage alarm state"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Applies the documented battery-bus low-voltage supervision to its assigned alarm output.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery-bus voltage",
+        "output": "Low-voltage alarm state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-low-voltage-alarm-block",
+      "recordPath": "entries/station-battery-low-voltage-alarm-block.json",
+      "svgPath": "artwork/svg/station-battery-low-voltage-alarm-block.svg",
+      "referencePath": "references/station-battery-low-voltage-alarm-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-high-voltage-alarm-block",
+      "slug": "station-battery-high-voltage-alarm-block",
+      "name": "Station battery high-voltage alarm block",
+      "kind": "symbol",
+      "abbreviation": "SBHAB",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery-bus voltage",
+        "High-voltage alarm state"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Applies the documented high-voltage supervision to the station DC bus.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery-bus voltage",
+        "output": "High-voltage alarm state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-high-voltage-alarm-block",
+      "recordPath": "entries/station-battery-high-voltage-alarm-block.json",
+      "svgPath": "artwork/svg/station-battery-high-voltage-alarm-block.svg",
+      "referencePath": "references/station-battery-high-voltage-alarm-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-continuity-supervision",
+      "slug": "station-battery-continuity-supervision",
+      "name": "Station battery continuity supervision",
+      "kind": "symbol",
+      "abbreviation": "SBCS",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery connection supervision",
+        "Battery-path health indication"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected method for monitoring the continuity of the assigned battery connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery connection supervision",
+        "output": "Battery-path health indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-continuity-supervision",
+      "recordPath": "entries/station-battery-continuity-supervision.json",
+      "svgPath": "artwork/svg/station-battery-continuity-supervision.svg",
+      "referencePath": "references/station-battery-continuity-supervision.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-dc-insulation-monitor-interface",
+      "slug": "station-dc-insulation-monitor-interface",
+      "name": "Station DC insulation-monitor interface",
+      "kind": "symbol",
+      "abbreviation": "SDII",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "DC insulation measurement",
+        "Insulation-condition alarm"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the selected insulation-monitoring device to the station DC system and alarm paths.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "DC insulation measurement",
+        "output": "Insulation-condition alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-insulation-monitor-interface",
+      "recordPath": "entries/station-dc-insulation-monitor-interface.json",
+      "svgPath": "artwork/svg/station-dc-insulation-monitor-interface.svg",
+      "referencePath": "references/station-dc-insulation-monitor-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-dc-earth-fault-location-interface",
+      "slug": "station-dc-earth-fault-location-interface",
+      "name": "Station DC earth-fault location interface",
+      "kind": "symbol",
+      "abbreviation": "SDELI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Branch diagnostic information",
+        "Suspected branch identification"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected diagnostic interface used to associate an insulation fault with a DC branch.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Branch diagnostic information",
+        "output": "Suspected branch identification"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-earth-fault-location-interface",
+      "recordPath": "entries/station-dc-earth-fault-location-interface.json",
+      "svgPath": "artwork/svg/station-dc-earth-fault-location-interface.svg",
+      "referencePath": "references/station-dc-earth-fault-location-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-dc-feeder-selectivity-boundary",
+      "slug": "station-dc-feeder-selectivity-boundary",
+      "name": "Station DC feeder selectivity boundary",
+      "kind": "symbol",
+      "abbreviation": "SDFSB",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "DC feeder protective devices",
+        "Defined protection relationship"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the protective-device relationship considered when assigning downstream DC fault isolation.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "DC feeder protective devices",
+        "output": "Defined protection relationship"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-feeder-selectivity-boundary",
+      "recordPath": "entries/station-dc-feeder-selectivity-boundary.json",
+      "svgPath": "artwork/svg/station-dc-feeder-selectivity-boundary.svg",
+      "referencePath": "references/station-dc-feeder-selectivity-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-dc-dual-bus-segregation",
+      "slug": "station-dc-dual-bus-segregation",
+      "name": "Station DC dual-bus segregation",
+      "kind": "symbol",
+      "abbreviation": "SDDS",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Two DC bus systems",
+        "Segregated outgoing supplies"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Keeps two separately assigned station DC distribution buses identifiable across their outgoing circuits.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Two DC bus systems",
+        "output": "Segregated outgoing supplies"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-dual-bus-segregation",
+      "recordPath": "entries/station-dc-dual-bus-segregation.json",
+      "svgPath": "artwork/svg/station-dc-dual-bus-segregation.svg",
+      "referencePath": "references/station-dc-dual-bus-segregation.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-dc-bus-tie-operating-interface",
+      "slug": "station-dc-bus-tie-operating-interface",
+      "name": "Station DC bus-tie operating interface",
+      "kind": "symbol",
+      "abbreviation": "SDBOI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "DC tie command and states",
+        "Assigned bus-tie action"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the command and conditions associated with the selected DC bus connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "DC tie command and states",
+        "output": "Assigned bus-tie action"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-bus-tie-operating-interface",
+      "recordPath": "entries/station-dc-bus-tie-operating-interface.json",
+      "svgPath": "artwork/svg/station-dc-bus-tie-operating-interface.svg",
+      "referencePath": "references/station-dc-bus-tie-operating-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-dc-essential-load-priority-map",
+      "slug": "station-dc-essential-load-priority-map",
+      "name": "Station DC essential-load priority map",
+      "kind": "symbol",
+      "abbreviation": "SDEPM",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "DC load schedule",
+        "Priority classification"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Associates each assigned DC load with its documented operating priority.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "DC load schedule",
+        "output": "Priority classification"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-essential-load-priority-map",
+      "recordPath": "entries/station-dc-essential-load-priority-map.json",
+      "svgPath": "artwork/svg/station-dc-essential-load-priority-map.svg",
+      "referencePath": "references/station-dc-essential-load-priority-map.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-temperature-compensation-interface",
+      "slug": "station-battery-temperature-compensation-interface",
+      "name": "Station battery temperature-compensation interface",
+      "kind": "symbol",
+      "abbreviation": "SBTI",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery temperature measurement",
+        "Charging compensation input"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Provides the selected temperature signal used by compatible charger regulation.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery temperature measurement",
+        "output": "Charging compensation input"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-temperature-compensation-interface",
+      "recordPath": "entries/station-battery-temperature-compensation-interface.json",
+      "svgPath": "artwork/svg/station-battery-temperature-compensation-interface.svg",
+      "referencePath": "references/station-battery-temperature-compensation-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-battery-condition-monitor-gateway",
+      "slug": "station-battery-condition-monitor-gateway",
+      "name": "Station battery condition-monitor gateway",
+      "kind": "symbol",
+      "abbreviation": "SBCG",
+      "aliases": [
+        "Station battery and charger distribution",
+        "substations Station battery and charger distribution",
+        "substations",
+        "Substations",
+        "Battery monitor data",
+        "Station battery condition information"
+      ],
+      "category": "measurement-protection",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the installed battery monitoring system's declared values and alarms to station supervision.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "substations",
+        "family": "station-battery",
+        "input": "Battery monitor data",
+        "output": "Station battery condition information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-condition-monitor-gateway",
+      "recordPath": "entries/station-battery-condition-monitor-gateway.json",
+      "svgPath": "artwork/svg/station-battery-condition-monitor-gateway.svg",
+      "referencePath": "references/station-battery-condition-monitor-gateway.md",
+      "contentLicense": "CC-BY-4.0"
+    }
+  ]
+}

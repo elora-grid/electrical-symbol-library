@@ -1,0 +1,105 @@
+{
+  "slug": "gas-turbine-generator",
+  "name": "Gas turbine generator",
+  "kind": "symbol",
+  "abbreviation": "GTG",
+  "aliases": [
+    "combustion turbine generator",
+    "CTG",
+    "turbine-driven alternator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A combustion gas turbine coupled to a synchronous generator, often through a gearbox, shown as a generating unit.",
+  "description": [
+    "A gas turbine generator uses a continuous-combustion turbine to drive a synchronous generator, often through a reduction gearbox for smaller industrial machines. Units range from microturbines of tens of kilowatts with high-speed alternators and inverters, up to large industrial turbines feeding a medium-voltage bus.",
+    "The drawing usually shows a turbine glyph, a trapezoid widening in the direction of flow, joined by a shaft line to the generator circle. A generator step-up transformer, generator breaker and neutral earthing equipment follow on the single-line diagram.",
+    "Microturbines with high-speed alternators produce high-frequency output that must pass through a rectifier and inverter, so check whether a converter sits between the machine and the bus. The symbol does not state fuel, start method or ambient derating."
+  ],
+  "readingNotes": [
+    "A trapezoid on the shaft line indicates the turbine; a gearbox may be drawn as a small box between turbine and generator.",
+    "Look for a converter stage on microturbine packages."
+  ],
+  "drawingChecklist": [
+    "State ISO rating and site derating.",
+    "Show gearbox, generator breaker and earthing.",
+    "Reference start system and black-start capability."
+  ],
+  "distinction": "A gas turbine is a continuous-combustion rotating prime mover; a gas engine is reciprocating.",
+  "facts": [
+    {
+      "label": "Prime mover",
+      "value": "Combustion turbine"
+    },
+    {
+      "label": "Coupling",
+      "value": "Direct or through gearbox"
+    },
+    {
+      "label": "Microturbine variant",
+      "value": "High-speed alternator with converter"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context for machines and prime movers."
+    },
+    {
+      "sourceId": "pub-symbol-station-types",
+      "relevance": "Public power station representation context."
+    }
+  ],
+  "related": [
+    "three-phase-synchronous-generator",
+    "gas-engine-generator-set",
+    "generator",
+    "87g-generator-differential-protection"
+  ],
+  "artwork": "s28-gas-turbine-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/gas-turbine-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/gas-turbine-generator.svg",
+  "id": "gas-turbine-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gas-turbine-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gas-turbine-generator.json",
+  "svgPath": "artwork/svg/gas-turbine-generator.svg",
+  "referencePath": "references/gas-turbine-generator.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context for machines and prime movers."
+    },
+    {
+      "id": "pub-symbol-station-types",
+      "title": "AutoCAD Electrical: Power station and substation concepts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74EF80E8-018D-4A57-88BD-FF973F1B8185.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public power station representation context."
+    }
+  ]
+}

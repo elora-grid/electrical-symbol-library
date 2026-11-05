@@ -1,0 +1,105 @@
+{
+  "slug": "rotary-ups",
+  "name": "Rotary UPS",
+  "kind": "symbol",
+  "abbreviation": "RUPS",
+  "aliases": [
+    "diesel rotary UPS",
+    "DRUPS",
+    "rotary uninterruptible power supply"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A UPS built around a rotating synchronous machine with kinetic storage, often coupled to a diesel engine for long backup.",
+  "description": [
+    "A rotary UPS uses a synchronous machine running continuously on the critical bus, with stored kinetic energy in a flywheel or induction coupling bridging the gap until a coupled diesel engine starts and takes over. A choke between the utility and the critical bus lets the machine condition the supply and isolate the load from network faults.",
+    "Single-line diagrams show the incoming utility feeder, a series choke, the synchronous machine with its kinetic energy module and clutch to the engine, and the critical and sometimes non-critical outputs. A bypass path around the unit is normally drawn.",
+    "The machine provides real short-circuit current, unlike a static UPS, which helps downstream protection discriminate. The symbol does not show the ride-through time to engine pickup or the choke impedance, both of which matter for design."
+  ],
+  "readingNotes": [
+    "Identify the choke between the utility and critical bus.",
+    "Check engine coupling and the kinetic module."
+  ],
+  "drawingChecklist": [
+    "State machine rating and ride-through time.",
+    "Show choke, engine coupling and bypass.",
+    "Reference fault current contribution."
+  ],
+  "distinction": "A rotary UPS uses rotating machines and kinetic storage; a static UPS uses power electronics and a battery.",
+  "facts": [
+    {
+      "label": "Energy store",
+      "value": "Kinetic, flywheel or induction coupling"
+    },
+    {
+      "label": "Long backup",
+      "value": "Coupled diesel engine"
+    },
+    {
+      "label": "Fault current",
+      "value": "Machine-sourced"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public engine-generator application context."
+    }
+  ],
+  "related": [
+    "flywheel-energy-storage",
+    "motor-generator-set",
+    "online-double-conversion-ups",
+    "diesel-generator-set"
+  ],
+  "artwork": "s28-rotary-ups",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/rotary-ups",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/rotary-ups.svg",
+  "id": "rotary-ups",
+  "canonicalUrl": "https://eloragrid.ai/symbols/rotary-ups",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/rotary-ups.json",
+  "svgPath": "artwork/svg/rotary-ups.svg",
+  "referencePath": "references/rotary-ups.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public engine-generator application context."
+    }
+  ]
+}

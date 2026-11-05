@@ -1,0 +1,90 @@
+{
+  "slug": "iec-postponed-output",
+  "name": "IEC postponed output qualifier",
+  "kind": "symbol",
+  "abbreviation": "POSTPONED",
+  "aliases": [
+    "postponed output mark",
+    "pulse-triggered output indicator",
+    "master-slave output mark"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Angle mark beside an output showing it changes only when the initiating input returns to its original level.",
+  "description": [
+    "The postponed output qualifier is a small right-angle mark inside the outline next to an output. It indicates that the output changes when the input that initiated the change, typically the C input, returns to its initial external state. It identifies pulse-triggered or master-slave flip-flops and data lock-out types.",
+    "This matters for timing analysis. On a pulse-triggered device the data must be stable for the whole time the clock is active, whereas on an edge-triggered device only setup and hold around the edge matter. The mark tells the reader which rule applies.",
+    "The qualifier does not distinguish a pulse-triggered element from a data lock-out element; the clock input marking does. A dynamic mark on C with a postponed output indicates the data lock-out form."
+  ],
+  "readingNotes": [
+    "Find the mark at each Q output of a flip-flop.",
+    "Check the C input for a dynamic mark to identify the data lock-out type."
+  ],
+  "drawingChecklist": [
+    "Draw the mark inside the outline at the output.",
+    "Show C input marking consistently.",
+    "Note data stability requirements for pulse-triggered devices."
+  ],
+  "distinction": "An edge-triggered flip-flop has a dynamic C input and no postponed output mark.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Output changes when the initiating input returns"
+    },
+    {
+      "label": "Typical device",
+      "value": "Master-slave or pulse-triggered flip-flop"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines the postponed output qualifier and pulse-triggered element behaviour."
+    }
+  ],
+  "related": [
+    "iec-pulse-triggered-jk-flip-flop",
+    "iec-dynamic-input",
+    "iec-jk-flip-flop"
+  ],
+  "artwork": "s28-iec-postponed-output",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Angle mark inside the outline next to the output",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-postponed-output",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-postponed-output.svg",
+  "id": "iec-postponed-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-postponed-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-postponed-output.json",
+  "svgPath": "artwork/svg/iec-postponed-output.svg",
+  "referencePath": "references/iec-postponed-output.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines the postponed output qualifier and pulse-triggered element behaviour."
+    }
+  ]
+}

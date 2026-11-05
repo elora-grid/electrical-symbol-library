@@ -1,0 +1,105 @@
+{
+  "slug": "bus-section-load-transfer-request",
+  "name": "Bus-section load-transfer request",
+  "kind": "symbol",
+  "abbreviation": "BLR",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "Transfer request",
+    "Selected section-transfer command"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the control request to move a designated load section between source paths.",
+  "description": [
+    "Identifies the control request to move a designated load section between source paths. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “Transfer request” at the input and “Selected section-transfer command” at the output. Load interruption and paralleling depend on the scheme.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Transfer request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected section-transfer command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Load interruption and paralleling depend on the scheme.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for transfer request.",
+    "Identify the destination and defined state of selected section-transfer command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Load interruption and paralleling depend on the scheme."
+  ],
+  "distinction": "Load interruption and paralleling depend on the scheme. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Transfer request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected section-transfer command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BLR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "source-availability-selection-interface"
+  ],
+  "artwork": "pi26-bus-section-load-transfer-request",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "Transfer request",
+    "output": "Selected section-transfer command"
+  },
+  "url": "https://eloragrid.ai/symbols/bus-section-load-transfer-request",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bus-section-load-transfer-request.svg",
+  "id": "bus-section-load-transfer-request",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bus-section-load-transfer-request",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bus-section-load-transfer-request.json",
+  "svgPath": "artwork/svg/bus-section-load-transfer-request.svg",
+  "referencePath": "references/bus-section-load-transfer-request.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

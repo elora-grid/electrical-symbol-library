@@ -1,0 +1,106 @@
+{
+  "slug": "static-transfer-switch",
+  "name": "Static transfer switch",
+  "kind": "symbol",
+  "abbreviation": "STS",
+  "aliases": [
+    "STS",
+    "solid-state transfer switch",
+    "thyristor transfer switch"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A thyristor-based switch that transfers a load between two synchronised sources within a quarter cycle.",
+  "description": [
+    "A static transfer switch uses back-to-back thyristor pairs on each of two sources to move a critical load from one supply to the other in a few milliseconds. It is used in data centres and process plants, typically downstream of two UPS systems, so that a failure in one UPS or its distribution does not interrupt the load.",
+    "The single-line diagram shows two incoming feeders, each passing through an anti-parallel thyristor symbol or a solid-state switch box, joining at a common output. Mechanical bypass switches for maintenance are drawn in parallel with the static paths.",
+    "Fast transfer only works when the two sources are close in phase. The symbol does not show the synchronisation window, the transfer inhibit logic on downstream faults or how transformer inrush is managed when the load includes transformers."
+  ],
+  "readingNotes": [
+    "Look for bypass switches around each thyristor path.",
+    "Transfer is normally blocked for downstream faults; check the logic."
+  ],
+  "drawingChecklist": [
+    "State current rating and transfer time.",
+    "Show both sources and maintenance bypasses.",
+    "Reference synchronisation and inhibit logic."
+  ],
+  "distinction": "A static transfer switch uses thyristors and transfers in milliseconds; an automatic transfer switch uses mechanical contacts and takes much longer.",
+  "facts": [
+    {
+      "label": "Switching element",
+      "value": "Anti-parallel thyristors"
+    },
+    {
+      "label": "Transfer time",
+      "value": "Sub-cycle"
+    },
+    {
+      "label": "Typical location",
+      "value": "Downstream of two UPS systems"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public transfer switch fundamentals context."
+    },
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public semiconductor symbol family for the thyristor elements."
+    }
+  ],
+  "related": [
+    "automatic-transfer-switch",
+    "online-double-conversion-ups",
+    "semiconductor-power-switch",
+    "transfer-switch"
+  ],
+  "artwork": "s28-static-transfer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/static-transfer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/static-transfer-switch.svg",
+  "id": "static-transfer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/static-transfer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/static-transfer-switch.json",
+  "svgPath": "artwork/svg/static-transfer-switch.svg",
+  "referencePath": "references/static-transfer-switch.md",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transfer switch fundamentals context."
+    },
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public semiconductor symbol family for the thyristor elements."
+    }
+  ]
+}

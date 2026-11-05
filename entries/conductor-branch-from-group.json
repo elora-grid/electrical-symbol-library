@@ -1,0 +1,99 @@
+{
+  "slug": "conductor-branch-from-group",
+  "name": "Conductor branching from a group",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "single conductor leaving bundle",
+    "group breakout",
+    "conductor fan-out"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "One conductor drawn leaving a single-line conductor group at an angle, showing where it splits from the bundle.",
+  "description": [
+    "When conductors are drawn as a single line or bundle, a breakout shows the point where one conductor leaves the group to go elsewhere. The leaving conductor is normally drawn at an angle or with a short curve and carries its own identifier, so that the group line beyond the breakout has one less conductor.",
+    "The breakout is a drawing convention, not a physical joint. No splice or terminal exists at the point unless a separate symbol is placed there. Readers should track the conductor count on each side of the breakout and confirm the identifiers match on both."
+  ],
+  "readingNotes": [
+    "Track conductor count either side of the breakout.",
+    "Do not read the breakout as a splice."
+  ],
+  "drawingChecklist": [
+    "Label the conductor that leaves the group.",
+    "Update the count on the remaining group line.",
+    "Add a splice symbol only where a physical joint exists."
+  ],
+  "distinction": "A breakout is a drawing convention for a conductor leaving a bundle; a wire splice is a physical joint.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Angled conductor leaving a thicker group line"
+    },
+    {
+      "label": "Physical meaning",
+      "value": "None; drawing convention only"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-wire-connections",
+      "relevance": "Public guidance on wire connection display in drawings."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "wire-splice",
+    "iec-conductor-connection-junction",
+    "conductor-count-numeral"
+  ],
+  "artwork": "s28-conductor-branch-from-group",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/conductor-branch-from-group",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/conductor-branch-from-group.svg",
+  "id": "conductor-branch-from-group",
+  "canonicalUrl": "https://eloragrid.ai/symbols/conductor-branch-from-group",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/conductor-branch-from-group.json",
+  "svgPath": "artwork/svg/conductor-branch-from-group.svg",
+  "referencePath": "references/conductor-branch-from-group.md",
+  "publicSources": [
+    {
+      "id": "iec-public-wire-connections",
+      "title": "Wire connection dots, crossing gaps and loops",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2020/ENU/AutoCAD-Electrical/files/GUID-936BB8A9-9C01-4AC6-B833-CB97700A7203.htm",
+      "type": "cad-reference",
+      "scope": "Public drafting-tool documentation. The annotation is a connectivity or identification convention, not a verified IEC standard graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public guidance on wire connection display in drawings."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

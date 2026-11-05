@@ -1,0 +1,86 @@
+{
+  "slug": "integrated-load-switch",
+  "name": "Integrated load switch",
+  "kind": "symbol",
+  "abbreviation": "LOAD SW",
+  "aliases": [
+    "Integrated load switch",
+    "Integrated load switch functional block",
+    "Integrated load switch schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An integrated load switch connects or disconnects a supply path under an enable or control signal.",
+  "description": [
+    "An integrated load switch connects or disconnects a supply path under an enable or control signal.",
+    "A controller can turn a subsystem's supply on only when it is needed.",
+    "Put supply input, switched output and enable control on separate labelled connections. The load switch turns a subsystem’s supply on or off. Soft-start, discharge and fault protection are optional product features; show them only when the chosen device provides them. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify input supply and switched load output.",
+    "Show enable control and any implemented status output.",
+    "Reference startup, discharge and protection features individually.",
+    "Startup control and fault-protection features vary by device; they must not be assumed from the block name."
+  ],
+  "drawingChecklist": [
+    "Identify input supply and switched load output.",
+    "Show enable control and any implemented status output.",
+    "Reference startup, discharge and protection features individually."
+  ],
+  "distinction": "Startup control and fault-protection features vary by device; they must not be assumed from the block name.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Supply and enable command"
+    },
+    {
+      "label": "Concept output",
+      "value": "Switched subsystem supply"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-loadswitch",
+      "relevance": "Load switch functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "electronic-fuse-ic",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-integrated-load-switch",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/integrated-load-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/integrated-load-switch.svg",
+  "id": "integrated-load-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/integrated-load-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/integrated-load-switch.json",
+  "svgPath": "artwork/svg/integrated-load-switch.svg",
+  "referencePath": "references/integrated-load-switch.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-loadswitch",
+      "title": "Load switch functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/load-switches/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Load switch functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

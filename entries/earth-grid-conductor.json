@@ -1,0 +1,99 @@
+{
+  "slug": "earth-grid-conductor",
+  "name": "Earth grid conductor",
+  "kind": "symbol",
+  "abbreviation": "EG",
+  "aliases": [
+    "earth mat",
+    "earthing grid",
+    "buried earth conductor"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A buried horizontal earthing conductor forming part of a substation or plant earth grid, drawn on layout plans.",
+  "description": [
+    "Earth grid conductors are bare horizontal conductors buried under substations and plant areas to control step and touch voltages during faults. Layout drawings show them as a distinct line style, with crossings, connections to equipment and rods marked along them.",
+    "The symbol does not show conductor size, burial depth or jointing method, which come from the earthing design. A line drawn on a plan may also not indicate whether crossings are bonded; connection marks at each crossing are needed. Above-ground risers to equipment are usually shown separately."
+  ],
+  "readingNotes": [
+    "Check crossings for bond marks.",
+    "Look for risers to each equipment item."
+  ],
+  "drawingChecklist": [
+    "State conductor size and burial depth.",
+    "Mark bonded crossings.",
+    "Show risers to equipment."
+  ],
+  "distinction": "An earth grid conductor is a buried horizontal conductor; an earth electrode is a rod or plate in the soil.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Distinct line style on a site plan with bonded crossings"
+    },
+    {
+      "label": "Design driver",
+      "value": "Step and touch voltage control"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public installation-guide earthing connection elements."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology references."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "ga-earth-bar",
+    "protective-equipotential-bonding"
+  ],
+  "artwork": "s28-earth-grid-conductor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/earth-grid-conductor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/earth-grid-conductor.svg",
+  "id": "earth-grid-conductor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/earth-grid-conductor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/earth-grid-conductor.json",
+  "svgPath": "artwork/svg/earth-grid-conductor.svg",
+  "referencePath": "references/earth-grid-conductor.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide earthing connection elements."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology references."
+    }
+  ]
+}

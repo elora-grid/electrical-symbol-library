@@ -1,0 +1,119 @@
+{
+  "slug": "iec-data-outlet",
+  "name": "Data outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "DO",
+  "aliases": [
+    "network outlet",
+    "RJ45 outlet",
+    "telecommunications data point"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a structured-cabling data outlet, usually tagged with the number of ports and outlet ID.",
+  "description": [
+    "Data outlets are drawn as a triangle or a small box tagged D or TO at the wall or floor box position, with the port count as a numeral. Each port is labelled with an ID that matches the patch panel in the communications room.",
+    "The plan symbol tells the cabling installer how many cables to pull to each position and supports the cable schedule. It also helps coordinate with power outlets, since desks normally need both.",
+    "The symbol does not state cabling category, shielding or connector type. The structured cabling specification covers this."
+  ],
+  "readingNotes": [
+    "Read the port count.",
+    "Match outlet IDs to patch panel labels."
+  ],
+  "drawingChecklist": [
+    "Tag outlet ID and port count.",
+    "State cabling category.",
+    "Coordinate with power outlets."
+  ],
+  "distinction": "A telephone outlet is a voice service termination; a data outlet is a structured cabling port for networks.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Triangle or box with port count"
+    },
+    {
+      "label": "Companion record",
+      "value": "Patch panel and cable schedule"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-westermo-lynx5612",
+      "relevance": "Public support page for a managed industrial Ethernet switch."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-telephone-outlet",
+    "ga-fibre-optic-patch-panel",
+    "iec-network-switch-plan-symbol"
+  ],
+  "artwork": "s28-iec-data-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Telecommunication outlet, data",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-data-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-data-outlet.svg",
+  "id": "iec-data-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-data-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-data-outlet.json",
+  "svgPath": "artwork/svg/iec-data-outlet.svg",
+  "referencePath": "references/iec-data-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-westermo-lynx5612",
+      "title": "Lynx 5612-E-F4G-T8G-LV support",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/de/support/product-support/lynx-5612-e-f4g-t8g-lv",
+      "type": "manufacturer",
+      "scope": "Official model-specific industrial switch support and mechanical resources.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public support page for a managed industrial Ethernet switch."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

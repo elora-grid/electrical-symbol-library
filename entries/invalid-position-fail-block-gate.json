@@ -1,0 +1,105 @@
+{
+  "slug": "invalid-position-fail-block-gate",
+  "name": "Invalid-position fail-block gate",
+  "kind": "symbol",
+  "abbreviation": "IFG",
+  "aliases": [
+    "Switchgear interlocking functions",
+    "switchgear Switchgear interlocking functions",
+    "switchgear",
+    "Switchgear",
+    "Invalid double-point status",
+    "Operation inhibit"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Blocks the assigned operation when its required position inputs form an invalid combination.",
+  "description": [
+    "Blocks the assigned operation when its required position inputs form an invalid combination. An interlocking function permits or blocks an operation according to the positions and conditions of related equipment. Electrical, mechanical and trapped-key interlocks implement different parts of a coordinated operating philosophy.",
+    "In a switchgear feeder panel, a control diagram can prevent an incompatible combination of breaker, disconnector and earthing-switch positions. The physical equipment documents determine which restrictions are mechanically enforced. For this reference, the drawing identifies “Invalid double-point status” at the input and “Operation inhibit” at the output. The fail response must be agreed for the application.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Invalid double-point status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Operation inhibit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The fail response must be agreed for the application.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for invalid double-point status.",
+    "Identify the destination and defined state of operation inhibit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The fail response must be agreed for the application."
+  ],
+  "distinction": "The fail response must be agreed for the application. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Invalid double-point status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Operation inhibit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "IFG is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-mechanical-interlock-between-devices",
+    "earthing-switch",
+    "interlock-bypass-supervision"
+  ],
+  "artwork": "pi26-invalid-position-fail-block-gate",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "interlocks",
+    "input": "Invalid double-point status",
+    "output": "Operation inhibit"
+  },
+  "url": "https://eloragrid.ai/symbols/invalid-position-fail-block-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/invalid-position-fail-block-gate.svg",
+  "id": "invalid-position-fail-block-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/invalid-position-fail-block-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/invalid-position-fail-block-gate.json",
+  "svgPath": "artwork/svg/invalid-position-fail-block-gate.svg",
+  "referencePath": "references/invalid-position-fail-block-gate.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

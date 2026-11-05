@@ -1,0 +1,100 @@
+{
+  "slug": "interposing-current-transformer",
+  "name": "Interposing current transformer",
+  "kind": "symbol",
+  "abbreviation": "ICT",
+  "aliases": [
+    "auxiliary CT",
+    "matching CT",
+    "interposing CT"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Auxiliary CT inserted in a CT secondary circuit to correct ratio, phase shift or provide isolation for a relay.",
+  "description": [
+    "An interposing CT sits between a main CT and a relay or meter. It corrects ratio mismatch, provides phase-shift compensation for transformer differential schemes, or isolates circuits, and it was standard in electromechanical differential protection before relays could compensate internally.",
+    "The interposing CT adds burden to the main CT and can introduce its own errors at high fault current. The symbol shows its presence, but its ratio, connection (star or delta) and taps must be shown beside it because they decide whether the differential scheme balances."
+  ],
+  "readingNotes": [
+    "Read the ratio and connection group of the interposing CT.",
+    "Check the added burden on the main CT."
+  ],
+  "drawingChecklist": [
+    "State ratio and taps",
+    "Show connection group",
+    "Reference relay balance calculation"
+  ],
+  "distinction": "An interposing CT is an auxiliary in the secondary circuit; a main CT carries the primary circuit current.",
+  "facts": [
+    {
+      "label": "Purpose",
+      "value": "Ratio matching, phase correction or isolation"
+    },
+    {
+      "label": "Location",
+      "value": "CT secondary circuit"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    },
+    {
+      "sourceId": "iec-public-vector-interpretation",
+      "relevance": "Public explanation of vector-group compensation in transformer protection."
+    }
+  ],
+  "related": [
+    "summation-current-transformer",
+    "percentage-differential-current-relay",
+    "current-transformer"
+  ],
+  "artwork": "s28-interposing-current-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/interposing-current-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/interposing-current-transformer.svg",
+  "id": "interposing-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/interposing-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/interposing-current-transformer.json",
+  "svgPath": "artwork/svg/interposing-current-transformer.svg",
+  "referencePath": "references/interposing-current-transformer.md",
+  "publicSources": [
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    },
+    {
+      "id": "iec-public-vector-interpretation",
+      "title": "Transformer vector-group interpretation in protection application",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/SSC600-and-SSC600-SW-Technical-Manual/1.5/en-US/TR2PTDF-Operation-principle?contentId=_tVeRElk4P5wHpFgF2sYvw",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context distinguishes transformer winding types, clock numbers and measurement compensation. Used for interpretation, not to supply protection settings or a standard database graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public explanation of vector-group compensation in transformer protection."
+    }
+  ]
+}

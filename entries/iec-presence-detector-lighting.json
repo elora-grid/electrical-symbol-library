@@ -1,0 +1,104 @@
+{
+  "slug": "iec-presence-detector-lighting",
+  "name": "Lighting presence detector plan mark",
+  "kind": "symbol",
+  "abbreviation": "PIR-L",
+  "aliases": [
+    "occupancy sensor",
+    "lighting motion sensor",
+    "presence/absence detector"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a ceiling or wall sensor that switches lighting automatically according to occupancy.",
+  "description": [
+    "Lighting presence detectors switch or dim luminaires according to occupancy, usually by passive infrared or microwave sensing. Plans show a small circle or square with a detection mark, often with the coverage radius drawn so designers can check the area is covered.",
+    "The plan should also show whether the detector operates in presence mode (automatic on and off) or absence mode (manual on, automatic off) and whether it includes a daylight sensor. These settings strongly affect energy performance and are often stated in a lighting control schedule.",
+    "This lighting sensor is distinct from an intruder alarm motion detector even when the sensing principle is the same. The two belong to different systems with different wiring and standards."
+  ],
+  "readingNotes": [
+    "Check the coverage pattern against the room geometry.",
+    "Confirm whether the sensor controls a switching relay, a DALI group or a local load directly."
+  ],
+  "drawingChecklist": [
+    "State presence or absence mode.",
+    "Show coverage radius.",
+    "Link the controlled luminaire groups."
+  ],
+  "distinction": "An intruder motion detector reports to an alarm panel; a lighting presence detector controls luminaires.",
+  "facts": [
+    {
+      "label": "Sensing",
+      "value": "Passive infrared, microwave or dual technology"
+    },
+    {
+      "label": "System",
+      "value": "Lighting control, not security"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-radiation",
+      "relevance": "Public IEC-oriented radiation qualifiers relevant to infrared sensing marks."
+    }
+  ],
+  "related": [
+    "iec-intruder-motion-detector",
+    "iec-luminaire-general-plan-symbol",
+    "iec-photoelectric-light-switch"
+  ],
+  "artwork": "s28-iec-presence-detector-lighting",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Presence detector for lighting",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-presence-detector-lighting",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-presence-detector-lighting.svg",
+  "id": "iec-presence-detector-lighting",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-presence-detector-lighting",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-presence-detector-lighting.json",
+  "svgPath": "artwork/svg/iec-presence-detector-lighting.svg",
+  "referencePath": "references/iec-presence-detector-lighting.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "iec-public-radiation",
+      "title": "Autodesk IEC-60617 preview: Radiation qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EABC81B4-549D-49C9-A0F5-086DD204A689.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented radiation qualifiers relevant to infrared sensing marks."
+    }
+  ]
+}

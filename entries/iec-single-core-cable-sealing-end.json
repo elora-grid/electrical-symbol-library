@@ -1,0 +1,104 @@
+{
+  "slug": "iec-single-core-cable-sealing-end",
+  "name": "Single-core cable sealing end",
+  "kind": "symbol",
+  "abbreviation": "SE",
+  "aliases": [
+    "single-core cable termination",
+    "cable termination single core",
+    "outdoor sealing end"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "The termination at the end of a single-core cable where it is sealed and connected to an overhead line or equipment.",
+  "description": [
+    "A sealing end terminates a cable by controlling the electric stress at the screen cut-back, sealing out moisture and providing a connection to the conductor. The single-core form appears at each phase of medium and high voltage single-core cable circuits, typically at the cable to overhead line transition or at outdoor switchyard equipment.",
+    "The symbol does not show whether the termination is indoor or outdoor, heat-shrink, cold-shrink or porcelain, nor how the cable screen is bonded. Screen bonding at sealing ends, for example solid bonding or single-point bonding with sheath voltage limiters, must be drawn separately."
+  ],
+  "readingNotes": [
+    "Check the screen bonding arrangement at each sealing end.",
+    "Look for surge arresters fitted beside outdoor sealing ends."
+  ],
+  "drawingChecklist": [
+    "State termination type and voltage class.",
+    "Show screen bonding at the termination.",
+    "Identify the equipment or line the sealing end connects to."
+  ],
+  "distinction": "A sealing end terminates a cable; a straight-through joint connects two cable lengths together.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Triangular or cone-shaped termination at the cable end"
+    },
+    {
+      "label": "Does not show",
+      "value": "Indoor or outdoor type and screen bonding"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for cable terminations and accessories."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-multicore-cable-sealing-end",
+    "iec-overhead-line",
+    "ga-cable-termination-compartment"
+  ],
+  "artwork": "s28-iec-single-core-cable-sealing-end",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Single-core sealing end",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-single-core-cable-sealing-end",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-single-core-cable-sealing-end.svg",
+  "id": "iec-single-core-cable-sealing-end",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-single-core-cable-sealing-end",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-single-core-cable-sealing-end.json",
+  "svgPath": "artwork/svg/iec-single-core-cable-sealing-end.svg",
+  "referencePath": "references/iec-single-core-cable-sealing-end.md",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for cable terminations and accessories."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

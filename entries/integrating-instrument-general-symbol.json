@@ -1,0 +1,99 @@
+{
+  "slug": "integrating-instrument-general-symbol",
+  "name": "Integrating instrument general symbol",
+  "kind": "symbol",
+  "abbreviation": "*",
+  "aliases": [
+    "integrating meter general symbol",
+    "energy meter general form",
+    "meter rectangle with band"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "General rectangle-with-band form for instruments that totalise a quantity over time, such as energy meters.",
+  "description": [
+    "Integrating instruments add up a quantity over time, and IEC-style diagrams draw them as a rectangle with a narrow band across the top. The unit inside, such as kWh, kvarh or Ah, tells the reader what is being totalised, and extra marks in the band can show multi-rate or demand features.",
+    "The general symbol does not tell you whether the meter is a billing meter or a check meter, its accuracy class, or the direction of energy that each register records. Those are often contractual requirements and must be stated in the metering schedule."
+  ],
+  "readingNotes": [
+    "Read the unit to find the integrated quantity.",
+    "Look for marks in the band that add tariff or demand features."
+  ],
+  "drawingChecklist": [
+    "State integrated quantity",
+    "Give accuracy class",
+    "Define register direction"
+  ],
+  "distinction": "The integrating form totalises; the indicating circle shows an instantaneous value.",
+  "facts": [
+    {
+      "label": "Shape convention",
+      "value": "Rectangle with band across the top"
+    },
+    {
+      "label": "Family",
+      "value": "Integrating instruments and meters"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of power and energy measurement quantities."
+    }
+  ],
+  "related": [
+    "active-energy-meter",
+    "reactive-energy-meter",
+    "indicating-instrument-general-symbol"
+  ],
+  "artwork": "s28-integrating-instrument-general-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/integrating-instrument-general-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/integrating-instrument-general-symbol.svg",
+  "id": "integrating-instrument-general-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/integrating-instrument-general-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/integrating-instrument-general-symbol.json",
+  "svgPath": "artwork/svg/integrating-instrument-general-symbol.svg",
+  "referencePath": "references/integrating-instrument-general-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of power and energy measurement quantities."
+    }
+  ]
+}

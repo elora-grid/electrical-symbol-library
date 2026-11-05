@@ -1,0 +1,101 @@
+{
+  "slug": "busway-end-feed-unit",
+  "name": "Busway end feed unit",
+  "kind": "symbol",
+  "abbreviation": "EF",
+  "aliases": [
+    "busway feed box",
+    "busway incoming unit",
+    "end feeder"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "The point where incoming cables or a transformer connect to the end of a busway run, drawn as a feed box on the busway.",
+  "description": [
+    "An end feed unit is the cable or transformer connection box at the start of a busway run. On single-line diagrams it shows where the supply enters the busway and is often annotated with the incoming cable details. Centre feed units, used to reduce voltage drop on long runs, are a related variant.",
+    "The symbol does not show whether the feed unit includes isolation. Many end feed units are simple cable boxes, so isolation for maintenance must be at the upstream switchboard. Check cable entry and gland plate sizes on the layout, because large parallel cable sets need substantial space."
+  ],
+  "readingNotes": [
+    "Confirm where isolation for the busway is provided.",
+    "Read incoming cable data at the feed unit."
+  ],
+  "drawingChecklist": [
+    "Show the incoming cable or transformer connection.",
+    "Identify upstream isolation.",
+    "Reference the feed unit size and cable entry."
+  ],
+  "distinction": "An end feed unit brings supply into the busway; a tap-off connection takes supply out of it.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Box at the end of a busway with incoming conductors"
+    },
+    {
+      "label": "Variant",
+      "value": "Centre feed units exist for long runs"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Manufacturer busbar trunking ranges including feed units."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "busway-feeder-run",
+    "plug-in-busway",
+    "busbar-trunking"
+  ],
+  "artwork": "s28-busway-end-feed-unit",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/busway-end-feed-unit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/busway-end-feed-unit.svg",
+  "id": "busway-end-feed-unit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/busway-end-feed-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/busway-end-feed-unit.json",
+  "svgPath": "artwork/svg/busway-end-feed-unit.svg",
+  "referencePath": "references/busway-end-feed-unit.md",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer busbar trunking ranges including feed units."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

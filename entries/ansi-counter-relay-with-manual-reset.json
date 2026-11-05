@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-counter-relay-with-manual-reset",
+  "name": "ANSI/IEEE Counter relay with manual reset form",
+  "kind": "symbol",
+  "abbreviation": "COUNT MAN",
+  "aliases": [
+    "HCR1CNM",
+    "VCR1CNM",
+    "IEEE Counter Manual Reset",
+    "ANSI Counter relay with manual reset"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of counter relay with manual reset: a manually reset counter relay records qualifying events and retains a count until the documented reset action.",
+  "description": [
+    "This reference locates counter relay with manual reset in Autodesk's IEEE-oriented counter relays family. A manually reset counter relay records qualifying events and retains a count until the documented reset action. Event input, count condition and reset control should be identifiable on the drawing. The public library uses HCR1CNM for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Count events at the configured input rather than assuming every power cycle is an event. A counter accumulates events; a timer measures duration. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Count events at the configured input rather than assuming every power cycle is an event.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label count input",
+    "Show manual reset",
+    "Reference preset and output function"
+  ],
+  "distinction": "A counter accumulates events; a timer measures duration.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Counter Relays; published form: Counter Manual Reset."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1CNM. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-counter-relays",
+      "relevance": "Public IEEE-oriented Counter Relays table explicitly lists HCR1CNM as Counter Manual Reset. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "counter-relay-with-manual-reset",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-counter-relay-with-manual-reset",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Counter Manual Reset",
+    "reference": "Autodesk IEEE Symbol Preview: Counter Relays, block HCR1CNM. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "counter-relay-with-manual-reset"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-counter-relay-with-manual-reset",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-counter-relay-with-manual-reset.svg",
+  "id": "ansi-counter-relay-with-manual-reset",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-counter-relay-with-manual-reset",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-counter-relay-with-manual-reset.json",
+  "svgPath": "artwork/svg/ansi-counter-relay-with-manual-reset.svg",
+  "referencePath": "references/ansi-counter-relay-with-manual-reset.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-counter-relays",
+      "title": "Autodesk IEEE Symbol Preview: Counter Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A79079B-1B7A-45B5-9B28-CA7893CFF46F.htm",
+      "type": "cad-reference",
+      "scope": "Public counter relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Counter Relays table explicitly lists HCR1CNM as Counter Manual Reset. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

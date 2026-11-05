@@ -1,0 +1,105 @@
+{
+  "slug": "ct-secondary-shorting-test-boundary",
+  "name": "CT secondary shorting-test boundary",
+  "kind": "symbol",
+  "abbreviation": "CSSB",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "CT secondary and test device",
+    "Defined shorting boundary"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Marks the purpose of the assigned shorting facilities at a CT test boundary.",
+  "description": [
+    "Marks the purpose of the assigned shorting facilities at a CT test boundary. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “CT secondary and test device” at the input and “Defined shorting boundary” at the output. Actual operation follows the test-device instructions.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: CT secondary and test device. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined shorting boundary. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Actual operation follows the test-device instructions.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for ct secondary and test device.",
+    "Identify the destination and defined state of defined shorting boundary.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Actual operation follows the test-device instructions."
+  ],
+  "distinction": "Actual operation follows the test-device instructions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "CT secondary and test device"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined shorting boundary"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CSSB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "ct-secondary-protection-zone-crossover"
+  ],
+  "artwork": "pi26-ct-secondary-shorting-test-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "CT secondary and test device",
+    "output": "Defined shorting boundary"
+  },
+  "url": "https://eloragrid.ai/symbols/ct-secondary-shorting-test-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ct-secondary-shorting-test-boundary.svg",
+  "id": "ct-secondary-shorting-test-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ct-secondary-shorting-test-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ct-secondary-shorting-test-boundary.json",
+  "svgPath": "artwork/svg/ct-secondary-shorting-test-boundary.svg",
+  "referencePath": "references/ct-secondary-shorting-test-boundary.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

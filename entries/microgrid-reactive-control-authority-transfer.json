@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-reactive-control-authority-transfer",
+  "name": "Microgrid reactive-control authority transfer",
+  "kind": "symbol",
+  "abbreviation": "MRAT",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Old and new controller availability",
+    "Selected reactive-control authority"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Coordinates a documented change in ownership of the voltage-support objective.",
+  "description": [
+    "Coordinates a documented change in ownership of the voltage-support objective. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Old and new controller availability” at the input and “Selected reactive-control authority” at the output. A smooth transfer requires a validated control strategy.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Old and new controller availability. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected reactive-control authority. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A smooth transfer requires a validated control strategy.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for old and new controller availability.",
+    "Identify the destination and defined state of selected reactive-control authority.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A smooth transfer requires a validated control strategy."
+  ],
+  "distinction": "A smooth transfer requires a validated control strategy. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Old and new controller availability"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected reactive-control authority"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRAT is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-pcc-reactive-power-controller"
+  ],
+  "artwork": "pi26-microgrid-reactive-control-authority-transfer",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Old and new controller availability",
+    "output": "Selected reactive-control authority"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-reactive-control-authority-transfer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-reactive-control-authority-transfer.svg",
+  "id": "microgrid-reactive-control-authority-transfer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-reactive-control-authority-transfer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-reactive-control-authority-transfer.json",
+  "svgPath": "artwork/svg/microgrid-reactive-control-authority-transfer.svg",
+  "referencePath": "references/microgrid-reactive-control-authority-transfer.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

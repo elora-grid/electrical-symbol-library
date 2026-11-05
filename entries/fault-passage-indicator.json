@@ -1,0 +1,84 @@
+{
+  "slug": "fault-passage-indicator",
+  "name": "Fault passage indicator",
+  "kind": "symbol",
+  "abbreviation": "FPI",
+  "aliases": [
+    "fault current indicator",
+    "short-circuit indicator",
+    "earth-fault passage indicator"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Device on an MV cable or overhead feeder that shows whether fault current has passed its location, to speed fault finding.",
+  "description": [
+    "A fault passage indicator senses current at a point on a medium-voltage feeder and shows, with a flag or LED, when fault current has passed. Operators follow the indicators along a feeder to find the faulted section between the last operated indicator and the first unoperated one.",
+    "Indicators may sense phase faults, earth faults or both, and many can signal remotely to SCADA. The symbol does not show the sensing method, reset method or thresholds, which must suit the network earthing and feeder load to avoid false or missed indications."
+  ],
+  "readingNotes": [
+    "Check whether the indicator covers phase faults, earth faults or both.",
+    "Note any remote signalling output."
+  ],
+  "drawingChecklist": [
+    "State fault types detected",
+    "State reset method",
+    "Reference SCADA signal"
+  ],
+  "distinction": "A fault passage indicator only signals; a protection relay trips a breaker.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "MV cable or overhead feeder"
+    },
+    {
+      "label": "Output",
+      "value": "Local flag or LED and optional remote signal"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-switchgear",
+      "relevance": "Public secondary-distribution switchgear and ring main unit context where fault indicators are fitted."
+    }
+  ],
+  "related": [
+    "ring-main-unit",
+    "earth-fault-current-relay",
+    "core-balance-current-transformer"
+  ],
+  "artwork": "s28-fault-passage-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/fault-passage-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/fault-passage-indicator.svg",
+  "id": "fault-passage-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/fault-passage-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/fault-passage-indicator.json",
+  "svgPath": "artwork/svg/fault-passage-indicator.svg",
+  "referencePath": "references/fault-passage-indicator.md",
+  "publicSources": [
+    {
+      "id": "abb-switchgear",
+      "title": "Secondary-distribution switchgear and ring main units",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/switchgear/secondary-distribution",
+      "type": "manufacturer",
+      "scope": "Public equipment families for secondary distribution. Footprints and ratings must come from the chosen model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public secondary-distribution switchgear and ring main unit context where fault indicators are fitted."
+    }
+  ]
+}

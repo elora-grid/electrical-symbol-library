@@ -1,0 +1,87 @@
+{
+  "slug": "battery-precharge-circuit",
+  "name": "Battery precharge circuit",
+  "kind": "symbol",
+  "abbreviation": "PRE",
+  "aliases": [
+    "Battery precharge circuit",
+    "Battery precharge circuit functional block",
+    "Battery precharge circuit schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A precharge circuit limits the initial current used to charge downstream capacitance before a main connection closes.",
+  "description": [
+    "A precharge circuit limits the initial current used to charge downstream capacitance before a main connection closes.",
+    "A battery system can charge a converter's DC-link capacitors through a controlled precharge path.",
+    "Show the current-limited startup branch separately from the main connection. Downstream capacitors can initially act like a large demand for current; precharge fills them more gradually before the main path is established. The control sequence must therefore distinguish precharge from normal operation. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the limited-current branch and main switching path.",
+    "Show the voltage or condition used to end precharge.",
+    "Reference the selected startup sequence and fault response.",
+    "Precharge is a startup function, not the normal full-load power path."
+  ],
+  "drawingChecklist": [
+    "Identify the limited-current branch and main switching path.",
+    "Show the voltage or condition used to end precharge.",
+    "Reference the selected startup sequence and fault response."
+  ],
+  "distinction": "Precharge is a startup function, not the normal full-load power path.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Initial connection request"
+    },
+    {
+      "label": "Concept output",
+      "value": "Main-connection readiness"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pack",
+      "relevance": "Battery-pack measurement and control: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-battery-precharge-assembly",
+    "battery-pack-monitor",
+    "battery-insulation-monitor",
+    "battery-current-measurement"
+  ],
+  "artwork": "expanded-battery-precharge-circuit",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-precharge-circuit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-precharge-circuit.svg",
+  "id": "battery-precharge-circuit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-precharge-circuit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-precharge-circuit.json",
+  "svgPath": "artwork/svg/battery-precharge-circuit.svg",
+  "referencePath": "references/battery-precharge-circuit.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pack",
+      "title": "Battery-pack measurement and control",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/automotive/hev-ev-powertrain/hev-ev-battery-management-system-bms/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery-pack measurement and control: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

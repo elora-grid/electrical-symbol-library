@@ -1,0 +1,105 @@
+{
+  "slug": "local-closing-command-channel",
+  "name": "Local closing-command channel",
+  "kind": "symbol",
+  "abbreviation": "LCC",
+  "aliases": [
+    "Breaker closing controls",
+    "switchgear Breaker closing controls",
+    "switchgear",
+    "Switchgear",
+    "Local pushbutton command",
+    "Local close request"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies closing requests originating at the switchgear's local operating station.",
+  "description": [
+    "Identifies closing requests originating at the switchgear's local operating station. A closing circuit combines an operator or automatic request with the conditions that allow the breaker to close. The closing coil releases stored mechanism energy where that construction is used; it is different from the spring-charging motor.",
+    "In a switchgear bus-coupler panel, a close request is checked against position, mechanism readiness and the selected live-bus or dead-bus conditions before the closing circuit is enabled. For this reference, the drawing identifies “Local pushbutton command” at the input and “Local close request” at the output. Local control still depends on the defined interlocks.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Local pushbutton command. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Local close request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Local control still depends on the defined interlocks.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for local pushbutton command.",
+    "Identify the destination and defined state of local close request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Local control still depends on the defined interlocks."
+  ],
+  "distinction": "Local control still depends on the defined interlocks. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Local pushbutton command"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Local close request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LCC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "25-synchronism-check",
+    "remote-closing-command-channel"
+  ],
+  "artwork": "pi26-local-closing-command-channel",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "close",
+    "input": "Local pushbutton command",
+    "output": "Local close request"
+  },
+  "url": "https://eloragrid.ai/symbols/local-closing-command-channel",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/local-closing-command-channel.svg",
+  "id": "local-closing-command-channel",
+  "canonicalUrl": "https://eloragrid.ai/symbols/local-closing-command-channel",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/local-closing-command-channel.json",
+  "svgPath": "artwork/svg/local-closing-command-channel.svg",
+  "referencePath": "references/local-closing-command-channel.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

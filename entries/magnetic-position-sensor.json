@@ -1,0 +1,87 @@
+{
+  "slug": "magnetic-position-sensor",
+  "name": "Magnetic position sensor",
+  "kind": "symbol",
+  "abbreviation": "MAG POS",
+  "aliases": [
+    "Magnetic position sensor",
+    "Magnetic position sensor functional block",
+    "Magnetic position sensor schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A magnetic position sensor measures or detects position through the magnetic field associated with a target.",
+  "description": [
+    "A magnetic position sensor measures or detects position through the magnetic field associated with a target.",
+    "A mechanism can carry a magnet whose movement is detected without a conventional rubbing contact.",
+    "Show the moving magnet or magnetic target and the fixed sensor position. The circuit senses field conditions related to position; the mechanical arrangement determines what movement those readings represent. Label the target’s movement and the reported position quantity rather than assuming every magnetic sensor measures the same axis. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the magnetic target and sensor locations.",
+    "Show the motion or position quantity being measured.",
+    "Reference alignment, calibration and output requirements.",
+    "The magnet geometry and sensor arrangement determine the usable position information."
+  ],
+  "drawingChecklist": [
+    "Identify the magnetic target and sensor locations.",
+    "Show the motion or position quantity being measured.",
+    "Reference alignment, calibration and output requirements."
+  ],
+  "distinction": "The magnet geometry and sensor arrangement determine the usable position information.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Moving magnetic target"
+    },
+    {
+      "label": "Concept output",
+      "value": "Position information"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-magnetic-position-sensor",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "hall-effect-current-sensor",
+    "inductive-position-sensor",
+    "ultrasonic-distance-sensor"
+  ],
+  "artwork": "expanded-magnetic-position-sensor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/magnetic-position-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/magnetic-position-sensor.svg",
+  "id": "magnetic-position-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/magnetic-position-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/magnetic-position-sensor.json",
+  "svgPath": "artwork/svg/magnetic-position-sensor.svg",
+  "referencePath": "references/magnetic-position-sensor.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-magnetic-position-sensor",
+      "title": "Magnetic position-sensing example",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TMAG5170",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

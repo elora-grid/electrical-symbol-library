@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-solar-forecast-input-boundary",
+  "name": "Microgrid solar forecast input boundary",
+  "kind": "symbol",
+  "abbreviation": "MSFIB",
+  "aliases": [
+    "Microgrid renewable-generation interfaces",
+    "microgrids Microgrid renewable-generation interfaces",
+    "microgrids",
+    "Microgrids",
+    "Solar forecast and validity",
+    "Dispatch forecast input"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the forecast information used by the assigned forward-looking dispatch calculation.",
+  "description": [
+    "Identifies the forecast information used by the assigned forward-looking dispatch calculation. Renewable-generation coordination connects variable resource availability, inverter operating limits and the microgrid power target. Available solar or wind power, an issued curtailment request and actual delivered power are different signals.",
+    "In a microgrid with solar generation, the controller can restrain inverter output when local load and storage cannot absorb the available power. The resource controller reports its own availability and accepted operating limits. For this reference, the drawing identifies “Solar forecast and validity” at the input and “Dispatch forecast input” at the output. A forecast is not an operating measurement.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Solar forecast and validity. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Dispatch forecast input. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A forecast is not an operating measurement.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for solar forecast and validity.",
+    "Identify the destination and defined state of dispatch forecast input.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A forecast is not an operating measurement."
+  ],
+  "distinction": "A forecast is not an operating measurement. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Solar forecast and validity"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Dispatch forecast input"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MSFIB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-pv-control",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "pv-string-inverter",
+    "photovoltaic-string-combiner",
+    "microgrid-renewable-forecast-quality-gate"
+  ],
+  "artwork": "pi26-microgrid-solar-forecast-input-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-renewables",
+    "input": "Solar forecast and validity",
+    "output": "Dispatch forecast input"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-solar-forecast-input-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-solar-forecast-input-boundary.svg",
+  "id": "microgrid-solar-forecast-input-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-solar-forecast-input-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-solar-forecast-input-boundary.json",
+  "svgPath": "artwork/svg/microgrid-solar-forecast-input-boundary.svg",
+  "referencePath": "references/microgrid-solar-forecast-input-boundary.md",
+  "publicSources": [
+    {
+      "id": "pi26-pv-control",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid processing and control functions",
+      "url": "https://productinfo.se.com/esxp_digital_apps_iec/mg/English/BM_ESXP_DG_Microgrid_IEC_0001122076.xml/%24/ESXP_DG_MG_SD_Processing_0001125595",
+      "scope": "Renewable generation dispatch and microgrid source coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

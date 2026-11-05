@@ -1,0 +1,87 @@
+{
+  "slug": "power-source-multiplexer",
+  "name": "Power-source multiplexer",
+  "kind": "symbol",
+  "abbreviation": "PWR MUX",
+  "aliases": [
+    "Power-source multiplexer",
+    "Power-source multiplexer functional block",
+    "Power-source multiplexer schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A power multiplexer selects between defined supply paths feeding an output.",
+  "description": [
+    "A power multiplexer selects between defined supply paths feeding an output.",
+    "A device can transfer between two supported input sources under its selected control rule.",
+    "Show every permitted supply input and the common output, together with the source-selection rule. This block switches a power path, whereas a signal multiplexer routes information. Any seamless transfer, reverse blocking or current limits depend on the selected circuit rather than the block name. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Label the candidate supply inputs and common output.",
+    "Identify the source-priority or selection controls.",
+    "Reference transfer behaviour and any reverse-current requirements.",
+    "A power multiplexer switches supply paths; a signal multiplexer switches information paths."
+  ],
+  "drawingChecklist": [
+    "Label the candidate supply inputs and common output.",
+    "Identify the source-priority or selection controls.",
+    "Reference transfer behaviour and any reverse-current requirements."
+  ],
+  "distinction": "A power multiplexer switches supply paths; a signal multiplexer switches information paths.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Available supply inputs"
+    },
+    {
+      "label": "Concept output",
+      "value": "Common load supply"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-powerswitch",
+      "relevance": "Power-path protection and selection: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "hot-swap-controller",
+    "reverse-polarity-protection-controller",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-power-source-multiplexer",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-source-multiplexer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-source-multiplexer.svg",
+  "id": "power-source-multiplexer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-source-multiplexer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-source-multiplexer.json",
+  "svgPath": "artwork/svg/power-source-multiplexer.svg",
+  "referencePath": "references/power-source-multiplexer.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-powerswitch",
+      "title": "Power-path protection and selection",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/power-protection-switches-controllers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Power-path protection and selection: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

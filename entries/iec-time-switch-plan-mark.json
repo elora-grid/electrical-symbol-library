@@ -1,0 +1,103 @@
+{
+  "slug": "iec-time-switch-plan-mark",
+  "name": "Time switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "TSW",
+  "aliases": [
+    "time clock",
+    "programmable time switch",
+    "timer switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a clock-operated time switch that switches a circuit on a programmed schedule.",
+  "description": [
+    "A time switch operates a contact according to a daily, weekly or astronomical program. Plans draw a clock face, a circle with hands, combined with a switch stroke or placed in the board, and link it to the controlled circuit such as external lighting or a water heater.",
+    "Time switches are often mounted in the distribution board on a DIN rail; in that case the plan mark may appear in the board schedule rather than on the floor plan. Where local, it is drawn at the wall. The mark does not state the program, the number of channels or the reserve battery. Those are specified."
+  ],
+  "readingNotes": [
+    "Check whether it is board-mounted or local.",
+    "Look for an associated photocell."
+  ],
+  "drawingChecklist": [
+    "State channels and program type.",
+    "Link to controlled circuits.",
+    "Note contactor if load is large."
+  ],
+  "distinction": "A time-delay push switch runs for a fixed period after a press; a time switch follows a clock schedule.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Clock face with switch stroke"
+    },
+    {
+      "label": "Program types",
+      "value": "Daily, weekly or astronomical"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public IEC-oriented family that includes a clock indication form."
+    }
+  ],
+  "related": [
+    "iec-clock-indication",
+    "iec-photoelectric-light-switch",
+    "iec-time-delay-push-switch"
+  ],
+  "artwork": "s28-iec-time-switch-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Time switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-time-switch-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-time-switch-plan-mark.svg",
+  "id": "iec-time-switch-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-time-switch-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-time-switch-plan-mark.json",
+  "svgPath": "artwork/svg/iec-time-switch-plan-mark.svg",
+  "referencePath": "references/iec-time-switch-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented family that includes a clock indication form."
+    }
+  ]
+}

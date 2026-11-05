@@ -1,0 +1,105 @@
+{
+  "slug": "source-transfer-failure-indication",
+  "name": "Source-transfer failure indication",
+  "kind": "symbol",
+  "abbreviation": "SFI",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "Transfer request and feedback",
+    "Transfer-failed alarm"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports that a required feedback or completion condition was not achieved during transfer.",
+  "description": [
+    "Reports that a required feedback or completion condition was not achieved during transfer. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “Transfer request and feedback” at the input and “Transfer-failed alarm” at the output. The alarm does not prescribe a recovery sequence.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Transfer request and feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Transfer-failed alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The alarm does not prescribe a recovery sequence.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for transfer request and feedback.",
+    "Identify the destination and defined state of transfer-failed alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The alarm does not prescribe a recovery sequence."
+  ],
+  "distinction": "The alarm does not prescribe a recovery sequence. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Transfer request and feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Transfer-failed alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "section-isolated-supply-diagram"
+  ],
+  "artwork": "pi26-source-transfer-failure-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "Transfer request and feedback",
+    "output": "Transfer-failed alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/source-transfer-failure-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/source-transfer-failure-indication.svg",
+  "id": "source-transfer-failure-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/source-transfer-failure-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/source-transfer-failure-indication.json",
+  "svgPath": "artwork/svg/source-transfer-failure-indication.svg",
+  "referencePath": "references/source-transfer-failure-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

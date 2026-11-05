@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-single-phase-synchronous-motor",
+  "name": "ANSI/IEEE Single-phase synchronous motor form",
+  "kind": "symbol",
+  "abbreviation": "HMO1M16",
+  "aliases": [
+    "HMO1M16",
+    "VMO1M16",
+    "IEEE 1 Phase Synchronous AC Motor",
+    "ANSI Single-phase synchronous motor"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of single-phase synchronous motor: this representation identifies a single-phase synchronous machine function.",
+  "description": [
+    "This reference locates single-phase synchronous motor in Autodesk's IEEE-oriented 1 phase motors family. This representation identifies a single-phase synchronous machine function. The public library uses HMO1M16 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "State the supply, starting and any excitation interface required by the actual motor. Synchronous operation differs from induction-motor operating slip. State the supply, starting and any excitation interface required by the actual motor. Synchronous operation differs from induction-motor operating slip. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the supply, starting and any excitation interface required by the actual motor.",
+    "Synchronous operation differs from induction-motor operating slip."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the supply, starting and any excitation interface required by the actual motor.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Synchronous operation differs from induction-motor operating slip.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 1 Phase Motors; published form: 1 Phase Synchronous AC Motor."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HMO1M16. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State the supply, starting and any excitation interface required by the actual motor."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-b12ef00e-cbdf-4043-9264-8f7d07e107d6",
+      "relevance": "Public IEEE-oriented 1 Phase Motors table explicitly lists HMO1M16 as 1 Phase Synchronous AC Motor. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-single-phase-synchronous-motor",
+    "motor",
+    "generator"
+  ],
+  "artwork": "s28-ansi-single-phase-synchronous-motor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "1 Phase Synchronous AC Motor",
+    "reference": "Autodesk IEEE Symbol Preview: 1 Phase Motors, block HMO1M16. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-single-phase-synchronous-motor"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-single-phase-synchronous-motor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-single-phase-synchronous-motor.svg",
+  "id": "ansi-single-phase-synchronous-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-single-phase-synchronous-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-single-phase-synchronous-motor.json",
+  "svgPath": "artwork/svg/ansi-single-phase-synchronous-motor.svg",
+  "referencePath": "references/ansi-single-phase-synchronous-motor.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-b12ef00e-cbdf-4043-9264-8f7d07e107d6",
+      "title": "Autodesk IEEE Symbol Preview — 1 Phase Motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B12EF00E-CBDF-4043-9264-8F7D07E107D6.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 1 Phase Motors table explicitly lists HMO1M16 as 1 Phase Synchronous AC Motor. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

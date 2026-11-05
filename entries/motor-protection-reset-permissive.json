@@ -1,0 +1,105 @@
+{
+  "slug": "motor-protection-reset-permissive",
+  "name": "Motor protection reset permissive",
+  "kind": "symbol",
+  "abbreviation": "MPRP",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Reset request and fault status",
+    "Reset permission"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Allows the documented reset request when the protection and process conditions permit it.",
+  "description": [
+    "Allows the documented reset request when the protection and process conditions permit it. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Reset request and fault status” at the input and “Reset permission” at the output. Reset is distinct from a new start command.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reset request and fault status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Reset permission. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Reset is distinct from a new start command.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reset request and fault status.",
+    "Identify the destination and defined state of reset permission.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Reset is distinct from a new start command."
+  ],
+  "distinction": "Reset is distinct from a new start command. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reset request and fault status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Reset permission"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MPRP is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "motor-feeder-available-indication"
+  ],
+  "artwork": "pi26-motor-protection-reset-permissive",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Reset request and fault status",
+    "output": "Reset permission"
+  },
+  "url": "https://eloragrid.ai/symbols/motor-protection-reset-permissive",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motor-protection-reset-permissive.svg",
+  "id": "motor-protection-reset-permissive",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-protection-reset-permissive",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-protection-reset-permissive.json",
+  "svgPath": "artwork/svg/motor-protection-reset-permissive.svg",
+  "referencePath": "references/motor-protection-reset-permissive.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

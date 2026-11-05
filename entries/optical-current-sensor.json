@@ -1,0 +1,98 @@
+{
+  "slug": "optical-current-sensor",
+  "name": "Optical current sensor",
+  "kind": "symbol",
+  "abbreviation": "OCT",
+  "aliases": [
+    "fibre-optic current sensor",
+    "magneto-optic current transformer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Current sensor using light in an optical fibre around the conductor, whose polarisation changes with the magnetic field.",
+  "description": [
+    "An optical current sensor measures current from the rotation of polarised light in a fibre wound around the conductor, a magneto-optic effect proportional to the enclosed magnetic field. It is used in HV and DC applications where conventional CTs are bulky or where saturation and insulation are concerns.",
+    "The sensor head connects through fibre to an electronics unit, which usually outputs digital sampled values to protection and metering devices. The symbol does not show the electronics unit, its supply or the data interface, all of which must be drawn for the measurement chain to be complete."
+  ],
+  "readingNotes": [
+    "Find the electronics unit that converts the optical signal.",
+    "Check the data interface to protection devices."
+  ],
+  "drawingChecklist": [
+    "Show sensor head and electronics",
+    "Reference output interface",
+    "State auxiliary supply"
+  ],
+  "distinction": "An optical current sensor uses light in fibre; a conventional CT uses magnetic induction in a winding.",
+  "facts": [
+    {
+      "label": "Principle",
+      "value": "Magneto-optic rotation of polarised light"
+    },
+    {
+      "label": "Output",
+      "value": "Usually digital via an electronics unit"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "rogowski-coil",
+    "low-power-current-transformer",
+    "current-transformer"
+  ],
+  "artwork": "s28-optical-current-sensor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/optical-current-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/optical-current-sensor.svg",
+  "id": "optical-current-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/optical-current-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/optical-current-sensor.json",
+  "svgPath": "artwork/svg/optical-current-sensor.svg",
+  "referencePath": "references/optical-current-sensor.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

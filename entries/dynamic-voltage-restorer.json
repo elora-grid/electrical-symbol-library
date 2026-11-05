@@ -1,0 +1,104 @@
+{
+  "slug": "dynamic-voltage-restorer",
+  "name": "Dynamic voltage restorer",
+  "kind": "symbol",
+  "abbreviation": "DVR",
+  "aliases": [
+    "DVR",
+    "series voltage compensator",
+    "voltage sag corrector"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A series converter that injects a corrective voltage through a transformer to ride a sensitive load through voltage sags.",
+  "description": [
+    "A dynamic voltage restorer is connected in series between the supply and a sensitive load through an injection transformer. When the supply voltage sags, a converter fed from a DC store or from the supply itself injects the missing voltage so the load sees an almost constant voltage, typically for sags lasting up to a few seconds.",
+    "Single-line diagrams show an injection transformer with its primary in series with the feeder, its secondary connected to a converter, and a DC capacitor or storage element. A bypass switch around the injection transformer allows the device to be taken out of service.",
+    "A DVR corrects sags but does not supply the load during a full outage, unlike a UPS. The symbol does not show the maximum sag depth or duration it can correct, which depends on the stored energy and converter rating."
+  ],
+  "readingNotes": [
+    "The series transformer, not a shunt connection, identifies a DVR.",
+    "Check the bypass arrangement for maintenance."
+  ],
+  "drawingChecklist": [
+    "State load rating, sag depth and duration corrected.",
+    "Show injection transformer and bypass.",
+    "Reference energy store."
+  ],
+  "distinction": "A DVR injects series voltage for sags; a STATCOM injects shunt current to support bus voltage.",
+  "facts": [
+    {
+      "label": "Connection",
+      "value": "Series, through injection transformer"
+    },
+    {
+      "label": "Corrects",
+      "value": "Voltage sags and swells"
+    },
+    {
+      "label": "Outage support",
+      "value": "None"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for transformers and converters."
+    },
+    {
+      "sourceId": "pub-electronics-infineon-inverter",
+      "relevance": "Public converter stage context."
+    }
+  ],
+  "related": [
+    "statcom",
+    "online-double-conversion-ups",
+    "power-transformer"
+  ],
+  "artwork": "s28-dynamic-voltage-restorer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dynamic-voltage-restorer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/dynamic-voltage-restorer.svg",
+  "id": "dynamic-voltage-restorer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dynamic-voltage-restorer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dynamic-voltage-restorer.json",
+  "svgPath": "artwork/svg/dynamic-voltage-restorer.svg",
+  "referencePath": "references/dynamic-voltage-restorer.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for transformers and converters."
+    },
+    {
+      "id": "pub-electronics-infineon-inverter",
+      "title": "Bidirectional three-/single-phase AC/DC PFC and inverter application note",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/assets/row/public/documents/24/42/infineon-ac-dc-pfc-11-kw-high-efficiency-high-density-bidirectional-three-single-phase-inverter-applicationnotes-en.pdf",
+      "type": "manufacturer",
+      "scope": "Public application context for actively switched AC/DC and inverter stages. Independent miniature topology illustrations have no copied product-specific values, wiring layouts or control implementation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public converter stage context."
+    }
+  ]
+}

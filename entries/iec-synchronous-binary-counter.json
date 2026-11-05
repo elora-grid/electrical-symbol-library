@@ -1,0 +1,106 @@
+{
+  "slug": "iec-synchronous-binary-counter",
+  "name": "IEC synchronous binary counter (CTRm)",
+  "kind": "symbol",
+  "abbreviation": "CTR4",
+  "aliases": [
+    "CTR4 counter",
+    "IEC 4-bit counter",
+    "synchronous counter IEC form"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC counter marked CTRm, where m is the bit count and the cycle length is 2 to the power m.",
+  "description": [
+    "The general qualifier CTRm identifies a counter with m bits and a cycle length of 2 to the power m. In IEC form the clock appears as C with a + to show counting up, and load, clear and enable inputs use dependency notation such as M1 for load mode and G for count enable. Outputs carry binary weights 1, 2, 4 and 8.",
+    "A reader should identify the synchronous and asynchronous inputs from their prefixes, then find the carry output, often labelled CT=15, used to cascade stages. On control drawings counters represent event totals, batch counts or divide-by-n timing.",
+    "The symbol does not state maximum count rate or whether the clear is synchronous, except through dependency labels. Read the prefixes carefully."
+  ],
+  "readingNotes": [
+    "CTRm gives the bit count; the cycle is 2 to the power m.",
+    "CT=15 marks the terminal-count output used for cascading."
+  ],
+  "drawingChecklist": [
+    "State the bit count in the qualifier.",
+    "Label load, clear and enable with dependency notation.",
+    "Show cascade connections between stages."
+  ],
+  "distinction": "CTR DIVm states the cycle length directly and is used for non-binary counters such as decade counters.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "CTRm"
+    },
+    {
+      "label": "Cycle length",
+      "value": "2 to the power m"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists CTRm and related counter qualifiers and the contents output CT=."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc163",
+      "relevance": "Synchronous binary counter documentation."
+    }
+  ],
+  "related": [
+    "synchronous-binary-counter",
+    "iec-decade-counter",
+    "iec-ripple-counter"
+  ],
+  "artwork": "s28-iec-synchronous-binary-counter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with CTRm qualifier, common-control block and weighted outputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "synchronous-binary-counter"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-synchronous-binary-counter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-synchronous-binary-counter.svg",
+  "id": "iec-synchronous-binary-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-synchronous-binary-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-synchronous-binary-counter.json",
+  "svgPath": "artwork/svg/iec-synchronous-binary-counter.svg",
+  "referencePath": "references/iec-synchronous-binary-counter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists CTRm and related counter qualifiers and the contents output CT=."
+    },
+    {
+      "id": "pub-electronics-ti-hc163",
+      "title": "SN74HC163 — synchronous binary counters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of synchronous binary counters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Synchronous binary counter documentation."
+    }
+  ]
+}

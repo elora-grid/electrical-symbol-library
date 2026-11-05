@@ -1,0 +1,106 @@
+{
+  "slug": "bidirectional-dc-dc-converter",
+  "name": "Bidirectional DC-to-DC converter",
+  "kind": "symbol",
+  "abbreviation": "DC/DC BI",
+  "aliases": [
+    "bidirectional DC/DC converter",
+    "battery DC-DC converter",
+    "two-quadrant DC converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A DC/DC stage that can pass power in either direction, linking a battery or supercapacitor to a DC bus.",
+  "description": [
+    "A bidirectional DC/DC converter moves power in either direction between two DC voltage levels. In microgrids and DC-coupled solar plants it connects a battery or supercapacitor to a common DC bus, charging the store from surplus and discharging it when the bus voltage falls.",
+    "The drawing is the DC/DC converter box with DC marks on both sides and a bidirectional arrow, or a double-headed arrow along the box. Detailed schematics may show a half-bridge buck-boost or dual-active-bridge topology inside.",
+    "The symbol does not state whether the two sides are galvanically isolated, the current limits in each direction, or the control mode, which may regulate bus voltage or battery current. These must come from the converter data."
+  ],
+  "readingNotes": [
+    "Check the arrow direction marks for confirmation that power flows both ways.",
+    "Isolation is not implied unless stated or a transformer is shown."
+  ],
+  "drawingChecklist": [
+    "State voltage ranges and power in each direction.",
+    "Show isolation if present.",
+    "Reference control mode."
+  ],
+  "distinction": "A bidirectional converter transfers power both ways; a standard DC/DC converter passes power from input to output only.",
+  "facts": [
+    {
+      "label": "Energy flow",
+      "value": "Both directions"
+    },
+    {
+      "label": "Typical use",
+      "value": "Storage to DC bus"
+    },
+    {
+      "label": "Isolation",
+      "value": "Not implied"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-dab",
+      "relevance": "Public bidirectional DC/DC reference design context."
+    },
+    {
+      "sourceId": "iec-public-energy",
+      "relevance": "Public IEC-context energy-flow qualifier family."
+    }
+  ],
+  "related": [
+    "dc-to-dc-converter",
+    "dual-active-bridge-topology",
+    "supercapacitor-bank",
+    "isolated-dc-dc-converter"
+  ],
+  "artwork": "s28-bidirectional-dc-dc-converter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bidirectional-dc-dc-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bidirectional-dc-dc-converter.svg",
+  "id": "bidirectional-dc-dc-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bidirectional-dc-dc-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bidirectional-dc-dc-converter.json",
+  "svgPath": "artwork/svg/bidirectional-dc-dc-converter.svg",
+  "referencePath": "references/bidirectional-dc-dc-converter.md",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-dab",
+      "title": "TIDA-010054: bidirectional dual-active-bridge reference design",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/tool/TIDA-010054",
+      "type": "manufacturer",
+      "scope": "Public DAB system topology and interface reference. Only an independently described functional topology is included; design files, drawings and product ratings remain on the publisher site.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public bidirectional DC/DC reference design context."
+    },
+    {
+      "id": "iec-public-energy",
+      "title": "Autodesk IEC-60617 preview: Energy-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-2039C5DD-1C01-4D77-AD97-584052C53D75.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-context energy-flow qualifier family."
+    }
+  ]
+}

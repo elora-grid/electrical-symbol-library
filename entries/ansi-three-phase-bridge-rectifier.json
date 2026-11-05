@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-three-phase-bridge-rectifier",
+  "name": "ANSI/IEEE Three-phase bridge rectifier form",
+  "kind": "symbol",
+  "abbreviation": "BR 3PH",
+  "aliases": [
+    "HDI1V5",
+    "VDI1V5",
+    "IEEE 3 Phase Bridge Rectifier",
+    "ANSI Three-phase bridge rectifier"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-phase bridge rectifier: a three-phase bridge rectifier converts a documented three-phase AC input into a DC output.",
+  "description": [
+    "This reference locates three-phase bridge rectifier in Autodesk's IEEE-oriented semiconductor components family. A three-phase bridge rectifier converts a documented three-phase AC input into a DC output. Its input phase terminals and DC polarity must be identifiable. The public library uses HDI1V5 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Follow the actual current path and terminal polarity in the surrounding circuit. The symbol identifies an electrical function; voltage, current, energy limits and the device package pinout come from the selected component data rather than from the outline.",
+    "Check the rectifier's output and any smoothing network as separate circuit elements. Three-phase rectification differs from a single-phase bridge connection. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check the rectifier's output and any smoothing network as separate circuit elements.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label three AC phases",
+    "Mark DC polarity",
+    "Reference rectifier ratings"
+  ],
+  "distinction": "Three-phase rectification differs from a single-phase bridge connection.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Semiconductor Components; published form: 3 Phase Bridge Rectifier."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDI1V5. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Semiconductor function"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-ec01cfc2-47b9-4ae3-ae5e-0fb86d327a82",
+      "relevance": "Public IEEE-oriented Semiconductor Components table explicitly lists HDI1V5 as 3 Phase Bridge Rectifier. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-phase-bridge-rectifier",
+    "diode",
+    "ac-to-dc-power-supply",
+    "power-converter"
+  ],
+  "artwork": "s28-ansi-three-phase-bridge-rectifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Bridge Rectifier",
+    "reference": "Autodesk IEEE Symbol Preview: Semiconductor Components, block HDI1V5. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-phase-bridge-rectifier"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-phase-bridge-rectifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-phase-bridge-rectifier.svg",
+  "id": "ansi-three-phase-bridge-rectifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-phase-bridge-rectifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-phase-bridge-rectifier.json",
+  "svgPath": "artwork/svg/ansi-three-phase-bridge-rectifier.svg",
+  "referencePath": "references/ansi-three-phase-bridge-rectifier.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-ec01cfc2-47b9-4ae3-ae5e-0fb86d327a82",
+      "title": "Autodesk IEEE Symbol Preview — Semiconductor Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC01CFC2-47B9-4AE3-AE5E-0FB86D327A82.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Semiconductor Components table explicitly lists HDI1V5 as 3 Phase Bridge Rectifier. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

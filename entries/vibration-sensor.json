@@ -1,0 +1,98 @@
+{
+  "slug": "vibration-sensor",
+  "name": "Vibration sensor",
+  "kind": "symbol",
+  "abbreviation": "VS",
+  "aliases": [
+    "vibration transmitter",
+    "accelerometer",
+    "machine vibration probe"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Sensor on a machine bearing that measures vibration and feeds a monitor or relay for alarm and trip.",
+  "description": [
+    "A vibration sensor is mounted on a machine bearing housing or near the shaft and produces a signal related to vibration, either as raw acceleration or as a processed velocity output in a 4-20 mA loop. It feeds condition monitoring systems and machine protection relays that alarm and trip large motors, generators and fans.",
+    "Accelerometers, velocity sensors and non-contact proximity probes measure different things and suit different machines. The symbol does not show which type is used, the measuring axis or the alarm levels, which are machine-specific and should be in the instrument schedule."
+  ],
+  "readingNotes": [
+    "Identify sensor type and measuring axis.",
+    "Find the alarm and trip levels in the monitoring settings."
+  ],
+  "drawingChecklist": [
+    "State sensor type and axis",
+    "Show loop or signal wiring",
+    "Reference alarm and trip levels"
+  ],
+  "distinction": "A vibration sensor produces a measurement signal; a vibration switch only changes a contact at a set level.",
+  "facts": [
+    {
+      "label": "Output",
+      "value": "Raw signal or 4-20 mA processed value"
+    },
+    {
+      "label": "Location",
+      "value": "Bearing housing or shaft"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-instrumentation",
+      "relevance": "Public AutoCAD Electrical instrumentation and sensor family."
+    },
+    {
+      "sourceId": "expansion-20261027-sensing",
+      "relevance": "Public overview of electrical and physical sensing functions."
+    }
+  ],
+  "related": [
+    "39-mechanical-condition-monitor",
+    "temperature-measuring-transducer",
+    "ansi-tachometer"
+  ],
+  "artwork": "s28-vibration-sensor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/vibration-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/vibration-sensor.svg",
+  "id": "vibration-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/vibration-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/vibration-sensor.json",
+  "svgPath": "artwork/svg/vibration-sensor.svg",
+  "referencePath": "references/vibration-sensor.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-instrumentation",
+      "title": "AutoCAD Electrical: Instrumentation and sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-773A36C3-44C6-43EB-9BD0-E0297816B9B2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical instrumentation and sensor family."
+    },
+    {
+      "id": "expansion-20261027-sensing",
+      "title": "Electrical and physical sensing functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/technologies/sensing.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Public overview of electrical and physical sensing functions."
+    }
+  ]
+}

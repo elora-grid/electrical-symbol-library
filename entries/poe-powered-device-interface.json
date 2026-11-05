@@ -1,0 +1,87 @@
+{
+  "slug": "poe-powered-device-interface",
+  "name": "PoE powered-device interface",
+  "kind": "symbol",
+  "abbreviation": "PoE PD",
+  "aliases": [
+    "PoE powered-device interface",
+    "PoE powered-device interface functional block",
+    "PoE powered-device interface schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PoE powered-device interface manages the receiving end of power delivered over a compatible Ethernet link.",
+  "description": [
+    "A PoE powered-device interface manages the receiving end of power delivered over a compatible Ethernet link.",
+    "A network-connected device can receive its operating power through the PoE connection.",
+    "Place the powered-device interface at the receiving end of the Ethernet power connection. Distinguish the incoming cable power, the recognition and classification functions, and the downstream supply conversion. The Ethernet data path and the power path need separate labels even when they share the same cable. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the powered-device and sourcing-equipment ends.",
+    "Reference the selected power class and input arrangement.",
+    "Show downstream conversion and the separate data path.",
+    "The powered-device interface receives power; the sourcing equipment supplies it."
+  ],
+  "drawingChecklist": [
+    "Identify the powered-device and sourcing-equipment ends.",
+    "Reference the selected power class and input arrangement.",
+    "Show downstream conversion and the separate data path."
+  ],
+  "distinction": "The powered-device interface receives power; the sourcing equipment supplies it.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Power from Ethernet cable"
+    },
+    {
+      "label": "Concept output",
+      "value": "Downstream device supply"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-poe",
+      "relevance": "Power over Ethernet interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-industrial-ethernet-switch",
+    "poe-power-sourcing-interface",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-poe-powered-device-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/poe-powered-device-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/poe-powered-device-interface.svg",
+  "id": "poe-powered-device-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/poe-powered-device-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/poe-powered-device-interface.json",
+  "svgPath": "artwork/svg/poe-powered-device-interface.svg",
+  "referencePath": "references/poe-powered-device-interface.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-poe",
+      "title": "Power over Ethernet interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/power-over-ethernet-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Power over Ethernet interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

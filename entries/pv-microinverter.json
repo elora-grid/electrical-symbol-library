@@ -1,0 +1,105 @@
+{
+  "slug": "pv-microinverter",
+  "name": "PV microinverter",
+  "kind": "symbol",
+  "abbreviation": "MI",
+  "aliases": [
+    "microinverter",
+    "module-level inverter",
+    "module inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A small inverter attached to one or two PV modules, converting to AC at the module and paralleling on an AC trunk cable.",
+  "description": [
+    "A microinverter converts the output of one, two or four PV modules to AC right at the array. Each unit has its own maximum power point tracker, so shading on one module does not drag down the rest, and the array wiring carries AC at network voltage instead of high-voltage DC.",
+    "Drawings show a small inverter block attached to each module symbol, with AC outputs daisy-chained along a trunk cable to an AC isolator and a dedicated circuit breaker in the switchboard. The number of units per branch circuit is limited by the trunk cable and breaker rating and should be noted.",
+    "The symbol does not state the gateway or communication method, nor how many microinverters a branch can carry. Ambient temperature on the roof also affects output, which is not shown on the drawing."
+  ],
+  "readingNotes": [
+    "Count units per AC branch against the trunk cable rating.",
+    "There is no high-voltage DC string; the DC side ends at each module."
+  ],
+  "drawingChecklist": [
+    "State units per branch and branch breaker rating.",
+    "Show AC isolator and trunk cable.",
+    "Reference monitoring gateway."
+  ],
+  "distinction": "A microinverter converts at module level to AC; a power optimiser stays on the DC side and still needs a string inverter.",
+  "facts": [
+    {
+      "label": "Conversion point",
+      "value": "At each module"
+    },
+    {
+      "label": "Array wiring",
+      "value": "AC trunk cable"
+    },
+    {
+      "label": "Tracking",
+      "value": "Per module or module pair"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pvoptimiser",
+      "relevance": "Public module-level power electronics context."
+    },
+    {
+      "sourceId": "pub-symbol-pv-inverter",
+      "relevance": "Public photovoltaic inverter function context."
+    }
+  ],
+  "related": [
+    "photovoltaic-module",
+    "photovoltaic-power-optimiser",
+    "pv-string-inverter"
+  ],
+  "artwork": "s28-pv-microinverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pv-microinverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/pv-microinverter.svg",
+  "id": "pv-microinverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pv-microinverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pv-microinverter.json",
+  "svgPath": "artwork/svg/pv-microinverter.svg",
+  "referencePath": "references/pv-microinverter.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pvoptimiser",
+      "title": "Solar power optimiser architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/solar-power-optimizer",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Public module-level power electronics context."
+    },
+    {
+      "id": "pub-symbol-pv-inverter",
+      "title": "Photovoltaic technology and inverter functions",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_background%2C_technology",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public photovoltaic inverter function context."
+    }
+  ]
+}

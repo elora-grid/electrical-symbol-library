@@ -1,0 +1,90 @@
+{
+  "slug": "iec-common-control-block",
+  "name": "IEC common-control block",
+  "kind": "symbol",
+  "abbreviation": "CCB",
+  "aliases": [
+    "common control block",
+    "notched control block",
+    "shared-input block"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Notched block above an array; its inputs apply to every element below unless dependency notation limits them.",
+  "description": [
+    "TI's overview of IEEE Std 91 describes the common-control block as the only distinctively shaped outline used in the IEC system. It sits above an array of elements, and an input to it is an input to every element below unless dependency notation states otherwise. Clocks, clears and enables of multi-bit registers are typically drawn here.",
+    "When reading a register or latch symbol, start with the common-control block: it shows which signals act on all bits. The elements below then show only the per-bit data inputs and outputs, which keeps an octal device readable on one sheet.",
+    "The block itself does not define a function; the labels and dependency numbers on its inputs do. Without those labels it is not possible to tell whether an input is a clock, an enable or a mode control."
+  ],
+  "readingNotes": [
+    "Read the control block first, then the per-bit elements.",
+    "Dependency numbers decide which bits each control affects."
+  ],
+  "drawingChecklist": [
+    "Draw the notched shape distinct from ordinary elements.",
+    "Label each control input with its function and dependency number.",
+    "Show only per-bit signals on the elements below."
+  ],
+  "distinction": "The common-output element has a double line and collects outputs below an array.",
+  "facts": [
+    {
+      "label": "Outline",
+      "value": "Notched block, unique in the IEC system"
+    },
+    {
+      "label": "Typical inputs",
+      "value": "Clock, clear, enable"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Describes the common-control block and how its inputs apply to the array."
+    }
+  ],
+  "related": [
+    "iec-common-output-element",
+    "iec-shift-register",
+    "transparent-d-latch"
+  ],
+  "artwork": "s28-iec-common-control-block",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Notched block above an array of elements",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-common-control-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-common-control-block.svg",
+  "id": "iec-common-control-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-common-control-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-common-control-block.json",
+  "svgPath": "artwork/svg/iec-common-control-block.svg",
+  "referencePath": "references/iec-common-control-block.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Describes the common-control block and how its inputs apply to the array."
+    }
+  ]
+}

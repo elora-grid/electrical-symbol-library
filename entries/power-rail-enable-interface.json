@@ -1,0 +1,87 @@
+{
+  "slug": "power-rail-enable-interface",
+  "name": "Power-rail enable interface",
+  "kind": "symbol",
+  "abbreviation": "EN",
+  "aliases": [
+    "Power-rail enable interface",
+    "Power-rail enable interface functional block",
+    "Power-rail enable interface schematic reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An enable interface requests a selected power supply or switched rail to operate.",
+  "description": [
+    "An enable interface requests a selected power supply or switched rail to operate.",
+    "A sequencer can drive the enable input of a regulator while separately monitoring its status.",
+    "Draw enable as a command entering the regulator or switch, and show the resulting supply output separately. If status is returned, label that connection independently. This prevents the command to operate from being mistaken for confirmation that the power rail is healthy. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the device receiving enable.",
+    "State the enable signal’s active condition.",
+    "Show the separate supply output and status feedback if used.",
+    "Enable is a command input; power-good is a condition output."
+  ],
+  "drawingChecklist": [
+    "Identify the device receiving enable.",
+    "State the enable signal’s active condition.",
+    "Show the separate supply output and status feedback if used."
+  ],
+  "distinction": "Enable is a command input; power-good is a condition output.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Controller enable command"
+    },
+    {
+      "label": "Concept output",
+      "value": "Requested rail operation"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-sequencer",
+      "relevance": "Power supply sequencing: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "power-rail-sequencer",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-power-rail-enable-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-rail-enable-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-rail-enable-interface.svg",
+  "id": "power-rail-enable-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-rail-enable-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-rail-enable-interface.json",
+  "svgPath": "artwork/svg/power-rail-enable-interface.svg",
+  "referencePath": "references/power-rail-enable-interface.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-sequencer",
+      "title": "Power supply sequencing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/sequencers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Power supply sequencing: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "vt-secondary-voltage-injection-boundary",
+  "name": "VT secondary voltage-injection boundary",
+  "kind": "symbol",
+  "abbreviation": "VSVB",
+  "aliases": [
+    "Voltage-transformer secondary arrangements",
+    "substations Voltage-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Test voltage source",
+    "Relay voltage test input"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the terminals where the assigned test voltage enters a measuring circuit.",
+  "description": [
+    "Identifies the terminals where the assigned test voltage enters a measuring circuit. A voltage-transformer secondary arrangement connects a defined primary voltage measurement to protection, metering or control inputs. Winding identity, fuse protection and the voltage reference must remain visible across the drawing.",
+    "In a substation bay, one voltage circuit can feed protection while a separately identified winding supplies metering. A voltage-selection circuit must make clear which bus or line measurement is being used. For this reference, the drawing identifies “Test voltage source” at the input and “Relay voltage test input” at the output. Backfeed prevention needs the complete test arrangement.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Test voltage source. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Relay voltage test input. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Backfeed prevention needs the complete test arrangement.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for test voltage source.",
+    "Identify the destination and defined state of relay voltage test input.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Backfeed prevention needs the complete test arrangement."
+  ],
+  "distinction": "Backfeed prevention needs the complete test arrangement. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Test voltage source"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Relay voltage test input"
+    },
+    {
+      "label": "Lookup label",
+      "value": "VSVB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "potential-test-switch",
+    "broken-delta-residual-input-interface"
+  ],
+  "artwork": "pi26-vt-secondary-voltage-injection-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "vt-secondary",
+    "input": "Test voltage source",
+    "output": "Relay voltage test input"
+  },
+  "url": "https://eloragrid.ai/symbols/vt-secondary-voltage-injection-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/vt-secondary-voltage-injection-boundary.svg",
+  "id": "vt-secondary-voltage-injection-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/vt-secondary-voltage-injection-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/vt-secondary-voltage-injection-boundary.json",
+  "svgPath": "artwork/svg/vt-secondary-voltage-injection-boundary.svg",
+  "referencePath": "references/vt-secondary-voltage-injection-boundary.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

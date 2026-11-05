@@ -1,0 +1,99 @@
+{
+  "slug": "wound-primary-current-transformer",
+  "name": "Wound-primary current transformer",
+  "kind": "symbol",
+  "abbreviation": "CT",
+  "aliases": [
+    "wound CT",
+    "wound-type current transformer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "CT with a primary winding of several turns, used for low primary currents where a bar primary gives too little accuracy.",
+  "description": [
+    "A wound-primary CT has a primary winding of more than one turn rather than a single bar or conductor through a window. This is needed at low primary currents, where a single turn would not produce enough magnetising ampere-turns for accurate metering, and it is common in MV metering units.",
+    "The wound primary has a lower short-time withstand than a bar primary, so its thermal and dynamic ratings need checking against the fault level. The symbol shows the winding but not those ratings, which belong in the CT schedule."
+  ],
+  "readingNotes": [
+    "Check the short-time thermal rating against the fault level.",
+    "Read primary terminals P1 and P2 for polarity."
+  ],
+  "drawingChecklist": [
+    "State ratio and class",
+    "Give short-time rating",
+    "Show polarity marks"
+  ],
+  "distinction": "A wound-primary CT has a multi-turn primary; a window or bar CT uses the circuit conductor as a single-turn primary.",
+  "facts": [
+    {
+      "label": "Primary",
+      "value": "Multi-turn winding"
+    },
+    {
+      "label": "Typical use",
+      "value": "Low primary currents and metering units"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ansi-current-transformer-with-primary-conductor-indication",
+    "combined-instrument-transformer"
+  ],
+  "artwork": "s28-wound-primary-current-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/wound-primary-current-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/wound-primary-current-transformer.svg",
+  "id": "wound-primary-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/wound-primary-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/wound-primary-current-transformer.json",
+  "svgPath": "artwork/svg/wound-primary-current-transformer.svg",
+  "referencePath": "references/wound-primary-current-transformer.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    }
+  ]
+}

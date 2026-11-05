@@ -1,0 +1,87 @@
+{
+  "slug": "battery-current-measurement",
+  "name": "Battery pack current measurement",
+  "kind": "symbol",
+  "abbreviation": "PACK I",
+  "aliases": [
+    "Battery pack current measurement",
+    "Battery pack current measurement functional block",
+    "Battery pack current measurement schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Pack-current measurement reports current entering or leaving the battery.",
+  "description": [
+    "Pack-current measurement reports current entering or leaving the battery.",
+    "A battery controller can use current direction and magnitude when managing charge and discharge.",
+    "Mark the exact conductor or shunt where current is measured and define the positive direction. Charging and discharging can produce opposite signs. The measurement can support a battery estimate, but a current-reading block alone does not contain the history or battery model needed for that estimate. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the sensing method and measurement location.",
+    "Define positive current as charging or discharging.",
+    "Show the measurement output and reference domain.",
+    "A current measurement alone does not establish cell state of charge or battery health."
+  ],
+  "drawingChecklist": [
+    "Identify the sensing method and measurement location.",
+    "Define positive current as charging or discharging.",
+    "Show the measurement output and reference domain."
+  ],
+  "distinction": "A current measurement alone does not establish cell state of charge or battery health.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Battery current at named point"
+    },
+    {
+      "label": "Concept output",
+      "value": "Signed current reading"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pack",
+      "relevance": "Battery-pack measurement and control: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-battery-precharge-assembly",
+    "battery-pack-monitor",
+    "battery-precharge-circuit",
+    "battery-insulation-monitor"
+  ],
+  "artwork": "expanded-battery-current-measurement",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-current-measurement",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-current-measurement.svg",
+  "id": "battery-current-measurement",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-current-measurement",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-current-measurement.json",
+  "svgPath": "artwork/svg/battery-current-measurement.svg",
+  "referencePath": "references/battery-current-measurement.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pack",
+      "title": "Battery-pack measurement and control",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/automotive/hev-ev-powertrain/hev-ev-battery-management-system-bms/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery-pack measurement and control: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

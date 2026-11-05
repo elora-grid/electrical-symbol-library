@@ -1,0 +1,105 @@
+{
+  "slug": "freestanding-earthing-switch-connection",
+  "name": "Freestanding earthing-switch connection",
+  "kind": "symbol",
+  "abbreviation": "FEC",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Assigned primary conductor",
+    "Earth connection through switch"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies a separately mounted earthing device connected to the assigned primary section.",
+  "description": [
+    "Identifies a separately mounted earthing device connected to the assigned primary section. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Assigned primary conductor” at the input and “Earth connection through switch” at the output. The earthed section must be named.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Assigned primary conductor. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Earth connection through switch. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The earthed section must be named.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for assigned primary conductor.",
+    "Identify the destination and defined state of earth connection through switch.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The earthed section must be named."
+  ],
+  "distinction": "The earthed section must be named. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Assigned primary conductor"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Earth connection through switch"
+    },
+    {
+      "label": "Lookup label",
+      "value": "FEC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "built-on-earthing-switch-connection"
+  ],
+  "artwork": "pi26-freestanding-earthing-switch-connection",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Assigned primary conductor",
+    "output": "Earth connection through switch"
+  },
+  "url": "https://eloragrid.ai/symbols/freestanding-earthing-switch-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/freestanding-earthing-switch-connection.svg",
+  "id": "freestanding-earthing-switch-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/freestanding-earthing-switch-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/freestanding-earthing-switch-connection.json",
+  "svgPath": "artwork/svg/freestanding-earthing-switch-connection.svg",
+  "referencePath": "references/freestanding-earthing-switch-connection.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

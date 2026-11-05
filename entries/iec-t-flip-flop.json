@@ -1,0 +1,90 @@
+{
+  "slug": "iec-t-flip-flop",
+  "name": "IEC T (toggle) flip-flop",
+  "kind": "symbol",
+  "abbreviation": "1T",
+  "aliases": [
+    "toggle flip-flop",
+    "T-type bistable",
+    "divide-by-two stage"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC bistable with a 1T toggle input; when T is active, each clock edge changes the stored state.",
+  "description": [
+    "The toggle input T causes the internal state to change to its complement. In IEC form it is labelled 1T when controlled by a C1 clock, or drawn as a single dynamic T input where each transition toggles. A T stage is the basic divide-by-two element in counters and frequency dividers.",
+    "Dedicated T flip-flop packages are rare; the function is usually built from a JK with J and K tied high or a D flip-flop with its complemented output fed back. Functional logic drawings, PLC function-block diagrams and FPGA documentation still use the T form because it states the intent clearly.",
+    "The symbol does not show how the toggle function is implemented. Where a JK or D device is used, the physical wiring should appear on the detailed schematic."
+  ],
+  "readingNotes": [
+    "Read T as change state on each enabled clock.",
+    "Check the implementation on the detailed schematic."
+  ],
+  "drawingChecklist": [
+    "Label the toggle input as 1T with a C1 clock, or as a dynamic T.",
+    "Show initial state where required.",
+    "Cross-reference the implementing JK or D device."
+  ],
+  "distinction": "A JK flip-flop provides set, reset, hold and toggle; a T element provides only hold and toggle.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Toggle on each enabled clock"
+    },
+    {
+      "label": "Typical use",
+      "value": "Divide-by-two, counter stage"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines the T toggle input."
+    }
+  ],
+  "related": [
+    "iec-jk-flip-flop",
+    "iec-ripple-counter",
+    "positive-edge-d-flip-flop"
+  ],
+  "artwork": "s28-iec-t-flip-flop",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular bistable with 1T and dynamic C1 inputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-t-flip-flop",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-t-flip-flop.svg",
+  "id": "iec-t-flip-flop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-t-flip-flop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-t-flip-flop.json",
+  "svgPath": "artwork/svg/iec-t-flip-flop.svg",
+  "referencePath": "references/iec-t-flip-flop.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines the T toggle input."
+    }
+  ]
+}

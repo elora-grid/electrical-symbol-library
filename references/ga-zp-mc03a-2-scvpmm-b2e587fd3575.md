@@ -1,0 +1,50 @@
+# AutomationDirect ZP-MC03A-2-SCVPMM connector protective cover
+
+ZP-MC03A-2-SCVPMM connector protective cover arrangement: mounting, interface and service-space coordination.
+
+[Canonical reference](https://eloragrid.ai/objects/ga-zp-mc03a-2-scvpmm-b2e587fd3575) · [Structured record](../entries/ga-zp-mc03a-2-scvpmm-b2e587fd3575.json) · [All references](README.md)
+
+Updated: 2026-10-29. Drawing use: GA. Reference families: Manufacturer.
+
+## What it represents
+
+ZP-MC03A-2-SCVPMM is the drawing identifier for connector protective cover in AutomationDirect's ZIPport Multi-Wire Connectors collection. A connector cover protects or closes the selected connector interface in its documented use. It is different from the connector insert and may need its own operating or removal space.
+For example, in a panel service connector that is covered when the mating plug is absent, use the ZP-MC03A-2-SCVPMM reference to coordinate cover motion, retention and access to the mating interface. Show the neighbouring equipment and the connection route so the installer can understand the intended arrangement.
+Use the reviewed native drawing identified as Enclosures and Wiring/ZIPport Multi-Wire Connectors/ZP-MC03A-2-SCVPMM.dwg for the exact physical details. Locate the named file in its original manufacturer archive. Manufacturer drawing previews are shown only when an exact approved source is available. Any illustrative 3D view is a separate concept and is not to scale; use the selected manufacturer documents for dimensions, ratings and installation details.
+
+## How to read it
+
+- Keep cover motion, retention and access to the mating interface visible in the layout.
+- This reference concerns the named ZP-MC03A-2-SCVPMM drawing and its connector protective cover role. A drawing in the same collection is not automatic evidence of compatible terminals, mounts or electrical performance.
+
+## Drawing checklist
+
+- Match ZP-MC03A-2-SCVPMM, the native drawing identity and the project equipment schedule.
+- Identify the compatible connector and cover operating position.
+- Coordinate cover motion, retention and access to the mating interface with neighbouring equipment.
+- Confirm the current manufacturer installation instructions, selected revision and any required mounting or clearance details.
+
+## Important distinction
+
+This reference concerns the named ZP-MC03A-2-SCVPMM drawing and its connector protective cover role. A drawing in the same collection is not automatic evidence of compatible terminals, mounts or electrical performance.
+
+## Facts
+
+- Manufacturer source: AutomationDirect
+- Native drawing identity: ZP-MC03A-2-SCVPMM
+- Reviewed equipment role: connector protective cover
+- CAD scope: ZIPport Multi-Wire Connectors
+- Preview scope: Source-matched manufacturer drawings where available; illustrative 3D is separate and not to scale
+
+## Public references
+
+- [AutomationDirect ZIPport Multi-Wire Connectors official CAD source](https://support.automationdirect.com/docs/drawings.html) — AutomationDirect. Official source collection and exact native drawing identity, with the equipment role checked against native content or the narrowly defined source family.
+
+## Related references
+
+- [Bulkhead connector](ga-bulkhead-connector.md)
+- [Equipment maintenance envelope](ga-equipment-maintenance-envelope.md)
+
+GA objects have no standalone 2D icon. Use the canonical equipment page for current manufacturer drawing and 3D preview availability.
+
+Elora-authored explanations are CC BY 4.0. Linked standards and manufacturer material retain their own rights. Confirm project requirements using primary sources.

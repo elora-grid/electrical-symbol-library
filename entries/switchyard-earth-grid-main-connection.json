@@ -1,0 +1,105 @@
+{
+  "slug": "switchyard-earth-grid-main-connection",
+  "name": "Switchyard earth-grid main connection",
+  "kind": "symbol",
+  "abbreviation": "SEMC",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Equipment earthing network",
+    "Station earth grid"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the assigned main connection between equipment earthing and the station earth-grid system.",
+  "description": [
+    "Identifies the assigned main connection between equipment earthing and the station earth-grid system. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Equipment earthing network” at the input and “Station earth grid” at the output. Grid performance requires a site-specific earthing study.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Equipment earthing network. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Station earth grid. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Grid performance requires a site-specific earthing study.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for equipment earthing network.",
+    "Identify the destination and defined state of station earth grid.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Grid performance requires a site-specific earthing study."
+  ],
+  "distinction": "Grid performance requires a site-specific earthing study. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Equipment earthing network"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Station earth grid"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SEMC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "primary-equipment-frame-bond-interface"
+  ],
+  "artwork": "pi26-switchyard-earth-grid-main-connection",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Equipment earthing network",
+    "output": "Station earth grid"
+  },
+  "url": "https://eloragrid.ai/symbols/switchyard-earth-grid-main-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchyard-earth-grid-main-connection.svg",
+  "id": "switchyard-earth-grid-main-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchyard-earth-grid-main-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchyard-earth-grid-main-connection.json",
+  "svgPath": "artwork/svg/switchyard-earth-grid-main-connection.svg",
+  "referencePath": "references/switchyard-earth-grid-main-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

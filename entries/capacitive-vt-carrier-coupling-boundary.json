@@ -1,0 +1,105 @@
+{
+  "slug": "capacitive-vt-carrier-coupling-boundary",
+  "name": "Capacitive VT carrier-coupling boundary",
+  "kind": "symbol",
+  "abbreviation": "CVCB",
+  "aliases": [
+    "Voltage-transformer secondary arrangements",
+    "substations Voltage-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Capacitive VT interfaces",
+    "Separate measuring and carrier paths"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Distinguishes the voltage measuring interface from a documented carrier-coupling application.",
+  "description": [
+    "Distinguishes the voltage measuring interface from a documented carrier-coupling application. A voltage-transformer secondary arrangement connects a defined primary voltage measurement to protection, metering or control inputs. Winding identity, fuse protection and the voltage reference must remain visible across the drawing.",
+    "In a substation bay, one voltage circuit can feed protection while a separately identified winding supplies metering. A voltage-selection circuit must make clear which bus or line measurement is being used. For this reference, the drawing identifies “Capacitive VT interfaces” at the input and “Separate measuring and carrier paths” at the output. Carrier use depends on the selected equipment construction.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Capacitive VT interfaces. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Separate measuring and carrier paths. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Carrier use depends on the selected equipment construction.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for capacitive vt interfaces.",
+    "Identify the destination and defined state of separate measuring and carrier paths.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Carrier use depends on the selected equipment construction."
+  ],
+  "distinction": "Carrier use depends on the selected equipment construction. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Capacitive VT interfaces"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Separate measuring and carrier paths"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CVCB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "potential-test-switch",
+    "vt-secondary-phase-rotation-reference"
+  ],
+  "artwork": "pi26-capacitive-vt-carrier-coupling-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "vt-secondary",
+    "input": "Capacitive VT interfaces",
+    "output": "Separate measuring and carrier paths"
+  },
+  "url": "https://eloragrid.ai/symbols/capacitive-vt-carrier-coupling-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/capacitive-vt-carrier-coupling-boundary.svg",
+  "id": "capacitive-vt-carrier-coupling-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitive-vt-carrier-coupling-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitive-vt-carrier-coupling-boundary.json",
+  "svgPath": "artwork/svg/capacitive-vt-carrier-coupling-boundary.svg",
+  "referencePath": "references/capacitive-vt-carrier-coupling-boundary.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

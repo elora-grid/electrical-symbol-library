@@ -1,0 +1,110 @@
+{
+  "slug": "iec-open-collector-buffer",
+  "name": "IEC open-collector buffer (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1",
+  "aliases": [
+    "IEC open-drain buffer",
+    "L-type open-circuit output buffer",
+    "buffer with open-collector output"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC buffer with an underlined diamond at the output, showing an open-collector or open-drain stage.",
+  "description": [
+    "The underlined diamond inside the outline marks an output that can pull to a low level but needs an external pull-up to produce a high level. TI's public explanation describes this as suitable for a positive-logic wired-AND connection. The 1 qualifier makes the element non-inverting overall.",
+    "Open-collector outputs are used for shared alarm lines, level shifting to a higher pull-up voltage, and driving small relays or indicator lamps. The pull-up resistor or load must be shown on the drawing, together with its supply, because the element cannot produce a high level by itself.",
+    "The symbol does not state the maximum sink current or the maximum voltage the output may be pulled to. Those limits are device data and govern whether a relay coil or lamp can be connected directly."
+  ],
+  "readingNotes": [
+    "Find the pull-up resistor or load and its supply rail.",
+    "Check whether several outputs are wired together."
+  ],
+  "drawingChecklist": [
+    "Show the underlined diamond next to the output.",
+    "Draw the pull-up and label its supply.",
+    "Note the sink current and voltage limits where a load is driven directly."
+  ],
+  "distinction": "An overlined diamond is the H-type open-emitter output, which sources current and needs a pull-down.",
+  "facts": [
+    {
+      "label": "Output qualifier",
+      "value": "Diamond with underline (L-type open circuit)"
+    },
+    {
+      "label": "External part required",
+      "value": "Pull-up resistor or load"
+    },
+    {
+      "label": "Wired connection",
+      "value": "Positive-logic wired-AND"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines the open-collector output qualifier and its wired-AND capability."
+    },
+    {
+      "sourceId": "pub-electronics-ti-ls07",
+      "relevance": "Manufacturer open-collector buffer documentation."
+    }
+  ],
+  "related": [
+    "open-collector-buffer",
+    "iec-open-circuit-output-l-type",
+    "ansi-wired-and-connection"
+  ],
+  "artwork": "s28-iec-open-collector-buffer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "1 element with the underlined-diamond open-circuit (L-type) output qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "open-collector-buffer"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-open-collector-buffer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-open-collector-buffer.svg",
+  "id": "iec-open-collector-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-open-collector-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-open-collector-buffer.json",
+  "svgPath": "artwork/svg/iec-open-collector-buffer.svg",
+  "referencePath": "references/iec-open-collector-buffer.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines the open-collector output qualifier and its wired-AND capability."
+    },
+    {
+      "id": "pub-electronics-ti-ls07",
+      "title": "SN74LS07 — open-collector output buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls07.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of open-collector output buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer open-collector buffer documentation."
+    }
+  ]
+}

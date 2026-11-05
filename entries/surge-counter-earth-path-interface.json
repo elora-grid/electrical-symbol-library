@@ -1,0 +1,105 @@
+{
+  "slug": "surge-counter-earth-path-interface",
+  "name": "Surge-counter earth-path interface",
+  "kind": "symbol",
+  "abbreviation": "SEI",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Arrester monitoring earth path",
+    "Surge event measurement"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented connection of the selected surge counter within its arrester monitoring arrangement.",
+  "description": [
+    "Identifies the documented connection of the selected surge counter within its arrester monitoring arrangement. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Arrester monitoring earth path” at the input and “Surge event measurement” at the output. Counter installation follows the selected equipment diagram.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Arrester monitoring earth path. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Surge event measurement. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Counter installation follows the selected equipment diagram.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for arrester monitoring earth path.",
+    "Identify the destination and defined state of surge event measurement.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Counter installation follows the selected equipment diagram."
+  ],
+  "distinction": "Counter installation follows the selected equipment diagram. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Arrester monitoring earth path"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Surge event measurement"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SEI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "transformer-tank-earthing-interface"
+  ],
+  "artwork": "pi26-surge-counter-earth-path-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Arrester monitoring earth path",
+    "output": "Surge event measurement"
+  },
+  "url": "https://eloragrid.ai/symbols/surge-counter-earth-path-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/surge-counter-earth-path-interface.svg",
+  "id": "surge-counter-earth-path-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/surge-counter-earth-path-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/surge-counter-earth-path-interface.json",
+  "svgPath": "artwork/svg/surge-counter-earth-path-interface.svg",
+  "referencePath": "references/surge-counter-earth-path-interface.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-shunt-excited-dc-motor",
+  "name": "ANSI/IEEE Shunt-excited DC motor form",
+  "kind": "symbol",
+  "abbreviation": "HMO1M8",
+  "aliases": [
+    "HMO1M8",
+    "VMO1M8",
+    "IEEE DC Motor - Derived Excitation",
+    "ANSI Shunt-excited DC motor"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of shunt-excited dc motor: this representation distinguishes the publisher's derived or shunt-excitation DC motor form.",
+  "description": [
+    "This reference locates shunt-excited dc motor in Autodesk's IEEE-oriented dc motors family. This representation distinguishes the publisher's derived or shunt-excitation DC motor form. The public library uses HMO1M8 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Document the field connection separately from the armature circuit. Shunt, series and separately supplied field arrangements are different connection topologies. Document the field connection separately from the armature circuit. Shunt, series and separately supplied field arrangements are different connection topologies. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Document the field connection separately from the armature circuit.",
+    "Shunt, series and separately supplied field arrangements are different connection topologies."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Document the field connection separately from the armature circuit.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Shunt, series and separately supplied field arrangements are different connection topologies.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: DC Motors; published form: DC Motor - Derived Excitation."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HMO1M8. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Document the field connection separately from the armature circuit."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-6a65d995-18bc-4a3c-a34e-c6bb276e8410",
+      "relevance": "Public IEEE-oriented DC Motors table explicitly lists HMO1M8 as DC Motor - Derived Excitation. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-shunt-excited-dc-motor",
+    "motor",
+    "generator"
+  ],
+  "artwork": "s28-ansi-shunt-excited-dc-motor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "DC Motor - Derived Excitation",
+    "reference": "Autodesk IEEE Symbol Preview: DC Motors, block HMO1M8. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-shunt-excited-dc-motor"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-shunt-excited-dc-motor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-shunt-excited-dc-motor.svg",
+  "id": "ansi-shunt-excited-dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-shunt-excited-dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-shunt-excited-dc-motor.json",
+  "svgPath": "artwork/svg/ansi-shunt-excited-dc-motor.svg",
+  "referencePath": "references/ansi-shunt-excited-dc-motor.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-6a65d995-18bc-4a3c-a34e-c6bb276e8410",
+      "title": "Autodesk IEEE Symbol Preview — DC Motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A65D995-18BC-4A3C-A34E-C6BB276E8410.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented DC Motors table explicitly lists HMO1M8 as DC Motor - Derived Excitation. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

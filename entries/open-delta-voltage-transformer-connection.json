@@ -1,0 +1,100 @@
+{
+  "slug": "open-delta-voltage-transformer-connection",
+  "name": "Open-delta voltage transformer connection",
+  "kind": "symbol",
+  "abbreviation": "VT",
+  "aliases": [
+    "V-V VT connection",
+    "two-VT open delta"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Two phase-to-phase VTs connected in V to provide all three line voltages without a neutral reference.",
+  "description": [
+    "The open-delta or V-V connection uses two double-pole VTs connected between phases, sharing one phase as a common point. It gives all three line-to-line secondary voltages at lower cost than three VTs and is common in MV metering and switchgear where neutral voltages are not needed.",
+    "Because there is no neutral reference, phase-to-neutral voltages and zero-sequence voltage cannot be measured. Earth-fault directional elements or meters needing phase-to-neutral inputs therefore cannot be fed from this connection, which the reader must check against the relay requirements."
+  ],
+  "readingNotes": [
+    "Identify the common phase shared by both VTs.",
+    "Check that no connected device needs phase-to-neutral voltage."
+  ],
+  "drawingChecklist": [
+    "Show both VTs and common phase",
+    "State ratios",
+    "Reference secondary earthing point"
+  ],
+  "distinction": "An open-delta connection uses two phase-to-phase VTs; a broken-delta winding uses three earthed VTs for residual voltage.",
+  "facts": [
+    {
+      "label": "VT count",
+      "value": "Two double-pole VTs"
+    },
+    {
+      "label": "Not available",
+      "value": "Phase-to-neutral and residual voltage"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public potential-transformer symbol family used for context."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "voltage-transformer-with-residual-winding",
+    "ansi-voltage-transformer"
+  ],
+  "artwork": "s28-open-delta-voltage-transformer-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/open-delta-voltage-transformer-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/open-delta-voltage-transformer-connection.svg",
+  "id": "open-delta-voltage-transformer-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/open-delta-voltage-transformer-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/open-delta-voltage-transformer-connection.json",
+  "svgPath": "artwork/svg/open-delta-voltage-transformer-connection.svg",
+  "referencePath": "references/open-delta-voltage-transformer-connection.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public potential-transformer symbol family used for context."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-minimum-current-monitoring-relay",
+  "name": "ANSI/IEEE Minimum-current monitoring relay form",
+  "kind": "symbol",
+  "abbreviation": "I LOW",
+  "aliases": [
+    "HCR1F26",
+    "VCR1F26",
+    "IEEE Minimum Current Protection",
+    "ANSI Minimum-current monitoring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of minimum-current monitoring relay: a minimum-current relay operates according to a configured low-current condition.",
+  "description": [
+    "This reference locates minimum-current monitoring relay in Autodesk's IEEE-oriented current protection relays family. A minimum-current relay operates according to a configured low-current condition. Control drawings must identify whether it supervises an operating load, a permissive or another circuit. The public library uses HCR1F26 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Check how the relay handles zero current during intentional shutdown. Low current can be an intentional stopped state; the control logic defines when it is abnormal. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check how the relay handles zero current during intentional shutdown.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name supervised circuit",
+    "Reference enable condition",
+    "State threshold and delay"
+  ],
+  "distinction": "Low current can be an intentional stopped state; the control logic defines when it is abnormal.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Current Protection Relays; published form: Minimum Current Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F26. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-current-protection-relays",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F26 as Minimum Current Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "minimum-current-monitoring-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-minimum-current-monitoring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Minimum Current Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Current Protection Relays, block HCR1F26. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "minimum-current-monitoring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-minimum-current-monitoring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-minimum-current-monitoring-relay.svg",
+  "id": "ansi-minimum-current-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-minimum-current-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-minimum-current-monitoring-relay.json",
+  "svgPath": "artwork/svg/ansi-minimum-current-monitoring-relay.svg",
+  "referencePath": "references/ansi-minimum-current-monitoring-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-current-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Current Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC11EC4D-374C-4191-9534-C802D3932711.htm",
+      "type": "cad-reference",
+      "scope": "Public current protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F26 as Minimum Current Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

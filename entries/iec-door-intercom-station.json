@@ -1,0 +1,103 @@
+{
+  "slug": "iec-door-intercom-station",
+  "name": "Door intercom station symbol",
+  "kind": "symbol",
+  "abbreviation": "IC",
+  "aliases": [
+    "door station",
+    "entry intercom",
+    "intercom outstation"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for an intercom door station with speaker and microphone, used for visitor entry.",
+  "description": [
+    "Door intercom stations combine a loudspeaker, microphone and call button, and sometimes a camera, at a building entry. Plans draw a box with combined loudspeaker and microphone marks, tagged IC or DS, beside the door.",
+    "The station links to indoor answering units and often to an electric door release. The plan should show this link so the installer runs the right cabling. The symbol does not show whether the system is two-wire, IP or audio-only."
+  ],
+  "readingNotes": [
+    "Find the linked answering units.",
+    "Check for door release interface."
+  ],
+  "drawingChecklist": [
+    "State system type.",
+    "Show answering units.",
+    "Show door release."
+  ],
+  "distinction": "A combined loudspeaker and microphone symbol is a component; this marks a complete entry station.",
+  "facts": [
+    {
+      "label": "Elements",
+      "value": "Speaker, microphone, call button"
+    },
+    {
+      "label": "Interfaces",
+      "value": "Answering units and door release"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-annunciation",
+      "relevance": "Public IEC-oriented electroacoustic family for comparing speaker and microphone marks."
+    }
+  ],
+  "related": [
+    "iec-combined-loudspeaker-and-microphone",
+    "iec-push-button-plan-mark",
+    "iec-telephone-set-symbol"
+  ],
+  "artwork": "s28-iec-door-intercom-station",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Intercom station",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-door-intercom-station",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-door-intercom-station.svg",
+  "id": "iec-door-intercom-station",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-door-intercom-station",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-door-intercom-station.json",
+  "svgPath": "artwork/svg/iec-door-intercom-station.svg",
+  "referencePath": "references/iec-door-intercom-station.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-annunciation",
+      "title": "Autodesk IEC-60617 preview: Electroacoustic annunciation forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-4602FA60-BECA-4C77-A435-73C8C05E41F7.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented electroacoustic family for comparing speaker and microphone marks."
+    }
+  ]
+}

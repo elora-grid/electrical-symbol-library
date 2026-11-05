@@ -1,0 +1,105 @@
+{
+  "slug": "yard-local-control-authority-contact",
+  "name": "Yard local-control authority contact",
+  "kind": "symbol",
+  "abbreviation": "YLAC",
+  "aliases": [
+    "Switchyard equipment condition interfaces",
+    "switchyards Switchyard equipment condition interfaces",
+    "switchyards",
+    "Switchyards",
+    "Local-remote selector",
+    "Yard control authority"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Carries the selected outdoor operating cabinet's local authority position to the station controller.",
+  "description": [
+    "Carries the selected outdoor operating cabinet's local authority position to the station controller. Yard equipment supervision carries the condition and support-system information of primary equipment into station alarms. A monitor's declared alarm, measurement and self-fault output need separate point names.",
+    "In a switchyard marshalling kiosk, gas compartment, operating mechanism and cabinet-service indications are collected for the station controller. Their equipment tags identify the actual compartment or mechanism being monitored. For this reference, the drawing identifies “Local-remote selector” at the input and “Yard control authority” at the output. Operating interlocks still apply.",
+    "Keep primary-device identity, compartment boundaries and monitor health visible. A monitoring illustration does not establish a leak rate, operating threshold or remaining equipment life. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Local-remote selector. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Yard control authority. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Operating interlocks still apply.",
+    "Keep primary-device identity, compartment boundaries and monitor health visible. A monitoring illustration does not establish a leak rate, operating threshold or remaining equipment life."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for local-remote selector.",
+    "Identify the destination and defined state of yard control authority.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Operating interlocks still apply."
+  ],
+  "distinction": "Operating interlocks still apply. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Local-remote selector"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Yard control authority"
+    },
+    {
+      "label": "Lookup label",
+      "value": "YLAC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-gis-monitoring",
+      "relevance": "Public technical context for switchyard equipment condition interfaces. Gas, operating mechanism and circuit-breaker condition monitoring. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "partial-discharge-sensor",
+    "ga-substation-rtu",
+    "yard-monitoring-communications-fault-interface"
+  ],
+  "artwork": "pi26-yard-local-control-authority-contact",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-auxiliaries",
+    "input": "Local-remote selector",
+    "output": "Yard control authority"
+  },
+  "url": "https://eloragrid.ai/symbols/yard-local-control-authority-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/yard-local-control-authority-contact.svg",
+  "id": "yard-local-control-authority-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/yard-local-control-authority-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/yard-local-control-authority-contact.json",
+  "svgPath": "artwork/svg/yard-local-control-authority-contact.svg",
+  "referencePath": "references/yard-local-control-authority-contact.md",
+  "publicSources": [
+    {
+      "id": "pi26-gis-monitoring",
+      "publisher": "Hitachi Energy",
+      "title": "Modular switchgear monitoring",
+      "url": "https://www.hitachienergy.com/in/en/products-and-solutions/high-voltage-switchgear-and-breakers/monitoring-and-controlled-switching/modular-switchgear-monitoring-msm",
+      "scope": "Gas, operating mechanism and circuit-breaker condition monitoring.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard equipment condition interfaces. Gas, operating mechanism and circuit-breaker condition monitoring. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

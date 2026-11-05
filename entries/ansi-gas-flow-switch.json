@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-gas-flow-switch",
+  "name": "ANSI/IEEE Gas flow switch form",
+  "kind": "symbol",
+  "abbreviation": "FS GAS",
+  "aliases": [
+    "HFS11S20",
+    "VFS11S20",
+    "IEEE Flow Switch Normally Open - Gas",
+    "ANSI Gas flow switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of gas flow switch: a gas-flow switch changes contact state for a specified gas-flow condition.",
+  "description": [
+    "This reference locates gas flow switch in Autodesk's IEEE-oriented miscellaneous switches family. A gas-flow switch changes contact state for a specified gas-flow condition. Its process connection and operating requirement belong in the equipment schedule as well as the control logic. The public library uses HFS11S20 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Do not substitute liquid-flow characteristics for the selected gas device. Gas-flow actuation is a process-specific input and is separate from the contact's electrical rating. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Do not substitute liquid-flow characteristics for the selected gas device.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify gas service",
+    "Record operating condition",
+    "Reference contact and reset action"
+  ],
+  "distinction": "Gas-flow actuation is a process-specific input and is separate from the contact's electrical rating.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: Flow Switch Normally Open - Gas."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HFS11S20. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HFS11S20 as Flow Switch Normally Open - Gas. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "gas-flow-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-gas-flow-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Flow Switch Normally Open - Gas",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HFS11S20. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "gas-flow-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-gas-flow-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-gas-flow-switch.svg",
+  "id": "ansi-gas-flow-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-gas-flow-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-gas-flow-switch.json",
+  "svgPath": "artwork/svg/ansi-gas-flow-switch.svg",
+  "referencePath": "references/ansi-gas-flow-switch.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HFS11S20 as Flow Switch Normally Open - Gas. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

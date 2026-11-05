@@ -1,0 +1,106 @@
+{
+  "slug": "synchronous-generator-with-brushless-exciter",
+  "name": "Synchronous generator with brushless exciter",
+  "kind": "symbol",
+  "abbreviation": "G 3~ BX",
+  "aliases": [
+    "brushless alternator",
+    "generator with rotating rectifier",
+    "PMG-excited alternator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A synchronous alternator shown with its exciter machine and rotating rectifier, as used on most generating sets.",
+  "description": [
+    "Most modern generating sets use a brushless excitation system: a small exciter generator on the same shaft feeds a rotating diode rectifier, which supplies DC to the main field without slip rings. The automatic voltage regulator controls the exciter field, and some sets add a permanent-magnet pilot exciter to power the regulator independently of the output voltage.",
+    "Schematics draw the main generator circle, a smaller exciter circle on the same shaft line and a rectifier bridge between them, with the regulator connected to the exciter field. Single-line diagrams often reduce this to the main machine with a note, so the expanded form usually appears on the generator control schematic.",
+    "The symbol does not give the regulator type, the excitation support during short circuits, or whether a pilot exciter is fitted. Those determine whether the set can sustain fault current long enough for downstream protection to operate."
+  ],
+  "readingNotes": [
+    "The rotating rectifier is shown inside the shaft boundary; it is not an external rectifier.",
+    "A permanent-magnet pilot exciter indicates excitation support independent of terminal voltage."
+  ],
+  "drawingChecklist": [
+    "Identify regulator type and sensing connections.",
+    "State pilot exciter presence.",
+    "Reference fault-current support data."
+  ],
+  "distinction": "This form shows the excitation chain explicitly; the plain synchronous generator symbol shows only the main machine.",
+  "facts": [
+    {
+      "label": "Excitation path",
+      "value": "Exciter, rotating rectifier, main field"
+    },
+    {
+      "label": "Regulator input",
+      "value": "Exciter field current"
+    },
+    {
+      "label": "Slip rings",
+      "value": "None"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public generator-set application manual describing alternator excitation arrangements."
+    },
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public synchronous generator symbol variants."
+    }
+  ],
+  "related": [
+    "three-phase-synchronous-generator",
+    "diesel-generator-set",
+    "single-phase-bridge-rectifier",
+    "53-exciter-or-dc-generator-relay"
+  ],
+  "artwork": "s28-synchronous-generator-with-brushless-exciter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/synchronous-generator-with-brushless-exciter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/synchronous-generator-with-brushless-exciter.svg",
+  "id": "synchronous-generator-with-brushless-exciter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/synchronous-generator-with-brushless-exciter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/synchronous-generator-with-brushless-exciter.json",
+  "svgPath": "artwork/svg/synchronous-generator-with-brushless-exciter.svg",
+  "referencePath": "references/synchronous-generator-with-brushless-exciter.md",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator-set application manual describing alternator excitation arrangements."
+    },
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public synchronous generator symbol variants."
+    }
+  ]
+}

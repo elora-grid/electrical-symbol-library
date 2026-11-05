@@ -1,0 +1,105 @@
+{
+  "slug": "battery-room-gas-monitor-fault-interface",
+  "name": "Battery-room gas-monitor fault interface",
+  "kind": "symbol",
+  "abbreviation": "BGFI",
+  "aliases": [
+    "Switchroom fire and emergency interfaces",
+    "switchrooms Switchroom fire and emergency interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Gas-monitor health output",
+    "Monitoring fault alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports a gas-monitoring equipment fault separately from a detected gas condition.",
+  "description": [
+    "Reports a gas-monitoring equipment fault separately from a detected gas condition. A fire-system interface passes defined indications and control requests between the fire installation and electrical equipment. The receiving circuit must identify the exact purpose of the signal and the equipment it affects.",
+    "In a switchroom, the fire panel may report detection, system faults and a separately documented shutdown request to the station controller. These signals have different meanings and must not be combined into one unexplained alarm. For this reference, the drawing identifies “Gas-monitor health output” at the input and “Monitoring fault alarm” at the output. A failed monitor cannot establish a clear atmosphere.",
+    "Use the coordinated fire cause-and-effect schedule to define each response. Original interface blocks describe signal roles without specifying suppression operation, evacuation behavior or life-safety performance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Gas-monitor health output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Monitoring fault alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A failed monitor cannot establish a clear atmosphere.",
+    "Use the coordinated fire cause-and-effect schedule to define each response. Original interface blocks describe signal roles without specifying suppression operation, evacuation behavior or life-safety performance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for gas-monitor health output.",
+    "Identify the destination and defined state of monitoring fault alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A failed monitor cannot establish a clear atmosphere."
+  ],
+  "distinction": "A failed monitor cannot establish a clear atmosphere. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Gas-monitor health output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Monitoring fault alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BGFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-room-services",
+      "relevance": "Public technical context for switchroom fire and emergency interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-fire-alarm-control-panel-plan-symbol",
+    "ga-battery-fire-system-interface-panel",
+    "fire-suppression-pre-discharge-indication-interface"
+  ],
+  "artwork": "pi26-battery-room-gas-monitor-fault-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "fire-interfaces",
+    "input": "Gas-monitor health output",
+    "output": "Monitoring fault alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/battery-room-gas-monitor-fault-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-room-gas-monitor-fault-interface.svg",
+  "id": "battery-room-gas-monitor-fault-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-room-gas-monitor-fault-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-room-gas-monitor-fault-interface.json",
+  "svgPath": "artwork/svg/battery-room-gas-monitor-fault-interface.svg",
+  "referencePath": "references/battery-room-gas-monitor-fault-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-room-services",
+      "publisher": "Schneider Electric",
+      "title": "Indoor substation: lighting, fire and auxiliary services",
+      "url": "https://www.electrical-installation.org/enwiki/Indoor_substation",
+      "scope": "Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom fire and emergency interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

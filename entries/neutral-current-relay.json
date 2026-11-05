@@ -1,0 +1,100 @@
+{
+  "slug": "neutral-current-relay",
+  "name": "Neutral-current measuring relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "current in neutral protection",
+    "neutral overcurrent relay",
+    "HCR1F32"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring relay fed from a CT in a neutral conductor or star-point connection, responding to neutral current.",
+  "description": [
+    "This relay form is used where a CT is installed in a neutral conductor or in the earthing connection of a transformer or generator star point. Current there indicates earth faults or, in four-wire systems, heavy unbalance and triplen harmonic loading, depending on where the CT sits.",
+    "The symbol identifies the measured conductor but not the purpose. A neutral CT in the star-point earth lead gives standby earth-fault protection, while one in the four-wire neutral of a feeder sees load unbalance as well, so settings and grading differ greatly."
+  ],
+  "readingNotes": [
+    "Confirm whether the CT is in the neutral conductor or the earthing lead.",
+    "Check grading against downstream earth-fault devices."
+  ],
+  "drawingChecklist": [
+    "Show neutral CT location",
+    "State setting and delay",
+    "Reference grading study"
+  ],
+  "distinction": "A neutral-current relay measures one neutral path; a residual connection sums the three phase CTs to derive the same quantity.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Current in a neutral or star-point conductor"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F32 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the In Neutral block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "residual-connection-of-phase-cts",
+    "earth-fault-current-relay",
+    "51-time-overcurrent"
+  ],
+  "artwork": "s28-neutral-current-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/neutral-current-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/neutral-current-relay.svg",
+  "id": "neutral-current-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/neutral-current-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/neutral-current-relay.json",
+  "svgPath": "artwork/svg/neutral-current-relay.svg",
+  "referencePath": "references/neutral-current-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the In Neutral block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

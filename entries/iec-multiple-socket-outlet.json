@@ -1,0 +1,104 @@
+{
+  "slug": "iec-multiple-socket-outlet",
+  "name": "Multiple socket outlet",
+  "kind": "symbol",
+  "abbreviation": "SOn",
+  "aliases": [
+    "multi-gang socket outlet",
+    "double or triple outlet plan mark",
+    "n-gang power point"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a group of socket outlets on one plate, shown by a gang number or stacked outlet strokes.",
+  "description": [
+    "A multiple socket outlet groups two, three or four outlets in one accessory or box. IEC-style plans usually draw a single outlet form with the number of outlets written beside it, or with short parallel strokes on the outlet, instead of drawing each outlet separately.",
+    "The number is important for take-off and for load estimates. A desk position shown as a 3-gang outlet with data outlets beside it is a common office pattern; the reader should count the gang number, not the symbol, when scheduling accessories.",
+    "The library already lists a duplex receptacle form from a schematic CAD family. This plan mark is the architectural counting form; it does not say whether each outlet is separately switched or whether they share one circuit."
+  ],
+  "readingNotes": [
+    "Read the gang number; the symbol may look identical to a single outlet without it.",
+    "Check whether switches are integral to each gang."
+  ],
+  "drawingChecklist": [
+    "Write the gang number on or beside the symbol.",
+    "State switching per gang if relevant.",
+    "Tag the circuit."
+  ],
+  "distinction": "The duplex receptacle form in schematic libraries shows two outlets graphically; this plan mark counts outlets with a numeral.",
+  "facts": [
+    {
+      "label": "Count method",
+      "value": "Numeral beside the outlet form"
+    },
+    {
+      "label": "Take-off note",
+      "value": "Count accessories by gang, not by symbol"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-receptacles",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ],
+  "related": [
+    "iec-duplex-power-receptacle",
+    "iec-socket-outlet-with-protective-contact",
+    "iec-floor-box-outlet"
+  ],
+  "artwork": "s28-iec-multiple-socket-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Multiple socket outlet",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-multiple-socket-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-multiple-socket-outlet.svg",
+  "id": "iec-multiple-socket-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-multiple-socket-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-multiple-socket-outlet.json",
+  "svgPath": "artwork/svg/iec-multiple-socket-outlet.svg",
+  "referencePath": "references/iec-multiple-socket-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-receptacles",
+      "title": "Autodesk IEC-60617 preview: Single and duplex power-receptacle forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7DAEDB03-74FC-47A2-9C50-9164297AA5A3.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ]
+}

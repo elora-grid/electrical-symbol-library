@@ -1,0 +1,104 @@
+{
+  "slug": "iec-floor-box-outlet",
+  "name": "Floor box outlet",
+  "kind": "symbol",
+  "abbreviation": "FB",
+  "aliases": [
+    "floor outlet box",
+    "floor service box",
+    "floor socket outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a flush floor box containing power and often data outlets in open-plan floors.",
+  "description": [
+    "A floor box houses socket outlets and frequently data outlets below a hinged lid flush with the finished floor. Plans draw a square around the outlet mark, sometimes with a diagonal or the letters FB, and list the box contents in a schedule because each box can hold several accessory types.",
+    "Floor boxes are used in open offices, meeting rooms and lobbies where furniture is away from walls. They require coordination with the floor finish, raised-floor tiles or screed thickness, so the symbol is often cross-referenced to an architectural floor setting-out plan.",
+    "The square does not tell you how many outlets the box contains. Read the floor box schedule for power, data and AV contents and the circuit allocation of each power outlet."
+  ],
+  "readingNotes": [
+    "The square outline around the outlet is the usual floor indication.",
+    "Expect a schedule listing box contents."
+  ],
+  "drawingChecklist": [
+    "Reference the floor box schedule entry.",
+    "Coordinate setting out with the floor plan grid.",
+    "Tag power circuits and data outlet numbers."
+  ],
+  "distinction": "A multiple socket outlet on a wall shows a gang count; a floor box is an enclosure whose contents are scheduled separately.",
+  "facts": [
+    {
+      "label": "Mounting",
+      "value": "Flush in floor screed or raised access floor"
+    },
+    {
+      "label": "Contents",
+      "value": "Power, data and AV modules per schedule"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "iec-multiple-socket-outlet",
+    "iec-data-outlet",
+    "iec-socket-outlet-with-protective-contact"
+  ],
+  "artwork": "s28-iec-floor-box-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Floor outlet",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-floor-box-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-floor-box-outlet.svg",
+  "id": "iec-floor-box-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-floor-box-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-floor-box-outlet.json",
+  "svgPath": "artwork/svg/iec-floor-box-outlet.svg",
+  "referencePath": "references/iec-floor-box-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

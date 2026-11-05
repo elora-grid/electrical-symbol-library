@@ -1,0 +1,99 @@
+{
+  "slug": "trip-circuit-supervision-relay",
+  "name": "Trip-circuit supervision relay",
+  "kind": "symbol",
+  "abbreviation": "TCS",
+  "aliases": [
+    "trip circuit supervision",
+    "TCS relay",
+    "trip coil monitor"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Relay that passes a small current through the trip circuit to check continuity and alarms if the circuit is broken.",
+  "description": [
+    "A trip-circuit supervision relay monitors the wiring, auxiliary contacts and trip coil of a circuit breaker by passing a current too small to trip it. If the trip circuit is broken or its supply fails, the relay drops out and raises an alarm, so a failed trip path is found before a fault needs it.",
+    "Schemes differ in whether they supervise the circuit with the breaker open and closed, which needs resistors or connections across the breaker auxiliary contacts. The symbol shows the relay but the reader must check which states are actually covered."
+  ],
+  "readingNotes": [
+    "Check supervision covers both breaker positions.",
+    "Verify the supervision current cannot operate the trip coil."
+  ],
+  "drawingChecklist": [
+    "Show connections across trip contacts",
+    "State supervised breaker states",
+    "Reference alarm output"
+  ],
+  "distinction": "Trip-circuit supervision monitors trip path continuity; a lockout relay latches after a trip.",
+  "facts": [
+    {
+      "label": "Monitored items",
+      "value": "Trip coil, wiring and supply"
+    },
+    {
+      "label": "Output",
+      "value": "Alarm on loss of continuity"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-functions",
+      "relevance": "Public relay function list including trip-circuit supervision."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "86-lockout",
+    "relay-coil"
+  ],
+  "artwork": "s28-trip-circuit-supervision-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/trip-circuit-supervision-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/trip-circuit-supervision-relay.svg",
+  "id": "trip-circuit-supervision-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/trip-circuit-supervision-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/trip-circuit-supervision-relay.json",
+  "svgPath": "artwork/svg/trip-circuit-supervision-relay.svg",
+  "referencePath": "references/trip-circuit-supervision-relay.md",
+  "publicSources": [
+    {
+      "id": "abb-functions",
+      "title": "Relion 620: functions, codes and symbols",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Published product mappings between function names, IEC 61850 identifiers, IEC mnemonics and ANSI designations. These are product examples, not universal equivalences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public relay function list including trip-circuit supervision."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

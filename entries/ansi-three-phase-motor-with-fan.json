@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-three-phase-motor-with-fan",
+  "name": "ANSI/IEEE Three-phase motor with fan form",
+  "kind": "symbol",
+  "abbreviation": "M 3PH FAN",
+  "aliases": [
+    "HMO1M2",
+    "VMO1M2",
+    "IEEE 3 Phase Motor with Fan",
+    "ANSI Three-phase motor with fan"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-phase motor with fan: a three-phase motor with fan identifies an electrically driven ventilation or cooling load.",
+  "description": [
+    "This reference locates three-phase motor with fan in Autodesk's IEEE-oriented 3 phase motors family. A three-phase motor with fan identifies an electrically driven ventilation or cooling load. The motor supply and the mechanical airflow arrangement are documented through linked tags. The public library uses HMO1M2 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Identify whether the fan is an independent auxiliary load or associated with another machine. The fan symbol describes driven equipment while the motor symbol describes its electrical load. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify whether the fan is an independent auxiliary load or associated with another machine.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Match motor/fan tag",
+    "State supply and power",
+    "Reference control and airflow requirements"
+  ],
+  "distinction": "The fan symbol describes driven equipment while the motor symbol describes its electrical load.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Phase Motors; published form: 3 Phase Motor with Fan."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HMO1M2. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-392101fd-a88c-4bac-96cd-1c676094c262",
+      "relevance": "Public IEEE-oriented 3 Phase Motors table explicitly lists HMO1M2 as 3 Phase Motor with Fan. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-phase-motor-with-fan",
+    "motor",
+    "contactor"
+  ],
+  "artwork": "s28-ansi-three-phase-motor-with-fan",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Motor with Fan",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Phase Motors, block HMO1M2. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-phase-motor-with-fan"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-phase-motor-with-fan",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-phase-motor-with-fan.svg",
+  "id": "ansi-three-phase-motor-with-fan",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-phase-motor-with-fan",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-phase-motor-with-fan.json",
+  "svgPath": "artwork/svg/ansi-three-phase-motor-with-fan.svg",
+  "referencePath": "references/ansi-three-phase-motor-with-fan.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-392101fd-a88c-4bac-96cd-1c676094c262",
+      "title": "Autodesk IEEE Symbol Preview — 3 Phase Motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-392101FD-A88C-4BAC-96CD-1C676094C262.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Phase Motors table explicitly lists HMO1M2 as 3 Phase Motor with Fan. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

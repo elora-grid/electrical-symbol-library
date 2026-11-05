@@ -1,0 +1,90 @@
+{
+  "slug": "iec-open-circuit-output-l-type",
+  "name": "IEC open-circuit output, L-type (open collector)",
+  "kind": "symbol",
+  "abbreviation": "OC-L",
+  "aliases": [
+    "underlined diamond output",
+    "open-collector qualifier",
+    "open-drain qualifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Underlined diamond inside an outline: an open-circuit output that can only drive a low level.",
+  "description": [
+    "The underlined diamond marks an output, such as an NPN open collector or an N-channel open drain, that can supply a relatively low-impedance L level when on and is open when off. An external pull-up is needed. TI's public overview notes this output type supports a positive-logic wired-AND connection.",
+    "When a variant with a built-in passive pull-up exists, a further mark inside the diamond distinguishes it. Reviewing the exact qualifier tells the drafter whether an external pull-up must be added to the schematic.",
+    "The qualifier does not state the maximum pull-up voltage. Some open-drain outputs tolerate a higher pull-up rail than the device supply and some do not."
+  ],
+  "readingNotes": [
+    "Underline below the diamond: pulls low only.",
+    "Find the external pull-up on the net."
+  ],
+  "drawingChecklist": [
+    "Draw the diamond with its underline next to the output.",
+    "Show the pull-up resistor.",
+    "Record the permitted pull-up voltage."
+  ],
+  "distinction": "The H-type open-circuit output has the line above the diamond and drives a high level only.",
+  "facts": [
+    {
+      "label": "Drives",
+      "value": "Low level only"
+    },
+    {
+      "label": "Wired connection",
+      "value": "Wired-AND in positive logic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Describes the L-type open-circuit output qualifier and wired-AND capability."
+    }
+  ],
+  "related": [
+    "iec-open-circuit-output-h-type",
+    "iec-open-collector-buffer",
+    "ansi-wired-and-connection"
+  ],
+  "artwork": "s28-iec-open-circuit-output-l-type",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Diamond with underline inside the outline at the output",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-open-circuit-output-l-type",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-open-circuit-output-l-type.svg",
+  "id": "iec-open-circuit-output-l-type",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-open-circuit-output-l-type",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-open-circuit-output-l-type.json",
+  "svgPath": "artwork/svg/iec-open-circuit-output-l-type.svg",
+  "referencePath": "references/iec-open-circuit-output-l-type.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Describes the L-type open-circuit output qualifier and wired-AND capability."
+    }
+  ]
+}

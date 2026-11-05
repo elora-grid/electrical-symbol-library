@@ -1,0 +1,86 @@
+{
+  "slug": "relative-humidity-sensor",
+  "name": "Relative humidity sensor",
+  "kind": "symbol",
+  "abbreviation": "RH",
+  "aliases": [
+    "Relative humidity sensor",
+    "Relative humidity sensor functional block",
+    "Relative humidity sensor schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A relative humidity sensor measures moisture in air relative to the saturation condition at the relevant temperature.",
+  "description": [
+    "A relative humidity sensor measures moisture in air relative to the saturation condition at the relevant temperature.",
+    "A switchroom monitor can report humidity alongside temperature when assessing its environment.",
+    "Identify the air location being monitored and show temperature information where the selected interpretation needs it. Relative humidity compares water vapour with saturation at the relevant temperature. This is why the same moisture content can produce a different relative-humidity value as temperature changes. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the sensor’s air location and exposure.",
+    "Distinguish humidity and temperature outputs.",
+    "Reference the selected sensor’s mounting and response requirements.",
+    "Relative humidity and absolute water content are different quantities."
+  ],
+  "drawingChecklist": [
+    "Identify the sensor’s air location and exposure.",
+    "Distinguish humidity and temperature outputs.",
+    "Reference the selected sensor’s mounting and response requirements."
+  ],
+  "distinction": "Relative humidity and absolute water content are different quantities.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Air moisture and temperature"
+    },
+    {
+      "label": "Concept output",
+      "value": "Relative-humidity reading"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-humidity",
+      "relevance": "Humidity sensing principles: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-relative-humidity-sensor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/relative-humidity-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/relative-humidity-sensor.svg",
+  "id": "relative-humidity-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/relative-humidity-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/relative-humidity-sensor.json",
+  "svgPath": "artwork/svg/relative-humidity-sensor.svg",
+  "referencePath": "references/relative-humidity-sensor.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-humidity",
+      "title": "Humidity sensing principles",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/an/snaa318/snaa318.pdf",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Humidity sensing principles: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-battery",
+  "name": "ANSI/IEEE battery symbol",
+  "kind": "symbol",
+  "abbreviation": "BT",
+  "aliases": [
+    "IEEE battery symbol",
+    "ANSI multi-cell battery symbol",
+    "IEEE 315 battery"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-style multi-cell battery drawn as alternating long and short plates, with polarity marked, for American drawing sets.",
+  "description": [
+    "In IEEE-style drawing sets a battery is drawn as alternating long and short lines, the long line being positive, with either several plate pairs or two pairs separated by a dashed line to show that cells are omitted. The device designation is commonly BT or B rather than the IEC letter G.",
+    "The form appears on station DC schematics, control power drawings and microgrid single-line diagrams in North American projects. This is a convention-specific lookup; the geometry here is independently drawn to explain the connection, and is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "The longer line marks the positive terminal.",
+    "A dashed gap means additional cells not drawn."
+  ],
+  "drawingChecklist": [
+    "State nominal voltage and ampere-hour capacity.",
+    "Mark polarity.",
+    "Cross-reference the battery charger and DC distribution."
+  ],
+  "distinction": "The IEEE convention uses BT or B as the device letter; the IEC convention uses G for the same battery concept.",
+  "facts": [
+    {
+      "label": "Device letter",
+      "value": "BT or B in IEEE-style sets"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics. IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE/ANSI graphic-symbol standard status and context; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Public IEEE-oriented miscellaneous symbol preview page used for convention context."
+    }
+  ],
+  "related": [
+    "battery",
+    "battery-single-cell",
+    "float-boost-battery-charger"
+  ],
+  "artwork": "s28-ansi-battery",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "IEEE-style multi-cell battery with omitted-cell gap",
+    "counterpart": "battery",
+    "reference": "Form described from IEEE/ANSI 315 drawing practice as publicly summarised; no certified reproduction of the standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-battery",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-battery.svg",
+  "id": "ansi-battery",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-battery",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-battery.json",
+  "svgPath": "artwork/svg/ansi-battery.svg",
+  "referencePath": "references/ansi-battery.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE/ANSI graphic-symbol standard status and context; not a source of reproduced artwork."
+    },
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented miscellaneous symbol preview page used for convention context."
+    }
+  ]
+}

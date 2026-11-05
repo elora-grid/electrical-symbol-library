@@ -1,0 +1,84 @@
+{
+  "slug": "insulation-resistance-meter",
+  "name": "Insulation resistance meter",
+  "kind": "symbol",
+  "abbreviation": "MΩ",
+  "aliases": [
+    "megohmmeter",
+    "insulation tester",
+    "megger"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Indicating instrument applying a high DC test voltage to read insulation resistance in megohms.",
+  "description": [
+    "An insulation resistance meter applies a DC test voltage, typically hundreds or thousands of volts, between conductors and earth and reads the leakage as resistance in megohms. On drawings it appears in test procedures and in permanently installed test panels for motors and cables.",
+    "The test voltage can damage electronics and leaves charge on capacitive cables, so the drawing should show what must be disconnected and how the circuit is discharged afterwards. The symbol itself does not state the test voltage or the acceptance value."
+  ],
+  "readingNotes": [
+    "Identify electronics that must be disconnected before testing.",
+    "Check the test voltage suits the insulation rating."
+  ],
+  "drawingChecklist": [
+    "State test voltage",
+    "Show disconnection points",
+    "Reference discharge procedure"
+  ],
+  "distinction": "An insulation resistance meter is a periodic test instrument; an insulation monitoring relay checks an unearthed system continuously in service.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Insulation resistance in megohms"
+    },
+    {
+      "label": "Test source",
+      "value": "High-voltage DC from the instrument"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "ohmmeter",
+    "insulation-monitoring-relay",
+    "iec-insulation-failure-indication"
+  ],
+  "artwork": "s28-insulation-resistance-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/insulation-resistance-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/insulation-resistance-meter.svg",
+  "id": "insulation-resistance-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/insulation-resistance-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/insulation-resistance-meter.json",
+  "svgPath": "artwork/svg/insulation-resistance-meter.svg",
+  "referencePath": "references/insulation-resistance-meter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

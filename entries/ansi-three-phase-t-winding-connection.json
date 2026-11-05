@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-three-phase-t-winding-connection",
+  "name": "ANSI/IEEE Three-phase T winding connection form",
+  "kind": "symbol",
+  "abbreviation": "Q060204",
+  "aliases": [
+    "Q060204",
+    "IEEE 3 Phase T Winding",
+    "ANSI Three-phase T winding connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-phase t winding connection: a T winding qualifier identifies the publisher's three-phase T connection form.",
+  "description": [
+    "This reference locates three-phase t winding connection in Autodesk's IEEE-oriented winding family. A T winding qualifier identifies the publisher's three-phase T connection form. The public library uses Q060204 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "State the winding relationships and terminals in the equipment documentation. The T-form indication does not establish a complete transformer ratio or vector group. State the winding relationships and terminals in the equipment documentation. The T-form indication does not establish a complete transformer ratio or vector group. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the winding relationships and terminals in the equipment documentation.",
+    "The T-form indication does not establish a complete transformer ratio or vector group."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the winding relationships and terminals in the equipment documentation.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The T-form indication does not establish a complete transformer ratio or vector group.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Winding; published form: 3 Phase T Winding."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q060204. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State the winding relationships and terminals in the equipment documentation."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-winding",
+      "relevance": "Public IEEE-oriented Winding table explicitly lists Q060204 as 3 Phase T Winding. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-three-phase-t-winding-connection",
+    "motor",
+    "generator"
+  ],
+  "artwork": "s28-ansi-three-phase-t-winding-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase T Winding",
+    "reference": "Autodesk IEEE Symbol Preview: Winding, block Q060204. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-three-phase-t-winding-connection"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-phase-t-winding-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-phase-t-winding-connection.svg",
+  "id": "ansi-three-phase-t-winding-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-phase-t-winding-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-phase-t-winding-connection.json",
+  "svgPath": "artwork/svg/ansi-three-phase-t-winding-connection.svg",
+  "referencePath": "references/ansi-three-phase-t-winding-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-winding",
+      "title": "Autodesk IEEE Symbol Preview: Winding",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-19F0C368-8E22-46C6-BFC1-D311EED77CA5.htm",
+      "type": "cad-reference",
+      "scope": "Public winding family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Winding table explicitly lists Q060204 as 3 Phase T Winding. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

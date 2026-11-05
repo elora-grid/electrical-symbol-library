@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-critical-load-exemption-gate",
+  "name": "Microgrid critical-load exemption gate",
+  "kind": "symbol",
+  "abbreviation": "MCEG",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Critical-load classification",
+    "Shedding exemption"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the loads excluded from the assigned automatic shedding action.",
+  "description": [
+    "Identifies the loads excluded from the assigned automatic shedding action. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Critical-load classification” at the input and “Shedding exemption” at the output. Exemption does not guarantee uninterrupted supply.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Critical-load classification. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Shedding exemption. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Exemption does not guarantee uninterrupted supply.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for critical-load classification.",
+    "Identify the destination and defined state of shedding exemption.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Exemption does not guarantee uninterrupted supply."
+  ],
+  "distinction": "Exemption does not guarantee uninterrupted supply. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Critical-load classification"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Shedding exemption"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MCEG is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-measured-load-group-estimator"
+  ],
+  "artwork": "pi26-microgrid-critical-load-exemption-gate",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Critical-load classification",
+    "output": "Shedding exemption"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-critical-load-exemption-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-critical-load-exemption-gate.svg",
+  "id": "microgrid-critical-load-exemption-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-critical-load-exemption-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-critical-load-exemption-gate.json",
+  "svgPath": "artwork/svg/microgrid-critical-load-exemption-gate.svg",
+  "referencePath": "references/microgrid-critical-load-exemption-gate.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent",
+  "name": "IEC mechanical position-switch contact: four-directional lever actuated - normally open with detent",
+  "kind": "symbol",
+  "abbreviation": "LS",
+  "aliases": [
+    "HLS11S88",
+    "VLS11S88",
+    "mechanical position-switch contact Four-directional Lever Actuated - Normally Open with Detent"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Mechanical position-switch contact form: Four-directional Lever Actuated - Normally Open with Detent.",
+  "description": [
+    "A mechanically operated position switch changes its contact state when travel, a cam or a lever reaches the documented operating condition. The actuator mark explains how movement reaches the switch; the electrical contact still has to be read in its stated unoperated position. This entry identifies the four-directional lever actuated - normally open with detent form in the publisher's IEC-context family.",
+    "A moving carriage may operate the switch near the end of travel, or an operator may move a multidirectional lever. Identify the actual direction or target position on the drawing and connect the switch tag to the corresponding mechanical detail. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state. The detent retains the lever position after actuation; a retained indication and a spring-return position input require different operating logic.",
+    "Four operating directions are represented. Identify the direction-to-contact mapping in the mechanical detail rather than assuming one signal applies to every movement. Detents retain an operating position and are different from a spring-return mechanism. The schematic does not supply operating travel, overtravel, contact force or a safety performance level; use the selected switch data for those properties."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "The detent retains the lever position after actuation; a retained indication and a spring-return position input require different operating logic.",
+    "Four operating directions are represented. Identify the direction-to-contact mapping in the mechanical detail rather than assuming one signal applies to every movement.",
+    "Detents retain an operating position and are different from a spring-return mechanism. The schematic does not supply operating travel, overtravel, contact force or a safety performance level; use the selected switch data for those properties."
+  ],
+  "drawingChecklist": [
+    "Name the position, movement or event that operates the switch.",
+    "Show whether the mechanism returns or remains in a detent.",
+    "Match terminals and contact state to the mechanical operating detail."
+  ],
+  "distinction": "This entry adds the four-directional lever actuated - normally open with detent detail to the broader mechanical position-switch contact family. Detents retain an operating position and are different from a spring-return mechanism. The schematic does not supply operating travel, overtravel, contact force or a safety performance level; use the selected switch data for those properties.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Four-directional Lever Actuated - Normally Open with Detent"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HLS11S88 / VLS11S88. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "mechanical position-switch contact"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-limits",
+      "relevance": "Public Limit Switches table explicitly lists HLS11S88 / VLS11S88 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "normally-open-limit-switch",
+    "normally-closed-limit-switch",
+    "roller-operated-limit-switch"
+  ],
+  "artwork": "s28-iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Four-directional Lever Actuated - Normally Open with Detent",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Limit Switches, HLS11S88 / VLS11S88. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent.svg",
+  "id": "iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent.json",
+  "svgPath": "artwork/svg/iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent.svg",
+  "referencePath": "references/iec-mechanical-position-switch-contact-four-directional-lever-actuated-normally-open-with-detent.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-limits",
+      "title": "AutoCAD Electrical: Limit switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3CF4BE45-A302-4757-B5C9-C1AFF9BDC512.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Limit Switches table explicitly lists HLS11S88 / VLS11S88 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

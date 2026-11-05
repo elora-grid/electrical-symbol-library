@@ -1,0 +1,103 @@
+{
+  "slug": "iec-fire-alarm-sounder-plan-symbol",
+  "name": "Fire alarm sounder plan symbol",
+  "kind": "symbol",
+  "abbreviation": "SNDR",
+  "aliases": [
+    "fire alarm sounder",
+    "electronic sounder",
+    "alarm horn"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a fire alarm sounder that gives the audible evacuation signal.",
+  "description": [
+    "Fire alarm sounders are drawn as a horn shape or a square with a sound mark, at wall or ceiling positions throughout the building. Their spacing is set by the required sound pressure level above ambient in each area.",
+    "Sounders are on sounder circuits or addressable loops, so the plan tags their circuit and address. Bedrooms and noisy plant rooms may require extra devices or visual alarms. The symbol does not state sound level or tone. Audibility is verified by commissioning measurements."
+  ],
+  "readingNotes": [
+    "Check spacing in noisy areas.",
+    "Read circuit or loop tag."
+  ],
+  "drawingChecklist": [
+    "Tag circuit.",
+    "State tone and level.",
+    "Add visual devices where needed."
+  ],
+  "distinction": "A schematic siren or buzzer symbol represents a component; this plan symbol marks a building alarm device.",
+  "facts": [
+    {
+      "label": "Signal",
+      "value": "Audible evacuation tone"
+    },
+    {
+      "label": "Design check",
+      "value": "Sound level above ambient"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-annunciation",
+      "relevance": "Public IEC-oriented electroacoustic annunciation family for comparing audible output marks."
+    }
+  ],
+  "related": [
+    "iec-audible-siren",
+    "iec-combined-sounder-visual-alarm-device",
+    "iec-manual-call-point-plan-symbol"
+  ],
+  "artwork": "s28-iec-fire-alarm-sounder-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Fire alarm sounder",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-fire-alarm-sounder-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-fire-alarm-sounder-plan-symbol.svg",
+  "id": "iec-fire-alarm-sounder-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-fire-alarm-sounder-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-fire-alarm-sounder-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-fire-alarm-sounder-plan-symbol.svg",
+  "referencePath": "references/iec-fire-alarm-sounder-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-annunciation",
+      "title": "Autodesk IEC-60617 preview: Electroacoustic annunciation forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-4602FA60-BECA-4C77-A435-73C8C05E41F7.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented electroacoustic annunciation family for comparing audible output marks."
+    }
+  ]
+}

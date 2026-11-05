@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-measurement-stale-data-supervisor",
+  "name": "Microgrid measurement stale-data supervisor",
+  "kind": "symbol",
+  "abbreviation": "MMSS",
+  "aliases": [
+    "Microgrid supervisory and communication interfaces",
+    "microgrids Microgrid supervisory and communication interfaces",
+    "microgrids",
+    "Microgrids",
+    "Measurement age and quality",
+    "Stale-data indication"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Marks the assigned power-system measurement invalid when its defined freshness condition is exceeded.",
+  "description": [
+    "Marks the assigned power-system measurement invalid when its defined freshness condition is exceeded. Microgrid supervision coordinates measurements, control authority and resource communication without replacing local protection. Each resource value needs a named measurement boundary, freshness condition and intended control use.",
+    "In a microgrid control room, the operator can see source availability, active constraints and current operating mode. A communication failure should remain distinguishable from an electrical resource failure. For this reference, the drawing identifies “Measurement age and quality” at the input and “Stale-data indication” at the output. The permitted age depends on the control use.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Measurement age and quality. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Stale-data indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The permitted age depends on the control use.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for measurement age and quality.",
+    "Identify the destination and defined state of stale-data indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The permitted age depends on the control use."
+  ],
+  "distinction": "The permitted age depends on the control use. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Measurement age and quality"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Stale-data indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MMSS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "sequence-of-events-recorder",
+    "microgrid-resource-command-acceptance-feedback"
+  ],
+  "artwork": "pi26-microgrid-measurement-stale-data-supervisor",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-monitoring",
+    "input": "Measurement age and quality",
+    "output": "Stale-data indication"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-measurement-stale-data-supervisor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-measurement-stale-data-supervisor.svg",
+  "id": "microgrid-measurement-stale-data-supervisor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-measurement-stale-data-supervisor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-measurement-stale-data-supervisor.json",
+  "svgPath": "artwork/svg/microgrid-measurement-stale-data-supervisor.svg",
+  "referencePath": "references/microgrid-measurement-stale-data-supervisor.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

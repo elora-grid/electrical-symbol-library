@@ -1,0 +1,100 @@
+{
+  "slug": "flexible-bonding-strap",
+  "name": "Flexible bonding strap",
+  "kind": "symbol",
+  "abbreviation": "BS",
+  "aliases": [
+    "braided bonding strap",
+    "door earth strap",
+    "bonding braid"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A flexible braid or strap bonding a movable or vibrating metal part, such as a panel door, to the earthing system.",
+  "description": [
+    "A bonding strap connects metal parts that cannot be bonded with rigid conductors, such as hinged doors carrying equipment, gland plates, cable tray across expansion joints and equipment on anti-vibration mounts. Braided straps also provide low impedance at high frequency, which helps with EMC bonding in drive panels.",
+    "The symbol does not state cross-sectional area or length, both of which affect protective and high-frequency performance. A long thin strap may satisfy continuity tests but give poor EMC performance. Painted surfaces under strap lugs must be cleaned for a reliable connection."
+  ],
+  "readingNotes": [
+    "Check strap size against the protective conductor rule.",
+    "Look for EMC bonding requirements in drive panels."
+  ],
+  "drawingChecklist": [
+    "State strap cross-section and length.",
+    "Show both bonding points.",
+    "Specify paint removal at lugs."
+  ],
+  "distinction": "A bonding strap is a flexible protective or EMC bond; a flexible conductor is a circuit conductor that must flex in service.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Wavy or braided link between a part and earth"
+    },
+    {
+      "label": "Typical use",
+      "value": "Panel doors, gland plates and tray expansion joints"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public installation-guide earthing and equipotential connection elements."
+    },
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public IEC-oriented bonding forms."
+    }
+  ],
+  "related": [
+    "protective-equipotential-bonding",
+    "flexible-conductor",
+    "iec-frame-or-chassis-connection"
+  ],
+  "artwork": "s28-flexible-bonding-strap",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/flexible-bonding-strap",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/flexible-bonding-strap.svg",
+  "id": "flexible-bonding-strap",
+  "canonicalUrl": "https://eloragrid.ai/symbols/flexible-bonding-strap",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/flexible-bonding-strap.json",
+  "svgPath": "artwork/svg/flexible-bonding-strap.svg",
+  "referencePath": "references/flexible-bonding-strap.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide earthing and equipotential connection elements."
+    },
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented bonding forms."
+    }
+  ]
+}

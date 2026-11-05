@@ -1,0 +1,105 @@
+{
+  "slug": "three-pole-trip-conversion-block",
+  "name": "Three-pole trip conversion block",
+  "kind": "symbol",
+  "abbreviation": "TTCB",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Selected protection condition",
+    "Three-pole trip request"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Converts the defined protection condition into an assigned three-pole opening request.",
+  "description": [
+    "Converts the defined protection condition into an assigned three-pole opening request. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Selected protection condition” at the input and “Three-pole trip request” at the output. Conversion criteria depend on the approved scheme.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Selected protection condition. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Three-pole trip request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Conversion criteria depend on the approved scheme.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for selected protection condition.",
+    "Identify the destination and defined state of three-pole trip request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Conversion criteria depend on the approved scheme."
+  ],
+  "distinction": "Conversion criteria depend on the approved scheme. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Selected protection condition"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Three-pole trip request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TTCB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "protection-communication-failure-fallback"
+  ],
+  "artwork": "pi26-three-pole-trip-conversion-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Selected protection condition",
+    "output": "Three-pole trip request"
+  },
+  "url": "https://eloragrid.ai/symbols/three-pole-trip-conversion-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/three-pole-trip-conversion-block.svg",
+  "id": "three-pole-trip-conversion-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-pole-trip-conversion-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-pole-trip-conversion-block.json",
+  "svgPath": "artwork/svg/three-pole-trip-conversion-block.svg",
+  "referencePath": "references/three-pole-trip-conversion-block.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

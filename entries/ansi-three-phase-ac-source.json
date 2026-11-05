@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-three-phase-ac-source",
+  "name": "ANSI/IEEE Three-phase AC source form",
+  "kind": "symbol",
+  "abbreviation": "AC 3PH",
+  "aliases": [
+    "HPW1_3PH",
+    "VPW1_3PH",
+    "IEEE Power Source 3 Phase",
+    "ANSI Three-phase AC source"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-phase ac source: a three-phase AC source identifies a documented three-phase supply boundary.",
+  "description": [
+    "This reference locates three-phase ac source in Autodesk's IEEE-oriented miscellaneous family. A three-phase AC source identifies a documented three-phase supply boundary. Its nominal voltage, phase sequence and neutral availability must be stated where the design relies on them. The public library uses HPW1_3PH for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Locate the source boundary before interpreting upstream ownership or available fault data. Three-phase source designation does not establish an accessible neutral conductor. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Locate the source boundary before interpreting upstream ownership or available fault data.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name supply origin",
+    "State voltage and phase sequence",
+    "Reference neutral/earthing arrangement"
+  ],
+  "distinction": "Three-phase source designation does not establish an accessible neutral conductor.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous; published form: Power Source 3 Phase."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPW1_3PH. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Public IEEE-oriented Miscellaneous table explicitly lists HPW1_3PH as Power Source 3 Phase. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-phase-ac-source",
+    "generator",
+    "busbar"
+  ],
+  "artwork": "s28-ansi-three-phase-ac-source",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Power Source 3 Phase",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous, block HPW1_3PH. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-phase-ac-source"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-phase-ac-source",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-phase-ac-source.svg",
+  "id": "ansi-three-phase-ac-source",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-phase-ac-source",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-phase-ac-source.json",
+  "svgPath": "artwork/svg/ansi-three-phase-ac-source.svg",
+  "referencePath": "references/ansi-three-phase-ac-source.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous table explicitly lists HPW1_3PH as Power Source 3 Phase. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

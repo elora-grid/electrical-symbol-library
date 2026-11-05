@@ -1,0 +1,94 @@
+{
+  "slug": "iec-pnp-phototransistor-photosensitive-pnp-transistor",
+  "name": "IEC PNP phototransistor: photosensitive pnp transistor",
+  "kind": "symbol",
+  "abbreviation": "PNP PHOTO",
+  "aliases": [
+    "HDV1B6",
+    "VDV1B6",
+    "PNP phototransistor Photosensitive PNP Transistor"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "PNP phototransistor form: Photosensitive PNP Transistor.",
+  "description": [
+    "A PNP phototransistor uses incident light to control a PNP transistor current path. The emitter arrow and supply orientation distinguish it from the NPN form. This entry identifies the photosensitive pnp transistor form in the publisher's IEC-context family.",
+    "A light-sensitive input stage can feed a conditioning circuit without a separately driven base connection. Check the emitter and collector assignments before following the measurement current. ",
+    "A PNP phototransistor is different from a photodiode: its transistor action adds current gain, with different speed and bias requirements."
+  ],
+  "readingNotes": [
+    "A light-sensitive input stage can feed a conditioning circuit without a separately driven base connection. Check the emitter and collector assignments before following the measurement current.",
+    "A PNP phototransistor is different from a photodiode: its transistor action adds current gain, with different speed and bias requirements."
+  ],
+  "drawingChecklist": [
+    "Identify terminal polarity and the required bias region.",
+    "Reference the selected component characteristics and package pinout.",
+    "Show the surrounding bias and signal-conditioning network."
+  ],
+  "distinction": "This entry adds the photosensitive pnp transistor detail to the broader PNP phototransistor family. A PNP phototransistor is different from a photodiode: its transistor action adds current gain, with different speed and bias requirements.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Photosensitive PNP Transistor"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HDV1B6 / VDV1B6. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "PNP phototransistor"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public Semiconductor Components table explicitly lists HDV1B6 / VDV1B6 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "diode",
+    "photodiode",
+    "npn-phototransistor"
+  ],
+  "artwork": "s28-iec-pnp-phototransistor-photosensitive-pnp-transistor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Photosensitive PNP Transistor",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Semiconductor Components, HDV1B6 / VDV1B6. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-pnp-phototransistor-photosensitive-pnp-transistor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-pnp-phototransistor-photosensitive-pnp-transistor.svg",
+  "id": "iec-pnp-phototransistor-photosensitive-pnp-transistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-pnp-phototransistor-photosensitive-pnp-transistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-pnp-phototransistor-photosensitive-pnp-transistor.json",
+  "svgPath": "artwork/svg/iec-pnp-phototransistor-photosensitive-pnp-transistor.svg",
+  "referencePath": "references/iec-pnp-phototransistor-photosensitive-pnp-transistor.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Semiconductor Components table explicitly lists HDV1B6 / VDV1B6 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

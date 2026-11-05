@@ -1,0 +1,105 @@
+{
+  "slug": "flywheel-energy-storage",
+  "name": "Flywheel energy storage",
+  "kind": "symbol",
+  "abbreviation": "FESS",
+  "aliases": [
+    "flywheel storage system",
+    "kinetic energy storage",
+    "flywheel UPS module"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A rotating mass coupled to a motor-generator and converter that stores energy kinetically for short, high-power bursts.",
+  "description": [
+    "Flywheel energy storage holds energy in a rotating mass, usually in a vacuum enclosure with magnetic or low-loss bearings. A motor-generator accelerates the rotor to charge and decelerates it to discharge, and a bidirectional converter links the variable-frequency machine to a DC bus or AC network.",
+    "Single-line diagrams show a machine circle with a flywheel mass or disc symbol on the shaft and a converter block to the bus. Flywheels appear in rotary and some static UPS systems as a battery substitute, and in microgrids for frequency regulation and ride-through of short disturbances.",
+    "Stored energy is usually small, from seconds to a few minutes at rated power, so the symbol does not imply long backup time. Standby losses, minimum speed and the energy actually usable between maximum and minimum speed must be read from the data sheet."
+  ],
+  "readingNotes": [
+    "Read discharge time at rated power rather than total stored energy.",
+    "A converter is needed because machine frequency changes with speed."
+  ],
+  "drawingChecklist": [
+    "State power rating and ride-through time.",
+    "Show converter and bus connection.",
+    "Reference standby loss and containment data."
+  ],
+  "distinction": "A flywheel stores kinetic energy for seconds to minutes; a battery stores chemical energy for much longer durations.",
+  "facts": [
+    {
+      "label": "Storage form",
+      "value": "Kinetic, rotating mass"
+    },
+    {
+      "label": "Typical duration",
+      "value": "Seconds to minutes"
+    },
+    {
+      "label": "Interface",
+      "value": "Motor-generator and converter"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public uninterruptible power and buffer function context."
+    },
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public energy storage system context."
+    }
+  ],
+  "related": [
+    "rotary-ups",
+    "supercapacitor-bank",
+    "power-converter",
+    "battery-energy-storage-system"
+  ],
+  "artwork": "s28-flywheel-energy-storage",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/flywheel-energy-storage",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/flywheel-energy-storage.svg",
+  "id": "flywheel-energy-storage",
+  "canonicalUrl": "https://eloragrid.ai/symbols/flywheel-energy-storage",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/flywheel-energy-storage.json",
+  "svgPath": "artwork/svg/flywheel-energy-storage.svg",
+  "referencePath": "references/flywheel-energy-storage.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public uninterruptible power and buffer function context."
+    },
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public energy storage system context."
+    }
+  ]
+}

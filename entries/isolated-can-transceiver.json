@@ -1,0 +1,87 @@
+{
+  "slug": "isolated-can-transceiver",
+  "name": "Isolated CAN transceiver",
+  "kind": "symbol",
+  "abbreviation": "ISO CAN",
+  "aliases": [
+    "Isolated CAN transceiver",
+    "Isolated CAN transceiver functional block",
+    "Isolated CAN transceiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An isolated CAN interface combines a CAN signal path with its specified electrical isolation barrier.",
+  "description": [
+    "An isolated CAN interface combines a CAN signal path with its specified electrical isolation barrier.",
+    "A controller-side circuit can communicate with a bus-side circuit referenced to another electrical domain.",
+    "Show the controller domain, isolation boundary and bus domain explicitly. The CAN electrical interface is on the bus side, while logic signals cross the selected barrier. A complete diagram also accounts for bus-side power, termination and protection rather than treating isolation as the whole network design. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify supply and reference for both domains.",
+    "Show CAN controller signals and bus connections separately.",
+    "Reference isolation, termination and bus-protection requirements.",
+    "The isolation barrier and any power supply for the bus side must be accounted for separately."
+  ],
+  "drawingChecklist": [
+    "Identify supply and reference for both domains.",
+    "Show CAN controller signals and bus connections separately.",
+    "Reference isolation, termination and bus-protection requirements."
+  ],
+  "distinction": "The isolation barrier and any power supply for the bus side must be accounted for separately.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Controller-side CAN signals"
+    },
+    {
+      "label": "Concept output",
+      "value": "Bus-side CAN pair"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-isolatedbus",
+      "relevance": "Isolated communication interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "capacitive-digital-isolator",
+    "isolated-rs-485-transceiver",
+    "isolated-i2c-interface",
+    "power-converter"
+  ],
+  "artwork": "expanded-isolated-can-transceiver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-can-transceiver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/isolated-can-transceiver.svg",
+  "id": "isolated-can-transceiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-can-transceiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-can-transceiver.json",
+  "svgPath": "artwork/svg/isolated-can-transceiver.svg",
+  "referencePath": "references/isolated-can-transceiver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-isolatedbus",
+      "title": "Isolated communication interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/isolation/isolated-interface-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Isolated communication interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

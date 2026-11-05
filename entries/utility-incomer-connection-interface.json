@@ -1,0 +1,105 @@
+{
+  "slug": "utility-incomer-connection-interface",
+  "name": "Utility incomer connection interface",
+  "kind": "symbol",
+  "abbreviation": "UICI",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "Utility feeder",
+    "Utility-to-bus connection"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the utility-side incoming switching point and its bus interface.",
+  "description": [
+    "Identifies the utility-side incoming switching point and its bus interface. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “Utility feeder” at the input and “Utility-to-bus connection” at the output. Connection rules depend on the network agreement.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Utility feeder. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Utility-to-bus connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Connection rules depend on the network agreement.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for utility feeder.",
+    "Identify the destination and defined state of utility-to-bus connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Connection rules depend on the network agreement."
+  ],
+  "distinction": "Connection rules depend on the network agreement. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Utility feeder"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Utility-to-bus connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "UICI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "bus-section-protection-boundary-interface"
+  ],
+  "artwork": "pi26-utility-incomer-connection-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "Utility feeder",
+    "output": "Utility-to-bus connection"
+  },
+  "url": "https://eloragrid.ai/symbols/utility-incomer-connection-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/utility-incomer-connection-interface.svg",
+  "id": "utility-incomer-connection-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/utility-incomer-connection-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/utility-incomer-connection-interface.json",
+  "svgPath": "artwork/svg/utility-incomer-connection-interface.svg",
+  "referencePath": "references/utility-incomer-connection-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

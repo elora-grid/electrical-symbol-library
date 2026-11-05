@@ -1,0 +1,102 @@
+{
+  "slug": "ansi-fire-alarm-horn-strobe",
+  "name": "ANSI fire alarm horn-strobe plan symbol",
+  "kind": "symbol",
+  "abbreviation": "HS",
+  "aliases": [
+    "horn/strobe",
+    "audible-visual notification appliance",
+    "horn strobe symbol"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US-style plan symbol for a combined horn and strobe notification appliance, with a candela tag.",
+  "description": [
+    "US fire alarm plans draw horn-strobes with a symbol combining a horn and a strobe mark, tagged with the strobe candela rating such as 15, 75 or 110 cd. The candela value is chosen from room size and mounting.",
+    "Notification appliance circuits are shown by circuit labels, and synchronisation of strobes in the same field of view must be ensured. The plan symbol therefore usually includes circuit tags. The symbol does not show horn tone pattern; the temporal pattern is set by the system."
+  ],
+  "readingNotes": [
+    "Read candela rating.",
+    "Check synchronisation for multiple strobes."
+  ],
+  "drawingChecklist": [
+    "Tag candela.",
+    "Tag notification circuit.",
+    "Give mounting height."
+  ],
+  "distinction": "A strobe-only appliance has no horn; the horn-strobe gives both.",
+  "facts": [
+    {
+      "label": "Key tag",
+      "value": "Candela rating"
+    },
+    {
+      "label": "Outputs",
+      "value": "Horn plus strobe"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-annunciation",
+      "relevance": "Public IEC-oriented electroacoustic annunciation family for comparing audible output marks."
+    }
+  ],
+  "related": [
+    "iec-combined-sounder-visual-alarm-device",
+    "ansi-manual-fire-alarm-station"
+  ],
+  "artwork": "s28-ansi-fire-alarm-horn-strobe",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Horn-strobe notification appliance",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-fire-alarm-horn-strobe",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-fire-alarm-horn-strobe.svg",
+  "id": "ansi-fire-alarm-horn-strobe",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-fire-alarm-horn-strobe",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-fire-alarm-horn-strobe.json",
+  "svgPath": "artwork/svg/ansi-fire-alarm-horn-strobe.svg",
+  "referencePath": "references/ansi-fire-alarm-horn-strobe.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-annunciation",
+      "title": "Autodesk IEC-60617 preview: Electroacoustic annunciation forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-4602FA60-BECA-4C77-A435-73C8C05E41F7.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented electroacoustic annunciation family for comparing audible output marks."
+    }
+  ]
+}

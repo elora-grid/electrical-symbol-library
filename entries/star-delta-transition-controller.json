@@ -1,0 +1,105 @@
+{
+  "slug": "star-delta-transition-controller",
+  "name": "Star-delta transition controller",
+  "kind": "symbol",
+  "abbreviation": "STC",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Start sequence and timing",
+    "Star and delta commands"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Coordinates the documented change from starting winding connection to running connection.",
+  "description": [
+    "Coordinates the documented change from starting winding connection to running connection. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Start sequence and timing” at the input and “Star and delta commands” at the output. Transition arrangement must match the actual motor starter.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Start sequence and timing. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Star and delta commands. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Transition arrangement must match the actual motor starter.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for start sequence and timing.",
+    "Identify the destination and defined state of star and delta commands.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Transition arrangement must match the actual motor starter."
+  ],
+  "distinction": "Transition arrangement must match the actual motor starter. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Start sequence and timing"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Star and delta commands"
+    },
+    {
+      "label": "Lookup label",
+      "value": "STC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "soft-starter-bypass-command-interface"
+  ],
+  "artwork": "pi26-star-delta-transition-controller",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Start sequence and timing",
+    "output": "Star and delta commands"
+  },
+  "url": "https://eloragrid.ai/symbols/star-delta-transition-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/star-delta-transition-controller.svg",
+  "id": "star-delta-transition-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/star-delta-transition-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/star-delta-transition-controller.json",
+  "svgPath": "artwork/svg/star-delta-transition-controller.svg",
+  "referencePath": "references/star-delta-transition-controller.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

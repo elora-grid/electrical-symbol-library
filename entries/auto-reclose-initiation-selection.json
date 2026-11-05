@@ -1,0 +1,105 @@
+{
+  "slug": "auto-reclose-initiation-selection",
+  "name": "Auto-reclose initiation selection",
+  "kind": "symbol",
+  "abbreviation": "AIS",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Selected protection trip causes",
+    "Auto-reclose start"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Defines which protection operations may start the documented reclosing sequence.",
+  "description": [
+    "Defines which protection operations may start the documented reclosing sequence. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Selected protection trip causes” at the input and “Auto-reclose start” at the output. A trip cause can also block reclosing.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Selected protection trip causes. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Auto-reclose start. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A trip cause can also block reclosing.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for selected protection trip causes.",
+    "Identify the destination and defined state of auto-reclose start.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A trip cause can also block reclosing."
+  ],
+  "distinction": "A trip cause can also block reclosing. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Selected protection trip causes"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Auto-reclose start"
+    },
+    {
+      "label": "Lookup label",
+      "value": "AIS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "auto-reclose-lockout-interface"
+  ],
+  "artwork": "pi26-auto-reclose-initiation-selection",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Selected protection trip causes",
+    "output": "Auto-reclose start"
+  },
+  "url": "https://eloragrid.ai/symbols/auto-reclose-initiation-selection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/auto-reclose-initiation-selection.svg",
+  "id": "auto-reclose-initiation-selection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/auto-reclose-initiation-selection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/auto-reclose-initiation-selection.json",
+  "svgPath": "artwork/svg/auto-reclose-initiation-selection.svg",
+  "referencePath": "references/auto-reclose-initiation-selection.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

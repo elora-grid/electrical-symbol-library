@@ -1,0 +1,100 @@
+{
+  "slug": "maximum-demand-energy-meter",
+  "name": "Energy meter with maximum-demand indicator",
+  "kind": "symbol",
+  "abbreviation": "kWh/MD",
+  "aliases": [
+    "maximum demand meter",
+    "kWh meter with demand register",
+    "demand meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Energy meter that also records the highest average power over a fixed demand interval for demand charging.",
+  "description": [
+    "This meter totalises energy and also keeps the maximum average power reached in any demand interval, such as 15 or 30 minutes. Large supplies are often billed partly on that maximum demand, so the meter form appears on the supply single-line diagram with the demand interval stated nearby.",
+    "The demand register is reset periodically, usually at the end of a billing period. The symbol does not show the interval, whether it uses fixed blocks or a sliding window, or how reset is performed, and those settings change the recorded value."
+  ],
+  "readingNotes": [
+    "Find the demand interval and window type.",
+    "Check how and when the demand register is reset."
+  ],
+  "drawingChecklist": [
+    "State demand interval",
+    "Show reset arrangement",
+    "Reference tariff requirement"
+  ],
+  "distinction": "A maximum-demand meter records peak averaged power plus energy; a maximum-demand indicator shows only the peak value.",
+  "facts": [
+    {
+      "label": "Registers",
+      "value": "Energy plus maximum averaged demand"
+    },
+    {
+      "label": "Key setting",
+      "value": "Demand interval"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    },
+    {
+      "sourceId": "public-power-quality-meter",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    }
+  ],
+  "related": [
+    "maximum-demand-indicator",
+    "active-energy-meter",
+    "multi-rate-energy-meter"
+  ],
+  "artwork": "s28-maximum-demand-energy-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/maximum-demand-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/maximum-demand-energy-meter.svg",
+  "id": "maximum-demand-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/maximum-demand-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/maximum-demand-energy-meter.json",
+  "svgPath": "artwork/svg/maximum-demand-energy-meter.svg",
+  "referencePath": "references/maximum-demand-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    },
+    {
+      "id": "public-power-quality-meter",
+      "title": "PowerLogic ION9000 user manual",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/26719674/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer documentation for the installation, operation and configuration of an advanced energy and power-quality meter. Exact functions and terminals depend on the selected model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    }
+  ]
+}

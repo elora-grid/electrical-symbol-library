@@ -1,0 +1,106 @@
+{
+  "slug": "iec-integrator",
+  "name": "IEC integrator element (∫)",
+  "kind": "symbol",
+  "abbreviation": "∫",
+  "aliases": [
+    "analogue integrator element",
+    "integrating amplifier IEC form",
+    "∫ element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Analogue element marked with an integral sign; the output is proportional to the time integral of the input.",
+  "description": [
+    "The integrator element shows the integral sign inside a rectangular analogue element, usually with an amplifier mark. Its output changes at a rate proportional to the input, so a constant input produces a ramp. Reset or initial-condition inputs may be added to set the starting value.",
+    "Integrators appear in PI controllers, ramp generators and charge measurement. On the drawing, the time constant and any reset arrangement should be stated, because without them the element can drift to saturation.",
+    "The element does not specify the realisation. An op-amp with a feedback capacitor is common, but digital integration in a controller is drawn the same way on functional diagrams."
+  ],
+  "readingNotes": [
+    "Look for a reset or initial condition input.",
+    "Find the time constant in notes or component values."
+  ],
+  "drawingChecklist": [
+    "State the time constant.",
+    "Show reset or limit arrangements.",
+    "Reference the implementing circuit or function block."
+  ],
+  "distinction": "The differentiator element uses d/dt and responds to rate of change rather than accumulated value.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Time integral of input"
+    },
+    {
+      "label": "Required data",
+      "value": "Time constant and reset"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "sourceId": "pub-electronics-ti-integrator",
+      "relevance": "Manufacturer integrator circuit documentation."
+    }
+  ],
+  "related": [
+    "op-amp-integrator",
+    "iec-differentiator",
+    "iec-summing-amplifier"
+  ],
+  "artwork": "s28-iec-integrator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular analogue element with integral sign",
+    "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "op-amp-integrator"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-integrator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-integrator.svg",
+  "id": "iec-integrator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-integrator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-integrator.json",
+  "svgPath": "artwork/svg/iec-integrator.svg",
+  "referencePath": "references/iec-integrator.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "id": "pub-electronics-ti-integrator",
+      "title": "Integrator circuit reference, SBOA275",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/pdf/sboa275",
+      "type": "manufacturer",
+      "scope": "Public integrating-amplifier circuit explanation. Educational geometry indicates feedback roles, not a validated buildable implementation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer integrator circuit documentation."
+    }
+  ]
+}

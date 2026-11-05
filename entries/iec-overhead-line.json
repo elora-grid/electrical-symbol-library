@@ -1,0 +1,104 @@
+{
+  "slug": "iec-overhead-line",
+  "name": "Overhead line",
+  "kind": "symbol",
+  "abbreviation": "OHL",
+  "aliases": [
+    "aerial line",
+    "overhead conductor",
+    "pole line"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A line or route mark identifying conductors carried overhead on poles or towers rather than buried or enclosed.",
+  "description": [
+    "The overhead line form identifies a circuit section strung in air between supports. On network single-line diagrams it distinguishes overhead feeders from underground cable sections, which matters because the two have different impedance, fault behaviour, auto-reclose practice and lightning exposure.",
+    "The symbol does not tell you the conductor type, span lengths, earth wire arrangement or structure type. Line data sheets and route drawings carry those. Where a feeder changes from overhead to underground, look for a cable sealing end or transition point drawn at the junction."
+  ],
+  "readingNotes": [
+    "Note where the feeder changes between overhead and underground sections.",
+    "Check whether auto-reclose is applied to feeders with overhead sections."
+  ],
+  "drawingChecklist": [
+    "Identify conductor type and route length.",
+    "Mark transition points to underground cable.",
+    "Reference structure and earth-wire details on route drawings."
+  ],
+  "distinction": "An overhead line is strung in air; an underground cable is buried and has very different capacitance and fault characteristics.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Line with pole or support marks along its length"
+    },
+    {
+      "label": "Engineering impact",
+      "value": "Impedance, lightning exposure and reclosing practice"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "s28-eig-building-lightning-protection",
+      "relevance": "Public installation-guide context on lightning exposure of external conductors."
+    }
+  ],
+  "related": [
+    "iec-underground-cable",
+    "iec-multicore-cable-sealing-end",
+    "surge-arrester"
+  ],
+  "artwork": "s28-iec-overhead-line",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Overhead line route form",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-overhead-line",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-overhead-line.svg",
+  "id": "iec-overhead-line",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-overhead-line",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-overhead-line.json",
+  "svgPath": "artwork/svg/iec-overhead-line.svg",
+  "referencePath": "references/iec-overhead-line.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "s28-eig-building-lightning-protection",
+      "title": "Building protection system",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Building_protection_system",
+      "type": "manufacturer",
+      "scope": "Lightning capture devices, down-conductors, earth leads and equipotential bonding of a building protection system.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide context on lightning exposure of external conductors."
+    }
+  ]
+}

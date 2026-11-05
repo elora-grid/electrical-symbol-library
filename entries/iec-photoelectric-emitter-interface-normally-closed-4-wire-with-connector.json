@@ -1,0 +1,96 @@
+{
+  "slug": "iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector",
+  "name": "IEC photoelectric emitter interface: normally closed 4 wire with connector",
+  "kind": "symbol",
+  "abbreviation": "TX",
+  "aliases": [
+    "HPE12PE4C",
+    "VPE12PE4C",
+    "photoelectric emitter interface Normally Closed 4 wire with connector"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Photoelectric emitter interface form: Normally Closed 4 wire with connector.",
+  "description": [
+    "A photoelectric emitter supplies the light used by an optical sensing system; a complete sensing pair also needs a receiver. This entry identifies the normally closed 4 wire with connector form in the publisher's IEC-context family.",
+    "A conveyor may place the emitter on one side and a separate receiver on the other so an object can interrupt the optical path. The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state. The additional connection points need the actual pin assignment. A fourth or fifth pin may serve an output or control function; pin count alone does not define its purpose.",
+    "The connector variant adds a separable field interface. Keep the mating connector designation, pin numbers and cable-core mapping visible at that boundary. A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface."
+  ],
+  "readingNotes": [
+    "The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state.",
+    "The additional connection points need the actual pin assignment. A fourth or fifth pin may serve an output or control function; pin count alone does not define its purpose.",
+    "The connector variant adds a separable field interface. Keep the mating connector designation, pin numbers and cable-core mapping visible at that boundary.",
+    "A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the normally closed 4 wire with connector detail to the broader photoelectric emitter interface family. A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Normally Closed 4 wire with connector"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPE12PE4C / VPE12PE4C. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "photoelectric emitter interface"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-iec-photoelectric-emitter-switches",
+      "relevance": "Public Photoelectric Emitter Switches table explicitly lists HPE12PE4C / VPE12PE4C with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "photoelectric-emitter-receiver-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Normally Closed 4 wire with connector",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter Switches, HPE12PE4C / VPE12PE4C. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector.svg",
+  "id": "iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector.json",
+  "svgPath": "artwork/svg/iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector.svg",
+  "referencePath": "references/iec-photoelectric-emitter-interface-normally-closed-4-wire-with-connector.md",
+  "publicSources": [
+    {
+      "id": "s28-iec-photoelectric-emitter-switches",
+      "title": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-CAF5714C-3562-40A0-A957-AB06150A5658.htm",
+      "type": "cad-reference",
+      "scope": "Public photoelectric emitter switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public Photoelectric Emitter Switches table explicitly lists HPE12PE4C / VPE12PE4C with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

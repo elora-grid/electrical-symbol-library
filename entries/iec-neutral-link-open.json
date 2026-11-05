@@ -1,0 +1,105 @@
+{
+  "slug": "iec-neutral-link-open",
+  "name": "Neutral link, open",
+  "kind": "symbol",
+  "abbreviation": "N",
+  "aliases": [
+    "open neutral link",
+    "neutral link removed",
+    "neutral isolating link open"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A neutral link drawn removed or open, showing the neutral conductor disconnected at that point.",
+  "description": [
+    "The open neutral link shows the link withdrawn so that the neutral is disconnected. Drawings use it where a circuit is normally run with the neutral open, for example to isolate a spare or to segregate a neutral during a changeover, and on test procedures that show the link removed.",
+    "An open neutral on a live four-wire circuit can cause severe overvoltage on single-phase loads, so an open link in normal service needs a clear reason on the drawing. The symbol says nothing about the phase conductors, which may still be energised."
+  ],
+  "readingNotes": [
+    "Ask why the neutral is shown open in service.",
+    "Check that phases are also isolated before working."
+  ],
+  "drawingChecklist": [
+    "Note the reason the link is open.",
+    "Show phase isolation state alongside.",
+    "Label the link with its circuit number."
+  ],
+  "distinction": "An open neutral link is disconnected; the closed form shows normal continuity.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Fuse-carrier style link with the bridge missing"
+    },
+    {
+      "label": "Publisher form",
+      "value": "Neutral Link - Open (HFU1NLO Autodesk identifier)"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-fuses",
+      "relevance": "Public IEC-oriented preview listing neutral link closed and open forms."
+    },
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of the neutral's role in earthing schemes."
+    }
+  ],
+  "related": [
+    "iec-neutral-link-closed",
+    "iec-neutral-conductor-mark",
+    "disconnect-terminal-block"
+  ],
+  "artwork": "s28-iec-neutral-link-open",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Neutral link, open",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Fuses (Neutral Link - Open); vendor family reference, not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-neutral-link-open",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-neutral-link-open.svg",
+  "id": "iec-neutral-link-open",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-neutral-link-open",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-neutral-link-open.json",
+  "svgPath": "artwork/svg/iec-neutral-link-open.svg",
+  "referencePath": "references/iec-neutral-link-open.md",
+  "publicSources": [
+    {
+      "id": "autodesk-fuses",
+      "title": "Fuse and neutral-link symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E540AE83-CEE1-4CA9-B43C-B19004025EAA.htm",
+      "type": "cad-reference",
+      "scope": "Fuses, auxiliary contacts, indication and open/closed neutral-link variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview listing neutral link closed and open forms."
+    },
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of the neutral's role in earthing schemes."
+    }
+  ]
+}

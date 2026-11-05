@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-pull-cord-switch",
+  "name": "ANSI/IEEE Pull-cord switch form",
+  "kind": "symbol",
+  "abbreviation": "PULL CORD",
+  "aliases": [
+    "HPC12",
+    "VPC12",
+    "IEEE Pull Cord Switch, Normally Closed",
+    "ANSI Pull-cord switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of pull-cord switch: a pull-cord switch converts a cord-operated mechanical action into an electrical contact change.",
+  "description": [
+    "This reference locates pull-cord switch in Autodesk's IEEE-oriented miscellaneous switches family. A pull-cord switch converts a cord-operated mechanical action into an electrical contact change. The control drawing records the contact function, while the layout records the cord route and actuator placement. The public library uses HPC12 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "State the normal condition and how operation is reset. A generic pull-cord symbol does not certify an emergency-stop function. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the normal condition and how operation is reset.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify contact action",
+    "Reference cord arrangement",
+    "Show reset mechanism"
+  ],
+  "distinction": "A generic pull-cord symbol does not certify an emergency-stop function.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: Pull Cord Switch, Normally Closed."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPC12. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Manual operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HPC12 as Pull Cord Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "pull-cord-switch",
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "s28-ansi-pull-cord-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Pull Cord Switch, Normally Closed",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HPC12. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "pull-cord-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-pull-cord-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-pull-cord-switch.svg",
+  "id": "ansi-pull-cord-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-pull-cord-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-pull-cord-switch.json",
+  "svgPath": "artwork/svg/ansi-pull-cord-switch.svg",
+  "referencePath": "references/ansi-pull-cord-switch.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HPC12 as Pull Cord Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

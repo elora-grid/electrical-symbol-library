@@ -1,0 +1,106 @@
+{
+  "slug": "iec-magnitude-comparator",
+  "name": "IEC magnitude comparator (COMP)",
+  "kind": "symbol",
+  "abbreviation": "COMP",
+  "aliases": [
+    "IEC digital comparator",
+    "COMP element",
+    "P>Q comparator"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC COMP element comparing two binary words P and Q, with outputs for P>Q, P=Q and P<Q.",
+  "description": [
+    "The IEC magnitude comparator is marked COMP. Its inputs are grouped as word P and word Q with binary weights, and its outputs are labelled P>Q, P=Q and P<Q. Cascading inputs carry the same labels in a separate group so that comparators can be chained for longer words.",
+    "Digital comparators appear in set-point logic, address matching and limit checking. A reviewer should confirm the bit order of P and Q, because a swapped weight produces a comparison that is correct only for some values.",
+    "The symbol does not indicate whether the comparison is for signed or unsigned numbers. Standard devices compare unsigned binary."
+  ],
+  "readingNotes": [
+    "Check bit weights on both words.",
+    "Cascade inputs are needed for words longer than one device."
+  ],
+  "drawingChecklist": [
+    "Group and weight the P and Q inputs.",
+    "Label all three outputs.",
+    "Show cascade connections."
+  ],
+  "distinction": "An analogue voltage comparator compares two voltages, not binary words.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "COMP"
+    },
+    {
+      "label": "Outputs",
+      "value": "P>Q, P=Q, P<Q"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists COMP as the magnitude comparator qualifier."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc85",
+      "relevance": "Magnitude comparator documentation."
+    }
+  ],
+  "related": [
+    "digital-magnitude-comparator",
+    "voltage-comparator",
+    "iec-arithmetic-logic-unit"
+  ],
+  "artwork": "s28-iec-magnitude-comparator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with COMP qualifier and P, Q input groups",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "digital-magnitude-comparator"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-magnitude-comparator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-magnitude-comparator.svg",
+  "id": "iec-magnitude-comparator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-magnitude-comparator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-magnitude-comparator.json",
+  "svgPath": "artwork/svg/iec-magnitude-comparator.svg",
+  "referencePath": "references/iec-magnitude-comparator.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists COMP as the magnitude comparator qualifier."
+    },
+    {
+      "id": "pub-electronics-ti-hc85",
+      "title": "CD74HC85 — digital magnitude comparators",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD74HC85",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of digital magnitude comparators. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Magnitude comparator documentation."
+    }
+  ]
+}

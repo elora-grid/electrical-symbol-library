@@ -1,0 +1,87 @@
+{
+  "slug": "ev-control-pilot-interface",
+  "name": "EV control pilot interface",
+  "kind": "symbol",
+  "abbreviation": "CP",
+  "aliases": [
+    "EV control pilot interface",
+    "EV control pilot interface functional block",
+    "EV control pilot interface schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "The control pilot is part of the signalling interface between charging equipment and a vehicle.",
+  "description": [
+    "The control pilot is part of the signalling interface between charging equipment and a vehicle.",
+    "Charging equipment can use pilot signalling to coordinate a permitted charging state.",
+    "Show the pilot connection beside, but separate from, the charging power conductors. It carries interface information used in the charging sequence. Label the charger side and vehicle side, and refer to the selected charging-system documentation for the applicable signal interpretation. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify which side is the charge point and which is the vehicle.",
+    "Keep pilot wiring separate from the main power path.",
+    "Reference the applicable interface and fault-state requirements.",
+    "A pilot signal is a control interface, not the main charging power conductor."
+  ],
+  "drawingChecklist": [
+    "Identify which side is the charge point and which is the vehicle.",
+    "Keep pilot wiring separate from the main power path.",
+    "Reference the applicable interface and fault-state requirements."
+  ],
+  "distinction": "A pilot signal is a control interface, not the main charging power conductor.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Charge-point pilot circuit"
+    },
+    {
+      "label": "Concept output",
+      "value": "Vehicle pilot circuit"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ev",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "contactor",
+    "ac-ev-charge-point",
+    "ev-residual-current-detection",
+    "ev-charging-contactor-control"
+  ],
+  "artwork": "expanded-ev-control-pilot-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ev-control-pilot-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ev-control-pilot-interface.svg",
+  "id": "ev-control-pilot-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ev-control-pilot-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ev-control-pilot-interface.json",
+  "svgPath": "artwork/svg/ev-control-pilot-interface.svg",
+  "referencePath": "references/ev-control-pilot-interface.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ev",
+      "title": "AC electric vehicle charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/ac-charging-pile-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

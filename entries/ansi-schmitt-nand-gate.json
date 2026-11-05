@@ -1,0 +1,90 @@
+{
+  "slug": "ansi-schmitt-nand-gate",
+  "name": "ANSI Schmitt-trigger NAND gate",
+  "kind": "symbol",
+  "abbreviation": "NAND-ST",
+  "aliases": [
+    "NAND with Schmitt inputs",
+    "hysteresis NAND gate",
+    "Schmitt NAND"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "NAND outline with a hysteresis mark inside, combining the NAND function with Schmitt-trigger inputs.",
+  "description": [
+    "A Schmitt-trigger NAND is drawn as a normal NAND outline with the hysteresis mark inside the body. Each input switches at different rising and falling thresholds, so the gate accepts slow or noisy signals while still performing the NAND function.",
+    "These gates are often used for gated oscillators, where one input enables an RC oscillator built around the gate, and for combining a debounced contact with an enable signal. Timing components should be drawn close to the gate with the intended frequency or delay noted.",
+    "Threshold levels and hysteresis width are not shown by the symbol and differ between logic families. Read them from the device documentation."
+  ],
+  "readingNotes": [
+    "Spot the hysteresis mark inside the NAND body.",
+    "Check for RC components that create an oscillator."
+  ],
+  "drawingChecklist": [
+    "Show the hysteresis mark within the outline.",
+    "Keep timing components adjacent.",
+    "State the intended oscillator frequency or debounce time."
+  ],
+  "distinction": "A standard NAND has no hysteresis mark and a single threshold.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "NAND with Schmitt-trigger inputs"
+    },
+    {
+      "label": "Common use",
+      "value": "Gated RC oscillator, debounced enable"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc132",
+      "relevance": "Manufacturer documentation for NAND gates with Schmitt-trigger inputs."
+    }
+  ],
+  "related": [
+    "logic-nand-gate",
+    "schmitt-trigger-inverter",
+    "iec-hysteresis-input-qualifier"
+  ],
+  "artwork": "s28-ansi-schmitt-nand-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "NAND outline containing the hysteresis mark",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-schmitt-nand-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-schmitt-nand-gate.svg",
+  "id": "ansi-schmitt-nand-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-schmitt-nand-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-schmitt-nand-gate.json",
+  "svgPath": "artwork/svg/ansi-schmitt-nand-gate.svg",
+  "referencePath": "references/ansi-schmitt-nand-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc132",
+      "title": "SNx4HC132 quadruple 2-input NAND gates with Schmitt-trigger inputs",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for NAND gates with Schmitt-trigger inputs.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for NAND gates with Schmitt-trigger inputs."
+    }
+  ]
+}

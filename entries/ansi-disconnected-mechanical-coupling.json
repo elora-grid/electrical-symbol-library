@@ -1,0 +1,99 @@
+{
+  "slug": "ansi-disconnected-mechanical-coupling",
+  "name": "ANSI/IEEE Disconnected mechanical coupling form",
+  "kind": "symbol",
+  "abbreviation": "Q021217",
+  "aliases": [
+    "Q021217",
+    "IEEE Disconnected Joint",
+    "ANSI Disconnected mechanical coupling"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of disconnected mechanical coupling: this indication identifies the disconnected state of a mechanical coupling.",
+  "description": [
+    "This reference locates disconnected mechanical coupling in Autodesk's IEEE-oriented mechanical controls, coupling family. This indication identifies the disconnected state of a mechanical coupling. The driving and driven elements are represented without an engaged torque or motion-transmission relationship in this state. Either element can still have electrical connections. The public library uses Q021217 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Use the state diagram or mechanism schedule to define what causes engagement. The disconnected coupling mark should not be substituted for a power isolation symbol. Read the state within the documented mechanism sequence. A disconnected coupling state is separate from the isolation of an electrical supply. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Read the state within the documented mechanism sequence.",
+    "A disconnected coupling state is separate from the isolation of an electrical supply."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Read the state within the documented mechanism sequence.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A disconnected coupling state is separate from the isolation of an electrical supply.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Mechanical Controls, Coupling; published form: Disconnected Joint."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q021217. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Read the state within the documented mechanism sequence."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-mechanical-controls-coupling",
+      "relevance": "Public IEEE-oriented Mechanical Controls, Coupling table explicitly lists Q021217 as Disconnected Joint. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-disconnected-mechanical-coupling",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-disconnected-mechanical-coupling",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Disconnected Joint",
+    "reference": "Autodesk IEEE Symbol Preview: Mechanical Controls, Coupling, block Q021217. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-disconnected-mechanical-coupling"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-disconnected-mechanical-coupling",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-disconnected-mechanical-coupling.svg",
+  "id": "ansi-disconnected-mechanical-coupling",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-disconnected-mechanical-coupling",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-disconnected-mechanical-coupling.json",
+  "svgPath": "artwork/svg/ansi-disconnected-mechanical-coupling.svg",
+  "referencePath": "references/ansi-disconnected-mechanical-coupling.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-mechanical-controls-coupling",
+      "title": "Autodesk IEEE Symbol Preview: Mechanical Controls, Coupling",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3B784797-C632-4E0A-BCDC-D7E4D982FE34.htm",
+      "type": "cad-reference",
+      "scope": "Public mechanical controls, coupling family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Mechanical Controls, Coupling table explicitly lists Q021217 as Disconnected Joint. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "battery-cell-voltage-monitor",
+  "name": "Battery cell voltage monitor",
+  "kind": "symbol",
+  "abbreviation": "CELL V",
+  "aliases": [
+    "Battery cell voltage monitor",
+    "Battery cell voltage monitor functional block",
+    "Battery cell voltage monitor schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A cell voltage monitor measures individual cells within a series-connected battery.",
+  "description": [
+    "A cell voltage monitor measures individual cells within a series-connected battery.",
+    "A pack controller can compare cell voltages instead of seeing only the total pack voltage.",
+    "Show a separate measurement connection for each monitored cell in a series string. Adding the cell voltages gives a pack voltage, but it can conceal one cell being higher or lower than its neighbours. Label cell order so the measurement channels can be traced to the correct physical cells. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify cell order and the monitor’s channel mapping.",
+    "Separate sense wires from the main current path.",
+    "Reference the selected monitor’s input connection requirements.",
+    "A normal total pack voltage can hide differences between individual cells."
+  ],
+  "drawingChecklist": [
+    "Identify cell order and the monitor’s channel mapping.",
+    "Separate sense wires from the main current path.",
+    "Reference the selected monitor’s input connection requirements."
+  ],
+  "distinction": "A normal total pack voltage can hide differences between individual cells.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Individual cell voltages"
+    },
+    {
+      "label": "Concept output",
+      "value": "Cell readings to controller"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-balance",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "battery-cabinet",
+    "passive-cell-balancer",
+    "active-cell-balancer",
+    "battery-cell-temperature-monitor"
+  ],
+  "artwork": "expanded-battery-cell-voltage-monitor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-cell-voltage-monitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-cell-voltage-monitor.svg",
+  "id": "battery-cell-voltage-monitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-cell-voltage-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-cell-voltage-monitor.json",
+  "svgPath": "artwork/svg/battery-cell-voltage-monitor.svg",
+  "referencePath": "references/battery-cell-voltage-monitor.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-balance",
+      "title": "Battery monitors and balancers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/battery-management-ics/battery-monitors-balancers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

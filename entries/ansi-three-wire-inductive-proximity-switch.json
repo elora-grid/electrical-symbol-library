@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-three-wire-inductive-proximity-switch",
+  "name": "ANSI/IEEE Three-wire inductive proximity switch form",
+  "kind": "symbol",
+  "abbreviation": "PROX IND 3W",
+  "aliases": [
+    "HPX11IN3",
+    "VPX11IN3",
+    "IEEE Normally Open 3 Wire",
+    "ANSI Three-wire inductive proximity switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-wire inductive proximity switch: a three-wire inductive proximity switch uses separate supply, common and output conductors.",
+  "description": [
+    "This reference locates three-wire inductive proximity switch in Autodesk's IEEE-oriented inductive switches family. A three-wire inductive proximity switch uses separate supply, common and output conductors. Its output polarity and load connection must match the receiving input module. The public library uses HPX11IN3 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Follow the output common and receiving input polarity together. Three-wire construction describes wiring; NO or NC describes the output's documented switching behaviour. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Follow the output common and receiving input polarity together.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name three terminals",
+    "State PNP or NPN as specified",
+    "Reference PLC input compatibility"
+  ],
+  "distinction": "Three-wire construction describes wiring; NO or NC describes the output's documented switching behaviour.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Inductive Switches; published form: Normally Open 3 Wire."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX11IN3. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-inductive-switches",
+      "relevance": "Public IEEE-oriented Inductive Switches table explicitly lists HPX11IN3 as Normally Open 3 Wire. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-wire-inductive-proximity-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-three-wire-inductive-proximity-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Normally Open 3 Wire",
+    "reference": "Autodesk IEEE Symbol Preview: Inductive Switches, block HPX11IN3. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-wire-inductive-proximity-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-wire-inductive-proximity-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-wire-inductive-proximity-switch.svg",
+  "id": "ansi-three-wire-inductive-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-wire-inductive-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-wire-inductive-proximity-switch.json",
+  "svgPath": "artwork/svg/ansi-three-wire-inductive-proximity-switch.svg",
+  "referencePath": "references/ansi-three-wire-inductive-proximity-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-inductive-switches",
+      "title": "Autodesk IEEE Symbol Preview: Inductive Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-8BB57AEE-EEA3-4ADB-8080-124595C5F63C.htm",
+      "type": "cad-reference",
+      "scope": "Public inductive switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Inductive Switches table explicitly lists HPX11IN3 as Normally Open 3 Wire. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

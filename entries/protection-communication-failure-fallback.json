@@ -1,0 +1,105 @@
+{
+  "slug": "protection-communication-failure-fallback",
+  "name": "Protection communication-failure fallback",
+  "kind": "symbol",
+  "abbreviation": "PCF",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Channel health status",
+    "Fallback protection state"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented local protection behavior when its communication channel becomes unavailable.",
+  "description": [
+    "Identifies the documented local protection behavior when its communication channel becomes unavailable. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Channel health status” at the input and “Fallback protection state” at the output. Fallback capability is not automatic for every scheme.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Channel health status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Fallback protection state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Fallback capability is not automatic for every scheme.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for channel health status.",
+    "Identify the destination and defined state of fallback protection state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Fallback capability is not automatic for every scheme."
+  ],
+  "distinction": "Fallback capability is not automatic for every scheme. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Channel health status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Fallback protection state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PCF is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "breaker-failure-initiate-interface"
+  ],
+  "artwork": "pi26-protection-communication-failure-fallback",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Channel health status",
+    "output": "Fallback protection state"
+  },
+  "url": "https://eloragrid.ai/symbols/protection-communication-failure-fallback",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/protection-communication-failure-fallback.svg",
+  "id": "protection-communication-failure-fallback",
+  "canonicalUrl": "https://eloragrid.ai/symbols/protection-communication-failure-fallback",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/protection-communication-failure-fallback.json",
+  "svgPath": "artwork/svg/protection-communication-failure-fallback.svg",
+  "referencePath": "references/protection-communication-failure-fallback.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

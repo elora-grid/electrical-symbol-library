@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-terminal-with-wire-number",
+  "name": "ANSI/IEEE terminal with wire number symbol",
+  "kind": "symbol",
+  "abbreviation": "TB",
+  "aliases": [
+    "IEEE round terminal with wire number",
+    "ANSI terminal wire label",
+    "terminal carrying wire number"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented round terminal that displays the wire number passing through it rather than a terminal number.",
+  "description": [
+    "The publisher's IEEE terminal preview lists a round terminal form that shows the wire number at the terminal. It is used where the wire identity is more useful to the reader than the terminal position, for example on field wiring sheets where technicians trace wires by number.",
+    "This illustration is independent and not the IEEE graphic. The form does not show the terminal strip position, so the terminal plan is still needed to find the physical terminal. The wire number continues unchanged through the terminal in this form."
+  ],
+  "readingNotes": [
+    "Use the terminal plan to locate the physical position.",
+    "Read the wire number as continuous through the terminal."
+  ],
+  "drawingChecklist": [
+    "Keep wire numbers unique.",
+    "Link to the terminal plan.",
+    "Use the change form where the number changes."
+  ],
+  "distinction": "This form shows the wire number; the ANSI numbered terminal form shows the terminal number.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Terminals (Round with Wire Number)"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HT0W02 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7c566b17-0c91-47f1-ad86-73893490622c",
+      "relevance": "Exact public IEEE-oriented terminal preview listing the round with wire number form."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-terminal-carrying-wire-identification",
+    "ansi-numbered-terminal",
+    "ansi-terminal-with-wire-number-change"
+  ],
+  "artwork": "s28-ansi-terminal-with-wire-number",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Round with Wire Number terminal",
+    "reference": "Autodesk publishes this block under IEEE Symbol Preview: Terminals. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "iec-terminal-carrying-wire-identification"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-terminal-with-wire-number",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-terminal-with-wire-number.svg",
+  "id": "ansi-terminal-with-wire-number",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal-with-wire-number",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-terminal-with-wire-number.json",
+  "svgPath": "artwork/svg/ansi-terminal-with-wire-number.svg",
+  "referencePath": "references/ansi-terminal-with-wire-number.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7c566b17-0c91-47f1-ad86-73893490622c",
+      "title": "Autodesk IEEE Symbol Preview — Terminals",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7C566B17-0C91-47F1-AD86-73893490622C.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented terminal preview listing the round with wire number form."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

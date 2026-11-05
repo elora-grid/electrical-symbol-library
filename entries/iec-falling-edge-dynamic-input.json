@@ -1,0 +1,105 @@
+{
+  "slug": "iec-falling-edge-dynamic-input",
+  "name": "IEC dynamic input with negation (falling edge)",
+  "kind": "symbol",
+  "abbreviation": "DYN-NEG",
+  "aliases": [
+    "negative-edge clock mark",
+    "falling-edge input",
+    "negated dynamic input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Clock wedge combined with a negation circle or polarity triangle, so the input acts on a falling edge.",
+  "description": [
+    "Combining the dynamic input wedge with input negation, or with a polarity indicator, means the input is active on the transition from high to low. TI's public overview tabulates how the active transition reads in positive logic, negative logic and polarity notation.",
+    "Negative-edge clocking appears in JK flip-flops and some counters, and in designs where two stages are clocked on opposite edges. A reader must check both the wedge and the external mark before deciding which edge the device responds to.",
+    "The symbol does not state duty-cycle or minimum pulse width requirements; those come from device timing data. The input waveform must satisfy those limits at the active falling transition, not just reach a valid steady logic level."
+  ],
+  "readingNotes": [
+    "Look outside the outline for the circle or triangle as well as inside for the wedge.",
+    "Opposite-edge clocking between stages is often deliberate."
+  ],
+  "drawingChecklist": [
+    "Draw both the wedge and the external negation mark.",
+    "Keep notation consistent with the rest of the sheet.",
+    "Annotate the clock net with its active edge if mixed edges are used."
+  ],
+  "distinction": "A wedge without an external mark is rising-edge triggered.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Active on high-to-low transition"
+    },
+    {
+      "label": "Typical device",
+      "value": "Negative-edge JK flip-flop"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Tabulates dynamic input forms for each logic convention."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc112",
+      "relevance": "Negative-edge JK flip-flop documentation."
+    }
+  ],
+  "related": [
+    "iec-dynamic-input",
+    "negative-edge-jk-flip-flop",
+    "iec-jk-flip-flop"
+  ],
+  "artwork": "s28-iec-falling-edge-dynamic-input",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Wedge inside the outline combined with an external negation circle or polarity triangle",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-falling-edge-dynamic-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-falling-edge-dynamic-input.svg",
+  "id": "iec-falling-edge-dynamic-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-falling-edge-dynamic-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-falling-edge-dynamic-input.json",
+  "svgPath": "artwork/svg/iec-falling-edge-dynamic-input.svg",
+  "referencePath": "references/iec-falling-edge-dynamic-input.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Tabulates dynamic input forms for each logic convention."
+    },
+    {
+      "id": "pub-electronics-ti-hc112",
+      "title": "SN74HC112 — negative-edge JK flip-flops",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc112.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of negative-edge jk flip-flops. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Negative-edge JK flip-flop documentation."
+    }
+  ]
+}

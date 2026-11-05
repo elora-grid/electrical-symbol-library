@@ -1,0 +1,104 @@
+{
+  "slug": "ansi-crossing-conductor-hop",
+  "name": "ANSI/IEEE crossing conductor hop symbol",
+  "kind": "symbol",
+  "abbreviation": "-",
+  "aliases": [
+    "wire crossover loop",
+    "jump-over crossing",
+    "IEEE crossing not connected"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented hop or loop drawn where one conductor passes over another without connecting.",
+  "description": [
+    "Older ANSI-style schematics often draw a small semicircular hop where one conductor crosses another, removing any doubt that the two are unconnected. Many CAD packages offer the hop, a gap or a plain crossing as display options, and the choice is set per drawing set.",
+    "The hop carries no physical meaning; it is a reading aid. This illustration is an independent explanation of the convention rather than a reproduction of the IEEE graphic. Where a drawing set mixes hops and plain crossings, check the legend rather than assuming that plain crossings are connected."
+  ],
+  "readingNotes": [
+    "Treat the hop as no connection.",
+    "Check whether the drawing set also uses plain crossings."
+  ],
+  "drawingChecklist": [
+    "Use one crossing display style per drawing set.",
+    "Never place a junction dot on a hop.",
+    "State the crossing convention in the legend."
+  ],
+  "distinction": "A hop is an unconnected crossing; a junction dot is a connection.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Wire crossing loop display in AutoCAD Electrical public guidance"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-wire-connections",
+      "relevance": "Public guidance on crossing gaps and loops."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-unconnected-conductor-crossing",
+    "ansi-conductor-junction",
+    "iec-conductor-interchange"
+  ],
+  "artwork": "s28-ansi-crossing-conductor-hop",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Crossing hop form",
+    "reference": "Drawn from the publisher's wire crossing display guidance and IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "iec-unconnected-conductor-crossing"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-crossing-conductor-hop",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-crossing-conductor-hop.svg",
+  "id": "ansi-crossing-conductor-hop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-crossing-conductor-hop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-crossing-conductor-hop.json",
+  "svgPath": "artwork/svg/ansi-crossing-conductor-hop.svg",
+  "referencePath": "references/ansi-crossing-conductor-hop.md",
+  "publicSources": [
+    {
+      "id": "iec-public-wire-connections",
+      "title": "Wire connection dots, crossing gaps and loops",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2020/ENU/AutoCAD-Electrical/files/GUID-936BB8A9-9C01-4AC6-B833-CB97700A7203.htm",
+      "type": "cad-reference",
+      "scope": "Public drafting-tool documentation. The annotation is a connectivity or identification convention, not a verified IEC standard graphic.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public guidance on crossing gaps and loops."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

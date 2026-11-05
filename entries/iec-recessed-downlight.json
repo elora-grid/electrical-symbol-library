@@ -1,0 +1,102 @@
+{
+  "slug": "iec-recessed-downlight",
+  "name": "Recessed downlight plan mark",
+  "kind": "symbol",
+  "abbreviation": "DL",
+  "aliases": [
+    "downlight",
+    "recessed luminaire",
+    "can light"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a recessed ceiling downlight, usually a small circle, sometimes crossed or hatched.",
+  "description": [
+    "Recessed downlights are drawn as small circles, sometimes with a cross or a filled centre, placed in a regular grid on the reflected ceiling plan. The symbol is distinguished from the general luminaire by size and by the fixture tag.",
+    "Downlights need ceiling void depth, fire-rated covers where they penetrate fire-rated ceilings, and clearances from insulation. The plan symbol lets the electrician and builder coordinate these before ceilings close. The symbol does not tell you cut-out size, beam angle or whether the fitting is fire-rated. Those are scheduled."
+  ],
+  "readingNotes": [
+    "Check fire-rated ceiling zones.",
+    "Read beam angle and cut-out in the schedule."
+  ],
+  "drawingChecklist": [
+    "Tag fixture type.",
+    "Note fire-rated or insulation-contact requirements.",
+    "Coordinate spacing with ceiling layout."
+  ],
+  "distinction": "A spotlight is directional and adjustable; a downlight is fixed and points straight down.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Small circle on ceiling grid"
+    },
+    {
+      "label": "Coordination",
+      "value": "Ceiling void depth and fire rating"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "iec-luminaire-general-plan-symbol",
+    "iec-spotlight-plan-mark"
+  ],
+  "artwork": "s28-iec-recessed-downlight",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Recessed luminaire",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-recessed-downlight",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-recessed-downlight.svg",
+  "id": "iec-recessed-downlight",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-recessed-downlight",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-recessed-downlight.json",
+  "svgPath": "artwork/svg/iec-recessed-downlight.svg",
+  "referencePath": "references/iec-recessed-downlight.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "iec-junction-box-plan-mark",
+  "name": "Junction box plan mark",
+  "kind": "symbol",
+  "abbreviation": "JB",
+  "aliases": [
+    "joint box",
+    "connection box plan symbol",
+    "outlet box"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a junction or joint box where installation cables are connected or branched.",
+  "description": [
+    "A junction box mark shows where cables are joined in an enclosure, commonly in ceiling voids for lighting circuits or above ceilings for equipment connections. Plans draw a small circle or square with a dot, sometimes labelled JB, at the location.",
+    "Access matters: joints must remain accessible for inspection unless a maintenance-free method is used, so the plan should not place a junction box above a fixed plasterboard ceiling without an access panel. The symbol helps coordinate this with architectural trades.",
+    "The mark does not show the number of terminals or cables. A junction box serving fixed equipment may also be a final connection point; check the schedule."
+  ],
+  "readingNotes": [
+    "Check access to the box above fixed ceilings.",
+    "Look for the equipment it serves."
+  ],
+  "drawingChecklist": [
+    "Confirm accessibility.",
+    "State enclosure rating.",
+    "Tag circuits passing through."
+  ],
+  "distinction": "A conductor junction dot on a schematic shows electrical connection; this plan mark shows a physical box.",
+  "facts": [
+    {
+      "label": "Typical location",
+      "value": "Ceiling voids, plant areas, equipment connections"
+    },
+    {
+      "label": "Access",
+      "value": "Must normally remain accessible"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ],
+  "related": [
+    "iec-conductor-connection-junction",
+    "iec-flex-outlet-plate"
+  ],
+  "artwork": "s28-iec-junction-box-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Junction box, installation plan",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-junction-box-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-junction-box-plan-mark.svg",
+  "id": "iec-junction-box-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-junction-box-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-junction-box-plan-mark.json",
+  "svgPath": "artwork/svg/iec-junction-box-plan-mark.svg",
+  "referencePath": "references/iec-junction-box-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ]
+}

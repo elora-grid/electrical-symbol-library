@@ -1,0 +1,103 @@
+{
+  "slug": "iec-dimmer-switch",
+  "name": "Dimmer switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "SD",
+  "aliases": [
+    "dimmer",
+    "light dimmer plan mark",
+    "dimming switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a switch that varies lamp brightness, drawn as a switch with an added variability arrow.",
+  "description": [
+    "A dimmer varies the power delivered to luminaires using phase-cut electronics or a control signal. IEC-style plans typically draw the switch mark with an oblique arrow or a small adjustment mark to show continuous variation, and the switching line links it to the dimmed group.",
+    "Dimmer compatibility with LED drivers is a frequent site problem, so the symbol is usually backed by a schedule stating the dimming method: leading edge, trailing edge, 0-10 V or DALI. The reader should check that every luminaire on the dimmed group is dimmable by that method.",
+    "The plan mark does not state the dimming technology or minimum load. A rotary or push dimmer looks the same on the plan."
+  ],
+  "readingNotes": [
+    "Check the dimming method in the schedule.",
+    "Confirm every luminaire in the group is compatible."
+  ],
+  "drawingChecklist": [
+    "State dimming method and rated load.",
+    "Link to the dimmed luminaire group.",
+    "Note minimum load for LED circuits."
+  ],
+  "distinction": "A one-way switch has no variability mark; the dimmer adds continuous control of light output.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Switch mark with an oblique variability arrow"
+    },
+    {
+      "label": "Key schedule item",
+      "value": "Dimming method and load rating"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Public IEC-oriented qualifier family showing how adjustability is added to a base symbol."
+    }
+  ],
+  "related": [
+    "iec-one-way-light-switch",
+    "iec-luminaire-general-plan-symbol"
+  ],
+  "artwork": "s28-iec-dimmer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Dimmer switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-dimmer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-dimmer-switch.svg",
+  "id": "iec-dimmer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-dimmer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-dimmer-switch.json",
+  "svgPath": "artwork/svg/iec-dimmer-switch.svg",
+  "referencePath": "references/iec-dimmer-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented qualifier family showing how adjustability is added to a base symbol."
+    }
+  ]
+}

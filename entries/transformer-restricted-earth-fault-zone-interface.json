@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-restricted-earth-fault-zone-interface",
+  "name": "Transformer restricted-earth-fault zone interface",
+  "kind": "symbol",
+  "abbreviation": "TRZI",
+  "aliases": [
+    "Transformer protection and monitoring interfaces",
+    "substations Transformer protection and monitoring interfaces",
+    "substations",
+    "Substations",
+    "Phase and neutral currents",
+    "REF protection-zone information"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Defines the current measurement boundary used by the assigned restricted-earth-fault scheme.",
+  "description": [
+    "Defines the current measurement boundary used by the assigned restricted-earth-fault scheme. Transformer monitoring interfaces connect physical sensors and protection calculations to the station's alarms and trip logic. Temperature, oil, gas, pressure and electrical measurements indicate different conditions and require separate interpretation.",
+    "In a substation transformer bay, a protection panel receives winding-current measurements and equipment alarm contacts. An operator can then distinguish an electrical protection operation from a cooling-system or physical-condition alarm. For this reference, the drawing identifies “Phase and neutral currents” at the input and “REF protection-zone information” at the output. CT placement and polarity determine the protected boundary.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Phase and neutral currents. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: REF protection-zone information. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "CT placement and polarity determine the protected boundary.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for phase and neutral currents.",
+    "Identify the destination and defined state of ref protection-zone information.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: CT placement and polarity determine the protected boundary."
+  ],
+  "distinction": "CT placement and polarity determine the protected boundary. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Phase and neutral currents"
+    },
+    {
+      "label": "Output / connection",
+      "value": "REF protection-zone information"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TRZI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-relay",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "87t-transformer-differential-protection",
+    "transformer-differential-restraint-interface"
+  ],
+  "artwork": "pi26-transformer-restricted-earth-fault-zone-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-monitoring",
+    "input": "Phase and neutral currents",
+    "output": "REF protection-zone information"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-restricted-earth-fault-zone-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-restricted-earth-fault-zone-interface.svg",
+  "id": "transformer-restricted-earth-fault-zone-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-restricted-earth-fault-zone-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-restricted-earth-fault-zone-interface.json",
+  "svgPath": "artwork/svg/transformer-restricted-earth-fault-zone-interface.svg",
+  "referencePath": "references/transformer-restricted-earth-fault-zone-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-relay",
+      "publisher": "SEL",
+      "title": "SEL-487E transformer protection relay",
+      "url": "https://selinc.com/products/487E/",
+      "scope": "Transformer protection, monitoring and measurement interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

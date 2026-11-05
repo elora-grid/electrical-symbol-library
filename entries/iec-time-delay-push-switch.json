@@ -1,0 +1,104 @@
+{
+  "slug": "iec-time-delay-push-switch",
+  "name": "Time-delay push switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "ST",
+  "aliases": [
+    "staircase timer push",
+    "timed push switch",
+    "timer light switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a push switch that turns lights on for a set period, commonly used in stairwells and common corridors.",
+  "description": [
+    "A time-delay push switch, often wired to a staircase timer, turns lighting on when pressed and lets it switch off after a set interval. Plans draw a push-button mark at each push position with a small clock or t tag, and show the timer location in the board where one is used.",
+    "Several push switches may be wired in parallel to one timer, so the switching line links them all to a common luminaire group. The electrician reads the plan to run a separate push conductor rather than switched-line wiring.",
+    "The plan symbol does not set the delay period or state whether the timer is in the switch or at the board. The specification should give both."
+  ],
+  "readingNotes": [
+    "Look for the associated timer in the board schedule.",
+    "Expect several pushes wired in parallel on one landing group."
+  ],
+  "drawingChecklist": [
+    "State delay time and adjustment range.",
+    "Show the timer location.",
+    "Link all pushes to the controlled group."
+  ],
+  "distinction": "A momentary bell push is not connected to lighting; a time-delay push switch starts a lighting timer.",
+  "facts": [
+    {
+      "label": "Operation",
+      "value": "Momentary push starting a timed lighting period"
+    },
+    {
+      "label": "Typical location",
+      "value": "Stairs and shared corridors"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Context for functional control switching."
+    }
+  ],
+  "related": [
+    "on-delay-timer-relay",
+    "iec-push-button-plan-mark",
+    "iec-time-switch-plan-mark"
+  ],
+  "artwork": "s28-iec-time-delay-push-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Time-delay push switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-time-delay-push-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-time-delay-push-switch.svg",
+  "id": "iec-time-delay-push-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-time-delay-push-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-time-delay-push-switch.json",
+  "svgPath": "artwork/svg/iec-time-delay-push-switch.svg",
+  "referencePath": "references/iec-time-delay-push-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Context for functional control switching."
+    }
+  ]
+}

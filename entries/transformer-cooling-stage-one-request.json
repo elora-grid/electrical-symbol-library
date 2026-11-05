@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-cooling-stage-one-request",
+  "name": "Transformer cooling stage-one request",
+  "kind": "symbol",
+  "abbreviation": "TCSR",
+  "aliases": [
+    "Transformer regulation and cooling control",
+    "substations Transformer regulation and cooling control",
+    "substations",
+    "Substations",
+    "Thermal-control demand",
+    "First cooling-group command"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests the first documented group of installed cooling equipment.",
+  "description": [
+    "Requests the first documented group of installed cooling equipment. Transformer regulation changes the selected winding connection to influence voltage, while cooling control manages the installed fans and pumps. Commands, mechanical position and measured results belong to different parts of the diagram.",
+    "In a substation, a voltage regulator can request a tap change and check the resulting tap-position feedback. A separate controller stages cooling equipment according to the transformer manufacturer's defined conditions. For this reference, the drawing identifies “Thermal-control demand” at the input and “First cooling-group command” at the output. Cooling group composition is transformer-specific.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Thermal-control demand. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: First cooling-group command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Cooling group composition is transformer-specific.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for thermal-control demand.",
+    "Identify the destination and defined state of first cooling-group command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Cooling group composition is transformer-specific."
+  ],
+  "distinction": "Cooling group composition is transformer-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Thermal-control demand"
+    },
+    {
+      "label": "Output / connection",
+      "value": "First cooling-group command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TCSR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-control",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "adjustable-ratio-transformer",
+    "winding-temperature-indicator",
+    "transformer-cooling-stage-two-request"
+  ],
+  "artwork": "pi26-transformer-cooling-stage-one-request",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-regulation",
+    "input": "Thermal-control demand",
+    "output": "First cooling-group command"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-cooling-stage-one-request",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-cooling-stage-one-request.svg",
+  "id": "transformer-cooling-stage-one-request",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-cooling-stage-one-request",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-cooling-stage-one-request.json",
+  "svgPath": "artwork/svg/transformer-cooling-stage-one-request.svg",
+  "referencePath": "references/transformer-cooling-stage-one-request.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-control",
+      "publisher": "SEL",
+      "title": "SEL-2414 transformer monitor",
+      "url": "https://selinc.com/products/2414/",
+      "scope": "Transformer temperature, cooling, tap changing and parallel operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

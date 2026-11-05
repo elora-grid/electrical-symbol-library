@@ -1,0 +1,91 @@
+{
+  "slug": "ansi-four-input-nand-gate",
+  "name": "ANSI four-input NAND gate",
+  "kind": "symbol",
+  "abbreviation": "NAND4",
+  "aliases": [
+    "4-input NAND gate",
+    "dual 4-input NAND",
+    "distinctive-shape NAND4"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Four-input D-shaped NAND gate with an output bubble; its output goes low only when all four inputs are high.",
+  "description": [
+    "A four-input NAND gate is drawn with the AND outline, four input leads and a bubble at the output. The output is low only when every input is high. The function is supplied by dual four-input NAND packages and is a common building block for address decoding and multi-condition alarms.",
+    "Where some inputs are active low in the design intent, the drawing may show the same device in its De Morgan form as an OR outline with bubbled inputs. Either representation is valid, but the chosen form should match the meaning of the signals so that the sheet reads naturally.",
+    "The symbol alone does not show which package or gate section is used. Reference designators and pin numbers come from the device schedule."
+  ],
+  "readingNotes": [
+    "Check for the output bubble; without it the gate is an AND.",
+    "Consider whether an equivalent OR form is used elsewhere for the same device."
+  ],
+  "drawingChecklist": [
+    "Draw four evenly spaced inputs.",
+    "Mark the output bubble clearly.",
+    "Add the gate section and pin numbers when used for wiring."
+  ],
+  "distinction": "An OR outline with bubbled inputs is the De Morgan equivalent of the same NAND function.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Four"
+    },
+    {
+      "label": "Output low when",
+      "value": "All inputs high"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc20",
+      "relevance": "Manufacturer documentation for dual four-input NAND gates."
+    }
+  ],
+  "related": [
+    "logic-nand-gate",
+    "ansi-nand-as-negative-or-gate",
+    "iec-nand-gate"
+  ],
+  "artwork": "s28-ansi-four-input-nand-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "D-shaped AND outline with four inputs and an output bubble",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-nand-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-four-input-nand-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-four-input-nand-gate.svg",
+  "id": "ansi-four-input-nand-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-four-input-nand-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-four-input-nand-gate.json",
+  "svgPath": "artwork/svg/ansi-four-input-nand-gate.svg",
+  "referencePath": "references/ansi-four-input-nand-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc20",
+      "title": "SNx4HC20 dual 4-input NAND gates",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc20.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for four-input NAND gates.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for dual four-input NAND gates."
+    }
+  ]
+}

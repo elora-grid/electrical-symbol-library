@@ -1,0 +1,90 @@
+{
+  "slug": "iec-mode-dependency-m",
+  "name": "IEC mode dependency (M)",
+  "kind": "symbol",
+  "abbreviation": "Mm",
+  "aliases": [
+    "M dependency",
+    "mode select dependency",
+    "Mm mode input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency label Mm used to show operating modes; affected inputs and outputs act only in the selected mode.",
+  "description": [
+    "M dependency is used where a device has several operating modes. When an Mm input is at its internal 1 state, inputs and outputs labelled m have their normal effect; otherwise they are disabled. Mode inputs are often produced from two select lines by binary grouping, giving M0 to M3.",
+    "Universal shift registers and up/down counters are typical users. On the symbol, a label such as 1,4D means the input acts as data only in mode 1 and with control 4. Reading these compound labels from left to right gives the order of conditions.",
+    "The notation does not define what happens during a mode change. Any restrictions on changing mode while clocking are device-specific."
+  ],
+  "readingNotes": [
+    "Decode the mode inputs before reading other labels.",
+    "Compound labels list affecting numbers separated by commas."
+  ],
+  "drawingChecklist": [
+    "Show the mode-select inputs and their binary grouping.",
+    "Label affected terminals with the mode numbers.",
+    "Tabulate the modes in a note if the symbol is complex."
+  ],
+  "distinction": "A (address) dependency selects among arrays of identical elements; M selects operating modes of one element.",
+  "facts": [
+    {
+      "label": "Affecting input at 1",
+      "value": "Permits action (mode selected)"
+    },
+    {
+      "label": "Typical device",
+      "value": "Universal shift register"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "M (mode) dependency affecting inputs and outputs."
+    }
+  ],
+  "related": [
+    "iec-bidirectional-shift-register",
+    "iec-up-down-counter",
+    "iec-address-dependency-a"
+  ],
+  "artwork": "s28-iec-mode-dependency-m",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Mode inputs labelled Mm, often produced by binary grouping, with affected terminals labelled m",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-mode-dependency-m",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-mode-dependency-m.svg",
+  "id": "iec-mode-dependency-m",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-mode-dependency-m",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-mode-dependency-m.json",
+  "svgPath": "artwork/svg/iec-mode-dependency-m.svg",
+  "referencePath": "references/iec-mode-dependency-m.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "M (mode) dependency affecting inputs and outputs."
+    }
+  ]
+}

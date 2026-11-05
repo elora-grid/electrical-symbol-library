@@ -1,0 +1,87 @@
+{
+  "slug": "battery-insulation-monitor",
+  "name": "Battery insulation monitoring function",
+  "kind": "symbol",
+  "abbreviation": "IMD",
+  "aliases": [
+    "Battery insulation monitoring function",
+    "Battery insulation monitoring function functional block",
+    "Battery insulation monitoring function schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An insulation monitoring function assesses the electrical insulation between the monitored circuit and its reference structure.",
+  "description": [
+    "An insulation monitoring function assesses the electrical insulation between the monitored circuit and its reference structure.",
+    "A floating battery system can monitor its insulation condition relative to chassis.",
+    "Show the monitored battery circuit and the chassis or earth reference used by the selected monitoring system. Its purpose is to assess unwanted leakage through insulation, not to measure normal load current. Label the reference arrangement because insulation monitoring depends on how the electrical system is connected. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the monitored circuit and its reference structure.",
+    "Show the monitor’s alarm or status output.",
+    "Reference the selected monitor’s system-compatibility requirements.",
+    "Insulation monitoring and ordinary load-current measurement are different functions."
+  ],
+  "drawingChecklist": [
+    "Identify the monitored circuit and its reference structure.",
+    "Show the monitor’s alarm or status output.",
+    "Reference the selected monitor’s system-compatibility requirements."
+  ],
+  "distinction": "Insulation monitoring and ordinary load-current measurement are different functions.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Battery-to-reference condition"
+    },
+    {
+      "label": "Concept output",
+      "value": "Insulation status or alarm"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pack",
+      "relevance": "Battery-pack measurement and control: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-battery-precharge-assembly",
+    "battery-pack-monitor",
+    "battery-precharge-circuit",
+    "battery-current-measurement"
+  ],
+  "artwork": "expanded-battery-insulation-monitor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-insulation-monitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-insulation-monitor.svg",
+  "id": "battery-insulation-monitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-insulation-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-insulation-monitor.json",
+  "svgPath": "artwork/svg/battery-insulation-monitor.svg",
+  "referencePath": "references/battery-insulation-monitor.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pack",
+      "title": "Battery-pack measurement and control",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/automotive/hev-ev-powertrain/hev-ev-battery-management-system-bms/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery-pack measurement and control: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

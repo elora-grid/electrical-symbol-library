@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-active-power-control-ownership-selector",
+  "name": "Microgrid active-power control ownership selector",
+  "kind": "symbol",
+  "abbreviation": "MACOS",
+  "aliases": [
+    "Microgrid active-power dispatch controls",
+    "microgrids Microgrid active-power dispatch controls",
+    "microgrids",
+    "Microgrids",
+    "Competing control authorities",
+    "Selected active-power authority"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects which authorized control function currently determines the assigned power target.",
+  "description": [
+    "Selects which authorized control function currently determines the assigned power target. Active-power dispatch allocates the electrical work performed by the microgrid resources. A total site target, a resource power limit and the actual measured contribution are different quantities that must be connected clearly in the diagram.",
+    "In a microgrid with solar generation, a battery and generators, the controller can allocate an import/export target among the available resources while reserving the power needed for operating disturbances. For this reference, the drawing identifies “Competing control authorities” at the input and “Selected active-power authority” at the output. Target priority must avoid conflicting requests.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Competing control authorities. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected active-power authority. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Target priority must avoid conflicting requests.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for competing control authorities.",
+    "Identify the destination and defined state of selected active-power authority.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Target priority must avoid conflicting requests."
+  ],
+  "distinction": "Target priority must avoid conflicting requests. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Competing control authorities"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected active-power authority"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MACOS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-plant-controller",
+    "point-of-common-coupling",
+    "microgrid-dispatch-infeasibility-alarm"
+  ],
+  "artwork": "pi26-microgrid-active-power-control-ownership-selector",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-active",
+    "input": "Competing control authorities",
+    "output": "Selected active-power authority"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-active-power-control-ownership-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-active-power-control-ownership-selector.svg",
+  "id": "microgrid-active-power-control-ownership-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-active-power-control-ownership-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-active-power-control-ownership-selector.json",
+  "svgPath": "artwork/svg/microgrid-active-power-control-ownership-selector.svg",
+  "referencePath": "references/microgrid-active-power-control-ownership-selector.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

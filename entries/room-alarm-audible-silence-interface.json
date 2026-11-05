@@ -1,0 +1,105 @@
+{
+  "slug": "room-alarm-audible-silence-interface",
+  "name": "Room alarm audible-silence interface",
+  "kind": "symbol",
+  "abbreviation": "RAAI",
+  "aliases": [
+    "Switchroom DC interfaces and alarm collection",
+    "switchrooms Switchroom DC interfaces and alarm collection",
+    "switchrooms",
+    "Switchrooms",
+    "Silence request",
+    "Audible-output silence"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Separates silencing the room audible indicator from acknowledging or clearing its alarms.",
+  "description": [
+    "Separates silencing the room audible indicator from acknowledging or clearing its alarms. A room DC interface connects station battery distribution, alarm contacts and operating circuits. DC supplies may remain energized when the room's normal AC supply is unavailable, so their source and distribution boundaries must be shown separately.",
+    "In a switchroom, the station battery can continue supplying protection and breaker controls during an AC supply interruption. The alarm system should distinguish charger loss from a low battery condition. For this reference, the drawing identifies “Silence request” at the input and “Audible-output silence” at the output. Visual or remote indication can remain active.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Silence request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Audible-output silence. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Visual or remote indication can remain active.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for silence request.",
+    "Identify the destination and defined state of audible-output silence.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Visual or remote indication can remain active."
+  ],
+  "distinction": "Visual or remote indication can remain active. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Silence request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Audible-output silence"
+    },
+    {
+      "label": "Lookup label",
+      "value": "RAAI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "battery-charger-controller",
+    "room-alarm-communications-loss-contact"
+  ],
+  "artwork": "pi26-room-alarm-audible-silence-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-dc",
+    "input": "Silence request",
+    "output": "Audible-output silence"
+  },
+  "url": "https://eloragrid.ai/symbols/room-alarm-audible-silence-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/room-alarm-audible-silence-interface.svg",
+  "id": "room-alarm-audible-silence-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/room-alarm-audible-silence-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/room-alarm-audible-silence-interface.json",
+  "svgPath": "artwork/svg/room-alarm-audible-silence-interface.svg",
+  "referencePath": "references/room-alarm-audible-silence-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

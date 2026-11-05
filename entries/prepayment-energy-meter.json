@@ -1,0 +1,100 @@
+{
+  "slug": "prepayment-energy-meter",
+  "name": "Prepayment energy meter",
+  "kind": "symbol",
+  "abbreviation": "kWh",
+  "aliases": [
+    "prepaid meter",
+    "token meter",
+    "pay-as-you-go meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Energy meter with credit control that disconnects supply through an integral switch when credit is used up.",
+  "description": [
+    "A prepayment meter combines an energy register with a credit system and a supply switch. When credit is exhausted the switch opens the supply, so on the schematic the meter includes or controls a load switch in the main circuit as well as its measuring element.",
+    "The integral switch is a disconnection device rather than protection. The symbol does not show emergency credit arrangements or which circuits are supplied through the switch, and essential loads may need to be wired so they are not interrupted."
+  ],
+  "readingNotes": [
+    "Identify which circuits pass through the meter's switch.",
+    "Check that protection is provided separately."
+  ],
+  "drawingChecklist": [
+    "Show integral switch",
+    "Identify switched circuits",
+    "Reference protective device"
+  ],
+  "distinction": "A prepayment meter can switch the supply off; an ordinary energy meter only measures.",
+  "facts": [
+    {
+      "label": "Added function",
+      "value": "Credit control with supply switch"
+    },
+    {
+      "label": "Typical use",
+      "value": "Residential and tenancy supplies"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ],
+  "related": [
+    "active-energy-meter",
+    "integrating-instrument-general-symbol",
+    "load-break-switch"
+  ],
+  "artwork": "s28-prepayment-energy-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/prepayment-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/prepayment-energy-meter.svg",
+  "id": "prepayment-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/prepayment-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/prepayment-energy-meter.json",
+  "svgPath": "artwork/svg/prepayment-energy-meter.svg",
+  "referencePath": "references/prepayment-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ]
+}

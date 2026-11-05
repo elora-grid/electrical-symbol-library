@@ -1,0 +1,105 @@
+{
+  "slug": "gis-disconnector-compartment-reference",
+  "name": "GIS disconnector compartment reference",
+  "kind": "symbol",
+  "abbreviation": "GDCR",
+  "aliases": [
+    "High-voltage primary equipment references",
+    "switchyards High-voltage primary equipment references",
+    "switchyards",
+    "Switchyards",
+    "GIS primary path",
+    "GIS disconnector function"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented isolation function within the selected gas-insulated arrangement.",
+  "description": [
+    "Identifies the documented isolation function within the selected gas-insulated arrangement. High-voltage primary equipment carries, interrupts, measures or conditions the main power circuit. Its function, insulation arrangement and equipment boundaries need to be distinguished from the secondary signals used to control it.",
+    "In a switchyard equipment diagram, the primary reference identifies the electrical role of an installed component while the linked equipment schedule and manufacturer drawing supply its exact construction and dimensions. For this reference, the drawing identifies “GIS primary path” at the input and “GIS disconnector function” at the output. Position indication is distinct from visible outdoor isolation.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: GIS primary path. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: GIS disconnector function. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Position indication is distinct from visible outdoor isolation.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for gis primary path.",
+    "Identify the destination and defined state of gis disconnector function.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Position indication is distinct from visible outdoor isolation."
+  ],
+  "distinction": "Position indication is distinct from visible outdoor isolation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "GIS primary path"
+    },
+    {
+      "label": "Output / connection",
+      "value": "GIS disconnector function"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GDCR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-hv-primary",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor-voltage-transformer",
+    "gis-earthing-switch-compartment-reference"
+  ],
+  "artwork": "pi26-gis-disconnector-compartment-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "hv-primary",
+    "input": "GIS primary path",
+    "output": "GIS disconnector function"
+  },
+  "url": "https://eloragrid.ai/symbols/gis-disconnector-compartment-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/gis-disconnector-compartment-reference.svg",
+  "id": "gis-disconnector-compartment-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gis-disconnector-compartment-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gis-disconnector-compartment-reference.json",
+  "svgPath": "artwork/svg/gis-disconnector-compartment-reference.svg",
+  "referencePath": "references/gis-disconnector-compartment-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-hv-primary",
+      "publisher": "Hitachi Energy",
+      "title": "Gas-insulated switchgear",
+      "url": "https://www.hitachienergy.com/products-and-solutions/high-voltage-switchgear-and-breakers/gas-insulated-switchgear",
+      "scope": "Primary switching equipment and instrument-transformer interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

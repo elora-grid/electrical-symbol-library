@@ -1,0 +1,105 @@
+{
+  "slug": "incomer-transfer-in-progress-indication",
+  "name": "Incomer transfer-in-progress indication",
+  "kind": "symbol",
+  "abbreviation": "ITI",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "Transfer state machine",
+    "Transfer-active status"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports that the documented source-transfer sequence is active and not yet complete.",
+  "description": [
+    "Reports that the documented source-transfer sequence is active and not yet complete. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “Transfer state machine” at the input and “Transfer-active status” at the output. Intermediate states need explicit indication.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Transfer state machine. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Transfer-active status. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Intermediate states need explicit indication.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for transfer state machine.",
+    "Identify the destination and defined state of transfer-active status.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Intermediate states need explicit indication."
+  ],
+  "distinction": "Intermediate states need explicit indication. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Transfer state machine"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Transfer-active status"
+    },
+    {
+      "label": "Lookup label",
+      "value": "ITI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "source-transfer-failure-indication"
+  ],
+  "artwork": "pi26-incomer-transfer-in-progress-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "Transfer state machine",
+    "output": "Transfer-active status"
+  },
+  "url": "https://eloragrid.ai/symbols/incomer-transfer-in-progress-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/incomer-transfer-in-progress-indication.svg",
+  "id": "incomer-transfer-in-progress-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/incomer-transfer-in-progress-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/incomer-transfer-in-progress-indication.json",
+  "svgPath": "artwork/svg/incomer-transfer-in-progress-indication.svg",
+  "referencePath": "references/incomer-transfer-in-progress-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "iec-non-retriggerable-monostable",
+  "name": "IEC non-retriggerable monostable",
+  "kind": "symbol",
+  "abbreviation": "1⊓",
+  "aliases": [
+    "one-shot",
+    "non-retriggerable monoflop",
+    "single-pulse element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC monostable marked with 1 and a single pulse: a trigger during the output pulse is ignored.",
+  "description": [
+    "The non-retriggerable monostable produces one output pulse of fixed duration when triggered. Further triggers during that pulse have no effect. IEC drawings show the qualifier 1 with a single pulse shape inside the outline, and timing component connections are shown as non-logic inputs.",
+    "These elements are used to stretch short events into pulses long enough to be seen by slower logic, or to produce a fixed-width command. The external resistor and capacitor that set the pulse width should be drawn next to the element and the nominal width stated.",
+    "Pulse width tolerance depends on the timing components and the device. The symbol shows the behaviour, not the accuracy."
+  ],
+  "readingNotes": [
+    "Retriggers during the pulse are ignored.",
+    "Find the timing resistor and capacitor connections."
+  ],
+  "drawingChecklist": [
+    "Show the single-pulse qualifier.",
+    "Draw the timing components and state the nominal width.",
+    "Mark trigger input edge sense."
+  ],
+  "distinction": "The retriggerable monostable extends its pulse on each new trigger and is drawn without the 1.",
+  "facts": [
+    {
+      "label": "Retrigger behaviour",
+      "value": "Ignored during pulse"
+    },
+    {
+      "label": "Example device",
+      "value": "Dual monostable multivibrators with Schmitt-trigger inputs"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists the nonretriggerable monostable general qualifier."
+    },
+    {
+      "sourceId": "s28-ti-ls221",
+      "relevance": "Manufacturer monostable multivibrator documentation."
+    }
+  ],
+  "related": [
+    "iec-retriggerable-monostable",
+    "retriggerable-monostable",
+    "iec-astable-element"
+  ],
+  "artwork": "s28-iec-non-retriggerable-monostable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with the 1 and single-pulse qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-non-retriggerable-monostable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-non-retriggerable-monostable.svg",
+  "id": "iec-non-retriggerable-monostable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-non-retriggerable-monostable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-non-retriggerable-monostable.json",
+  "svgPath": "artwork/svg/iec-non-retriggerable-monostable.svg",
+  "referencePath": "references/iec-non-retriggerable-monostable.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists the nonretriggerable monostable general qualifier."
+    },
+    {
+      "id": "s28-ti-ls221",
+      "title": "SN74LS221 dual monostable multivibrators with Schmitt-trigger inputs",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls221.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for non-retriggerable monostable multivibrators.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer monostable multivibrator documentation."
+    }
+  ]
+}

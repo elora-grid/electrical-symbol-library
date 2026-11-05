@@ -1,0 +1,107 @@
+{
+  "slug": "bidirectional-inverter-charger",
+  "name": "Bidirectional inverter-charger",
+  "kind": "symbol",
+  "abbreviation": "INV/CHG",
+  "aliases": [
+    "inverter-charger",
+    "battery inverter-charger",
+    "combined inverter and charger"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A battery converter that charges from an AC source and inverts back to AC, with an internal transfer relay for the load.",
+  "description": [
+    "An inverter-charger contains one bidirectional power stage between a battery and an AC output, together with an internal transfer relay connecting the AC input to the output when a valid source is present. With the source available it passes power through and charges the battery; without it, it opens the relay and inverts from the battery.",
+    "Drawings show a converter box with DC and AC marks, a bidirectional arrow, an AC input from the grid or generator and an AC output to the load. The transfer relay may be drawn inside the boundary as a changeover contact, and some units have a second output that drops during battery operation.",
+    "The symbol does not show the internal neutral-earth relay many units use when inverting, which matters for earthing and residual current device operation. Power assist settings, which let the inverter add battery power to a limited generator supply, are also invisible on the drawing."
+  ],
+  "readingNotes": [
+    "Look for the internal transfer relay and any neutral-earth relay.",
+    "Check whether a second output is shed on battery operation."
+  ],
+  "drawingChecklist": [
+    "State inverter VA, charger current and battery voltage.",
+    "Show AC input, outputs and earthing arrangement.",
+    "Reference input current limit settings."
+  ],
+  "distinction": "An inverter-charger has an internal transfer relay and charger; a plain DC-to-AC inverter only converts battery power to AC.",
+  "facts": [
+    {
+      "label": "Energy flow",
+      "value": "Bidirectional"
+    },
+    {
+      "label": "Internal switching",
+      "value": "AC transfer relay"
+    },
+    {
+      "label": "Earthing detail",
+      "value": "Neutral-earth relay often fitted"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-multiplus-ii",
+      "relevance": "Public inverter-charger product and document page."
+    },
+    {
+      "sourceId": "pub-object-victron-quattro",
+      "relevance": "Public dual-input inverter-charger documentation."
+    }
+  ],
+  "related": [
+    "hybrid-inverter",
+    "dc-to-ac-inverter",
+    "battery-power-conversion-system",
+    "ga-battery-inverter-charger"
+  ],
+  "artwork": "s28-bidirectional-inverter-charger",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bidirectional-inverter-charger",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bidirectional-inverter-charger.svg",
+  "id": "bidirectional-inverter-charger",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bidirectional-inverter-charger",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bidirectional-inverter-charger.json",
+  "svgPath": "artwork/svg/bidirectional-inverter-charger.svg",
+  "referencePath": "references/bidirectional-inverter-charger.md",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-multiplus-ii",
+      "title": "MultiPlus-II official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/inverters-chargers/multiplus-ii",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public inverter-charger product and document page."
+    },
+    {
+      "id": "pub-object-victron-quattro",
+      "title": "Quattro official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/inverters-chargers/quattro",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public dual-input inverter-charger documentation."
+    }
+  ]
+}

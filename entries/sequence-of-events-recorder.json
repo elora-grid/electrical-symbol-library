@@ -1,0 +1,82 @@
+{
+  "slug": "sequence-of-events-recorder",
+  "name": "Sequence-of-events recorder",
+  "kind": "symbol",
+  "abbreviation": "SOE",
+  "aliases": [
+    "event recorder",
+    "SER"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Recorder that timestamps changes of state on many binary inputs so the order of operations can be reconstructed.",
+  "description": [
+    "A sequence-of-events recorder monitors breaker auxiliary contacts, protection trip outputs, alarms and other binary signals, and stores each change with an accurate timestamp. After an incident the list shows which device operated first, which is often impossible to tell from alarms alone.",
+    "Timestamp resolution and time synchronisation are what make the record useful. The symbol does not show the time source, such as a GPS clock, or the debounce settings on each input, and without synchronisation records from different devices cannot be merged reliably."
+  ],
+  "readingNotes": [
+    "Identify the time synchronisation source.",
+    "Check which contacts are wired as inputs."
+  ],
+  "drawingChecklist": [
+    "List monitored inputs",
+    "Show time source",
+    "State resolution and debounce"
+  ],
+  "distinction": "An SOE recorder logs binary changes in time order; a disturbance recorder captures analogue waveforms.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Binary contacts and signals"
+    },
+    {
+      "label": "Key requirement",
+      "value": "Synchronised timestamps"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-product-catalog",
+      "relevance": "Public product and function guide including event recording and time synchronisation."
+    }
+  ],
+  "related": [
+    "disturbance-recorder",
+    "numerical-protection-relay",
+    "iec-clock-indication"
+  ],
+  "artwork": "s28-sequence-of-events-recorder",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/sequence-of-events-recorder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/sequence-of-events-recorder.svg",
+  "id": "sequence-of-events-recorder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/sequence-of-events-recorder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/sequence-of-events-recorder.json",
+  "svgPath": "artwork/svg/sequence-of-events-recorder.svg",
+  "referencePath": "references/sequence-of-events-recorder.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-product-catalog",
+      "title": "SEL 2022 Product and Solution Guide: published protection function tables",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/api/download/136012",
+      "type": "manufacturer",
+      "scope": "Public historical product guide documenting 21P phase distance and 21G ground distance mappings among other line-protection functions. Referenced for terminology, not current product availability or a product recommendation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public product and function guide including event recording and time synchronisation."
+    }
+  ]
+}

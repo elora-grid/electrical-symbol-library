@@ -1,0 +1,106 @@
+{
+  "slug": "manual-transfer-switch",
+  "name": "Manual transfer switch",
+  "kind": "symbol",
+  "abbreviation": "MTS",
+  "aliases": [
+    "MTS",
+    "manual changeover switch",
+    "generator inlet changeover"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An operator-moved changeover switch that selects which of two sources supplies a load, with an off position between them.",
+  "description": [
+    "A manual transfer switch is a changeover switch operated by hand, usually with three positions: source 1, off and source 2. It is common where a portable or small standby generator connects through an inlet, and as a maintenance or bypass switch in larger systems where automatic transfer is not required.",
+    "The drawing is a changeover contact with a manual operator mark, often labelled I-0-II, with the two sources above and the load below. The mechanical design prevents both sources being connected at once.",
+    "The symbol does not tell you whether the switch can be operated on load, or whether the neutral is switched. Operating procedures, including starting the generator before moving the switch, belong in the operating instructions."
+  ],
+  "readingNotes": [
+    "The off position between sources is part of the safety function.",
+    "Check whether the switch is rated for on-load operation."
+  ],
+  "drawingChecklist": [
+    "State rating, poles and positions.",
+    "Show the generator inlet or second source.",
+    "Reference operating procedure."
+  ],
+  "distinction": "A manual transfer switch relies on an operator; an automatic transfer switch senses source failure and acts on its own.",
+  "facts": [
+    {
+      "label": "Positions",
+      "value": "Source 1, off, source 2"
+    },
+    {
+      "label": "Operation",
+      "value": "Manual"
+    },
+    {
+      "label": "Typical use",
+      "value": "Portable generator or maintenance bypass"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public transfer switch fundamentals."
+    },
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Public IEC-context operating-device qualifier family for the manual operator mark."
+    }
+  ],
+  "related": [
+    "automatic-transfer-switch",
+    "43-manual-transfer-or-selector-device",
+    "transfer-switch",
+    "single-phase-synchronous-generator"
+  ],
+  "artwork": "s28-manual-transfer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/manual-transfer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/manual-transfer-switch.svg",
+  "id": "manual-transfer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/manual-transfer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/manual-transfer-switch.json",
+  "svgPath": "artwork/svg/manual-transfer-switch.svg",
+  "referencePath": "references/manual-transfer-switch.md",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transfer switch fundamentals."
+    },
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-context operating-device qualifier family for the manual operator mark."
+    }
+  ]
+}

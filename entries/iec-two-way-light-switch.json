@@ -1,0 +1,104 @@
+{
+  "slug": "iec-two-way-light-switch",
+  "name": "Two-way light switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "S2W",
+  "aliases": [
+    "two-way switch",
+    "three-way switch (US term)",
+    "staircase switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a two-way switch used in pairs so one lighting group can be switched from two places.",
+  "description": [
+    "Two-way switches are installed in pairs at either end of a corridor or staircase so either switch changes the state of the lights. The IEC-style plan form draws the switch circle with strokes in two opposite directions, each with a tick, showing the changeover action.",
+    "On a plan the pair is linked by a switching line to the luminaire group. The electrician reads the pair to run strappers between the two switches; where an intermediate switch is shown between them, a third location can also control the lights.",
+    "The symbol does not show the wiring method, which can be conventional strappers or a converted arrangement. It also does not tell you the gang count unless written."
+  ],
+  "readingNotes": [
+    "Expect two-way switches in pairs; a single two-way switch usually signals a drafting error or a spare.",
+    "Look for an intermediate switch between the pair on long runs."
+  ],
+  "drawingChecklist": [
+    "Show both switch positions and the controlled luminaires.",
+    "Mark any intermediate switches.",
+    "Note gang count where plates are shared."
+  ],
+  "distinction": "In US terminology this is a three-way switch; the US four-way switch corresponds to the IEC intermediate switch.",
+  "facts": [
+    {
+      "label": "Operation",
+      "value": "Changeover contact, used in pairs"
+    },
+    {
+      "label": "US equivalent term",
+      "value": "Three-way switch"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Context for functional control switching."
+    }
+  ],
+  "related": [
+    "iec-intermediate-light-switch",
+    "iec-one-way-light-switch",
+    "ansi-three-way-switch"
+  ],
+  "artwork": "s28-iec-two-way-light-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Two-way switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-two-way-light-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-two-way-light-switch.svg",
+  "id": "iec-two-way-light-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-two-way-light-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-two-way-light-switch.json",
+  "svgPath": "artwork/svg/iec-two-way-light-switch.svg",
+  "referencePath": "references/iec-two-way-light-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Context for functional control switching."
+    }
+  ]
+}

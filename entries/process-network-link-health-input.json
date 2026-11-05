@@ -1,0 +1,105 @@
+{
+  "slug": "process-network-link-health-input",
+  "name": "Process-network link-health input",
+  "kind": "symbol",
+  "abbreviation": "PLI",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Network port health",
+    "Process-link alarm"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports the defined physical or logical link condition on the assigned process-network connection.",
+  "description": [
+    "Reports the defined physical or logical link condition on the assigned process-network connection. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Network port health” at the input and “Process-link alarm” at the output. A healthy link can still carry invalid application data.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Network port health. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Process-link alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A healthy link can still carry invalid application data.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for network port health.",
+    "Identify the destination and defined state of process-link alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A healthy link can still carry invalid application data."
+  ],
+  "distinction": "A healthy link can still carry invalid application data. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Network port health"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Process-link alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PLI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "merging-unit-time-quality-interface"
+  ],
+  "artwork": "pi26-process-network-link-health-input",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Network port health",
+    "output": "Process-link alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/process-network-link-health-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/process-network-link-health-input.svg",
+  "id": "process-network-link-health-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/process-network-link-health-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/process-network-link-health-input.json",
+  "svgPath": "artwork/svg/process-network-link-health-input.svg",
+  "referencePath": "references/process-network-link-health-input.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

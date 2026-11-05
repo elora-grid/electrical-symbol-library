@@ -1,0 +1,106 @@
+{
+  "slug": "iec-xnor-gate",
+  "name": "IEC exclusive-NOR gate (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "=1",
+  "aliases": [
+    "IEC XNOR element",
+    "negated exclusive-OR",
+    "rectangular equivalence gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC =1 box with a negated output, giving the two-input equivalence or exclusive-NOR function.",
+  "description": [
+    "An IEC exclusive-NOR is commonly drawn as the =1 element with a negation circle at its output. For two inputs, the output is active when both inputs are in the same state, which is why the function is also called equivalence. Some drawings instead use the = logic-identity qualifier, which gives the same two-input result.",
+    "Equivalence checks appear where two redundant channels must agree, for example dual-channel position switches or duplicated sensor inputs. The drawing should make clear whether disagreement produces an alarm, a trip, or only a log entry, because the gate itself only produces the comparison.",
+    "The symbol does not tell you how long a disagreement may persist before action. That tolerance is a separate timing element or a setting in the implementing device."
+  ],
+  "readingNotes": [
+    "Check whether the sheet uses =1 with negation or the = identity qualifier; both mean equivalence for two inputs.",
+    "Trace the output to see what action follows a mismatch."
+  ],
+  "drawingChecklist": [
+    "Choose one convention for equivalence and use it consistently.",
+    "Limit to two inputs unless the identity function is intended.",
+    "Show the mismatch timing element separately."
+  ],
+  "distinction": "The = identity element extends to many inputs as all-the-same; a negated =1 with three inputs means not exactly one active.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "=1 with output negation"
+    },
+    {
+      "label": "Alternative",
+      "value": "= (logic identity) for two inputs"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines =1, = and output negation."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc266",
+      "relevance": "Manufacturer exclusive-NOR documentation."
+    }
+  ],
+  "related": [
+    "logic-xnor-gate",
+    "iec-xor-gate",
+    "iec-logic-identity-element"
+  ],
+  "artwork": "s28-iec-xnor-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "=1 element with output negation",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-xnor-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-xnor-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-xnor-gate.svg",
+  "id": "iec-xnor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-xnor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-xnor-gate.json",
+  "svgPath": "artwork/svg/iec-xnor-gate.svg",
+  "referencePath": "references/iec-xnor-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines =1, = and output negation."
+    },
+    {
+      "id": "pub-electronics-ti-hc266",
+      "title": "SN74HC266 — XNOR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc266.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of xnor gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer exclusive-NOR documentation."
+    }
+  ]
+}

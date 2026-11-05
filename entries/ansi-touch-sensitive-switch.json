@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-touch-sensitive-switch",
+  "name": "ANSI/IEEE Touch-sensitive switch form",
+  "kind": "symbol",
+  "abbreviation": "HPX1TS",
+  "aliases": [
+    "HPX1TS",
+    "VPX1TS",
+    "IEEE Touch",
+    "ANSI Touch-sensitive switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of touch-sensitive switch: a touch-switch representation identifies operation by the documented touch-sensing mechanism.",
+  "description": [
+    "This reference locates touch-sensitive switch in Autodesk's IEEE-oriented touch switches family. A touch-switch representation identifies operation by the documented touch-sensing mechanism. The public library uses HPX1TS for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "State the sensing role and separate power/output interfaces. Touch operation is distinct from a mechanical pushbutton mechanism. State the sensing role and separate power/output interfaces. Touch operation is distinct from a mechanical pushbutton mechanism. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the sensing role and separate power/output interfaces.",
+    "Touch operation is distinct from a mechanical pushbutton mechanism."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the sensing role and separate power/output interfaces.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Touch operation is distinct from a mechanical pushbutton mechanism.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Touch Switches; published form: Touch."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX1TS. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State the sensing role and separate power/output interfaces."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-touch-switches",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX1TS as Touch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-touch-sensitive-switch",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-touch-sensitive-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Touch",
+    "reference": "Autodesk IEEE Symbol Preview: Touch Switches, block HPX1TS. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-touch-sensitive-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-touch-sensitive-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-touch-sensitive-switch.svg",
+  "id": "ansi-touch-sensitive-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-touch-sensitive-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-touch-sensitive-switch.json",
+  "svgPath": "artwork/svg/ansi-touch-sensitive-switch.svg",
+  "referencePath": "references/ansi-touch-sensitive-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-touch-switches",
+      "title": "Autodesk IEEE Symbol Preview: Touch Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-75D5D41D-60B5-4D57-852E-D4422F14F392.htm",
+      "type": "cad-reference",
+      "scope": "Public touch switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX1TS as Touch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

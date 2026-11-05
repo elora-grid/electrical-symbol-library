@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-current-window-monitoring-relay",
+  "name": "ANSI/IEEE Current window monitoring relay form",
+  "kind": "symbol",
+  "abbreviation": "I WINDOW",
+  "aliases": [
+    "HCR1F27",
+    "VCR1F27",
+    "IEEE Minimum and Maximum Current Protection",
+    "ANSI Current window monitoring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of current window monitoring relay: a current-window relay supervises both minimum and maximum current conditions.",
+  "description": [
+    "This reference locates current window monitoring relay in Autodesk's IEEE-oriented current protection relays family. A current-window relay supervises both minimum and maximum current conditions. Its drawing links the measured circuit to separate or combined outputs according to the actual relay configuration. The public library uses HCR1F27 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Identify the permitted current band and any start-up inhibition. A current window is a range-supervision function, not a measurement accuracy band. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the permitted current band and any start-up inhibition.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State both thresholds",
+    "Reference timing/inhibit logic",
+    "Show output assignment"
+  ],
+  "distinction": "A current window is a range-supervision function, not a measurement accuracy band.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Current Protection Relays; published form: Minimum and Maximum Current Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F27. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-current-protection-relays",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F27 as Minimum and Maximum Current Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "current-window-monitoring-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-current-window-monitoring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Minimum and Maximum Current Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Current Protection Relays, block HCR1F27. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "current-window-monitoring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-current-window-monitoring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-current-window-monitoring-relay.svg",
+  "id": "ansi-current-window-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-current-window-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-current-window-monitoring-relay.json",
+  "svgPath": "artwork/svg/ansi-current-window-monitoring-relay.svg",
+  "referencePath": "references/ansi-current-window-monitoring-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-current-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Current Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC11EC4D-374C-4191-9534-C802D3932711.htm",
+      "type": "cad-reference",
+      "scope": "Public current protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F27 as Minimum and Maximum Current Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "iec-fibre-optic-connector",
+  "name": "Fibre-optic connector",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "optical connector",
+    "fibre connector pair",
+    "optical plug and socket"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A demountable joint between optical fibres, drawn as a connector on a fibre link with an optical path mark.",
+  "description": [
+    "The fibre-optic connector shows a point where two fibres are joined by a demountable connector, such as at a patch panel or on a relay communications port. Protection signalling and process bus networks use many of them, and each one adds insertion loss to the link budget.",
+    "The symbol does not state the connector type, polish or whether it is single mode or multimode. Mismatched connectors or polish types cause high loss or reflections. Fusion splices are a different item and should not be drawn as connectors, since they cannot be disconnected."
+  ],
+  "readingNotes": [
+    "Count connectors on the link for the loss budget.",
+    "Check connector type against the device port."
+  ],
+  "drawingChecklist": [
+    "State connector type and polish.",
+    "Distinguish connectors from fusion splices.",
+    "Record connector positions in the fibre schedule."
+  ],
+  "distinction": "A fibre-optic connector is demountable; a fusion splice is a permanent joint.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Connector halves on a line with an optical path mark"
+    },
+    {
+      "label": "Link budget",
+      "value": "Each mated pair adds insertion loss"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "optical-fibre-cable",
+    "plug-and-socket-connector-pair",
+    "iec-coaxial-plug-and-socket"
+  ],
+  "artwork": "s28-iec-fibre-optic-connector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Optical fibre connector",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-fibre-optic-connector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-fibre-optic-connector.svg",
+  "id": "iec-fibre-optic-connector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-fibre-optic-connector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-fibre-optic-connector.json",
+  "svgPath": "artwork/svg/iec-fibre-optic-connector.svg",
+  "referencePath": "references/iec-fibre-optic-connector.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

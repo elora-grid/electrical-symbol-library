@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-start-demand-allocator",
+  "name": "Microgrid generator start-demand allocator",
+  "kind": "symbol",
+  "abbreviation": "MGSA",
+  "aliases": [
+    "Microgrid generating-set coordination",
+    "microgrids Microgrid generating-set coordination",
+    "microgrids",
+    "Microgrids",
+    "Power demand and generator availability",
+    "Selected start requests"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects available generating sets to satisfy the defined start demand and priority rules.",
+  "description": [
+    "Selects available generating sets to satisfy the defined start demand and priority rules. Generating-set coordination decides which available machines should operate and how their power contribution is shared. Engine starting, breaker connection, load acceptance and stopping are separate stages with their own feedback.",
+    "In a microgrid power station, the controller can request an additional generator when available reserve falls and later unload a selected machine before its documented stop sequence. For this reference, the drawing identifies “Power demand and generator availability” at the input and “Selected start requests” at the output. A start request does not guarantee an available source.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Power demand and generator availability. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected start requests. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A start request does not guarantee an available source.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for power demand and generator availability.",
+    "Identify the destination and defined state of selected start requests.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A start request does not guarantee an available source."
+  ],
+  "distinction": "A start request does not guarantee an available source. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Power demand and generator availability"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected start requests"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGSA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-genset-control",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "genset-controller",
+    "diesel-generator-set",
+    "microgrid-generator-running-availability-input"
+  ],
+  "artwork": "pi26-microgrid-generator-start-demand-allocator",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-gensets",
+    "input": "Power demand and generator availability",
+    "output": "Selected start requests"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-start-demand-allocator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-start-demand-allocator.svg",
+  "id": "microgrid-generator-start-demand-allocator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-start-demand-allocator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-start-demand-allocator.json",
+  "svgPath": "artwork/svg/microgrid-generator-start-demand-allocator.svg",
+  "referencePath": "references/microgrid-generator-start-demand-allocator.md",
+  "publicSources": [
+    {
+      "id": "pi26-genset-control",
+      "publisher": "DEIF",
+      "title": "AGC power management options G4, G5 and G8",
+      "url": "https://www.deif.com/media/5a4bx0xv/agc-3-option-g4-g5-and-g8-power-management-4189340696-uk.pdf",
+      "scope": "Generator start/stop, load sharing, reserve and power management.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

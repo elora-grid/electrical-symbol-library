@@ -1,0 +1,50 @@
+# Hensel Mi\_ST\_41 busbar support
+
+Mi_ST_41 busbar support arrangement: mounting, interface and service-space coordination.
+
+[Canonical reference](https://eloragrid.ai/objects/ga-mi-st-41-2fa4c64e31a9) · [Structured record](../entries/ga-mi-st-41-2fa4c64e31a9.json) · [All references](README.md)
+
+Updated: 2026-10-29. Drawing use: GA. Reference families: Manufacturer.
+
+## What it represents
+
+Mi\_ST\_41 is the drawing identifier for busbar support in Hensel's ENYMOD Mi enclosure and distribution-system STEP collection. A busbar support locates the selected conductor arrangement. Its drawing concerns the mechanical interface; electrical spacing and withstand requirements belong to the engineered system design.
+For example, in a distribution assembly with a separately selected supported busbar, use the Mi\_ST\_41 reference to coordinate support fixings, conductor interface and adjacent equipment. Show the neighbouring equipment and the connection route so the installer can understand the intended arrangement.
+Use the reviewed native drawing identified as Mi\_Sammelschienentraeger/Mi\_ST\_41.stp for the exact physical details. Locate the named file in its original manufacturer archive. Manufacturer drawing previews are shown only when an exact approved source is available. Any illustrative 3D view is a separate concept and is not to scale; use the selected manufacturer documents for dimensions, ratings and installation details.
+
+## How to read it
+
+- Keep support fixings, conductor interface and adjacent equipment visible in the layout.
+- This reference concerns the named Mi\_ST\_41 drawing and its busbar support role. A drawing in the same collection is not automatic evidence of compatible terminals, mounts or electrical performance.
+
+## Drawing checklist
+
+- Match Mi\_ST\_41, the native drawing identity and the project equipment schedule.
+- Match the selected conductor arrangement and manufacturer system design.
+- Coordinate support fixings, conductor interface and adjacent equipment with neighbouring equipment.
+- Confirm the current manufacturer installation instructions, selected revision and any required mounting or clearance details.
+
+## Important distinction
+
+This reference concerns the named Mi\_ST\_41 drawing and its busbar support role. A drawing in the same collection is not automatic evidence of compatible terminals, mounts or electrical performance.
+
+## Facts
+
+- Manufacturer source: Hensel
+- Native drawing identity: Mi\_ST\_41
+- Reviewed equipment role: busbar support
+- CAD scope: ENYMOD Mi enclosure and distribution-system STEP
+- Preview scope: Source-matched manufacturer drawings where available; illustrative 3D is separate and not to scale
+
+## Public references
+
+- [Hensel ENYMOD Mi enclosure and distribution-system STEP official CAD source](https://www.hensel-electric.de/de-de/service/downloads/digitale-produktdaten/3d-step.php) — Hensel. Official source collection and exact native drawing identity, with the equipment role checked against native content or the narrowly defined source family.
+
+## Related references
+
+- [Busbar support insulator](ga-busbar-support-insulator.md)
+- [Equipment maintenance envelope](ga-equipment-maintenance-envelope.md)
+
+GA objects have no standalone 2D icon. Use the canonical equipment page for current manufacturer drawing and 3D preview availability.
+
+Elora-authored explanations are CC BY 4.0. Linked standards and manufacturer material retain their own rights. Confirm project requirements using primary sources.

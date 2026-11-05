@@ -1,0 +1,104 @@
+{
+  "slug": "iec-one-way-light-switch",
+  "name": "One-way light switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "S1",
+  "aliases": [
+    "single-pole one-way switch",
+    "one-way switch plan symbol",
+    "light switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Installation plan mark for a single-pole one-way switch that turns a lighting circuit on and off from one place.",
+  "description": [
+    "The one-way switch is drawn on IEC-style plans as a small circle at the switch position with a short stroke ending in one tick. A dashed or curved switching line usually runs from the symbol to the luminaires it controls, telling the electrician which lights are switched together.",
+    "Gang count is shown by repeating the switch or by writing a number beside it, so a two-gang plate controlling two lighting groups appears as two strokes or a 2. Mounting height is normally covered by a general note rather than on each symbol.",
+    "The symbol shows a switching function and position only. It does not show the rating, the plate finish or whether the switch is single-pole or double-pole beyond the single tick convention."
+  ],
+  "readingNotes": [
+    "Follow the switching line to the luminaires; the symbol alone does not say what it controls.",
+    "Count ticks: one tick for single-pole one-way, two ticks for double-pole."
+  ],
+  "drawingChecklist": [
+    "Draw switching links to every controlled luminaire.",
+    "Indicate gang count where switches share a plate.",
+    "Reference mounting height in the general notes."
+  ],
+  "distinction": "A two-way switch has a second stroke so it can be paired with another switch; the one-way form controls from one point only.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Circle with one stroke and one end tick"
+    },
+    {
+      "label": "Paired information",
+      "value": "Switching line to controlled luminaires"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation diagrams; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Functional switching explained separately from isolation and protection."
+    }
+  ],
+  "related": [
+    "iec-two-way-light-switch",
+    "iec-two-pole-light-switch",
+    "iec-luminaire-general-plan-symbol"
+  ],
+  "artwork": "s28-iec-one-way-light-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "One-way switch, single pole",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-one-way-light-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-one-way-light-switch.svg",
+  "id": "iec-one-way-light-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-one-way-light-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-one-way-light-switch.json",
+  "svgPath": "artwork/svg/iec-one-way-light-switch.svg",
+  "referencePath": "references/iec-one-way-light-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation diagrams; not a source of reproduced artwork."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Functional switching explained separately from isolation and protection."
+    }
+  ]
+}

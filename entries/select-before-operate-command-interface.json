@@ -1,0 +1,105 @@
+{
+  "slug": "select-before-operate-command-interface",
+  "name": "Select-before-operate command interface",
+  "kind": "symbol",
+  "abbreviation": "SCI",
+  "aliases": [
+    "Substation automation and command interfaces",
+    "substations Substation automation and command interfaces",
+    "substations",
+    "Substations",
+    "Selection and operate requests",
+    "Selected equipment command"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Separates equipment selection from the subsequent operating request in the selected control scheme.",
+  "description": [
+    "Separates equipment selection from the subsequent operating request in the selected control scheme. Station automation collects measurements and statuses and issues assigned commands through defined authority paths. A communicated point has a value, quality and equipment identity; it should not be treated as an unexplained contact.",
+    "In a substation control building, the station controller receives bay information and forwards an operator's selected command to the correct bay device. Device feedback confirms whether the intended result actually occurred. For this reference, the drawing identifies “Selection and operate requests” at the input and “Selected equipment command” at the output. The exact control model is device-specific.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Selection and operate requests. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected equipment command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The exact control model is device-specific.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for selection and operate requests.",
+    "Identify the destination and defined state of selected equipment command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The exact control model is device-specific."
+  ],
+  "distinction": "The exact control model is device-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Selection and operate requests"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected equipment command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-automation",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-substation-rtu",
+    "plc-digital-input",
+    "direct-operate-command-interface"
+  ],
+  "artwork": "pi26-select-before-operate-command-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-automation",
+    "input": "Selection and operate requests",
+    "output": "Selected equipment command"
+  },
+  "url": "https://eloragrid.ai/symbols/select-before-operate-command-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/select-before-operate-command-interface.svg",
+  "id": "select-before-operate-command-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/select-before-operate-command-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/select-before-operate-command-interface.json",
+  "svgPath": "artwork/svg/select-before-operate-command-interface.svg",
+  "referencePath": "references/select-before-operate-command-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-automation",
+      "publisher": "SEL",
+      "title": "SEL-2411 programmable automation controller",
+      "url": "https://selinc.com/products/2411/",
+      "scope": "Station I/O, alarms, event recording, command and communications interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

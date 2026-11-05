@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-wind-generating-station",
+  "name": "ANSI/IEEE Wind generating station form",
+  "kind": "symbol",
+  "abbreviation": "WIND STN",
+  "aliases": [
+    "HDV1_S00402",
+    "VDV1_S00402",
+    "IEEE Wind Generating Station, In Service Or Unspecified",
+    "ANSI Wind generating station"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of wind generating station: a wind generating station is a system-level representation of a documented wind-generation facility.",
+  "description": [
+    "This reference locates wind generating station in Autodesk's IEEE-oriented power stations family. A wind generating station is a system-level representation of a documented wind-generation facility. The internal machines, converters and collection system require separate drawing detail. The public library uses HDV1_S00402 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Identify the facility connection point separately from individual turbine sources. A wind-station marker does not specify the generator or converter technology of each turbine. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the facility connection point separately from individual turbine sources.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name site boundary",
+    "Reference collector SLD",
+    "State network connection"
+  ],
+  "distinction": "A wind-station marker does not specify the generator or converter technology of each turbine.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Power Stations; published form: Wind Generating Station, In Service Or Unspecified."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDV1_S00402. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-power-stations",
+      "relevance": "Public IEEE-oriented Power Stations table explicitly lists HDV1_S00402 as Wind Generating Station, In Service Or Unspecified. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "wind-generating-station",
+    "generator",
+    "busbar"
+  ],
+  "artwork": "s28-ansi-wind-generating-station",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Wind Generating Station, In Service Or Unspecified",
+    "reference": "Autodesk IEEE Symbol Preview: Power Stations, block HDV1_S00402. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "wind-generating-station"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-wind-generating-station",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-wind-generating-station.svg",
+  "id": "ansi-wind-generating-station",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-wind-generating-station",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-wind-generating-station.json",
+  "svgPath": "artwork/svg/ansi-wind-generating-station.svg",
+  "referencePath": "references/ansi-wind-generating-station.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-power-stations",
+      "title": "Autodesk IEEE Symbol Preview: Power Stations",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-002D3D7C-C3E9-4B60-9F6D-FFBB383C1862.htm",
+      "type": "cad-reference",
+      "scope": "Public power stations family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Power Stations table explicitly lists HDV1_S00402 as Wind Generating Station, In Service Or Unspecified. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

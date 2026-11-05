@@ -1,0 +1,99 @@
+{
+  "slug": "iec-network-switch-plan-symbol",
+  "name": "Network switch symbol",
+  "kind": "symbol",
+  "abbreviation": "SW",
+  "aliases": [
+    "Ethernet switch",
+    "LAN switch",
+    "managed switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Network symbol for an Ethernet switch, a box with crossing arrows, used on electrical and communication drawings.",
+  "description": [
+    "Ethernet switches are drawn on network and control drawings as a box with opposed arrows, indicating forwarding between ports. Electrical drawings show them in control panels and communication cabinets with their power supply and port connections.",
+    "The drawing should tag managed or unmanaged, port count and any PoE capability, since PoE switches power cameras and access points. Ring or redundancy protocols are noted where the network is resilient. The symbol does not show VLANs, IP addressing or configuration. Those belong in the network design documents."
+  ],
+  "readingNotes": [
+    "Check PoE capability where powered devices connect.",
+    "Read port count and redundancy notes."
+  ],
+  "drawingChecklist": [
+    "Tag port count and type.",
+    "State PoE budget if used.",
+    "Show power supply."
+  ],
+  "distinction": "A router connects networks at the IP level; a switch forwards frames within a network.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Frame forwarding between ports"
+    },
+    {
+      "label": "Common option",
+      "value": "Power over Ethernet"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; plan symbols for this device vary between legends, so read the project key"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-westermo-lynx5612",
+      "relevance": "Public support page for a managed industrial Ethernet switch."
+    },
+    {
+      "sourceId": "s28-westermo-poe-switches",
+      "relevance": "Public product family page describing Ethernet switches that power field devices over the data cable."
+    }
+  ],
+  "related": [
+    "ga-industrial-ethernet-switch",
+    "poe-power-sourcing-interface",
+    "iec-network-router-symbol"
+  ],
+  "artwork": "s28-iec-network-switch-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-network-switch-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-network-switch-plan-symbol.svg",
+  "id": "iec-network-switch-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-network-switch-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-network-switch-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-network-switch-plan-symbol.svg",
+  "referencePath": "references/iec-network-switch-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "pub-object-westermo-lynx5612",
+      "title": "Lynx 5612-E-F4G-T8G-LV support",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/de/support/product-support/lynx-5612-e-f4g-t8g-lv",
+      "type": "manufacturer",
+      "scope": "Official model-specific industrial switch support and mechanical resources.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public support page for a managed industrial Ethernet switch."
+    },
+    {
+      "id": "s28-westermo-poe-switches",
+      "title": "Industrial PoE Ethernet switches",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/ethernet-switches/poe",
+      "type": "manufacturer",
+      "scope": "Public product family page for Ethernet switches that supply Power over Ethernet to field devices.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing Ethernet switches that power field devices over the data cable."
+    }
+  ]
+}

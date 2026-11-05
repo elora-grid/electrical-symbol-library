@@ -1,0 +1,106 @@
+{
+  "slug": "dump-load-controller",
+  "name": "Dump load controller",
+  "kind": "symbol",
+  "abbreviation": "DLC",
+  "aliases": [
+    "diversion load controller",
+    "ballast load controller",
+    "electronic load controller"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A controller that diverts surplus generation into a resistive dump load to hold frequency or voltage in a small isolated system.",
+  "description": [
+    "A dump load controller keeps a small isolated system in balance by diverting surplus power into a resistive load, usually water or air heaters. In micro hydro systems it holds frequency constant by keeping total generator load fixed, and in small wind or battery systems it protects the battery from overcharge by dumping excess energy.",
+    "Drawings show a controller block, often with a thyristor or transistor switch symbol, connected between the bus and a resistor bank labelled dump or ballast load. A frequency or voltage sensing connection to the bus is included.",
+    "The dump load must be rated to absorb the full generator output if all consumer loads disconnect. The symbol does not show that rating or the heat rejection arrangement, both important for safety."
+  ],
+  "readingNotes": [
+    "The resistor bank is a control element, not a consumer load.",
+    "Check the sensing quantity: frequency for hydro, voltage for battery systems."
+  ],
+  "drawingChecklist": [
+    "State dump load rating against generator rating.",
+    "Show sensing and switching element.",
+    "Reference heat rejection."
+  ],
+  "distinction": "A dump load controller diverts surplus energy continuously; a load bank is a test load used temporarily.",
+  "facts": [
+    {
+      "label": "Control quantity",
+      "value": "Frequency or DC voltage"
+    },
+    {
+      "label": "Load element",
+      "value": "Resistive heaters"
+    },
+    {
+      "label": "Typical use",
+      "value": "Micro hydro, small wind, off-grid systems"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public resistor and heater-element symbol context."
+    },
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public semiconductor switch symbol context."
+    }
+  ],
+  "related": [
+    "hydro-turbine-generator",
+    "resistive-load-bank",
+    "semiconductor-power-switch",
+    "type-1-fixed-speed-wind-turbine-generator"
+  ],
+  "artwork": "s28-dump-load-controller",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dump-load-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/dump-load-controller.svg",
+  "id": "dump-load-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dump-load-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dump-load-controller.json",
+  "svgPath": "artwork/svg/dump-load-controller.svg",
+  "referencePath": "references/dump-load-controller.md",
+  "publicSources": [
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public resistor and heater-element symbol context."
+    },
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public semiconductor switch symbol context."
+    }
+  ]
+}

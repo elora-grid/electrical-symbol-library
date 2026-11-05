@@ -1,0 +1,106 @@
+{
+  "slug": "active-harmonic-filter",
+  "name": "Active harmonic filter",
+  "kind": "symbol",
+  "abbreviation": "AHF",
+  "aliases": [
+    "active power filter",
+    "APF",
+    "harmonic compensator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A shunt converter that measures load harmonics and injects opposing currents to cancel them at the connection point.",
+  "description": [
+    "An active harmonic filter is a shunt-connected voltage-source converter that measures load current through current transformers, calculates the harmonic content and injects equal and opposite currents. It can also correct power factor and balance load between phases. Response adapts to changing loads, so it does not need tuning to particular orders.",
+    "Single-line diagrams show a converter block with a wave or harmonic mark, connected to the switchboard bus through a breaker, with current transformers on the load side or on the supply side depending on the control method. Several modules are often paralleled.",
+    "The filter rating is in amperes of compensation current, not in kvar, and it can only cancel harmonics within that current and frequency range. The symbol does not tell you where the current transformers are, which decides whether the filter compensates the whole board or one load."
+  ],
+  "readingNotes": [
+    "Find the current transformers; their position defines what is being compensated.",
+    "Ratings are given in compensating amperes."
+  ],
+  "drawingChecklist": [
+    "State compensating current and harmonic range.",
+    "Show current transformer location.",
+    "Reference parallel module arrangement."
+  ],
+  "distinction": "An active filter cancels harmonics with a converter; a passive filter sinks them with tuned capacitors and reactors.",
+  "facts": [
+    {
+      "label": "Core element",
+      "value": "Shunt voltage-source converter"
+    },
+    {
+      "label": "Rating",
+      "value": "Compensating current in amperes"
+    },
+    {
+      "label": "Extra functions",
+      "value": "Power factor and load balancing"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-statcom",
+      "relevance": "Public converter-based compensator page noting active filtering capability."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ],
+  "related": [
+    "single-tuned-harmonic-filter",
+    "statcom",
+    "ga-active-harmonic-filter-cabinet",
+    "current-transformer"
+  ],
+  "artwork": "s28-active-harmonic-filter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-harmonic-filter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/active-harmonic-filter.svg",
+  "id": "active-harmonic-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-harmonic-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-harmonic-filter.json",
+  "svgPath": "artwork/svg/active-harmonic-filter.svg",
+  "referencePath": "references/active-harmonic-filter.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-statcom",
+      "title": "STATCOM: converter-based reactive power compensation",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/facts/statcom",
+      "type": "manufacturer",
+      "scope": "Public STATCOM description: voltage-source converter, reactive power support and active filtering capability.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public converter-based compensator page noting active filtering capability."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ]
+}

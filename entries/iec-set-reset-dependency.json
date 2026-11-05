@@ -1,0 +1,90 @@
+{
+  "slug": "iec-set-reset-dependency",
+  "name": "IEC set and reset dependency (S, R)",
+  "kind": "symbol",
+  "abbreviation": "Sm/Rm",
+  "aliases": [
+    "S dependency",
+    "R dependency",
+    "set-reset dependency notation"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency labels Sm and Rm: the affected output behaves as if set or reset when the affecting input is active.",
+  "description": [
+    "S and R dependencies specify the internal state of an output when both set and reset conditions could be active together. An Rm input at its internal 1 state makes the affected output react as it would to S=0, R=1; an Sm input does the opposite. At 0 they have no effect.",
+    "These labels are used where a storage element must have a defined priority between set and reset. A reader can see from the symbol whether set or reset dominates, which matters in latching alarm and interlock logic.",
+    "Plain S and R labels without numbers are the ordinary set and reset inputs of a bistable element. The dependency form only applies when a number follows the letter."
+  ],
+  "readingNotes": [
+    "S or R followed by a number is a dependency; without a number it is an ordinary input.",
+    "Check which one dominates when both are active."
+  ],
+  "drawingChecklist": [
+    "Number dependency inputs explicitly.",
+    "Label affected outputs with the matching number.",
+    "State set or reset priority in the logic description."
+  ],
+  "distinction": "An ordinary R input resets the element directly; Rm dependency states the reaction of particular outputs.",
+  "facts": [
+    {
+      "label": "Rm at 1",
+      "value": "Output reacts as to S=0, R=1"
+    },
+    {
+      "label": "Sm at 1",
+      "value": "Output reacts as to S=1, R=0"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "S (set) and R (reset) dependencies and the summary table."
+    }
+  ],
+  "related": [
+    "iec-sr-latch",
+    "set-reset-latch",
+    "iec-clocked-sr-flip-flop"
+  ],
+  "artwork": "s28-iec-set-reset-dependency",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Affecting inputs labelled Sm or Rm with affected outputs labelled m",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-set-reset-dependency",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-set-reset-dependency.svg",
+  "id": "iec-set-reset-dependency",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-set-reset-dependency",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-set-reset-dependency.json",
+  "svgPath": "artwork/svg/iec-set-reset-dependency.svg",
+  "referencePath": "references/iec-set-reset-dependency.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "S (set) and R (reset) dependencies and the summary table."
+    }
+  ]
+}

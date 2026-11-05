@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-phase-loss-monitoring-relay",
+  "name": "ANSI/IEEE Phase-loss monitoring relay form",
+  "kind": "symbol",
+  "abbreviation": "PH LOSS",
+  "aliases": [
+    "HCR1F42",
+    "VCR1F42",
+    "IEEE Relay Sensing Lack of Phase in Three Phase System",
+    "ANSI Phase-loss monitoring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of phase-loss monitoring relay: a phase-loss relay supervises the presence of the specified phases in a three-phase system.",
+  "description": [
+    "This reference locates phase-loss monitoring relay in Autodesk's IEEE-oriented miscellaneous relays family. A phase-loss relay supervises the presence of the specified phases in a three-phase system. The drawing identifies the monitored source and output used by control or protection logic. The public library uses HCR1F42 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Check whether phase sequence or voltage unbalance is also configured in the selected device. Phase loss is different from phase reversal or current unbalance. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check whether phase sequence or voltage unbalance is also configured in the selected device.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show phase measurement inputs",
+    "State enabled functions",
+    "Reference output logic"
+  ],
+  "distinction": "Phase loss is different from phase reversal or current unbalance.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Relays; published form: Relay Sensing Lack of Phase in Three Phase System."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F42. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-miscellaneous-relays",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F42 as Relay Sensing Lack of Phase in Three Phase System. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "phase-loss-monitoring-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-phase-loss-monitoring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Relay Sensing Lack of Phase in Three Phase System",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Relays, block HCR1F42. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "phase-loss-monitoring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-phase-loss-monitoring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-phase-loss-monitoring-relay.svg",
+  "id": "ansi-phase-loss-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-phase-loss-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-phase-loss-monitoring-relay.json",
+  "svgPath": "artwork/svg/ansi-phase-loss-monitoring-relay.svg",
+  "referencePath": "references/ansi-phase-loss-monitoring-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-miscellaneous-relays",
+      "title": "Autodesk IEEE Symbol Preview: Miscellaneous Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA549E3E-4ABB-426E-9331-0226EF55EAA7.htm",
+      "type": "cad-reference",
+      "scope": "Public miscellaneous relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F42 as Relay Sensing Lack of Phase in Three Phase System. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

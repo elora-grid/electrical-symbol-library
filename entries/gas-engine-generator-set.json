@@ -1,0 +1,106 @@
+{
+  "slug": "gas-engine-generator-set",
+  "name": "Gas engine generator set",
+  "kind": "symbol",
+  "abbreviation": "GG",
+  "aliases": [
+    "gas genset",
+    "natural gas generator set",
+    "spark-ignited generator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A spark-ignited reciprocating engine on natural gas, biogas or LPG driving an alternator, shown as a generating source.",
+  "description": [
+    "A gas engine generator set uses a spark-ignited reciprocating engine running on natural gas, biogas, landfill gas or LPG. These sets are common in combined heat and power plants, prime power microgrids and sites with a reliable gas supply, and they are often run continuously rather than only as backup.",
+    "Single-line diagrams draw the alternator circle with an engine block marked G or GAS, the generator breaker, and sometimes heat recovery references. When several sets run in parallel, a common synchronising bus and a load-sharing controller appear alongside.",
+    "Gas engines usually accept large load steps less readily than diesel engines, which affects how a microgrid sequences load after a blackout. The symbol does not express block-load acceptance, gas pressure requirements or emissions limits."
+  ],
+  "readingNotes": [
+    "Check the load-step limits in the controller documents before assuming the set can pick up a whole bus at once.",
+    "Heat recovery or CHP notes indicate continuous running."
+  ],
+  "drawingChecklist": [
+    "State fuel type and rating basis.",
+    "Show breaker and synchronising arrangement.",
+    "Reference load acceptance and start sequence."
+  ],
+  "distinction": "A gas engine set uses spark ignition and gaseous fuel; a gas turbine generator uses a continuous-combustion turbine.",
+  "facts": [
+    {
+      "label": "Prime mover",
+      "value": "Spark-ignited reciprocating engine"
+    },
+    {
+      "label": "Fuels",
+      "value": "Natural gas, biogas, LPG"
+    },
+    {
+      "label": "Typical role",
+      "value": "Prime power or CHP"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public generator paralleling and switchgear context."
+    },
+    {
+      "sourceId": "s28-deif-hybrid-microgrid",
+      "relevance": "Public hybrid microgrid context combining gensets, solar, storage and mains."
+    }
+  ],
+  "related": [
+    "diesel-generator-set",
+    "gas-turbine-generator",
+    "generator-package",
+    "25-synchronism-check"
+  ],
+  "artwork": "s28-gas-engine-generator-set",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/gas-engine-generator-set",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/gas-engine-generator-set.svg",
+  "id": "gas-engine-generator-set",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gas-engine-generator-set",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gas-engine-generator-set.json",
+  "svgPath": "artwork/svg/gas-engine-generator-set.svg",
+  "referencePath": "references/gas-engine-generator-set.md",
+  "publicSources": [
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator paralleling and switchgear context."
+    },
+    {
+      "id": "s28-deif-hybrid-microgrid",
+      "title": "Reliable hybrid power and microgrid solutions",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/applications/power-generation/reliable-hybrid-power-and-microgrid-solutions/",
+      "type": "manufacturer",
+      "scope": "Public hybrid and microgrid control context combining gensets, PV, storage and mains.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public hybrid microgrid context combining gensets, solar, storage and mains."
+    }
+  ]
+}

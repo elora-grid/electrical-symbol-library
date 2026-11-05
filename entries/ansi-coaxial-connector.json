@@ -1,0 +1,103 @@
+{
+  "slug": "ansi-coaxial-connector",
+  "name": "ANSI/IEEE coaxial connector symbol",
+  "kind": "symbol",
+  "abbreviation": "J",
+  "aliases": [
+    "IEEE coax connector",
+    "ANSI RF connector",
+    "coaxial jack"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented coaxial connector symbol showing mating centre and outer contacts for a coaxial cable.",
+  "description": [
+    "IEEE-style schematics show a coaxial connector as a centre contact within an outer shell outline, often with the shell tied to ground. US-practice drawings label coaxial jacks with J reference designators and plugs with P, following IEEE reference designation practice.",
+    "This is an independently drawn explanation, not the IEEE graphic. Connector series and impedance must still be given. Where the shell is grounded at the panel, the outer conductor of the cable is grounded there too, which affects ground loop analysis."
+  ],
+  "readingNotes": [
+    "Read J or P designations to identify jack or plug.",
+    "Check shell grounding at the panel."
+  ],
+  "drawingChecklist": [
+    "State connector series and impedance.",
+    "Use J and P designators consistently.",
+    "Show shell grounding."
+  ],
+  "distinction": "An ANSI coaxial connector mates concentric contacts; the ANSI plug and socket pair mates single conductors.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "IEEE 315 graphic conventions for coaxial connectors (standards context only)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "relevance": "Public IEEE-oriented preview of connector forms."
+    }
+  ],
+  "related": [
+    "iec-coaxial-plug-and-socket",
+    "ansi-coaxial-cable",
+    "ansi-plug-and-socket-connector-pair"
+  ],
+  "artwork": "s28-ansi-coaxial-connector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Coaxial connector form",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-coaxial-connector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-coaxial-connector.svg",
+  "id": "ansi-coaxial-connector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-coaxial-connector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-coaxial-connector.json",
+  "svgPath": "artwork/svg/ansi-coaxial-connector.svg",
+  "referencePath": "references/ansi-coaxial-connector.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "title": "Autodesk IEEE Symbol Preview — Connectors - No Wirenumber Changes",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0B14FEAB-110A-4DD3-884E-0A2F8F9E76F7.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented preview of connector forms."
+    }
+  ]
+}

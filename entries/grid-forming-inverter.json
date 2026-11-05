@@ -1,0 +1,105 @@
+{
+  "slug": "grid-forming-inverter",
+  "name": "Grid-forming inverter",
+  "kind": "symbol",
+  "abbreviation": "GFM",
+  "aliases": [
+    "GFM inverter",
+    "voltage-source mode inverter",
+    "virtual synchronous machine inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An inverter controlled as a voltage source that sets its own voltage and frequency, able to energise and hold up an island.",
+  "description": [
+    "A grid-forming inverter controls its output as a voltage source behind an impedance, setting voltage magnitude and frequency itself rather than measuring and following them. This lets it start a dead microgrid, share load with other sources through droop or virtual synchronous machine control, and respond instantly to load steps.",
+    "Single-line diagrams use the inverter symbol, a box with DC and AC marks, with a GFM label, a voltage-source note or a sine source mark to show the control mode. On microgrid drawings at least one grid-forming source must be available whenever the system is islanded.",
+    "Hardware alone does not decide grid-forming behaviour; many converters can switch modes in software. The symbol does not show current limits during faults, which are usually far lower than a synchronous machine, so protection based on fault current needs checking."
+  ],
+  "readingNotes": [
+    "Look for GFM or voltage-source notes; the box itself is the same as any inverter.",
+    "Confirm that a grid-forming source is present in every islanded operating case."
+  ],
+  "drawingChecklist": [
+    "State control mode and droop settings.",
+    "Show island and grid-connected switching.",
+    "Reference fault current capability."
+  ],
+  "distinction": "A grid-forming inverter sets voltage and frequency; a grid-following inverter injects current synchronised to a voltage that something else provides.",
+  "facts": [
+    {
+      "label": "Control behaviour",
+      "value": "Voltage source"
+    },
+    {
+      "label": "Islanding role",
+      "value": "Can energise and hold an island"
+    },
+    {
+      "label": "Fault current",
+      "value": "Converter-limited"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-quattro",
+      "relevance": "Public inverter-charger documentation describing island operation."
+    },
+    {
+      "sourceId": "s28-deif-hybrid-microgrid",
+      "relevance": "Public hybrid microgrid context in which a forming source sets voltage and frequency."
+    }
+  ],
+  "related": [
+    "grid-following-inverter",
+    "dc-to-ac-inverter",
+    "microgrid-controller",
+    "battery-power-conversion-system"
+  ],
+  "artwork": "s28-grid-forming-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/grid-forming-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/grid-forming-inverter.svg",
+  "id": "grid-forming-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/grid-forming-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/grid-forming-inverter.json",
+  "svgPath": "artwork/svg/grid-forming-inverter.svg",
+  "referencePath": "references/grid-forming-inverter.md",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-quattro",
+      "title": "Quattro official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/inverters-chargers/quattro",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public inverter-charger documentation describing island operation."
+    },
+    {
+      "id": "s28-deif-hybrid-microgrid",
+      "title": "Reliable hybrid power and microgrid solutions",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/applications/power-generation/reliable-hybrid-power-and-microgrid-solutions/",
+      "type": "manufacturer",
+      "scope": "Public hybrid and microgrid control context combining gensets, PV, storage and mains.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public hybrid microgrid context in which a forming source sets voltage and frequency."
+    }
+  ]
+}

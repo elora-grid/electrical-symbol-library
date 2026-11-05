@@ -1,0 +1,87 @@
+{
+  "slug": "lvds-line-driver",
+  "name": "LVDS line driver",
+  "kind": "symbol",
+  "abbreviation": "LVDS TX",
+  "aliases": [
+    "LVDS line driver",
+    "LVDS line driver functional block",
+    "LVDS line driver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An LVDS driver converts a logic signal into the selected low-voltage differential output.",
+  "description": [
+    "An LVDS driver converts a logic signal into the selected low-voltage differential output.",
+    "A board can send data over an appropriately designed differential connection to a matching receiver.",
+    "Show the logic input and the two differential output conductors. A driver creates the signal that a compatible receiver interprets; the differential pair is not a power supply or an unspecified pair of ordinary digital outputs. Identify the selected link and termination requirements. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the driver input and differential pair labels.",
+    "Reference the supported receiver and termination.",
+    "Show the selected supply and signal-return arrangement.",
+    "A differential signal pair needs its specified termination and routing; two wires alone do not define a valid interface."
+  ],
+  "drawingChecklist": [
+    "Identify the driver input and differential pair labels.",
+    "Reference the supported receiver and termination.",
+    "Show the selected supply and signal-return arrangement."
+  ],
+  "distinction": "A differential signal pair needs its specified termination and routing; two wires alone do not define a valid interface.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Logic input signal"
+    },
+    {
+      "label": "Concept output",
+      "value": "Differential output pair"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-lvds",
+      "relevance": "Low-voltage differential signalling: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-bus-transceiver",
+    "lvds-line-receiver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-lvds-line-driver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/lvds-line-driver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/lvds-line-driver.svg",
+  "id": "lvds-line-driver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/lvds-line-driver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/lvds-line-driver.json",
+  "svgPath": "artwork/svg/lvds-line-driver.svg",
+  "referencePath": "references/lvds-line-driver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-lvds",
+      "title": "Low-voltage differential signalling",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/lvds-m-lvds-pecl-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Low-voltage differential signalling: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

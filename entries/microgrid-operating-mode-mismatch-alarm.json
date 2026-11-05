@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-operating-mode-mismatch-alarm",
+  "name": "Microgrid operating-mode mismatch alarm",
+  "kind": "symbol",
+  "abbreviation": "MOMA",
+  "aliases": [
+    "Microgrid operating-mode controls",
+    "microgrids Microgrid operating-mode controls",
+    "microgrids",
+    "Microgrids",
+    "Requested and observed modes",
+    "Mode mismatch indication"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Detects disagreement between the requested mode and the established topology or resource state.",
+  "description": [
+    "Detects disagreement between the requested mode and the established topology or resource state. A microgrid operating-mode function coordinates how local sources and loads relate to the utility connection. The selected mode, the measured electrical condition and the actual switching configuration can differ during a transition.",
+    "In a microgrid serving a switchroom and industrial loads, the controller can move between grid-connected and islanded operating states only through its defined transition logic. Each state needs identifiable source roles and feedback. For this reference, the drawing identifies “Requested and observed modes” at the input and “Mode mismatch indication” at the output. The allowed transition interval must be defined.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Requested and observed modes. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Mode mismatch indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The allowed transition interval must be defined.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for requested and observed modes.",
+    "Identify the destination and defined state of mode mismatch indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The allowed transition interval must be defined."
+  ],
+  "distinction": "The allowed transition interval must be defined. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Requested and observed modes"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Mode mismatch indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MOMA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "grid-forming-inverter",
+    "microgrid-controller-manual-mode-interface"
+  ],
+  "artwork": "pi26-microgrid-operating-mode-mismatch-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-modes",
+    "input": "Requested and observed modes",
+    "output": "Mode mismatch indication"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-operating-mode-mismatch-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-operating-mode-mismatch-alarm.svg",
+  "id": "microgrid-operating-mode-mismatch-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-operating-mode-mismatch-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-operating-mode-mismatch-alarm.json",
+  "svgPath": "artwork/svg/microgrid-operating-mode-mismatch-alarm.svg",
+  "referencePath": "references/microgrid-operating-mode-mismatch-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

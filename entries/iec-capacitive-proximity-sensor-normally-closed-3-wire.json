@@ -1,0 +1,95 @@
+{
+  "slug": "iec-capacitive-proximity-sensor-normally-closed-3-wire",
+  "name": "IEC capacitive proximity sensor: normally closed 3 wire",
+  "kind": "symbol",
+  "abbreviation": "CAP",
+  "aliases": [
+    "HPX12C3",
+    "VPX12C3",
+    "capacitive proximity sensor Normally Closed 3 Wire"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Capacitive proximity sensor form: Normally Closed 3 Wire.",
+  "description": [
+    "A capacitive proximity sensor detects a change of capacitance caused by a target entering its sensing field. This entry identifies the normally closed 3 wire form in the publisher's IEC-context family.",
+    "A vessel wall or nearby material can change the measured capacitance and indicate a level or presence condition. The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state. The three-wire form distinguishes supply, return and switching output. Confirm sourcing or sinking operation from the actual sensor circuit before connecting it to an input.",
+    "Material, mounting, contamination and adjustment affect operation; a capacitive mark does not guarantee detection through every container or medium."
+  ],
+  "readingNotes": [
+    "The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state.",
+    "The three-wire form distinguishes supply, return and switching output. Confirm sourcing or sinking operation from the actual sensor circuit before connecting it to an input.",
+    "Material, mounting, contamination and adjustment affect operation; a capacitive mark does not guarantee detection through every container or medium."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the normally closed 3 wire detail to the broader capacitive proximity sensor family. Material, mounting, contamination and adjustment affect operation; a capacitive mark does not guarantee detection through every container or medium.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Normally Closed 3 Wire"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPX12C3 / VPX12C3. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "capacitive proximity sensor"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-capacitive-sensors",
+      "relevance": "Public Capacitive Switches table explicitly lists HPX12C3 / VPX12C3 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "capacitive-proximity-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-capacitive-proximity-sensor-normally-closed-3-wire",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Normally Closed 3 Wire",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Capacitive Switches, HPX12C3 / VPX12C3. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-capacitive-proximity-sensor-normally-closed-3-wire",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-capacitive-proximity-sensor-normally-closed-3-wire.svg",
+  "id": "iec-capacitive-proximity-sensor-normally-closed-3-wire",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-capacitive-proximity-sensor-normally-closed-3-wire",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-capacitive-proximity-sensor-normally-closed-3-wire.json",
+  "svgPath": "artwork/svg/iec-capacitive-proximity-sensor-normally-closed-3-wire.svg",
+  "referencePath": "references/iec-capacitive-proximity-sensor-normally-closed-3-wire.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-capacitive-sensors",
+      "title": "AutoCAD Electrical: Capacitive proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F2CC4639-9203-4C6A-8A9F-2A32717D2BE3.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Capacitive Switches table explicitly lists HPX12C3 / VPX12C3 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

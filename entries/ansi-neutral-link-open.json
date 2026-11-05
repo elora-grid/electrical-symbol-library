@@ -1,0 +1,121 @@
+{
+  "slug": "ansi-neutral-link-open",
+  "name": "ANSI/IEEE Neutral link, open form",
+  "kind": "symbol",
+  "abbreviation": "N",
+  "aliases": [
+    "HFU1NLO",
+    "VFU1NLO",
+    "IEEE Neutral Link - Open",
+    "ANSI Neutral link, open"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of neutral link, open: a neutral link drawn removed or open, showing the neutral conductor disconnected at that point.",
+  "description": [
+    "This reference locates neutral link, open in Autodesk's IEEE-oriented fuses family. The open neutral link shows the link withdrawn so that the neutral is disconnected. Drawings use it where a circuit is normally run with the neutral open, for example to isolate a spare or to segregate a neutral during a changeover, and on test procedures that show the link removed. The public library uses HFU1NLO for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "An open neutral on a live four-wire circuit can cause severe overvoltage on single-phase loads, so an open link in normal service needs a clear reason on the drawing. The symbol says nothing about the phase conductors, which may still be energised. Ask why the neutral is shown open in service. An open neutral link is disconnected; the closed form shows normal continuity. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Ask why the neutral is shown open in service.",
+    "Check that phases are also isolated before working."
+  ],
+  "drawingChecklist": [
+    "Note the reason the link is open.",
+    "Show phase isolation state alongside.",
+    "Label the link with its circuit number."
+  ],
+  "distinction": "An open neutral link is disconnected; the closed form shows normal continuity.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Fuses; published form: Neutral Link - Open."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HFU1NLO. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Graphic cue",
+      "value": "Fuse-carrier style link with the bridge missing"
+    },
+    {
+      "label": "Publisher form",
+      "value": "Neutral Link - Open (HFU1NLO Autodesk identifier)"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-5cf1e8f7-6883-4c9b-9bb3-6cd1a9339ae5",
+      "relevance": "Public IEEE-oriented Fuses table explicitly lists HFU1NLO as Neutral Link - Open. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of the neutral's role in earthing schemes."
+    }
+  ],
+  "related": [
+    "iec-neutral-link-open",
+    "iec-neutral-link-closed",
+    "iec-neutral-conductor-mark",
+    "disconnect-terminal-block"
+  ],
+  "artwork": "s28-ansi-neutral-link-open",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Neutral Link - Open",
+    "reference": "Autodesk IEEE Symbol Preview: Fuses, block HFU1NLO. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-neutral-link-open"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-neutral-link-open",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-neutral-link-open.svg",
+  "id": "ansi-neutral-link-open",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-neutral-link-open",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-neutral-link-open.json",
+  "svgPath": "artwork/svg/ansi-neutral-link-open.svg",
+  "referencePath": "references/ansi-neutral-link-open.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-5cf1e8f7-6883-4c9b-9bb3-6cd1a9339ae5",
+      "title": "Autodesk IEEE Symbol Preview — Fuses",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5CF1E8F7-6883-4C9B-9BB3-6CD1A9339AE5.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Fuses table explicitly lists HFU1NLO as Neutral Link - Open. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of the neutral's role in earthing schemes."
+    }
+  ]
+}

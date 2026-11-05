@@ -1,0 +1,83 @@
+{
+  "slug": "phase-sequence-indicator",
+  "name": "Phase-sequence indicator",
+  "kind": "symbol",
+  "abbreviation": "PSI",
+  "aliases": [
+    "phase rotation indicator",
+    "phase rotation meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Instrument that shows whether three-phase supply rotation is positive or reversed before motors are run or sources paralleled.",
+  "description": [
+    "A phase-sequence indicator connects to all three phases and shows whether rotation is L1-L2-L3 or reversed. It is used when commissioning motors, generators and supply changes, because wrong rotation reverses motors and prevents correct paralleling.",
+    "The instrument gives a check at one moment and does not protect anything on its own. If permanent protection against reversed rotation is needed, a phase-sequence monitoring relay with contacts must be shown instead of, or as well as, the indicator."
+  ],
+  "readingNotes": [
+    "Confirm all three phases are connected in the stated order.",
+    "Check whether a protective relay is also required."
+  ],
+  "drawingChecklist": [
+    "Show phase connections",
+    "State expected rotation",
+    "Reference commissioning check"
+  ],
+  "distinction": "A phase-sequence indicator only displays rotation; a phase monitoring relay acts on incorrect rotation or loss of phase.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Three phase voltages"
+    },
+    {
+      "label": "Output",
+      "value": "Display only"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "phase-loss-monitoring-relay",
+    "47-phase-sequence-or-voltage-balance-protection",
+    "synchronoscope"
+  ],
+  "artwork": "s28-phase-sequence-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phase-sequence-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/phase-sequence-indicator.svg",
+  "id": "phase-sequence-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phase-sequence-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phase-sequence-indicator.json",
+  "svgPath": "artwork/svg/phase-sequence-indicator.svg",
+  "referencePath": "references/phase-sequence-indicator.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

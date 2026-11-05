@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-combined-line-and-phase-voltmeter-selector",
+  "name": "ANSI/IEEE Combined line and phase voltmeter selector form",
+  "kind": "symbol",
+  "abbreviation": "HSW1S92",
+  "aliases": [
+    "HSW1S92",
+    "VSW1S92",
+    "IEEE 3 Voltage Phase-to-Phase and Phase-to-Neutral Switch",
+    "ANSI Combined line and phase voltmeter selector"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of combined line and phase voltmeter selector: this representation identifies a selector covering phase-to-phase and phase-to-neutral voltage measurements.",
+  "description": [
+    "This reference locates combined line and phase voltmeter selector in Autodesk's IEEE-oriented miscellaneous switches family. This representation identifies a selector covering phase-to-phase and phase-to-neutral voltage measurements. One selector covers both line-to-line and line-to-neutral measurements. The measurement function changes with position even though the meter and its physical terminals remain the same. The public library uses HSW1S92 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "List the selected conductor pair or phase/reference path for every position. Use the selected switch’s contact programme instead of inferring connections from the face labels alone. Provide a position table specifying each measurement path. The symbol cannot replace the actual switch contact programme. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Provide a position table specifying each measurement path.",
+    "The symbol cannot replace the actual switch contact programme."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Provide a position table specifying each measurement path.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The symbol cannot replace the actual switch contact programme.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: 3 Voltage Phase-to-Phase and Phase-to-Neutral Switch."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSW1S92. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Provide a position table specifying each measurement path."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S92 as 3 Voltage Phase-to-Phase and Phase-to-Neutral Switch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-combined-line-and-phase-voltmeter-selector",
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-combined-line-and-phase-voltmeter-selector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Voltage Phase-to-Phase and Phase-to-Neutral Switch",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HSW1S92. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-combined-line-and-phase-voltmeter-selector"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-combined-line-and-phase-voltmeter-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-combined-line-and-phase-voltmeter-selector.svg",
+  "id": "ansi-combined-line-and-phase-voltmeter-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-combined-line-and-phase-voltmeter-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-combined-line-and-phase-voltmeter-selector.json",
+  "svgPath": "artwork/svg/ansi-combined-line-and-phase-voltmeter-selector.svg",
+  "referencePath": "references/ansi-combined-line-and-phase-voltmeter-selector.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S92 as 3 Voltage Phase-to-Phase and Phase-to-Neutral Switch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

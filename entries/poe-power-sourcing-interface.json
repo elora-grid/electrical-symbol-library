@@ -1,0 +1,87 @@
+{
+  "slug": "poe-power-sourcing-interface",
+  "name": "PoE power-sourcing interface",
+  "kind": "symbol",
+  "abbreviation": "PoE PSE",
+  "aliases": [
+    "PoE power-sourcing interface",
+    "PoE power-sourcing interface functional block",
+    "PoE power-sourcing interface schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A PoE power-sourcing interface manages the supply end of a compatible powered Ethernet connection.",
+  "description": [
+    "A PoE power-sourcing interface manages the supply end of a compatible powered Ethernet connection.",
+    "A selected network switch can provide power to a recognised powered device through its PoE port.",
+    "Locate this function at the end providing power to the cable. Show detection and power control separately from the Ethernet data function. A port must use its selected PoE arrangement rather than simply placing a supply across arbitrary network conductors. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the sourcing port and intended powered device.",
+    "Reference the supported classification and power-budget arrangement.",
+    "Show protection and port-control connections from the selected design.",
+    "A sourcing port's class and power capability must match the complete link and connected device."
+  ],
+  "drawingChecklist": [
+    "Identify the sourcing port and intended powered device.",
+    "Reference the supported classification and power-budget arrangement.",
+    "Show protection and port-control connections from the selected design."
+  ],
+  "distinction": "A sourcing port's class and power capability must match the complete link and connected device.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Port power supply"
+    },
+    {
+      "label": "Concept output",
+      "value": "Compatible powered cable link"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-poe",
+      "relevance": "Power over Ethernet interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-industrial-ethernet-switch",
+    "poe-powered-device-interface",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-poe-power-sourcing-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/poe-power-sourcing-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/poe-power-sourcing-interface.svg",
+  "id": "poe-power-sourcing-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/poe-power-sourcing-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/poe-power-sourcing-interface.json",
+  "svgPath": "artwork/svg/poe-power-sourcing-interface.svg",
+  "referencePath": "references/poe-power-sourcing-interface.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-poe",
+      "title": "Power over Ethernet interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/power-over-ethernet-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Power over Ethernet interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

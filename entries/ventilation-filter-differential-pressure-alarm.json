@@ -1,0 +1,105 @@
+{
+  "slug": "ventilation-filter-differential-pressure-alarm",
+  "name": "Ventilation-filter differential-pressure alarm",
+  "kind": "symbol",
+  "abbreviation": "VDA",
+  "aliases": [
+    "Switchroom ventilation interfaces",
+    "switchrooms Switchroom ventilation interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Filter differential pressure",
+    "Filter maintenance alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports the defined pressure-difference condition across the monitored ventilation filter.",
+  "description": [
+    "Reports the defined pressure-difference condition across the monitored ventilation filter. Ventilation control coordinates the equipment that manages heat and air movement in an electrical room. A temperature request, a fan command and proof of airflow are separate signals, and the room design determines how they interact.",
+    "In a switchroom containing transformers and auxiliary panels, the room controller can supervise fan availability and send an alarm when the documented ventilation duty is not achieved. For this reference, the drawing identifies “Filter differential pressure” at the input and “Filter maintenance alarm” at the output. A threshold does not identify the exact cause.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Filter differential pressure. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Filter maintenance alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A threshold does not identify the exact cause.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for filter differential pressure.",
+    "Identify the destination and defined state of filter maintenance alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A threshold does not identify the exact cause."
+  ],
+  "distinction": "A threshold does not identify the exact cause. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Filter differential pressure"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Filter maintenance alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "VDA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-switchroom-exhaust-fan",
+    "ga-enclosure-thermostat",
+    "motorised-intake-damper-command"
+  ],
+  "artwork": "pi26-ventilation-filter-differential-pressure-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "ventilation",
+    "input": "Filter differential pressure",
+    "output": "Filter maintenance alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/ventilation-filter-differential-pressure-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ventilation-filter-differential-pressure-alarm.svg",
+  "id": "ventilation-filter-differential-pressure-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ventilation-filter-differential-pressure-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ventilation-filter-differential-pressure-alarm.json",
+  "svgPath": "artwork/svg/ventilation-filter-differential-pressure-alarm.svg",
+  "referencePath": "references/ventilation-filter-differential-pressure-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

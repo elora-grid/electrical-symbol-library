@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-lever-operated-switch",
+  "name": "ANSI/IEEE Lever-operated switch form",
+  "kind": "symbol",
+  "abbreviation": "LEVER",
+  "aliases": [
+    "HPB11LS",
+    "VPB11LS",
+    "IEEE Lever Switch, Normally Open",
+    "ANSI Lever-operated switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of lever-operated switch: a lever-operated switch changes contact state through a manually operated lever.",
+  "description": [
+    "This reference locates lever-operated switch in Autodesk's IEEE-oriented miscellaneous switches family. A lever-operated switch changes contact state through a manually operated lever. The lever's travel, stable positions and return behaviour are part of the operator schedule. The public library uses HPB11LS for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Compare the contact schedule to each lever position. Lever actuation is different from a lever limit switch driven by equipment movement. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Compare the contact schedule to each lever position.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label operator positions",
+    "State momentary or maintained operation",
+    "Identify contact terminals"
+  ],
+  "distinction": "Lever actuation is different from a lever limit switch driven by equipment movement.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: Lever Switch, Normally Open."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPB11LS. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Manual operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HPB11LS as Lever Switch, Normally Open. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "lever-operated-switch",
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "s28-ansi-lever-operated-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Lever Switch, Normally Open",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HPB11LS. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "lever-operated-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-lever-operated-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-lever-operated-switch.svg",
+  "id": "ansi-lever-operated-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-lever-operated-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-lever-operated-switch.json",
+  "svgPath": "artwork/svg/ansi-lever-operated-switch.svg",
+  "referencePath": "references/ansi-lever-operated-switch.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HPB11LS as Lever Switch, Normally Open. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

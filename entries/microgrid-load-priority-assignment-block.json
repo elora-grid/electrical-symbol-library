@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-load-priority-assignment-block",
+  "name": "Microgrid load-priority assignment block",
+  "kind": "symbol",
+  "abbreviation": "MLAB",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Load group identities",
+    "Assigned priority map"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Associates each defined controllable load group with its selected operating priority.",
+  "description": [
+    "Associates each defined controllable load group with its selected operating priority. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Load group identities” at the input and “Assigned priority map” at the output. Priority changes require controlled configuration.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Load group identities. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned priority map. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Priority changes require controlled configuration.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for load group identities.",
+    "Identify the destination and defined state of assigned priority map.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Priority changes require controlled configuration."
+  ],
+  "distinction": "Priority changes require controlled configuration. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Load group identities"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned priority map"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MLAB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-critical-load-exemption-gate"
+  ],
+  "artwork": "pi26-microgrid-load-priority-assignment-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Load group identities",
+    "output": "Assigned priority map"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-load-priority-assignment-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-load-priority-assignment-block.svg",
+  "id": "microgrid-load-priority-assignment-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-load-priority-assignment-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-load-priority-assignment-block.json",
+  "svgPath": "artwork/svg/microgrid-load-priority-assignment-block.svg",
+  "referencePath": "references/microgrid-load-priority-assignment-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

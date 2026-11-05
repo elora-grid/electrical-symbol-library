@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-sudden-pressure-trip-interface",
+  "name": "Transformer sudden-pressure trip interface",
+  "kind": "symbol",
+  "abbreviation": "TSTI",
+  "aliases": [
+    "Transformer protection and monitoring interfaces",
+    "substations Transformer protection and monitoring interfaces",
+    "substations",
+    "Substations",
+    "Sudden-pressure relay",
+    "Tank-pressure trip initiation"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the defined sudden-pressure protection contact for the assigned transformer tank.",
+  "description": [
+    "Receives the defined sudden-pressure protection contact for the assigned transformer tank. Transformer monitoring interfaces connect physical sensors and protection calculations to the station's alarms and trip logic. Temperature, oil, gas, pressure and electrical measurements indicate different conditions and require separate interpretation.",
+    "In a substation transformer bay, a protection panel receives winding-current measurements and equipment alarm contacts. An operator can then distinguish an electrical protection operation from a cooling-system or physical-condition alarm. For this reference, the drawing identifies “Sudden-pressure relay” at the input and “Tank-pressure trip initiation” at the output. Its application depends on transformer construction.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Sudden-pressure relay. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Tank-pressure trip initiation. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Its application depends on transformer construction.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for sudden-pressure relay.",
+    "Identify the destination and defined state of tank-pressure trip initiation.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Its application depends on transformer construction."
+  ],
+  "distinction": "Its application depends on transformer construction. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Sudden-pressure relay"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Tank-pressure trip initiation"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TSTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-relay",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "87t-transformer-differential-protection",
+    "transformer-pressure-relief-operated-indication"
+  ],
+  "artwork": "pi26-transformer-sudden-pressure-trip-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-monitoring",
+    "input": "Sudden-pressure relay",
+    "output": "Tank-pressure trip initiation"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-sudden-pressure-trip-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-sudden-pressure-trip-interface.svg",
+  "id": "transformer-sudden-pressure-trip-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-sudden-pressure-trip-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-sudden-pressure-trip-interface.json",
+  "svgPath": "artwork/svg/transformer-sudden-pressure-trip-interface.svg",
+  "referencePath": "references/transformer-sudden-pressure-trip-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-relay",
+      "publisher": "SEL",
+      "title": "SEL-487E transformer protection relay",
+      "url": "https://selinc.com/products/487E/",
+      "scope": "Transformer protection, monitoring and measurement interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

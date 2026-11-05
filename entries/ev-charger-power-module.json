@@ -1,0 +1,87 @@
+{
+  "slug": "ev-charger-power-module",
+  "name": "EV charger power module",
+  "kind": "symbol",
+  "abbreviation": "EV PWR",
+  "aliases": [
+    "EV charger power module",
+    "EV charger power module functional block",
+    "EV charger power module schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A charger power module is one conversion building block within a charging system.",
+  "description": [
+    "A charger power module is one conversion building block within a charging system.",
+    "A charging station can coordinate several selected modules to supply its DC output.",
+    "Show the module as a conversion building block inside the station, rather than the complete charger. Label its power input, controlled output and supervisory interface. Where several modules are used, identify their arrangement instead of assuming their output ratings can simply be added. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the module input and output interfaces.",
+    "Show module control and any shared-output arrangement.",
+    "Reference the module cooling, installation and compatibility documents.",
+    "The power module is not the complete station, communications interface or protective installation."
+  ],
+  "drawingChecklist": [
+    "Identify the module input and output interfaces.",
+    "Show module control and any shared-output arrangement.",
+    "Reference the module cooling, installation and compatibility documents."
+  ],
+  "distinction": "The power module is not the complete station, communications interface or protective installation.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Module input supply"
+    },
+    {
+      "label": "Concept output",
+      "value": "Controlled module output"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-evdc",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "dc-to-ac-inverter",
+    "dc-ev-charging-station",
+    "bidirectional-ev-charging-interface",
+    "ev-charging-energy-meter"
+  ],
+  "artwork": "expanded-ev-charger-power-module",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ev-charger-power-module",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ev-charger-power-module.svg",
+  "id": "ev-charger-power-module",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ev-charger-power-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ev-charger-power-module.json",
+  "svgPath": "artwork/svg/ev-charger-power-module.svg",
+  "referencePath": "references/ev-charger-power-module.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-evdc",
+      "title": "DC fast charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/dc-fast-charging-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

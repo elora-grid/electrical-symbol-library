@@ -1,0 +1,90 @@
+{
+  "slug": "iec-control-dependency-c",
+  "name": "IEC control dependency (C)",
+  "kind": "symbol",
+  "abbreviation": "Cm",
+  "aliases": [
+    "C dependency",
+    "clock dependency",
+    "Cm control input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency label Cm on a clock or control input; inputs prefixed with m act only when Cm is active.",
+  "description": [
+    "C dependency identifies a control input, usually a clock, and the inputs it controls. Data inputs labelled 1D, 1J or 1S act only when C1 is at its internal 1 state, or on its active transition if C1 has a dynamic mark. TI's overview notes that synchronous inputs are recognisable by these dependency prefixes.",
+    "Reading C dependency correctly is the key to understanding flip-flops, latches, registers and counters drawn in IEC form. Inputs without the prefix, such as a plain R, are asynchronous and act regardless of the clock.",
+    "The label does not tell you setup and hold times or clock frequency limits. Those remain device data. Trace each prefixed data input to the numbered control before deciding whether it can change the stored state asynchronously."
+  ],
+  "readingNotes": [
+    "Inputs with the C number as prefix are synchronous.",
+    "Inputs without the prefix are asynchronous overrides."
+  ],
+  "drawingChecklist": [
+    "Label clock inputs as Cm.",
+    "Prefix synchronous inputs with m.",
+    "Mark the clock input dynamic where edge-triggered."
+  ],
+  "distinction": "EN acts on outputs; C dependency acts on inputs.",
+  "facts": [
+    {
+      "label": "Affecting input at 1",
+      "value": "Permits action"
+    },
+    {
+      "label": "Affecting input at 0",
+      "value": "Prevents action"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "C (control) dependency and use with storage elements."
+    }
+  ],
+  "related": [
+    "iec-d-flip-flop",
+    "iec-d-latch",
+    "iec-dynamic-input"
+  ],
+  "artwork": "s28-iec-control-dependency-c",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Control input labelled Cm with affected data inputs labelled mD, mJ, mK and similar",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-control-dependency-c",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-control-dependency-c.svg",
+  "id": "iec-control-dependency-c",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-control-dependency-c",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-control-dependency-c.json",
+  "svgPath": "artwork/svg/iec-control-dependency-c.svg",
+  "referencePath": "references/iec-control-dependency-c.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "C (control) dependency and use with storage elements."
+    }
+  ]
+}

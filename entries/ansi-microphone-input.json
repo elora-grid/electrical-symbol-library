@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-microphone-input",
+  "name": "ANSI/IEEE Microphone input form",
+  "kind": "symbol",
+  "abbreviation": "HAN1B9",
+  "aliases": [
+    "HAN1B9",
+    "VAN1B9",
+    "IEEE Microphone",
+    "ANSI Microphone input"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of microphone input: a microphone indication identifies an acoustic-input transducer in a communications circuit.",
+  "description": [
+    "This reference locates microphone input in Autodesk's IEEE-oriented annunciations family. A microphone indication identifies an acoustic-input transducer in a communications circuit. The public library uses HAN1B9 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Reference the signal input, supply or bias arrangement where relevant. A microphone converts sound into a signal; a loudspeaker performs the opposite role. Reference the signal input, supply or bias arrangement where relevant. A microphone converts sound into a signal; a loudspeaker performs the opposite role. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Reference the signal input, supply or bias arrangement where relevant.",
+    "A microphone converts sound into a signal; a loudspeaker performs the opposite role."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Reference the signal input, supply or bias arrangement where relevant.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A microphone converts sound into a signal; a loudspeaker performs the opposite role.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Annunciations; published form: Microphone."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HAN1B9. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Reference the signal input, supply or bias arrangement where relevant."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-annunciations",
+      "relevance": "Public IEEE-oriented Annunciations table explicitly lists HAN1B9 as Microphone. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-microphone-input",
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "s28-ansi-microphone-input",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Microphone",
+    "reference": "Autodesk IEEE Symbol Preview: Annunciations, block HAN1B9. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-microphone-input"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-microphone-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-microphone-input.svg",
+  "id": "ansi-microphone-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-microphone-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-microphone-input.json",
+  "svgPath": "artwork/svg/ansi-microphone-input.svg",
+  "referencePath": "references/ansi-microphone-input.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-annunciations",
+      "title": "Autodesk IEEE Symbol Preview: Annunciations",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-157265BC-DB2C-4AFE-B9E9-88A5F748BFF9.htm",
+      "type": "cad-reference",
+      "scope": "Public annunciations family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Annunciations table explicitly lists HAN1B9 as Microphone. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

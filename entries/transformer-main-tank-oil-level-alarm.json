@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-main-tank-oil-level-alarm",
+  "name": "Transformer main-tank oil-level alarm",
+  "kind": "symbol",
+  "abbreviation": "TMOA",
+  "aliases": [
+    "Transformer protection and monitoring interfaces",
+    "substations Transformer protection and monitoring interfaces",
+    "substations",
+    "Substations",
+    "Main oil-level contact",
+    "Main-tank level alarm"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports the documented low or abnormal oil-level condition in the main tank system.",
+  "description": [
+    "Reports the documented low or abnormal oil-level condition in the main tank system. Transformer monitoring interfaces connect physical sensors and protection calculations to the station's alarms and trip logic. Temperature, oil, gas, pressure and electrical measurements indicate different conditions and require separate interpretation.",
+    "In a substation transformer bay, a protection panel receives winding-current measurements and equipment alarm contacts. An operator can then distinguish an electrical protection operation from a cooling-system or physical-condition alarm. For this reference, the drawing identifies “Main oil-level contact” at the input and “Main-tank level alarm” at the output. Oil level varies with operating conditions.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Main oil-level contact. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Main-tank level alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Oil level varies with operating conditions.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for main oil-level contact.",
+    "Identify the destination and defined state of main-tank level alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Oil level varies with operating conditions."
+  ],
+  "distinction": "Oil level varies with operating conditions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Main oil-level contact"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Main-tank level alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TMOA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-relay",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "87t-transformer-differential-protection",
+    "transformer-tap-changer-oil-level-alarm"
+  ],
+  "artwork": "pi26-transformer-main-tank-oil-level-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-monitoring",
+    "input": "Main oil-level contact",
+    "output": "Main-tank level alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-main-tank-oil-level-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-main-tank-oil-level-alarm.svg",
+  "id": "transformer-main-tank-oil-level-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-main-tank-oil-level-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-main-tank-oil-level-alarm.json",
+  "svgPath": "artwork/svg/transformer-main-tank-oil-level-alarm.svg",
+  "referencePath": "references/transformer-main-tank-oil-level-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-relay",
+      "publisher": "SEL",
+      "title": "SEL-487E transformer protection relay",
+      "url": "https://selinc.com/products/487E/",
+      "scope": "Transformer protection, monitoring and measurement interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

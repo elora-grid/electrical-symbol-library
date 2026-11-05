@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-single-receptacle-outlet",
+  "name": "ANSI single receptacle outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "R",
+  "aliases": [
+    "single receptacle plan symbol",
+    "simplex receptacle",
+    "single convenience outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US-style plan symbol for a single convenience receptacle: a circle with one line through it on the wall.",
+  "description": [
+    "In US architectural electrical plans a single receptacle is commonly drawn as a small circle on the wall line with a single line through it. The form is quick to draw and visually lighter than the IEC half circle, and it is placed with the circle against the wall where the device box is installed.",
+    "Single receptacles are typically dedicated outlets for an appliance such as a refrigerator or a piece of equipment that must not share the outlet. Mounting height, NEMA configuration and circuit number are written beside the symbol or in a note.",
+    "The symbol does not tell you the NEMA configuration or whether the outlet is tamper-resistant. The receptacle schedule and code notes provide those details."
+  ],
+  "readingNotes": [
+    "Compare the line count: one line through the circle for a single receptacle, two for a duplex.",
+    "Look for subscript letters that modify the type, such as WP or GFCI."
+  ],
+  "drawingChecklist": [
+    "State NEMA configuration and rating.",
+    "Tag panel and circuit number.",
+    "Note tamper-resistant or dedicated use where required."
+  ],
+  "distinction": "The ANSI duplex receptacle uses two lines through the circle; the single form uses one.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Circle on the wall with one through-line"
+    },
+    {
+      "label": "Typical use",
+      "value": "Dedicated appliance receptacles"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-receptacles",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ],
+  "related": [
+    "iec-single-power-receptacle",
+    "ansi-duplex-receptacle-outlet",
+    "ansi-special-purpose-outlet"
+  ],
+  "artwork": "s28-ansi-single-receptacle-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Single receptacle plan symbol",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic.",
+    "counterpart": "iec-single-power-receptacle"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-single-receptacle-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-single-receptacle-outlet.svg",
+  "id": "ansi-single-receptacle-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-single-receptacle-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-single-receptacle-outlet.json",
+  "svgPath": "artwork/svg/ansi-single-receptacle-outlet.svg",
+  "referencePath": "references/ansi-single-receptacle-outlet.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-receptacles",
+      "title": "Autodesk IEC-60617 preview: Single and duplex power-receptacle forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7DAEDB03-74FC-47A2-9C50-9164297AA5A3.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ]
+}

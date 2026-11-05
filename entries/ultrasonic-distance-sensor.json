@@ -1,0 +1,87 @@
+{
+  "slug": "ultrasonic-distance-sensor",
+  "name": "Ultrasonic distance sensor",
+  "kind": "symbol",
+  "abbreviation": "US DIST",
+  "aliases": [
+    "Ultrasonic distance sensor",
+    "Ultrasonic distance sensor functional block",
+    "Ultrasonic distance sensor schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An ultrasonic distance sensor uses sound beyond normal human hearing to obtain distance information.",
+  "description": [
+    "An ultrasonic distance sensor uses sound beyond normal human hearing to obtain distance information.",
+    "A sensing system can time a returned echo from a target within its specified operating conditions.",
+    "Show the sound path to the target and the returned echo as measurement roles, not electrical terminals. Time-of-flight arrangements derive distance from travel time under their specified conditions. Identify the medium and target so the drawing does not imply that one installation works through every obstacle or environment. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify target, medium and intended sensing direction.",
+    "Reference mounting and unusable near-range conditions.",
+    "Show the actual electrical output interface separately.",
+    "Target shape, medium and installation affect the measurement; the block does not specify a guaranteed range."
+  ],
+  "drawingChecklist": [
+    "Identify target, medium and intended sensing direction.",
+    "Reference mounting and unusable near-range conditions.",
+    "Show the actual electrical output interface separately."
+  ],
+  "distinction": "Target shape, medium and installation affect the measurement; the block does not specify a guaranteed range.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Outgoing sound and echo"
+    },
+    {
+      "label": "Concept output",
+      "value": "Distance-related output"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-ultrasonic-distance-sensor",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "hall-effect-current-sensor",
+    "magnetic-position-sensor",
+    "inductive-position-sensor"
+  ],
+  "artwork": "expanded-ultrasonic-distance-sensor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ultrasonic-distance-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ultrasonic-distance-sensor.svg",
+  "id": "ultrasonic-distance-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ultrasonic-distance-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ultrasonic-distance-sensor.json",
+  "svgPath": "artwork/svg/ultrasonic-distance-sensor.svg",
+  "referencePath": "references/ultrasonic-distance-sensor.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-ultrasonic-distance-sensor",
+      "title": "Ultrasonic measurement processing example",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/PGA460",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-loss-of-voltage-monitoring-relay",
+  "name": "ANSI/IEEE Loss-of-voltage monitoring relay form",
+  "kind": "symbol",
+  "abbreviation": "U LOSS",
+  "aliases": [
+    "HCR1F39",
+    "VCR1F39",
+    "IEEE Lack of Voltage Protection",
+    "ANSI Loss-of-voltage monitoring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of loss-of-voltage monitoring relay: a loss-of-voltage relay changes its output for a documented absence-of-voltage condition.",
+  "description": [
+    "This reference locates loss-of-voltage monitoring relay in Autodesk's IEEE-oriented voltage protection relays family. A loss-of-voltage relay changes its output for a documented absence-of-voltage condition. Schematics distinguish measurement failure, actual source loss and auxiliary-supply loss where the design requires them. The public library uses HCR1F39 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Trace the monitored voltage independently from relay auxiliary power. Loss-of-voltage indication is not necessarily the same function as breaker undervoltage release. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Trace the monitored voltage independently from relay auxiliary power.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify monitored source",
+    "State loss criterion",
+    "Show output and supply-loss behaviour"
+  ],
+  "distinction": "Loss-of-voltage indication is not necessarily the same function as breaker undervoltage release.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Voltage Protection Relays; published form: Lack of Voltage Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F39. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-voltage-protection-relays",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F39 as Lack of Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "loss-of-voltage-monitoring-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-loss-of-voltage-monitoring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Lack of Voltage Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Voltage Protection Relays, block HCR1F39. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "loss-of-voltage-monitoring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-loss-of-voltage-monitoring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-loss-of-voltage-monitoring-relay.svg",
+  "id": "ansi-loss-of-voltage-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-loss-of-voltage-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-loss-of-voltage-monitoring-relay.json",
+  "svgPath": "artwork/svg/ansi-loss-of-voltage-monitoring-relay.svg",
+  "referencePath": "references/ansi-loss-of-voltage-monitoring-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-voltage-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Voltage Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5D942536-ADE3-43EA-8280-CC7907C38F15.htm",
+      "type": "cad-reference",
+      "scope": "Public voltage protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F39 as Lack of Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

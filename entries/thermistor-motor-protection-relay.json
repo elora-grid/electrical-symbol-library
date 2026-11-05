@@ -1,0 +1,99 @@
+{
+  "slug": "thermistor-motor-protection-relay",
+  "name": "Thermistor motor protection relay",
+  "kind": "symbol",
+  "abbreviation": "PTC",
+  "aliases": [
+    "PTC thermistor relay",
+    "motor thermistor relay",
+    "thermistor protection unit"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Relay that monitors PTC thermistors embedded in motor windings and trips when their resistance rises at the rated temperature.",
+  "description": [
+    "A thermistor protection relay is connected to a chain of PTC thermistors built into a motor's windings. When the windings reach the thermistors' rated response temperature, their resistance rises sharply and the relay opens its contact in the motor control circuit, protecting against overheating that a current-based overload cannot detect.",
+    "Typical causes it catches are blocked ventilation, high ambient temperature and frequent starting. The symbol does not show whether the relay detects a short-circuited sensor loop, whether it latches, or how it is reset, which affect safety where automatic restart is possible."
+  ],
+  "readingNotes": [
+    "Follow the sensor loop to the motor terminal box.",
+    "Check reset type and short-circuit detection."
+  ],
+  "drawingChecklist": [
+    "Show sensor loop terminals",
+    "State reset type",
+    "Reference motor control trip contact"
+  ],
+  "distinction": "A thermistor relay measures winding temperature directly; a thermal overload relay models heating from current.",
+  "facts": [
+    {
+      "label": "Sensor",
+      "value": "PTC thermistors in motor windings"
+    },
+    {
+      "label": "Output",
+      "value": "Trip contact in motor control circuit"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-motor",
+      "relevance": "Public motor protection function comparison including thermal protection."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "motor-overload-trip-nc-contact",
+    "49-thermal-protection",
+    "resistance-temperature-detector"
+  ],
+  "artwork": "s28-thermistor-motor-protection-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/thermistor-motor-protection-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/thermistor-motor-protection-relay.svg",
+  "id": "thermistor-motor-protection-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/thermistor-motor-protection-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/thermistor-motor-protection-relay.json",
+  "svgPath": "artwork/svg/thermistor-motor-protection-relay.svg",
+  "referencePath": "references/thermistor-motor-protection-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-motor",
+      "title": "EMR motor protection: public function comparison",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/motor-relays.html",
+      "type": "manufacturer",
+      "scope": "Public motor-relay application mappings including jam/stall protection, current input variants, breaker failure and motor differential. Suffix interpretation applies to the cited family.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public motor protection function comparison including thermal protection."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

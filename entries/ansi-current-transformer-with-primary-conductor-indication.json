@@ -1,0 +1,110 @@
+{
+  "slug": "ansi-current-transformer-with-primary-conductor-indication",
+  "name": "ANSI/IEEE current transformer with conductor indication symbol",
+  "kind": "symbol",
+  "abbreviation": "CT",
+  "aliases": [
+    "IEEE CT with conductor indication",
+    "ANSI window CT symbol",
+    "HXF1T33"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library CT form that shows the primary conductor passing through the core, as with window and bar-type CTs.",
+  "description": [
+    "This CT form draws the primary conductor explicitly passing through the transformer core. It suits window, bar and bushing CTs where the primary is the main circuit conductor itself, and it helps the reader see which conductor, and how many passes, the CT encloses.",
+    "The conductor indication does not give ratio, accuracy class or burden. If the primary passes the window more than once, the effective ratio changes, so turns through the window must be noted beside the symbol."
+  ],
+  "readingNotes": [
+    "Count primary passes through the window.",
+    "Check polarity marks against the primary current direction."
+  ],
+  "drawingChecklist": [
+    "State ratio and class",
+    "Show polarity marks",
+    "Note primary passes"
+  ],
+  "distinction": "The conductor-indication form shows the enclosed primary; the plain CT form represents the CT without showing how the primary is arranged.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Current Transformers"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HXF1T33 / VXF1T33 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Typical construction",
+      "value": "Window, bar or bushing CT"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-91c805d8-3b78-48a4-9ef0-39c462e3a164",
+      "relevance": "Public IEEE-oriented Current Transformers preview listing the With Conductor Indication block."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "current-transformer-with-primary-conductor-indication",
+    "ansi-current-transformer",
+    "bushing-current-transformer"
+  ],
+  "artwork": "s28-ansi-current-transformer-with-primary-conductor-indication",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Current Transformers form: With Conductor Indication",
+    "counterpart": "current-transformer-with-primary-conductor-indication",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-current-transformer-with-primary-conductor-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-current-transformer-with-primary-conductor-indication.svg",
+  "id": "ansi-current-transformer-with-primary-conductor-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-current-transformer-with-primary-conductor-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-current-transformer-with-primary-conductor-indication.json",
+  "svgPath": "artwork/svg/ansi-current-transformer-with-primary-conductor-indication.svg",
+  "referencePath": "references/ansi-current-transformer-with-primary-conductor-indication.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-91c805d8-3b78-48a4-9ef0-39c462e3a164",
+      "title": "Autodesk IEEE Symbol Preview — Current Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-91C805D8-3B78-48A4-9EF0-39C462E3A164.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Current Transformers preview listing the With Conductor Indication block."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

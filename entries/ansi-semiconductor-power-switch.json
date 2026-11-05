@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-semiconductor-power-switch",
+  "name": "ANSI/IEEE Semiconductor power switch form",
+  "kind": "symbol",
+  "abbreviation": "SSW",
+  "aliases": [
+    "HCB11Q53",
+    "VCB11Q53",
+    "IEEE 1P with Semiconductors",
+    "ANSI Semiconductor power switch"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of semiconductor power switch: a semiconductor power switch controls a power path electronically.",
+  "description": [
+    "This reference locates semiconductor power switch in Autodesk's IEEE-oriented power switches family. A semiconductor power switch controls a power path electronically. Its power terminals and control input belong to different circuits, and off-state leakage or isolation characteristics require product documentation. The public library uses HCB11Q53 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Do not interpret the semiconductor off state as a visible mechanical isolation gap. A solid-state switch is not an isolating disconnector. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Do not interpret the semiconductor off state as a visible mechanical isolation gap.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify input and power terminals",
+    "Reference voltage and current ratings",
+    "Document external isolation provision"
+  ],
+  "distinction": "A solid-state switch is not an isolating disconnector.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Power Switches; published form: 1P with Semiconductors."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCB11Q53. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-power-switches",
+      "relevance": "Public IEEE-oriented Power Switches table explicitly lists HCB11Q53 as 1P with Semiconductors. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "semiconductor-power-switch",
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "s28-ansi-semiconductor-power-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "1P with Semiconductors",
+    "reference": "Autodesk IEEE Symbol Preview: Power Switches, block HCB11Q53. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "semiconductor-power-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-semiconductor-power-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-semiconductor-power-switch.svg",
+  "id": "ansi-semiconductor-power-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-semiconductor-power-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-semiconductor-power-switch.json",
+  "svgPath": "artwork/svg/ansi-semiconductor-power-switch.svg",
+  "referencePath": "references/ansi-semiconductor-power-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-power-switches",
+      "title": "Autodesk IEEE Symbol Preview: Power Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E57D79F6-E6C4-4B78-95DC-62F16642C95B.htm",
+      "type": "cad-reference",
+      "scope": "Public power switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Power Switches table explicitly lists HCB11Q53 as 1P with Semiconductors. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

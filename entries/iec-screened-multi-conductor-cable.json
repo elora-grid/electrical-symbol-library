@@ -1,0 +1,103 @@
+{
+  "slug": "iec-screened-multi-conductor-cable",
+  "name": "Screened multi-conductor cable",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "overall screened cable",
+    "collectively shielded cable",
+    "screened multicore"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Several conductors enclosed together within one drawn screen, showing an overall shield around a multicore cable.",
+  "description": [
+    "This form draws one screen outline around a group of conductors to show an overall or collective screen. It is common on instrument multicore cables, field bus trunks and multi-pair analogue cables run from field junction boxes back to a marshalling cabinet.",
+    "An overall screen is different from individually screened pairs. If each pair also carries its own screen, the drawing needs separate outlines for each pair inside the overall one, otherwise a reader will terminate only one drain. The symbol does not give the core count beyond what is drawn, so the cable schedule still controls the core and pair allocation."
+  ],
+  "readingNotes": [
+    "Count the conductors drawn inside the outline and compare with the cable schedule.",
+    "Check whether individual pair screens are also shown."
+  ],
+  "drawingChecklist": [
+    "State the cable tag on the screened group.",
+    "Show where the overall screen is terminated.",
+    "Distinguish overall screens from individual pair screens."
+  ],
+  "distinction": "An overall screened cable shields all its cores together; a screened twisted pair shields one pair on its own.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "One screen outline enclosing several conductor lines"
+    },
+    {
+      "label": "Typical use",
+      "value": "Instrument multicores and field bus trunk cables"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Public IEC-60617 preview family for cable markers and multicore annotation."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-screened-conductor",
+    "iec-screened-twisted-pair",
+    "iec-cable-identification-marker"
+  ],
+  "artwork": "s28-iec-screened-multi-conductor-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Overall screened multicore form",
+    "reference": "Independent IEC-context illustration of a collective screen; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-screened-multi-conductor-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-screened-multi-conductor-cable.svg",
+  "id": "iec-screened-multi-conductor-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-multi-conductor-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-screened-multi-conductor-cable.json",
+  "svgPath": "artwork/svg/iec-screened-multi-conductor-cable.svg",
+  "referencePath": "references/iec-screened-multi-conductor-cable.md",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-60617 preview family for cable markers and multicore annotation."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

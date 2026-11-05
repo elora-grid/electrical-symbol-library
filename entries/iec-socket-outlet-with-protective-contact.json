@@ -1,0 +1,120 @@
+{
+  "slug": "iec-socket-outlet-with-protective-contact",
+  "name": "Socket outlet with protective earth contact",
+  "kind": "symbol",
+  "abbreviation": "SO",
+  "aliases": [
+    "earthed socket outlet plan mark",
+    "socket outlet with earthing contact",
+    "GPO with earth"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Installation plan mark for a socket outlet that includes a protective earth contact for Class I appliances.",
+  "description": [
+    "On an installation plan this mark places a socket outlet whose contact set includes a protective earth pin or earthing clip. The basic half-circle outlet form is completed by a straight bar across the top of the curve, which tells the reader that the outlet connects the protective conductor of the final circuit to the plug.",
+    "Most general-purpose outlets in Australian, British and European buildings are earthed, so many project legends use this form as the default outlet. Where a legend shows both earthed and unearthed outlets, the bar is the only visual difference and should be checked carefully at shaver points, double-insulated equipment locations and extra-low-voltage outlets.",
+    "The mark does not state the plug pattern, current rating, mounting height or circuit number. Those come from the legend, outlet schedule and circuit labels written beside the symbol."
+  ],
+  "readingNotes": [
+    "Look for the bar above the half circle; without it the outlet may be unearthed or simply drawn in a simplified style.",
+    "Read the circuit tag next to the symbol to find which final subcircuit and protective device feeds it."
+  ],
+  "drawingChecklist": [
+    "Confirm the plug standard and current rating in the outlet schedule.",
+    "Tag each outlet with its distribution board and circuit number.",
+    "State mounting height or reference a typical mounting detail."
+  ],
+  "distinction": "A plain socket-outlet mark shows an outlet position only; the earth bar adds the protective contact. The protective earth terminal symbol itself is a schematic conductor mark, not an outlet.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Outlet position on a floor plan"
+    },
+    {
+      "label": "Added information",
+      "value": "Protective earth contact present"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-receptacles",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "iec-single-power-receptacle",
+    "protective-earth",
+    "iec-switched-socket-outlet"
+  ],
+  "artwork": "s28-iec-socket-outlet-with-protective-contact",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Socket outlet with protective contact",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier.",
+    "counterpart": "iec-single-power-receptacle"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-socket-outlet-with-protective-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-socket-outlet-with-protective-contact.svg",
+  "id": "iec-socket-outlet-with-protective-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-socket-outlet-with-protective-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-socket-outlet-with-protective-contact.json",
+  "svgPath": "artwork/svg/iec-socket-outlet-with-protective-contact.svg",
+  "referencePath": "references/iec-socket-outlet-with-protective-contact.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-receptacles",
+      "title": "Autodesk IEC-60617 preview: Single and duplex power-receptacle forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7DAEDB03-74FC-47A2-9C50-9164297AA5A3.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

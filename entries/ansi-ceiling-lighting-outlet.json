@@ -1,0 +1,88 @@
+{
+  "slug": "ansi-ceiling-lighting-outlet",
+  "name": "ANSI ceiling lighting outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "LO",
+  "aliases": [
+    "ceiling outlet symbol",
+    "surface fixture outlet",
+    "lighting outlet circle"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol for a ceiling lighting outlet: a plain circle at the fixture position, tagged with the fixture type.",
+  "description": [
+    "In US lighting plans a ceiling lighting outlet or surface fixture is drawn as a circle, often with a letter inside or beside it keyed to the fixture schedule. Lowercase letters link fixtures to the switches that control them.",
+    "Rectangular fixtures are drawn to scale as rectangles instead, so the circle typically means a round fixture or a generic outlet box. Emergency fixtures are often shown half filled. The circle does not show mounting type, which comes from the schedule."
+  ],
+  "readingNotes": [
+    "Read the fixture letter and switch letter.",
+    "Check for half-filled circles for emergency fixtures."
+  ],
+  "drawingChecklist": [
+    "Key fixtures to the schedule.",
+    "Key switches with lowercase letters.",
+    "Mark emergency fixtures."
+  ],
+  "distinction": "The IEC luminaire symbol is a crossed circle; the US outlet symbol is a plain circle.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Plain circle, lettered"
+    },
+    {
+      "label": "Emergency cue",
+      "value": "Half-filled circle in many legends"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-luminaire-general-plan-symbol",
+    "ansi-wall-lighting-outlet",
+    "ansi-single-pole-switch"
+  ],
+  "artwork": "s28-ansi-ceiling-lighting-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Ceiling lighting outlet",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-ceiling-lighting-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-ceiling-lighting-outlet.svg",
+  "id": "ansi-ceiling-lighting-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-ceiling-lighting-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-ceiling-lighting-outlet.json",
+  "svgPath": "artwork/svg/ansi-ceiling-lighting-outlet.svg",
+  "referencePath": "references/ansi-ceiling-lighting-outlet.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

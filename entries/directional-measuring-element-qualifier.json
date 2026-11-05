@@ -1,0 +1,98 @@
+{
+  "slug": "directional-measuring-element-qualifier",
+  "name": "Directional measuring element qualifier",
+  "kind": "symbol",
+  "abbreviation": "→",
+  "aliases": [
+    "direction of power flow qualifier",
+    "directional relay marking"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Arrow qualifier on a measuring relay showing that it operates only for power or current in the marked direction.",
+  "description": [
+    "A directional qualifier is an arrow added to a measuring relay symbol, showing that the element responds only when the measured quantity flows in the indicated direction. On single-line diagrams the arrow usually points away from or towards the busbar, which tells the reader which faults the element is meant to see.",
+    "The arrow depends on correct CT and VT polarity to mean anything in practice. The symbol does not show the characteristic angle or the polarising quantity, so the drawing direction must be confirmed against the relay settings and commissioning tests."
+  ],
+  "readingNotes": [
+    "Note whether the arrow points towards or away from the busbar.",
+    "Check CT and VT polarity supports the shown direction."
+  ],
+  "drawingChecklist": [
+    "Show arrow relative to the busbar",
+    "State characteristic angle",
+    "Reference polarity checks"
+  ],
+  "distinction": "A directional qualifier restricts operation to one direction; a non-directional element operates for either direction.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Operation in the arrow direction only"
+    },
+    {
+      "label": "Depends on",
+      "value": "CT and VT polarity"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "iec-public-energy",
+      "relevance": "Public IEC-context energy-flow qualifier family showing direction arrows."
+    }
+  ],
+  "related": [
+    "reverse-current-relay",
+    "67-directional-overcurrent",
+    "32-directional-power"
+  ],
+  "artwork": "s28-directional-measuring-element-qualifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/directional-measuring-element-qualifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/directional-measuring-element-qualifier.svg",
+  "id": "directional-measuring-element-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/directional-measuring-element-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/directional-measuring-element-qualifier.json",
+  "svgPath": "artwork/svg/directional-measuring-element-qualifier.svg",
+  "referencePath": "references/directional-measuring-element-qualifier.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "iec-public-energy",
+      "title": "Autodesk IEC-60617 preview: Energy-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-2039C5DD-1C01-4D77-AD97-584052C53D75.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-context energy-flow qualifier family showing direction arrows."
+    }
+  ]
+}

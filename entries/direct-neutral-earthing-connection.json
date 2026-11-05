@@ -1,0 +1,99 @@
+{
+  "slug": "direct-neutral-earthing-connection",
+  "name": "Direct neutral earthing connection",
+  "kind": "symbol",
+  "abbreviation": "-",
+  "aliases": [
+    "solidly earthed neutral",
+    "solid neutral grounding",
+    "neutral point earthed"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A transformer or generator star point connected straight to earth with no intentional impedance, as in a solidly earthed system.",
+  "description": [
+    "This representation shows a star point connected directly to an earth symbol. It marks a solidly earthed system, which gives high earth fault current and allows ordinary overcurrent devices to clear earth faults quickly. It is standard on most low voltage distribution systems and common on transmission networks.",
+    "The symbol does not tell you whether there are several earthing points on the network or the earth electrode arrangement. It also excludes resistance, reactance and resonant earthing, which are shown with impedance symbols between the star point and earth. Earth fault protection settings depend heavily on this choice."
+  ],
+  "readingNotes": [
+    "Confirm there is no earthing impedance between star point and earth.",
+    "Check earth fault protection is suited to high fault current."
+  ],
+  "drawingChecklist": [
+    "Show the star point and earth connection.",
+    "State the earthing conductor size.",
+    "Record the earthing arrangement in the system notes."
+  ],
+  "distinction": "A direct neutral earthing connection has no impedance; resistance earthing inserts a resistor to limit fault current.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Star point line ending directly in an earth symbol"
+    },
+    {
+      "label": "Fault current",
+      "value": "High; limited mainly by source and return impedance"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of system earthing arrangements."
+    },
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public IEC-oriented earth forms."
+    }
+  ],
+  "related": [
+    "star-winding-with-accessible-neutral",
+    "ga-neutral-earthing-resistor-cabinet",
+    "iec-pen-conductor-mark"
+  ],
+  "artwork": "s28-direct-neutral-earthing-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/direct-neutral-earthing-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/direct-neutral-earthing-connection.svg",
+  "id": "direct-neutral-earthing-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/direct-neutral-earthing-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/direct-neutral-earthing-connection.json",
+  "svgPath": "artwork/svg/direct-neutral-earthing-connection.svg",
+  "referencePath": "references/direct-neutral-earthing-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of system earthing arrangements."
+    },
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented earth forms."
+    }
+  ]
+}

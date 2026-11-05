@@ -1,0 +1,90 @@
+{
+  "slug": "iec-common-output-element",
+  "name": "IEC common-output element",
+  "kind": "symbol",
+  "abbreviation": "COE",
+  "aliases": [
+    "common-output element",
+    "double-line output element",
+    "array output element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Element with a double top line that produces one output depending on all elements of an array above it.",
+  "description": [
+    "TI's public overview of IEEE Std 91 describes the common-output element as having a double line at its top. It sits beneath an array of identical elements and produces a single output that depends on all of them, such as a combined carry or an all-equal flag. It must carry its own general qualifier to say what function it performs.",
+    "On data-book style drawings the common-output element saves repeating a gate for every bit. When reading it, look at the qualifier in the element (for example & or ≥1) and remember that its inputs come from each element above as well as any external inputs drawn on its side.",
+    "The double line only signals the structural role. Without the qualifier inside, the function is undefined, and the drawing should not be accepted in that state."
+  ],
+  "readingNotes": [
+    "Look for the qualifier inside the double-line element; it defines the function.",
+    "Inputs come from every element in the array above."
+  ],
+  "drawingChecklist": [
+    "Draw the double line clearly at the top of the element.",
+    "Include a general qualifier.",
+    "Show any additional external inputs on the side."
+  ],
+  "distinction": "The common-control block has a notched outline at the top of an array and distributes inputs downwards; the common-output element collects results at the bottom.",
+  "facts": [
+    {
+      "label": "Distinctive feature",
+      "value": "Double line at the top edge"
+    },
+    {
+      "label": "Requirement",
+      "value": "Must carry a general qualifier"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Describes the common-output element and its double-line feature."
+    }
+  ],
+  "related": [
+    "iec-common-control-block",
+    "iec-and-gate",
+    "digital-magnitude-comparator"
+  ],
+  "artwork": "s28-iec-common-output-element",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Element below an array with a double line at its top, carrying a general qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-common-output-element",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-common-output-element.svg",
+  "id": "iec-common-output-element",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-common-output-element",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-common-output-element.json",
+  "svgPath": "artwork/svg/iec-common-output-element.svg",
+  "referencePath": "references/iec-common-output-element.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Describes the common-output element and its double-line feature."
+    }
+  ]
+}

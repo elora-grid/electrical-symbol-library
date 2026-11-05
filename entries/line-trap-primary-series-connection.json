@@ -1,0 +1,105 @@
+{
+  "slug": "line-trap-primary-series-connection",
+  "name": "Line-trap primary series connection",
+  "kind": "symbol",
+  "abbreviation": "LPSC",
+  "aliases": [
+    "Line carrier and protection communication interfaces",
+    "switchyards Line carrier and protection communication interfaces",
+    "switchyards",
+    "Switchyards",
+    "Primary line current",
+    "Primary conductor through trap"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the series primary connection of the selected line trap serving a carrier application.",
+  "description": [
+    "Shows the series primary connection of the selected line trap serving a carrier application. A protection communication interface carries information between circuit ends or couples a communication signal to a primary line. Its signal path is different from the power-current path even when both use part of the same installation.",
+    "In a switchyard line bay, carrier-coupling equipment can connect a protection communication terminal to the transmission conductor. Fiber-based protection uses another physical path but still needs named endpoints and channel supervision. For this reference, the drawing identifies “Primary line current” at the input and “Primary conductor through trap” at the output. Carrier blocking duty differs from power-frequency conduction.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Primary line current. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Primary conductor through trap. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Carrier blocking duty differs from power-frequency conduction.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for primary line current.",
+    "Identify the destination and defined state of primary conductor through trap.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Carrier blocking duty differs from power-frequency conduction."
+  ],
+  "distinction": "Carrier blocking duty differs from power-frequency conduction. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Primary line current"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Primary conductor through trap"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LPSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-carrier",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "capacitor-voltage-transformer",
+    "85-pilot-or-carrier-receiver-relay",
+    "line-trap-tuning-unit-reference"
+  ],
+  "artwork": "pi26-line-trap-primary-series-connection",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "line-communications",
+    "input": "Primary line current",
+    "output": "Primary conductor through trap"
+  },
+  "url": "https://eloragrid.ai/symbols/line-trap-primary-series-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/line-trap-primary-series-connection.svg",
+  "id": "line-trap-primary-series-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/line-trap-primary-series-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/line-trap-primary-series-connection.json",
+  "svgPath": "artwork/svg/line-trap-primary-series-connection.svg",
+  "referencePath": "references/line-trap-primary-series-connection.md",
+  "publicSources": [
+    {
+      "id": "pi26-carrier",
+      "publisher": "GE Vernova",
+      "title": "Line traps: power-line carrier communication",
+      "url": "https://www.gevernova.com/grid-solutions/sites/default/files/2025-09/Line-Traps-Brochure-EN-N50059-Hybrid-202504-R002.pdf",
+      "scope": "Line traps, coupling and power-line carrier communications.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

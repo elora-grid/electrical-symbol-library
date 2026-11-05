@@ -1,0 +1,48 @@
+# Manually unlatched NO contact
+
+A manually unlatched NO contact includes a mechanical retaining action released by a documented manual operation.
+
+[Canonical reference](https://eloragrid.ai/symbols/manually-unlatched-no-contact) · [Structured record](../entries/manually-unlatched-no-contact.json) · [All references](README.md)
+
+Updated: 2026-10-27. Drawing use: Schematic. Reference families: IEC, Manufacturer.
+
+## What it represents
+
+A manually unlatched NO contact includes a mechanical retaining action released by a documented manual operation. Its schematic modifier explains why removal of an initiating signal may not restore the initial state.
+
+## How to read it
+
+- Follow the manual reset to the retaining device tag.
+- The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation.
+
+## Drawing checklist
+
+- Identify latch mechanism
+- Show manual unlatch
+- Reference contact terminals
+
+## Important distinction
+
+Manual unlatching concerns the mechanism, not the contact's load interrupting rating.
+
+## Facts
+
+- Drawing role: Contact state
+- Representation scope: Functional concept; not an official standard graphic or a product footprint
+- Public vendor block reference: HCR2121F, VCR2121F (Autodesk identifiers; not IEC symbol numbers)
+- Identifier status: The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name.
+
+## Public references
+
+- [Relays and contacts: public symbol reference](https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-011C62B8-9EC8-485C-B47D-B22A3F7B7574.htm) — Autodesk. Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic.
+
+## Related references
+
+- [Normally open contact](normally-open-contact.md)
+- [Normally closed contact](normally-closed-contact.md)
+
+![Manually unlatched NO contact — original educational illustration](../artwork/svg/manually-unlatched-no-contact.svg)
+
+Original educational concept geometry, CC BY 4.0. Unitless; not a certified standards glyph or manufacturer footprint.
+
+Elora-authored explanations are CC BY 4.0. Linked standards and manufacturer material retain their own rights. Confirm project requirements using primary sources.

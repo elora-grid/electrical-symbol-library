@@ -1,0 +1,105 @@
+{
+  "slug": "station-alarm-acknowledgement-return-path",
+  "name": "Station alarm acknowledgement return path",
+  "kind": "symbol",
+  "abbreviation": "SAARP",
+  "aliases": [
+    "Substation automation and command interfaces",
+    "substations Substation automation and command interfaces",
+    "substations",
+    "Substations",
+    "Operator acknowledgement",
+    "Alarm-processing acknowledgement"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Carries acknowledgement from the assigned operator interface to its alarm-processing function.",
+  "description": [
+    "Carries acknowledgement from the assigned operator interface to its alarm-processing function. Station automation collects measurements and statuses and issues assigned commands through defined authority paths. A communicated point has a value, quality and equipment identity; it should not be treated as an unexplained contact.",
+    "In a substation control building, the station controller receives bay information and forwards an operator's selected command to the correct bay device. Device feedback confirms whether the intended result actually occurred. For this reference, the drawing identifies “Operator acknowledgement” at the input and “Alarm-processing acknowledgement” at the output. Acknowledgement does not clear the physical cause.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Operator acknowledgement. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Alarm-processing acknowledgement. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Acknowledgement does not clear the physical cause.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for operator acknowledgement.",
+    "Identify the destination and defined state of alarm-processing acknowledgement.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Acknowledgement does not clear the physical cause."
+  ],
+  "distinction": "Acknowledgement does not clear the physical cause. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Operator acknowledgement"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Alarm-processing acknowledgement"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SAARP is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-automation",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-substation-rtu",
+    "plc-digital-input",
+    "station-controller-watchdog-alarm-interface"
+  ],
+  "artwork": "pi26-station-alarm-acknowledgement-return-path",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-automation",
+    "input": "Operator acknowledgement",
+    "output": "Alarm-processing acknowledgement"
+  },
+  "url": "https://eloragrid.ai/symbols/station-alarm-acknowledgement-return-path",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-alarm-acknowledgement-return-path.svg",
+  "id": "station-alarm-acknowledgement-return-path",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-alarm-acknowledgement-return-path",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-alarm-acknowledgement-return-path.json",
+  "svgPath": "artwork/svg/station-alarm-acknowledgement-return-path.svg",
+  "referencePath": "references/station-alarm-acknowledgement-return-path.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-automation",
+      "publisher": "SEL",
+      "title": "SEL-2411 programmable automation controller",
+      "url": "https://selinc.com/products/2411/",
+      "scope": "Station I/O, alarms, event recording, command and communications interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

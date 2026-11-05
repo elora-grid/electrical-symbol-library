@@ -1,0 +1,88 @@
+{
+  "slug": "iec-room-thermostat-plan-mark",
+  "name": "Room thermostat plan mark",
+  "kind": "symbol",
+  "abbreviation": "TS",
+  "aliases": [
+    "wall thermostat",
+    "temperature controller plan mark",
+    "heating thermostat"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a wall-mounted room thermostat controlling heating or cooling equipment.",
+  "description": [
+    "A room thermostat is drawn as a small circle or square with a temperature mark, a theta or the letter T, at its wall position. A control link connects it to the heater, valve or air-conditioning unit it controls.",
+    "Its position affects comfort: it should not be near heat sources, in direct sunlight or on an external wall. The plan gives the designer a chance to check this, and the mounting height is usually stated in notes.",
+    "It does not show whether the thermostat switches mains directly or provides an extra-low-voltage control signal. Wiring type follows the controlled equipment."
+  ],
+  "readingNotes": [
+    "Check its position relative to heat sources.",
+    "Identify what it controls."
+  ],
+  "drawingChecklist": [
+    "Link to controlled equipment.",
+    "State control voltage.",
+    "Give mounting height."
+  ],
+  "distinction": "A schematic temperature switch shows a contact; the plan mark locates the room control.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Circle with temperature symbol"
+    },
+    {
+      "label": "Placement check",
+      "value": "Away from heat sources"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ],
+  "related": [
+    "temperature-switch-no",
+    "iec-electric-heater-plan-mark"
+  ],
+  "artwork": "s28-iec-room-thermostat-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Thermostat",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-room-thermostat-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-room-thermostat-plan-mark.svg",
+  "id": "iec-room-thermostat-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-room-thermostat-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-room-thermostat-plan-mark.json",
+  "svgPath": "artwork/svg/iec-room-thermostat-plan-mark.svg",
+  "referencePath": "references/iec-room-thermostat-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ]
+}

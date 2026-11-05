@@ -1,0 +1,105 @@
+{
+  "slug": "motor-operated-disconnector-limit-switch-interface",
+  "name": "Motor-operated disconnector limit switch interface",
+  "kind": "symbol",
+  "abbreviation": "MDLSI",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Drive end-position contacts",
+    "Open and closed position inputs"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Carries the selected mechanism's end-position contacts into the yard control circuit.",
+  "description": [
+    "Carries the selected mechanism's end-position contacts into the yard control circuit. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Drive end-position contacts” at the input and “Open and closed position inputs” at the output. Motor-stop limits and indication contacts may differ.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Drive end-position contacts. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Open and closed position inputs. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Motor-stop limits and indication contacts may differ.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for drive end-position contacts.",
+    "Identify the destination and defined state of open and closed position inputs.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Motor-stop limits and indication contacts may differ."
+  ],
+  "distinction": "Motor-stop limits and indication contacts may differ. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Drive end-position contacts"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Open and closed position inputs"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MDLSI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "disconnector-operating-torque-alarm-interface"
+  ],
+  "artwork": "pi26-motor-operated-disconnector-limit-switch-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Drive end-position contacts",
+    "output": "Open and closed position inputs"
+  },
+  "url": "https://eloragrid.ai/symbols/motor-operated-disconnector-limit-switch-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motor-operated-disconnector-limit-switch-interface.svg",
+  "id": "motor-operated-disconnector-limit-switch-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-operated-disconnector-limit-switch-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-operated-disconnector-limit-switch-interface.json",
+  "svgPath": "artwork/svg/motor-operated-disconnector-limit-switch-interface.svg",
+  "referencePath": "references/motor-operated-disconnector-limit-switch-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

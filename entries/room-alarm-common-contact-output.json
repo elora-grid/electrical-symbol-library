@@ -1,0 +1,105 @@
+{
+  "slug": "room-alarm-common-contact-output",
+  "name": "Room alarm common-contact output",
+  "kind": "symbol",
+  "abbreviation": "RACO",
+  "aliases": [
+    "Switchroom DC interfaces and alarm collection",
+    "switchrooms Switchroom DC interfaces and alarm collection",
+    "switchrooms",
+    "Switchrooms",
+    "Assigned alarm group",
+    "Common station alarm contact"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Provides the documented common contact representing the selected group of room alarms.",
+  "description": [
+    "Provides the documented common contact representing the selected group of room alarms. A room DC interface connects station battery distribution, alarm contacts and operating circuits. DC supplies may remain energized when the room's normal AC supply is unavailable, so their source and distribution boundaries must be shown separately.",
+    "In a switchroom, the station battery can continue supplying protection and breaker controls during an AC supply interruption. The alarm system should distinguish charger loss from a low battery condition. For this reference, the drawing identifies “Assigned alarm group” at the input and “Common station alarm contact” at the output. The common contact does not replace detailed alarm records.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Assigned alarm group. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Common station alarm contact. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The common contact does not replace detailed alarm records.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for assigned alarm group.",
+    "Identify the destination and defined state of common station alarm contact.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The common contact does not replace detailed alarm records."
+  ],
+  "distinction": "The common contact does not replace detailed alarm records. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Assigned alarm group"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Common station alarm contact"
+    },
+    {
+      "label": "Lookup label",
+      "value": "RACO is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "battery-charger-controller",
+    "room-alarm-acknowledgement-input"
+  ],
+  "artwork": "pi26-room-alarm-common-contact-output",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-dc",
+    "input": "Assigned alarm group",
+    "output": "Common station alarm contact"
+  },
+  "url": "https://eloragrid.ai/symbols/room-alarm-common-contact-output",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/room-alarm-common-contact-output.svg",
+  "id": "room-alarm-common-contact-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/room-alarm-common-contact-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/room-alarm-common-contact-output.json",
+  "svgPath": "artwork/svg/room-alarm-common-contact-output.svg",
+  "referencePath": "references/room-alarm-common-contact-output.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

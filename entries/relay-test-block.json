@@ -1,0 +1,99 @@
+{
+  "slug": "relay-test-block",
+  "name": "Relay test block",
+  "kind": "symbol",
+  "abbreviation": "TB",
+  "aliases": [
+    "protection test block",
+    "test terminal block",
+    "relay test socket"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Multi-pole test facility between CT, VT and trip wiring and a relay, allowing safe isolation and test injection.",
+  "description": [
+    "A relay test block sits in the secondary wiring between CTs, VTs, trip outputs and a protection relay. Inserting a test plug or opening the block isolates the relay from the plant, automatically shorts CT circuits before they are opened and isolates trip outputs, so the relay can be tested with secondary injection while the primary circuit stays in service.",
+    "The schematic should show the order in which poles break and make, because CT shorting must occur before CT circuits open. The symbol alone does not show that sequence, so the terminal arrangement of each pole needs to be drawn or referenced to the manufacturer data."
+  ],
+  "readingNotes": [
+    "Check CT poles short before they open.",
+    "Confirm trip outputs are isolated when the block is opened."
+  ],
+  "drawingChecklist": [
+    "Number each pole",
+    "Show CT shorting arrangement",
+    "Show trip isolation poles"
+  ],
+  "distinction": "A relay test block isolates and shorts circuits in one operation; a single CT test terminal handles only one conductor.",
+  "facts": [
+    {
+      "label": "Isolates",
+      "value": "CT, VT and trip circuits"
+    },
+    {
+      "label": "Key feature",
+      "value": "CT shorting before opening"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    },
+    {
+      "sourceId": "terminal-disconnect",
+      "relevance": "Public disconnect and test terminal families used in secondary circuits."
+    }
+  ],
+  "related": [
+    "ct-test-terminal",
+    "test-plug",
+    "current-test-switch-with-shorting"
+  ],
+  "artwork": "s28-relay-test-block",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/relay-test-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/relay-test-block.svg",
+  "id": "relay-test-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/relay-test-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/relay-test-block.json",
+  "svgPath": "artwork/svg/relay-test-block.svg",
+  "referencePath": "references/relay-test-block.md",
+  "publicSources": [
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    },
+    {
+      "id": "terminal-disconnect",
+      "title": "Disconnect and knife-disconnect terminal blocks",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-au/products/terminal-blocks/disconnect-and-knife-disconnect-terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public disconnect-terminal products, test access and model-dependent connection characteristics.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public disconnect and test terminal families used in secondary circuits."
+    }
+  ]
+}

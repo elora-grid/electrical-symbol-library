@@ -1,0 +1,104 @@
+{
+  "slug": "ansi-twisted-pair",
+  "name": "ANSI/IEEE twisted pair symbol",
+  "kind": "symbol",
+  "abbreviation": "TW",
+  "aliases": [
+    "IEEE twisted conductors",
+    "ANSI twisted pair",
+    "twisted wires"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented representation of two conductors twisted together, used to identify noise-rejecting signal pairs.",
+  "description": [
+    "IEEE-style schematics show a twisted pair with the two conductor lines crossing repeatedly over a short length. It identifies conductors that must be kept as a pair in one cable, such as differential signal lines, current transformer secondary pairs run in instrument cables, or communication buses.",
+    "The illustration here explains the convention and is not the IEEE graphic. The twist mark does not imply a shield. When a pair is also shielded the drawing should add the shield enclosure; when it is part of a multipair cable, the pair number should be given."
+  ],
+  "readingNotes": [
+    "Keep both conductors of the pair on the same circuit.",
+    "Look for a separate shield mark if a shield exists."
+  ],
+  "drawingChecklist": [
+    "Identify pair number within the cable.",
+    "Add a shield mark only if shielded.",
+    "Route pair conductors together on wiring diagrams."
+  ],
+  "distinction": "A twisted pair is twisted only; a shielded conductor has a screen and may not be twisted.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "IEEE 315 graphic conventions for twisted conductors (standards context only)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Public publisher family listing a twisted-pair marker in the companion IEC library."
+    }
+  ],
+  "related": [
+    "iec-twisted-pair-indication",
+    "iec-screened-twisted-pair",
+    "ansi-shielded-conductor"
+  ],
+  "artwork": "s28-ansi-twisted-pair",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Twisted pair crossing form",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "iec-twisted-pair-indication"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-twisted-pair",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-twisted-pair.svg",
+  "id": "ansi-twisted-pair",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-twisted-pair",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-twisted-pair.json",
+  "svgPath": "artwork/svg/ansi-twisted-pair.svg",
+  "referencePath": "references/ansi-twisted-pair.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public publisher family listing a twisted-pair marker in the companion IEC library."
+    }
+  ]
+}

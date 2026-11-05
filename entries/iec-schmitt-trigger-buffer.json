@@ -1,0 +1,106 @@
+{
+  "slug": "iec-schmitt-trigger-buffer",
+  "name": "IEC Schmitt-trigger buffer (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1",
+  "aliases": [
+    "IEC buffer with hysteresis",
+    "bi-threshold buffer",
+    "rectangular Schmitt buffer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Rectangular buffer carrying the hysteresis mark, meaning its input switches at two different thresholds.",
+  "description": [
+    "A Schmitt-trigger buffer is an IEC 1 element with the hysteresis qualifier drawn inside the box. The qualifier states that the input has two thresholds, one for a rising signal and one for a falling signal, so the output does not chatter when the input passes slowly through the switching region.",
+    "In control panels this element usually sits at the boundary between field wiring and logic, where a slow or noisy contact or sensor signal needs squaring up. Drawings sometimes place the hysteresis mark at the input line rather than at the centre; both indicate the same bi-threshold behaviour.",
+    "The symbol does not give threshold voltages or hysteresis width. Those values belong to the device datasheet and should be checked against the field signal levels."
+  ],
+  "readingNotes": [
+    "Locate the hysteresis mark; it may be centred or next to an input.",
+    "Check signal levels against the device thresholds."
+  ],
+  "drawingChecklist": [
+    "Draw the hysteresis mark clearly so it is not mistaken for a waveform note.",
+    "Reference the device for threshold values.",
+    "Keep the input filter components on the same sheet."
+  ],
+  "distinction": "A plain 1 buffer has a single threshold; only the hysteresis mark indicates Schmitt behaviour.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "1 plus hysteresis mark"
+    },
+    {
+      "label": "Typical location",
+      "value": "Field input conditioning"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists the Schmitt-trigger and bi-threshold input qualifiers."
+    },
+    {
+      "sourceId": "pub-electronics-ti-lvc17",
+      "relevance": "Manufacturer Schmitt-trigger buffer documentation."
+    }
+  ],
+  "related": [
+    "schmitt-trigger-buffer",
+    "iec-hysteresis-input-qualifier",
+    "iec-buffer"
+  ],
+  "artwork": "s28-iec-schmitt-trigger-buffer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "1 element with the hysteresis qualifier inside the outline",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "schmitt-trigger-buffer"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-schmitt-trigger-buffer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-schmitt-trigger-buffer.svg",
+  "id": "iec-schmitt-trigger-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-schmitt-trigger-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-schmitt-trigger-buffer.json",
+  "svgPath": "artwork/svg/iec-schmitt-trigger-buffer.svg",
+  "referencePath": "references/iec-schmitt-trigger-buffer.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists the Schmitt-trigger and bi-threshold input qualifiers."
+    },
+    {
+      "id": "pub-electronics-ti-lvc17",
+      "title": "SN74LVC1G17 — non-inverting Schmitt buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74LVC1G17",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of non-inverting schmitt buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer Schmitt-trigger buffer documentation."
+    }
+  ]
+}

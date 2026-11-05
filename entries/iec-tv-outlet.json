@@ -1,0 +1,103 @@
+{
+  "slug": "iec-tv-outlet",
+  "name": "Television outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "TV",
+  "aliases": [
+    "TV socket",
+    "coaxial TV outlet",
+    "cable TV outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a television or cable TV outlet with a coaxial connection.",
+  "description": [
+    "Television outlets terminate the building TV distribution, whether from terrestrial antenna, satellite or a cable TV provider. Plans draw a triangle or outlet shape tagged TV, sometimes with an additional tag for satellite (SAT) or FM.",
+    "The plan symbol tells the installer to run a coaxial cable from the distribution amplifier or splitter, and to provide a power outlet nearby for the television. Multi-dwelling buildings use outlets with defined isolation and signal levels. It does not show the signal sources or the loss budget; the TV distribution design does."
+  ],
+  "readingNotes": [
+    "Look for SAT or FM tags.",
+    "Find the source amplifier or splitter."
+  ],
+  "drawingChecklist": [
+    "State outlet type.",
+    "Show cable from distribution.",
+    "Provide adjacent power outlet."
+  ],
+  "distinction": "A data outlet carries network cabling; a TV outlet carries coaxial RF signals.",
+  "facts": [
+    {
+      "label": "Connection",
+      "value": "Coaxial"
+    },
+    {
+      "label": "Sources",
+      "value": "Antenna, satellite or cable TV"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-antenna-plan-symbol",
+    "iec-dish-antenna-symbol",
+    "iec-data-outlet"
+  ],
+  "artwork": "s28-iec-tv-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Telecommunication outlet, television",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-tv-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-tv-outlet.svg",
+  "id": "iec-tv-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-tv-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-tv-outlet.json",
+  "svgPath": "artwork/svg/iec-tv-outlet.svg",
+  "referencePath": "references/iec-tv-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

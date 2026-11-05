@@ -1,0 +1,106 @@
+{
+  "slug": "iec-schmitt-trigger-inverter",
+  "name": "IEC Schmitt-trigger inverter (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1",
+  "aliases": [
+    "IEC inverter with hysteresis",
+    "bi-threshold inverter",
+    "rectangular Schmitt inverter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC inverter with the hysteresis mark, used to clean up slow edges while inverting the signal.",
+  "description": [
+    "This element combines the 1 qualifier, the hysteresis mark and output negation. It inverts the signal while switching at two thresholds, which makes it a common choice for debouncing contacts with an RC network and for building simple relaxation oscillators.",
+    "When a Schmitt inverter forms part of an oscillator or delay with external resistors and capacitors, the drawing should keep those components next to the element and note the intended timing. The symbol alone gives no clue that it is part of a timing circuit.",
+    "Thresholds, hysteresis width and supply range are device data. Different logic families have markedly different thresholds even though the symbol is identical."
+  ],
+  "readingNotes": [
+    "Check for external RC parts that turn the inverter into a timing circuit.",
+    "Confirm the output negation as well as the hysteresis mark."
+  ],
+  "drawingChecklist": [
+    "Show both the hysteresis mark and the output negation.",
+    "Keep associated RC components adjacent.",
+    "Note the intended timing if used as an oscillator or debounce."
+  ],
+  "distinction": "The Schmitt buffer has the same hysteresis mark but no output negation.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "1, hysteresis mark, output negation"
+    },
+    {
+      "label": "Common circuits",
+      "value": "Contact debounce, RC oscillator"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Hysteresis and negation qualifiers."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc14",
+      "relevance": "Manufacturer Schmitt-trigger inverter documentation."
+    }
+  ],
+  "related": [
+    "schmitt-trigger-inverter",
+    "iec-schmitt-trigger-buffer",
+    "iec-not-gate"
+  ],
+  "artwork": "s28-iec-schmitt-trigger-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "1 element with hysteresis qualifier and output negation",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "schmitt-trigger-inverter"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-schmitt-trigger-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-schmitt-trigger-inverter.svg",
+  "id": "iec-schmitt-trigger-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-schmitt-trigger-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-schmitt-trigger-inverter.json",
+  "svgPath": "artwork/svg/iec-schmitt-trigger-inverter.svg",
+  "referencePath": "references/iec-schmitt-trigger-inverter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Hysteresis and negation qualifiers."
+    },
+    {
+      "id": "pub-electronics-ti-hc14",
+      "title": "SN74HC14 — Schmitt-trigger inverters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of schmitt-trigger inverters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer Schmitt-trigger inverter documentation."
+    }
+  ]
+}

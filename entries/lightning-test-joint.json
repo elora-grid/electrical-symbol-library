@@ -1,0 +1,100 @@
+{
+  "slug": "lightning-test-joint",
+  "name": "Lightning protection test joint",
+  "kind": "symbol",
+  "abbreviation": "TJ",
+  "aliases": [
+    "down-conductor test clamp",
+    "LPS test link",
+    "testing joint"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A disconnectable joint near the base of a down-conductor that allows the earth termination to be tested separately.",
+  "description": [
+    "Each down-conductor usually has a test joint at a convenient height above ground. Opening it separates the above-ground lightning conductor from the earth electrode, so electrode resistance and conductor continuity can be measured. Elevations show it as a small box or clamp mark on the down-conductor.",
+    "The test joint is not an isolating device for electrical work; it is only opened for inspection with no storm risk. The symbol does not specify clamp type or whether it is housed in a box. Missing or painted-over test joints are a common inspection finding."
+  ],
+  "readingNotes": [
+    "Locate the test joint on each down-conductor.",
+    "Confirm it is reachable for inspection."
+  ],
+  "drawingChecklist": [
+    "Show a test joint on every down-conductor.",
+    "State mounting height.",
+    "Number joints to match inspection records."
+  ],
+  "distinction": "A lightning test joint separates the down-conductor from its electrode; an earth test link separates the installation MET from its electrode.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Small box or clamp mark near the base of a down-conductor"
+    },
+    {
+      "label": "Use",
+      "value": "Electrode and continuity testing"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-building-lightning-protection",
+      "relevance": "Public installation-guide description of lightning protection earth leads and down-conductors."
+    },
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public installation-guide earthing elements."
+    }
+  ],
+  "related": [
+    "lightning-down-conductor",
+    "iec-removable-earth-test-link",
+    "iec-earth-electrode"
+  ],
+  "artwork": "s28-lightning-test-joint",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/lightning-test-joint",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/lightning-test-joint.svg",
+  "id": "lightning-test-joint",
+  "canonicalUrl": "https://eloragrid.ai/symbols/lightning-test-joint",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/lightning-test-joint.json",
+  "svgPath": "artwork/svg/lightning-test-joint.svg",
+  "referencePath": "references/lightning-test-joint.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-building-lightning-protection",
+      "title": "Building protection system",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Building_protection_system",
+      "type": "manufacturer",
+      "scope": "Lightning capture devices, down-conductors, earth leads and equipotential bonding of a building protection system.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide description of lightning protection earth leads and down-conductors."
+    },
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide earthing elements."
+    }
+  ]
+}

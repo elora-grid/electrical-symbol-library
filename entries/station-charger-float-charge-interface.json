@@ -1,0 +1,105 @@
+{
+  "slug": "station-charger-float-charge-interface",
+  "name": "Station charger float-charge interface",
+  "kind": "symbol",
+  "abbreviation": "SCFI",
+  "aliases": [
+    "Station battery and charger distribution",
+    "substations Station battery and charger distribution",
+    "substations",
+    "Substations",
+    "Charger control and battery condition",
+    "Float-charge operating state"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the charger operating interface that maintains the battery at its specified standby charge condition.",
+  "description": [
+    "Identifies the charger operating interface that maintains the battery at its specified standby charge condition. A station battery system supplies protection, control and other assigned DC loads through a documented charger and distribution arrangement. Charger output, battery contribution and load distribution are related but separately monitored paths.",
+    "In a substation control building, the battery can support breaker trip circuits while the charger AC supply is unavailable. Supervision must identify whether the charger, battery or a downstream feeder is affected. For this reference, the drawing identifies “Charger control and battery condition” at the input and “Float-charge operating state” at the output. Charge settings depend on battery chemistry and equipment.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Charger control and battery condition. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Float-charge operating state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Charge settings depend on battery chemistry and equipment.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for charger control and battery condition.",
+    "Identify the destination and defined state of float-charge operating state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Charge settings depend on battery chemistry and equipment."
+  ],
+  "distinction": "Charge settings depend on battery chemistry and equipment. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Charger control and battery condition"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Float-charge operating state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SCFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "ga-battery-charger",
+    "station-charger-boost-charge-interface"
+  ],
+  "artwork": "pi26-station-charger-float-charge-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-battery",
+    "input": "Charger control and battery condition",
+    "output": "Float-charge operating state"
+  },
+  "url": "https://eloragrid.ai/symbols/station-charger-float-charge-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-charger-float-charge-interface.svg",
+  "id": "station-charger-float-charge-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-charger-float-charge-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-charger-float-charge-interface.json",
+  "svgPath": "artwork/svg/station-charger-float-charge-interface.svg",
+  "referencePath": "references/station-charger-float-charge-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "fuel-cell",
+  "name": "Fuel cell",
+  "kind": "symbol",
+  "abbreviation": "FC",
+  "aliases": [
+    "fuel cell stack",
+    "hydrogen fuel cell",
+    "PEM fuel cell"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An electrochemical source that converts hydrogen or another fuel directly into DC electricity, usually followed by a converter.",
+  "description": [
+    "A fuel cell produces DC electricity from an electrochemical reaction between a fuel, usually hydrogen, and oxygen from air. Unlike a battery it does not store its reactants; it runs as long as fuel is supplied. Stack voltage falls noticeably with load current, so a DC/DC converter or inverter almost always follows it.",
+    "Drawings show the cell or stack as a rectangle with plates, or as a cell symbol labelled FC, with positive and negative DC leads. Balance-of-plant items such as the air blower, humidifier and coolant pump are auxiliary loads and normally appear on a separate auxiliary supply drawing.",
+    "The symbol does not state whether the stack can follow fast load changes. Most fuel cell systems pair with a battery or supercapacitor to cover transients, and the fuel supply, purge and safety interlocks belong on the process drawings."
+  ],
+  "readingNotes": [
+    "Expect a converter and often a battery buffer next to the stack.",
+    "Separate stack output from auxiliary consumption when reading ratings."
+  ],
+  "drawingChecklist": [
+    "State stack voltage range and current.",
+    "Show converter and buffer storage.",
+    "Reference fuel supply and safety interlocks."
+  ],
+  "distinction": "A fuel cell converts supplied fuel continuously; a battery stores a fixed charge and must be recharged.",
+  "facts": [
+    {
+      "label": "Output",
+      "value": "DC, voltage falls with load"
+    },
+    {
+      "label": "Fuel",
+      "value": "Usually hydrogen"
+    },
+    {
+      "label": "Typical pairing",
+      "value": "DC/DC converter and buffer storage"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for sources and conversion elements."
+    },
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public energy storage and power conversion context."
+    }
+  ],
+  "related": [
+    "hydrogen-electrolyser",
+    "dc-to-dc-converter",
+    "battery",
+    "supercapacitor-bank"
+  ],
+  "artwork": "s28-fuel-cell",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/fuel-cell",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/fuel-cell.svg",
+  "id": "fuel-cell",
+  "canonicalUrl": "https://eloragrid.ai/symbols/fuel-cell",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/fuel-cell.json",
+  "svgPath": "artwork/svg/fuel-cell.svg",
+  "referencePath": "references/fuel-cell.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for sources and conversion elements."
+    },
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public energy storage and power conversion context."
+    }
+  ]
+}

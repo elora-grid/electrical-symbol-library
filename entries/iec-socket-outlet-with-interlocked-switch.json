@@ -1,0 +1,119 @@
+{
+  "slug": "iec-socket-outlet-with-interlocked-switch",
+  "name": "Socket outlet with interlocked switch",
+  "kind": "symbol",
+  "abbreviation": "SOI",
+  "aliases": [
+    "interlocked socket outlet",
+    "switch-interlocked outlet",
+    "mechanically interlocked socket"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for an outlet whose switch is mechanically interlocked so a plug cannot be inserted or withdrawn while live.",
+  "description": [
+    "Interlocked socket outlets are used for industrial plugs, welding outlets, portable plant supplies and higher-current three-phase outlets. The interlock forces the user to switch off before the plug can be removed or inserted, which prevents drawing an arc at the pins. The plan mark adds a switch stroke and a small interlock bar to the outlet form.",
+    "On industrial layouts the symbol is often paired with a current rating and pole count written beside it, for example 32 A 5-pin. The estimator should expect a heavier enclosure, sometimes with an integral fuse or circuit breaker, and the installer should expect a surface-mounted accessory rather than a flush plate.",
+    "The interlock mark does not confirm the presence of overcurrent or residual-current protection inside the unit. Check the schedule for combination units that include a breaker or RCD."
+  ],
+  "readingNotes": [
+    "Check the rating text: interlocked outlets are usually specified by current, poles and IP rating together.",
+    "Do not confuse the interlock bar with the protective earth bar on a domestic outlet."
+  ],
+  "drawingChecklist": [
+    "State current rating, pole count and plug standard.",
+    "State whether overcurrent or residual-current protection is integral.",
+    "Note IP rating and mounting surface."
+  ],
+  "distinction": "A simple switched outlet allows the plug to be withdrawn while energised; the interlocked form mechanically prevents it.",
+  "facts": [
+    {
+      "label": "Typical location",
+      "value": "Workshops, plant rooms and outdoor plant supply points"
+    },
+    {
+      "label": "Added information",
+      "value": "Plug cannot move while the switch is on"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Explains elementary switching functions such as isolation, control and functional switching."
+    },
+    {
+      "sourceId": "iec-public-receptacles",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ],
+  "related": [
+    "iec-switched-socket-outlet",
+    "iec-three-phase-socket-outlet",
+    "switch-disconnector"
+  ],
+  "artwork": "s28-iec-socket-outlet-with-interlocked-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Socket outlet with interlocked switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-socket-outlet-with-interlocked-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-socket-outlet-with-interlocked-switch.svg",
+  "id": "iec-socket-outlet-with-interlocked-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-socket-outlet-with-interlocked-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-socket-outlet-with-interlocked-switch.json",
+  "svgPath": "artwork/svg/iec-socket-outlet-with-interlocked-switch.svg",
+  "referencePath": "references/iec-socket-outlet-with-interlocked-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains elementary switching functions such as isolation, control and functional switching."
+    },
+    {
+      "id": "iec-public-receptacles",
+      "title": "Autodesk IEC-60617 preview: Single and duplex power-receptacle forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7DAEDB03-74FC-47A2-9C50-9164297AA5A3.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ]
+}

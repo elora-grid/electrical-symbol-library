@@ -1,0 +1,94 @@
+{
+  "slug": "iec-photoelectric-emitter-interface-emitter-receiver-with-form-c",
+  "name": "IEC photoelectric emitter interface: emitter - receiver with form c",
+  "kind": "symbol",
+  "abbreviation": "TX",
+  "aliases": [
+    "HPE13B16SC",
+    "VPE13B16SC",
+    "photoelectric emitter interface Emitter - Receiver with Form C"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Photoelectric emitter interface form: Emitter - Receiver with Form C.",
+  "description": [
+    "A photoelectric emitter supplies the light used by an optical sensing system; a complete sensing pair also needs a receiver. This entry identifies the emitter - receiver with form c form in the publisher's IEC-context family.",
+    "A conveyor may place the emitter on one side and a separate receiver on the other so an object can interrupt the optical path. Form C identifies a changeover output with a common and two alternative paths; it does not establish which terminal numbers the selected device uses.",
+    "A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface."
+  ],
+  "readingNotes": [
+    "Form C identifies a changeover output with a common and two alternative paths; it does not establish which terminal numbers the selected device uses.",
+    "A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the emitter - receiver with form c detail to the broader photoelectric emitter interface family. A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Emitter - Receiver with Form C"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPE13B16SC / VPE13B16SC. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "photoelectric emitter interface"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-iec-photoelectric-emitter-switches",
+      "relevance": "Public Photoelectric Emitter Switches table explicitly lists HPE13B16SC / VPE13B16SC with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "photoelectric-emitter-receiver-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-photoelectric-emitter-interface-emitter-receiver-with-form-c",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Emitter - Receiver with Form C",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter Switches, HPE13B16SC / VPE13B16SC. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-photoelectric-emitter-interface-emitter-receiver-with-form-c",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-photoelectric-emitter-interface-emitter-receiver-with-form-c.svg",
+  "id": "iec-photoelectric-emitter-interface-emitter-receiver-with-form-c",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-photoelectric-emitter-interface-emitter-receiver-with-form-c",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-photoelectric-emitter-interface-emitter-receiver-with-form-c.json",
+  "svgPath": "artwork/svg/iec-photoelectric-emitter-interface-emitter-receiver-with-form-c.svg",
+  "referencePath": "references/iec-photoelectric-emitter-interface-emitter-receiver-with-form-c.md",
+  "publicSources": [
+    {
+      "id": "s28-iec-photoelectric-emitter-switches",
+      "title": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-CAF5714C-3562-40A0-A957-AB06150A5658.htm",
+      "type": "cad-reference",
+      "scope": "Public photoelectric emitter switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public Photoelectric Emitter Switches table explicitly lists HPE13B16SC / VPE13B16SC with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

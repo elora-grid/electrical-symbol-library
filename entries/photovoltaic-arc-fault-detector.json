@@ -1,0 +1,86 @@
+{
+  "slug": "photovoltaic-arc-fault-detector",
+  "name": "Photovoltaic arc-fault detection",
+  "kind": "symbol",
+  "abbreviation": "PV AFD",
+  "aliases": [
+    "Photovoltaic arc-fault detection",
+    "Photovoltaic arc-fault detection functional block",
+    "Photovoltaic arc-fault detection schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Solar arc-fault detection analyses monitored circuit behaviour for signs of specified electrical arcing.",
+  "description": [
+    "Solar arc-fault detection analyses monitored circuit behaviour for signs of specified electrical arcing.",
+    "A detector can provide a result to the associated shutdown or protection logic.",
+    "Show the monitored solar circuit, sensing path and detection output as separate roles. Arcing can produce features that a detector analyses, but the detector’s indication is not the same thing as opening the circuit. Identify the equipment that responds to the detection decision. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the circuit and sensing arrangement being monitored.",
+    "Show the detector’s alarm or control output.",
+    "Reference the selected interruption arrangement and detector limitations.",
+    "Detection, decision logic and power interruption must be distinguished in the design."
+  ],
+  "drawingChecklist": [
+    "Identify the circuit and sensing arrangement being monitored.",
+    "Show the detector’s alarm or control output.",
+    "Reference the selected interruption arrangement and detector limitations."
+  ],
+  "distinction": "Detection, decision logic and power interruption must be distinguished in the design.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Monitored circuit behaviour"
+    },
+    {
+      "label": "Concept output",
+      "value": "Indication or interruption request"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pvarc",
+      "relevance": "Solar arc protection architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "photovoltaic-inverter",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-photovoltaic-arc-fault-detector",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-arc-fault-detector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/photovoltaic-arc-fault-detector.svg",
+  "id": "photovoltaic-arc-fault-detector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-arc-fault-detector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-arc-fault-detector.json",
+  "svgPath": "artwork/svg/photovoltaic-arc-fault-detector.svg",
+  "referencePath": "references/photovoltaic-arc-fault-detector.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pvarc",
+      "title": "Solar arc protection architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/solar-arc-protection",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Solar arc protection architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

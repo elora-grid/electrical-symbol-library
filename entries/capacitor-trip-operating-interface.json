@@ -1,0 +1,105 @@
+{
+  "slug": "capacitor-trip-operating-interface",
+  "name": "Capacitor-trip operating interface",
+  "kind": "symbol",
+  "abbreviation": "COI",
+  "aliases": [
+    "Switching-device operating references",
+    "switchgear Switching-device operating references",
+    "switchgear",
+    "Switchgear",
+    "Charged capacitor unit",
+    "Trip operating energy"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses stored electrical energy in a documented capacitor-trip unit to support an opening operation.",
+  "description": [
+    "Uses stored electrical energy in a documented capacitor-trip unit to support an opening operation. A switching-device operating reference adds the specific mechanism or duty context needed to interpret its place in a power circuit. The same basic switching outline can serve different equipment constructions, so the added description must remain attached to its device tag.",
+    "In a medium-voltage switchgear drawing, the operating reference helps the reader distinguish the interrupting device from its isolation, earthing and auxiliary-control interfaces. For this reference, the drawing identifies “Charged capacitor unit” at the input and “Trip operating energy” at the output. Stored charge requires its own supervision and handling rules.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Charged capacitor unit. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Trip operating energy. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Stored charge requires its own supervision and handling rules.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for charged capacitor unit.",
+    "Identify the destination and defined state of trip operating energy.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Stored charge requires its own supervision and handling rules."
+  ],
+  "distinction": "Stored charge requires its own supervision and handling rules. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Charged capacitor unit"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Trip operating energy"
+    },
+    {
+      "label": "Lookup label",
+      "value": "COI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-breaker-products",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "disconnector",
+    "undervoltage-release-holding-interface"
+  ],
+  "artwork": "pi26-capacitor-trip-operating-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "device-functions",
+    "input": "Charged capacitor unit",
+    "output": "Trip operating energy"
+  },
+  "url": "https://eloragrid.ai/symbols/capacitor-trip-operating-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/capacitor-trip-operating-interface.svg",
+  "id": "capacitor-trip-operating-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitor-trip-operating-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitor-trip-operating-interface.json",
+  "svgPath": "artwork/svg/capacitor-trip-operating-interface.svg",
+  "referencePath": "references/capacitor-trip-operating-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-breaker-products",
+      "publisher": "Siemens Energy",
+      "title": "High-voltage circuit breakers",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/circuit-breakers.html",
+      "scope": "Circuit-breaker construction and interruption families.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

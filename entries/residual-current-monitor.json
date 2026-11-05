@@ -1,0 +1,100 @@
+{
+  "slug": "residual-current-monitor",
+  "name": "Residual current monitor",
+  "kind": "symbol",
+  "abbreviation": "RCM",
+  "aliases": [
+    "RCM",
+    "earth leakage monitor",
+    "residual current monitoring device"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Device with a toroid that measures residual current and gives a warning or signal without interrupting the circuit itself.",
+  "description": [
+    "A residual current monitor measures residual current with a summation toroid around the circuit conductors and signals when it exceeds a threshold. It is used where an unexpected trip would be unacceptable but rising leakage still needs attention, for example in data centres and process plant.",
+    "An RCM does not disconnect the circuit by itself, so it is not a substitute for an RCD where automatic disconnection is required. The symbol shows the toroid and monitor, but the reader must find out whether its output drives an alarm only or a separate switching device."
+  ],
+  "readingNotes": [
+    "Check whether the output alarms or trips another device.",
+    "Confirm that all live conductors, including neutral, pass through the toroid."
+  ],
+  "drawingChecklist": [
+    "Show toroid and conductors",
+    "State threshold",
+    "Reference alarm or trip output"
+  ],
+  "distinction": "An RCM signals residual current; an RCD measures it and also disconnects the circuit.",
+  "facts": [
+    {
+      "label": "Sensing",
+      "value": "Summation toroid around live conductors"
+    },
+    {
+      "label": "Action",
+      "value": "Signal or alarm, no integral disconnection"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-rcd-categories",
+      "relevance": "Public residual current device categories for comparison with monitoring devices."
+    },
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public context for residual current measurement."
+    }
+  ],
+  "related": [
+    "core-balance-current-transformer",
+    "earth-fault-current-relay",
+    "insulation-monitoring-relay"
+  ],
+  "artwork": "s28-residual-current-monitor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/residual-current-monitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/residual-current-monitor.svg",
+  "id": "residual-current-monitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/residual-current-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/residual-current-monitor.json",
+  "svgPath": "artwork/svg/residual-current-monitor.svg",
+  "referencePath": "references/residual-current-monitor.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-rcd-categories",
+      "title": "Residual current device categories",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/faqs/FAQ000218859/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public residual current device categories for comparison with monitoring devices."
+    },
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for residual current measurement."
+    }
+  ]
+}

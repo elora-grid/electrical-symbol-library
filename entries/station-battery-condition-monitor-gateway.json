@@ -1,0 +1,105 @@
+{
+  "slug": "station-battery-condition-monitor-gateway",
+  "name": "Station battery condition-monitor gateway",
+  "kind": "symbol",
+  "abbreviation": "SBCG",
+  "aliases": [
+    "Station battery and charger distribution",
+    "substations Station battery and charger distribution",
+    "substations",
+    "Substations",
+    "Battery monitor data",
+    "Station battery condition information"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects the installed battery monitoring system's declared values and alarms to station supervision.",
+  "description": [
+    "Connects the installed battery monitoring system's declared values and alarms to station supervision. A station battery system supplies protection, control and other assigned DC loads through a documented charger and distribution arrangement. Charger output, battery contribution and load distribution are related but separately monitored paths.",
+    "In a substation control building, the battery can support breaker trip circuits while the charger AC supply is unavailable. Supervision must identify whether the charger, battery or a downstream feeder is affected. For this reference, the drawing identifies “Battery monitor data” at the input and “Station battery condition information” at the output. Monitoring data does not replace capacity assessment.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Battery monitor data. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Station battery condition information. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Monitoring data does not replace capacity assessment.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for battery monitor data.",
+    "Identify the destination and defined state of station battery condition information.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Monitoring data does not replace capacity assessment."
+  ],
+  "distinction": "Monitoring data does not replace capacity assessment. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Battery monitor data"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Station battery condition information"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SBCG is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "ga-battery-charger",
+    "station-charger-float-charge-interface"
+  ],
+  "artwork": "pi26-station-battery-condition-monitor-gateway",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-battery",
+    "input": "Battery monitor data",
+    "output": "Station battery condition information"
+  },
+  "url": "https://eloragrid.ai/symbols/station-battery-condition-monitor-gateway",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-battery-condition-monitor-gateway.svg",
+  "id": "station-battery-condition-monitor-gateway",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-condition-monitor-gateway",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-battery-condition-monitor-gateway.json",
+  "svgPath": "artwork/svg/station-battery-condition-monitor-gateway.svg",
+  "referencePath": "references/station-battery-condition-monitor-gateway.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "iec-multiplexer",
+  "name": "IEC multiplexer (MUX)",
+  "kind": "symbol",
+  "abbreviation": "MUX",
+  "aliases": [
+    "IEC data selector",
+    "MUX element",
+    "rectangular multiplexer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC MUX element whose select inputs, grouped with G dependency, pick which data input reaches the output.",
+  "description": [
+    "The IEC multiplexer carries the MUX qualifier. Select inputs are drawn with a binary grouping bracket producing G0 to Gn, and each data input is labelled with the matching number, so the data input whose number equals the select value is ANDed through to the output. An EN input, often active low, enables the whole element.",
+    "Multiplexers on control drawings route one of several signals to a shared output, for example selecting a measurement channel or an operating mode source. The binary grouping makes the select range clear without drawing a decoder.",
+    "The symbol does not state the switching time or whether outputs glitch during a select change. Those are device timing considerations."
+  ],
+  "readingNotes": [
+    "Read the binary grouping to find the select range.",
+    "Each data input number matches a G value."
+  ],
+  "drawingChecklist": [
+    "Show select inputs with a binary grouping bracket.",
+    "Number data inputs to match.",
+    "Mark EN polarity."
+  ],
+  "distinction": "The analogue multiplexer passes analogue levels through switches; the logic MUX passes logic states.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "MUX"
+    },
+    {
+      "label": "Select notation",
+      "value": "Binary grouping with G dependency"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "MUX qualifier, G dependency and binary grouping."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc151",
+      "relevance": "Digital multiplexer documentation."
+    }
+  ],
+  "related": [
+    "digital-multiplexer",
+    "iec-and-dependency-g",
+    "analog-multiplexer"
+  ],
+  "artwork": "s28-iec-multiplexer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with MUX qualifier and select inputs using G dependency",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "digital-multiplexer"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-multiplexer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-multiplexer.svg",
+  "id": "iec-multiplexer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-multiplexer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-multiplexer.json",
+  "svgPath": "artwork/svg/iec-multiplexer.svg",
+  "referencePath": "references/iec-multiplexer.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "MUX qualifier, G dependency and binary grouping."
+    },
+    {
+      "id": "pub-electronics-ti-hc151",
+      "title": "SN74HC151 — digital multiplexing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc151.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of digital multiplexing. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Digital multiplexer documentation."
+    }
+  ]
+}

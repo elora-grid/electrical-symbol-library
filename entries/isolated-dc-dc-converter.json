@@ -1,0 +1,106 @@
+{
+  "slug": "isolated-dc-dc-converter",
+  "name": "Isolated DC-to-DC converter",
+  "kind": "symbol",
+  "abbreviation": "DC/DC ISO",
+  "aliases": [
+    "galvanically isolated DC/DC converter",
+    "transformer-isolated DC converter",
+    "isolated DC/DC module"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A DC/DC converter with an internal high-frequency transformer that separates input and output galvanically.",
+  "description": [
+    "An isolated DC/DC converter uses a high-frequency transformer between its input and output stages, so the two DC systems have no conductive connection. Isolation lets the output be earthed differently from the input, for example a floating battery bus supplying an earthed control system, or keeps a fault on one side from reaching the other.",
+    "Drawings show the DC/DC box with a transformer mark or a pair of coupled coils inside, or a vertical double line across the box. The isolation voltage is a key rating and should be written beside it.",
+    "The symbol alone does not state the test voltage or whether the isolation is functional or reinforced for safety. Those properties decide whether the output can be treated as a separated circuit, so they must be read from the product data."
+  ],
+  "readingNotes": [
+    "A transformer mark inside the box shows isolation.",
+    "Read the isolation rating rather than assuming safety separation."
+  ],
+  "drawingChecklist": [
+    "State input and output voltages and isolation voltage.",
+    "Show earthing on each side.",
+    "Reference isolation class."
+  ],
+  "distinction": "An isolated converter separates input and output; a non-isolated buck or boost converter shares a common conductor.",
+  "facts": [
+    {
+      "label": "Isolation element",
+      "value": "High-frequency transformer"
+    },
+    {
+      "label": "Earthing",
+      "value": "Each side can be earthed independently"
+    },
+    {
+      "label": "Key rating",
+      "value": "Isolation test voltage"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-topologies",
+      "relevance": "Public power topology tutorials including isolated converters."
+    },
+    {
+      "sourceId": "pub-object-tdk-din",
+      "relevance": "Public DC power supply and converter family context."
+    }
+  ],
+  "related": [
+    "dc-to-dc-converter",
+    "bidirectional-dc-dc-converter",
+    "flyback-converter-topology",
+    "full-bridge-dc-converter-topology"
+  ],
+  "artwork": "s28-isolated-dc-dc-converter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-dc-dc-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/isolated-dc-dc-converter.svg",
+  "id": "isolated-dc-dc-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-dc-dc-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-dc-dc-converter.json",
+  "svgPath": "artwork/svg/isolated-dc-dc-converter.svg",
+  "referencePath": "references/isolated-dc-dc-converter.md",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-topologies",
+      "title": "Power topology selection and public topology tutorials",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/video/series/power-topology-selection.html",
+      "type": "manufacturer",
+      "scope": "Public tutorials identifying buck, boost, buck-boost, SEPIC, Cuk, Zeta, flyback, forward, push-pull and bridge conversion arrangements. Catalogue previews are conceptual topology/function blocks, not certified standard glyphs or complete power-stage schematics.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public power topology tutorials including isolated converters."
+    },
+    {
+      "id": "pub-object-tdk-din",
+      "title": "DIN-rail power supply, buffer, redundancy and UPS families",
+      "publisher": "TDK-Lambda",
+      "url": "https://www.emea.lambda.tdk.com/uk/products/din-rail",
+      "type": "manufacturer",
+      "scope": "Public functional classification of DIN-rail product families; exact model selection and technical values remain in the data sheet.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public DC power supply and converter family context."
+    }
+  ]
+}

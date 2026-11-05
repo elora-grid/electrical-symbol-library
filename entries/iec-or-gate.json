@@ -1,0 +1,106 @@
+{
+  "slug": "iec-or-gate",
+  "name": "IEC OR gate (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "≥1",
+  "aliases": [
+    "IEC 60617-12 OR element",
+    "rectangular OR gate",
+    "greater-or-equal-one gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC rectangular OR element labelled ≥1, meaning at least one active input is needed to activate the output.",
+  "description": [
+    "The ≥1 qualifier inside a rectangular outline identifies an OR function. The notation literally reads as at least one input active, which is why the same family of symbols uses ≥m for threshold functions in other contexts. Inputs are drawn on the left and the output on the right unless an arrow indicates otherwise.",
+    "On trip logic and permissive diagrams the ≥1 box often collects several fault signals into a single trip command. Because every input is equal, the drawing should label each incoming signal with its source tag so that a reader can trace which condition caused the output during testing.",
+    "The symbol does not state whether the inputs are latched, filtered or time-delayed. Any such behaviour must be shown by separate elements or by labels; the OR box itself is purely combinative."
+  ],
+  "readingNotes": [
+    "Trace each input back to its source tag; the box does not identify which input fired.",
+    "A circle at the output turns the element into a NOR function."
+  ],
+  "drawingChecklist": [
+    "Write ≥1 legibly; do not abbreviate to 1, which is the buffer qualifier.",
+    "Label each input signal with its source.",
+    "Show negation at inputs or output explicitly."
+  ],
+  "distinction": "A box marked 1 alone is a buffer or single-input element; ≥1 is required for the OR function.",
+  "facts": [
+    {
+      "label": "General qualifier",
+      "value": "≥1 (at least one input active)"
+    },
+    {
+      "label": "Typical use",
+      "value": "Collecting several trip or alarm conditions"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines ≥1 as the OR qualifier and explains why it was chosen."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc32",
+      "relevance": "Manufacturer OR gate documentation."
+    }
+  ],
+  "related": [
+    "logic-or-gate",
+    "iec-nor-gate",
+    "iec-and-gate"
+  ],
+  "artwork": "s28-iec-or-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular outline with the ≥1 general qualifying symbol",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-or-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-or-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-or-gate.svg",
+  "id": "iec-or-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-or-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-or-gate.json",
+  "svgPath": "artwork/svg/iec-or-gate.svg",
+  "referencePath": "references/iec-or-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines ≥1 as the OR qualifier and explains why it was chosen."
+    },
+    {
+      "id": "pub-electronics-ti-hc32",
+      "title": "SN74HC32 — OR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of or gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer OR gate documentation."
+    }
+  ]
+}

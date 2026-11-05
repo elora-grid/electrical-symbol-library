@@ -1,0 +1,106 @@
+{
+  "slug": "single-phase-synchronous-generator",
+  "name": "Single-phase synchronous generator",
+  "kind": "symbol",
+  "abbreviation": "G 1~",
+  "aliases": [
+    "single-phase alternator",
+    "1-phase generator",
+    "single-phase AC generator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A synchronous alternator delivering a single-phase output, common on small portable and standby generating sets.",
+  "description": [
+    "This symbol identifies a synchronous generator with a single-phase output, usually two terminals or a split winding giving 120/240 V. Small standby and portable sets, and some hybrid off-grid systems, use this type because their loads are single-phase.",
+    "The generator circle carries G with a single-phase AC mark. Where a centre-tapped or split winding is used, two output leads plus a neutral are drawn, and a bonding link between neutral and earth may be shown at the set or at the main switchboard.",
+    "The symbol does not tell you the voltage regulation method, whether the winding is reconnectable or where the neutral is bonded. Those are critical for safe earthing, so they need explicit notes on the drawing."
+  ],
+  "readingNotes": [
+    "Count output conductors to tell a plain two-wire output from a split-phase winding.",
+    "Locate the neutral-earth bond; it should exist in one place only."
+  ],
+  "drawingChecklist": [
+    "State voltage, frequency and kVA.",
+    "Show neutral bonding location.",
+    "Reference the transfer arrangement to the installation."
+  ],
+  "distinction": "A single-phase generator has one output phase; a three-phase synchronous generator has three phase outputs and often a star neutral.",
+  "facts": [
+    {
+      "label": "Output",
+      "value": "Single-phase AC"
+    },
+    {
+      "label": "Typical use",
+      "value": "Small standby and portable sets"
+    },
+    {
+      "label": "Earthing detail",
+      "value": "Neutral bond location must be shown"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public generator symbol family context."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for AC qualifiers; no reproduced artwork."
+    }
+  ],
+  "related": [
+    "three-phase-synchronous-generator",
+    "single-phase-ac-source",
+    "generator",
+    "manual-transfer-switch"
+  ],
+  "artwork": "s28-single-phase-synchronous-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/single-phase-synchronous-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/single-phase-synchronous-generator.svg",
+  "id": "single-phase-synchronous-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-phase-synchronous-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-phase-synchronous-generator.json",
+  "svgPath": "artwork/svg/single-phase-synchronous-generator.svg",
+  "referencePath": "references/single-phase-synchronous-generator.md",
+  "publicSources": [
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator symbol family context."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for AC qualifiers; no reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "iec-underground-cable",
+  "name": "Underground cable",
+  "kind": "symbol",
+  "abbreviation": "UGC",
+  "aliases": [
+    "buried cable",
+    "cable in ground",
+    "underground line"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A cable route marked as buried in the ground, distinguishing direct-buried or ducted sections from overhead lines.",
+  "description": [
+    "The underground cable form marks a circuit section that is buried, either directly in soil or in buried ducts. Network diagrams use it to separate cable sections from overhead sections, since cables have higher capacitance, lower reactance and are generally not suited to repeated auto-reclose onto a fault.",
+    "The mark does not show burial depth, duct arrangement, bedding or the thermal resistivity assumed for rating. Those appear on trench sections and the cable schedule. Joints along the route are separate symbols, and a reader should expect them on long sections even if the single-line diagram omits them."
+  ],
+  "readingNotes": [
+    "Check trench sections for depth and grouping with other cables.",
+    "Look for joint bay locations on long routes."
+  ],
+  "drawingChecklist": [
+    "Reference the cable type and route length.",
+    "Show joints and sealing ends at their locations.",
+    "Link to the trench or duct-bank section drawing."
+  ],
+  "distinction": "An underground cable is buried; a conductor in conduit may be above ground and carries different derating.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Cable line with ground hatch or buried marks below it"
+    },
+    {
+      "label": "Rating input",
+      "value": "Soil thermal resistivity and depth of burial"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for underground cable accessories."
+    }
+  ],
+  "related": [
+    "iec-overhead-line",
+    "iec-cable-straight-through-joint",
+    "ga-cable-duct-bank"
+  ],
+  "artwork": "s28-iec-underground-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Underground cable route form",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-underground-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-underground-cable.svg",
+  "id": "iec-underground-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-underground-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-underground-cable.json",
+  "svgPath": "artwork/svg/iec-underground-cable.svg",
+  "referencePath": "references/iec-underground-cable.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for underground cable accessories."
+    }
+  ]
+}

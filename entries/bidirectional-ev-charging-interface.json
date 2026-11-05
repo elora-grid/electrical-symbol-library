@@ -1,0 +1,87 @@
+{
+  "slug": "bidirectional-ev-charging-interface",
+  "name": "Bidirectional EV charging interface",
+  "kind": "symbol",
+  "abbreviation": "V2G",
+  "aliases": [
+    "Bidirectional EV charging interface",
+    "Bidirectional EV charging interface functional block",
+    "Bidirectional EV charging interface schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A bidirectional charging interface supports controlled energy transfer in both permitted directions.",
+  "description": [
+    "A bidirectional charging interface supports controlled energy transfer in both permitted directions.",
+    "A compatible installation can use vehicle energy to support another electrical system under its operating arrangement.",
+    "Use arrows in both permitted energy directions and identify the controller authorising each operating mode. The vehicle, charger and connected system must support the intended exchange. Keep the energy path separate from communication and operating permission so hardware capability is not mistaken for permission to export. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the intended charging and export modes.",
+    "Show the compatible vehicle and system-control interfaces.",
+    "Reference operating permissions and the complete selected equipment.",
+    "Bidirectional hardware does not by itself establish grid permission, compatibility or operating approval."
+  ],
+  "drawingChecklist": [
+    "Identify the intended charging and export modes.",
+    "Show the compatible vehicle and system-control interfaces.",
+    "Reference operating permissions and the complete selected equipment."
+  ],
+  "distinction": "Bidirectional hardware does not by itself establish grid permission, compatibility or operating approval.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Vehicle energy interface"
+    },
+    {
+      "label": "Concept output",
+      "value": "Permitted connected-system mode"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-evdc",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "dc-to-ac-inverter",
+    "dc-ev-charging-station",
+    "ev-charger-power-module",
+    "ev-charging-energy-meter"
+  ],
+  "artwork": "expanded-bidirectional-ev-charging-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bidirectional-ev-charging-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bidirectional-ev-charging-interface.svg",
+  "id": "bidirectional-ev-charging-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bidirectional-ev-charging-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bidirectional-ev-charging-interface.json",
+  "svgPath": "artwork/svg/bidirectional-ev-charging-interface.svg",
+  "referencePath": "references/bidirectional-ev-charging-interface.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-evdc",
+      "title": "DC fast charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/dc-fast-charging-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "altech-psc-rm20",
+  "name": "Altech PSC-RM20 redundancy module",
+  "kind": "object",
+  "abbreviation": "PSC RM20",
+  "aliases": [
+    "PSC_RM20",
+    "PSC-RM20",
+    "PSC_RM20 GA",
+    "PSC_RM20 general arrangement"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "DIN-rail redundancy-module reference for coordinating multiple DC supply paths.",
+  "description": [
+    "Place the module where supply inputs and the combined load output can be identified and maintained. Draw the supply connections in the schematic, not as assumed links in the GA.",
+    "The downloadable GA illustration is independently authored conceptual geometry, with no scale or manufacturer dimensions. Use the official CAD source for the exact layout.",
+    "Altech originals remain at the manufacturer source because their drawing notices restrict reproduction. Product lifecycle and availability have not been established."
+  ],
+  "readingNotes": [
+    "Reserve access to all power terminals and keep each incoming supply labelled.",
+    "A redundancy module is not a battery backup module and does not by itself guarantee uninterrupted power."
+  ],
+  "drawingChecklist": [
+    "Confirm PSC-RM20 identity.",
+    "Separate and label source and load cable routes.",
+    "Verify ratings, wiring and lifecycle in manufacturer documentation."
+  ],
+  "distinction": "A redundancy module is not a battery backup module and does not by itself guarantee uninterrupted power.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Altech"
+    },
+    {
+      "label": "Model / housing family",
+      "value": "PSC_RM20"
+    },
+    {
+      "label": "CAD selection",
+      "value": "PSC-RM20"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual GA; unitless, not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-expansion-altech-psc-rm20",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ],
+  "related": [
+    "ga-din-rail-ac-dc-power-supply",
+    "ga-dc-ups-module"
+  ],
+  "artwork": "edu-object-altech-psc-rm20",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/altech-psc-rm20",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/altech-psc-rm20",
+  "id": "altech-psc-rm20",
+  "canonicalUrl": "https://eloragrid.ai/objects/altech-psc-rm20",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/altech-psc-rm20.json",
+  "referencePath": "references/altech-psc-rm20.md",
+  "publicSources": [
+    {
+      "id": "ga-expansion-altech-psc-rm20",
+      "title": "Altech PSC-RM20 redundancy module official drawing source",
+      "publisher": "Altech",
+      "url": "https://legacy.altechcorp.com/CAD/1MasterSheet/WebsiteUSE/HTMLWebpages/PowerSupplyMasterSheet.htm",
+      "type": "manufacturer",
+      "scope": "Model identity and mechanical CAD selection. No reproduction of manufacturer graphics.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ]
+}

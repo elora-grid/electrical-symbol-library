@@ -1,0 +1,119 @@
+{
+  "slug": "iec-cctv-camera-plan-symbol",
+  "name": "CCTV camera plan symbol",
+  "kind": "symbol",
+  "abbreviation": "CAM",
+  "aliases": [
+    "security camera symbol",
+    "video surveillance camera",
+    "fixed camera plan mark"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a CCTV camera, drawn as a camera body with a lens and an optional field-of-view cone.",
+  "description": [
+    "CCTV cameras are drawn as a small rectangle with a lens shape or a triangle, at their mounting position, often with a field-of-view cone. Fixed, dome and pan-tilt-zoom types are distinguished by letters or small changes in the shape.",
+    "Network cameras are commonly powered by PoE, so the plan symbol is linked to a data outlet and the network switch. The installer needs the mounting height and the target scene to aim the camera.",
+    "The cone is indicative. Resolution at the target distance is the real performance criterion and is not shown by the symbol."
+  ],
+  "readingNotes": [
+    "Check field of view against the area to be covered.",
+    "Find the data outlet and PoE source."
+  ],
+  "drawingChecklist": [
+    "State camera type.",
+    "Show field of view.",
+    "Tag network connection."
+  ],
+  "distinction": "An intruder motion detector senses presence; a camera records and transmits images.",
+  "facts": [
+    {
+      "label": "Power",
+      "value": "Often PoE from a network switch"
+    },
+    {
+      "label": "Key check",
+      "value": "Field of view and resolution"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "s28-westermo-poe-switches",
+      "relevance": "Public product family page describing Ethernet switches that power field devices over the data cable."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-intruder-motion-detector",
+    "iec-network-switch-plan-symbol",
+    "poe-powered-device-interface"
+  ],
+  "artwork": "s28-iec-cctv-camera-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Video camera",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-cctv-camera-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-cctv-camera-plan-symbol.svg",
+  "id": "iec-cctv-camera-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-cctv-camera-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-cctv-camera-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-cctv-camera-plan-symbol.svg",
+  "referencePath": "references/iec-cctv-camera-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "s28-westermo-poe-switches",
+      "title": "Industrial PoE Ethernet switches",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/ethernet-switches/poe",
+      "type": "manufacturer",
+      "scope": "Public product family page for Ethernet switches that supply Power over Ethernet to field devices.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing Ethernet switches that power field devices over the data cable."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

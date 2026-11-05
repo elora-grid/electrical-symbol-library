@@ -1,0 +1,87 @@
+{
+  "slug": "photovoltaic-string",
+  "name": "Photovoltaic string",
+  "kind": "symbol",
+  "abbreviation": "PV STR",
+  "aliases": [
+    "Photovoltaic string",
+    "Photovoltaic string functional block",
+    "Photovoltaic string schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A photovoltaic string is a defined series-connected group of modules.",
+  "description": [
+    "A photovoltaic string is a defined series-connected group of modules.",
+    "A solar drawing can identify each string before it reaches a combiner or inverter input.",
+    "Identify the modules connected in series and label the string’s ends. A string is a connection arrangement, not a particular module product. The module choice and number in series determine the conditions that must be checked against the connected equipment and installation requirements. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "State module type and number in series.",
+    "Identify the string’s positive and negative connections.",
+    "Cross-reference the selected combiner, isolation and receiving equipment.",
+    "The number and type of modules determine string conditions; the label alone does not."
+  ],
+  "drawingChecklist": [
+    "State module type and number in series.",
+    "Identify the string’s positive and negative connections.",
+    "Cross-reference the selected combiner, isolation and receiving equipment."
+  ],
+  "distinction": "The number and type of modules determine string conditions; the label alone does not.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Specified module sequence"
+    },
+    {
+      "label": "Concept output",
+      "value": "String DC terminals"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pv",
+      "relevance": "Solar electrical system architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "photovoltaic-generator",
+    "photovoltaic-module",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-photovoltaic-string",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-string",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/photovoltaic-string.svg",
+  "id": "photovoltaic-string",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-string",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-string.json",
+  "svgPath": "artwork/svg/photovoltaic-string.svg",
+  "referencePath": "references/photovoltaic-string.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pv",
+      "title": "Solar electrical system architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/industrial/energy-infrastructure/solar-energy/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Solar electrical system architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

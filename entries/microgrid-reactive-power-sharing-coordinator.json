@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-reactive-power-sharing-coordinator",
+  "name": "Microgrid reactive-power sharing coordinator",
+  "kind": "symbol",
+  "abbreviation": "MRSC",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Resource reactive measurements",
+    "Reactive sharing requests"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Coordinates the assigned reactive contributions of compatible parallel resources.",
+  "description": [
+    "Coordinates the assigned reactive contributions of compatible parallel resources. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Resource reactive measurements” at the input and “Reactive sharing requests” at the output. Capability limits differ between resources.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Resource reactive measurements. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Reactive sharing requests. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Capability limits differ between resources.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for resource reactive measurements.",
+    "Identify the destination and defined state of reactive sharing requests.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Capability limits differ between resources."
+  ],
+  "distinction": "Capability limits differ between resources. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Resource reactive measurements"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Reactive sharing requests"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-inverter-reactive-capability-limiter"
+  ],
+  "artwork": "pi26-microgrid-reactive-power-sharing-coordinator",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Resource reactive measurements",
+    "output": "Reactive sharing requests"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-reactive-power-sharing-coordinator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-reactive-power-sharing-coordinator.svg",
+  "id": "microgrid-reactive-power-sharing-coordinator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-reactive-power-sharing-coordinator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-reactive-power-sharing-coordinator.json",
+  "svgPath": "artwork/svg/microgrid-reactive-power-sharing-coordinator.svg",
+  "referencePath": "references/microgrid-reactive-power-sharing-coordinator.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

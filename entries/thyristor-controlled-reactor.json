@@ -1,0 +1,106 @@
+{
+  "slug": "thyristor-controlled-reactor",
+  "name": "Thyristor-controlled reactor",
+  "kind": "symbol",
+  "abbreviation": "TCR",
+  "aliases": [
+    "TCR",
+    "phase-controlled reactor",
+    "thyristor-controlled inductor"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A shunt reactor in series with anti-parallel thyristors whose firing angle sets the reactive power absorbed.",
+  "description": [
+    "A thyristor-controlled reactor is an air-core reactor in series with a pair of anti-parallel thyristor valves. Delaying the firing angle reduces the current conduction period, so the reactor absorbs a continuously adjustable amount of reactive power from zero to its full rating.",
+    "Drawings show the reactor symbol with the thyristor pair below it, usually in a delta connection with the reactor split into two halves on either side of the valve. It is the inductive branch of a static var compensator and also appears in some arc furnace compensation schemes.",
+    "Partial conduction generates harmonic currents, mainly odd orders, so the TCR is almost always accompanied by filters. The symbol does not show the filter arrangement or the valve cooling, which is a significant part of the installation."
+  ],
+  "readingNotes": [
+    "The reactor is often drawn in two halves with the valve between them.",
+    "Delta connection cancels triplen harmonics under balanced conditions."
+  ],
+  "drawingChecklist": [
+    "State reactor rating and firing range.",
+    "Show valve and connection.",
+    "Reference associated filters."
+  ],
+  "distinction": "A TCR varies its absorption continuously; a thyristor-switched reactor is only fully on or fully off.",
+  "facts": [
+    {
+      "label": "Control",
+      "value": "Firing angle"
+    },
+    {
+      "label": "Output",
+      "value": "Variable inductive Mvar"
+    },
+    {
+      "label": "Harmonics",
+      "value": "Generated during partial conduction"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-svc",
+      "relevance": "Public SVC page naming the thyristor-controlled reactor branch."
+    },
+    {
+      "sourceId": "pub-symbol-reactors",
+      "relevance": "Public reactor symbol family context."
+    }
+  ],
+  "related": [
+    "static-var-compensator",
+    "thyristor-switched-capacitor",
+    "reactor",
+    "silicon-controlled-rectifier"
+  ],
+  "artwork": "s28-thyristor-controlled-reactor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/thyristor-controlled-reactor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/thyristor-controlled-reactor.svg",
+  "id": "thyristor-controlled-reactor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/thyristor-controlled-reactor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/thyristor-controlled-reactor.json",
+  "svgPath": "artwork/svg/thyristor-controlled-reactor.svg",
+  "referencePath": "references/thyristor-controlled-reactor.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-svc",
+      "title": "Static Var Compensators (SVC)",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/facts/static-var-compensation-svc",
+      "type": "manufacturer",
+      "scope": "Public SVC description naming thyristor-controlled reactor, thyristor-switched capacitor and harmonic filter branches.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public SVC page naming the thyristor-controlled reactor branch."
+    },
+    {
+      "id": "pub-symbol-reactors",
+      "title": "AutoCAD Electrical: Reactors and inductors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BAD50DBF-0951-44A0-BB4C-A57B4A4ED895.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public reactor symbol family context."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "oil-interrupter-breaker-reference",
+  "name": "Oil-interrupter breaker reference",
+  "kind": "symbol",
+  "abbreviation": "OBR",
+  "aliases": [
+    "Switching-device operating references",
+    "switchgear Switching-device operating references",
+    "switchgear",
+    "Switchgear",
+    "Power path and release mechanism",
+    "Interrupted oil-breaker path"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies a documented oil-interruption application when interpreting legacy power drawings.",
+  "description": [
+    "Identifies a documented oil-interruption application when interpreting legacy power drawings. A switching-device operating reference adds the specific mechanism or duty context needed to interpret its place in a power circuit. The same basic switching outline can serve different equipment constructions, so the added description must remain attached to its device tag.",
+    "In a medium-voltage switchgear drawing, the operating reference helps the reader distinguish the interrupting device from its isolation, earthing and auxiliary-control interfaces. For this reference, the drawing identifies “Power path and release mechanism” at the input and “Interrupted oil-breaker path” at the output. Oil construction must come from equipment records.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Power path and release mechanism. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Interrupted oil-breaker path. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Oil construction must come from equipment records.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for power path and release mechanism.",
+    "Identify the destination and defined state of interrupted oil-breaker path.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Oil construction must come from equipment records."
+  ],
+  "distinction": "Oil construction must come from equipment records. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Power path and release mechanism"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Interrupted oil-breaker path"
+    },
+    {
+      "label": "Lookup label",
+      "value": "OBR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-breaker-products",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "disconnector",
+    "single-pole-operating-mechanism-reference"
+  ],
+  "artwork": "pi26-oil-interrupter-breaker-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "device-functions",
+    "input": "Power path and release mechanism",
+    "output": "Interrupted oil-breaker path"
+  },
+  "url": "https://eloragrid.ai/symbols/oil-interrupter-breaker-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/oil-interrupter-breaker-reference.svg",
+  "id": "oil-interrupter-breaker-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/oil-interrupter-breaker-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/oil-interrupter-breaker-reference.json",
+  "svgPath": "artwork/svg/oil-interrupter-breaker-reference.svg",
+  "referencePath": "references/oil-interrupter-breaker-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-breaker-products",
+      "publisher": "Siemens Energy",
+      "title": "High-voltage circuit breakers",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/circuit-breakers.html",
+      "scope": "Circuit-breaker construction and interruption families.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

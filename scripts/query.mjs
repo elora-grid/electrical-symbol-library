@@ -13,8 +13,8 @@ export function search(query, { kind, convention, limit = 10 } = {}) {
       const fields = [e.name, e.abbreviation, e.slug, ...e.aliases].map(s => s.toLowerCase());
       const text = [...fields, e.summary.toLowerCase(), e.category].join(" ");
       if (!terms.every(t => text.includes(t))) return null;
-      return { entry: e, score: (fields.includes(normalized) ? 100 : 0) + (e.name.toLowerCase().includes(normalized) ? 10 : 0) + (e.abbreviation.toLowerCase()===normalized ? 20 : 0) + (!family&&!e.symbolVariant ? 3 : 0) };
-    }).filter(Boolean).sort((a,b) => b.score-a.score || a.entry.name.localeCompare(b.entry.name)).slice(0, limit).map(m => m.entry);
+      return { entry: e, score: (fields.includes(normalized) ? 100 : 0) + (e.abbreviation.toLowerCase()!==normalized&&e.name.toLowerCase().includes(normalized) ? 10 : 0) + (e.abbreviation.toLowerCase()===normalized ? 20 : 0) + (!family&&!e.symbolVariant ? 3 : 0) };
+    }).filter(Boolean).sort((a,b) => b.score-a.score || a.entry.name.length-b.entry.name.length || a.entry.name.localeCompare(b.entry.name)).slice(0, limit).map(m => m.entry);
 }
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   try {

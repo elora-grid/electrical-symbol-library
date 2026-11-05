@@ -1,0 +1,105 @@
+{
+  "slug": "iec-summing-amplifier",
+  "name": "IEC summing amplifier element (Σ)",
+  "kind": "symbol",
+  "abbreviation": "Σ",
+  "aliases": [
+    "analogue adder",
+    "summing element",
+    "summer"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Analogue element with Σ and several inputs, producing an output proportional to the weighted sum of the inputs.",
+  "description": [
+    "A summing amplifier adds several analogue inputs, each with its own weighting. In IEC-style analogue element diagrams it is drawn as a rectangle with an amplifier mark and the Σ function, with weighting factors written next to each input. The usual circuit realisation is an inverting op-amp with one input resistor per signal.",
+    "Summers appear in control loops for combining set-point and feedforward signals, in audio-style mixing of measurements, and in analogue computation. The weighting factors and the sign of the output must be stated because an inverting realisation reverses polarity.",
+    "The element does not show the resistor network that sets the weights. For a construction schematic, the op-amp circuit with values should be drawn or referenced."
+  ],
+  "readingNotes": [
+    "Weighting factors are written beside the inputs.",
+    "An inverting realisation gives a negative sum unless followed by an inverter."
+  ],
+  "drawingChecklist": [
+    "State each input weight.",
+    "State output sign.",
+    "Reference the implementing op-amp circuit."
+  ],
+  "distinction": "The digital Σ adder adds binary words; the analogue summing element adds voltages or currents.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Weighted sum of inputs"
+    },
+    {
+      "label": "Typical realisation",
+      "value": "Inverting op-amp with one resistor per input"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "sourceId": "pub-electronics-adi-opamp-tutorials",
+      "relevance": "Public tutorial material on op-amp configurations including summing circuits."
+    }
+  ],
+  "related": [
+    "iec-operational-amplifier",
+    "inverting-amplifier-circuit",
+    "iec-integrator"
+  ],
+  "artwork": "s28-iec-summing-amplifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular analogue element with Σ function and several weighted inputs",
+    "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-summing-amplifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-summing-amplifier.svg",
+  "id": "iec-summing-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-summing-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-summing-amplifier.json",
+  "svgPath": "artwork/svg/iec-summing-amplifier.svg",
+  "referencePath": "references/iec-summing-amplifier.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "id": "pub-electronics-adi-opamp-tutorials",
+      "title": "University tutorials: amplifier configurations and signal processing",
+      "publisher": "Analog Devices",
+      "url": "https://wiki.analog.com/university/courses/tutorials/index",
+      "type": "manufacturer",
+      "scope": "Public tutorial index including inverting amplifier, rectification and related analogue function references. Detailed product design must use the underlying selected circuit documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public tutorial material on op-amp configurations including summing circuits."
+    }
+  ]
+}

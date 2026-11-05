@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-voltage-support-reserve-indication",
+  "name": "Microgrid voltage-support reserve indication",
+  "kind": "symbol",
+  "abbreviation": "MVRI",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Resource reactive capability and output",
+    "Voltage-support headroom"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the declared remaining resource capability for assigned voltage-support action.",
+  "description": [
+    "Identifies the declared remaining resource capability for assigned voltage-support action. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Resource reactive capability and output” at the input and “Voltage-support headroom” at the output. Headroom is not guaranteed disturbance performance.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Resource reactive capability and output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Voltage-support headroom. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Headroom is not guaranteed disturbance performance.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for resource reactive capability and output.",
+    "Identify the destination and defined state of voltage-support headroom.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Headroom is not guaranteed disturbance performance."
+  ],
+  "distinction": "Headroom is not guaranteed disturbance performance. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Resource reactive capability and output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Voltage-support headroom"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MVRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-capacitor-step-coordination-request"
+  ],
+  "artwork": "pi26-microgrid-voltage-support-reserve-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Resource reactive capability and output",
+    "output": "Voltage-support headroom"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-voltage-support-reserve-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-voltage-support-reserve-indication.svg",
+  "id": "microgrid-voltage-support-reserve-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-voltage-support-reserve-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-voltage-support-reserve-indication.json",
+  "svgPath": "artwork/svg/microgrid-voltage-support-reserve-indication.svg",
+  "referencePath": "references/microgrid-voltage-support-reserve-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

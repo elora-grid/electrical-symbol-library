@@ -1,0 +1,100 @@
+{
+  "slug": "maximum-voltage-relay",
+  "name": "Maximum-voltage measuring relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "maximum voltage protection",
+    "overvoltage measuring relay",
+    "HCR1F36"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring relay that operates when the monitored voltage rises above its set level.",
+  "description": [
+    "The maximum-voltage relay form operates when voltage exceeds its setting. Typical uses include generator overvoltage after load rejection, capacitor bank protection and inverter connection points, where sustained high voltage can stress insulation or breach grid connection limits.",
+    "The box shows a greater-than voltage threshold but not whether the element uses phase-to-phase or phase-to-neutral quantities, the reset ratio or the time delay. Grid-connection settings are usually specified as several stages with different delays, which this single symbol does not reveal."
+  ],
+  "readingNotes": [
+    "Identify the voltage connection used by the element.",
+    "Check for multiple stages in the settings record."
+  ],
+  "drawingChecklist": [
+    "State threshold and delay",
+    "Show VT connection",
+    "Reference stage settings"
+  ],
+  "distinction": "A maximum-voltage relay responds to high voltage magnitude; a residual voltage relay responds to neutral displacement.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Voltage above a set level"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F36 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-voltage-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Maximum Voltage Protection block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "minimum-voltage-relay",
+    "59-overvoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-maximum-voltage-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/maximum-voltage-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/maximum-voltage-relay.svg",
+  "id": "maximum-voltage-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/maximum-voltage-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/maximum-voltage-relay.json",
+  "svgPath": "artwork/svg/maximum-voltage-relay.svg",
+  "referencePath": "references/maximum-voltage-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-voltage-relays",
+      "title": "AutoCAD Electrical: Voltage monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5296749E-9336-4B07-9956-160963D6C848.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Maximum Voltage Protection block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

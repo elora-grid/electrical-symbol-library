@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-duplex-receptacle-outlet",
+  "name": "ANSI duplex receptacle outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "DR",
+  "aliases": [
+    "duplex convenience outlet",
+    "duplex receptacle plan symbol",
+    "two-plex outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US-style plan symbol for the standard duplex receptacle: a wall-mounted circle crossed by two parallel lines.",
+  "description": [
+    "The duplex receptacle is the default convenience outlet in US buildings and is drawn as a circle against the wall with two parallel lines through it. Because it is the most common device on a power plan, legends then modify it with letters for special types rather than inventing new shapes.",
+    "Designers use the symbol to show spacing along walls, counter receptacles and circuit groupings. Circuit numbers are written beside the symbol with home-run arrows back to the panel, and mounting heights other than standard are noted with a subscript.",
+    "The symbol does not show whether one half is switch-controlled, whether the receptacle is GFCI or AFCI protected, or its NEMA configuration. Those are added by letters or notes."
+  ],
+  "readingNotes": [
+    "Two lines through the circle mean duplex; one line means single.",
+    "Follow the home-run arrow and circuit number to the panel schedule."
+  ],
+  "drawingChecklist": [
+    "Tag panel and circuit.",
+    "Note any split-wired or switched half.",
+    "Add GFCI, WP or USB qualifiers where required."
+  ],
+  "distinction": "The IEC duplex receptacle form shows two outlet shapes; the US plan form uses one circle with two lines.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Circle with two parallel through-lines"
+    },
+    {
+      "label": "Typical rating",
+      "value": "15 A or 20 A, 125 V convenience outlet"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-receptacles",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ],
+  "related": [
+    "iec-duplex-power-receptacle",
+    "ansi-single-receptacle-outlet",
+    "ansi-gfci-duplex-receptacle"
+  ],
+  "artwork": "s28-ansi-duplex-receptacle-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Duplex receptacle plan symbol",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic.",
+    "counterpart": "iec-duplex-power-receptacle"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-duplex-receptacle-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-duplex-receptacle-outlet.svg",
+  "id": "ansi-duplex-receptacle-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-duplex-receptacle-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-duplex-receptacle-outlet.json",
+  "svgPath": "artwork/svg/ansi-duplex-receptacle-outlet.svg",
+  "referencePath": "references/ansi-duplex-receptacle-outlet.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-receptacles",
+      "title": "Autodesk IEC-60617 preview: Single and duplex power-receptacle forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7DAEDB03-74FC-47A2-9C50-9164297AA5A3.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    }
+  ]
+}

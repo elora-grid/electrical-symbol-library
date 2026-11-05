@@ -1,0 +1,105 @@
+{
+  "slug": "pv-central-inverter",
+  "name": "PV central inverter",
+  "kind": "symbol",
+  "abbreviation": "INV CTR",
+  "aliases": [
+    "central inverter",
+    "utility-scale PV inverter",
+    "inverter station"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A large solar inverter fed from DC combiner boxes, usually paired with its own medium-voltage transformer.",
+  "description": [
+    "A central inverter converts the combined output of many PV strings at a single location. Strings are first paralleled in DC combiner boxes, which feed DC recombiners and then the inverter. Ratings run from several hundred kilowatts to several megawatts, and the inverter usually sits in a skid with a medium-voltage step-up transformer and switchgear.",
+    "Single-line diagrams show the DC combiner network converging on one inverter block, the inverter output to a low-voltage winding of the skid transformer, and the medium-voltage ring main unit. Dual inverters sharing one three-winding transformer are also common.",
+    "A central inverter fault takes a large part of the plant offline, and the DC cabling distances are long. The symbol does not show DC earthing arrangement or insulation monitoring, which differ between plants and must be stated separately."
+  ],
+  "readingNotes": [
+    "Trace DC combiner and recombiner levels back to the strings.",
+    "Check whether two inverters share one transformer."
+  ],
+  "drawingChecklist": [
+    "State inverter rating and DC voltage range.",
+    "Show combiner hierarchy and skid transformer.",
+    "Reference DC earthing and insulation monitoring."
+  ],
+  "distinction": "A central inverter collects many combined strings; a string inverter connects a few strings directly.",
+  "facts": [
+    {
+      "label": "DC inputs",
+      "value": "From combiner boxes"
+    },
+    {
+      "label": "Typical rating",
+      "value": "Hundreds of kW to several MW"
+    },
+    {
+      "label": "Packaging",
+      "value": "Skid with MV transformer"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pv-inverter",
+      "relevance": "Public photovoltaic inverter function context."
+    },
+    {
+      "sourceId": "expansion-20261027-pvcombiner",
+      "relevance": "Public solar string combiner function context."
+    }
+  ],
+  "related": [
+    "photovoltaic-string-combiner",
+    "pv-string-inverter",
+    "photovoltaic-inverter",
+    "ga-pv-inverter-cabinet"
+  ],
+  "artwork": "s28-pv-central-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pv-central-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/pv-central-inverter.svg",
+  "id": "pv-central-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pv-central-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pv-central-inverter.json",
+  "svgPath": "artwork/svg/pv-central-inverter.svg",
+  "referencePath": "references/pv-central-inverter.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pv-inverter",
+      "title": "Photovoltaic technology and inverter functions",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_background%2C_technology",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public photovoltaic inverter function context."
+    },
+    {
+      "id": "expansion-20261027-pvcombiner",
+      "title": "Solar string combiner functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/smart-combiner-box",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Public solar string combiner function context."
+    }
+  ]
+}

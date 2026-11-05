@@ -1,0 +1,94 @@
+{
+  "slug": "iec-selector-switch-contact-2-position-normally-open-with-lamp",
+  "name": "IEC selector-switch contact: 2 position normally open with lamp",
+  "kind": "symbol",
+  "abbreviation": "SS",
+  "aliases": [
+    "HSW11S77",
+    "VSW11S77",
+    "selector-switch contact 2 Position Normally Open with Lamp"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Selector-switch contact form: 2 Position Normally Open with Lamp.",
+  "description": [
+    "A rotary selector has discrete handle positions and one or more contact blocks driven by its mechanism. A contact shown as normally open or normally closed describes the stated reference position; it does not give the whole switching table across the remaining positions. This entry identifies the 2 position normally open with lamp form in the publisher's IEC-context family.",
+    "For a local/off/remote selector, prepare a contact-versus-position chart alongside the schematic. The chart tells the installer which input is active at each handle setting, while spring-return, maintained and key-operated marks explain how the operator reaches or leaves that setting. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "A vendor neutral-position number must be read with that vendor form and the project legend. It does not automatically establish a key-removal position, a contact overlap or an off state. Those details need their own table or equipment reference."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "A vendor neutral-position number must be read with that vendor form and the project legend. It does not automatically establish a key-removal position, a contact overlap or an off state. Those details need their own table or equipment reference."
+  ],
+  "drawingChecklist": [
+    "Label every handle position and preserve its reference orientation.",
+    "Cross-reference a contact-versus-position chart.",
+    "State maintained positions, return directions and any key-removal conditions."
+  ],
+  "distinction": "This entry adds the 2 position normally open with lamp detail to the broader selector-switch contact family. A vendor neutral-position number must be read with that vendor form and the project legend. It does not automatically establish a key-removal position, a contact overlap or an off state. Those details need their own table or equipment reference.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "2 Position Normally Open with Lamp"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HSW11S77 / VSW11S77. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "selector-switch contact"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-selectors",
+      "relevance": "Public Selector Switches table explicitly lists HSW11S77 / VSW11S77 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "three-position-maintained-selector",
+    "three-position-centre-return-selector"
+  ],
+  "artwork": "s28-iec-selector-switch-contact-2-position-normally-open-with-lamp",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "2 Position Normally Open with Lamp",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Selector Switches, HSW11S77 / VSW11S77. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-selector-switch-contact-2-position-normally-open-with-lamp",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-selector-switch-contact-2-position-normally-open-with-lamp.svg",
+  "id": "iec-selector-switch-contact-2-position-normally-open-with-lamp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-selector-switch-contact-2-position-normally-open-with-lamp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-selector-switch-contact-2-position-normally-open-with-lamp.json",
+  "svgPath": "artwork/svg/iec-selector-switch-contact-2-position-normally-open-with-lamp.svg",
+  "referencePath": "references/iec-selector-switch-contact-2-position-normally-open-with-lamp.md",
+  "publicSources": [
+    {
+      "id": "autodesk-selectors",
+      "title": "Selector-switch contact and operating variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E1B4D1DE-C709-4E3E-AF7C-1A8989D096E9.htm",
+      "type": "cad-reference",
+      "scope": "Maintained and returning selector-switch positions and associated contacts.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Selector Switches table explicitly lists HSW11S77 / VSW11S77 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-audible-siren",
+  "name": "ANSI/IEEE Audible siren form",
+  "kind": "symbol",
+  "abbreviation": "HAN1S",
+  "aliases": [
+    "HAN1S",
+    "VAN1S",
+    "IEEE Siren",
+    "ANSI Audible siren"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of audible siren: a siren indication identifies an audible alarm output with the documented operating role.",
+  "description": [
+    "This reference locates audible siren in Autodesk's IEEE-oriented miscellaneous family. A siren indication identifies an audible alarm output with the documented operating role. The public library uses HAN1S for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "State the alarm condition and the controlling circuit. The symbol alone does not prescribe tone pattern or evacuation meaning. State the alarm condition and the controlling circuit. The symbol alone does not prescribe tone pattern or evacuation meaning. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the alarm condition and the controlling circuit.",
+    "The symbol alone does not prescribe tone pattern or evacuation meaning."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the alarm condition and the controlling circuit.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The symbol alone does not prescribe tone pattern or evacuation meaning.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous; published form: Siren."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HAN1S. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State the alarm condition and the controlling circuit."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Public IEEE-oriented Miscellaneous table explicitly lists HAN1S as Siren. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-audible-siren",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-audible-siren",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Siren",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous, block HAN1S. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-audible-siren"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-audible-siren",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-audible-siren.svg",
+  "id": "ansi-audible-siren",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-audible-siren",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-audible-siren.json",
+  "svgPath": "artwork/svg/ansi-audible-siren.svg",
+  "referencePath": "references/ansi-audible-siren.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous table explicitly lists HAN1S as Siren. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

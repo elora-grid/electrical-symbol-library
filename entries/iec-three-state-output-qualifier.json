@@ -1,0 +1,90 @@
+{
+  "slug": "iec-three-state-output-qualifier",
+  "name": "IEC three-state output qualifier",
+  "kind": "symbol",
+  "abbreviation": "3S",
+  "aliases": [
+    "three-state triangle",
+    "tri-state output mark",
+    "high-impedance output qualifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Downward triangle inside an outline marking an output that can enter a high-impedance state.",
+  "description": [
+    "The three-state qualifier is a small triangle pointing downwards, drawn inside the outline next to the output. It says the output has a third, high-impedance state in addition to high and low. The output is controlled by an EN input or by EN dependency.",
+    "Wherever this qualifier appears, the reader should find the controlling EN input and confirm that only one driver on the net can be enabled at once. On bus diagrams the qualifier is often shown on only the first element of an array to reduce clutter.",
+    "The qualifier does not indicate bus hold or default level when all drivers are off. A floating bus needs pull resistors or bus-keeper circuitry shown separately."
+  ],
+  "readingNotes": [
+    "Find the EN input or EN dependency label that controls the output.",
+    "In arrays, the qualifier may appear only on the first element."
+  ],
+  "drawingChecklist": [
+    "Place the triangle inside the outline next to the output.",
+    "Show the enable source.",
+    "Show bus defaulting components where needed."
+  ],
+  "distinction": "The open-circuit diamond indicates a stage that is off in one level, not a controlled high-impedance state.",
+  "facts": [
+    {
+      "label": "States",
+      "value": "High, low and high impedance"
+    },
+    {
+      "label": "Controlled by",
+      "value": "EN input or EN dependency"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines the three-state output qualifier and EN effects."
+    }
+  ],
+  "related": [
+    "iec-three-state-buffer",
+    "iec-enable-input",
+    "logic-three-state-buffer"
+  ],
+  "artwork": "s28-iec-three-state-output-qualifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Small downward-pointing triangle inside the outline at the output",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-three-state-output-qualifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-three-state-output-qualifier.svg",
+  "id": "iec-three-state-output-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-state-output-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-three-state-output-qualifier.json",
+  "svgPath": "artwork/svg/iec-three-state-output-qualifier.svg",
+  "referencePath": "references/iec-three-state-output-qualifier.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines the three-state output qualifier and EN effects."
+    }
+  ]
+}

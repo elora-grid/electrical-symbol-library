@@ -1,0 +1,103 @@
+{
+  "slug": "iec-duct-smoke-detector-plan-symbol",
+  "name": "Duct smoke detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "DSD",
+  "aliases": [
+    "duct detector",
+    "air duct smoke detector",
+    "duct sampling detector"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a smoke detector sampling air from a ventilation duct, drawn on the duct with sampling tube.",
+  "description": [
+    "Duct smoke detectors sample air flowing in a ventilation duct through a sampling tube, so smoke can be detected and air handling shut down or dampers closed. Plans draw the detector housing on the duct with a line across the duct for the sampling tube.",
+    "They are coordinated with mechanical drawings and with the fire alarm cause and effect, since their main job is usually plant control. A remote indicator is often required where the detector is in a ceiling void.",
+    "The symbol does not prove the detector provides room protection. Duct detectors are not a substitute for area detection."
+  ],
+  "readingNotes": [
+    "Check the duct and airflow direction on mechanical drawings.",
+    "Look for a remote indicator."
+  ],
+  "drawingChecklist": [
+    "Show duct location.",
+    "Define plant shutdown action.",
+    "Provide remote indicator."
+  ],
+  "distinction": "A room smoke detector protects a space; a duct detector monitors air in a duct for plant control.",
+  "facts": [
+    {
+      "label": "Primary purpose",
+      "value": "Shut down air handling or close dampers"
+    },
+    {
+      "label": "Companion",
+      "value": "Remote indicator"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "iec-smoke-detector-plan-symbol",
+    "ga-combined-fire-smoke-damper"
+  ],
+  "artwork": "s28-iec-duct-smoke-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Duct smoke detector",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-duct-smoke-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-duct-smoke-detector-plan-symbol.svg",
+  "id": "iec-duct-smoke-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-duct-smoke-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-duct-smoke-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-duct-smoke-detector-plan-symbol.svg",
+  "referencePath": "references/iec-duct-smoke-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

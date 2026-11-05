@@ -1,0 +1,90 @@
+{
+  "slug": "iec-negate-dependency-n",
+  "name": "IEC negate dependency (N)",
+  "kind": "symbol",
+  "abbreviation": "Nm",
+  "aliases": [
+    "N dependency",
+    "negate (exclusive-OR) dependency",
+    "Nm affecting input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency label Nm: when the N input is active, affected terminals are complemented.",
+  "description": [
+    "N dependency is the negate or exclusive-OR relationship. When the Nm affecting input is at its internal 1 state, each affected input or output labelled m is complemented. At 0 it has no effect. The result is a controllable inverter folded into the device symbol.",
+    "This notation appears on devices with selectable output polarity, such as programmable inverting or non-inverting buffers. Reading the N label tells the drafter that the same pin can produce either sense depending on the control input.",
+    "The label does not indicate when the polarity may be changed during operation. That is a matter of device timing and system design."
+  ],
+  "readingNotes": [
+    "An active N input inverts every terminal labelled with its number.",
+    "Check the state of the N control in each operating mode."
+  ],
+  "drawingChecklist": [
+    "Label the polarity control input as Nm.",
+    "Mark affected terminals with m.",
+    "State the default polarity in the sheet notes."
+  ],
+  "distinction": "Fixed output negation is a circle or triangle; N dependency makes the negation switchable.",
+  "facts": [
+    {
+      "label": "Affecting input at 1",
+      "value": "Complements state"
+    },
+    {
+      "label": "Affecting input at 0",
+      "value": "No effect"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "N (negate) dependency description."
+    }
+  ],
+  "related": [
+    "iec-or-dependency-v",
+    "iec-xor-gate",
+    "iec-logic-output-negation"
+  ],
+  "artwork": "s28-iec-negate-dependency-n",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Affecting input labelled Nm with affected terminals labelled m",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-negate-dependency-n",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-negate-dependency-n.svg",
+  "id": "iec-negate-dependency-n",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-negate-dependency-n",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-negate-dependency-n.json",
+  "svgPath": "artwork/svg/iec-negate-dependency-n.svg",
+  "referencePath": "references/iec-negate-dependency-n.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "N (negate) dependency description."
+    }
+  ]
+}

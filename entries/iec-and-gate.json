@@ -1,0 +1,106 @@
+{
+  "slug": "iec-and-gate",
+  "name": "IEC AND gate (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "&",
+  "aliases": [
+    "IEC 60617-12 AND element",
+    "rectangular AND gate",
+    "& gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Rectangular IEC-style AND element marked with an ampersand; the output is active only when every input is active.",
+  "description": [
+    "The IEC rectangular AND element is a plain box with the ampersand written near the top centre. Inputs enter on the left and the single output leaves on the right, so the function is identified by the qualifier rather than by the outline shape. All inputs must stand at their internal 1 state for the output to take its internal 1 state.",
+    "Rectangular gates are common on European interlock, burner-management and protection logic sheets because the same box can carry negation circles, polarity indicators and dependency labels without changing shape. A drafter can stack several & boxes in one column and the function remains readable even when the elements are abutted.",
+    "The qualifier says nothing about logic family, supply voltage, propagation delay or whether the function is realised in hardware, relay contacts or PLC code. Those details come from the device schedule or the software reference attached to the sheet."
+  ],
+  "readingNotes": [
+    "Read the & qualifier first; the box outline is identical for most IEC combinative elements.",
+    "Check for negation circles or polarity triangles on inputs before writing the truth table."
+  ],
+  "drawingChecklist": [
+    "Show the & qualifier clearly inside the outline.",
+    "Number each input when more than two are used.",
+    "Reference the implementing device, PLC block or relay logic on the sheet."
+  ],
+  "distinction": "The ≥1 OR element uses the same box; only the qualifier differs, so a misread character changes the whole function.",
+  "facts": [
+    {
+      "label": "General qualifier",
+      "value": "& (AND function)"
+    },
+    {
+      "label": "Distinctive-shape equivalent",
+      "value": "D-shaped ANSI AND gate"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Public explanation of the & general qualifying symbol and rectangular symbol composition."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc08",
+      "relevance": "Manufacturer AND gate documentation showing the function implemented."
+    }
+  ],
+  "related": [
+    "logic-and-gate",
+    "iec-nand-gate",
+    "iec-or-gate"
+  ],
+  "artwork": "s28-iec-and-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular outline with the & general qualifying symbol",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-and-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-and-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-and-gate.svg",
+  "id": "iec-and-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-and-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-and-gate.json",
+  "svgPath": "artwork/svg/iec-and-gate.svg",
+  "referencePath": "references/iec-and-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public explanation of the & general qualifying symbol and rectangular symbol composition."
+    },
+    {
+      "id": "pub-electronics-ti-hc08",
+      "title": "SN74HC08 — AND gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of and gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer AND gate documentation showing the function implemented."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "microgrid-controller",
+  "name": "Microgrid controller",
+  "kind": "symbol",
+  "abbreviation": "MGC",
+  "aliases": [
+    "microgrid control system",
+    "MGCS",
+    "hybrid power controller"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "The supervisory controller that dispatches sources, storage and loads and manages islanding and reconnection of a microgrid.",
+  "description": [
+    "A microgrid controller coordinates the sources, storage and controllable loads within a microgrid. It sets operating points for inverters and gensets, maintains spinning reserve, sheds and restores load, and manages transitions between grid-connected and islanded operation, including black start and resynchronisation.",
+    "On single-line diagrams it is shown as a control block, often at the side of the drawing, with dashed communication lines to each controlled breaker, inverter, genset controller and meter. Architecture drawings show it in more detail, including the communication protocols and the hierarchy of controllers below it.",
+    "The block does not reveal how fast the controller acts or which functions run locally in device controllers instead. Protection must never rely on the supervisory controller alone, so check that each device has its own protection independent of the communication link."
+  ],
+  "readingNotes": [
+    "Dashed lines from the block are signal or communication links, not power paths.",
+    "Identify which functions remain local if communication fails."
+  ],
+  "drawingChecklist": [
+    "List controlled devices and signals.",
+    "Show communication links and protocols.",
+    "Reference operating modes and fallback behaviour."
+  ],
+  "distinction": "A microgrid controller supervises the whole system; a genset or inverter controller controls one device.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Supervisory dispatch and transitions"
+    },
+    {
+      "label": "Links",
+      "value": "Communication to device controllers"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; not a product outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-deif-hybrid-microgrid",
+      "relevance": "Public hybrid and microgrid control solution context."
+    },
+    {
+      "sourceId": "pub-object-victron-cerbo-gx",
+      "relevance": "Public system monitoring and control centre documentation."
+    }
+  ],
+  "related": [
+    "genset-controller",
+    "microgrid-interconnection-switch",
+    "power-plant-controller",
+    "ga-energy-management-controller"
+  ],
+  "artwork": "s28-microgrid-controller",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/microgrid-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-controller.svg",
+  "id": "microgrid-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-controller.json",
+  "svgPath": "artwork/svg/microgrid-controller.svg",
+  "referencePath": "references/microgrid-controller.md",
+  "publicSources": [
+    {
+      "id": "s28-deif-hybrid-microgrid",
+      "title": "Reliable hybrid power and microgrid solutions",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/applications/power-generation/reliable-hybrid-power-and-microgrid-solutions/",
+      "type": "manufacturer",
+      "scope": "Public hybrid and microgrid control context combining gensets, PV, storage and mains.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public hybrid and microgrid control solution context."
+    },
+    {
+      "id": "pub-object-victron-cerbo-gx",
+      "title": "Cerbo GX official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/communication-centres/cerbo-gx",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public system monitoring and control centre documentation."
+    }
+  ]
+}

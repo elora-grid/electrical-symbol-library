@@ -1,0 +1,105 @@
+{
+  "slug": "power-line-carrier-coupling-capacitor-interface",
+  "name": "Power-line carrier coupling-capacitor interface",
+  "kind": "symbol",
+  "abbreviation": "PCCI",
+  "aliases": [
+    "Line carrier and protection communication interfaces",
+    "switchyards Line carrier and protection communication interfaces",
+    "switchyards",
+    "Switchyards",
+    "Carrier coupling signal",
+    "Primary-line carrier connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the coupling boundary between a carrier communication signal and the assigned primary conductor.",
+  "description": [
+    "Identifies the coupling boundary between a carrier communication signal and the assigned primary conductor. A protection communication interface carries information between circuit ends or couples a communication signal to a primary line. Its signal path is different from the power-current path even when both use part of the same installation.",
+    "In a switchyard line bay, carrier-coupling equipment can connect a protection communication terminal to the transmission conductor. Fiber-based protection uses another physical path but still needs named endpoints and channel supervision. For this reference, the drawing identifies “Carrier coupling signal” at the input and “Primary-line carrier connection” at the output. Coupling equipment requires the selected insulation arrangement.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Carrier coupling signal. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Primary-line carrier connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Coupling equipment requires the selected insulation arrangement.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for carrier coupling signal.",
+    "Identify the destination and defined state of primary-line carrier connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Coupling equipment requires the selected insulation arrangement."
+  ],
+  "distinction": "Coupling equipment requires the selected insulation arrangement. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Carrier coupling signal"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Primary-line carrier connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PCCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-carrier",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "capacitor-voltage-transformer",
+    "85-pilot-or-carrier-receiver-relay",
+    "line-trap-primary-series-connection"
+  ],
+  "artwork": "pi26-power-line-carrier-coupling-capacitor-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "line-communications",
+    "input": "Carrier coupling signal",
+    "output": "Primary-line carrier connection"
+  },
+  "url": "https://eloragrid.ai/symbols/power-line-carrier-coupling-capacitor-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-line-carrier-coupling-capacitor-interface.svg",
+  "id": "power-line-carrier-coupling-capacitor-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-line-carrier-coupling-capacitor-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-line-carrier-coupling-capacitor-interface.json",
+  "svgPath": "artwork/svg/power-line-carrier-coupling-capacitor-interface.svg",
+  "referencePath": "references/power-line-carrier-coupling-capacitor-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-carrier",
+      "publisher": "GE Vernova",
+      "title": "Line traps: power-line carrier communication",
+      "url": "https://www.gevernova.com/grid-solutions/sites/default/files/2025-09/Line-Traps-Brochure-EN-N50059-Hybrid-202504-R002.pdf",
+      "scope": "Line traps, coupling and power-line carrier communications.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

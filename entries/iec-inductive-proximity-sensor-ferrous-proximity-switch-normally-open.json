@@ -1,0 +1,94 @@
+{
+  "slug": "iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open",
+  "name": "IEC inductive proximity sensor: ferrous proximity switch, normally open",
+  "kind": "symbol",
+  "abbreviation": "IND",
+  "aliases": [
+    "HPX11I",
+    "VPX11I",
+    "inductive proximity sensor Ferrous Proximity Switch, Normally Open"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Inductive proximity sensor form: Ferrous Proximity Switch, Normally Open.",
+  "description": [
+    "An inductive proximity sensor detects a metallic target through the effect it has on an electromagnetic sensing field. This entry identifies the ferrous proximity switch, normally open form in the publisher's IEC-context family.",
+    "A metal flag on a carriage can produce a controller input without touching a mechanical switch. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "Target material, sensing distance and output circuit are product properties; an inductive mark does not identify PNP, NPN or a universal terminal assignment."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "Target material, sensing distance and output circuit are product properties; an inductive mark does not identify PNP, NPN or a universal terminal assignment."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the ferrous proximity switch, normally open detail to the broader inductive proximity sensor family. Target material, sensing distance and output circuit are product properties; an inductive mark does not identify PNP, NPN or a universal terminal assignment.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Ferrous Proximity Switch, Normally Open"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPX11I / VPX11I. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "inductive proximity sensor"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-inductive-sensors",
+      "relevance": "Public Inductive Switches table explicitly lists HPX11I / VPX11I with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "inductive-proximity-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Ferrous Proximity Switch, Normally Open",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Inductive Switches, HPX11I / VPX11I. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open.svg",
+  "id": "iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open.json",
+  "svgPath": "artwork/svg/iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open.svg",
+  "referencePath": "references/iec-inductive-proximity-sensor-ferrous-proximity-switch-normally-open.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-inductive-sensors",
+      "title": "AutoCAD Electrical: Inductive proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-596652AB-6555-4F9A-B575-555D40C2ECD4.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Inductive Switches table explicitly lists HPX11I / VPX11I with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

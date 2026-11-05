@@ -1,0 +1,104 @@
+{
+  "slug": "ansi-weatherproof-receptacle",
+  "name": "ANSI weatherproof receptacle plan symbol",
+  "kind": "symbol",
+  "abbreviation": "WP",
+  "aliases": [
+    "weatherproof duplex receptacle",
+    "WP outlet",
+    "outdoor receptacle symbol"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol for an outdoor or damp-location receptacle, drawn as a duplex receptacle with a WP subscript.",
+  "description": [
+    "Outdoor receptacles in US practice are drawn with the duplex receptacle form plus WP. The tag tells the installer to fit a weatherproof cover, and for many outdoor locations an in-use cover that stays weatherproof while a cord is plugged in.",
+    "WP receptacles are typically also GFCI protected, so plans often carry both tags or a general note. Mounting height above grade and proximity to pools or fountains are common notes next to the symbol. WP does not specify the enclosure rating or whether an in-use cover is required. The specification must state these."
+  ],
+  "readingNotes": [
+    "Read WP and GFCI tags together.",
+    "Check for an in-use cover requirement."
+  ],
+  "drawingChecklist": [
+    "Specify cover type.",
+    "Confirm ground-fault protection.",
+    "State height above grade."
+  ],
+  "distinction": "The IEC weatherproof outlet uses an IP tag; the US form uses WP on the duplex receptacle symbol.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "WP subscript"
+    },
+    {
+      "label": "Usual companion",
+      "value": "GFCI protection"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "ansi-duplex-receptacle-outlet",
+    "ansi-gfci-duplex-receptacle",
+    "iec-weatherproof-socket-outlet"
+  ],
+  "artwork": "s28-ansi-weatherproof-receptacle",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Weatherproof receptacle",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic.",
+    "counterpart": "iec-duplex-power-receptacle"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-weatherproof-receptacle",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-weatherproof-receptacle.svg",
+  "id": "ansi-weatherproof-receptacle",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-weatherproof-receptacle",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-weatherproof-receptacle.json",
+  "svgPath": "artwork/svg/ansi-weatherproof-receptacle.svg",
+  "referencePath": "references/ansi-weatherproof-receptacle.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

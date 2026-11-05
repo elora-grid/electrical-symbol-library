@@ -1,0 +1,86 @@
+{
+  "slug": "photovoltaic-rapid-shutdown",
+  "name": "Photovoltaic rapid shutdown function",
+  "kind": "symbol",
+  "abbreviation": "RSD",
+  "aliases": [
+    "Photovoltaic rapid shutdown function",
+    "Photovoltaic rapid shutdown function functional block",
+    "Photovoltaic rapid shutdown function schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Rapid shutdown is a defined solar-system function that changes specified circuit conditions following a shutdown command.",
+  "description": [
+    "Rapid shutdown is a defined solar-system function that changes specified circuit conditions following a shutdown command.",
+    "A shutdown controller and field devices can form the selected shutdown arrangement.",
+    "Identify the initiating command, controlled equipment and the circuit boundary to which the shutdown action applies. This makes the intended action understandable without inventing a shutdown time or compliance claim. The selected system documentation establishes those requirements and how the devices achieve them. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Show the initiating command and controlled devices.",
+    "Identify the relevant circuit boundary.",
+    "Reference the selected shutdown behaviour and applicable installation requirements.",
+    "The functional block does not assert compliance, shutdown boundaries or a particular operating time."
+  ],
+  "drawingChecklist": [
+    "Show the initiating command and controlled devices.",
+    "Identify the relevant circuit boundary.",
+    "Reference the selected shutdown behaviour and applicable installation requirements."
+  ],
+  "distinction": "The functional block does not assert compliance, shutdown boundaries or a particular operating time.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Shutdown initiation"
+    },
+    {
+      "label": "Concept output",
+      "value": "Defined circuit condition"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pvshutdown",
+      "relevance": "Solar rapid shutdown function: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "photovoltaic-inverter",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-photovoltaic-rapid-shutdown",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-rapid-shutdown",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/photovoltaic-rapid-shutdown.svg",
+  "id": "photovoltaic-rapid-shutdown",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-rapid-shutdown",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-rapid-shutdown.json",
+  "svgPath": "artwork/svg/photovoltaic-rapid-shutdown.svg",
+  "referencePath": "references/photovoltaic-rapid-shutdown.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pvshutdown",
+      "title": "Solar rapid shutdown function",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/rapid-shutdown",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Solar rapid shutdown function: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

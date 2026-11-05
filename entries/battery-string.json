@@ -1,0 +1,106 @@
+{
+  "slug": "battery-string",
+  "name": "Battery string",
+  "kind": "symbol",
+  "abbreviation": "BS",
+  "aliases": [
+    "series battery string",
+    "string of cells",
+    "battery series string"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A series connection of cells or modules reaching the system DC voltage, often with its own fuse or breaker and monitoring.",
+  "description": [
+    "A battery string is a group of cells or modules connected in series to reach the operating DC voltage of an inverter, UPS or DC system. Several strings may run in parallel to increase capacity, and each string normally has its own protective device and disconnect so that one string can be isolated without shutting down the others.",
+    "Drawings show the battery symbol with the cell or module count annotated, a dashed line indicating omitted cells, and the string fuse or breaker at the positive and sometimes negative terminal. String current sensors and the battery management connections are often drawn at the same point.",
+    "The symbol does not state how strings share current or what happens when one string has a weak cell. Parallel strings of different ages or states of health share current unevenly, which the drawing alone cannot reveal."
+  ],
+  "readingNotes": [
+    "Read the annotated number of cells or modules in series.",
+    "Each parallel string should have its own isolation and protection."
+  ],
+  "drawingChecklist": [
+    "State cells or modules in series and nominal string voltage.",
+    "Show string fuse or breaker and disconnect.",
+    "Reference string current measurement."
+  ],
+  "distinction": "A string is one series chain; a battery bank or rack may contain several strings in parallel.",
+  "facts": [
+    {
+      "label": "Connection",
+      "value": "Series"
+    },
+    {
+      "label": "Protection",
+      "value": "Per-string fuse or breaker"
+    },
+    {
+      "label": "Annotation",
+      "value": "Cells or modules in series"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "battery-cabinets",
+      "relevance": "Public battery energy storage system context including string arrangements."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for batteries."
+    }
+  ],
+  "related": [
+    "battery",
+    "battery-rack",
+    "battery-single-cell",
+    "battery-current-measurement"
+  ],
+  "artwork": "s28-battery-string",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-string",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-string.svg",
+  "id": "battery-string",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-string",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-string.json",
+  "svgPath": "artwork/svg/battery-string.svg",
+  "referencePath": "references/battery-string.md",
+  "publicSources": [
+    {
+      "id": "battery-cabinets",
+      "title": "xStorage battery energy storage system",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/energy-storage/xstorage-battery-energy-storage-system.html",
+      "type": "manufacturer",
+      "scope": "Public example of battery cabinets, power conversion and control equipment within a storage system.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public battery energy storage system context including string arrangements."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for batteries."
+    }
+  ]
+}

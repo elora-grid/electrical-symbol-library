@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-bidirectional-breakdown-diode",
+  "name": "ANSI/IEEE Bidirectional breakdown diode form",
+  "kind": "symbol",
+  "abbreviation": "TVS BI",
+  "aliases": [
+    "HDI1_S00647",
+    "VDI1_S00647",
+    "IEEE Breakdown Diode, Bidirectional",
+    "ANSI Bidirectional breakdown diode"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of bidirectional breakdown diode: a bidirectional breakdown diode provides a documented voltage-limiting semiconductor path in both polarities.",
+  "description": [
+    "This reference locates bidirectional breakdown diode in Autodesk's IEEE-oriented semiconductor components family. A bidirectional breakdown diode provides a documented voltage-limiting semiconductor path in both polarities. Its working voltage and surge characteristics determine the protective application. The public library uses HDI1_S00647 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Follow the actual current path and terminal polarity in the surrounding circuit. The symbol identifies an electrical function; voltage, current, energy limits and the device package pinout come from the selected component data rather than from the outline.",
+    "Read working-voltage and breakdown specifications separately. Bidirectional protection does not make the component a controllable power switch. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Read working-voltage and breakdown specifications separately.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify protected nodes",
+    "State working-voltage rating",
+    "Reference surge capability"
+  ],
+  "distinction": "Bidirectional protection does not make the component a controllable power switch.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Semiconductor Components; published form: Breakdown Diode, Bidirectional."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDI1_S00647. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Semiconductor function"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-ec01cfc2-47b9-4ae3-ae5e-0fb86d327a82",
+      "relevance": "Public IEEE-oriented Semiconductor Components table explicitly lists HDI1_S00647 as Breakdown Diode, Bidirectional. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "bidirectional-breakdown-diode",
+    "resistor",
+    "power-converter"
+  ],
+  "artwork": "s28-ansi-bidirectional-breakdown-diode",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Breakdown Diode, Bidirectional",
+    "reference": "Autodesk IEEE Symbol Preview: Semiconductor Components, block HDI1_S00647. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "bidirectional-breakdown-diode"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-bidirectional-breakdown-diode",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-bidirectional-breakdown-diode.svg",
+  "id": "ansi-bidirectional-breakdown-diode",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-bidirectional-breakdown-diode",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-bidirectional-breakdown-diode.json",
+  "svgPath": "artwork/svg/ansi-bidirectional-breakdown-diode.svg",
+  "referencePath": "references/ansi-bidirectional-breakdown-diode.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-ec01cfc2-47b9-4ae3-ae5e-0fb86d327a82",
+      "title": "Autodesk IEEE Symbol Preview — Semiconductor Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC01CFC2-47B9-4AE3-AE5E-0FB86D327A82.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Semiconductor Components table explicitly lists HDI1_S00647 as Breakdown Diode, Bidirectional. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

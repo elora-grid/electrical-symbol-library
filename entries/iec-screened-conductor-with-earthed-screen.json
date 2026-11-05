@@ -1,0 +1,103 @@
+{
+  "slug": "iec-screened-conductor-with-earthed-screen",
+  "name": "Screened conductor with earthed screen",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "shielded conductor grounded screen",
+    "screen earthed at one end",
+    "earthed shield"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A screened conductor whose screen tail is drawn to an earth symbol, recording where the shield is earthed.",
+  "description": [
+    "This form combines the screen outline with an explicit earth connection on the screen tail. It answers the question that a plain screened conductor leaves open: which end of the screen is earthed. Instrument drawings commonly earth the screen at the control end only, while drive motor cables are often earthed at both ends through 360 degree glands.",
+    "When the earth mark appears at only one end of the cable, the other end of the screen is normally cut back and insulated. A reader should not infer that both ends are bonded unless both are drawn. The earth symbol used on the tail may be functional earth, protective earth or a clean instrument earth bar, and those are not interchangeable."
+  ],
+  "readingNotes": [
+    "Check both ends of the cable to see whether the screen is earthed at one or both.",
+    "Identify which earth system the screen tail lands on."
+  ],
+  "drawingChecklist": [
+    "Draw the screen earth at every end where it is terminated.",
+    "Note insulated screen ends where they are cut back.",
+    "Use the correct earth symbol for the earth bar used."
+  ],
+  "distinction": "An earthed screen shows the termination decision; a plain screened conductor shows only that a shield exists.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Screen outline with tail ending in an earth symbol"
+    },
+    {
+      "label": "Design decision shown",
+      "value": "Which end or ends of the screen are earthed"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Public IEC-60617 preview family for cable annotation."
+    },
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public IEC-oriented earth and bonding forms used on the screen tail."
+    }
+  ],
+  "related": [
+    "iec-screened-conductor",
+    "functional-earth",
+    "iec-noiseless-earth"
+  ],
+  "artwork": "s28-iec-screened-conductor-with-earthed-screen",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Screened conductor with earthed screen tail",
+    "reference": "Independent illustration combining IEC-context screen and earth forms; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-screened-conductor-with-earthed-screen",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-screened-conductor-with-earthed-screen.svg",
+  "id": "iec-screened-conductor-with-earthed-screen",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-conductor-with-earthed-screen",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-screened-conductor-with-earthed-screen.json",
+  "svgPath": "artwork/svg/iec-screened-conductor-with-earthed-screen.svg",
+  "referencePath": "references/iec-screened-conductor-with-earthed-screen.md",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-60617 preview family for cable annotation."
+    },
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented earth and bonding forms used on the screen tail."
+    }
+  ]
+}

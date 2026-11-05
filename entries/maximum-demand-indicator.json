@@ -1,0 +1,85 @@
+{
+  "slug": "maximum-demand-indicator",
+  "name": "Maximum-demand indicator",
+  "kind": "symbol",
+  "abbreviation": "MD",
+  "aliases": [
+    "maximum demand ammeter",
+    "thermal demand ammeter",
+    "drag-pointer demand meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Indicating instrument with a resettable pointer or register showing the highest averaged current or power reached.",
+  "description": [
+    "A maximum-demand indicator shows the highest averaged load reached since it was last reset. Thermal demand ammeters with a drag pointer were common on switchboard feeders and transformer secondaries, and they help assess loading without a full recording instrument.",
+    "Thermal types respond with a time constant rather than a fixed interval, so their readings are not directly comparable with tariff demand meters. The symbol does not show the response time or reset method, both of which affect how the reading is used."
+  ],
+  "readingNotes": [
+    "Check the response time or demand interval.",
+    "Note when the indicator was last reset."
+  ],
+  "drawingChecklist": [
+    "State quantity and interval",
+    "Show CT input",
+    "Describe reset method"
+  ],
+  "distinction": "A maximum-demand indicator shows only the peak averaged value; a maximum-demand meter also totalises energy.",
+  "facts": [
+    {
+      "label": "Displayed quantity",
+      "value": "Highest averaged current or power"
+    },
+    {
+      "label": "Reset",
+      "value": "Manual or periodic"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "maximum-demand-energy-meter",
+    "ammeter",
+    "recording-ammeter"
+  ],
+  "artwork": "s28-maximum-demand-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/maximum-demand-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/maximum-demand-indicator.svg",
+  "id": "maximum-demand-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/maximum-demand-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/maximum-demand-indicator.json",
+  "svgPath": "artwork/svg/maximum-demand-indicator.svg",
+  "referencePath": "references/maximum-demand-indicator.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

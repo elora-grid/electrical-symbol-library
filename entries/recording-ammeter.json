@@ -1,0 +1,83 @@
+{
+  "slug": "recording-ammeter",
+  "name": "Recording ammeter",
+  "kind": "symbol",
+  "abbreviation": "A",
+  "aliases": [
+    "current recorder",
+    "recording current instrument"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Recording instrument that keeps a time record of current, drawn as a square marked A.",
+  "description": [
+    "A recording ammeter logs current against time and is used to study load profiles, motor starting and feeder loading. It is connected in a CT secondary circuit, so like any CT-fed instrument its input forms part of a loop that must never be opened under load.",
+    "The record is only as useful as its interval and range. The symbol does not show whether peaks are captured or averaged, and a recorder sized for normal load may clip during starting or fault current."
+  ],
+  "readingNotes": [
+    "Treat the input as part of the CT secondary loop.",
+    "Check whether peaks or averages are recorded."
+  ],
+  "drawingChecklist": [
+    "Show CT ratio",
+    "State range and interval",
+    "Provide CT shorting point"
+  ],
+  "distinction": "A recording ammeter logs current over time; a maximum-demand indicator keeps only the highest averaged value.",
+  "facts": [
+    {
+      "label": "Recorded quantity",
+      "value": "Current"
+    },
+    {
+      "label": "Input",
+      "value": "Usually a CT secondary"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "recording-instrument-general-symbol",
+    "ammeter",
+    "maximum-demand-indicator"
+  ],
+  "artwork": "s28-recording-ammeter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/recording-ammeter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/recording-ammeter.svg",
+  "id": "recording-ammeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/recording-ammeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/recording-ammeter.json",
+  "svgPath": "artwork/svg/recording-ammeter.svg",
+  "referencePath": "references/recording-ammeter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

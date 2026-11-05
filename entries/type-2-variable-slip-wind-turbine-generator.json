@@ -1,0 +1,106 @@
+{
+  "slug": "type-2-variable-slip-wind-turbine-generator",
+  "name": "Variable-slip wind turbine generator (Type 2)",
+  "kind": "symbol",
+  "abbreviation": "WTG T2",
+  "aliases": [
+    "Type 2 wind turbine",
+    "wound-rotor variable-slip WTG",
+    "rotor-resistance controlled wind turbine"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A wind turbine using a wound-rotor induction generator with controlled external rotor resistance to widen the slip range.",
+  "description": [
+    "A Type 2 wind turbine uses a wound-rotor induction generator whose rotor circuit is connected to a variable resistance, usually switched by power electronics mounted on the rotor. Raising the rotor resistance lets the slip increase to around ten per cent, which softens torque peaks from gusts while the stator stays connected directly to the network.",
+    "Drawings show the generator circle with rotor slip-ring or rotor-winding marks and a resistor element with a variable arrow attached to the rotor side. The stator side follows the same path as a Type 1 machine: soft starter, capacitor compensation and step-up transformer.",
+    "Energy dissipated in the rotor resistance is lost as heat, so the symbol says nothing about efficiency or about any capability to deliver reactive power. Fault ride-through behaviour and resistor ratings must be read from the turbine model data."
+  ],
+  "readingNotes": [
+    "The variable resistor on the rotor side is a slip control element, not a braking resistor or a load.",
+    "Stator-side compensation capacitors are still normally present."
+  ],
+  "drawingChecklist": [
+    "State rotor resistance control range.",
+    "Show stator connection and compensation.",
+    "Reference turbine model data for dynamic studies."
+  ],
+  "distinction": "A Type 2 turbine dissipates rotor energy in resistance; a doubly-fed generator returns rotor power to the network through a converter.",
+  "facts": [
+    {
+      "label": "Generator type",
+      "value": "Wound-rotor induction"
+    },
+    {
+      "label": "Speed control",
+      "value": "Rotor resistance, limited slip range"
+    },
+    {
+      "label": "Converter in power path",
+      "value": "None in stator path"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-station-types",
+      "relevance": "Wind station representation used as site-level context."
+    },
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public variable-resistor symbol context for the rotor resistance element."
+    }
+  ],
+  "related": [
+    "wound-rotor-induction-motor",
+    "type-1-fixed-speed-wind-turbine-generator",
+    "doubly-fed-induction-generator",
+    "variable-resistor"
+  ],
+  "artwork": "s28-type-2-variable-slip-wind-turbine-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/type-2-variable-slip-wind-turbine-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/type-2-variable-slip-wind-turbine-generator.svg",
+  "id": "type-2-variable-slip-wind-turbine-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/type-2-variable-slip-wind-turbine-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/type-2-variable-slip-wind-turbine-generator.json",
+  "svgPath": "artwork/svg/type-2-variable-slip-wind-turbine-generator.svg",
+  "referencePath": "references/type-2-variable-slip-wind-turbine-generator.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-station-types",
+      "title": "AutoCAD Electrical: Power station and substation concepts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74EF80E8-018D-4A57-88BD-FF973F1B8185.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Wind station representation used as site-level context."
+    },
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public variable-resistor symbol context for the rotor resistance element."
+    }
+  ]
+}

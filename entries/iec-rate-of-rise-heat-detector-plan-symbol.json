@@ -1,0 +1,87 @@
+{
+  "slug": "iec-rate-of-rise-heat-detector-plan-symbol",
+  "name": "Rate-of-rise heat detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "HD-R",
+  "aliases": [
+    "rate-of-rise detector",
+    "ROR heat detector",
+    "rate-compensated heat detector"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Fire alarm plan symbol for a heat detector that alarms on a rapid temperature increase as well as a threshold.",
+  "description": [
+    "Rate-of-rise heat detectors alarm when temperature climbs faster than a set rate, and usually also at a fixed threshold. Plans use the heat detector form with an added rising mark or an R tag to distinguish it.",
+    "They respond faster than fixed-temperature detectors to fast-growing fires, but can false alarm where temperature normally changes quickly, such as near ovens or doors to outside in winter. The plan location should be checked with this in mind. The symbol does not state the rate or threshold, which belong to the product class."
+  ],
+  "readingNotes": [
+    "Look for the rising mark or R tag.",
+    "Check for rapid ambient changes near the location."
+  ],
+  "drawingChecklist": [
+    "State class.",
+    "Tag loop and address.",
+    "Avoid locations with rapid normal temperature swings."
+  ],
+  "distinction": "A fixed-temperature detector waits for an absolute threshold; rate-of-rise reacts to the speed of change.",
+  "facts": [
+    {
+      "label": "Operating principle",
+      "value": "Rate of temperature rise plus threshold"
+    },
+    {
+      "label": "False alarm risk",
+      "value": "Rooms with fast normal temperature changes"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    }
+  ],
+  "related": [
+    "iec-heat-detector-plan-symbol",
+    "iec-smoke-detector-plan-symbol"
+  ],
+  "artwork": "s28-iec-rate-of-rise-heat-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Heat detector, rate of rise",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-rate-of-rise-heat-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-rate-of-rise-heat-detector-plan-symbol.svg",
+  "id": "iec-rate-of-rise-heat-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-rate-of-rise-heat-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-rate-of-rise-heat-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-rate-of-rise-heat-detector-plan-symbol.svg",
+  "referencePath": "references/iec-rate-of-rise-heat-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    }
+  ]
+}

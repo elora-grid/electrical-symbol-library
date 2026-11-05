@@ -1,0 +1,105 @@
+{
+  "slug": "breaker-test-cabinet-interface",
+  "name": "Breaker test-cabinet interface",
+  "kind": "symbol",
+  "abbreviation": "BTI",
+  "aliases": [
+    "Switchgear test and commissioning interfaces",
+    "switchgear Switchgear test and commissioning interfaces",
+    "switchgear",
+    "Switchgear",
+    "Test cabinet supply and controls",
+    "Breaker secondary interface"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the secondary-control connection between a withdrawn breaker and its selected test cabinet.",
+  "description": [
+    "Shows the secondary-control connection between a withdrawn breaker and its selected test cabinet. A test interface separates measurement, command and indication paths so their behavior can be checked in the documented test configuration. The test boundary must show which real equipment outputs remain enabled.",
+    "In a switchgear relay panel, test links can separate a protective relay from the trip coils while maintaining the specified current-transformer secondary arrangement. For this reference, the drawing identifies “Test cabinet supply and controls” at the input and “Breaker secondary interface” at the output. The test cabinet is equipment-specific.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Test cabinet supply and controls. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Breaker secondary interface. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The test cabinet is equipment-specific.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for test cabinet supply and controls.",
+    "Identify the destination and defined state of breaker secondary interface.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The test cabinet is equipment-specific."
+  ],
+  "distinction": "The test cabinet is equipment-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Test cabinet supply and controls"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Breaker secondary interface"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relay-test-block",
+    "test-plug",
+    "ground-and-test-device-indication"
+  ],
+  "artwork": "pi26-breaker-test-cabinet-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "testing",
+    "input": "Test cabinet supply and controls",
+    "output": "Breaker secondary interface"
+  },
+  "url": "https://eloragrid.ai/symbols/breaker-test-cabinet-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/breaker-test-cabinet-interface.svg",
+  "id": "breaker-test-cabinet-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/breaker-test-cabinet-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/breaker-test-cabinet-interface.json",
+  "svgPath": "artwork/svg/breaker-test-cabinet-interface.svg",
+  "referencePath": "references/breaker-test-cabinet-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

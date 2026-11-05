@@ -1,0 +1,105 @@
+{
+  "slug": "resistive-load-bank",
+  "name": "Resistive load bank",
+  "kind": "symbol",
+  "abbreviation": "LB",
+  "aliases": [
+    "load bank",
+    "resistive test load",
+    "generator test load bank"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A bank of switched resistive elements used to apply a controllable test load to generators, UPS or battery systems.",
+  "description": [
+    "A resistive load bank is a set of resistor elements, switched in steps and cooled by fans, used to load a generator, UPS or battery system for commissioning and maintenance tests. Permanent load banks are also installed to keep diesel engines above minimum load when site demand is low.",
+    "Drawings show a resistor symbol or a group of resistors with step switches, connected through a breaker to the bus being tested. Permanently installed banks have a control link to the genset or microgrid controller, while portable banks connect through a temporary test connection point.",
+    "A resistive bank loads at unity power factor only, so it does not test a generator at its rated kVA when the rated power factor is below one. The symbol does not show step sizes or fan supply, both needed for test planning."
+  ],
+  "readingNotes": [
+    "A purely resistive bank tests kW, not kVA.",
+    "Look for a dedicated test connection point."
+  ],
+  "drawingChecklist": [
+    "State kW rating and step sizes.",
+    "Show breaker and fan supply.",
+    "Reference control interface."
+  ],
+  "distinction": "A resistive load bank applies only active load; a resistive-reactive bank can also apply lagging kvar.",
+  "facts": [
+    {
+      "label": "Load type",
+      "value": "Resistive, unity power factor"
+    },
+    {
+      "label": "Control",
+      "value": "Switched steps"
+    },
+    {
+      "label": "Typical use",
+      "value": "Generator and UPS testing"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public generator application manual context for testing and minimum load."
+    },
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public resistor symbol family context."
+    }
+  ],
+  "related": [
+    "resistive-reactive-load-bank",
+    "diesel-generator-set",
+    "resistor",
+    "generic-electrical-load"
+  ],
+  "artwork": "s28-resistive-load-bank",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/resistive-load-bank",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/resistive-load-bank.svg",
+  "id": "resistive-load-bank",
+  "canonicalUrl": "https://eloragrid.ai/symbols/resistive-load-bank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/resistive-load-bank.json",
+  "svgPath": "artwork/svg/resistive-load-bank.svg",
+  "referencePath": "references/resistive-load-bank.md",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator application manual context for testing and minimum load."
+    },
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public resistor symbol family context."
+    }
+  ]
+}

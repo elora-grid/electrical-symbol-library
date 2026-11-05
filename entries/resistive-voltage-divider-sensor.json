@@ -1,0 +1,100 @@
+{
+  "slug": "resistive-voltage-divider-sensor",
+  "name": "Resistive voltage divider sensor",
+  "kind": "symbol",
+  "abbreviation": "RVD",
+  "aliases": [
+    "low-power voltage transformer",
+    "LPVT",
+    "voltage sensor"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Low-power voltage sensor using a resistive divider to give a small voltage signal proportional to primary voltage.",
+  "description": [
+    "A resistive voltage divider sensor is a low-power instrument transformer in which a high-value resistor chain steps the primary voltage down to a small signal. It has no iron core, so it does not cause ferroresonance, and one sensor can cover a wide range of primary voltages.",
+    "The output is a low-energy signal that must go to an input designed for it, and the cable between sensor and relay is part of the measurement. The symbol does not show the division ratio, correction factors or connector type, which must match the relay configuration."
+  ],
+  "readingNotes": [
+    "Confirm the relay input is configured for the sensor ratio.",
+    "Keep the supplied sensor cable unless the manufacturer allows changes."
+  ],
+  "drawingChecklist": [
+    "State division ratio",
+    "Reference correction factors",
+    "Show connector and cable"
+  ],
+  "distinction": "A resistive divider sensor gives a low-level signal; a conventional VT gives a standard secondary voltage capable of supplying burden.",
+  "facts": [
+    {
+      "label": "Principle",
+      "value": "Resistive voltage division"
+    },
+    {
+      "label": "Output",
+      "value": "Low-level voltage signal"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-abb-advasense-sensors",
+      "relevance": "Public manufacturer page describing low-power instrument transformers based on Rogowski coils and voltage dividers."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    }
+  ],
+  "related": [
+    "rogowski-coil",
+    "voltage-transformer",
+    "capacitor-voltage-transformer"
+  ],
+  "artwork": "s28-resistive-voltage-divider-sensor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/resistive-voltage-divider-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/resistive-voltage-divider-sensor.svg",
+  "id": "resistive-voltage-divider-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/resistive-voltage-divider-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/resistive-voltage-divider-sensor.json",
+  "svgPath": "artwork/svg/resistive-voltage-divider-sensor.svg",
+  "referencePath": "references/resistive-voltage-divider-sensor.md",
+  "publicSources": [
+    {
+      "id": "s28-abb-advasense-sensors",
+      "title": "Medium-voltage indoor sensors: Rogowski coil and voltage divider low-power instrument transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-sensors",
+      "type": "manufacturer",
+      "scope": "Public product overview describing low-power instrument transformers based on Rogowski coils and voltage dividers for MV switchgear.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer page describing low-power instrument transformers based on Rogowski coils and voltage dividers."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    }
+  ]
+}

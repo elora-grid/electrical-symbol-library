@@ -1,0 +1,105 @@
+{
+  "slug": "yard-marshalling-kiosk-door-alarm",
+  "name": "Yard marshalling-kiosk door alarm",
+  "kind": "symbol",
+  "abbreviation": "YMDA",
+  "aliases": [
+    "Switchyard equipment condition interfaces",
+    "switchyards Switchyard equipment condition interfaces",
+    "switchyards",
+    "Switchyards",
+    "Kiosk door position",
+    "Kiosk access indication"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports the assigned kiosk door contact to station supervision.",
+  "description": [
+    "Reports the assigned kiosk door contact to station supervision. Yard equipment supervision carries the condition and support-system information of primary equipment into station alarms. A monitor's declared alarm, measurement and self-fault output need separate point names.",
+    "In a switchyard marshalling kiosk, gas compartment, operating mechanism and cabinet-service indications are collected for the station controller. Their equipment tags identify the actual compartment or mechanism being monitored. For this reference, the drawing identifies “Kiosk door position” at the input and “Kiosk access indication” at the output. A door contact does not establish security-system performance.",
+    "Keep primary-device identity, compartment boundaries and monitor health visible. A monitoring illustration does not establish a leak rate, operating threshold or remaining equipment life. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Kiosk door position. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Kiosk access indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A door contact does not establish security-system performance.",
+    "Keep primary-device identity, compartment boundaries and monitor health visible. A monitoring illustration does not establish a leak rate, operating threshold or remaining equipment life."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for kiosk door position.",
+    "Identify the destination and defined state of kiosk access indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A door contact does not establish security-system performance."
+  ],
+  "distinction": "A door contact does not establish security-system performance. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Kiosk door position"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Kiosk access indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "YMDA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-gis-monitoring",
+      "relevance": "Public technical context for switchyard equipment condition interfaces. Gas, operating mechanism and circuit-breaker condition monitoring. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "partial-discharge-sensor",
+    "ga-substation-rtu",
+    "yard-terminal-cabinet-humidity-alarm"
+  ],
+  "artwork": "pi26-yard-marshalling-kiosk-door-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-auxiliaries",
+    "input": "Kiosk door position",
+    "output": "Kiosk access indication"
+  },
+  "url": "https://eloragrid.ai/symbols/yard-marshalling-kiosk-door-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/yard-marshalling-kiosk-door-alarm.svg",
+  "id": "yard-marshalling-kiosk-door-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/yard-marshalling-kiosk-door-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/yard-marshalling-kiosk-door-alarm.json",
+  "svgPath": "artwork/svg/yard-marshalling-kiosk-door-alarm.svg",
+  "referencePath": "references/yard-marshalling-kiosk-door-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-gis-monitoring",
+      "publisher": "Hitachi Energy",
+      "title": "Modular switchgear monitoring",
+      "url": "https://www.hitachienergy.com/in/en/products-and-solutions/high-voltage-switchgear-and-breakers/monitoring-and-controlled-switching/modular-switchgear-monitoring-msm",
+      "scope": "Gas, operating mechanism and circuit-breaker condition monitoring.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard equipment condition interfaces. Gas, operating mechanism and circuit-breaker condition monitoring. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

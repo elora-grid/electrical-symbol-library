@@ -1,0 +1,95 @@
+{
+  "slug": "iec-pushbutton-contact-mushroom-head-normally-open-twist-latch",
+  "name": "IEC pushbutton contact: mushroom head normally open twist latch",
+  "kind": "symbol",
+  "abbreviation": "PB",
+  "aliases": [
+    "HPB11MTL",
+    "VPB11MTL",
+    "pushbutton contact Mushroom Head Normally Open Twist Latch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Pushbutton contact form: Mushroom Head Normally Open Twist Latch.",
+  "description": [
+    "A pushbutton translates a person pressing an operator into a change of electrical contact state. The operator form and the contact state are separate pieces of information, so a mushroom head can operate either a normally-open or a normally-closed contact. This entry identifies the mushroom head normally open twist latch form in the publisher's IEC-context family.",
+    "On a machine control sheet, this form lets the reader distinguish the physical button action from the contact used by the controller. Link every contact block to the same operator tag, including a separate indication lamp when fitted. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state. The operator is mechanically retained and uses a twist-release action; clearing the mechanical latch and restarting the machine are separate actions.",
+    "The head shape and contact drawing do not establish a safety category, contact rating or emergency-stop suitability. Direct opening, reset behaviour and the selected assembly must be confirmed from its documentation."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "The operator is mechanically retained and uses a twist-release action; clearing the mechanical latch and restarting the machine are separate actions.",
+    "The head shape and contact drawing do not establish a safety category, contact rating or emergency-stop suitability. Direct opening, reset behaviour and the selected assembly must be confirmed from its documentation."
+  ],
+  "drawingChecklist": [
+    "Identify the operator and each associated contact block.",
+    "State the contact state before the operator is pressed.",
+    "Show the release or return action and any independent lamp supply."
+  ],
+  "distinction": "This entry adds the mushroom head normally open twist latch detail to the broader pushbutton contact family. The head shape and contact drawing do not establish a safety category, contact rating or emergency-stop suitability. Direct opening, reset behaviour and the selected assembly must be confirmed from its documentation.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Mushroom Head Normally Open Twist Latch"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPB11MTL / VPB11MTL. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "pushbutton contact"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-pushbuttons",
+      "relevance": "Public Push Buttons table explicitly lists HPB11MTL / VPB11MTL with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "pushbutton-no",
+    "pushbutton-nc",
+    "emergency-stop"
+  ],
+  "artwork": "s28-iec-pushbutton-contact-mushroom-head-normally-open-twist-latch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Mushroom Head Normally Open Twist Latch",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Push Buttons, HPB11MTL / VPB11MTL. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-pushbutton-contact-mushroom-head-normally-open-twist-latch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-pushbutton-contact-mushroom-head-normally-open-twist-latch.svg",
+  "id": "iec-pushbutton-contact-mushroom-head-normally-open-twist-latch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-pushbutton-contact-mushroom-head-normally-open-twist-latch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-pushbutton-contact-mushroom-head-normally-open-twist-latch.json",
+  "svgPath": "artwork/svg/iec-pushbutton-contact-mushroom-head-normally-open-twist-latch.svg",
+  "referencePath": "references/iec-pushbutton-contact-mushroom-head-normally-open-twist-latch.md",
+  "publicSources": [
+    {
+      "id": "autodesk-pushbuttons",
+      "title": "Pushbutton contact and actuator variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9E8890C7-7176-47DD-8700-E02A16C1670E.htm",
+      "type": "cad-reference",
+      "scope": "Momentary and latching pushbuttons, normal contact states and mushroom actuators.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Push Buttons table explicitly lists HPB11MTL / VPB11MTL with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

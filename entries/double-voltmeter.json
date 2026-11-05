@@ -1,0 +1,99 @@
+{
+  "slug": "double-voltmeter",
+  "name": "Double voltmeter",
+  "kind": "symbol",
+  "abbreviation": "V V",
+  "aliases": [
+    "dual voltmeter",
+    "synchronising voltmeter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Instrument with two voltage movements in one case, showing running and incoming voltage side by side for synchronising.",
+  "description": [
+    "A double voltmeter contains two voltage measuring elements, usually reading the running busbar and the incoming generator or feeder. Mounted on a synchronising panel next to the double frequency meter and synchroscope, it lets the operator match voltages before closing.",
+    "The two inputs must come from VTs with equivalent ratios and the same phase pair, otherwise the comparison is misleading. The symbol does not show the switching that selects which incoming source is connected to the instrument."
+  ],
+  "readingNotes": [
+    "Identify which input is running and which is incoming.",
+    "Check the synchronising selector that switches the inputs."
+  ],
+  "drawingChecklist": [
+    "Label both inputs",
+    "Show VT ratios",
+    "Reference sync selector switch"
+  ],
+  "distinction": "A double voltmeter shows both voltages; a differential voltmeter shows only their difference.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Running and incoming voltage"
+    },
+    {
+      "label": "Location",
+      "value": "Synchronising panel"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public context for generator paralleling controls where synchronising instruments are used."
+    }
+  ],
+  "related": [
+    "double-frequency-meter",
+    "synchronoscope",
+    "differential-voltmeter"
+  ],
+  "artwork": "s28-double-voltmeter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/double-voltmeter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/double-voltmeter.svg",
+  "id": "double-voltmeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/double-voltmeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/double-voltmeter.json",
+  "svgPath": "artwork/svg/double-voltmeter.svg",
+  "referencePath": "references/double-voltmeter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for generator paralleling controls where synchronising instruments are used."
+    }
+  ]
+}

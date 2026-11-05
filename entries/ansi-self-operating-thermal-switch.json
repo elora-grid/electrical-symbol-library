@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-self-operating-thermal-switch",
+  "name": "ANSI/IEEE Self-operating thermal switch form",
+  "kind": "symbol",
+  "abbreviation": "TS SELF",
+  "aliases": [
+    "HTS12S59C",
+    "VTS12S59C",
+    "IEEE Thermal Switch Normally Closed, Self-operating",
+    "ANSI Self-operating thermal switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of self-operating thermal switch: a self-operating thermal switch responds directly to its thermal condition rather than through a separate powered relay input.",
+  "description": [
+    "This reference locates self-operating thermal switch in Autodesk's IEEE-oriented pressure and temperature switches family. A self-operating thermal switch responds directly to its thermal condition rather than through a separate powered relay input. Its contact and reset behaviour are device-specific. The public library uses HTS12S59C for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Trace the thermal device separately from any PLC or auxiliary supply. A self-operating thermal switch is not the same as a powered temperature monitoring relay. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Trace the thermal device separately from any PLC or auxiliary supply.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State thermal threshold",
+    "Identify reset characteristic",
+    "Reference mounted location"
+  ],
+  "distinction": "A self-operating thermal switch is not the same as a powered temperature monitoring relay.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Pressure and Temperature Switches; published form: Thermal Switch Normally Closed, Self-operating."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HTS12S59C. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-fb8b55db-cba8-4a86-b8d1-aa59012f1a8e",
+      "relevance": "Public IEEE-oriented Pressure and Temperature Switches table explicitly lists HTS12S59C as Thermal Switch Normally Closed, Self-operating. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "self-operating-thermal-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-self-operating-thermal-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Thermal Switch Normally Closed, Self-operating",
+    "reference": "Autodesk IEEE Symbol Preview: Pressure and Temperature Switches, block HTS12S59C. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "self-operating-thermal-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-self-operating-thermal-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-self-operating-thermal-switch.svg",
+  "id": "ansi-self-operating-thermal-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-self-operating-thermal-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-self-operating-thermal-switch.json",
+  "svgPath": "artwork/svg/ansi-self-operating-thermal-switch.svg",
+  "referencePath": "references/ansi-self-operating-thermal-switch.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-fb8b55db-cba8-4a86-b8d1-aa59012f1a8e",
+      "title": "Autodesk IEEE Symbol Preview — Pressure and Temperature Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-FB8B55DB-CBA8-4A86-B8D1-AA59012F1A8E.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Pressure and Temperature Switches table explicitly lists HTS12S59C as Thermal Switch Normally Closed, Self-operating. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

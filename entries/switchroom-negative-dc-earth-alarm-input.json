@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-negative-dc-earth-alarm-input",
+  "name": "Switchroom negative-DC earth alarm input",
+  "kind": "symbol",
+  "abbreviation": "SNEAI",
+  "aliases": [
+    "Switchroom DC interfaces and alarm collection",
+    "switchrooms Switchroom DC interfaces and alarm collection",
+    "switchrooms",
+    "Switchrooms",
+    "DC insulation-monitor output",
+    "Negative-side earth indication"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the insulation-monitor indication associated with the negative side of the assigned DC system.",
+  "description": [
+    "Receives the insulation-monitor indication associated with the negative side of the assigned DC system. A room DC interface connects station battery distribution, alarm contacts and operating circuits. DC supplies may remain energized when the room's normal AC supply is unavailable, so their source and distribution boundaries must be shown separately.",
+    "In a switchroom, the station battery can continue supplying protection and breaker controls during an AC supply interruption. The alarm system should distinguish charger loss from a low battery condition. For this reference, the drawing identifies “DC insulation-monitor output” at the input and “Negative-side earth indication” at the output. Alarm polarity depends on the monitoring implementation.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: DC insulation-monitor output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Negative-side earth indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Alarm polarity depends on the monitoring implementation.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for dc insulation-monitor output.",
+    "Identify the destination and defined state of negative-side earth indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Alarm polarity depends on the monitoring implementation."
+  ],
+  "distinction": "Alarm polarity depends on the monitoring implementation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "DC insulation-monitor output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Negative-side earth indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SNEAI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "battery-charger-controller",
+    "switchroom-charger-failure-input"
+  ],
+  "artwork": "pi26-switchroom-negative-dc-earth-alarm-input",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-dc",
+    "input": "DC insulation-monitor output",
+    "output": "Negative-side earth indication"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-negative-dc-earth-alarm-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-negative-dc-earth-alarm-input.svg",
+  "id": "switchroom-negative-dc-earth-alarm-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-negative-dc-earth-alarm-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-negative-dc-earth-alarm-input.json",
+  "svgPath": "artwork/svg/switchroom-negative-dc-earth-alarm-input.svg",
+  "referencePath": "references/switchroom-negative-dc-earth-alarm-input.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "phasor-measurement-unit",
+  "name": "Phasor measurement unit",
+  "kind": "symbol",
+  "abbreviation": "PMU",
+  "aliases": [
+    "synchrophasor measurement unit",
+    "PMU"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Device that measures voltage and current phasors with precise time stamps so angles can be compared across a network.",
+  "description": [
+    "A phasor measurement unit samples voltages and currents and calculates magnitude and phase angle referenced to an absolute time source, normally GPS. Data from many PMUs can then be compared to see angle differences across a network, oscillations and islanding.",
+    "On a single-line diagram the PMU is drawn with its CT and VT inputs and a time input. The symbol does not show reporting rate, the communications path to a data concentrator or the measurement class, which together determine whether the data suits protection, control or monitoring."
+  ],
+  "readingNotes": [
+    "Check the time synchronisation input.",
+    "Trace CT and VT inputs to the measuring point."
+  ],
+  "drawingChecklist": [
+    "Show time source",
+    "State reporting rate",
+    "Reference data concentrator link"
+  ],
+  "distinction": "A PMU reports time-aligned phasors; a phase-angle meter shows a local angle between two inputs.",
+  "facts": [
+    {
+      "label": "Output",
+      "value": "Time-stamped voltage and current phasors"
+    },
+    {
+      "label": "Time source",
+      "value": "Usually GPS-derived"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-product-catalog",
+      "relevance": "Public product guide covering synchrophasor-capable devices."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE standards context; the PMU block is a functional illustration only."
+    }
+  ],
+  "related": [
+    "phase-angle-meter",
+    "multifunction-power-meter",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-phasor-measurement-unit",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/phasor-measurement-unit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/phasor-measurement-unit.svg",
+  "id": "phasor-measurement-unit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/phasor-measurement-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/phasor-measurement-unit.json",
+  "svgPath": "artwork/svg/phasor-measurement-unit.svg",
+  "referencePath": "references/phasor-measurement-unit.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-product-catalog",
+      "title": "SEL 2022 Product and Solution Guide: published protection function tables",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/api/download/136012",
+      "type": "manufacturer",
+      "scope": "Public historical product guide documenting 21P phase distance and 21G ground distance mappings among other line-protection functions. Referenced for terminology, not current product availability or a product recommendation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public product guide covering synchrophasor-capable devices."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE standards context; the PMU block is a functional illustration only."
+    }
+  ]
+}

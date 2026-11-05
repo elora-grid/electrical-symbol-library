@@ -1,0 +1,104 @@
+{
+  "slug": "iec-cable-transition-joint",
+  "name": "Cable transition joint",
+  "kind": "symbol",
+  "abbreviation": "J",
+  "aliases": [
+    "transition joint",
+    "paper to polymeric joint",
+    "mixed cable joint"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A joint connecting two different cable types, such as paper-insulated to polymeric or land cable to submarine cable.",
+  "description": [
+    "A transition joint joins cables of different construction, for example a legacy paper-insulated lead-sheathed cable to a modern XLPE cable, or a submarine cable to a land cable at a landfall. The drawing distinguishes it from an ordinary joint because the two sides have different ratings, impedances and maintenance requirements.",
+    "The symbol does not tell you the rating of each side. The circuit rating is set by the weaker section, so readers should check the cable data on both sides of the transition. Screen and sheath bonding at transitions often changes arrangement and should be read from the bonding diagram."
+  ],
+  "readingNotes": [
+    "Compare cable types and ratings on both sides of the transition.",
+    "Check bonding changes at the transition."
+  ],
+  "drawingChecklist": [
+    "Identify both cable types at the joint.",
+    "Rate the circuit on the weaker section.",
+    "Show screen and sheath bonding at the transition."
+  ],
+  "distinction": "A transition joint joins dissimilar cables; a straight-through joint joins two lengths of the same type.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Joint mark with differing line styles either side"
+    },
+    {
+      "label": "Typical use",
+      "value": "Legacy cable replacements and submarine landfalls"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for underground cable joints and transitions."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-cable-straight-through-joint",
+    "iec-underwater-cable",
+    "ga-cable-joint"
+  ],
+  "artwork": "s28-iec-cable-transition-joint",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Transition cable joint",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-cable-transition-joint",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-cable-transition-joint.svg",
+  "id": "iec-cable-transition-joint",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-transition-joint",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-cable-transition-joint.json",
+  "svgPath": "artwork/svg/iec-cable-transition-joint.svg",
+  "referencePath": "references/iec-cable-transition-joint.md",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for underground cable joints and transitions."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-operating-constraint-alarm-summary",
+  "name": "Microgrid operating-constraint alarm summary",
+  "kind": "symbol",
+  "abbreviation": "MOAS",
+  "aliases": [
+    "Microgrid supervisory and communication interfaces",
+    "microgrids Microgrid supervisory and communication interfaces",
+    "microgrids",
+    "Microgrids",
+    "Named operating constraints",
+    "Constraint summary indication"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Collects the active resource and site constraints affecting the selected control objective.",
+  "description": [
+    "Collects the active resource and site constraints affecting the selected control objective. Microgrid supervision coordinates measurements, control authority and resource communication without replacing local protection. Each resource value needs a named measurement boundary, freshness condition and intended control use.",
+    "In a microgrid control room, the operator can see source availability, active constraints and current operating mode. A communication failure should remain distinguishable from an electrical resource failure. For this reference, the drawing identifies “Named operating constraints” at the input and “Constraint summary indication” at the output. The individual limiting causes should remain visible.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Named operating constraints. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Constraint summary indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The individual limiting causes should remain visible.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for named operating constraints.",
+    "Identify the destination and defined state of constraint summary indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The individual limiting causes should remain visible."
+  ],
+  "distinction": "The individual limiting causes should remain visible. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Named operating constraints"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Constraint summary indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MOAS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "sequence-of-events-recorder",
+    "microgrid-resource-availability-summary"
+  ],
+  "artwork": "pi26-microgrid-operating-constraint-alarm-summary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-monitoring",
+    "input": "Named operating constraints",
+    "output": "Constraint summary indication"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-operating-constraint-alarm-summary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-operating-constraint-alarm-summary.svg",
+  "id": "microgrid-operating-constraint-alarm-summary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-operating-constraint-alarm-summary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-operating-constraint-alarm-summary.json",
+  "svgPath": "artwork/svg/microgrid-operating-constraint-alarm-summary.svg",
+  "referencePath": "references/microgrid-operating-constraint-alarm-summary.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

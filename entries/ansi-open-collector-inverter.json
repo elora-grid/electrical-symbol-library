@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-open-collector-inverter",
+  "name": "ANSI open-collector inverter",
+  "kind": "symbol",
+  "abbreviation": "OC-NOT",
+  "aliases": [
+    "open-drain inverter",
+    "inverter with open-collector output",
+    "open-collector NOT gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Inverter triangle with output bubble and an open-circuit mark, needing an external pull-up to produce a high level.",
+  "description": [
+    "This is an inverter whose output transistor can only pull low. On distinctive-shape schematics the triangle and bubble are retained and an open-collector or open-drain mark, often the underlined diamond, is placed inside or beside the outline. A pull-up resistor or load to a supply completes the circuit.",
+    "Open-drain inverters are used to drive indicator LEDs, relay inputs and shared interrupt or alarm lines, and to translate to a higher pull-up voltage within the device rating. The schematic should show the pull-up value and its supply rail next to the gate.",
+    "The output state with no pull-up is undefined when the transistor is off. A drawing that omits the pull-up is incomplete even though the gate symbol is correct."
+  ],
+  "readingNotes": [
+    "Find the pull-up or load; without it the high level is undefined.",
+    "Check whether the output is shared with other open-collector outputs."
+  ],
+  "drawingChecklist": [
+    "Mark the open-collector or open-drain output.",
+    "Show the pull-up and its supply.",
+    "Record the maximum output voltage and sink current from the datasheet."
+  ],
+  "distinction": "The non-inverting open-collector buffer has no output bubble.",
+  "facts": [
+    {
+      "label": "Output stage",
+      "value": "Open collector or open drain"
+    },
+    {
+      "label": "External part",
+      "value": "Pull-up resistor or load"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc05",
+      "relevance": "Manufacturer documentation for inverters with open-drain outputs."
+    },
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Open-collector output qualifier."
+    }
+  ],
+  "related": [
+    "open-collector-buffer",
+    "ansi-wired-and-connection",
+    "logic-inverter"
+  ],
+  "artwork": "s28-ansi-open-collector-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Inverter triangle with bubble and open-circuit output marking",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-open-collector-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-open-collector-inverter.svg",
+  "id": "ansi-open-collector-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-open-collector-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-open-collector-inverter.json",
+  "svgPath": "artwork/svg/ansi-open-collector-inverter.svg",
+  "referencePath": "references/ansi-open-collector-inverter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc05",
+      "title": "SNx4HC05 hex inverters with open-drain outputs",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for inverters with open-drain outputs.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for inverters with open-drain outputs."
+    },
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Open-collector output qualifier."
+    }
+  ]
+}

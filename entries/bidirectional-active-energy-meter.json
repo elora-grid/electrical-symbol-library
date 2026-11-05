@@ -1,0 +1,100 @@
+{
+  "slug": "bidirectional-active-energy-meter",
+  "name": "Bidirectional active-energy meter",
+  "kind": "symbol",
+  "abbreviation": "kWh",
+  "aliases": [
+    "import/export energy meter",
+    "net meter",
+    "two-quadrant kWh meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Energy meter with separate registers for energy flowing in each direction, as used at generation and solar connection points.",
+  "description": [
+    "A bidirectional meter records active energy in both directions on separate registers, usually labelled import and export. It is the normal meter at connection points with generation, batteries or solar, where energy flows to and from the network at different times of day.",
+    "Arrows on the symbol show the two directions, but what counts as import depends on where the meter sits and on the CT polarity. A reversed CT swaps the registers without any visible fault, so the direction convention must be checked against commissioning results."
+  ],
+  "readingNotes": [
+    "Confirm which register is import and which is export.",
+    "Check CT polarity against the stated direction."
+  ],
+  "drawingChecklist": [
+    "Define import direction",
+    "Show CT polarity",
+    "Reference metering point"
+  ],
+  "distinction": "A bidirectional meter keeps separate import and export registers; a net register only keeps the difference.",
+  "facts": [
+    {
+      "label": "Registers",
+      "value": "Import and export active energy"
+    },
+    {
+      "label": "Typical use",
+      "value": "Generation, storage and solar connection points"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    },
+    {
+      "sourceId": "public-power-quality-meter",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    }
+  ],
+  "related": [
+    "active-energy-meter",
+    "integrating-instrument-general-symbol",
+    "energy-meter-with-pulse-transmitter"
+  ],
+  "artwork": "s28-bidirectional-active-energy-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bidirectional-active-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bidirectional-active-energy-meter.svg",
+  "id": "bidirectional-active-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bidirectional-active-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bidirectional-active-energy-meter.json",
+  "svgPath": "artwork/svg/bidirectional-active-energy-meter.svg",
+  "referencePath": "references/bidirectional-active-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    },
+    {
+      "id": "public-power-quality-meter",
+      "title": "PowerLogic ION9000 user manual",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/26719674/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer documentation for the installation, operation and configuration of an advanced energy and power-quality meter. Exact functions and terminals depend on the selected model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    }
+  ]
+}

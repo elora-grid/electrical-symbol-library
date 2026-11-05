@@ -1,0 +1,87 @@
+{
+  "slug": "supply-voltage-supervisor",
+  "name": "Supply voltage supervisor",
+  "kind": "symbol",
+  "abbreviation": "SVS",
+  "aliases": [
+    "Supply voltage supervisor",
+    "Supply voltage supervisor functional block",
+    "Supply voltage supervisor schematic reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A voltage supervisor checks a supply against specified conditions and produces a status or reset signal.",
+  "description": [
+    "A voltage supervisor checks a supply against specified conditions and produces a status or reset signal.",
+    "A controller can be held in reset until its monitored supply reaches the required condition.",
+    "Connect the monitored rail to the supervisor’s sensing input and label the reset or status output separately. A supervisor checks supply conditions; it does not necessarily regulate the supply itself. Show the output’s destination and the selected assertion/release behaviour. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the monitored rail and sensing reference.",
+    "Label reset or status output and its destination.",
+    "Reference threshold, delay and output electrical behaviour.",
+    "A supervisor reports or acts on a condition; it is not necessarily the regulator maintaining the voltage."
+  ],
+  "drawingChecklist": [
+    "Identify the monitored rail and sensing reference.",
+    "Label reset or status output and its destination.",
+    "Reference threshold, delay and output electrical behaviour."
+  ],
+  "distinction": "A supervisor reports or acts on a condition; it is not necessarily the regulator maintaining the voltage.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Monitored supply voltage"
+    },
+    {
+      "label": "Concept output",
+      "value": "Reset or status output"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-supervisor",
+      "relevance": "Supply supervision and reset: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "watchdog-timer",
+    "power-good-indication",
+    "window-voltage-supervisor",
+    "power-converter"
+  ],
+  "artwork": "expanded-supply-voltage-supervisor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/supply-voltage-supervisor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/supply-voltage-supervisor.svg",
+  "id": "supply-voltage-supervisor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/supply-voltage-supervisor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/supply-voltage-supervisor.json",
+  "svgPath": "artwork/svg/supply-voltage-supervisor.svg",
+  "referencePath": "references/supply-voltage-supervisor.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-supervisor",
+      "title": "Supply supervision and reset",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/supervisor-reset-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Supply supervision and reset: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

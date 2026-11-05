@@ -1,0 +1,104 @@
+{
+  "slug": "iec-manual-call-point-plan-symbol",
+  "name": "Manual call point plan symbol",
+  "kind": "symbol",
+  "abbreviation": "MCP",
+  "aliases": [
+    "break glass call point",
+    "fire alarm call point",
+    "manual fire alarm button"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Fire alarm plan symbol for a manual call point that occupants operate to raise the alarm, placed at exits.",
+  "description": [
+    "Manual call points, often break-glass or resettable push units, are drawn as a square with a filled or crossed inner square, or a circle with a dot, at their wall position. They are placed at storey exits and exits to open air so a person leaving can raise the alarm.",
+    "Mounting height and travel distance to the nearest call point are set by the fire code. The plan allows inspectors to check these quickly.",
+    "The symbol does not show whether the unit is resettable or break-glass, or whether it has a protective cover. The schedule states this."
+  ],
+  "readingNotes": [
+    "Check positions at each exit.",
+    "Check travel distance coverage."
+  ],
+  "drawingChecklist": [
+    "Tag loop and address.",
+    "State unit type and cover.",
+    "Give mounting height."
+  ],
+  "distinction": "A bell push or assistance call button looks similar on a plan; the call point belongs to the fire alarm system.",
+  "facts": [
+    {
+      "label": "Placement",
+      "value": "Storey exits and final exits"
+    },
+    {
+      "label": "Operation",
+      "value": "Break-glass or resettable element"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "iec-fire-alarm-sounder-plan-symbol",
+    "ansi-manual-fire-alarm-station",
+    "iec-push-button-plan-mark"
+  ],
+  "artwork": "s28-iec-manual-call-point-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Manual call point",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-manual-call-point-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-manual-call-point-plan-symbol.svg",
+  "id": "iec-manual-call-point-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-manual-call-point-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-manual-call-point-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-manual-call-point-plan-symbol.svg",
+  "referencePath": "references/iec-manual-call-point-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

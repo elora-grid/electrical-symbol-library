@@ -1,0 +1,105 @@
+{
+  "slug": "bypass-isolation-transfer-switch",
+  "name": "Bypass-isolation transfer switch",
+  "kind": "symbol",
+  "abbreviation": "BP/ATS",
+  "aliases": [
+    "bypass isolation ATS",
+    "ATS with bypass",
+    "maintenance bypass transfer switch"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An automatic transfer switch paired with a manual bypass switch so the ATS can be isolated for maintenance without losing the load.",
+  "description": [
+    "A bypass-isolation transfer switch combines an automatic transfer switch with a parallel manual bypass switch. The bypass can connect the load directly to either source while the automatic switch is withdrawn or isolated, so maintenance and testing can proceed without interrupting critical loads such as hospital or emergency circuits.",
+    "Single-line diagrams draw the automatic changeover in one path and a manually operated changeover in parallel, with isolating contacts on the automatic unit. Interlocks prevent the bypass from connecting the load to a source different from the one the automatic switch is using at the moment of bypass.",
+    "The symbol does not show the interlock sequence or whether the bypass operation is load-break. Operators need the switching procedure to use it safely."
+  ],
+  "readingNotes": [
+    "Identify the isolating contacts that allow the automatic unit to be withdrawn.",
+    "Bypass and automatic paths should be interlocked."
+  ],
+  "drawingChecklist": [
+    "State ratings for both paths.",
+    "Show isolation contacts and interlocks.",
+    "Reference bypass procedure."
+  ],
+  "distinction": "A bypass-isolation switch adds a manual path around the ATS; a plain ATS must be de-energised for maintenance.",
+  "facts": [
+    {
+      "label": "Paths",
+      "value": "Automatic and manual bypass"
+    },
+    {
+      "label": "Purpose",
+      "value": "Maintenance without load loss"
+    },
+    {
+      "label": "Interlocks",
+      "value": "Source matching between paths"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public transfer switch fundamentals."
+    },
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public generator switchgear context."
+    }
+  ],
+  "related": [
+    "automatic-transfer-switch",
+    "manual-transfer-switch",
+    "transfer-switch",
+    "ups-maintenance-bypass"
+  ],
+  "artwork": "s28-bypass-isolation-transfer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bypass-isolation-transfer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bypass-isolation-transfer-switch.svg",
+  "id": "bypass-isolation-transfer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bypass-isolation-transfer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bypass-isolation-transfer-switch.json",
+  "svgPath": "artwork/svg/bypass-isolation-transfer-switch.svg",
+  "referencePath": "references/bypass-isolation-transfer-switch.md",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transfer switch fundamentals."
+    },
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator switchgear context."
+    }
+  ]
+}

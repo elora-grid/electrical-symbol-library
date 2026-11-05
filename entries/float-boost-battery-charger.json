@@ -1,0 +1,106 @@
+{
+  "slug": "float-boost-battery-charger",
+  "name": "Float and boost battery charger",
+  "kind": "symbol",
+  "abbreviation": "BC",
+  "aliases": [
+    "station battery charger",
+    "float-boost charger",
+    "rectifier charger"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A rectifier charger that holds a stationary battery at float voltage and can apply a higher boost or equalise voltage.",
+  "description": [
+    "A float and boost charger is the rectifier that maintains a stationary battery, typically for switchgear tripping supplies, telecom or a microgrid DC bus. In float mode it supplies the standing DC load and a small trickle current, while boost or equalise mode raises the voltage to recharge the battery quickly after a discharge or to equalise lead-acid cells.",
+    "Drawings show a rectifier block with an AC input breaker, DC output to the battery and the DC distribution board, and often a blocking diode or dropping diode chain to keep load voltage within limits during boost. Alarm contacts for charger failure, earth fault and low voltage are drawn on the control schematic.",
+    "The symbol does not state the current limit, whether the charger alone can carry the full load without the battery, or temperature compensation of float voltage. These matter for sizing and for battery life, so they must be in the specification."
+  ],
+  "readingNotes": [
+    "Look for voltage-dropping diodes that protect loads during boost charging.",
+    "Check whether two chargers share one battery for redundancy."
+  ],
+  "drawingChecklist": [
+    "State float and boost voltages and current rating.",
+    "Show AC supply, battery and load connections.",
+    "Reference alarms and temperature compensation."
+  ],
+  "distinction": "A station charger is a power rectifier supplying load and battery; a battery charger controller is an integrated circuit inside smaller equipment.",
+  "facts": [
+    {
+      "label": "Modes",
+      "value": "Float, boost or equalise"
+    },
+    {
+      "label": "Supplies",
+      "value": "Battery and standing DC load"
+    },
+    {
+      "label": "Typical alarms",
+      "value": "Charger fail, earth fault, low voltage"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-skylla-ip65",
+      "relevance": "Public battery charger documentation context."
+    },
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public DC supply and UPS function context."
+    }
+  ],
+  "related": [
+    "battery-charger-controller",
+    "ansi-battery",
+    "ga-battery-charger",
+    "dc-uninterruptible-power-supply"
+  ],
+  "artwork": "s28-float-boost-battery-charger",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/float-boost-battery-charger",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/float-boost-battery-charger.svg",
+  "id": "float-boost-battery-charger",
+  "canonicalUrl": "https://eloragrid.ai/symbols/float-boost-battery-charger",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/float-boost-battery-charger.json",
+  "svgPath": "artwork/svg/float-boost-battery-charger.svg",
+  "referencePath": "references/float-boost-battery-charger.md",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-skylla-ip65",
+      "title": "Skylla-IP65 official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/chargers/skylla-ip65",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public battery charger documentation context."
+    },
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public DC supply and UPS function context."
+    }
+  ]
+}

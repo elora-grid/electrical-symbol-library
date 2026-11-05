@@ -1,0 +1,99 @@
+{
+  "slug": "inverse-time-characteristic-qualifier",
+  "name": "Inverse-time characteristic qualifier",
+  "kind": "symbol",
+  "abbreviation": "IDMT",
+  "aliases": [
+    "inverse time qualifier",
+    "IDMT marking",
+    "dependent-time qualifier"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Qualifier showing that a measuring relay's operating time falls as the measured quantity rises above its setting.",
+  "description": [
+    "The inverse-time qualifier marks a measuring element whose operating time depends on how far the measured quantity exceeds the setting: the larger the overcurrent, the faster the trip. On drawings it appears with overcurrent and earth-fault elements that are graded against fuses and downstream relays.",
+    "The qualifier does not name the curve. Standard inverse, very inverse and extremely inverse curves grade very differently, and the curve type, time multiplier and pick-up current must be taken from the protection settings."
+  ],
+  "readingNotes": [
+    "Identify the curve type from the settings record.",
+    "Read with the grading study for the feeder."
+  ],
+  "drawingChecklist": [
+    "State curve type",
+    "State time multiplier",
+    "Reference grading study"
+  ],
+  "distinction": "An inverse-time qualifier marks a current-dependent delay; a definite-time qualifier marks a fixed delay.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Operating time falls as the quantity rises"
+    },
+    {
+      "label": "Typical use",
+      "value": "Overcurrent and earth-fault grading"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Public explanation of time-current characteristics used in protective devices."
+    }
+  ],
+  "related": [
+    "definite-time-delay-measuring-qualifier",
+    "51-time-overcurrent",
+    "maximum-current-monitoring-relay"
+  ],
+  "artwork": "s28-inverse-time-characteristic-qualifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/inverse-time-characteristic-qualifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/inverse-time-characteristic-qualifier.svg",
+  "id": "inverse-time-characteristic-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/inverse-time-characteristic-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/inverse-time-characteristic-qualifier.json",
+  "svgPath": "artwork/svg/inverse-time-characteristic-qualifier.svg",
+  "referencePath": "references/inverse-time-characteristic-qualifier.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of time-current characteristics used in protective devices."
+    }
+  ]
+}

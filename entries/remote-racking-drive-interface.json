@@ -1,0 +1,105 @@
+{
+  "slug": "remote-racking-drive-interface",
+  "name": "Remote-racking drive interface",
+  "kind": "symbol",
+  "abbreviation": "RDI",
+  "aliases": [
+    "Switching-device operating references",
+    "switchgear Switching-device operating references",
+    "switchgear",
+    "Switchgear",
+    "Racking command and readiness",
+    "Racking-drive action"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the command and feedback connection of a manufacturer-provided racking drive.",
+  "description": [
+    "Shows the command and feedback connection of a manufacturer-provided racking drive. A switching-device operating reference adds the specific mechanism or duty context needed to interpret its place in a power circuit. The same basic switching outline can serve different equipment constructions, so the added description must remain attached to its device tag.",
+    "In a medium-voltage switchgear drawing, the operating reference helps the reader distinguish the interrupting device from its isolation, earthing and auxiliary-control interfaces. For this reference, the drawing identifies “Racking command and readiness” at the input and “Racking-drive action” at the output. Remote operation does not remove equipment interlocks.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Racking command and readiness. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Racking-drive action. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Remote operation does not remove equipment interlocks.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for racking command and readiness.",
+    "Identify the destination and defined state of racking-drive action.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Remote operation does not remove equipment interlocks."
+  ],
+  "distinction": "Remote operation does not remove equipment interlocks. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Racking command and readiness"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Racking-drive action"
+    },
+    {
+      "label": "Lookup label",
+      "value": "RDI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-breaker-products",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "disconnector",
+    "load-break-switch-motor-operator"
+  ],
+  "artwork": "pi26-remote-racking-drive-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "device-functions",
+    "input": "Racking command and readiness",
+    "output": "Racking-drive action"
+  },
+  "url": "https://eloragrid.ai/symbols/remote-racking-drive-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/remote-racking-drive-interface.svg",
+  "id": "remote-racking-drive-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/remote-racking-drive-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/remote-racking-drive-interface.json",
+  "svgPath": "artwork/svg/remote-racking-drive-interface.svg",
+  "referencePath": "references/remote-racking-drive-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-breaker-products",
+      "publisher": "Siemens Energy",
+      "title": "High-voltage circuit breakers",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/circuit-breakers.html",
+      "scope": "Circuit-breaker construction and interruption families.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

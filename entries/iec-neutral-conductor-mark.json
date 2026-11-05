@@ -1,0 +1,104 @@
+{
+  "slug": "iec-neutral-conductor-mark",
+  "name": "Neutral conductor mark",
+  "kind": "symbol",
+  "abbreviation": "N",
+  "aliases": [
+    "N conductor marking",
+    "neutral line mark",
+    "neutral tick"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A mark on a single-line conductor group identifying which conductor is the neutral, often drawn as a small circle on a stroke.",
+  "description": [
+    "When a single line represents a group of conductors, one of them can be identified as the neutral with a distinct mark on its stroke, together with the letter N where clarity requires. This lets a single-line diagram tell a three-phase three-wire feeder from a three-phase four-wire feeder without expanding to multi-line form.",
+    "The mark identifies the neutral but does not say whether the neutral is fully rated, reduced or oversized for harmonic loading. It also does not show where the neutral is earthed. System earthing is a separate decision shown at the source, for example a star point to earth connection or a neutral earthing resistor."
+  ],
+  "readingNotes": [
+    "Check whether the feeder carries a neutral before assuming four-wire loads are supported.",
+    "Look at the source to see how the neutral is earthed."
+  ],
+  "drawingChecklist": [
+    "Mark the neutral on each four-wire feeder.",
+    "State neutral sizing where it differs from phase conductors.",
+    "Show neutral switching or links where the scheme requires them."
+  ],
+  "distinction": "A neutral mark identifies the N conductor; a PEN mark identifies a combined neutral and protective conductor with different switching rules.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Distinct tick or small circle on one stroke of a conductor group"
+    },
+    {
+      "label": "Letter code",
+      "value": "N"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of earthing schemes and the role of the neutral conductor."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-pen-conductor-mark",
+    "iec-protective-conductor-mark",
+    "star-winding-with-accessible-neutral"
+  ],
+  "artwork": "s28-iec-neutral-conductor-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Neutral conductor identification on a conductor group",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-neutral-conductor-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-neutral-conductor-mark.svg",
+  "id": "iec-neutral-conductor-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-neutral-conductor-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-neutral-conductor-mark.json",
+  "svgPath": "artwork/svg/iec-neutral-conductor-mark.svg",
+  "referencePath": "references/iec-neutral-conductor-mark.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of earthing schemes and the role of the neutral conductor."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

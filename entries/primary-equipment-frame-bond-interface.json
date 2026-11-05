@@ -1,0 +1,105 @@
+{
+  "slug": "primary-equipment-frame-bond-interface",
+  "name": "Primary equipment frame-bond interface",
+  "kind": "symbol",
+  "abbreviation": "PEFI",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Equipment metal frame",
+    "Defined earth-grid connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the assigned bond between the selected primary equipment frame and the earth grid.",
+  "description": [
+    "Shows the assigned bond between the selected primary equipment frame and the earth grid. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Equipment metal frame” at the input and “Defined earth-grid connection” at the output. Electrical bonding and mechanical support are different functions.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Equipment metal frame. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined earth-grid connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Electrical bonding and mechanical support are different functions.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for equipment metal frame.",
+    "Identify the destination and defined state of defined earth-grid connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Electrical bonding and mechanical support are different functions."
+  ],
+  "distinction": "Electrical bonding and mechanical support are different functions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Equipment metal frame"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined earth-grid connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PEFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "surge-arrester-earth-lead-interface"
+  ],
+  "artwork": "pi26-primary-equipment-frame-bond-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Equipment metal frame",
+    "output": "Defined earth-grid connection"
+  },
+  "url": "https://eloragrid.ai/symbols/primary-equipment-frame-bond-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/primary-equipment-frame-bond-interface.svg",
+  "id": "primary-equipment-frame-bond-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/primary-equipment-frame-bond-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/primary-equipment-frame-bond-interface.json",
+  "svgPath": "artwork/svg/primary-equipment-frame-bond-interface.svg",
+  "referencePath": "references/primary-equipment-frame-bond-interface.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

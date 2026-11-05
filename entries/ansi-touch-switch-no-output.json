@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-touch-switch-no-output",
+  "name": "ANSI/IEEE Touch-switch NO output form",
+  "kind": "symbol",
+  "abbreviation": "HPX11TS",
+  "aliases": [
+    "HPX11TS",
+    "VPX11TS",
+    "IEEE Touch Sense Proximity Switch, Normally Open",
+    "ANSI Touch-switch NO output"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of touch-switch no output: this form identifies a normally-open touch-switch output.",
+  "description": [
+    "This reference locates touch-switch no output in Autodesk's IEEE-oriented touch switches family. This form identifies a normally-open touch-switch output. The public library uses HPX11TS for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Describe the contact/output reference state and the operating touch condition. The normal-state label does not identify sensing technology or safety performance. Describe the contact/output reference state and the operating touch condition. The normal-state label does not identify sensing technology or safety performance. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Describe the contact/output reference state and the operating touch condition.",
+    "The normal-state label does not identify sensing technology or safety performance."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Describe the contact/output reference state and the operating touch condition.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The normal-state label does not identify sensing technology or safety performance.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Touch Switches; published form: Touch Sense Proximity Switch, Normally Open."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX11TS. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Describe the contact/output reference state and the operating touch condition."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-touch-switches",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX11TS as Touch Sense Proximity Switch, Normally Open. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-touch-switch-no-output",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-touch-switch-no-output",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Touch Sense Proximity Switch, Normally Open",
+    "reference": "Autodesk IEEE Symbol Preview: Touch Switches, block HPX11TS. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-touch-switch-no-output"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-touch-switch-no-output",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-touch-switch-no-output.svg",
+  "id": "ansi-touch-switch-no-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-touch-switch-no-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-touch-switch-no-output.json",
+  "svgPath": "artwork/svg/ansi-touch-switch-no-output.svg",
+  "referencePath": "references/ansi-touch-switch-no-output.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-touch-switches",
+      "title": "Autodesk IEEE Symbol Preview: Touch Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-75D5D41D-60B5-4D57-852E-D4422F14F392.htm",
+      "type": "cad-reference",
+      "scope": "Public touch switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX11TS as Touch Sense Proximity Switch, Normally Open. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-star-zigzag-transformer",
+  "name": "ANSI/IEEE Star-zigzag transformer form",
+  "kind": "symbol",
+  "abbreviation": "TX Y-Z",
+  "aliases": [
+    "HXF1T12",
+    "VXF1T12",
+    "IEEE 3 Phase Star/Zigzag",
+    "ANSI Star-zigzag transformer"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of star-zigzag transformer: a star-zigzag transformer combines a star-connected winding set with a zigzag-connected set.",
+  "description": [
+    "This reference locates star-zigzag transformer in Autodesk's IEEE-oriented 3 phase transformers family. A star-zigzag transformer combines a star-connected winding set with a zigzag-connected set. Its winding arrangement and neutral duties require the manufacturer's complete connection designation. The public library uses HXF1T12 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Read the zigzag terminal arrangement from the selected transformer diagram. A zigzag connection is not another spelling of a simple star winding. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Read the zigzag terminal arrangement from the selected transformer diagram.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record connection designation",
+    "Identify neutral terminal",
+    "Reference winding ratings"
+  ],
+  "distinction": "A zigzag connection is not another spelling of a simple star winding.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Phase Transformers; published form: 3 Phase Star/Zigzag."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HXF1T12. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-3-phase-transformers",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T12 as 3 Phase Star/Zigzag. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "star-zigzag-transformer",
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-star-zigzag-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Star/Zigzag",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Phase Transformers, block HXF1T12. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "star-zigzag-transformer"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-star-zigzag-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-star-zigzag-transformer.svg",
+  "id": "ansi-star-zigzag-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-star-zigzag-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-star-zigzag-transformer.json",
+  "svgPath": "artwork/svg/ansi-star-zigzag-transformer.svg",
+  "referencePath": "references/ansi-star-zigzag-transformer.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-3-phase-transformers",
+      "title": "Autodesk IEEE Symbol Preview: 3 Phase Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EE75A5D4-8CBD-4E78-94A3-226A94E61817.htm",
+      "type": "cad-reference",
+      "scope": "Public 3 phase transformers family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T12 as 3 Phase Star/Zigzag. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

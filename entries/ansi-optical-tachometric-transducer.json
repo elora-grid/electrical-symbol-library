@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-optical-tachometric-transducer",
+  "name": "ANSI/IEEE optical tachometric dynamo symbol",
+  "kind": "symbol",
+  "abbreviation": "TO",
+  "aliases": [
+    "IEEE optical speed sensor symbol",
+    "ANSI optical tachometer symbol",
+    "HIN1B13"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library optical tacho form for a speed sensor reading a slotted disc or reflective mark with light.",
+  "description": [
+    "The optical form represents a speed sensor that detects light interrupted by a slotted disc or reflected from a mark on the shaft. It is common on encoders and non-contact speed checks, and its output is normally a pulse train passed to a counter, drive or speed relay.",
+    "Optical sensors need a supply for the light source and are sensitive to dirt and alignment. The symbol does not show resolution, supply voltage or output stage type, so those details should be taken from the sensor data and the receiving input."
+  ],
+  "readingNotes": [
+    "Check supply and output stage type against the receiving input.",
+    "Note resolution in pulses per revolution."
+  ],
+  "drawingChecklist": [
+    "State resolution",
+    "Show sensor supply",
+    "Reference the counting input"
+  ],
+  "distinction": "The optical form identifies a light-based pickup; the impulse form identifies a pulse output without fixing the sensing principle.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1B13 / VIN1B13 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Sensing principle",
+      "value": "Interrupted or reflected light"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Tachometric Dynamo - Optical Type block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-optical-tachometric-transducer",
+    "ansi-impulse-tachometric-transducer",
+    "ansi-tachometer"
+  ],
+  "artwork": "s28-ansi-optical-tachometric-transducer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Tachometric Dynamo - Optical Type",
+    "counterpart": "iec-optical-tachometric-transducer",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-optical-tachometric-transducer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-optical-tachometric-transducer.svg",
+  "id": "ansi-optical-tachometric-transducer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-optical-tachometric-transducer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-optical-tachometric-transducer.json",
+  "svgPath": "artwork/svg/ansi-optical-tachometric-transducer.svg",
+  "referencePath": "references/ansi-optical-tachometric-transducer.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Tachometric Dynamo - Optical Type block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-inductive-proximity-switch",
+  "name": "ANSI/IEEE Inductive proximity switch form",
+  "kind": "symbol",
+  "abbreviation": "PROX IND",
+  "aliases": [
+    "HPX1I",
+    "VPX1I",
+    "IEEE Ferrous",
+    "ANSI Inductive proximity switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of inductive proximity switch: an inductive proximity switch detects a documented target without a mechanical contact actuator.",
+  "description": [
+    "This reference locates inductive proximity switch in Autodesk's IEEE-oriented inductive switches family. An inductive proximity switch detects a documented target without a mechanical contact actuator. The schematic shows its supply and output arrangement, while target distance and material are specified elsewhere. The public library uses HPX1I for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Distinguish a two-wire output path from a three-wire supply and signal arrangement. An inductive proximity switch detects an electromagnetic target interaction, not capacitance or an optical beam. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Distinguish a two-wire output path from a three-wire supply and signal arrangement.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "State output type",
+    "Identify supply and common",
+    "Reference target and sensing distance"
+  ],
+  "distinction": "An inductive proximity switch detects an electromagnetic target interaction, not capacitance or an optical beam.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Inductive Switches; published form: Ferrous."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX1I. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-inductive-switches",
+      "relevance": "Public IEEE-oriented Inductive Switches table explicitly lists HPX1I as Ferrous. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "inductive-proximity-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-inductive-proximity-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Ferrous",
+    "reference": "Autodesk IEEE Symbol Preview: Inductive Switches, block HPX1I. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "inductive-proximity-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-inductive-proximity-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-inductive-proximity-switch.svg",
+  "id": "ansi-inductive-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-inductive-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-inductive-proximity-switch.json",
+  "svgPath": "artwork/svg/ansi-inductive-proximity-switch.svg",
+  "referencePath": "references/ansi-inductive-proximity-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-inductive-switches",
+      "title": "Autodesk IEEE Symbol Preview: Inductive Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-8BB57AEE-EEA3-4ADB-8080-124595C5F63C.htm",
+      "type": "cad-reference",
+      "scope": "Public inductive switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Inductive Switches table explicitly lists HPX1I as Ferrous. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

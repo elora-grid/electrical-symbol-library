@@ -1,0 +1,96 @@
+{
+  "slug": "iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin",
+  "name": "IEC combined photoelectric sensor: normally closed emitter-receiver DC driven 4 pin",
+  "kind": "symbol",
+  "abbreviation": "TX",
+  "aliases": [
+    "HPE12B26",
+    "VPE12B26",
+    "combined photoelectric sensor Normally Closed Emitter-Receiver DC Driven 4 PIN"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Combined photoelectric sensor form: Normally Closed Emitter-Receiver DC Driven 4 PIN.",
+  "description": [
+    "A combined photoelectric sensor contains an emitter and a receiver within the same documented sensing unit. This entry identifies the normally closed emitter-receiver dc driven 4 pin form in the publisher's IEC-context family.",
+    "A reflective sensing arrangement can detect a passing object or a change in returned light and send the result to a control input. The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state. The additional connection points need the actual pin assignment. A fourth or fifth pin may serve an output or control function; pin count alone does not define its purpose.",
+    "This is the DC-supplied form. Preserve supply polarity and confirm the output circuit type from the device wiring diagram. The combined housing does not establish whether a reflector or the target returns the light. Sensing mode, light-on or dark-on selection and pin functions need the selected product diagram."
+  ],
+  "readingNotes": [
+    "The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state.",
+    "The additional connection points need the actual pin assignment. A fourth or fifth pin may serve an output or control function; pin count alone does not define its purpose.",
+    "This is the DC-supplied form. Preserve supply polarity and confirm the output circuit type from the device wiring diagram.",
+    "The combined housing does not establish whether a reflector or the target returns the light. Sensing mode, light-on or dark-on selection and pin functions need the selected product diagram."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the normally closed emitter-receiver dc driven 4 pin detail to the broader combined photoelectric sensor family. The combined housing does not establish whether a reflector or the target returns the light. Sensing mode, light-on or dark-on selection and pin functions need the selected product diagram.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Normally Closed Emitter-Receiver DC Driven 4 PIN"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPE12B26 / VPE12B26. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "combined photoelectric sensor"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-optical-sensors",
+      "relevance": "Public Photoelectric Emitter/Receiver Switches table explicitly lists HPE12B26 / VPE12B26 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "photoelectric-emitter-receiver-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Normally Closed Emitter-Receiver DC Driven 4 PIN",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter/Receiver Switches, HPE12B26 / VPE12B26. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin.svg",
+  "id": "iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin.json",
+  "svgPath": "artwork/svg/iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin.svg",
+  "referencePath": "references/iec-combined-photoelectric-sensor-normally-closed-emitter-receiver-dc-driven-4-pin.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-optical-sensors",
+      "title": "AutoCAD Electrical: Photoelectric emitter/receiver switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-15ABE47A-723F-4004-BF2A-9CC285DE7882.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Photoelectric Emitter/Receiver Switches table explicitly lists HPE12B26 / VPE12B26 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

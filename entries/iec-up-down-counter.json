@@ -1,0 +1,105 @@
+{
+  "slug": "iec-up-down-counter",
+  "name": "IEC up/down counter",
+  "kind": "symbol",
+  "abbreviation": "CTR +/-",
+  "aliases": [
+    "bidirectional counter",
+    "up-down counter IEC form",
+    "reversible counter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC counter whose mode inputs select counting up with + or down with -, drawn with M dependency.",
+  "description": [
+    "An up/down counter is shown with a CTR qualifier and a clock input labelled with both counting directions, for example 2+ and 1- under mode control. A direction input produces M1 and M2 modes, so the same clock counts up in one mode and down in the other. Load and enable functions use further dependency labels.",
+    "Typical applications include position tracking from pulse inputs, reversible totalising and digital set-point adjustment. The drawing should identify the direction source and whether direction may change while clock pulses are present.",
+    "The symbol does not indicate how overflow or underflow is signalled beyond any CT= outputs shown. Check ripple clock or max/min outputs on the device."
+  ],
+  "readingNotes": [
+    "Find the mode input that selects direction.",
+    "Check CT outputs for terminal counts in each direction."
+  ],
+  "drawingChecklist": [
+    "Show both + and - functions with their mode numbers.",
+    "Label the direction input clearly.",
+    "Show cascade outputs for multi-stage counters."
+  ],
+  "distinction": "A single-direction CTR counter shows only + on its clock.",
+  "facts": [
+    {
+      "label": "Direction notation",
+      "value": "+ (up) and - (down) under M dependency"
+    },
+    {
+      "label": "Example device",
+      "value": "Synchronous 4-bit up/down binary counter"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Counting up and down inputs and M dependency."
+    },
+    {
+      "sourceId": "s28-ti-hc191",
+      "relevance": "Manufacturer up/down counter documentation."
+    }
+  ],
+  "related": [
+    "iec-mode-dependency-m",
+    "iec-synchronous-binary-counter",
+    "synchronous-binary-counter"
+  ],
+  "artwork": "s28-iec-up-down-counter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "CTRm element with M dependency selecting count up (+) and count down (-)",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-up-down-counter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-up-down-counter.svg",
+  "id": "iec-up-down-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-up-down-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-up-down-counter.json",
+  "svgPath": "artwork/svg/iec-up-down-counter.svg",
+  "referencePath": "references/iec-up-down-counter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Counting up and down inputs and M dependency."
+    },
+    {
+      "id": "s28-ti-hc191",
+      "title": "SN74HC191 synchronous 4-bit up/down binary counter",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc191.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for a synchronous up/down counter with down/up control.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer up/down counter documentation."
+    }
+  ]
+}

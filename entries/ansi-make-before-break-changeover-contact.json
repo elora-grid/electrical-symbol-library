@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-make-before-break-changeover-contact",
+  "name": "ANSI/IEEE Make-before-break changeover contact form",
+  "kind": "symbol",
+  "abbreviation": "MBB",
+  "aliases": [
+    "HSW1SC7_F",
+    "VSW1SC7_F",
+    "IEEE Transfer Make Before Break Contact",
+    "ANSI Make-before-break changeover contact"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library reference for make-before-break changeover contact, with its operating meaning, connection notes and public vendor block identity.",
+  "description": [
+    "This reference locates make-before-break changeover contact in Autodesk's IEEE-oriented miscellaneous switches family. A make-before-break changeover contact establishes the next path before releasing the previous path during its documented transfer. The temporary overlap must be understood for the connected circuits. The public library uses HSW1SC7_F for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Identify any circuits that would be interconnected during the overlap. A break-before-make transfer opens the previous path before establishing the next. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify any circuits that would be interconnected during the overlap.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label common and throw terminals",
+    "State overlap sequence",
+    "Reference connected-circuit compatibility"
+  ],
+  "distinction": "A break-before-make transfer opens the previous path before establishing the next.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: Transfer Make Before Break Contact."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSW1SC7_F. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1SC7_F as Transfer Make Before Break Contact. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "make-before-break-changeover-contact",
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "s28-ansi-make-before-break-changeover-contact",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Transfer Make Before Break Contact",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HSW1SC7_F. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "make-before-break-changeover-contact"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-make-before-break-changeover-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-make-before-break-changeover-contact.svg",
+  "id": "ansi-make-before-break-changeover-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-make-before-break-changeover-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-make-before-break-changeover-contact.json",
+  "svgPath": "artwork/svg/ansi-make-before-break-changeover-contact.svg",
+  "referencePath": "references/ansi-make-before-break-changeover-contact.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1SC7_F as Transfer Make Before Break Contact. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

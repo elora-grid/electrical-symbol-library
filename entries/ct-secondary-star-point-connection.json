@@ -1,0 +1,105 @@
+{
+  "slug": "ct-secondary-star-point-connection",
+  "name": "CT secondary star-point connection",
+  "kind": "symbol",
+  "abbreviation": "CSSC",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Phase CT secondaries",
+    "Defined secondary star point"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the common connection of the assigned phase CT secondary windings.",
+  "description": [
+    "Shows the common connection of the assigned phase CT secondary windings. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “Phase CT secondaries” at the input and “Defined secondary star point” at the output. The star point must match the protection connection design.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Phase CT secondaries. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined secondary star point. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The star point must match the protection connection design.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for phase ct secondaries.",
+    "Identify the destination and defined state of defined secondary star point.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The star point must match the protection connection design."
+  ],
+  "distinction": "The star point must match the protection connection design. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Phase CT secondaries"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined secondary star point"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CSSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "ct-secondary-single-earthing-point-reference"
+  ],
+  "artwork": "pi26-ct-secondary-star-point-connection",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "Phase CT secondaries",
+    "output": "Defined secondary star point"
+  },
+  "url": "https://eloragrid.ai/symbols/ct-secondary-star-point-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ct-secondary-star-point-connection.svg",
+  "id": "ct-secondary-star-point-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ct-secondary-star-point-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ct-secondary-star-point-connection.json",
+  "svgPath": "artwork/svg/ct-secondary-star-point-connection.svg",
+  "referencePath": "references/ct-secondary-star-point-connection.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

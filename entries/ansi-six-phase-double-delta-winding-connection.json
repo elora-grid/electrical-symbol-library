@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-six-phase-double-delta-winding-connection",
+  "name": "ANSI/IEEE Six-phase double-delta winding connection form",
+  "kind": "symbol",
+  "abbreviation": "Q060210",
+  "aliases": [
+    "Q060210",
+    "IEEE Esaphase Winding with Double Delta",
+    "ANSI Six-phase double-delta winding connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of six-phase double-delta winding connection: this qualifier identifies a six-phase winding arrangement using the publisher's double-delta form.",
+  "description": [
+    "This reference locates six-phase double-delta winding connection in Autodesk's IEEE-oriented winding family. This qualifier identifies a six-phase winding arrangement using the publisher's double-delta form. The public library uses Q060210 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Record all phase terminals and the associated conversion or machine application. Six-phase winding topology is different from two unrelated three-phase loads. Record all phase terminals and the associated conversion or machine application. Six-phase winding topology is different from two unrelated three-phase loads. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Record all phase terminals and the associated conversion or machine application.",
+    "Six-phase winding topology is different from two unrelated three-phase loads."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Record all phase terminals and the associated conversion or machine application.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Six-phase winding topology is different from two unrelated three-phase loads.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Winding; published form: Esaphase Winding with Double Delta."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q060210. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Record all phase terminals and the associated conversion or machine application."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-winding",
+      "relevance": "Public IEEE-oriented Winding table explicitly lists Q060210 as Esaphase Winding with Double Delta. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-six-phase-double-delta-winding-connection",
+    "motor",
+    "generator"
+  ],
+  "artwork": "s28-ansi-six-phase-double-delta-winding-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Esaphase Winding with Double Delta",
+    "reference": "Autodesk IEEE Symbol Preview: Winding, block Q060210. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-six-phase-double-delta-winding-connection"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-six-phase-double-delta-winding-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-six-phase-double-delta-winding-connection.svg",
+  "id": "ansi-six-phase-double-delta-winding-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-six-phase-double-delta-winding-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-six-phase-double-delta-winding-connection.json",
+  "svgPath": "artwork/svg/ansi-six-phase-double-delta-winding-connection.svg",
+  "referencePath": "references/ansi-six-phase-double-delta-winding-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-winding",
+      "title": "Autodesk IEEE Symbol Preview: Winding",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-19F0C368-8E22-46C6-BFC1-D311EED77CA5.htm",
+      "type": "cad-reference",
+      "scope": "Public winding family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Winding table explicitly lists Q060210 as Esaphase Winding with Double Delta. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

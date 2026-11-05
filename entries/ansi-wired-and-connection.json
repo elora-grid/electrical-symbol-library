@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-wired-and-connection",
+  "name": "ANSI wired-AND connection",
+  "kind": "symbol",
+  "abbreviation": "WIRED-AND",
+  "aliases": [
+    "dot-AND",
+    "wired-AND bus",
+    "open-collector shared line"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Several open-collector outputs joined on one pulled-up line, so any output pulling low makes the line low.",
+  "description": [
+    "A wired-AND connection is formed by joining open-collector or open-drain outputs to a single line with one pull-up. The line is high only when every output is off, so in positive logic the result is the AND of the individual output states. Some schematics draw a small AND outline around the junction to make the implied function visible.",
+    "Shared interrupt lines, ready signals and I2C-style buses rely on this arrangement. A drawing should show every output on the net, the single pull-up, and the supply, because adding or removing a driver changes the logic and the pull-up current.",
+    "The connection only works with open-circuit outputs. Joining push-pull outputs in the same way causes contention and possible damage, so the output type of each gate must be checked."
+  ],
+  "readingNotes": [
+    "Check that every joined output is open collector or open drain.",
+    "There should be one pull-up for the whole net."
+  ],
+  "drawingChecklist": [
+    "Show all contributing outputs on the shared net.",
+    "Draw a single pull-up with its value and supply.",
+    "Mark the open-circuit output type on each driver."
+  ],
+  "distinction": "A wired-OR uses open-emitter outputs with a pull-down; wired-AND uses open-collector outputs with a pull-up.",
+  "facts": [
+    {
+      "label": "Required output type",
+      "value": "Open collector or open drain"
+    },
+    {
+      "label": "Resulting function",
+      "value": "AND in positive logic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "States that open-collector outputs are capable of positive-logic wired-AND connection."
+    },
+    {
+      "sourceId": "s28-ti-hc05",
+      "relevance": "Manufacturer open-drain output documentation."
+    }
+  ],
+  "related": [
+    "open-collector-buffer",
+    "ansi-open-collector-inverter",
+    "iec-open-circuit-output-l-type"
+  ],
+  "artwork": "s28-ansi-wired-and-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Open-collector outputs joined to a common pulled-up line",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-wired-and-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-wired-and-connection.svg",
+  "id": "ansi-wired-and-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-wired-and-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-wired-and-connection.json",
+  "svgPath": "artwork/svg/ansi-wired-and-connection.svg",
+  "referencePath": "references/ansi-wired-and-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "States that open-collector outputs are capable of positive-logic wired-AND connection."
+    },
+    {
+      "id": "s28-ti-hc05",
+      "title": "SNx4HC05 hex inverters with open-drain outputs",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for inverters with open-drain outputs.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer open-drain output documentation."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-pv-reconnect-permission-interface",
+  "name": "Microgrid PV reconnect-permission interface",
+  "kind": "symbol",
+  "abbreviation": "MPRI",
+  "aliases": [
+    "Microgrid renewable-generation interfaces",
+    "microgrids Microgrid renewable-generation interfaces",
+    "microgrids",
+    "Microgrids",
+    "System reference and PV readiness",
+    "PV reconnect permission"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the defined system conditions permitting a disconnected PV resource to reconnect.",
+  "description": [
+    "Receives the defined system conditions permitting a disconnected PV resource to reconnect. Renewable-generation coordination connects variable resource availability, inverter operating limits and the microgrid power target. Available solar or wind power, an issued curtailment request and actual delivered power are different signals.",
+    "In a microgrid with solar generation, the controller can restrain inverter output when local load and storage cannot absorb the available power. The resource controller reports its own availability and accepted operating limits. For this reference, the drawing identifies “System reference and PV readiness” at the input and “PV reconnect permission” at the output. Equipment and connection rules govern actual reconnection.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: System reference and PV readiness. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: PV reconnect permission. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Equipment and connection rules govern actual reconnection.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for system reference and pv readiness.",
+    "Identify the destination and defined state of pv reconnect permission.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Equipment and connection rules govern actual reconnection."
+  ],
+  "distinction": "Equipment and connection rules govern actual reconnection. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "System reference and PV readiness"
+    },
+    {
+      "label": "Output / connection",
+      "value": "PV reconnect permission"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MPRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-pv-control",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "pv-string-inverter",
+    "photovoltaic-string-combiner",
+    "microgrid-pv-island-operating-permission"
+  ],
+  "artwork": "pi26-microgrid-pv-reconnect-permission-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-renewables",
+    "input": "System reference and PV readiness",
+    "output": "PV reconnect permission"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-pv-reconnect-permission-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-pv-reconnect-permission-interface.svg",
+  "id": "microgrid-pv-reconnect-permission-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-pv-reconnect-permission-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-pv-reconnect-permission-interface.json",
+  "svgPath": "artwork/svg/microgrid-pv-reconnect-permission-interface.svg",
+  "referencePath": "references/microgrid-pv-reconnect-permission-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-pv-control",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid processing and control functions",
+      "url": "https://productinfo.se.com/esxp_digital_apps_iec/mg/English/BM_ESXP_DG_Microgrid_IEC_0001122076.xml/%24/ESXP_DG_MG_SD_Processing_0001125595",
+      "scope": "Renewable generation dispatch and microgrid source coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

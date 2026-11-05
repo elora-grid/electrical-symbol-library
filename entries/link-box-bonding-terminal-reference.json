@@ -1,0 +1,105 @@
+{
+  "slug": "link-box-bonding-terminal-reference",
+  "name": "Link-box bonding terminal reference",
+  "kind": "symbol",
+  "abbreviation": "LBTR",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Sheath and earth conductors",
+    "Bonding terminal identities"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Maps the assigned cable sheath and earthing connections to the selected link-box terminals.",
+  "description": [
+    "Maps the assigned cable sheath and earthing connections to the selected link-box terminals. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Sheath and earth conductors” at the input and “Bonding terminal identities” at the output. Link position must follow the approved arrangement.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Sheath and earth conductors. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Bonding terminal identities. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Link position must follow the approved arrangement.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for sheath and earth conductors.",
+    "Identify the destination and defined state of bonding terminal identities.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Link position must follow the approved arrangement."
+  ],
+  "distinction": "Link position must follow the approved arrangement. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Sheath and earth conductors"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Bonding terminal identities"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LBTR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "yard-fence-bonding-interface"
+  ],
+  "artwork": "pi26-link-box-bonding-terminal-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Sheath and earth conductors",
+    "output": "Bonding terminal identities"
+  },
+  "url": "https://eloragrid.ai/symbols/link-box-bonding-terminal-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/link-box-bonding-terminal-reference.svg",
+  "id": "link-box-bonding-terminal-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/link-box-bonding-terminal-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/link-box-bonding-terminal-reference.json",
+  "svgPath": "artwork/svg/link-box-bonding-terminal-reference.svg",
+  "referencePath": "references/link-box-bonding-terminal-reference.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

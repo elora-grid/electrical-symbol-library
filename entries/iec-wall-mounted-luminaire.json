@@ -1,0 +1,102 @@
+{
+  "slug": "iec-wall-mounted-luminaire",
+  "name": "Wall-mounted luminaire plan mark",
+  "kind": "symbol",
+  "abbreviation": "LW",
+  "aliases": [
+    "wall light",
+    "bracket luminaire",
+    "wall lighting point"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a wall-mounted luminaire, drawn as a luminaire symbol attached to the wall line.",
+  "description": [
+    "Wall lights are drawn with the luminaire mark touching or attached to the wall by a short bar, which distinguishes them from ceiling luminaires. The mounting height is either noted on the symbol or covered by a typical detail.",
+    "Wall luminaires are used in corridors, stairwells, bedrooms and external facades. The installer needs the mounting height and the fitting type to set the box before plastering, so this symbol usually carries a height tag. The symbol does not indicate the light distribution (uplight, downlight or both). That comes from the schedule."
+  ],
+  "readingNotes": [
+    "Note the wall attachment bar.",
+    "Read the mounting height tag."
+  ],
+  "drawingChecklist": [
+    "State mounting height.",
+    "Tag fixture type.",
+    "Show switching."
+  ],
+  "distinction": "A ceiling luminaire stands free in the room on plan; the wall form is attached to the wall line.",
+  "facts": [
+    {
+      "label": "Mounting",
+      "value": "Wall, at stated height"
+    },
+    {
+      "label": "Graphic cue",
+      "value": "Short bar to the wall line"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "iec-luminaire-general-plan-symbol",
+    "ansi-wall-lighting-outlet"
+  ],
+  "artwork": "s28-iec-wall-mounted-luminaire",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Luminaire, wall mounted",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-wall-mounted-luminaire",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-wall-mounted-luminaire.svg",
+  "id": "iec-wall-mounted-luminaire",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-wall-mounted-luminaire",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-wall-mounted-luminaire.json",
+  "svgPath": "artwork/svg/iec-wall-mounted-luminaire.svg",
+  "referencePath": "references/iec-wall-mounted-luminaire.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

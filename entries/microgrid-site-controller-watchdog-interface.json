@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-site-controller-watchdog-interface",
+  "name": "Microgrid site-controller watchdog interface",
+  "kind": "symbol",
+  "abbreviation": "MSWI",
+  "aliases": [
+    "Microgrid supervisory and communication interfaces",
+    "microgrids Microgrid supervisory and communication interfaces",
+    "microgrids",
+    "Microgrids",
+    "Controller watchdog output",
+    "Site-controller fault indication"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers the controller's declared self-health output to independent supervision.",
+  "description": [
+    "Transfers the controller's declared self-health output to independent supervision. Microgrid supervision coordinates measurements, control authority and resource communication without replacing local protection. Each resource value needs a named measurement boundary, freshness condition and intended control use.",
+    "In a microgrid control room, the operator can see source availability, active constraints and current operating mode. A communication failure should remain distinguishable from an electrical resource failure. For this reference, the drawing identifies “Controller watchdog output” at the input and “Site-controller fault indication” at the output. Watchdog coverage has defined limits.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Controller watchdog output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Site-controller fault indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Watchdog coverage has defined limits.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for controller watchdog output.",
+    "Identify the destination and defined state of site-controller fault indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Watchdog coverage has defined limits."
+  ],
+  "distinction": "Watchdog coverage has defined limits. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Controller watchdog output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Site-controller fault indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MSWI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "sequence-of-events-recorder",
+    "microgrid-standby-controller-ownership-interface"
+  ],
+  "artwork": "pi26-microgrid-site-controller-watchdog-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-monitoring",
+    "input": "Controller watchdog output",
+    "output": "Site-controller fault indication"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-site-controller-watchdog-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-site-controller-watchdog-interface.svg",
+  "id": "microgrid-site-controller-watchdog-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-site-controller-watchdog-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-site-controller-watchdog-interface.json",
+  "svgPath": "artwork/svg/microgrid-site-controller-watchdog-interface.svg",
+  "referencePath": "references/microgrid-site-controller-watchdog-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

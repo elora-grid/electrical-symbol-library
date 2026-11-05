@@ -1,0 +1,105 @@
+{
+  "slug": "digital-breaker-command-output-boundary",
+  "name": "Digital breaker-command output boundary",
+  "kind": "symbol",
+  "abbreviation": "DBOB",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Accepted digital command",
+    "Physical operating output"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the conversion from a received digital operating request to the assigned physical breaker output.",
+  "description": [
+    "Shows the conversion from a received digital operating request to the assigned physical breaker output. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Accepted digital command” at the input and “Physical operating output” at the output. The output circuit still requires its normal supervision.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Accepted digital command. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Physical operating output. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The output circuit still requires its normal supervision.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for accepted digital command.",
+    "Identify the destination and defined state of physical operating output.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The output circuit still requires its normal supervision."
+  ],
+  "distinction": "The output circuit still requires its normal supervision. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Accepted digital command"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Physical operating output"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DBOB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "digital-secondary-test-mode-indication"
+  ],
+  "artwork": "pi26-digital-breaker-command-output-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Accepted digital command",
+    "output": "Physical operating output"
+  },
+  "url": "https://eloragrid.ai/symbols/digital-breaker-command-output-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/digital-breaker-command-output-boundary.svg",
+  "id": "digital-breaker-command-output-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/digital-breaker-command-output-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/digital-breaker-command-output-boundary.json",
+  "svgPath": "artwork/svg/digital-breaker-command-output-boundary.svg",
+  "referencePath": "references/digital-breaker-command-output-boundary.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "dedicated-line-protection-ct-core-interface",
+  "name": "Dedicated line-protection CT core interface",
+  "kind": "symbol",
+  "abbreviation": "DLCCI",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Line-bay CT core",
+    "Line relay current input"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the assigned line-bay CT circuit serving its protective relay.",
+  "description": [
+    "Identifies the assigned line-bay CT circuit serving its protective relay. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “Line-bay CT core” at the input and “Line relay current input” at the output. The bay measurement boundary must be stated.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Line-bay CT core. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Line relay current input. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The bay measurement boundary must be stated.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for line-bay ct core.",
+    "Identify the destination and defined state of line relay current input.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The bay measurement boundary must be stated."
+  ],
+  "distinction": "The bay measurement boundary must be stated. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Line-bay CT core"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Line relay current input"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DLCCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "ct-secondary-star-point-connection"
+  ],
+  "artwork": "pi26-dedicated-line-protection-ct-core-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "Line-bay CT core",
+    "output": "Line relay current input"
+  },
+  "url": "https://eloragrid.ai/symbols/dedicated-line-protection-ct-core-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/dedicated-line-protection-ct-core-interface.svg",
+  "id": "dedicated-line-protection-ct-core-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dedicated-line-protection-ct-core-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dedicated-line-protection-ct-core-interface.json",
+  "svgPath": "artwork/svg/dedicated-line-protection-ct-core-interface.svg",
+  "referencePath": "references/dedicated-line-protection-ct-core-interface.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

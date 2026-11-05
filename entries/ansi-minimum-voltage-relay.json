@@ -1,0 +1,117 @@
+{
+  "slug": "ansi-minimum-voltage-relay",
+  "name": "ANSI/IEEE Minimum-voltage measuring relay form",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "HCR1F35",
+    "VCR1F35",
+    "IEEE Minimum Voltage Protection",
+    "ANSI Minimum-voltage measuring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of minimum-voltage measuring relay: measuring relay that operates when voltage falls below a set level while some voltage is still present.",
+  "description": [
+    "This reference locates minimum-voltage measuring relay in Autodesk's IEEE-oriented voltage protection relays family. The minimum-voltage relay form operates when the measured voltage falls below its setting. It is used for motor undervoltage tripping, load shedding and transfer schemes, where a sustained voltage dip indicates a supply problem rather than a momentary disturbance. The public library uses HCR1F35 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "The symbol shows the voltage quantity and the less-than threshold but not the time delay, which phases are monitored or whether operation is blocked on VT fuse failure. Without a blocking input a blown VT fuse can cause an unwanted trip, so the supervision arrangement should be cross-referenced. Check which phase voltages are monitored. A minimum-voltage relay responds to a reduced voltage; a loss-of-voltage relay responds to absence of voltage. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check which phase voltages are monitored.",
+    "Look for VT supervision or fuse-failure blocking."
+  ],
+  "drawingChecklist": [
+    "State threshold and delay",
+    "Show VT source",
+    "Reference blocking input"
+  ],
+  "distinction": "A minimum-voltage relay responds to a reduced voltage; a loss-of-voltage relay responds to absence of voltage.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Voltage Protection Relays; published form: Minimum Voltage Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F35. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Measured quantity",
+      "value": "Voltage below a set level"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-voltage-protection-relays",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F35 as Minimum Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "minimum-voltage-relay",
+    "loss-of-voltage-monitoring-relay",
+    "27-undervoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-minimum-voltage-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Minimum Voltage Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Voltage Protection Relays, block HCR1F35. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "minimum-voltage-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-minimum-voltage-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-minimum-voltage-relay.svg",
+  "id": "ansi-minimum-voltage-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-minimum-voltage-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-minimum-voltage-relay.json",
+  "svgPath": "artwork/svg/ansi-minimum-voltage-relay.svg",
+  "referencePath": "references/ansi-minimum-voltage-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-voltage-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Voltage Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5D942536-ADE3-43EA-8280-CC7907C38F15.htm",
+      "type": "cad-reference",
+      "scope": "Public voltage protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F35 as Minimum Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "iec-non-maintained-emergency-luminaire",
+  "name": "Non-maintained emergency luminaire plan mark",
+  "kind": "symbol",
+  "abbreviation": "EM-NM",
+  "aliases": [
+    "non-maintained emergency light",
+    "emergency luminaire, non-maintained",
+    "NM3 luminaire"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for an emergency luminaire that lights only when the normal lighting supply fails.",
+  "description": [
+    "Non-maintained emergency luminaires stay off while the normal supply is healthy and light from their internal battery on failure. Plans show the emergency luminaire mark with NM or with the legend distinguishing it from maintained fittings, typically along escape routes and at changes of direction.",
+    "The luminaire must monitor the local lighting circuit, so its permanent supply is taken from the same final circuit as the normal lighting in that area. The plan should make this relationship clear for the installer.",
+    "The symbol does not show whether the unit is self-contained or fed from a central battery. The legend or schedule states the system type."
+  ],
+  "readingNotes": [
+    "Confirm the unit monitors the local lighting circuit.",
+    "Check spacing along escape routes."
+  ],
+  "drawingChecklist": [
+    "State duration and system type.",
+    "Take permanent supply from local lighting circuit.",
+    "Reference escape route plan."
+  ],
+  "distinction": "A maintained luminaire is lit continuously; this one only lights on failure.",
+  "facts": [
+    {
+      "label": "Operation",
+      "value": "Off normally, on during supply failure"
+    },
+    {
+      "label": "Placement",
+      "value": "Escape routes and changes of direction"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "iec-maintained-emergency-luminaire",
+    "iec-exit-sign-luminaire",
+    "iec-luminaire-general-plan-symbol"
+  ],
+  "artwork": "s28-iec-non-maintained-emergency-luminaire",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Emergency luminaire, non-maintained",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-non-maintained-emergency-luminaire",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-non-maintained-emergency-luminaire.svg",
+  "id": "iec-non-maintained-emergency-luminaire",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-non-maintained-emergency-luminaire",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-non-maintained-emergency-luminaire.json",
+  "svgPath": "artwork/svg/iec-non-maintained-emergency-luminaire.svg",
+  "referencePath": "references/iec-non-maintained-emergency-luminaire.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

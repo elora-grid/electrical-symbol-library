@@ -1,0 +1,104 @@
+{
+  "slug": "iec-photoelectric-light-switch",
+  "name": "Photoelectric light switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "PE",
+  "aliases": [
+    "photocell",
+    "daylight switch",
+    "dusk-to-dawn sensor"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a light-sensitive switch that turns external or perimeter lighting on at dusk and off at dawn.",
+  "description": [
+    "A photoelectric switch, or photocell, measures ambient light and operates a lighting circuit at a set lux threshold. Plans draw a small switch or box with inward arrows to indicate light received, placed where the cell can see the sky without seeing the luminaires it controls.",
+    "Photocells are often combined with time switches so that lighting comes on at dusk but goes off at a fixed time. The plan and schedule should show both devices and their logic.",
+    "The mark does not give the threshold, time delay or contactor rating. Large lighting loads are usually switched by a contactor operated by the cell."
+  ],
+  "readingNotes": [
+    "Check the cell location for a clear view of daylight.",
+    "Look for a contactor or time switch in the same control scheme."
+  ],
+  "drawingChecklist": [
+    "State lux setting range.",
+    "Show associated contactor or time switch.",
+    "Orient the cell away from controlled luminaires."
+  ],
+  "distinction": "A light-dependent resistor is a component; a photoelectric switch is a complete lighting control device on the plan.",
+  "facts": [
+    {
+      "label": "Input",
+      "value": "Ambient daylight level"
+    },
+    {
+      "label": "Common pairing",
+      "value": "Time switch and lighting contactor"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-radiation",
+      "relevance": "Public IEC-oriented radiation qualifier family for the received-light arrows."
+    }
+  ],
+  "related": [
+    "light-dependent-resistor",
+    "iec-time-switch-plan-mark",
+    "iec-presence-detector-lighting"
+  ],
+  "artwork": "s28-iec-photoelectric-light-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Light-sensitive switch",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-photoelectric-light-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-photoelectric-light-switch.svg",
+  "id": "iec-photoelectric-light-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-photoelectric-light-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-photoelectric-light-switch.json",
+  "svgPath": "artwork/svg/iec-photoelectric-light-switch.svg",
+  "referencePath": "references/iec-photoelectric-light-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "iec-public-radiation",
+      "title": "Autodesk IEC-60617 preview: Radiation qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EABC81B4-549D-49C9-A0F5-086DD204A689.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented radiation qualifier family for the received-light arrows."
+    }
+  ]
+}

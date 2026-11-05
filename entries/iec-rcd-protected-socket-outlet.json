@@ -1,0 +1,119 @@
+{
+  "slug": "iec-rcd-protected-socket-outlet",
+  "name": "RCD-protected socket outlet",
+  "kind": "symbol",
+  "abbreviation": "SO-RCD",
+  "aliases": [
+    "socket outlet with integral RCD",
+    "SRCD outlet",
+    "residual-current protected outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a socket outlet with residual-current protection built into the accessory itself.",
+  "description": [
+    "Some outlets include a residual-current device in the accessory so that protection is provided at the point of use. Plans show this by tagging the outlet with RCD or a small residual-current mark, letting the electrician select a protected accessory instead of relying on the distribution board.",
+    "This approach is used for single outdoor outlets, refurbishment work where the board cannot take additional RCDs, and outlets used for portable tools. The plan symbol should be read with the board schedule so the designer can avoid double protection or check discrimination between the outlet RCD and an upstream device.",
+    "The mark does not state the RCD type, rated residual current or test arrangement. A plain outlet on an RCD-protected circuit is protected at the board and is drawn without this tag."
+  ],
+  "readingNotes": [
+    "Distinguish outlet-integral protection from protection at the board.",
+    "Look for the RCD type in the specification, not on the plan."
+  ],
+  "drawingChecklist": [
+    "State rated residual operating current and RCD type.",
+    "Check discrimination with upstream residual-current devices.",
+    "Show the test button accessibility if mounted high."
+  ],
+  "distinction": "An outlet on a circuit protected by a residual-current circuit breaker is drawn plainly; this form puts the RCD in the outlet.",
+  "facts": [
+    {
+      "label": "Protection location",
+      "value": "Inside the outlet accessory"
+    },
+    {
+      "label": "Related US form",
+      "value": "GFCI receptacle"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "rcd-forms",
+      "relevance": "Explains the physical forms residual-current protection can take, including socket-outlet integration."
+    },
+    {
+      "sourceId": "pub-symbol-rcd-categories",
+      "relevance": "Manufacturer explanation of residual-current device types and categories."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "residual-current-circuit-breaker",
+    "iec-weatherproof-socket-outlet",
+    "ansi-gfci-duplex-receptacle"
+  ],
+  "artwork": "s28-iec-rcd-protected-socket-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Socket outlet with residual-current device",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-rcd-protected-socket-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-rcd-protected-socket-outlet.svg",
+  "id": "iec-rcd-protected-socket-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-rcd-protected-socket-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-rcd-protected-socket-outlet.json",
+  "svgPath": "artwork/svg/iec-rcd-protected-socket-outlet.svg",
+  "referencePath": "references/iec-rcd-protected-socket-outlet.md",
+  "publicSources": [
+    {
+      "id": "rcd-forms",
+      "title": "Form factors of residual-current devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Form_factors_of_RCDs",
+      "type": "manufacturer",
+      "scope": "Residual-current functions in different device forms and related product standards.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains the physical forms residual-current protection can take, including socket-outlet integration."
+    },
+    {
+      "id": "pub-symbol-rcd-categories",
+      "title": "Residual current device categories",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/faqs/FAQ000218859/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer explanation of residual-current device types and categories."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    }
+  ]
+}

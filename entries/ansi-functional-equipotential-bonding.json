@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-functional-equipotential-bonding",
+  "name": "ANSI/IEEE functional equipotential bonding symbol",
+  "kind": "symbol",
+  "abbreviation": "-",
+  "aliases": [
+    "IEEE functional bond",
+    "ANSI signal bonding",
+    "functional bonding conductor"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented functional equipotential bond used to keep equipment at a common reference for operation or noise control.",
+  "description": [
+    "A functional equipotential bond ties equipment together for operational reasons, such as keeping communications equipment at a common reference or reducing high-frequency noise. The publisher's IEEE miscellaneous preview lists a functional equipotential bond form, the counterpart of the existing IEC concept page.",
+    "This illustration is an independent explanation and not the IEEE graphic. A functional bond does not satisfy protective bonding requirements unless it is also sized and installed as a protective conductor. Drawings should not use the functional form where a safety bond is intended."
+  ],
+  "readingNotes": [
+    "Do not treat a functional bond as a protective one.",
+    "Check high-frequency bonding requirements for drives and comms."
+  ],
+  "drawingChecklist": [
+    "State the reason for the functional bond.",
+    "Size it separately from protective bonds.",
+    "Label bonded equipment."
+  ],
+  "distinction": "A functional bond supports operation; a protective bond provides safety during faults.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous (Functional Equipotential Bond)"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HGND1 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Exact public IEEE-oriented category page listing the functional equipotential bond form."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "functional-equipotential-bonding",
+    "ansi-protective-equipotential-bonding",
+    "ansi-functional-earth"
+  ],
+  "artwork": "s28-ansi-functional-equipotential-bonding",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented functional equipotential bond form",
+    "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "functional-equipotential-bonding"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-functional-equipotential-bonding",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-functional-equipotential-bonding.svg",
+  "id": "ansi-functional-equipotential-bonding",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-functional-equipotential-bonding",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-functional-equipotential-bonding.json",
+  "svgPath": "artwork/svg/ansi-functional-equipotential-bonding.svg",
+  "referencePath": "references/ansi-functional-equipotential-bonding.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page listing the functional equipotential bond form."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "iec-motor-starter-form-motor-starter-1-pole-normally-closed-power",
+  "name": "IEC motor-starter form: motor starter 1 pole normally closed (power)",
+  "kind": "symbol",
+  "abbreviation": "KM",
+  "aliases": [
+    "HMS22P",
+    "VMS22P",
+    "motor-starter form Motor Starter 1 Pole Normally Closed (Power)"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Motor-starter form form: Motor Starter 1 Pole Normally Closed (Power).",
+  "description": [
+    "A motor starter uses an operating coil and power contacts to control the motor feeder. The coil belongs to the control circuit; the main contacts carry motor current. Auxiliary contacts report or interlock operation but do not replace the main poles. This entry identifies the motor starter 1 pole normally closed (power) form in the publisher's IEC-context family.",
+    "A start command can energise the starter coil while the linked main poles connect the motor supply. Reuse the same device tag on the coil and contacts, then cross-reference overload and short-circuit protection as distinct parts of the feeder. The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state.",
+    "The contact illustration is a functional view of one pole, not a complete motor starter or a proof of fault protection. Coil voltage, duty, overload coordination and the number of linked poles come from the chosen equipment and design."
+  ],
+  "readingNotes": [
+    "The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state.",
+    "The contact illustration is a functional view of one pole, not a complete motor starter or a proof of fault protection. Coil voltage, duty, overload coordination and the number of linked poles come from the chosen equipment and design."
+  ],
+  "drawingChecklist": [
+    "Use one starter tag across coil, main poles and auxiliaries.",
+    "Identify the control supply and the main power path.",
+    "Reference motor protection and the complete pole arrangement."
+  ],
+  "distinction": "This entry adds the motor starter 1 pole normally closed (power) detail to the broader motor-starter form family. The contact illustration is a functional view of one pole, not a complete motor starter or a proof of fault protection. Coil voltage, duty, overload coordination and the number of linked poles come from the chosen equipment and design.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Motor Starter 1 Pole Normally Closed (Power)"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HMS22P / VMS22P. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "motor-starter form"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-iec-motor-starters",
+      "relevance": "Public Motor Starters table explicitly lists HMS22P / VMS22P with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor",
+    "motor-overload-trip-nc-contact"
+  ],
+  "artwork": "s28-iec-motor-starter-form-motor-starter-1-pole-normally-closed-power",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Motor Starter 1 Pole Normally Closed (Power)",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Motor Starters, HMS22P / VMS22P. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-motor-starter-form-motor-starter-1-pole-normally-closed-power",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-motor-starter-form-motor-starter-1-pole-normally-closed-power.svg",
+  "id": "iec-motor-starter-form-motor-starter-1-pole-normally-closed-power",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-motor-starter-form-motor-starter-1-pole-normally-closed-power",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-motor-starter-form-motor-starter-1-pole-normally-closed-power.json",
+  "svgPath": "artwork/svg/iec-motor-starter-form-motor-starter-1-pole-normally-closed-power.svg",
+  "referencePath": "references/iec-motor-starter-form-motor-starter-1-pole-normally-closed-power.md",
+  "publicSources": [
+    {
+      "id": "s28-iec-motor-starters",
+      "title": "Autodesk IEC-60617 Symbol Preview: Motor Starters",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-447B81E9-A99C-447D-A25B-C2C061D43BC3.htm",
+      "type": "cad-reference",
+      "scope": "Public motor starters family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public Motor Starters table explicitly lists HMS22P / VMS22P with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

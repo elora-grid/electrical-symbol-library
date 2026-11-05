@@ -1,0 +1,105 @@
+{
+  "slug": "hydraulic-operating-pressure-supervision",
+  "name": "Hydraulic operating-pressure supervision",
+  "kind": "symbol",
+  "abbreviation": "HOS",
+  "aliases": [
+    "Stored-energy mechanism supervision",
+    "switchgear Stored-energy mechanism supervision",
+    "switchgear",
+    "Switchgear",
+    "Hydraulic pressure condition",
+    "Mechanism pressure status"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses the selected hydraulic mechanism's pressure switch or sensor as a readiness input.",
+  "description": [
+    "Uses the selected hydraulic mechanism's pressure switch or sensor as a readiness input. A stored-energy breaker mechanism has charging, release, indication and supervision functions. Motor supply, stored spring energy and the ability to complete an opening operation are separate drawing concerns.",
+    "In a switchgear panel, a charging motor replenishes the mechanism after an operation. Supervisory contacts let the controller report an incomplete charge or repeated charging demand before an operator requests another operation. For this reference, the drawing identifies “Hydraulic pressure condition” at the input and “Mechanism pressure status” at the output. Thresholds come from the selected operating mechanism.",
+    "Show the individual contacts and the relevant motor or release circuit. Supply voltage, charging time, operating duty and permissible alarms must follow the chosen mechanism documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Hydraulic pressure condition. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Mechanism pressure status. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Thresholds come from the selected operating mechanism.",
+    "Show the individual contacts and the relevant motor or release circuit. Supply voltage, charging time, operating duty and permissible alarms must follow the chosen mechanism documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for hydraulic pressure condition.",
+    "Identify the destination and defined state of mechanism pressure status.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Thresholds come from the selected operating mechanism."
+  ],
+  "distinction": "Thresholds come from the selected operating mechanism. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Hydraulic pressure condition"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Mechanism pressure status"
+    },
+    {
+      "label": "Lookup label",
+      "value": "HOS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for stored-energy mechanism supervision. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "motor",
+    "pneumatic-operating-pressure-supervision"
+  ],
+  "artwork": "pi26-hydraulic-operating-pressure-supervision",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "mechanism",
+    "input": "Hydraulic pressure condition",
+    "output": "Mechanism pressure status"
+  },
+  "url": "https://eloragrid.ai/symbols/hydraulic-operating-pressure-supervision",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/hydraulic-operating-pressure-supervision.svg",
+  "id": "hydraulic-operating-pressure-supervision",
+  "canonicalUrl": "https://eloragrid.ai/symbols/hydraulic-operating-pressure-supervision",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/hydraulic-operating-pressure-supervision.json",
+  "svgPath": "artwork/svg/hydraulic-operating-pressure-supervision.svg",
+  "referencePath": "references/hydraulic-operating-pressure-supervision.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for stored-energy mechanism supervision. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

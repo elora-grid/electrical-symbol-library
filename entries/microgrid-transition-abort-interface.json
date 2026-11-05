@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-transition-abort-interface",
+  "name": "Microgrid transition-abort interface",
+  "kind": "symbol",
+  "abbreviation": "MTI",
+  "aliases": [
+    "Microgrid operating-mode controls",
+    "microgrids Microgrid operating-mode controls",
+    "microgrids",
+    "Microgrids",
+    "Abort condition",
+    "Assigned transition-abort action"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented request to abandon an incomplete operating-mode transition.",
+  "description": [
+    "Identifies the documented request to abandon an incomplete operating-mode transition. A microgrid operating-mode function coordinates how local sources and loads relate to the utility connection. The selected mode, the measured electrical condition and the actual switching configuration can differ during a transition.",
+    "In a microgrid serving a switchroom and industrial loads, the controller can move between grid-connected and islanded operating states only through its defined transition logic. Each state needs identifiable source roles and feedback. For this reference, the drawing identifies “Abort condition” at the input and “Assigned transition-abort action” at the output. The resulting stable state must be defined.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Abort condition. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned transition-abort action. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The resulting stable state must be defined.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for abort condition.",
+    "Identify the destination and defined state of assigned transition-abort action.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The resulting stable state must be defined."
+  ],
+  "distinction": "The resulting stable state must be defined. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Abort condition"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned transition-abort action"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "grid-forming-inverter",
+    "microgrid-utility-outage-persistence-gate"
+  ],
+  "artwork": "pi26-microgrid-transition-abort-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-modes",
+    "input": "Abort condition",
+    "output": "Assigned transition-abort action"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-transition-abort-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-transition-abort-interface.svg",
+  "id": "microgrid-transition-abort-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-transition-abort-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-transition-abort-interface.json",
+  "svgPath": "artwork/svg/microgrid-transition-abort-interface.svg",
+  "referencePath": "references/microgrid-transition-abort-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

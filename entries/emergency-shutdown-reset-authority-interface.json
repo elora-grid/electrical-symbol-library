@@ -1,0 +1,105 @@
+{
+  "slug": "emergency-shutdown-reset-authority-interface",
+  "name": "Emergency shutdown reset-authority interface",
+  "kind": "symbol",
+  "abbreviation": "ESRI",
+  "aliases": [
+    "Switchroom fire and emergency interfaces",
+    "switchrooms Switchroom fire and emergency interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Reset authority and request",
+    "Reset request to control system"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the permitted origin of a reset request following the assigned shutdown condition.",
+  "description": [
+    "Identifies the permitted origin of a reset request following the assigned shutdown condition. A fire-system interface passes defined indications and control requests between the fire installation and electrical equipment. The receiving circuit must identify the exact purpose of the signal and the equipment it affects.",
+    "In a switchroom, the fire panel may report detection, system faults and a separately documented shutdown request to the station controller. These signals have different meanings and must not be combined into one unexplained alarm. For this reference, the drawing identifies “Reset authority and request” at the input and “Reset request to control system” at the output. Reset and automatic restart are separate actions.",
+    "Use the coordinated fire cause-and-effect schedule to define each response. Original interface blocks describe signal roles without specifying suppression operation, evacuation behavior or life-safety performance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reset authority and request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Reset request to control system. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Reset and automatic restart are separate actions.",
+    "Use the coordinated fire cause-and-effect schedule to define each response. Original interface blocks describe signal roles without specifying suppression operation, evacuation behavior or life-safety performance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reset authority and request.",
+    "Identify the destination and defined state of reset request to control system.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Reset and automatic restart are separate actions."
+  ],
+  "distinction": "Reset and automatic restart are separate actions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reset authority and request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Reset request to control system"
+    },
+    {
+      "label": "Lookup label",
+      "value": "ESRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-room-services",
+      "relevance": "Public technical context for switchroom fire and emergency interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-fire-alarm-control-panel-plan-symbol",
+    "ga-battery-fire-system-interface-panel",
+    "switchroom-fire-door-status-interface"
+  ],
+  "artwork": "pi26-emergency-shutdown-reset-authority-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "fire-interfaces",
+    "input": "Reset authority and request",
+    "output": "Reset request to control system"
+  },
+  "url": "https://eloragrid.ai/symbols/emergency-shutdown-reset-authority-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/emergency-shutdown-reset-authority-interface.svg",
+  "id": "emergency-shutdown-reset-authority-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/emergency-shutdown-reset-authority-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/emergency-shutdown-reset-authority-interface.json",
+  "svgPath": "artwork/svg/emergency-shutdown-reset-authority-interface.svg",
+  "referencePath": "references/emergency-shutdown-reset-authority-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-room-services",
+      "publisher": "Schneider Electric",
+      "title": "Indoor substation: lighting, fire and auxiliary services",
+      "url": "https://www.electrical-installation.org/enwiki/Indoor_substation",
+      "scope": "Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom fire and emergency interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

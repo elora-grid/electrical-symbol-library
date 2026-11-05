@@ -1,0 +1,105 @@
+{
+  "slug": "standby-generator-auxiliary-service-branch",
+  "name": "Standby generator auxiliary-service branch",
+  "kind": "symbol",
+  "abbreviation": "SGAB",
+  "aliases": [
+    "Switchroom auxiliary AC distribution",
+    "switchrooms Switchroom auxiliary AC distribution",
+    "switchrooms",
+    "Switchrooms",
+    "Standby generation source",
+    "Auxiliary backup connection"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the standby-generator path serving the selected auxiliary board.",
+  "description": [
+    "Identifies the standby-generator path serving the selected auxiliary board. An auxiliary AC distribution diagram identifies the supplies serving room services and control-support equipment. Essential, backed-up and ordinary circuits can have different source paths and operating priorities.",
+    "In a switchroom, the lighting, service sockets, charger input and room cooling may be fed from different auxiliary branches. A source change must preserve the identities of loads that require continuity. For this reference, the drawing identifies “Standby generation source” at the input and “Auxiliary backup connection” at the output. Transfer logic defines the interruption interval.",
+    "Label source, branch protection and load purpose. The arrangement does not establish conductor sizes, protection settings or installation compliance; it links the operating role to the selected equipment schedule. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Standby generation source. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Auxiliary backup connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Transfer logic defines the interruption interval.",
+    "Label source, branch protection and load purpose. The arrangement does not establish conductor sizes, protection settings or installation compliance; it links the operating role to the selected equipment schedule."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for standby generation source.",
+    "Identify the destination and defined state of auxiliary backup connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Transfer logic defines the interruption interval."
+  ],
+  "distinction": "Transfer logic defines the interruption interval. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Standby generation source"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Auxiliary backup connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SGAB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-power",
+      "relevance": "Public technical context for switchroom auxiliary ac distribution. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-panel-service-outlet",
+    "ac-uninterruptible-power-supply",
+    "battery-charger-ac-input-feeder"
+  ],
+  "artwork": "pi26-standby-generator-auxiliary-service-branch",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-ac",
+    "input": "Standby generation source",
+    "output": "Auxiliary backup connection"
+  },
+  "url": "https://eloragrid.ai/symbols/standby-generator-auxiliary-service-branch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/standby-generator-auxiliary-service-branch.svg",
+  "id": "standby-generator-auxiliary-service-branch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/standby-generator-auxiliary-service-branch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/standby-generator-auxiliary-service-branch.json",
+  "svgPath": "artwork/svg/standby-generator-auxiliary-service-branch.svg",
+  "referencePath": "references/standby-generator-auxiliary-service-branch.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-power",
+      "publisher": "SEL",
+      "title": "SEL-RPM redundant power module",
+      "url": "https://selinc.com/products/RPM/",
+      "scope": "Independent AC and DC sources for station auxiliary power.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom auxiliary ac distribution. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

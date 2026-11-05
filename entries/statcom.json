@@ -1,0 +1,105 @@
+{
+  "slug": "statcom",
+  "name": "Static synchronous compensator",
+  "kind": "symbol",
+  "abbreviation": "STATCOM",
+  "aliases": [
+    "STATCOM",
+    "static compensator",
+    "SVC Light type converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A voltage-source converter in shunt that injects or absorbs reactive current to support voltage, independent of system voltage.",
+  "description": [
+    "A static synchronous compensator is a voltage-source converter connected in shunt through a reactor or transformer. By controlling the magnitude of its AC output voltage relative to the network, it supplies or absorbs reactive current. It responds within milliseconds and can maintain close to rated current even when network voltage is low.",
+    "Drawings show a converter block with a DC capacitor on its DC side, a coupling reactor or transformer, and the connection breaker. Distribution-scale units serving microgrids, wind farms and industrial plants are often drawn as a single converter block labelled STATCOM.",
+    "Many STATCOMs can also act as active filters for flicker and harmonics, or be paired with batteries for active power support. The symbol does not show overload capability or which of these functions are enabled."
+  ],
+  "readingNotes": [
+    "A DC capacitor rather than a battery on the DC side marks a pure reactive compensator.",
+    "Check whether a battery is shown, which would add active power capability."
+  ],
+  "drawingChecklist": [
+    "State Mvar range and response time.",
+    "Show coupling reactor or transformer.",
+    "Reference control functions enabled."
+  ],
+  "distinction": "A STATCOM uses a converter and keeps reactive current at low voltage; an SVC uses switched reactances whose output falls with voltage.",
+  "facts": [
+    {
+      "label": "Core element",
+      "value": "Voltage-source converter"
+    },
+    {
+      "label": "DC side",
+      "value": "Capacitor"
+    },
+    {
+      "label": "Response",
+      "value": "Milliseconds"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-statcom",
+      "relevance": "Public STATCOM page describing converter-based reactive power support."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ],
+  "related": [
+    "static-var-compensator",
+    "synchronous-condenser",
+    "active-harmonic-filter",
+    "three-phase-voltage-source-inverter"
+  ],
+  "artwork": "s28-statcom",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/statcom",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/statcom.svg",
+  "id": "statcom",
+  "canonicalUrl": "https://eloragrid.ai/symbols/statcom",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/statcom.json",
+  "svgPath": "artwork/svg/statcom.svg",
+  "referencePath": "references/statcom.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-statcom",
+      "title": "STATCOM: converter-based reactive power compensation",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/facts/statcom",
+      "type": "manufacturer",
+      "scope": "Public STATCOM description: voltage-source converter, reactive power support and active filtering capability.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public STATCOM page describing converter-based reactive power support."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ]
+}

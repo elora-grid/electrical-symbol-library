@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-converter-substation",
+  "name": "ANSI/IEEE Converter substation form",
+  "kind": "symbol",
+  "abbreviation": "CONV STN",
+  "aliases": [
+    "HDV1_S00406",
+    "VDV1_S00406",
+    "IEEE Converting Substation, In Service Or Unspecified",
+    "ANSI Converter substation"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library reference for converter substation, with its operating meaning, connection notes and public vendor block identity.",
+  "description": [
+    "This reference locates converter substation in Autodesk's IEEE-oriented power stations family. A converter-substation representation identifies a documented facility where an electrical conversion function forms part of the network connection. Its actual conversion equipment and AC/DC boundaries require linked design drawings. The public library uses HDV1_S00406 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Identify which network quantities or interfaces the station converts. A converter station is a system-level facility, not a single generic converter component. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify which network quantities or interfaces the station converts.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name station boundary",
+    "Show AC/DC interface labels",
+    "Reference conversion SLD"
+  ],
+  "distinction": "A converter station is a system-level facility, not a single generic converter component.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Power Stations; published form: Converting Substation, In Service Or Unspecified."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDV1_S00406. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-power-stations",
+      "relevance": "Public IEEE-oriented Power Stations table explicitly lists HDV1_S00406 as Converting Substation, In Service Or Unspecified. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "converter-substation",
+    "generator",
+    "busbar"
+  ],
+  "artwork": "s28-ansi-converter-substation",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Converting Substation, In Service Or Unspecified",
+    "reference": "Autodesk IEEE Symbol Preview: Power Stations, block HDV1_S00406. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "converter-substation"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-converter-substation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-converter-substation.svg",
+  "id": "ansi-converter-substation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-converter-substation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-converter-substation.json",
+  "svgPath": "artwork/svg/ansi-converter-substation.svg",
+  "referencePath": "references/ansi-converter-substation.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-power-stations",
+      "title": "Autodesk IEEE Symbol Preview: Power Stations",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-002D3D7C-C3E9-4B60-9F6D-FFBB383C1862.htm",
+      "type": "cad-reference",
+      "scope": "Public power stations family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Power Stations table explicitly lists HDV1_S00406 as Converting Substation, In Service Or Unspecified. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

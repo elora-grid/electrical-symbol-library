@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-four-phase-winding-with-accessible-connection",
+  "name": "ANSI/IEEE Four-phase winding with accessible connection form",
+  "kind": "symbol",
+  "abbreviation": "Q060203",
+  "aliases": [
+    "Q060203",
+    "IEEE 4 Phase Winding with Accessible Ground",
+    "ANSI Four-phase winding with accessible connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library reference for four-phase winding with accessible connection, with its operating meaning, connection notes and public vendor block identity.",
+  "description": [
+    "This reference locates four-phase winding with accessible connection in Autodesk's IEEE-oriented winding family. This qualifier identifies a four-phase winding form with an accessible connection described by the publisher as accessible ground. The public library uses Q060203 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Identify that connection in the actual winding and equipment diagram rather than assuming its bonding role. An accessible common point is not automatically a protective-earth terminal. Identify that connection in the actual winding and equipment diagram rather than assuming its bonding role. An accessible common point is not automatically a protective-earth terminal. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify that connection in the actual winding and equipment diagram rather than assuming its bonding role.",
+    "An accessible common point is not automatically a protective-earth terminal."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify that connection in the actual winding and equipment diagram rather than assuming its bonding role.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "An accessible common point is not automatically a protective-earth terminal.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Winding; published form: 4 Phase Winding with Accessible Ground."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q060203. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Identify that connection in the actual winding and equipment diagram rather than assuming its bonding role."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-winding",
+      "relevance": "Public IEEE-oriented Winding table explicitly lists Q060203 as 4 Phase Winding with Accessible Ground. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-four-phase-winding-with-accessible-connection",
+    "motor",
+    "generator"
+  ],
+  "artwork": "s28-ansi-four-phase-winding-with-accessible-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "4 Phase Winding with Accessible Ground",
+    "reference": "Autodesk IEEE Symbol Preview: Winding, block Q060203. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-four-phase-winding-with-accessible-connection"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-four-phase-winding-with-accessible-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-four-phase-winding-with-accessible-connection.svg",
+  "id": "ansi-four-phase-winding-with-accessible-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-four-phase-winding-with-accessible-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-four-phase-winding-with-accessible-connection.json",
+  "svgPath": "artwork/svg/ansi-four-phase-winding-with-accessible-connection.svg",
+  "referencePath": "references/ansi-four-phase-winding-with-accessible-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-winding",
+      "title": "Autodesk IEEE Symbol Preview: Winding",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-19F0C368-8E22-46C6-BFC1-D311EED77CA5.htm",
+      "type": "cad-reference",
+      "scope": "Public winding family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Winding table explicitly lists Q060203 as 4 Phase Winding with Accessible Ground. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

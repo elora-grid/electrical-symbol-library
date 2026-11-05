@@ -1,0 +1,100 @@
+{
+  "slug": "combined-instrument-transformer",
+  "name": "Combined instrument transformer",
+  "kind": "symbol",
+  "abbreviation": "CT/VT",
+  "aliases": [
+    "combined CT and VT",
+    "metering unit",
+    "combined measuring transformer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Single unit housing a current transformer and voltage transformer for each phase, typical of MV and HV metering points.",
+  "description": [
+    "A combined instrument transformer places a CT and a VT in one insulated housing for each phase. It saves space and foundations at outdoor HV metering points and appears in MV metering units where the supply authority needs both current and voltage for a billing meter.",
+    "On a single-line diagram the CT and VT symbols are drawn together with a boundary showing they share one housing. The boundary does not change ratios or classes, which are still stated separately for the current and voltage parts."
+  ],
+  "readingNotes": [
+    "Read the CT and VT ratings separately.",
+    "Check sealing and access requirements for revenue metering."
+  ],
+  "drawingChecklist": [
+    "State CT ratio and class",
+    "State VT ratio and class",
+    "Show sealing or metering boundary"
+  ],
+  "distinction": "A combined instrument transformer houses a CT and VT together; separate units are drawn and specified independently.",
+  "facts": [
+    {
+      "label": "Contents",
+      "value": "CT and VT in one housing"
+    },
+    {
+      "label": "Typical use",
+      "value": "Revenue metering points"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "public-cvt-cpb",
+      "relevance": "Public instrument transformer product family context."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "voltage-transformer",
+    "wound-primary-current-transformer"
+  ],
+  "artwork": "s28-combined-instrument-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/combined-instrument-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/combined-instrument-transformer.svg",
+  "id": "combined-instrument-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/combined-instrument-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/combined-instrument-transformer.json",
+  "svgPath": "artwork/svg/combined-instrument-transformer.svg",
+  "referencePath": "references/combined-instrument-transformer.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "public-cvt-cpb",
+      "title": "CPB capacitor voltage transformer",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/uk-ie/en/products-and-solutions/instrument-transformers/voltage-transformers/cpb-72-800-kv",
+      "type": "manufacturer",
+      "scope": "Public manufacturer description of a capacitor voltage transformer for high-voltage metering, protection and power-line carrier applications. Exact model data remains with the publisher.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public instrument transformer product family context."
+    }
+  ]
+}

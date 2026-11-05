@@ -1,0 +1,95 @@
+{
+  "slug": "iec-photoelectric-receiver-normally-closed-receiver-dc-driven",
+  "name": "IEC photoelectric receiver: normally closed receiver - DC driven",
+  "kind": "symbol",
+  "abbreviation": "RX",
+  "aliases": [
+    "HPE12B15",
+    "VPE12B15",
+    "photoelectric receiver Normally Closed Receiver - DC Driven"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Photoelectric receiver form: Normally Closed Receiver - DC Driven.",
+  "description": [
+    "A photoelectric receiver evaluates light arriving from an associated emitter and provides the documented electrical response. This entry identifies the normally closed receiver - dc driven form in the publisher's IEC-context family.",
+    "An object crossing a conveyor beam can change the receiver output. The receiver tag should identify its optical partner and the controller input receiving its signal. The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state. This is the DC-supplied form. Preserve supply polarity and confirm the output circuit type from the device wiring diagram.",
+    "Normally-open and normally-closed labels describe the documented electrical output form. They do not by themselves establish light-on or dark-on operation; confirm that setting with the device data."
+  ],
+  "readingNotes": [
+    "The normally-closed designation starts with a conducting output or closed contact in the documented reference condition; operation changes that state.",
+    "This is the DC-supplied form. Preserve supply polarity and confirm the output circuit type from the device wiring diagram.",
+    "Normally-open and normally-closed labels describe the documented electrical output form. They do not by themselves establish light-on or dark-on operation; confirm that setting with the device data."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the normally closed receiver - dc driven detail to the broader photoelectric receiver family. Normally-open and normally-closed labels describe the documented electrical output form. They do not by themselves establish light-on or dark-on operation; confirm that setting with the device data.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Normally Closed Receiver - DC Driven"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPE12B15 / VPE12B15. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "photoelectric receiver"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-iec-photoelectric-receiver-switches",
+      "relevance": "Public Photoelectric Receiver Switches table explicitly lists HPE12B15 / VPE12B15 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "photoelectric-emitter-receiver-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-photoelectric-receiver-normally-closed-receiver-dc-driven",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Normally Closed Receiver - DC Driven",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Photoelectric Receiver Switches, HPE12B15 / VPE12B15. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-photoelectric-receiver-normally-closed-receiver-dc-driven",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-photoelectric-receiver-normally-closed-receiver-dc-driven.svg",
+  "id": "iec-photoelectric-receiver-normally-closed-receiver-dc-driven",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-photoelectric-receiver-normally-closed-receiver-dc-driven",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-photoelectric-receiver-normally-closed-receiver-dc-driven.json",
+  "svgPath": "artwork/svg/iec-photoelectric-receiver-normally-closed-receiver-dc-driven.svg",
+  "referencePath": "references/iec-photoelectric-receiver-normally-closed-receiver-dc-driven.md",
+  "publicSources": [
+    {
+      "id": "s28-iec-photoelectric-receiver-switches",
+      "title": "Autodesk IEC-60617 Symbol Preview: Photoelectric Receiver Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7F8E27FB-B7DF-44CF-957F-0231B0F0B0D0.htm",
+      "type": "cad-reference",
+      "scope": "Public photoelectric receiver switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public Photoelectric Receiver Switches table explicitly lists HPE12B15 / VPE12B15 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "iec-server-symbol",
+  "name": "Server symbol",
+  "kind": "symbol",
+  "abbreviation": "SRV",
+  "aliases": [
+    "computer server",
+    "SCADA server",
+    "network server"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Network symbol for a server, a tall box with drive bays, on control system and communication drawings.",
+  "description": [
+    "Servers are drawn as a tall rectangle with horizontal bays on network and control system diagrams. Electrical drawings show them in racks with their power feeds, often dual-corded from separate UPS outputs.",
+    "On SCADA and building management drawings, the server symbol is tagged with its role, such as historian or HMI server. The power design should show which supply each power supply unit uses. The symbol does not show the software role or redundancy scheme unless tagged."
+  ],
+  "readingNotes": [
+    "Read the role tag.",
+    "Check dual power feeds."
+  ],
+  "drawingChecklist": [
+    "Tag role.",
+    "Show power feeds.",
+    "Show network connections."
+  ],
+  "distinction": "A switch forwards traffic; a server runs applications and stores data.",
+  "facts": [
+    {
+      "label": "Power",
+      "value": "Often dual-corded from UPS"
+    },
+    {
+      "label": "Typical roles",
+      "value": "SCADA, historian, HMI"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; plan symbols for this device vary between legends, so read the project key"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-westermo-lynx5612",
+      "relevance": "Public support page for a managed industrial Ethernet switch."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-network-switch-plan-symbol",
+    "iec-firewall-symbol"
+  ],
+  "artwork": "s28-iec-server-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-server-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-server-symbol.svg",
+  "id": "iec-server-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-server-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-server-symbol.json",
+  "svgPath": "artwork/svg/iec-server-symbol.svg",
+  "referencePath": "references/iec-server-symbol.md",
+  "publicSources": [
+    {
+      "id": "pub-object-westermo-lynx5612",
+      "title": "Lynx 5612-E-F4G-T8G-LV support",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/de/support/product-support/lynx-5612-e-f4g-t8g-lv",
+      "type": "manufacturer",
+      "scope": "Official model-specific industrial switch support and mechanical resources.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public support page for a managed industrial Ethernet switch."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

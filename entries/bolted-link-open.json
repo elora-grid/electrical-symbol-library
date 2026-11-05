@@ -1,0 +1,100 @@
+{
+  "slug": "bolted-link-open",
+  "name": "Bolted connecting link, open",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "removable link open",
+    "link removed",
+    "open bar link"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A bolted connecting link drawn removed, showing a deliberate open point that needs tools and a dead circuit to close.",
+  "description": [
+    "The open link shows a planned open point in a circuit. Network diagrams use it to show normally open points between feeders, and switchboards use it for sections that are kept separated. The link may be stored beside the terminals or removed entirely.",
+    "Because a link cannot be closed under load or onto a fault, an open link is a firm separation and should not be confused with a normally open switch that can be operated in service. Check the operating procedure before assuming it can be used for transfer."
+  ],
+  "readingNotes": [
+    "Do not read the open link as a switchable tie.",
+    "Check whether the link is stored nearby or removed."
+  ],
+  "drawingChecklist": [
+    "State why the link is open.",
+    "Identify where the removed link is kept.",
+    "Distinguish open links from normally open switches."
+  ],
+  "distinction": "An open link is closed only when dead; a normally open switch can be closed in service.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Two terminal points with the link bar absent or set aside"
+    },
+    {
+      "label": "Operation",
+      "value": "Closed only with the circuit dead"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Standards context for link and connection graphics."
+    }
+  ],
+  "related": [
+    "bolted-link-closed",
+    "load-break-switch",
+    "disconnect-terminal-block"
+  ],
+  "artwork": "s28-bolted-link-open",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bolted-link-open",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bolted-link-open.svg",
+  "id": "bolted-link-open",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bolted-link-open",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bolted-link-open.json",
+  "svgPath": "artwork/svg/bolted-link-open.svg",
+  "referencePath": "references/bolted-link-open.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Standards context for link and connection graphics."
+    }
+  ]
+}

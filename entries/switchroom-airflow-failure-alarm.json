@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-airflow-failure-alarm",
+  "name": "Switchroom airflow-failure alarm",
+  "kind": "symbol",
+  "abbreviation": "SAA",
+  "aliases": [
+    "Switchroom ventilation interfaces",
+    "switchrooms Switchroom ventilation interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Airflow feedback",
+    "Airflow-failure indication"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports missing or inadequate airflow under the documented supervised ventilation condition.",
+  "description": [
+    "Reports missing or inadequate airflow under the documented supervised ventilation condition. Ventilation control coordinates the equipment that manages heat and air movement in an electrical room. A temperature request, a fan command and proof of airflow are separate signals, and the room design determines how they interact.",
+    "In a switchroom containing transformers and auxiliary panels, the room controller can supervise fan availability and send an alarm when the documented ventilation duty is not achieved. For this reference, the drawing identifies “Airflow feedback” at the input and “Airflow-failure indication” at the output. Sensor location affects the monitored boundary.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Airflow feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Airflow-failure indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Sensor location affects the monitored boundary.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for airflow feedback.",
+    "Identify the destination and defined state of airflow-failure indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Sensor location affects the monitored boundary."
+  ],
+  "distinction": "Sensor location affects the monitored boundary. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Airflow feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Airflow-failure indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SAA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-switchroom-exhaust-fan",
+    "ga-enclosure-thermostat",
+    "ventilation-filter-differential-pressure-alarm"
+  ],
+  "artwork": "pi26-switchroom-airflow-failure-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "ventilation",
+    "input": "Airflow feedback",
+    "output": "Airflow-failure indication"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-airflow-failure-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-airflow-failure-alarm.svg",
+  "id": "switchroom-airflow-failure-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-airflow-failure-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-airflow-failure-alarm.json",
+  "svgPath": "artwork/svg/switchroom-airflow-failure-alarm.svg",
+  "referencePath": "references/switchroom-airflow-failure-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

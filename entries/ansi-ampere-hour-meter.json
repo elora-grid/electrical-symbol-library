@@ -1,0 +1,110 @@
+{
+  "slug": "ansi-ampere-hour-meter",
+  "name": "ANSI/IEEE ampere-hour meter symbol",
+  "kind": "symbol",
+  "abbreviation": "Ah",
+  "aliases": [
+    "IEEE ampere-hour meter symbol",
+    "ANSI amp-hour meter symbol",
+    "HIN1AHM"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library ampere-hour meter form for integrating charge in DC circuits such as battery and plating supplies.",
+  "description": [
+    "An ampere-hour meter integrates current over time and is most often drawn in DC battery, charger and electrochemical supply circuits. It is normally fed from a shunt, so the schematic should show the shunt, its millivolt rating and the polarity of the sensing leads alongside the meter.",
+    "The symbol does not say whether the register counts charge in one direction only or nets charge and discharge. Battery state-of-charge estimation depends on that setting and on efficiency correction, neither of which is visible from the instrument form."
+  ],
+  "readingNotes": [
+    "Find the shunt or sensor that supplies the current signal.",
+    "Confirm whether the register is unidirectional or bidirectional."
+  ],
+  "drawingChecklist": [
+    "Reference the shunt rating",
+    "Show sensing polarity",
+    "State register direction"
+  ],
+  "distinction": "An ampere-hour meter accumulates charge; an ammeter shows instantaneous current and a kWh meter accumulates energy.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1AHM / VIN1AHM (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Typical circuit",
+      "value": "DC battery or charger circuit with a measuring shunt"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Ampere-Hour meter block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "ampere-hour-meter",
+    "ansi-current-measuring-shunt",
+    "ansi-ammeter"
+  ],
+  "artwork": "s28-ansi-ampere-hour-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Ampere-Hour meter",
+    "counterpart": "ampere-hour-meter",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-ampere-hour-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-ampere-hour-meter.svg",
+  "id": "ansi-ampere-hour-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-ampere-hour-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-ampere-hour-meter.json",
+  "svgPath": "artwork/svg/ansi-ampere-hour-meter.svg",
+  "referencePath": "references/ansi-ampere-hour-meter.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Ampere-Hour meter block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

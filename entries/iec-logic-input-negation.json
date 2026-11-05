@@ -1,0 +1,90 @@
+{
+  "slug": "iec-logic-input-negation",
+  "name": "IEC logic negation at input",
+  "kind": "symbol",
+  "abbreviation": "NEG-IN",
+  "aliases": [
+    "input negation circle",
+    "negated input",
+    "input inversion circle"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Small circle where an input meets an outline: an external 0 produces the internal 1 (active) state.",
+  "description": [
+    "The negation circle at an input means that the external 0 state produces the internal 1 state of the element. It is a pure logic statement: to relate it to voltage levels, the drawing must declare positive or negative logic. TI's public overview notes that this is the older form, with the polarity triangle now preferred in device data books.",
+    "On functional logic diagrams for control systems, input negation is a compact way to show normally-closed or fault-healthy signals entering a gate without drawing a separate inverter. The reader should confirm the declared logic convention before relating a circle to a contact state or voltage.",
+    "A negation circle does not specify how the inversion is implemented. It may be a separate inverter, an internal feature of the device, or a negated contact in a PLC rung."
+  ],
+  "readingNotes": [
+    "Check the sheet note for positive or negative logic.",
+    "Do not confuse the circle with a connection dot or terminal."
+  ],
+  "drawingChecklist": [
+    "Draw the circle touching the outline.",
+    "Declare the logic convention on the drawing.",
+    "Avoid mixing negation circles and polarity triangles on one sheet."
+  ],
+  "distinction": "The polarity indicator triangle states an active-low level directly and does not depend on a declared logic convention.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "External 0 produces internal 1"
+    },
+    {
+      "label": "Dependency",
+      "value": "Needs a declared logic convention to map to levels"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines logic negation at an input and its relation to logic conventions."
+    }
+  ],
+  "related": [
+    "iec-logic-output-negation",
+    "iec-active-low-input-indicator",
+    "iec-and-gate"
+  ],
+  "artwork": "s28-iec-logic-input-negation",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Small circle at the input edge of the outline",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-logic-input-negation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-logic-input-negation.svg",
+  "id": "iec-logic-input-negation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-logic-input-negation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-logic-input-negation.json",
+  "svgPath": "artwork/svg/iec-logic-input-negation.svg",
+  "referencePath": "references/iec-logic-input-negation.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines logic negation at an input and its relation to logic conventions."
+    }
+  ]
+}

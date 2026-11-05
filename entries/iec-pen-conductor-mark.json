@@ -1,0 +1,108 @@
+{
+  "slug": "iec-pen-conductor-mark",
+  "name": "PEN conductor mark",
+  "kind": "symbol",
+  "abbreviation": "PEN",
+  "aliases": [
+    "combined neutral and earth mark",
+    "CNE conductor mark",
+    "PEN tick"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A mark identifying a combined protective and neutral conductor, as used in TN-C sections of a supply.",
+  "description": [
+    "The PEN mark identifies one conductor that performs both the protective and neutral functions. It appears in TN-C and TN-C-S arrangements, typically between the supply transformer and the main switchboard, where the PEN is later separated into N and PE at a defined point.",
+    "A PEN conductor must not be switched or isolated on its own, and once separated into N and PE the two must not be rejoined downstream. A drawing that shows a PEN mark should therefore also show the separation point clearly. The mark says nothing about minimum conductor size, which local wiring rules set for PEN conductors."
+  ],
+  "readingNotes": [
+    "Find the point where the PEN is split into N and PE.",
+    "Check that no switching device opens the PEN conductor alone."
+  ],
+  "drawingChecklist": [
+    "Show the PEN to N and PE separation point.",
+    "Avoid single-pole switching of the PEN.",
+    "Confirm PEN sizing against the applicable wiring rules."
+  ],
+  "distinction": "A PEN conductor combines N and PE functions; a neutral mark shows a conductor that has no protective role.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Combined neutral and earth mark on one stroke"
+    },
+    {
+      "label": "Letter code",
+      "value": "PEN"
+    },
+    {
+      "label": "Scheme context",
+      "value": "TN-C and TN-C-S sections"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of TN-C and TN-C-S schemes."
+    },
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public guide to earthing connection elements."
+    }
+  ],
+  "related": [
+    "iec-neutral-conductor-mark",
+    "iec-protective-conductor-mark",
+    "iec-men-link"
+  ],
+  "artwork": "s28-iec-pen-conductor-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "PEN conductor identification on a conductor group",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-pen-conductor-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-pen-conductor-mark.svg",
+  "id": "iec-pen-conductor-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-pen-conductor-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-pen-conductor-mark.json",
+  "svgPath": "artwork/svg/iec-pen-conductor-mark.svg",
+  "referencePath": "references/iec-pen-conductor-mark.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of TN-C and TN-C-S schemes."
+    },
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public guide to earthing connection elements."
+    }
+  ]
+}

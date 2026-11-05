@@ -1,0 +1,105 @@
+{
+  "slug": "circuit-breaker-trip-free-mechanism-reference",
+  "name": "Circuit-breaker trip-free mechanism reference",
+  "kind": "symbol",
+  "abbreviation": "CTMR",
+  "aliases": [
+    "Switching-device operating references",
+    "switchgear Switching-device operating references",
+    "switchgear",
+    "Switchgear",
+    "Trip and close mechanism inputs",
+    "Trip-free opening action"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the operating property that permits opening despite a sustained closing request.",
+  "description": [
+    "Identifies the operating property that permits opening despite a sustained closing request. A switching-device operating reference adds the specific mechanism or duty context needed to interpret its place in a power circuit. The same basic switching outline can serve different equipment constructions, so the added description must remain attached to its device tag.",
+    "In a medium-voltage switchgear drawing, the operating reference helps the reader distinguish the interrupting device from its isolation, earthing and auxiliary-control interfaces. For this reference, the drawing identifies “Trip and close mechanism inputs” at the input and “Trip-free opening action” at the output. The mechanism property is confirmed by equipment documentation.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Trip and close mechanism inputs. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Trip-free opening action. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The mechanism property is confirmed by equipment documentation.",
+    "Use the device schedule for its actual construction, operating duty and ratings. These original functional illustrations describe the named role and do not certify a standard glyph or product footprint."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for trip and close mechanism inputs.",
+    "Identify the destination and defined state of trip-free opening action.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The mechanism property is confirmed by equipment documentation."
+  ],
+  "distinction": "The mechanism property is confirmed by equipment documentation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Trip and close mechanism inputs"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Trip-free opening action"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CTMR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-breaker-products",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "disconnector",
+    "breaker-controlled-switching-interface"
+  ],
+  "artwork": "pi26-circuit-breaker-trip-free-mechanism-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "device-functions",
+    "input": "Trip and close mechanism inputs",
+    "output": "Trip-free opening action"
+  },
+  "url": "https://eloragrid.ai/symbols/circuit-breaker-trip-free-mechanism-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/circuit-breaker-trip-free-mechanism-reference.svg",
+  "id": "circuit-breaker-trip-free-mechanism-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/circuit-breaker-trip-free-mechanism-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/circuit-breaker-trip-free-mechanism-reference.json",
+  "svgPath": "artwork/svg/circuit-breaker-trip-free-mechanism-reference.svg",
+  "referencePath": "references/circuit-breaker-trip-free-mechanism-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-breaker-products",
+      "publisher": "Siemens Energy",
+      "title": "High-voltage circuit breakers",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/circuit-breakers.html",
+      "scope": "Circuit-breaker construction and interruption families.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switching-device operating references. Circuit-breaker construction and interruption families. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

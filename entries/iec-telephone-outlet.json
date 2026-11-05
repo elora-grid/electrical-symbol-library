@@ -1,0 +1,103 @@
+{
+  "slug": "iec-telephone-outlet",
+  "name": "Telephone outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "TO",
+  "aliases": [
+    "telephone socket",
+    "voice outlet",
+    "telephone point"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a telephone outlet where a voice service is terminated for a handset or device.",
+  "description": [
+    "Telephone outlets are drawn as a triangle or outlet shape tagged T or TP. In modern buildings, voice is usually carried on structured cabling, so the telephone outlet may simply be a data outlet assigned to voice, but legends still keep a separate mark for analogue lines, lift phones and alarm diallers.",
+    "Analogue lines remain common for lifts, emergency phones and some alarm communicators. The plan symbol tells the installer that a dedicated voice pair must reach this point. The symbol does not show whether the line is analogue, digital or VoIP."
+  ],
+  "readingNotes": [
+    "Check whether a dedicated analogue line is required.",
+    "Match to the voice cabling schedule."
+  ],
+  "drawingChecklist": [
+    "State line type.",
+    "Tag outlet ID.",
+    "Identify service provider demarcation."
+  ],
+  "distinction": "A telephone set symbol represents the handset itself; the outlet is the wall termination.",
+  "facts": [
+    {
+      "label": "Service",
+      "value": "Voice line termination"
+    },
+    {
+      "label": "Common dedicated uses",
+      "value": "Lifts, emergency phones, alarm diallers"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-data-outlet",
+    "iec-telephone-set-symbol",
+    "iec-firefighter-telephone-outlet-plan-symbol"
+  ],
+  "artwork": "s28-iec-telephone-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Telecommunication outlet, telephone",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-telephone-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-telephone-outlet.svg",
+  "id": "iec-telephone-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-telephone-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-telephone-outlet.json",
+  "svgPath": "artwork/svg/iec-telephone-outlet.svg",
+  "referencePath": "references/iec-telephone-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-resource-role-assignment",
+  "name": "Microgrid resource-role assignment",
+  "kind": "symbol",
+  "abbreviation": "MRA",
+  "aliases": [
+    "Microgrid operating-mode controls",
+    "microgrids Microgrid operating-mode controls",
+    "microgrids",
+    "Microgrids",
+    "Resource capability and topology",
+    "Assigned resource roles"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Assigns the selected resources to their documented grid-forming or following control roles.",
+  "description": [
+    "Assigns the selected resources to their documented grid-forming or following control roles. A microgrid operating-mode function coordinates how local sources and loads relate to the utility connection. The selected mode, the measured electrical condition and the actual switching configuration can differ during a transition.",
+    "In a microgrid serving a switchroom and industrial loads, the controller can move between grid-connected and islanded operating states only through its defined transition logic. Each state needs identifiable source roles and feedback. For this reference, the drawing identifies “Resource capability and topology” at the input and “Assigned resource roles” at the output. The controller cannot create unsupported equipment capability.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Resource capability and topology. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned resource roles. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The controller cannot create unsupported equipment capability.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for resource capability and topology.",
+    "Identify the destination and defined state of assigned resource roles.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The controller cannot create unsupported equipment capability."
+  ],
+  "distinction": "The controller cannot create unsupported equipment capability. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Resource capability and topology"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned resource roles"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "grid-forming-inverter",
+    "microgrid-grid-forming-reference-selection"
+  ],
+  "artwork": "pi26-microgrid-resource-role-assignment",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-modes",
+    "input": "Resource capability and topology",
+    "output": "Assigned resource roles"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-resource-role-assignment",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-resource-role-assignment.svg",
+  "id": "microgrid-resource-role-assignment",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-resource-role-assignment",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-resource-role-assignment.json",
+  "svgPath": "artwork/svg/microgrid-resource-role-assignment.svg",
+  "referencePath": "references/microgrid-resource-role-assignment.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

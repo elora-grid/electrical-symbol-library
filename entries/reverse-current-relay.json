@@ -1,0 +1,100 @@
+{
+  "slug": "reverse-current-relay",
+  "name": "Reverse-current measuring relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "come-back current protection relay",
+    "HCR1F28",
+    "reverse current relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring relay that operates when current flows in the opposite direction to normal, such as back-feed into a DC source.",
+  "description": [
+    "A reverse-current relay compares the direction of current with a reference and operates when current flows the wrong way. Classic uses are DC generators and battery chargers in parallel, where a failed source would otherwise draw current from the bus, and rectifier feeders where back-feed indicates a fault.",
+    "On the schematic the relay box carries a current quantity with a direction qualifier, and its contacts are drawn elsewhere in the trip or alarm circuit. The box does not show the pick-up level or time delay, and in AC systems the equivalent requirement is usually met with a directional power function rather than a simple current-direction element."
+  ],
+  "readingNotes": [
+    "Identify which direction is treated as normal for the source.",
+    "Find the contacts that trip or disconnect the source."
+  ],
+  "drawingChecklist": [
+    "State normal current direction",
+    "Give pick-up and delay",
+    "Reference the trip contact"
+  ],
+  "distinction": "A reverse-current relay responds to current direction; a maximum-current relay responds to magnitude regardless of direction.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Current direction relative to normal flow"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F28 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Come Back Current Protection block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "maximum-current-monitoring-relay",
+    "32-directional-power",
+    "directional-measuring-element-qualifier"
+  ],
+  "artwork": "s28-reverse-current-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/reverse-current-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/reverse-current-relay.svg",
+  "id": "reverse-current-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/reverse-current-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/reverse-current-relay.json",
+  "svgPath": "artwork/svg/reverse-current-relay.svg",
+  "referencePath": "references/reverse-current-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Come Back Current Protection block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "battery-rack",
+  "name": "Battery rack",
+  "kind": "symbol",
+  "abbreviation": "BR",
+  "aliases": [
+    "battery rack system",
+    "rack of battery modules",
+    "BESS rack"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A rack of series-connected battery modules with its own switchgear and battery management unit, forming one DC source.",
+  "description": [
+    "In stationary lithium-ion systems a battery rack holds modules connected in series to form one string, together with a rack-level switchgear box containing contactors, fuses, precharge circuit and the rack battery management unit. Racks are then paralleled onto a DC bus feeding the power conversion system.",
+    "Single-line diagrams draw each rack as a battery symbol within a boundary box that also contains the rack contactors and fuse, with the management unit shown as a small block linked by a communication line. Large systems may show one typical rack and note the number of racks in parallel.",
+    "The rack boundary on an electrical drawing does not describe mechanical arrangement, fire separation or cooling. It also does not state whether racks of different capacities can be mixed, which the battery manufacturer must confirm."
+  ],
+  "readingNotes": [
+    "One typical rack is often drawn with a multiplier note for the rest.",
+    "Rack contactors are opened by the management system, not by the inverter."
+  ],
+  "drawingChecklist": [
+    "State modules per rack and rack voltage.",
+    "Show rack contactors, fuses and precharge.",
+    "Reference number of racks in parallel."
+  ],
+  "distinction": "A rack is the packaged string with switchgear and management; a plain battery string symbol shows only the series cells.",
+  "facts": [
+    {
+      "label": "Contents",
+      "value": "Modules, switchgear, management unit"
+    },
+    {
+      "label": "Electrical role",
+      "value": "One parallelable DC string"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; not a product outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "battery-cabinets",
+      "relevance": "Public battery energy storage cabinet context."
+    },
+    {
+      "sourceId": "pub-object-victron-lynx-smart-bms-ng",
+      "relevance": "Public battery management and contactor control documentation context."
+    }
+  ],
+  "related": [
+    "battery-string",
+    "battery-energy-storage-system",
+    "battery-precharge-circuit",
+    "battery-cabinet"
+  ],
+  "artwork": "s28-battery-rack",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-rack",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-rack.svg",
+  "id": "battery-rack",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-rack",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-rack.json",
+  "svgPath": "artwork/svg/battery-rack.svg",
+  "referencePath": "references/battery-rack.md",
+  "publicSources": [
+    {
+      "id": "battery-cabinets",
+      "title": "xStorage battery energy storage system",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/energy-storage/xstorage-battery-energy-storage-system.html",
+      "type": "manufacturer",
+      "scope": "Public example of battery cabinets, power conversion and control equipment within a storage system.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public battery energy storage cabinet context."
+    },
+    {
+      "id": "pub-object-victron-lynx-smart-bms-ng",
+      "title": "Lynx Smart BMS NG official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/battery-management-systems/lynx-smart-bms-ng",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public battery management and contactor control documentation context."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "station-ied-configuration-revision-reference",
+  "name": "Station IED configuration-revision reference",
+  "kind": "symbol",
+  "abbreviation": "SICR",
+  "aliases": [
+    "Substation automation and command interfaces",
+    "substations Substation automation and command interfaces",
+    "substations",
+    "Substations",
+    "Drawing signal map",
+    "Configuration revision link"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Associates the drawing's point and command mappings with the selected IED configuration revision.",
+  "description": [
+    "Associates the drawing's point and command mappings with the selected IED configuration revision. Station automation collects measurements and statuses and issues assigned commands through defined authority paths. A communicated point has a value, quality and equipment identity; it should not be treated as an unexplained contact.",
+    "In a substation control building, the station controller receives bay information and forwards an operator's selected command to the correct bay device. Device feedback confirms whether the intended result actually occurred. For this reference, the drawing identifies “Drawing signal map” at the input and “Configuration revision link” at the output. The referenced revision must match the installed system.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Drawing signal map. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Configuration revision link. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The referenced revision must match the installed system.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for drawing signal map.",
+    "Identify the destination and defined state of configuration revision link.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The referenced revision must match the installed system."
+  ],
+  "distinction": "The referenced revision must match the installed system. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Drawing signal map"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Configuration revision link"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SICR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-automation",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-substation-rtu",
+    "plc-digital-input",
+    "bay-controller-supervisory-data-interface"
+  ],
+  "artwork": "pi26-station-ied-configuration-revision-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-automation",
+    "input": "Drawing signal map",
+    "output": "Configuration revision link"
+  },
+  "url": "https://eloragrid.ai/symbols/station-ied-configuration-revision-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-ied-configuration-revision-reference.svg",
+  "id": "station-ied-configuration-revision-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-ied-configuration-revision-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-ied-configuration-revision-reference.json",
+  "svgPath": "artwork/svg/station-ied-configuration-revision-reference.svg",
+  "referencePath": "references/station-ied-configuration-revision-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-automation",
+      "publisher": "SEL",
+      "title": "SEL-2411 programmable automation controller",
+      "url": "https://selinc.com/products/2411/",
+      "scope": "Station I/O, alarms, event recording, command and communications interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

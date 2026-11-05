@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-intertie-open-proof-confirmation",
+  "name": "Microgrid intertie open-proof confirmation",
+  "kind": "symbol",
+  "abbreviation": "MIOC",
+  "aliases": [
+    "Microgrid topology and earthing coordination",
+    "microgrids Microgrid topology and earthing coordination",
+    "microgrids",
+    "Microgrids",
+    "Intertie position feedback",
+    "Interconnection-open status"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses the assigned feedback to establish the interconnection device's documented open state.",
+  "description": [
+    "Uses the assigned feedback to establish the interconnection device's documented open state. Microgrid topology control tracks which sources and load sections are electrically connected. The same physical installation can form several islands, so source roles, measurement boundaries and earthing interfaces must follow the established configuration.",
+    "In a microgrid with sectionalized buses, the controller can associate each connected source and load group with its current island. A mode-dependent neutral or protection interface needs its own independently validated design. For this reference, the drawing identifies “Intertie position feedback” at the input and “Interconnection-open status” at the output. Other electrical connection paths must be considered.",
+    "Keep measured switch positions, logical island assignment and any earthing command separate. A conceptual topology block cannot establish a safe neutral-switching arrangement or prove that a circuit is de-energized. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Intertie position feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Interconnection-open status. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Other electrical connection paths must be considered.",
+    "Keep measured switch positions, logical island assignment and any earthing command separate. A conceptual topology block cannot establish a safe neutral-switching arrangement or prove that a circuit is de-energized."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for intertie position feedback.",
+    "Identify the destination and defined state of interconnection-open status.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Other electrical connection paths must be considered."
+  ],
+  "distinction": "Other electrical connection paths must be considered. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Intertie position feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Interconnection-open status"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MIOC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid topology and earthing coordination. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-interconnection-switch",
+    "neutral-earthing-resistor",
+    "microgrid-neutral-reference-availability-input"
+  ],
+  "artwork": "pi26-microgrid-intertie-open-proof-confirmation",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-topology",
+    "input": "Intertie position feedback",
+    "output": "Interconnection-open status"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-intertie-open-proof-confirmation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-intertie-open-proof-confirmation.svg",
+  "id": "microgrid-intertie-open-proof-confirmation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-intertie-open-proof-confirmation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-intertie-open-proof-confirmation.json",
+  "svgPath": "artwork/svg/microgrid-intertie-open-proof-confirmation.svg",
+  "referencePath": "references/microgrid-intertie-open-proof-confirmation.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid topology and earthing coordination. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

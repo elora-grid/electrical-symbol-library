@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-zero-interchange-target-block",
+  "name": "Microgrid zero-interchange target block",
+  "kind": "symbol",
+  "abbreviation": "MZTB",
+  "aliases": [
+    "Microgrid active-power dispatch controls",
+    "microgrids Microgrid active-power dispatch controls",
+    "microgrids",
+    "Microgrids",
+    "PCC power measurement",
+    "Zero-interchange dispatch target"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Forms the documented target for balancing local demand and generation at the PCC.",
+  "description": [
+    "Forms the documented target for balancing local demand and generation at the PCC. Active-power dispatch allocates the electrical work performed by the microgrid resources. A total site target, a resource power limit and the actual measured contribution are different quantities that must be connected clearly in the diagram.",
+    "In a microgrid with solar generation, a battery and generators, the controller can allocate an import/export target among the available resources while reserving the power needed for operating disturbances. For this reference, the drawing identifies “PCC power measurement” at the input and “Zero-interchange dispatch target” at the output. Zero target does not imply zero instantaneous deviation.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: PCC power measurement. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Zero-interchange dispatch target. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Zero target does not imply zero instantaneous deviation.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for pcc power measurement.",
+    "Identify the destination and defined state of zero-interchange dispatch target.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Zero target does not imply zero instantaneous deviation."
+  ],
+  "distinction": "Zero target does not imply zero instantaneous deviation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "PCC power measurement"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Zero-interchange dispatch target"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MZTB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-plant-controller",
+    "point-of-common-coupling",
+    "microgrid-site-active-power-setpoint-allocator"
+  ],
+  "artwork": "pi26-microgrid-zero-interchange-target-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-active",
+    "input": "PCC power measurement",
+    "output": "Zero-interchange dispatch target"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-zero-interchange-target-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-zero-interchange-target-block.svg",
+  "id": "microgrid-zero-interchange-target-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-zero-interchange-target-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-zero-interchange-target-block.json",
+  "svgPath": "artwork/svg/microgrid-zero-interchange-target-block.svg",
+  "referencePath": "references/microgrid-zero-interchange-target-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

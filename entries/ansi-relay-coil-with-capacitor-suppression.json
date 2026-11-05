@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-relay-coil-with-capacitor-suppression",
+  "name": "ANSI/IEEE Relay coil with capacitor suppression form",
+  "kind": "symbol",
+  "abbreviation": "K CAP",
+  "aliases": [
+    "HCR1K37",
+    "VCR1K37",
+    "IEEE Relay with Capacitor",
+    "ANSI Relay coil with capacitor suppression"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of relay coil with capacitor suppression: a relay with a capacitor suppression element includes a documented capacitive network associated with the coil.",
+  "description": [
+    "This reference locates relay coil with capacitor suppression in Autodesk's IEEE-oriented relays with suppression family. A relay with a capacitor suppression element includes a documented capacitive network associated with the coil. Its connection and effect on switching are product-dependent. The public library uses HCR1K37 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Check the coil voltage type and suppression configuration before substituting a relay assembly. Capacitor suppression is different from the coil's operating function and from a motor run capacitor. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check the coil voltage type and suppression configuration before substituting a relay assembly.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify capacitor network",
+    "State coil rating",
+    "Reference approved suppression module"
+  ],
+  "distinction": "Capacitor suppression is different from the coil's operating function and from a motor run capacitor.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Relays with Suppression; published form: Relay with Capacitor."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1K37. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-538b6a25-1215-4f1b-a824-0181d01be721",
+      "relevance": "Public IEEE-oriented Relays with Suppression table explicitly lists HCR1K37 as Relay with Capacitor. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "relay-coil-with-capacitor-suppression",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-relay-coil-with-capacitor-suppression",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Relay with Capacitor",
+    "reference": "Autodesk IEEE Symbol Preview: Relays with Suppression, block HCR1K37. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "relay-coil-with-capacitor-suppression"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-relay-coil-with-capacitor-suppression",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-relay-coil-with-capacitor-suppression.svg",
+  "id": "ansi-relay-coil-with-capacitor-suppression",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-relay-coil-with-capacitor-suppression",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-relay-coil-with-capacitor-suppression.json",
+  "svgPath": "artwork/svg/ansi-relay-coil-with-capacitor-suppression.svg",
+  "referencePath": "references/ansi-relay-coil-with-capacitor-suppression.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-538b6a25-1215-4f1b-a824-0181d01be721",
+      "title": "Autodesk IEEE Symbol Preview — Relays with Suppression",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-538B6A25-1215-4F1B-A824-0181D01BE721.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Relays with Suppression table explicitly lists HCR1K37 as Relay with Capacitor. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "ansi-coaxial-cable",
+  "name": "ANSI/IEEE coaxial cable symbol",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "IEEE coax",
+    "ANSI coaxial line",
+    "coaxial conductor"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented coaxial cable drawn as a centre conductor with a surrounding outer conductor that terminates at each end.",
+  "description": [
+    "IEEE-oriented drawings represent coaxial cable with a centre line enclosed by an outer conductor outline, often with the outer conductor brought out to a ground or connector shell at the ends. The convention is used on communications, metering time-sync and RF schematics in US-practice drawing sets.",
+    "This illustration explains the idea and is not a certified IEEE graphic. The cable impedance and connector types must still be given in text. Where the outer conductor is grounded at both ends between buildings, check for ground loop and surge transfer issues."
+  ],
+  "readingNotes": [
+    "Read connector and impedance notes at each end.",
+    "Check outer conductor grounding at building entries."
+  ],
+  "drawingChecklist": [
+    "State cable type or impedance.",
+    "Name connectors at each end.",
+    "Show outer conductor grounding."
+  ],
+  "distinction": "The ANSI coaxial form has a current-carrying outer conductor; the ANSI shielded conductor form has a screen only.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "IEEE 315 graphic conventions for coaxial cable (standards context only)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "relevance": "Public IEEE-oriented connector forms used at coax ends."
+    }
+  ],
+  "related": [
+    "iec-coaxial-cable",
+    "ansi-shielded-conductor",
+    "ansi-coaxial-connector"
+  ],
+  "artwork": "s28-ansi-coaxial-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Coaxial cable with outer conductor outline",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-coaxial-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-coaxial-cable.svg",
+  "id": "ansi-coaxial-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-coaxial-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-coaxial-cable.json",
+  "svgPath": "artwork/svg/ansi-coaxial-cable.svg",
+  "referencePath": "references/ansi-coaxial-cable.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "title": "Autodesk IEEE Symbol Preview — Connectors - No Wirenumber Changes",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0B14FEAB-110A-4DD3-884E-0A2F8F9E76F7.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented connector forms used at coax ends."
+    }
+  ]
+}

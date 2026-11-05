@@ -1,0 +1,105 @@
+{
+  "slug": "static-frequency-converter",
+  "name": "Static frequency converter",
+  "kind": "symbol",
+  "abbreviation": "SFC",
+  "aliases": [
+    "frequency converter",
+    "50/60 Hz converter",
+    "AC-to-AC converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A rectifier and inverter in one unit that converts AC at one frequency to AC at another, such as 50 Hz to 60 Hz.",
+  "description": [
+    "A static frequency converter rectifies the incoming AC to DC and inverts it back to AC at a different frequency and often a different voltage. It is used to supply 60 Hz equipment from a 50 Hz network, to provide shore power to ships, to feed 400 Hz aircraft supplies and to link microgrids or networks running at different frequencies.",
+    "Drawings show a converter box with AC marks on both sides and the frequencies noted, or two converter boxes back to back with a DC link between them. Input and output transformers are often drawn to provide isolation and voltage matching.",
+    "The output is converter-sourced, so fault current is limited and selective protection downstream must be checked. The symbol does not show overload capability or whether the output can supply motor starting current."
+  ],
+  "readingNotes": [
+    "Read both the input and output frequency labels.",
+    "Check output short-circuit capability for downstream protection."
+  ],
+  "drawingChecklist": [
+    "State input and output voltage and frequency.",
+    "Show isolation transformers.",
+    "Reference overload and fault capability."
+  ],
+  "distinction": "A static frequency converter changes frequency electronically; a motor-generator set does the same with rotating machines.",
+  "facts": [
+    {
+      "label": "Conversion",
+      "value": "AC to DC to AC"
+    },
+    {
+      "label": "Typical use",
+      "value": "50/60 Hz and 400 Hz supplies"
+    },
+    {
+      "label": "Fault current",
+      "value": "Converter-limited"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for converters."
+    },
+    {
+      "sourceId": "pub-electronics-infineon-inverter",
+      "relevance": "Public AC/DC and inverter stage context."
+    }
+  ],
+  "related": [
+    "motor-generator-set",
+    "power-converter",
+    "dc-to-ac-inverter",
+    "active-front-end-rectifier"
+  ],
+  "artwork": "s28-static-frequency-converter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/static-frequency-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/static-frequency-converter.svg",
+  "id": "static-frequency-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/static-frequency-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/static-frequency-converter.json",
+  "svgPath": "artwork/svg/static-frequency-converter.svg",
+  "referencePath": "references/static-frequency-converter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for converters."
+    },
+    {
+      "id": "pub-electronics-infineon-inverter",
+      "title": "Bidirectional three-/single-phase AC/DC PFC and inverter application note",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/assets/row/public/documents/24/42/infineon-ac-dc-pfc-11-kw-high-efficiency-high-density-bidirectional-three-single-phase-inverter-applicationnotes-en.pdf",
+      "type": "manufacturer",
+      "scope": "Public application context for actively switched AC/DC and inverter stages. Independent miniature topology illustrations have no copied product-specific values, wiring layouts or control implementation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public AC/DC and inverter stage context."
+    }
+  ]
+}

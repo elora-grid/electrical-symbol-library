@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-water-ingress-detection-interface",
+  "name": "Switchroom water-ingress detection interface",
+  "kind": "symbol",
+  "abbreviation": "SWDI",
+  "aliases": [
+    "Switchroom environmental supervision",
+    "switchrooms Switchroom environmental supervision",
+    "switchrooms",
+    "Switchrooms",
+    "Water-detection contact",
+    "Water-ingress alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the installed water detector's indication for the assigned room or trench area.",
+  "description": [
+    "Receives the installed water detector's indication for the assigned room or trench area. Environmental supervision turns measurements or contact states into clearly named room-service indications. A sensor measures a condition; the supervisory function decides whether the assigned alarm or control response is needed.",
+    "In a switchroom, water ingress, temperature, humidity and equipment-service alarms can be sent to the station controller with separate point names so an operator can identify the affected area. For this reference, the drawing identifies “Water-detection contact” at the input and “Water-ingress alarm” at the output. The detector covers only its defined sensing area.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Water-detection contact. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Water-ingress alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The detector covers only its defined sensing area.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for water-detection contact.",
+    "Identify the destination and defined state of water-ingress alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The detector covers only its defined sensing area."
+  ],
+  "distinction": "The detector covers only its defined sensing area. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Water-detection contact"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Water-ingress alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SWDI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relative-humidity-sensor",
+    "temperature-indicator",
+    "cable-basement-flood-level-alarm"
+  ],
+  "artwork": "pi26-switchroom-water-ingress-detection-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-environment",
+    "input": "Water-detection contact",
+    "output": "Water-ingress alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-water-ingress-detection-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-water-ingress-detection-interface.svg",
+  "id": "switchroom-water-ingress-detection-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-water-ingress-detection-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-water-ingress-detection-interface.json",
+  "svgPath": "artwork/svg/switchroom-water-ingress-detection-interface.svg",
+  "referencePath": "references/switchroom-water-ingress-detection-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

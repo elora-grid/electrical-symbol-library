@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-energy-based-load-shedding",
+  "name": "Microgrid energy-based load shedding",
+  "kind": "symbol",
+  "abbreviation": "MELS",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Storage energy availability",
+    "Energy-constrained shedding request"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests selected load reduction according to the declared stored-energy constraint.",
+  "description": [
+    "Requests selected load reduction according to the declared stored-energy constraint. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Storage energy availability” at the input and “Energy-constrained shedding request” at the output. Power and energy constraints are different.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Storage energy availability. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Energy-constrained shedding request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Power and energy constraints are different.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for storage energy availability.",
+    "Identify the destination and defined state of energy-constrained shedding request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Power and energy constraints are different."
+  ],
+  "distinction": "Power and energy constraints are different. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Storage energy availability"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Energy-constrained shedding request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MELS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-shedding-group-selection-matrix"
+  ],
+  "artwork": "pi26-microgrid-energy-based-load-shedding",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Storage energy availability",
+    "output": "Energy-constrained shedding request"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-energy-based-load-shedding",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-energy-based-load-shedding.svg",
+  "id": "microgrid-energy-based-load-shedding",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-energy-based-load-shedding",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-energy-based-load-shedding.json",
+  "svgPath": "artwork/svg/microgrid-energy-based-load-shedding.svg",
+  "referencePath": "references/microgrid-energy-based-load-shedding.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

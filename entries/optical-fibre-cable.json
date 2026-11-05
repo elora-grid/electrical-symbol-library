@@ -1,0 +1,100 @@
+{
+  "slug": "optical-fibre-cable",
+  "name": "Optical fibre cable",
+  "kind": "symbol",
+  "abbreviation": "OF",
+  "aliases": [
+    "fibre-optic cable",
+    "fibre link",
+    "optical cable"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A cable line carrying light rather than current, used for protection signalling, SCADA links and substation process bus.",
+  "description": [
+    "The optical fibre cable representation marks a link that carries light signals. In power systems it is used for line differential protection signalling, IEC 61850 station and process bus networks, and links between buildings where galvanic isolation avoids earth potential rise problems. It is commonly drawn with a distinct line style or a small light-path mark on the conductor.",
+    "Because the fibre carries no current, it must never be read as a power or earth path. The drawing should still give the fibre count, fibre type (single mode or multimode) and connector types at each end. Spare fibres and splice points are tracked in a fibre schedule rather than on the schematic."
+  ],
+  "readingNotes": [
+    "Do not treat the fibre as an electrical path for earthing or interlocking.",
+    "Check fibre type and count against the equipment ports."
+  ],
+  "drawingChecklist": [
+    "State single mode or multimode and fibre count.",
+    "Identify connector type at each end.",
+    "Reference splice trays and patch panels in the fibre schedule."
+  ],
+  "distinction": "An optical fibre cable carries light and gives galvanic isolation; a coaxial cable carries electrical signals and can transfer earth potential.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Line with optical path mark or distinct fibre line style"
+    },
+    {
+      "label": "Electrical property",
+      "value": "Non-conducting; provides galvanic isolation"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Standards context for transmission-path graphics."
+    }
+  ],
+  "related": [
+    "iec-fibre-optic-connector",
+    "iec-coaxial-cable",
+    "ethernet-phy"
+  ],
+  "artwork": "s28-optical-fibre-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/optical-fibre-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/optical-fibre-cable.svg",
+  "id": "optical-fibre-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/optical-fibre-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/optical-fibre-cable.json",
+  "svgPath": "artwork/svg/optical-fibre-cable.svg",
+  "referencePath": "references/optical-fibre-cable.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Standards context for transmission-path graphics."
+    }
+  ]
+}

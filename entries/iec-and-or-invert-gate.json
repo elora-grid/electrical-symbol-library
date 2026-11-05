@@ -1,0 +1,105 @@
+{
+  "slug": "iec-and-or-invert-gate",
+  "name": "IEC AND-OR-invert element",
+  "kind": "symbol",
+  "abbreviation": "AOI",
+  "aliases": [
+    "IEC AOI gate",
+    "embedded & into ≥1 element",
+    "AND-OR-INVERT rectangular form"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Two & elements embedded in a ≥1 element with negated output, drawn as one compound IEC AND-OR-invert symbol.",
+  "description": [
+    "The IEC system draws an AND-OR-invert as several & elements abutted against the left side of a ≥1 element, whose output is negated. Because the common line between the & and ≥1 parts is perpendicular to the signal flow, each & element is understood to feed one input of the OR.",
+    "AOI structures appear in older TTL-based control boards and in some gate-array documentation. On a drawing they compress several gates into one symbol, so the reader should expand the function mentally as the complement of a sum of products before checking a truth table.",
+    "The compound symbol does not show internal timing or whether unused AND inputs are tied. Unused inputs on the physical device must be handled as the datasheet requires."
+  ],
+  "readingNotes": [
+    "Read the embedded & elements as product terms feeding the ≥1 element.",
+    "Remember the final negation at the output."
+  ],
+  "drawingChecklist": [
+    "Abut the & elements cleanly to the ≥1 outline.",
+    "Label every input.",
+    "Show the tie-off for unused inputs."
+  ],
+  "distinction": "Separate AND gates wired to a NOR gate perform the same function but are drawn as distinct elements with visible interconnections.",
+  "facts": [
+    {
+      "label": "Structure",
+      "value": "& elements embedded in ≥1 with output negation"
+    },
+    {
+      "label": "Boolean form",
+      "value": "NOT((A AND B) OR (C AND D))"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Explains abutted and embedded outlines and their implied connections."
+    },
+    {
+      "sourceId": "s28-ti-ls51",
+      "relevance": "Manufacturer AND-OR-invert gate documentation."
+    }
+  ],
+  "related": [
+    "ansi-and-or-invert-gate",
+    "iec-and-gate",
+    "iec-nor-gate"
+  ],
+  "artwork": "s28-iec-and-or-invert-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Embedded & elements abutting a ≥1 element with negated output",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-and-or-invert-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-and-or-invert-gate.svg",
+  "id": "iec-and-or-invert-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-and-or-invert-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-and-or-invert-gate.json",
+  "svgPath": "artwork/svg/iec-and-or-invert-gate.svg",
+  "referencePath": "references/iec-and-or-invert-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Explains abutted and embedded outlines and their implied connections."
+    },
+    {
+      "id": "s28-ti-ls51",
+      "title": "SN74LS51 AND-OR-invert gates",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls51.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for AND-OR-invert gates.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer AND-OR-invert gate documentation."
+    }
+  ]
+}

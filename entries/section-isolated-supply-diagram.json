@@ -1,0 +1,105 @@
+{
+  "slug": "section-isolated-supply-diagram",
+  "name": "Section-isolated supply diagram",
+  "kind": "symbol",
+  "abbreviation": "SSD",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "Defined isolation boundaries",
+    "Isolated-section representation"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the intentionally disconnected supply paths of the selected bus section for diagram interpretation.",
+  "description": [
+    "Shows the intentionally disconnected supply paths of the selected bus section for diagram interpretation. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “Defined isolation boundaries” at the input and “Isolated-section representation” at the output. An illustration cannot establish actual field isolation.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Defined isolation boundaries. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Isolated-section representation. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "An illustration cannot establish actual field isolation.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for defined isolation boundaries.",
+    "Identify the destination and defined state of isolated-section representation.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: An illustration cannot establish actual field isolation."
+  ],
+  "distinction": "An illustration cannot establish actual field isolation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Defined isolation boundaries"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Isolated-section representation"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SSD is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "single-incomer-sectionalised-switchboard"
+  ],
+  "artwork": "pi26-section-isolated-supply-diagram",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "Defined isolation boundaries",
+    "output": "Isolated-section representation"
+  },
+  "url": "https://eloragrid.ai/symbols/section-isolated-supply-diagram",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/section-isolated-supply-diagram.svg",
+  "id": "section-isolated-supply-diagram",
+  "canonicalUrl": "https://eloragrid.ai/symbols/section-isolated-supply-diagram",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/section-isolated-supply-diagram.json",
+  "svgPath": "artwork/svg/section-isolated-supply-diagram.svg",
+  "referencePath": "references/section-isolated-supply-diagram.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

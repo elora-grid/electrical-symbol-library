@@ -1,0 +1,90 @@
+{
+  "slug": "altech-cbi12xx",
+  "name": "Altech CBI12xx DC UPS",
+  "kind": "object",
+  "abbreviation": "CBI12xx",
+  "aliases": [
+    "Altech CBI12xx DC UPS GA",
+    "CBI12xx layout",
+    "CBI12xx CAD",
+    "CBI12xx general arrangement"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "CBI12xx UPS interface layout for backed-up DC control power.",
+  "description": [
+    "The manufacturer index maps drawing group CBI12xx to CBI123A, CBI126A, CBI1210A, CBI1235A. Reserve separate routes for supply, battery and backed-up load conductors; the battery is not included in the device outline.",
+    "Use the linked manufacturer mechanical original for dimensions and exact revision. This illustration is independently drawn, unitless and not to scale."
+  ],
+  "readingNotes": [
+    "Reserve separate supply, battery and backed-up load wiring routes.",
+    "The device envelope does not include an external battery or establish battery compatibility, protection requirements or backup duration."
+  ],
+  "drawingChecklist": [
+    "Identify CBI12xx and its battery connection role.",
+    "Reserve separate supply, battery and backed-up load wiring routes.",
+    "Coordinate external battery location, protection and service access."
+  ],
+  "distinction": "The device envelope does not include an external battery or establish battery compatibility, protection requirements or backup duration.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Altech"
+    },
+    {
+      "label": "Drawing group",
+      "value": "CBI12xx"
+    },
+    {
+      "label": "Drawing scope",
+      "value": "Legacy manufacturer drawing group; only explicitly listed aliases are included"
+    },
+    {
+      "label": "Manufacturer index aliases",
+      "value": "CBI123A, CBI126A, CBI1210A, CBI1235A"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual envelope; no measured geometry or certification claim"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-scale-altech-cbi12xx",
+      "relevance": "Official drawing identity and configuration scope. Coordination notes and illustration are original educational material."
+    }
+  ],
+  "related": [
+    "ga-dc-ups-module",
+    "ga-station-dc-battery-rack"
+  ],
+  "artwork": "edu-object-altech-cbi12xx",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/altech-cbi12xx",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/altech-cbi12xx",
+  "id": "altech-cbi12xx",
+  "canonicalUrl": "https://eloragrid.ai/objects/altech-cbi12xx",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/altech-cbi12xx.json",
+  "referencePath": "references/altech-cbi12xx.md",
+  "publicSources": [
+    {
+      "id": "ga-scale-altech-cbi12xx",
+      "title": "Altech CBI12xx DC UPS: official mechanical resource",
+      "publisher": "Altech Corporation",
+      "url": "https://legacy.altechcorp.com/CAD/1MasterSheet/WebsiteUSE/HTMLWebpages/PowerSupplyMasterSheet.htm",
+      "type": "manufacturer",
+      "scope": "Published model identity, mechanical drawing group and variant scope.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Official drawing identity and configuration scope. Coordination notes and illustration are original educational material."
+    }
+  ]
+}

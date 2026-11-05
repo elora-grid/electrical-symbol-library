@@ -1,0 +1,116 @@
+{
+  "slug": "ansi-three-position-disconnector",
+  "name": "ANSI/IEEE Three-position disconnector form",
+  "kind": "symbol",
+  "abbreviation": "DS 3POS",
+  "aliases": [
+    "HDS11Q89",
+    "VDS11Q89",
+    "IEEE Two Way Disconnect with 3 Positions",
+    "ANSI Three-position disconnector"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-position disconnector: a three-position disconnector selects between two paths and an intermediate position.",
+  "description": [
+    "This reference locates three-position disconnector in Autodesk's IEEE-oriented disconnect 1 pole family. A three-position disconnector selects between two paths and an intermediate position. Switchgear schematics must define each position and any linked earth or isolation function explicitly. The public library uses HDS11Q89 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "The middle position must be labelled rather than assumed to be open or earthed. Three positions describe available states; they do not imply that every transition can occur under load. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "The middle position must be labelled rather than assumed to be open or earthed.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name all three positions",
+    "Draw each connected path",
+    "Reference mechanical interlocks"
+  ],
+  "distinction": "Three positions describe available states; they do not imply that every transition can occur under load.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Disconnect 1 Pole; published form: Two Way Disconnect with 3 Positions."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDS11Q89. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Switching path"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7c62d3de-6494-4cbf-b3cf-3e3da309d6a4",
+      "relevance": "Public IEEE-oriented Disconnect 1 Pole table explicitly lists HDS11Q89 as Two Way Disconnect with 3 Positions. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "three-position-disconnector",
+    "disconnector",
+    "circuit-breaker"
+  ],
+  "artwork": "s28-ansi-three-position-disconnector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Two Way Disconnect with 3 Positions",
+    "reference": "Autodesk IEEE Symbol Preview: Disconnect 1 Pole, block HDS11Q89. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-position-disconnector"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-position-disconnector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-position-disconnector.svg",
+  "id": "ansi-three-position-disconnector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-position-disconnector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-position-disconnector.json",
+  "svgPath": "artwork/svg/ansi-three-position-disconnector.svg",
+  "referencePath": "references/ansi-three-position-disconnector.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7c62d3de-6494-4cbf-b3cf-3e3da309d6a4",
+      "title": "Autodesk IEEE Symbol Preview — Disconnect 1 Pole",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7C62D3DE-6494-4CBF-B3CF-3E3DA309D6A4.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Disconnect 1 Pole table explicitly lists HDS11Q89 as Two Way Disconnect with 3 Positions. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

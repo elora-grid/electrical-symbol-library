@@ -1,0 +1,105 @@
+{
+  "slug": "ups-maintenance-bypass",
+  "name": "UPS maintenance bypass",
+  "kind": "symbol",
+  "abbreviation": "MBP",
+  "aliases": [
+    "external maintenance bypass",
+    "wrap-around bypass",
+    "UPS bypass switch"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An arrangement of interlocked switches that routes the load around a UPS so the UPS can be isolated for work.",
+  "description": [
+    "A UPS maintenance bypass is a set of switches, usually input, output and bypass, that lets the load be connected directly to the bypass supply while the UPS is fully isolated. It is normally external to the UPS cabinet so that the UPS itself can be removed without disturbing the load wiring.",
+    "Single-line diagrams show the UPS between an input switch and an output switch, with a bypass switch connecting the input supply directly to the output busbar. Key interlocks or a make-before-break sequence prevent the UPS inverter from being paralleled with an unsynchronised bypass.",
+    "The symbol does not tell you the sequence of operation or whether the UPS static bypass must be engaged first. Those steps are critical and must be written on the operating label or switching instruction."
+  ],
+  "readingNotes": [
+    "Identify the three switches and their interlock.",
+    "The bypass source may differ from the UPS rectifier source."
+  ],
+  "drawingChecklist": [
+    "State ratings of each switch.",
+    "Show interlocks.",
+    "Reference operating sequence."
+  ],
+  "distinction": "A maintenance bypass is external switching around the whole UPS; the static bypass is an internal electronic path.",
+  "facts": [
+    {
+      "label": "Switches",
+      "value": "Input, output and bypass"
+    },
+    {
+      "label": "Location",
+      "value": "Usually external to the UPS"
+    },
+    {
+      "label": "Interlock",
+      "value": "Key or sequenced"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for switches."
+    }
+  ],
+  "related": [
+    "online-double-conversion-ups",
+    "ga-ups-maintenance-bypass-panel",
+    "bypass-isolation-transfer-switch",
+    "switch-disconnector"
+  ],
+  "artwork": "s28-ups-maintenance-bypass",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ups-maintenance-bypass",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ups-maintenance-bypass.svg",
+  "id": "ups-maintenance-bypass",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ups-maintenance-bypass",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ups-maintenance-bypass.json",
+  "svgPath": "artwork/svg/ups-maintenance-bypass.svg",
+  "referencePath": "references/ups-maintenance-bypass.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for switches."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "iec-and-dependency-g",
+  "name": "IEC AND dependency (G)",
+  "kind": "symbol",
+  "abbreviation": "Gm",
+  "aliases": [
+    "G dependency",
+    "AND dependency notation",
+    "Gm affecting input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency label Gm: inputs or outputs carrying the number m are ANDed with the affecting G input.",
+  "description": [
+    "In dependency notation, an input labelled G followed by a number is an affecting input. Every input or output labelled with the same number is ANDed with it. When the G input is at its internal 1 state the affected signals act normally; at its internal 0 state they are forced to 0. A bar over the number means the complement of the G input affects them.",
+    "G dependency lets a device symbol show gating relationships without drawing extra AND gates. It is common on multiplexers, gated clocks and register symbols in device data books, and a drafter copying such a symbol must keep the numbers intact or the meaning changes.",
+    "The label describes logic only. It does not tell you whether the gating causes glitches on a clock line or what setup time applies between G and the affected input."
+  ],
+  "readingNotes": [
+    "Match each G number to every input or output carrying that number.",
+    "A bar over the affected number means the complement of G applies."
+  ],
+  "drawingChecklist": [
+    "Keep G numbers unique within a symbol.",
+    "Label every affected terminal with the matching number.",
+    "Avoid mixing G numbers with other dependency letters using the same number."
+  ],
+  "distinction": "V (OR) dependency imposes a 1 state when the affecting input is 1; G imposes a 0 state when the affecting input is 0.",
+  "facts": [
+    {
+      "label": "Affecting input at 1",
+      "value": "Permits action"
+    },
+    {
+      "label": "Affecting input at 0",
+      "value": "Imposes 0 state"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Section on G (AND) dependency and summary table of dependency notation."
+    }
+  ],
+  "related": [
+    "iec-or-dependency-v",
+    "iec-control-dependency-c",
+    "iec-multiplexer"
+  ],
+  "artwork": "s28-iec-and-dependency-g",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Affecting input labelled Gm with affected inputs or outputs labelled m",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-and-dependency-g",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-and-dependency-g.svg",
+  "id": "iec-and-dependency-g",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-and-dependency-g",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-and-dependency-g.json",
+  "svgPath": "artwork/svg/iec-and-dependency-g.svg",
+  "referencePath": "references/iec-and-dependency-g.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Section on G (AND) dependency and summary table of dependency notation."
+    }
+  ]
+}

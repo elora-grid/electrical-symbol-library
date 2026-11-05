@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-touch-switch-nc-output",
+  "name": "ANSI/IEEE Touch-switch NC output form",
+  "kind": "symbol",
+  "abbreviation": "HPX12TS",
+  "aliases": [
+    "HPX12TS",
+    "VPX12TS",
+    "IEEE Touch Sense Proximity Switch, Normally Closed",
+    "ANSI Touch-switch NC output"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of touch-switch nc output: this form identifies a normally-closed touch-switch output.",
+  "description": [
+    "This reference locates touch-switch nc output in Autodesk's IEEE-oriented touch switches family. This form identifies a normally-closed touch-switch output. The public library uses HPX12TS for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Cross-reference the controlled input and the documented switching condition. Normally closed touch output is not a mechanical NC pushbutton contact. Cross-reference the controlled input and the documented switching condition. Normally closed touch output is not a mechanical NC pushbutton contact. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Cross-reference the controlled input and the documented switching condition.",
+    "Normally closed touch output is not a mechanical NC pushbutton contact."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Cross-reference the controlled input and the documented switching condition.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Normally closed touch output is not a mechanical NC pushbutton contact.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Touch Switches; published form: Touch Sense Proximity Switch, Normally Closed."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX12TS. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Cross-reference the controlled input and the documented switching condition."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-touch-switches",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX12TS as Touch Sense Proximity Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-touch-switch-nc-output",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-touch-switch-nc-output",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Touch Sense Proximity Switch, Normally Closed",
+    "reference": "Autodesk IEEE Symbol Preview: Touch Switches, block HPX12TS. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-touch-switch-nc-output"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-touch-switch-nc-output",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-touch-switch-nc-output.svg",
+  "id": "ansi-touch-switch-nc-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-touch-switch-nc-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-touch-switch-nc-output.json",
+  "svgPath": "artwork/svg/ansi-touch-switch-nc-output.svg",
+  "referencePath": "references/ansi-touch-switch-nc-output.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-touch-switches",
+      "title": "Autodesk IEEE Symbol Preview: Touch Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-75D5D41D-60B5-4D57-852E-D4422F14F392.htm",
+      "type": "cad-reference",
+      "scope": "Public touch switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX12TS as Touch Sense Proximity Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

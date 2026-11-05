@@ -1,0 +1,104 @@
+{
+  "slug": "iec-additional-connector-pin",
+  "name": "Additional connector pin",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "2nd+ plug and jack",
+    "child connector pin",
+    "further connector contact"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A further pin of a connector already tagged elsewhere, drawn without repeating the connector body or tag.",
+  "description": [
+    "On schematics a connector often has pins scattered across several circuits and sheets. The first pin carries the connector tag and body, and each additional pin is drawn with a lighter child symbol that refers back to it. This avoids drawing the same connector several times with conflicting tags.",
+    "Readers should treat every child pin as part of the parent connector, so separating the connector disconnects all of them. The child symbol does not repeat the connector type or rating, which must be read from the parent. Pin numbers on child symbols must still be unique within the connector."
+  ],
+  "readingNotes": [
+    "Find the parent connector tag for each child pin.",
+    "Remember all child pins separate when the connector is unplugged."
+  ],
+  "drawingChecklist": [
+    "Cross-reference child pins to the parent.",
+    "Keep pin numbers unique.",
+    "State connector data only on the parent."
+  ],
+  "distinction": "An additional connector pin is a child of a tagged connector; a standalone plug and socket pair is a connector in its own right.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Plug and jack contact with reference to a parent connector"
+    },
+    {
+      "label": "Publisher form",
+      "value": "2nd+ Plug/Jack, Autodesk IEC-60617 preview"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public IEC-oriented preview listing 2nd+ plug and jack forms."
+    },
+    {
+      "sourceId": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "relevance": "Public IEEE-oriented preview of the same connector family."
+    }
+  ],
+  "related": [
+    "iec-multi-pole-plug-and-socket",
+    "iec-plug-jack-common-pin-number",
+    "iec-standalone-source-cross-reference"
+  ],
+  "artwork": "s28-iec-additional-connector-pin",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "2nd+ Plug/Jack child form",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Connectors - No Wirenumber Changes; vendor family reference, not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-additional-connector-pin",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-additional-connector-pin.svg",
+  "id": "iec-additional-connector-pin",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-additional-connector-pin",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-additional-connector-pin.json",
+  "svgPath": "artwork/svg/iec-additional-connector-pin.svg",
+  "referencePath": "references/iec-additional-connector-pin.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview listing 2nd+ plug and jack forms."
+    },
+    {
+      "id": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "title": "Autodesk IEEE Symbol Preview — Connectors - No Wirenumber Changes",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0B14FEAB-110A-4DD3-884E-0A2F8F9E76F7.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented preview of the same connector family."
+    }
+  ]
+}

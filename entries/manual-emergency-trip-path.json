@@ -1,0 +1,105 @@
+{
+  "slug": "manual-emergency-trip-path",
+  "name": "Manual emergency-trip path",
+  "kind": "symbol",
+  "abbreviation": "MEP",
+  "aliases": [
+    "Breaker trip circuits",
+    "switchgear Breaker trip circuits",
+    "switchgear",
+    "Switchgear",
+    "Emergency control contact",
+    "Breaker opening request"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the hardwired opening request issued by the designated emergency control station.",
+  "description": [
+    "Shows the hardwired opening request issued by the designated emergency control station. A trip circuit carries an opening request from a control or protection device to the breaker operating mechanism. The opening command, the coil supply and the evidence that the breaker opened are separate parts of the drawing.",
+    "In a switchgear incomer panel, a protection relay requests opening and an auxiliary contact reports the resulting breaker position. A second trip path can have its own supply and wiring so that a single wiring fault does not remove both paths. For this reference, the drawing identifies “Emergency control contact” at the input and “Breaker opening request” at the output. Opening this breaker may leave other sources connected.",
+    "Trace the initiating contact, protective fuse, trip coil, return conductor and feedback independently. Identify which elements are shared between redundant paths. The diagram explains the intended command path; coil ratings and terminal numbers come from the selected breaker. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Emergency control contact. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Breaker opening request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Opening this breaker may leave other sources connected.",
+    "Trace the initiating contact, protective fuse, trip coil, return conductor and feedback independently. Identify which elements are shared between redundant paths. The diagram explains the intended command path; coil ratings and terminal numbers come from the selected breaker."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for emergency control contact.",
+    "Identify the destination and defined state of breaker opening request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Opening this breaker may leave other sources connected."
+  ],
+  "distinction": "Opening this breaker may leave other sources connected. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Emergency control contact"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Breaker opening request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MEP is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker trip circuits. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "86-lockout",
+    "lockout-mediated-breaker-trip"
+  ],
+  "artwork": "pi26-manual-emergency-trip-path",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "trip",
+    "input": "Emergency control contact",
+    "output": "Breaker opening request"
+  },
+  "url": "https://eloragrid.ai/symbols/manual-emergency-trip-path",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/manual-emergency-trip-path.svg",
+  "id": "manual-emergency-trip-path",
+  "canonicalUrl": "https://eloragrid.ai/symbols/manual-emergency-trip-path",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/manual-emergency-trip-path.json",
+  "svgPath": "artwork/svg/manual-emergency-trip-path.svg",
+  "referencePath": "references/manual-emergency-trip-path.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker trip circuits. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-series-excited-dc-motor",
+  "name": "ANSI/IEEE Series-excited DC motor form",
+  "kind": "symbol",
+  "abbreviation": "M DC SERIES",
+  "aliases": [
+    "HMO1M7",
+    "VMO1M7",
+    "IEEE DC Motor - Series Excitation",
+    "ANSI Series-excited DC motor"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of series-excited dc motor: a series-excited DC motor connects its documented field winding in series with the armature circuit.",
+  "description": [
+    "This reference locates series-excited dc motor in Autodesk's IEEE-oriented dc motors family. A series-excited DC motor connects its documented field winding in series with the armature circuit. Both winding and armature terminals need to remain identifiable in expanded schematics. The public library uses HMO1M7 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Follow the field current through the armature path. A series field and a shunt field have different circuit connections. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Follow the field current through the armature path.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show series field connection",
+    "Identify armature terminals",
+    "Reference starting/control arrangement"
+  ],
+  "distinction": "A series field and a shunt field have different circuit connections.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: DC Motors; published form: DC Motor - Series Excitation."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HMO1M7. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-6a65d995-18bc-4a3c-a34e-c6bb276e8410",
+      "relevance": "Public IEEE-oriented DC Motors table explicitly lists HMO1M7 as DC Motor - Series Excitation. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "series-excited-dc-motor",
+    "motor",
+    "contactor"
+  ],
+  "artwork": "s28-ansi-series-excited-dc-motor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "DC Motor - Series Excitation",
+    "reference": "Autodesk IEEE Symbol Preview: DC Motors, block HMO1M7. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "series-excited-dc-motor"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-series-excited-dc-motor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-series-excited-dc-motor.svg",
+  "id": "ansi-series-excited-dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-series-excited-dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-series-excited-dc-motor.json",
+  "svgPath": "artwork/svg/ansi-series-excited-dc-motor.svg",
+  "referencePath": "references/ansi-series-excited-dc-motor.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-6a65d995-18bc-4a3c-a34e-c6bb276e8410",
+      "title": "Autodesk IEEE Symbol Preview — DC Motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A65D995-18BC-4A3C-A34E-C6BB276E8410.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented DC Motors table explicitly lists HMO1M7 as DC Motor - Series Excitation. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

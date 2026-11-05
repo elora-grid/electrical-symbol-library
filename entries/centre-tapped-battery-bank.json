@@ -1,0 +1,105 @@
+{
+  "slug": "centre-tapped-battery-bank",
+  "name": "Centre-tapped battery bank",
+  "kind": "symbol",
+  "abbreviation": "GB ±",
+  "aliases": [
+    "split battery",
+    "mid-point tapped battery",
+    "dual-polarity battery bank"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A battery bank with a mid-point connection that provides positive and negative rails about a common centre point.",
+  "description": [
+    "A centre-tapped battery bank brings out a connection at the middle of the series chain, giving positive and negative rails referred to that point. It is used in some UPS rectifier-inverter designs, three-level converters and telecom or substation DC systems that need a symmetric supply or a defined midpoint for earth-fault detection.",
+    "Drawings show the battery symbol split into two halves with a lead taken from the junction, often labelled N, M or 0 V. The midpoint may be earthed, earthed through a resistance or left floating with an insulation monitor, and the drawing should state which.",
+    "The symbol does not show how the two halves are kept balanced. Unequal loading on the two rails discharges one half faster, and the midpoint earthing method changes how an earth fault on either rail behaves."
+  ],
+  "readingNotes": [
+    "Identify how the midpoint is earthed or monitored.",
+    "Check whether loads draw from one half only."
+  ],
+  "drawingChecklist": [
+    "State voltage of each half and total.",
+    "Show midpoint earthing or monitoring.",
+    "Reference balancing and fault detection."
+  ],
+  "distinction": "A centre-tapped bank has a usable midpoint; an ordinary battery string presents only positive and negative terminals.",
+  "facts": [
+    {
+      "label": "Terminals",
+      "value": "Positive, midpoint, negative"
+    },
+    {
+      "label": "Common uses",
+      "value": "UPS DC links, three-level converters"
+    },
+    {
+      "label": "Midpoint treatment",
+      "value": "Earthed, resistance-earthed or floating"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for batteries."
+    },
+    {
+      "sourceId": "pub-electronics-infineon-npc",
+      "relevance": "Public three-level converter context requiring a DC midpoint."
+    }
+  ],
+  "related": [
+    "battery",
+    "neutral-point-clamped-inverter",
+    "battery-insulation-monitor"
+  ],
+  "artwork": "s28-centre-tapped-battery-bank",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/centre-tapped-battery-bank",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/centre-tapped-battery-bank.svg",
+  "id": "centre-tapped-battery-bank",
+  "canonicalUrl": "https://eloragrid.ai/symbols/centre-tapped-battery-bank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/centre-tapped-battery-bank.json",
+  "svgPath": "artwork/svg/centre-tapped-battery-bank.svg",
+  "referencePath": "references/centre-tapped-battery-bank.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for batteries."
+    },
+    {
+      "id": "pub-electronics-infineon-npc",
+      "title": "Multilevel NPC converter application context",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/product-information/sic-modules-for-ups-design-and-efficiency-guide",
+      "type": "manufacturer",
+      "scope": "Public explanation of two-level and neutral-point-clamped converter contexts. The catalogue indicates a split-link/clamping concept; it is not an exact standard circuit or a selected module internal diagram.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public three-level converter context requiring a DC midpoint."
+    }
+  ]
+}

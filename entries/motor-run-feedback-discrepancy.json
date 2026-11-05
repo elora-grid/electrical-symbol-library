@@ -1,0 +1,105 @@
+{
+  "slug": "motor-run-feedback-discrepancy",
+  "name": "Motor run-feedback discrepancy",
+  "kind": "symbol",
+  "abbreviation": "MRD",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Run command and feedback",
+    "Run mismatch alarm"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Detects disagreement between the requested motor run state and its defined feedback.",
+  "description": [
+    "Detects disagreement between the requested motor run state and its defined feedback. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Run command and feedback” at the input and “Run mismatch alarm” at the output. Feedback may come from contactor or process sensing.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Run command and feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Run mismatch alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Feedback may come from contactor or process sensing.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for run command and feedback.",
+    "Identify the destination and defined state of run mismatch alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Feedback may come from contactor or process sensing."
+  ],
+  "distinction": "Feedback may come from contactor or process sensing. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Run command and feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Run mismatch alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRD is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "motor-emergency-stop-interface-block"
+  ],
+  "artwork": "pi26-motor-run-feedback-discrepancy",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Run command and feedback",
+    "output": "Run mismatch alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/motor-run-feedback-discrepancy",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motor-run-feedback-discrepancy.svg",
+  "id": "motor-run-feedback-discrepancy",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-run-feedback-discrepancy",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-run-feedback-discrepancy.json",
+  "svgPath": "artwork/svg/motor-run-feedback-discrepancy.svg",
+  "referencePath": "references/motor-run-feedback-discrepancy.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

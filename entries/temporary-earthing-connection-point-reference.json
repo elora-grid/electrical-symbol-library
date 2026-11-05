@@ -1,0 +1,105 @@
+{
+  "slug": "temporary-earthing-connection-point-reference",
+  "name": "Temporary earthing connection-point reference",
+  "kind": "symbol",
+  "abbreviation": "TECR",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Designated primary earth point",
+    "Documented earthing interface"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the equipment-designated connection point used by the station's approved earthing arrangements.",
+  "description": [
+    "Identifies the equipment-designated connection point used by the station's approved earthing arrangements. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Designated primary earth point” at the input and “Documented earthing interface” at the output. The reference is not an instruction to apply earths.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Designated primary earth point. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Documented earthing interface. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The reference is not an instruction to apply earths.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for designated primary earth point.",
+    "Identify the destination and defined state of documented earthing interface.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The reference is not an instruction to apply earths."
+  ],
+  "distinction": "The reference is not an instruction to apply earths. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Designated primary earth point"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Documented earthing interface"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TECR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "marshalling-cable-screen-earth-interface"
+  ],
+  "artwork": "pi26-temporary-earthing-connection-point-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Designated primary earth point",
+    "output": "Documented earthing interface"
+  },
+  "url": "https://eloragrid.ai/symbols/temporary-earthing-connection-point-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/temporary-earthing-connection-point-reference.svg",
+  "id": "temporary-earthing-connection-point-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/temporary-earthing-connection-point-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/temporary-earthing-connection-point-reference.json",
+  "svgPath": "artwork/svg/temporary-earthing-connection-point-reference.svg",
+  "referencePath": "references/temporary-earthing-connection-point-reference.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

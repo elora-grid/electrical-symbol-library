@@ -1,0 +1,105 @@
+{
+  "slug": "pv-string-inverter",
+  "name": "PV string inverter",
+  "kind": "symbol",
+  "abbreviation": "INV STR",
+  "aliases": [
+    "string inverter",
+    "multi-MPPT inverter",
+    "decentralised PV inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A solar inverter connecting a small number of PV strings directly, each group tracked by its own MPPT input.",
+  "description": [
+    "A string inverter connects one or a few PV strings directly to its DC inputs, usually with two or more independent maximum power point trackers. In commercial and utility plants many string inverters are spread across the array and their AC outputs are collected at an AC combiner board.",
+    "Single-line diagrams show the inverter box with several DC inputs, each labelled by MPPT and string count, plus a DC isolator and sometimes string fuses inside the inverter. The AC side shows the output breaker and the combiner or distribution board.",
+    "The symbol does not tell you whether strings on the same tracker share orientation, which affects yield, nor whether the inverter has integrated arc fault detection. The string configuration schedule carries that detail."
+  ],
+  "readingNotes": [
+    "Count MPPT inputs and the strings on each.",
+    "Check for DC isolators on each input."
+  ],
+  "drawingChecklist": [
+    "State number of MPPTs and strings per MPPT.",
+    "Show DC isolation and AC protection.",
+    "Reference string configuration schedule."
+  ],
+  "distinction": "A string inverter serves a few strings near the array; a central inverter collects many combined strings at one large unit.",
+  "facts": [
+    {
+      "label": "DC inputs",
+      "value": "A few strings, multiple MPPTs"
+    },
+    {
+      "label": "Typical rating",
+      "value": "A few kW to a few hundred kW"
+    },
+    {
+      "label": "AC collection",
+      "value": "AC combiner board"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-pv-inverter",
+      "relevance": "Public photovoltaic inverter function context."
+    },
+    {
+      "sourceId": "expansion-20261027-pv",
+      "relevance": "Public solar electrical system architecture context."
+    }
+  ],
+  "related": [
+    "photovoltaic-inverter",
+    "photovoltaic-string",
+    "pv-central-inverter",
+    "pv-microinverter"
+  ],
+  "artwork": "s28-pv-string-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/pv-string-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/pv-string-inverter.svg",
+  "id": "pv-string-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/pv-string-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/pv-string-inverter.json",
+  "svgPath": "artwork/svg/pv-string-inverter.svg",
+  "referencePath": "references/pv-string-inverter.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-pv-inverter",
+      "title": "Photovoltaic technology and inverter functions",
+      "publisher": "Schneider Electric",
+      "url": "https://www.electrical-installation.org/enwiki/Photovoltaic_background%2C_technology",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public photovoltaic inverter function context."
+    },
+    {
+      "id": "expansion-20261027-pv",
+      "title": "Solar electrical system architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/industrial/energy-infrastructure/solar-energy/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Public solar electrical system architecture context."
+    }
+  ]
+}

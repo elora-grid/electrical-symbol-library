@@ -1,0 +1,104 @@
+{
+  "slug": "iec-cable-straight-through-joint",
+  "name": "Cable straight-through joint",
+  "kind": "symbol",
+  "abbreviation": "J",
+  "aliases": [
+    "inline cable joint",
+    "straight joint",
+    "through joint"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A joint connecting two lengths of the same cable in line, drawn as a mark on the cable route.",
+  "description": [
+    "The straight-through joint connects two cable lengths end to end, restoring insulation, screen and sheath continuity. It is shown on cable route drawings and network diagrams at joint bay positions, because joints are the most common failure points on long underground circuits and their locations are needed for fault finding.",
+    "The symbol does not show whether screens are cross-bonded at the joint, which is common on high voltage single-core circuits. Cross-bonding links and sheath voltage limiters are separate items on the bonding diagram. It also does not distinguish a joint made between identical cables from one between different types, which is a transition joint."
+  ],
+  "readingNotes": [
+    "Note joint locations for fault-location records.",
+    "Check for screen cross-bonding at the joint."
+  ],
+  "drawingChecklist": [
+    "Show each joint at its route chainage.",
+    "Identify joint type and kit.",
+    "Reference the screen bonding diagram."
+  ],
+  "distinction": "A straight-through joint links two lengths of the same cable; a branch joint takes off a second cable.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Bulge or box mark on the cable line"
+    },
+    {
+      "label": "Field relevance",
+      "value": "Joint bays are key fault-location points"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for underground cable joints."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-cable-branch-joint",
+    "iec-cable-transition-joint",
+    "ga-cable-joint"
+  ],
+  "artwork": "s28-iec-cable-straight-through-joint",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Straight-through cable joint",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-cable-straight-through-joint",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-cable-straight-through-joint.svg",
+  "id": "iec-cable-straight-through-joint",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-straight-through-joint",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-cable-straight-through-joint.json",
+  "svgPath": "artwork/svg/iec-cable-straight-through-joint.svg",
+  "referencePath": "references/iec-cable-straight-through-joint.md",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for underground cable joints."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

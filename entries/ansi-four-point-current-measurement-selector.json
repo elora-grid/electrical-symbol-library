@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-four-point-current-measurement-selector",
+  "name": "ANSI/IEEE Four-point current measurement selector form",
+  "kind": "symbol",
+  "abbreviation": "HSW1S95",
+  "aliases": [
+    "HSW1S95",
+    "VSW1S95",
+    "IEEE Current Switch For 4 Measurement Points",
+    "ANSI Four-point current measurement selector"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of four-point current measurement selector: this representation identifies selection among four current-measurement points.",
+  "description": [
+    "This reference locates four-point current measurement selector in Autodesk's IEEE-oriented miscellaneous switches family. This representation identifies selection among four current-measurement points. The additional measurement point expands the selected current-input circuits while retaining a common meter. Each position therefore needs an unambiguous circuit identity. The public library uses HSW1S95 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Provide all four measurement references and the actual terminal scheme. A voltage selector with the same number of positions is not an interchangeable current-measurement switch. Provide the complete selected switch connection and measurement-point table. The additional point is a circuit interface difference, not merely another drawing orientation. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Provide the complete selected switch connection and measurement-point table.",
+    "The additional point is a circuit interface difference, not merely another drawing orientation."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Provide the complete selected switch connection and measurement-point table.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The additional point is a circuit interface difference, not merely another drawing orientation.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: Current Switch For 4 Measurement Points."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSW1S95. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Provide the complete selected switch connection and measurement-point table."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S95 as Current Switch For 4 Measurement Points. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-four-point-current-measurement-selector",
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-four-point-current-measurement-selector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Current Switch For 4 Measurement Points",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HSW1S95. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-four-point-current-measurement-selector"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-four-point-current-measurement-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-four-point-current-measurement-selector.svg",
+  "id": "ansi-four-point-current-measurement-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-four-point-current-measurement-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-four-point-current-measurement-selector.json",
+  "svgPath": "artwork/svg/ansi-four-point-current-measurement-selector.svg",
+  "referencePath": "references/ansi-four-point-current-measurement-selector.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S95 as Current Switch For 4 Measurement Points. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

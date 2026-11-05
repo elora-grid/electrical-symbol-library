@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-manually-unlatched-no-contact",
+  "name": "ANSI/IEEE Manually unlatched NO contact form",
+  "kind": "symbol",
+  "abbreviation": "NO UNLATCH",
+  "aliases": [
+    "HCR2121F",
+    "VCR2121F",
+    "IEEE With Mechanical Block and Manual Unlatching",
+    "ANSI Manually unlatched NO contact"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of manually unlatched no contact: a manually unlatched NO contact includes a mechanical retaining action released by a documented manual operation.",
+  "description": [
+    "This reference locates manually unlatched no contact in Autodesk's IEEE-oriented relays and contacts family. A manually unlatched NO contact includes a mechanical retaining action released by a documented manual operation. Its schematic modifier explains why removal of an initiating signal may not restore the initial state. The public library uses HCR2121F for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Follow the manual reset to the retaining device tag. Manual unlatching concerns the mechanism, not the contact's load interrupting rating. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Follow the manual reset to the retaining device tag.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify latch mechanism",
+    "Show manual unlatch",
+    "Reference contact terminals"
+  ],
+  "distinction": "Manual unlatching concerns the mechanism, not the contact's load interrupting rating.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Relays and Contacts; published form: With Mechanical Block and Manual Unlatching."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR2121F. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Contact state"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f8eac387-53cf-45fe-be6a-c0c8fb3c1b22",
+      "relevance": "Public IEEE-oriented Relays and Contacts table explicitly lists HCR2121F as With Mechanical Block and Manual Unlatching. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "manually-unlatched-no-contact",
+    "normally-open-contact",
+    "normally-closed-contact"
+  ],
+  "artwork": "s28-ansi-manually-unlatched-no-contact",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "With Mechanical Block and Manual Unlatching",
+    "reference": "Autodesk IEEE Symbol Preview: Relays and Contacts, block HCR2121F. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "manually-unlatched-no-contact"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-manually-unlatched-no-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-manually-unlatched-no-contact.svg",
+  "id": "ansi-manually-unlatched-no-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-manually-unlatched-no-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-manually-unlatched-no-contact.json",
+  "svgPath": "artwork/svg/ansi-manually-unlatched-no-contact.svg",
+  "referencePath": "references/ansi-manually-unlatched-no-contact.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f8eac387-53cf-45fe-be6a-c0c8fb3c1b22",
+      "title": "Autodesk IEEE Symbol Preview — Relays and Contacts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F8EAC387-53CF-45FE-BE6A-C0C8FB3C1B22.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Relays and Contacts table explicitly lists HCR2121F as With Mechanical Block and Manual Unlatching. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

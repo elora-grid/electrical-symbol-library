@@ -1,0 +1,87 @@
+{
+  "slug": "power-rail-sequencer",
+  "name": "Power-rail sequencer",
+  "kind": "symbol",
+  "abbreviation": "SEQ",
+  "aliases": [
+    "Power-rail sequencer",
+    "Power-rail sequencer functional block",
+    "Power-rail sequencer schematic reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A power sequencer controls the order in which selected supply rails are enabled or disabled.",
+  "description": [
+    "A power sequencer controls the order in which selected supply rails are enabled or disabled.",
+    "A controller board can bring its supplies up in the order required by its devices.",
+    "Show each rail-enable output and any feedback used to decide the next step. An ordered command is different from proof that a supply reached its intended condition. The drawing should therefore distinguish the requested sequence, actual rail voltages and the status inputs used by the controller. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify each controlled rail and enable output.",
+    "Show feedback used to advance or stop the sequence.",
+    "Reference startup, shutdown and fault sequencing.",
+    "An ordered enable signal does not itself prove that a rail reached its intended voltage."
+  ],
+  "drawingChecklist": [
+    "Identify each controlled rail and enable output.",
+    "Show feedback used to advance or stop the sequence.",
+    "Reference startup, shutdown and fault sequencing."
+  ],
+  "distinction": "An ordered enable signal does not itself prove that a rail reached its intended voltage.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Start and supply-status inputs"
+    },
+    {
+      "label": "Concept output",
+      "value": "Ordered rail-enable outputs"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-sequencer",
+      "relevance": "Power supply sequencing: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "plc-io",
+    "power-rail-enable-interface",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-power-rail-sequencer",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-rail-sequencer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-rail-sequencer.svg",
+  "id": "power-rail-sequencer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-rail-sequencer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-rail-sequencer.json",
+  "svgPath": "artwork/svg/power-rail-sequencer.svg",
+  "referencePath": "references/power-rail-sequencer.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-sequencer",
+      "title": "Power supply sequencing",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/sequencers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Power supply sequencing: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

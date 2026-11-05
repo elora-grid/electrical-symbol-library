@@ -1,0 +1,106 @@
+{
+  "slug": "iec-full-adder",
+  "name": "IEC adder (Σ)",
+  "kind": "symbol",
+  "abbreviation": "Σ",
+  "aliases": [
+    "IEC full adder",
+    "sigma adder element",
+    "binary adder IEC form"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked Σ that adds binary words P and Q with carry-in CI and carry-out CO.",
+  "description": [
+    "The adder qualifier is the capital sigma. Inputs are grouped into P and Q words with binary weights, plus a carry input CI; outputs give the sum with weights and a carry output CO. TI's overview lists Σ alongside P-Q for subtraction and CPG for look-ahead carry generation.",
+    "Adders on drawings usually belong to arithmetic sections of logic boards, counters with preset arithmetic, or illustrations of PLC arithmetic blocks. The carry chain between stages should be drawn so that the word length is obvious.",
+    "The symbol does not state whether the device uses ripple or look-ahead carry internally. Speed depends on that and on the word length."
+  ],
+  "readingNotes": [
+    "Check carry-in and carry-out connections between stages.",
+    "Bit weights define the word order."
+  ],
+  "drawingChecklist": [
+    "Mark the element with Σ.",
+    "Label P, Q, CI and CO.",
+    "Show the carry chain for multi-device words."
+  ],
+  "distinction": "A subtracter carries the P-Q qualifier instead; Σ marks an adder.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "Σ"
+    },
+    {
+      "label": "Carry terminals",
+      "value": "CI and CO"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists Σ as the adder qualifier."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc283",
+      "relevance": "Binary full adder documentation."
+    }
+  ],
+  "related": [
+    "binary-full-adder",
+    "iec-arithmetic-logic-unit",
+    "iec-magnitude-comparator"
+  ],
+  "artwork": "s28-iec-full-adder",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with Σ qualifier, P and Q inputs, CI and CO",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "binary-full-adder"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-full-adder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-full-adder.svg",
+  "id": "iec-full-adder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-full-adder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-full-adder.json",
+  "svgPath": "artwork/svg/iec-full-adder.svg",
+  "referencePath": "references/iec-full-adder.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists Σ as the adder qualifier."
+    },
+    {
+      "id": "pub-electronics-ti-hc283",
+      "title": "CD74HC283 — binary full adders",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/CD74HC283",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of binary full adders. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Binary full adder documentation."
+    }
+  ]
+}

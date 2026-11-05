@@ -1,0 +1,103 @@
+{
+  "slug": "iec-dish-antenna-symbol",
+  "name": "Dish antenna symbol",
+  "kind": "symbol",
+  "abbreviation": "SAT",
+  "aliases": [
+    "satellite dish",
+    "parabolic antenna",
+    "microwave dish"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Symbol for a parabolic dish antenna used for satellite reception or microwave links.",
+  "description": [
+    "A dish antenna is drawn as a curved reflector with a feed point and a support line. It is used on TV distribution drawings for satellite reception and on communication drawings for point-to-point microwave links.",
+    "Dish positions need line of sight to the satellite arc or the far end, and wind loading on the mount. The plan symbol therefore sits on site or roof plans with orientation notes. The symbol does not show the dish size or pointing angles, which come from the link design."
+  ],
+  "readingNotes": [
+    "Check line of sight notes.",
+    "Check mount and earthing."
+  ],
+  "drawingChecklist": [
+    "State dish size.",
+    "State pointing direction.",
+    "Show feeder and LNB or radio unit."
+  ],
+  "distinction": "The general antenna symbol has no reflector; the dish symbol shows the parabolic reflector.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Curved reflector with feed"
+    },
+    {
+      "label": "Uses",
+      "value": "Satellite TV, microwave links"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ],
+  "related": [
+    "iec-antenna-plan-symbol",
+    "iec-tv-outlet"
+  ],
+  "artwork": "s28-iec-dish-antenna-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Parabolic antenna",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-dish-antenna-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-dish-antenna-symbol.svg",
+  "id": "iec-dish-antenna-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-dish-antenna-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-dish-antenna-symbol.json",
+  "svgPath": "artwork/svg/iec-dish-antenna-symbol.svg",
+  "referencePath": "references/iec-dish-antenna-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "current-test-switch-with-shorting",
+  "name": "Current test switch with shorting contact",
+  "kind": "symbol",
+  "abbreviation": "TS",
+  "aliases": [
+    "CT test switch",
+    "shorting test switch",
+    "current switch with make-before-break"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Panel test switch for CT circuits that shorts the CT side before opening the relay side, with a test jack between.",
+  "description": [
+    "Panel-mounted test switches used in North American practice often combine a knife switch with a shorting contact for each CT circuit. Opening the switch first shorts the CT secondary and then isolates the relay or meter, so a test set can be connected without exposing the CT to an open circuit.",
+    "Current test switches are usually grouped with potential test switches and trip-isolating switches on one assembly. The symbol shows a single pole, and the full assembly arrangement, including which poles are current and which are potential, must be read from the panel wiring diagram."
+  ],
+  "readingNotes": [
+    "Confirm the shorting contact is on the CT side.",
+    "Read the switch sequence for the assembly."
+  ],
+  "drawingChecklist": [
+    "Show shorting contact",
+    "Identify CT and relay sides",
+    "Reference assembly pole list"
+  ],
+  "distinction": "A current test switch shorts the CT on opening; a potential test switch simply opens the voltage circuit.",
+  "facts": [
+    {
+      "label": "Sequence",
+      "value": "Short CT, then open relay side"
+    },
+    {
+      "label": "Common mounting",
+      "value": "Front of relay or meter panel"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE graphic-symbol standards context; no standard glyph is reproduced."
+    }
+  ],
+  "related": [
+    "potential-test-switch",
+    "relay-test-block",
+    "ct-test-terminal"
+  ],
+  "artwork": "s28-current-test-switch-with-shorting",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/current-test-switch-with-shorting",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/current-test-switch-with-shorting.svg",
+  "id": "current-test-switch-with-shorting",
+  "canonicalUrl": "https://eloragrid.ai/symbols/current-test-switch-with-shorting",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/current-test-switch-with-shorting.json",
+  "svgPath": "artwork/svg/current-test-switch-with-shorting.svg",
+  "referencePath": "references/current-test-switch-with-shorting.md",
+  "publicSources": [
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE graphic-symbol standards context; no standard glyph is reproduced."
+    }
+  ]
+}

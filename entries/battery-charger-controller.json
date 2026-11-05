@@ -1,0 +1,87 @@
+{
+  "slug": "battery-charger-controller",
+  "name": "Battery charger controller",
+  "kind": "symbol",
+  "abbreviation": "CHG",
+  "aliases": [
+    "Battery charger controller",
+    "Battery charger controller functional block",
+    "Battery charger controller schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A battery charger controller manages the charging process for the selected battery system.",
+  "description": [
+    "A battery charger controller manages the charging process for the selected battery system.",
+    "A charger can regulate its output according to the battery's charging requirements.",
+    "Draw the controller beside the power-conversion stage it commands. The controller decides how charging should progress; the power stage moves the energy. Identify the battery-feedback signals separately so a reader can distinguish charging power from the measurements used to control it. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the battery type and charging requirements.",
+    "Separate power-stage connections from feedback signals.",
+    "Show the charge-enable and charge-status interfaces.",
+    "A charger controller is not the battery cells or necessarily the complete power converter."
+  ],
+  "drawingChecklist": [
+    "Identify the battery type and charging requirements.",
+    "Separate power-stage connections from feedback signals.",
+    "Show the charge-enable and charge-status interfaces."
+  ],
+  "distinction": "A charger controller is not the battery cells or necessarily the complete power converter.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Battery feedback"
+    },
+    {
+      "label": "Concept output",
+      "value": "Power-stage commands"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-battery",
+      "relevance": "Battery management functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "battery",
+    "battery-fuel-gauge",
+    "battery-protection-controller",
+    "power-converter"
+  ],
+  "artwork": "expanded-battery-charger-controller",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-charger-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-charger-controller.svg",
+  "id": "battery-charger-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-charger-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-charger-controller.json",
+  "svgPath": "artwork/svg/battery-charger-controller.svg",
+  "referencePath": "references/battery-charger-controller.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-battery",
+      "title": "Battery management functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/battery-management-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery management functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}
