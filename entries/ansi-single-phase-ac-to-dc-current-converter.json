@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-single-phase-ac-to-dc-current-converter",
+  "name": "ANSI/IEEE single-phase AC-DC current converter symbol",
+  "kind": "symbol",
+  "abbreviation": "I~/I=",
+  "aliases": [
+    "IEEE AC to DC current converter symbol",
+    "ANSI current transducer symbol",
+    "HIN1G1"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library current converter form that turns an AC measuring current into a scaled DC signal for remote indication.",
+  "description": [
+    "This converter takes an AC current, usually from a CT secondary, and produces a DC signal proportional to it for a PLC, SCADA input or remote meter. It sits in series with the CT circuit, so the CT secondary must remain closed through the converter input or a shorting link while it is removed.",
+    "The form does not state whether the output is average-responding or true RMS, the output range or the response time. Distorted currents from drives and rectifiers can be read quite differently by different converter types."
+  ],
+  "readingNotes": [
+    "Treat the input as part of the CT secondary loop.",
+    "Check whether the converter is true RMS when harmonics are present."
+  ],
+  "drawingChecklist": [
+    "Show CT ratio feeding the input",
+    "State output signal range",
+    "Provide CT shorting provision"
+  ],
+  "distinction": "A current converter outputs a signal for other equipment; an ammeter displays the current itself.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1G1 / VIN1G1 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Input",
+      "value": "AC current, usually from a CT secondary"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the AC-DC Current Converter Single Phase block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-single-phase-ac-to-dc-current-converter",
+    "ansi-current-transformer",
+    "ct-test-terminal"
+  ],
+  "artwork": "s28-ansi-single-phase-ac-to-dc-current-converter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: AC-DC Current Converter Single Phase",
+    "counterpart": "iec-single-phase-ac-to-dc-current-converter",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-single-phase-ac-to-dc-current-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-single-phase-ac-to-dc-current-converter.svg",
+  "id": "ansi-single-phase-ac-to-dc-current-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-single-phase-ac-to-dc-current-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-single-phase-ac-to-dc-current-converter.json",
+  "svgPath": "artwork/svg/ansi-single-phase-ac-to-dc-current-converter.svg",
+  "referencePath": "references/ansi-single-phase-ac-to-dc-current-converter.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the AC-DC Current Converter Single Phase block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "ev-charging-contactor-control",
+  "name": "EV charging contactor control",
+  "kind": "symbol",
+  "abbreviation": "EV K",
+  "aliases": [
+    "EV charging contactor control",
+    "EV charging contactor control functional block",
+    "EV charging contactor control schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A charging contactor control function commands the switching device in the charging power path.",
+  "description": [
+    "A charging contactor control function commands the switching device in the charging power path.",
+    "A charging controller can close the selected contactor only when the required operating conditions are satisfied.",
+    "Draw the contactor coil command separately from the main contacts carrying charging power. If the design monitors contact position, show that feedback as another signal. This makes it clear that requesting a change and confirming the physical contact state are different parts of the control sequence. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the coil or actuator interface.",
+    "Distinguish main contacts from auxiliary feedback contacts.",
+    "Reference the selected charging sequence and interlocks.",
+    "A control command does not itself verify that the contactor contacts reached the requested state."
+  ],
+  "drawingChecklist": [
+    "Identify the coil or actuator interface.",
+    "Distinguish main contacts from auxiliary feedback contacts.",
+    "Reference the selected charging sequence and interlocks."
+  ],
+  "distinction": "A control command does not itself verify that the contactor contacts reached the requested state.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Charging controller request"
+    },
+    {
+      "label": "Concept output",
+      "value": "Charging power contacts"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ev",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "contactor",
+    "ac-ev-charge-point",
+    "ev-control-pilot-interface",
+    "ev-residual-current-detection"
+  ],
+  "artwork": "expanded-ev-charging-contactor-control",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ev-charging-contactor-control",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ev-charging-contactor-control.svg",
+  "id": "ev-charging-contactor-control",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ev-charging-contactor-control",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ev-charging-contactor-control.json",
+  "svgPath": "artwork/svg/ev-charging-contactor-control.svg",
+  "referencePath": "references/ev-charging-contactor-control.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ev",
+      "title": "AC electric vehicle charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/ac-charging-pile-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

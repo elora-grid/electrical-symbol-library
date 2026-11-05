@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-delta-delta-transformer",
+  "name": "ANSI/IEEE Delta-delta transformer form",
+  "kind": "symbol",
+  "abbreviation": "TX D-D",
+  "aliases": [
+    "HXF1T13",
+    "VXF1T13",
+    "IEEE 3 Phase Delta/Delta",
+    "ANSI Delta-delta transformer"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of delta-delta transformer: a delta-delta transformer uses delta-connected windings on both sides.",
+  "description": [
+    "This reference locates delta-delta transformer in Autodesk's IEEE-oriented 3 phase transformers family. A delta-delta transformer uses delta-connected windings on both sides. The drawing communicates the winding connections while the vector group and device ratings specify the actual transformer arrangement. The public library uses HXF1T13 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Check phase-displacement notation when interconnecting supplies. Two delta windings do not provide a star neutral point. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check phase-displacement notation when interconnecting supplies.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label both winding voltages",
+    "State vector group",
+    "Reference protection CT connections"
+  ],
+  "distinction": "Two delta windings do not provide a star neutral point.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Phase Transformers; published form: 3 Phase Delta/Delta."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HXF1T13. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-3-phase-transformers",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T13 as 3 Phase Delta/Delta. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "delta-delta-transformer",
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-delta-delta-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Delta/Delta",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Phase Transformers, block HXF1T13. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "delta-delta-transformer"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-delta-delta-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-delta-delta-transformer.svg",
+  "id": "ansi-delta-delta-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-delta-delta-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-delta-delta-transformer.json",
+  "svgPath": "artwork/svg/ansi-delta-delta-transformer.svg",
+  "referencePath": "references/ansi-delta-delta-transformer.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-3-phase-transformers",
+      "title": "Autodesk IEEE Symbol Preview: 3 Phase Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EE75A5D4-8CBD-4E78-94A3-226A94E61817.htm",
+      "type": "cad-reference",
+      "scope": "Public 3 phase transformers family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T13 as 3 Phase Delta/Delta. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

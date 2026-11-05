@@ -1,0 +1,105 @@
+{
+  "slug": "incomer-bus-tie-interlock-matrix",
+  "name": "Incomer-bus-tie interlock matrix",
+  "kind": "symbol",
+  "abbreviation": "IIM",
+  "aliases": [
+    "Switchgear interlocking functions",
+    "switchgear Switchgear interlocking functions",
+    "switchgear",
+    "Switchgear",
+    "Incomer and tie positions",
+    "Allowed switching combination"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Checks the assigned incomer and tie combinations against the permitted switchboard configurations.",
+  "description": [
+    "Checks the assigned incomer and tie combinations against the permitted switchboard configurations. An interlocking function permits or blocks an operation according to the positions and conditions of related equipment. Electrical, mechanical and trapped-key interlocks implement different parts of a coordinated operating philosophy.",
+    "In a switchgear feeder panel, a control diagram can prevent an incompatible combination of breaker, disconnector and earthing-switch positions. The physical equipment documents determine which restrictions are mechanically enforced. For this reference, the drawing identifies “Incomer and tie positions” at the input and “Allowed switching combination” at the output. The permitted combinations must be documented explicitly.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Incomer and tie positions. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Allowed switching combination. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The permitted combinations must be documented explicitly.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for incomer and tie positions.",
+    "Identify the destination and defined state of allowed switching combination.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The permitted combinations must be documented explicitly."
+  ],
+  "distinction": "The permitted combinations must be documented explicitly. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Incomer and tie positions"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Allowed switching combination"
+    },
+    {
+      "label": "Lookup label",
+      "value": "IIM is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-mechanical-interlock-between-devices",
+    "earthing-switch",
+    "local-remote-command-interlock"
+  ],
+  "artwork": "pi26-incomer-bus-tie-interlock-matrix",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "interlocks",
+    "input": "Incomer and tie positions",
+    "output": "Allowed switching combination"
+  },
+  "url": "https://eloragrid.ai/symbols/incomer-bus-tie-interlock-matrix",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/incomer-bus-tie-interlock-matrix.svg",
+  "id": "incomer-bus-tie-interlock-matrix",
+  "canonicalUrl": "https://eloragrid.ai/symbols/incomer-bus-tie-interlock-matrix",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/incomer-bus-tie-interlock-matrix.json",
+  "svgPath": "artwork/svg/incomer-bus-tie-interlock-matrix.svg",
+  "referencePath": "references/incomer-bus-tie-interlock-matrix.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

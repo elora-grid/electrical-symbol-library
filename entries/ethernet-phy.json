@@ -1,0 +1,87 @@
+{
+  "slug": "ethernet-phy",
+  "name": "Ethernet physical-layer transceiver",
+  "kind": "symbol",
+  "abbreviation": "PHY",
+  "aliases": [
+    "Ethernet physical-layer transceiver",
+    "Ethernet physical-layer transceiver functional block",
+    "Ethernet physical-layer transceiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An Ethernet PHY handles the electrical signalling of the selected Ethernet physical link.",
+  "description": [
+    "An Ethernet PHY handles the electrical signalling of the selected Ethernet physical link.",
+    "A network controller can connect through a PHY and its associated interface components to a cable.",
+    "Draw the link between the network controller and PHY separately from the cable-side interface. The PHY handles the physical signalling of the chosen Ethernet variant. The connector, magnetics where required, cable and controller interface still have to match the selected design. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the supported Ethernet physical-layer variant.",
+    "Show the selected controller-to-PHY interface.",
+    "Reference connector, cable and line-interface requirements.",
+    "A PHY is not a complete Ethernet switch, router or application controller."
+  ],
+  "drawingChecklist": [
+    "Identify the supported Ethernet physical-layer variant.",
+    "Show the selected controller-to-PHY interface.",
+    "Reference connector, cable and line-interface requirements."
+  ],
+  "distinction": "A PHY is not a complete Ethernet switch, router or application controller.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Network controller interface"
+    },
+    {
+      "label": "Concept output",
+      "value": "Specified cable-side link"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ethernet",
+      "relevance": "Ethernet physical interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "ga-industrial-ethernet-switch",
+    "single-pair-ethernet-interface",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-ethernet-phy",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ethernet-phy",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ethernet-phy.svg",
+  "id": "ethernet-phy",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ethernet-phy",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ethernet-phy.json",
+  "svgPath": "artwork/svg/ethernet-phy.svg",
+  "referencePath": "references/ethernet-phy.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ethernet",
+      "title": "Ethernet physical interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/ethernet-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Ethernet physical interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "buchholz-relay",
+  "name": "Buchholz relay",
+  "kind": "symbol",
+  "abbreviation": "BR",
+  "aliases": [
+    "gas-actuated relay",
+    "gas and oil relay",
+    "Buchholz"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Gas-and-oil actuated relay in the pipe to the conservator, giving alarm on gas build-up and trip on oil surge.",
+  "description": [
+    "A Buchholz relay is fitted in the pipe between an oil-filled transformer tank and its conservator. Slow gas accumulation from minor internal faults operates an alarm float, while a rapid surge of oil from a serious internal fault operates a trip element, so the schematic shows two separate contacts.",
+    "On single-line diagrams it may appear only as a label on the transformer, while the control schematic shows its alarm and trip contacts wired to annunciation and the transformer trip relay. The symbol does not show the gas sampling procedure or the test arrangement used during maintenance."
+  ],
+  "readingNotes": [
+    "Identify separate alarm and trip contacts.",
+    "Follow the trip contact to the transformer lockout or trip relay."
+  ],
+  "drawingChecklist": [
+    "Show alarm contact",
+    "Show trip contact",
+    "Reference transformer trip relay"
+  ],
+  "distinction": "A Buchholz relay detects gas and oil movement; a sudden pressure relay responds to rapid tank pressure rise.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Pipe between tank and conservator"
+    },
+    {
+      "label": "Outputs",
+      "value": "Gas alarm and oil-surge trip"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public transformer protection context in which mechanical transformer protections are wired."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "63-pressure-switch-or-relay",
+    "winding-temperature-indicator"
+  ],
+  "artwork": "s28-buchholz-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/buchholz-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/buchholz-relay.svg",
+  "id": "buchholz-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/buchholz-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/buchholz-relay.json",
+  "svgPath": "artwork/svg/buchholz-relay.svg",
+  "referencePath": "references/buchholz-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transformer protection context in which mechanical transformer protections are wired."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

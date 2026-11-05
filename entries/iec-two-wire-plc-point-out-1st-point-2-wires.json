@@ -1,0 +1,94 @@
+{
+  "slug": "iec-two-wire-plc-point-out-1st-point-2-wires",
+  "name": "IEC two-wire PLC point: out, 1st point, 2 wires",
+  "kind": "symbol",
+  "abbreviation": "PLC",
+  "aliases": [
+    "PLCIOO2T",
+    "PLCIOO2TV",
+    "two-wire PLC point OUT, 1st Point, 2 Wires"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Two-wire PLC point form: OUT, 1st Point, 2 Wires.",
+  "description": [
+    "A two-wire PLC point form shows two terminal connections associated with a controller input or output point. The symbol is an interface reference, and the module data must establish whether the connection is digital, analogue, isolated or part of a shared common group. This entry identifies the out, 1st point, 2 wires form in the publisher's IEC-context family.",
+    "When tracing a field device to a PLC terminal strip, identify the rack, module, channel and both terminal numbers. Follow the common or return conductor as carefully as the signal conductor so a technician can reconcile the schematic with the module wiring sheet. The two-connection interface must be read with the load and supply arrangement. Leakage current and minimum load can matter where a powered device is connected in series with an input.",
+    "Two drawn wires do not prove that the field device is loop-powered or that a point can supply current. Electrical type, polarity, common grouping and internal protection depend on the selected module and cannot be inferred from the outline."
+  ],
+  "readingNotes": [
+    "The two-connection interface must be read with the load and supply arrangement. Leakage current and minimum load can matter where a powered device is connected in series with an input.",
+    "Two drawn wires do not prove that the field device is loop-powered or that a point can supply current. Electrical type, polarity, common grouping and internal protection depend on the selected module and cannot be inferred from the outline."
+  ],
+  "drawingChecklist": [
+    "Identify controller, module and channel address.",
+    "Label both terminals and the shared common where used.",
+    "Reference signal type, polarity and module wiring documentation."
+  ],
+  "distinction": "This entry adds the out, 1st point, 2 wires detail to the broader two-wire PLC point family. Two drawn wires do not prove that the field device is loop-powered or that a point can supply current. Electrical type, polarity, common grouping and internal protection depend on the selected module and cannot be inferred from the outline.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "OUT, 1st Point, 2 Wires"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "PLCIOO2T / PLCIOO2TV. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "two-wire PLC point"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-plc",
+      "relevance": "Public PLC I/O table explicitly lists PLCIOO2T / PLCIOO2TV with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "plc-digital-input",
+    "plc-transistor-output",
+    "plc-analog-input"
+  ],
+  "artwork": "s28-iec-two-wire-plc-point-out-1st-point-2-wires",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "OUT, 1st Point, 2 Wires",
+    "reference": "Autodesk IEC-60617 Symbol Preview: PLC I/O, PLCIOO2T / PLCIOO2TV. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-two-wire-plc-point-out-1st-point-2-wires",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-two-wire-plc-point-out-1st-point-2-wires.svg",
+  "id": "iec-two-wire-plc-point-out-1st-point-2-wires",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-two-wire-plc-point-out-1st-point-2-wires",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-two-wire-plc-point-out-1st-point-2-wires.json",
+  "svgPath": "artwork/svg/iec-two-wire-plc-point-out-1st-point-2-wires.svg",
+  "referencePath": "references/iec-two-wire-plc-point-out-1st-point-2-wires.md",
+  "publicSources": [
+    {
+      "id": "autodesk-plc",
+      "title": "PLC input and output point symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-16A484BE-F73C-4612-8D12-E760E981C4E9.htm",
+      "type": "cad-reference",
+      "scope": "Input/output point and wiring-count variants. Electrical module specifications are manufacturer-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public PLC I/O table explicitly lists PLCIOO2T / PLCIOO2TV with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

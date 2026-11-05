@@ -1,0 +1,103 @@
+{
+  "slug": "iec-multi-sensor-detector-plan-symbol",
+  "name": "Multi-sensor fire detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "MSD",
+  "aliases": [
+    "multi-criteria detector",
+    "optical-heat detector",
+    "combined smoke and heat detector"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Fire alarm plan symbol for a detector combining smoke and heat sensing, often switchable between modes.",
+  "description": [
+    "Multi-sensor detectors combine optical smoke and heat sensing, and sometimes carbon monoxide, in one head. Plans draw the detector box with both smoke and heat marks, or a tag such as MS, so the installer fits the correct head.",
+    "These detectors reduce false alarms while keeping smoke sensitivity, and some can be programmed to act as heat only at certain times. The plan symbol therefore often sits alongside a cause-and-effect note. The symbol does not show the programmed mode. The fire alarm configuration records that."
+  ],
+  "readingNotes": [
+    "Check programmed modes in the configuration notes.",
+    "Confirm the base type matches the panel protocol."
+  ],
+  "drawingChecklist": [
+    "State sensing elements.",
+    "State programmed mode.",
+    "Tag loop and address."
+  ],
+  "distinction": "A single-sensor smoke detector has one mark; the multi-sensor shows both smoke and heat elements.",
+  "facts": [
+    {
+      "label": "Sensing",
+      "value": "Optical smoke plus heat, sometimes CO"
+    },
+    {
+      "label": "Benefit",
+      "value": "Fewer false alarms"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "iec-smoke-detector-plan-symbol",
+    "iec-heat-detector-plan-symbol",
+    "iec-rate-of-rise-heat-detector-plan-symbol"
+  ],
+  "artwork": "s28-iec-multi-sensor-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Multi-sensor detector",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-multi-sensor-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-multi-sensor-detector-plan-symbol.svg",
+  "id": "iec-multi-sensor-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-multi-sensor-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-multi-sensor-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-multi-sensor-detector-plan-symbol.svg",
+  "referencePath": "references/iec-multi-sensor-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

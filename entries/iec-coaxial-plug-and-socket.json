@@ -1,0 +1,104 @@
+{
+  "slug": "iec-coaxial-plug-and-socket",
+  "name": "Coaxial plug and socket",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "coax connector",
+    "coaxial connector pair",
+    "RF connector"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A plug and socket pair with concentric inner and outer contacts, used to connect coaxial cables to equipment.",
+  "description": [
+    "The coaxial plug and socket shows a connector that mates both the centre conductor and the outer conductor of a coaxial cable. In power and control systems it appears on GPS antenna inputs for time synchronisation, partial-discharge and RF sensors, and video or radio links.",
+    "The symbol does not tell you the connector series, impedance or gender convention, which vary between product families. A 50 ohm connector mated to a 75 ohm cable will work poorly, so the connector type should be stated. Outer conductor earthing through the connector body is often implicit and should be checked."
+  ],
+  "readingNotes": [
+    "Read connector series and impedance in the annotation.",
+    "Check how the outer conductor is earthed at the equipment."
+  ],
+  "drawingChecklist": [
+    "Name the connector series.",
+    "Match impedance to the cable.",
+    "Show outer conductor earthing where it matters."
+  ],
+  "distinction": "A coaxial plug and socket mates concentric contacts; an ordinary plug and socket pair mates single pins.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Pin and socket with a concentric outer contact outline"
+    },
+    {
+      "label": "Must annotate",
+      "value": "Connector series and impedance"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-coaxial-cable",
+    "plug-and-socket-connector-pair",
+    "ansi-coaxial-connector"
+  ],
+  "artwork": "s28-iec-coaxial-plug-and-socket",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Coaxial plug and socket",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry.",
+    "counterpart": "plug-and-socket-connector-pair"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-coaxial-plug-and-socket",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-coaxial-plug-and-socket.svg",
+  "id": "iec-coaxial-plug-and-socket",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-coaxial-plug-and-socket",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-coaxial-plug-and-socket.json",
+  "svgPath": "artwork/svg/iec-coaxial-plug-and-socket.svg",
+  "referencePath": "references/iec-coaxial-plug-and-socket.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-three-state-inverter",
+  "name": "ANSI three-state inverter with active-low enable",
+  "kind": "symbol",
+  "abbreviation": "OE",
+  "aliases": [
+    "tri-state inverting buffer",
+    "inverting line driver",
+    "3-state inverter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Inverter triangle with an enable lead and bubble entering its side, driving a bus only when enabled.",
+  "description": [
+    "The three-state inverter is a triangle with an output bubble and a control lead entering the sloping side. A bubble on the control lead means output enable is active low, which is the arrangement on many octal line drivers. When disabled, the output is high impedance.",
+    "On bus schematics these devices are usually drawn in groups of eight with a shared enable. Drafters should label the enable net once for the group and show which controller output drives it, so the reader can see when the bus is driven.",
+    "The symbol does not show bus hold, pull-up or pull-down arrangements needed to keep a disabled bus at a defined level. Those components must be drawn separately."
+  ],
+  "readingNotes": [
+    "Check the bubble on the enable lead; it sets the enable polarity.",
+    "Look for bus-keeper or pull resistors on the driven net."
+  ],
+  "drawingChecklist": [
+    "Draw the enable lead touching the sloping side of the triangle.",
+    "Mark enable polarity explicitly.",
+    "Show the shared enable source for a group of drivers."
+  ],
+  "distinction": "The non-inverting three-state buffer has no output bubble.",
+  "facts": [
+    {
+      "label": "Enable sense",
+      "value": "Active low when the control lead has a bubble"
+    },
+    {
+      "label": "Disabled output",
+      "value": "High impedance"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc240",
+      "relevance": "Manufacturer documentation for inverting octal buffers with three-state outputs."
+    },
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Three-state output and EN behaviour."
+    }
+  ],
+  "related": [
+    "logic-three-state-buffer",
+    "iec-three-state-buffer",
+    "logic-bus-transceiver"
+  ],
+  "artwork": "s28-ansi-three-state-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Inverter triangle with bubble and enable lead with bubble on the triangle side",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-state-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-state-inverter.svg",
+  "id": "ansi-three-state-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-state-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-state-inverter.json",
+  "svgPath": "artwork/svg/ansi-three-state-inverter.svg",
+  "referencePath": "references/ansi-three-state-inverter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc240",
+      "title": "SNx4HC240 octal buffers and line drivers with 3-state outputs",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc240.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for inverting octal buffers with three-state outputs and active-low output enables.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for inverting octal buffers with three-state outputs."
+    },
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Three-state output and EN behaviour."
+    }
+  ]
+}

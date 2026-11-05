@@ -1,0 +1,105 @@
+{
+  "slug": "spring-charging-motor-run-contact",
+  "name": "Spring-charging motor run contact",
+  "kind": "symbol",
+  "abbreviation": "SMRC",
+  "aliases": [
+    "Stored-energy mechanism supervision",
+    "switchgear Stored-energy mechanism supervision",
+    "switchgear",
+    "Switchgear",
+    "Motor running feedback",
+    "Charging-running indication"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports that the charging motor is operating rather than merely commanded.",
+  "description": [
+    "Reports that the charging motor is operating rather than merely commanded. A stored-energy breaker mechanism has charging, release, indication and supervision functions. Motor supply, stored spring energy and the ability to complete an opening operation are separate drawing concerns.",
+    "In a switchgear panel, a charging motor replenishes the mechanism after an operation. Supervisory contacts let the controller report an incomplete charge or repeated charging demand before an operator requests another operation. For this reference, the drawing identifies “Motor running feedback” at the input and “Charging-running indication” at the output. A run command does not prove rotation.",
+    "Show the individual contacts and the relevant motor or release circuit. Supply voltage, charging time, operating duty and permissible alarms must follow the chosen mechanism documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Motor running feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Charging-running indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A run command does not prove rotation.",
+    "Show the individual contacts and the relevant motor or release circuit. Supply voltage, charging time, operating duty and permissible alarms must follow the chosen mechanism documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for motor running feedback.",
+    "Identify the destination and defined state of charging-running indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A run command does not prove rotation."
+  ],
+  "distinction": "A run command does not prove rotation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Motor running feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Charging-running indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SMRC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for stored-energy mechanism supervision. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "motor",
+    "spring-charge-timeout-alarm"
+  ],
+  "artwork": "pi26-spring-charging-motor-run-contact",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "mechanism",
+    "input": "Motor running feedback",
+    "output": "Charging-running indication"
+  },
+  "url": "https://eloragrid.ai/symbols/spring-charging-motor-run-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/spring-charging-motor-run-contact.svg",
+  "id": "spring-charging-motor-run-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/spring-charging-motor-run-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/spring-charging-motor-run-contact.json",
+  "svgPath": "artwork/svg/spring-charging-motor-run-contact.svg",
+  "referencePath": "references/spring-charging-motor-run-contact.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for stored-energy mechanism supervision. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

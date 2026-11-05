@@ -1,0 +1,103 @@
+{
+  "slug": "iec-floodlight-plan-mark",
+  "name": "Floodlight plan mark",
+  "kind": "symbol",
+  "abbreviation": "FL",
+  "aliases": [
+    "flood luminaire",
+    "area floodlight",
+    "external floodlight"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a floodlight that lights an area, drawn as a luminaire with a widening beam.",
+  "description": [
+    "Floodlights for yards, sports areas, facades and car parks are drawn as a luminaire mark with diverging beam lines, showing a wide spread. The aiming direction is shown by the beam and mounting height is noted.",
+    "Floodlights are typically controlled by a photocell, time switch or contactor because the load is large. The plan symbol often sits on a building wall or a pole and is linked to that control scheme. Beam lines are indicative. Photometric calculations, not the symbol, confirm coverage."
+  ],
+  "readingNotes": [
+    "Note aiming direction and mounting height.",
+    "Find the control scheme."
+  ],
+  "drawingChecklist": [
+    "State mounting height and tilt.",
+    "Show controls.",
+    "Reference photometric design."
+  ],
+  "distinction": "A spotlight has a single narrow beam arrow; a floodlight shows a diverging beam.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Diverging beam lines"
+    },
+    {
+      "label": "Typical control",
+      "value": "Photocell and contactor"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "iec-spotlight-plan-mark",
+    "iec-photoelectric-light-switch",
+    "iec-pole-mounted-luminaire"
+  ],
+  "artwork": "s28-iec-floodlight-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Floodlight",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-floodlight-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-floodlight-plan-mark.svg",
+  "id": "iec-floodlight-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-floodlight-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-floodlight-plan-mark.json",
+  "svgPath": "artwork/svg/iec-floodlight-plan-mark.svg",
+  "referencePath": "references/iec-floodlight-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

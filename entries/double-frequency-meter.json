@@ -1,0 +1,99 @@
+{
+  "slug": "double-frequency-meter",
+  "name": "Double frequency meter",
+  "kind": "symbol",
+  "abbreviation": "Hz Hz",
+  "aliases": [
+    "dual frequency meter",
+    "synchronising frequency meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Instrument with two frequency elements showing running and incoming frequency together on a synchronising panel.",
+  "description": [
+    "A double frequency meter shows the frequency of the running system and the incoming machine on one instrument. During manual synchronising the operator adjusts the incoming governor until the two readings match closely, then uses the synchroscope for final phase alignment.",
+    "The meter shows frequency only and gives no information on phase angle. Closing with matched frequencies but a large phase difference can still cause a severe disturbance, so it must always be read with the synchroscope or check-synchronising relay."
+  ],
+  "readingNotes": [
+    "Identify running and incoming inputs.",
+    "Read together with the synchroscope."
+  ],
+  "drawingChecklist": [
+    "Label both inputs",
+    "Show VT sources",
+    "Reference synchronising check"
+  ],
+  "distinction": "A double frequency meter compares frequency; a synchroscope shows the phase difference and its rate of change.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Running and incoming voltage"
+    },
+    {
+      "label": "Displayed quantity",
+      "value": "Two frequencies"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public context for generator paralleling controls where synchronising instruments are used."
+    }
+  ],
+  "related": [
+    "double-voltmeter",
+    "frequency-meter",
+    "25-synchronism-check"
+  ],
+  "artwork": "s28-double-frequency-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/double-frequency-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/double-frequency-meter.svg",
+  "id": "double-frequency-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/double-frequency-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/double-frequency-meter.json",
+  "svgPath": "artwork/svg/double-frequency-meter.svg",
+  "referencePath": "references/double-frequency-meter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for generator paralleling controls where synchronising instruments are used."
+    }
+  ]
+}

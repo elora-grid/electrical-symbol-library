@@ -1,0 +1,105 @@
+{
+  "slug": "live-tank-circuit-breaker-application-reference",
+  "name": "Live-tank circuit-breaker application reference",
+  "kind": "symbol",
+  "abbreviation": "LCAR",
+  "aliases": [
+    "High-voltage primary equipment references",
+    "switchyards High-voltage primary equipment references",
+    "switchyards",
+    "Switchyards",
+    "High-voltage circuit",
+    "Live-tank interrupting equipment"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented live-tank breaker construction used in the assigned primary circuit.",
+  "description": [
+    "Identifies the documented live-tank breaker construction used in the assigned primary circuit. High-voltage primary equipment carries, interrupts, measures or conditions the main power circuit. Its function, insulation arrangement and equipment boundaries need to be distinguished from the secondary signals used to control it.",
+    "In a switchyard equipment diagram, the primary reference identifies the electrical role of an installed component while the linked equipment schedule and manufacturer drawing supply its exact construction and dimensions. For this reference, the drawing identifies “High-voltage circuit” at the input and “Live-tank interrupting equipment” at the output. Tank construction does not establish a voltage rating.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: High-voltage circuit. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Live-tank interrupting equipment. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Tank construction does not establish a voltage rating.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for high-voltage circuit.",
+    "Identify the destination and defined state of live-tank interrupting equipment.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Tank construction does not establish a voltage rating."
+  ],
+  "distinction": "Tank construction does not establish a voltage rating. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "High-voltage circuit"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Live-tank interrupting equipment"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LCAR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-hv-primary",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor-voltage-transformer",
+    "dead-tank-circuit-breaker-application-reference"
+  ],
+  "artwork": "pi26-live-tank-circuit-breaker-application-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "hv-primary",
+    "input": "High-voltage circuit",
+    "output": "Live-tank interrupting equipment"
+  },
+  "url": "https://eloragrid.ai/symbols/live-tank-circuit-breaker-application-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/live-tank-circuit-breaker-application-reference.svg",
+  "id": "live-tank-circuit-breaker-application-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/live-tank-circuit-breaker-application-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/live-tank-circuit-breaker-application-reference.json",
+  "svgPath": "artwork/svg/live-tank-circuit-breaker-application-reference.svg",
+  "referencePath": "references/live-tank-circuit-breaker-application-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-hv-primary",
+      "publisher": "Hitachi Energy",
+      "title": "Gas-insulated switchgear",
+      "url": "https://www.hitachienergy.com/products-and-solutions/high-voltage-switchgear-and-breakers/gas-insulated-switchgear",
+      "scope": "Primary switching equipment and instrument-transformer interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

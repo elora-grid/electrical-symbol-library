@@ -1,0 +1,95 @@
+{
+  "slug": "iec-selector-switch-contact-3-position-normally-open-neutral-2",
+  "name": "IEC selector-switch contact: 3 position normally open neutral 2",
+  "kind": "symbol",
+  "abbreviation": "SS",
+  "aliases": [
+    "HSS11S33",
+    "VSS11S33",
+    "selector-switch contact 3 Position Normally Open Neutral 2"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Selector-switch contact form: 3 Position Normally Open Neutral 2.",
+  "description": [
+    "A rotary selector has discrete handle positions and one or more contact blocks driven by its mechanism. A contact shown as normally open or normally closed describes the stated reference position; it does not give the whole switching table across the remaining positions. This entry identifies the 3 position normally open neutral 2 form in the publisher's IEC-context family.",
+    "For a local/off/remote selector, prepare a contact-versus-position chart alongside the schematic. The chart tells the installer which input is active at each handle setting, while spring-return, maintained and key-operated marks explain how the operator reaches or leaves that setting. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state. Keep the publisher's neutral 2 designation beside its contact table; do not infer the complete position sequence from that number.",
+    "A vendor neutral-position number must be read with that vendor form and the project legend. It does not automatically establish a key-removal position, a contact overlap or an off state. Those details need their own table or equipment reference."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "Keep the publisher's neutral 2 designation beside its contact table; do not infer the complete position sequence from that number.",
+    "A vendor neutral-position number must be read with that vendor form and the project legend. It does not automatically establish a key-removal position, a contact overlap or an off state. Those details need their own table or equipment reference."
+  ],
+  "drawingChecklist": [
+    "Label every handle position and preserve its reference orientation.",
+    "Cross-reference a contact-versus-position chart.",
+    "State maintained positions, return directions and any key-removal conditions."
+  ],
+  "distinction": "This entry adds the 3 position normally open neutral 2 detail to the broader selector-switch contact family. A vendor neutral-position number must be read with that vendor form and the project legend. It does not automatically establish a key-removal position, a contact overlap or an off state. Those details need their own table or equipment reference.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "3 Position Normally Open Neutral 2"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HSS11S33 / VSS11S33. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "selector-switch contact"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-selector-three",
+      "relevance": "Public 3 Position Selector Switches table explicitly lists HSS11S33 / VSS11S33 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "selector-switch",
+    "three-position-maintained-selector",
+    "three-position-centre-return-selector"
+  ],
+  "artwork": "s28-iec-selector-switch-contact-3-position-normally-open-neutral-2",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "3 Position Normally Open Neutral 2",
+    "reference": "Autodesk IEC-60617 Symbol Preview: 3 Position Selector Switches, HSS11S33 / VSS11S33. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-selector-switch-contact-3-position-normally-open-neutral-2",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-selector-switch-contact-3-position-normally-open-neutral-2.svg",
+  "id": "iec-selector-switch-contact-3-position-normally-open-neutral-2",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-selector-switch-contact-3-position-normally-open-neutral-2",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-selector-switch-contact-3-position-normally-open-neutral-2.json",
+  "svgPath": "artwork/svg/iec-selector-switch-contact-3-position-normally-open-neutral-2.svg",
+  "referencePath": "references/iec-selector-switch-contact-3-position-normally-open-neutral-2.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-selector-three",
+      "title": "AutoCAD Electrical: Three-position selectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-D8675B9D-9CBF-4B7F-8F09-2444779614D0.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public 3 Position Selector Switches table explicitly lists HSS11S33 / VSS11S33 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

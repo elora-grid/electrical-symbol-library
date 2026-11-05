@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-initial-reference-establishment-request",
+  "name": "Microgrid initial reference-establishment request",
+  "kind": "symbol",
+  "abbreviation": "MIRR",
+  "aliases": [
+    "Microgrid black-start and restoration controls",
+    "microgrids Microgrid black-start and restoration controls",
+    "microgrids",
+    "Microgrids",
+    "Qualified start permission",
+    "Reference-establishment command"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests the selected source to establish the assigned island voltage and frequency reference.",
+  "description": [
+    "Requests the selected source to establish the assigned island voltage and frequency reference. Black-start and restoration control coordinates the establishment of an electrical reference and the gradual return of assigned resources and loads. A dead system, an available starting source and a successful load restoration are distinct states.",
+    "In a microgrid recovering from a blackout, an available grid-forming source can establish the assigned island reference before compatible generation and eligible load groups are introduced under the validated restoration strategy. For this reference, the drawing identifies “Qualified start permission” at the input and “Reference-establishment command” at the output. The source controller governs its actual sequence.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Qualified start permission. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Reference-establishment command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The source controller governs its actual sequence.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for qualified start permission.",
+    "Identify the destination and defined state of reference-establishment command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The source controller governs its actual sequence."
+  ],
+  "distinction": "The source controller governs its actual sequence. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Qualified start permission"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Reference-establishment command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MIRR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "microgrid-controller",
+    "microgrid-reference-established-confirmation"
+  ],
+  "artwork": "pi26-microgrid-initial-reference-establishment-request",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-restoration",
+    "input": "Qualified start permission",
+    "output": "Reference-establishment command"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-initial-reference-establishment-request",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-initial-reference-establishment-request.svg",
+  "id": "microgrid-initial-reference-establishment-request",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-initial-reference-establishment-request",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-initial-reference-establishment-request.json",
+  "svgPath": "artwork/svg/microgrid-initial-reference-establishment-request.svg",
+  "referencePath": "references/microgrid-initial-reference-establishment-request.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

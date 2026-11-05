@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-storage-low-energy-start-support-request",
+  "name": "Microgrid storage low-energy start-support request",
+  "kind": "symbol",
+  "abbreviation": "MSLSR",
+  "aliases": [
+    "Microgrid storage coordination interfaces",
+    "microgrids Microgrid storage coordination interfaces",
+    "microgrids",
+    "Microgrids",
+    "Storage reserve condition",
+    "Alternate power support request"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests alternate generation or load reduction when the documented storage reserve condition is reached.",
+  "description": [
+    "Requests alternate generation or load reduction when the documented storage reserve condition is reached. Storage coordination combines the battery's energy limits with the converter's electrical capability and the microgrid's operating demand. State of charge, allowable power and connection status describe different aspects of availability.",
+    "In a microgrid with a battery energy storage system, the controller can request discharge to support a power deficit while the battery management and conversion systems enforce their own operating limits. For this reference, the drawing identifies “Storage reserve condition” at the input and “Alternate power support request” at the output. Reserve policy must account for restoration capability.",
+    "Show which system declares each limit and which controller receives the target. Battery protection, converter capability, thermal management and emergency responses remain with the selected system design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Storage reserve condition. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Alternate power support request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Reserve policy must account for restoration capability.",
+    "Show which system declares each limit and which controller receives the target. Battery protection, converter capability, thermal management and emergency responses remain with the selected system design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for storage reserve condition.",
+    "Identify the destination and defined state of alternate power support request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Reserve policy must account for restoration capability."
+  ],
+  "distinction": "Reserve policy must account for restoration capability. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Storage reserve condition"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Alternate power support request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MSLSR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid storage coordination interfaces. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "battery-energy-storage-system",
+    "battery-power-conversion-system",
+    "microgrid-storage-charge-restoration-scheduler"
+  ],
+  "artwork": "pi26-microgrid-storage-low-energy-start-support-request",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-storage",
+    "input": "Storage reserve condition",
+    "output": "Alternate power support request"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-storage-low-energy-start-support-request",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-storage-low-energy-start-support-request.svg",
+  "id": "microgrid-storage-low-energy-start-support-request",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-storage-low-energy-start-support-request",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-storage-low-energy-start-support-request.json",
+  "svgPath": "artwork/svg/microgrid-storage-low-energy-start-support-request.svg",
+  "referencePath": "references/microgrid-storage-low-energy-start-support-request.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid storage coordination interfaces. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

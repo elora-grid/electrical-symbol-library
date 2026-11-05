@@ -1,0 +1,106 @@
+{
+  "slug": "single-tuned-harmonic-filter",
+  "name": "Single-tuned harmonic filter",
+  "kind": "symbol",
+  "abbreviation": "HF",
+  "aliases": [
+    "tuned passive filter",
+    "notch harmonic filter",
+    "series LC filter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A shunt series-LC branch tuned near one harmonic order to sink that harmonic current from the network.",
+  "description": [
+    "A single-tuned filter is a capacitor and reactor in series, connected in shunt and tuned to resonate near one harmonic frequency, often slightly below the 5th, 7th or 11th. At that frequency it presents a low impedance and draws harmonic current away from the network, while at fundamental frequency it supplies capacitive reactive power.",
+    "Drawings show a capacitor and reactor in series on a shunt branch, labelled with the tuned order, and often several such branches for different orders. Unbalance protection for the capacitor bank and a dedicated breaker are normally shown.",
+    "A tuned filter creates a parallel resonance with the network at a frequency just below its tuning, which can amplify other harmonics. The symbol does not show the network impedance scan or detuning tolerance, so the harmonic study must accompany it."
+  ],
+  "readingNotes": [
+    "Read the harmonic order label on each branch.",
+    "The filter also supplies fundamental reactive power."
+  ],
+  "drawingChecklist": [
+    "State tuned order, Mvar and quality factor.",
+    "Show breaker and unbalance protection.",
+    "Reference harmonic study."
+  ],
+  "distinction": "A single-tuned filter targets one harmonic order; a damped high-pass filter attenuates a broad band above its corner frequency.",
+  "facts": [
+    {
+      "label": "Elements",
+      "value": "Series capacitor and reactor"
+    },
+    {
+      "label": "Behaviour at tuning",
+      "value": "Low impedance sink"
+    },
+    {
+      "label": "Fundamental output",
+      "value": "Capacitive Mvar"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-capacitors-filters",
+      "relevance": "Public passive and harmonic filter product context."
+    },
+    {
+      "sourceId": "pub-symbol-reactors",
+      "relevance": "Public reactor symbol family context."
+    }
+  ],
+  "related": [
+    "damped-high-pass-harmonic-filter",
+    "detuned-capacitor-bank",
+    "active-harmonic-filter",
+    "static-var-compensator"
+  ],
+  "artwork": "s28-single-tuned-harmonic-filter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/single-tuned-harmonic-filter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/single-tuned-harmonic-filter.svg",
+  "id": "single-tuned-harmonic-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-tuned-harmonic-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-tuned-harmonic-filter.json",
+  "svgPath": "artwork/svg/single-tuned-harmonic-filter.svg",
+  "referencePath": "references/single-tuned-harmonic-filter.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-capacitors-filters",
+      "title": "Capacitor and filter product offerings",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/capacitors-and-filters",
+      "type": "manufacturer",
+      "scope": "Public overview of passive and harmonic filters and shunt compensation banks with and without reactors.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public passive and harmonic filter product context."
+    },
+    {
+      "id": "pub-symbol-reactors",
+      "title": "AutoCAD Electrical: Reactors and inductors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BAD50DBF-0951-44A0-BB4C-A57B4A4ED895.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public reactor symbol family context."
+    }
+  ]
+}

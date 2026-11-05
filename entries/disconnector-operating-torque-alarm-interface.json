@@ -1,0 +1,105 @@
+{
+  "slug": "disconnector-operating-torque-alarm-interface",
+  "name": "Disconnector operating-torque alarm interface",
+  "kind": "symbol",
+  "abbreviation": "DOAI",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Mechanism condition monitor",
+    "Drive-condition alarm"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the selected drive monitor's declared abnormal operating condition.",
+  "description": [
+    "Receives the selected drive monitor's declared abnormal operating condition. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Mechanism condition monitor” at the input and “Drive-condition alarm” at the output. The alarm is a diagnostic input rather than a diagnosis.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Mechanism condition monitor. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Drive-condition alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The alarm is a diagnostic input rather than a diagnosis.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for mechanism condition monitor.",
+    "Identify the destination and defined state of drive-condition alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The alarm is a diagnostic input rather than a diagnosis."
+  ],
+  "distinction": "The alarm is a diagnostic input rather than a diagnosis. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Mechanism condition monitor"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Drive-condition alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DOAI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "disconnector-incomplete-travel-supervision"
+  ],
+  "artwork": "pi26-disconnector-operating-torque-alarm-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Mechanism condition monitor",
+    "output": "Drive-condition alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/disconnector-operating-torque-alarm-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/disconnector-operating-torque-alarm-interface.svg",
+  "id": "disconnector-operating-torque-alarm-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-operating-torque-alarm-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/disconnector-operating-torque-alarm-interface.json",
+  "svgPath": "artwork/svg/disconnector-operating-torque-alarm-interface.svg",
+  "referencePath": "references/disconnector-operating-torque-alarm-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "ansi-special-purpose-outlet",
+  "name": "ANSI special-purpose outlet plan symbol",
+  "kind": "symbol",
+  "abbreviation": "SP",
+  "aliases": [
+    "dedicated outlet symbol",
+    "special purpose connection",
+    "appliance outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol for a special-purpose outlet or connection serving a specific appliance, keyed to a schedule.",
+  "description": [
+    "Special-purpose outlets are drawn as a circle or triangle with a letter or number keyed to a schedule rather than with receptacle lines. They mark connections for ranges, dryers, water heaters, equipment and other loads with unusual voltage, current or configuration.",
+    "The key tells the reader to look up the schedule for voltage, phase, NEMA configuration or hard-wired connection. Without the schedule the symbol is incomplete, which is why it is usually paired with a detailed equipment connection table. The form does not say whether the connection is a receptacle or a hard-wired junction box. The schedule decides."
+  ],
+  "readingNotes": [
+    "Always read the key letter against the schedule.",
+    "Check voltage and phase, which often differ from convenience outlets."
+  ],
+  "drawingChecklist": [
+    "Key the symbol to the equipment connection schedule.",
+    "State hard-wired or receptacle connection.",
+    "Tag panel and circuit."
+  ],
+  "distinction": "A duplex receptacle is a general convenience outlet; a special-purpose outlet is keyed to one appliance.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Circle on the wall with a key letter"
+    },
+    {
+      "label": "Required companion",
+      "value": "Equipment connection schedule"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "ansi-single-receptacle-outlet",
+    "iec-cooker-control-unit"
+  ],
+  "artwork": "s28-ansi-special-purpose-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Special-purpose outlet",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-special-purpose-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-special-purpose-outlet.svg",
+  "id": "ansi-special-purpose-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-special-purpose-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-special-purpose-outlet.json",
+  "svgPath": "artwork/svg/ansi-special-purpose-outlet.svg",
+  "referencePath": "references/ansi-special-purpose-outlet.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

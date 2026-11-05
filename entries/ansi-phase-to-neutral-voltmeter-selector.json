@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-phase-to-neutral-voltmeter-selector",
+  "name": "ANSI/IEEE Phase-to-neutral voltmeter selector form",
+  "kind": "symbol",
+  "abbreviation": "HSW1S91",
+  "aliases": [
+    "HSW1S91",
+    "VSW1S91",
+    "IEEE 3 Voltage Phase-to-Neutral Switch",
+    "ANSI Phase-to-neutral voltmeter selector"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of phase-to-neutral voltmeter selector: this representation identifies selection among phase-to-neutral voltage measurement connections.",
+  "description": [
+    "This reference locates phase-to-neutral voltmeter selector in Autodesk's IEEE-oriented miscellaneous switches family. This representation identifies selection among phase-to-neutral voltage measurement connections. The meter is connected to the selected phase relative to the documented neutral or reference point. That connection differs from measuring between two phase conductors. The public library uses HSW1S91 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Show the reference terminal and each selectable measurement path. The position table should make clear which reading the operator receives at each position. Show the neutral/reference connection and each selected phase in the position table. Phase-to-neutral and phase-to-phase measurements have different connection paths. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Show the neutral/reference connection and each selected phase in the position table.",
+    "Phase-to-neutral and phase-to-phase measurements have different connection paths."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Show the neutral/reference connection and each selected phase in the position table.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Phase-to-neutral and phase-to-phase measurements have different connection paths.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: 3 Voltage Phase-to-Neutral Switch."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSW1S91. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Show the neutral/reference connection and each selected phase in the position table."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S91 as 3 Voltage Phase-to-Neutral Switch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-phase-to-neutral-voltmeter-selector",
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-phase-to-neutral-voltmeter-selector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Voltage Phase-to-Neutral Switch",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HSW1S91. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-phase-to-neutral-voltmeter-selector"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-phase-to-neutral-voltmeter-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-phase-to-neutral-voltmeter-selector.svg",
+  "id": "ansi-phase-to-neutral-voltmeter-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-phase-to-neutral-voltmeter-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-phase-to-neutral-voltmeter-selector.json",
+  "svgPath": "artwork/svg/ansi-phase-to-neutral-voltmeter-selector.svg",
+  "referencePath": "references/ansi-phase-to-neutral-voltmeter-selector.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S91 as 3 Voltage Phase-to-Neutral Switch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

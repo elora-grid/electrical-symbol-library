@@ -1,0 +1,100 @@
+{
+  "slug": "battery-single-cell",
+  "name": "Single battery cell",
+  "kind": "symbol",
+  "abbreviation": "GB cell",
+  "aliases": [
+    "cell",
+    "primary or secondary cell",
+    "single electrochemical cell"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "One electrochemical cell drawn as a single long plate and short plate pair, marking cell-level voltage and polarity.",
+  "description": [
+    "The single cell symbol is one long line for the positive plate and one shorter, often thicker, line for the negative plate. It represents one electrochemical cell, for example a 2 V lead-acid cell or a nominal 3.2 V lithium iron phosphate cell, and is the building block from which battery symbols are composed.",
+    "It appears on schematics where cell-level detail matters, such as cell monitoring connections, a backup cell on a controller board or a pilot cell for temperature and voltage measurement in a stationary battery. On power single-line diagrams the multi-cell battery symbol is normally used instead.",
+    "The symbol shows polarity but not chemistry, capacity or nominal voltage, all of which must be labelled. Drawing one cell does not mean the battery has one cell; check whether the drawing uses a single cell glyph as shorthand for a whole battery."
+  ],
+  "readingNotes": [
+    "The longer plate is positive.",
+    "Confirm whether the glyph is a true single cell or a simplified battery."
+  ],
+  "drawingChecklist": [
+    "State chemistry and nominal cell voltage.",
+    "Mark polarity.",
+    "Reference monitoring connections if any."
+  ],
+  "distinction": "A single cell is one plate pair; the battery symbol repeats plate pairs or adds a dashed line between them to show several cells.",
+  "facts": [
+    {
+      "label": "Plates shown",
+      "value": "One long, one short"
+    },
+    {
+      "label": "Polarity",
+      "value": "Long plate is positive"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; exact standard graphic not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for cells and batteries."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE/ANSI graphic-symbol context for cells."
+    }
+  ],
+  "related": [
+    "battery",
+    "battery-string",
+    "battery-cell-voltage-monitor"
+  ],
+  "artwork": "s28-battery-single-cell",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-single-cell",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-single-cell.svg",
+  "id": "battery-single-cell",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-single-cell",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-single-cell.json",
+  "svgPath": "artwork/svg/battery-single-cell.svg",
+  "referencePath": "references/battery-single-cell.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for cells and batteries."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE/ANSI graphic-symbol context for cells."
+    }
+  ]
+}

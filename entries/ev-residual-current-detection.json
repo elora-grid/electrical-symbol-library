@@ -1,0 +1,87 @@
+{
+  "slug": "ev-residual-current-detection",
+  "name": "EV charging residual-current detection",
+  "kind": "symbol",
+  "abbreviation": "RCD EV",
+  "aliases": [
+    "EV charging residual-current detection",
+    "EV charging residual-current detection functional block",
+    "EV charging residual-current detection schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Residual-current detection checks for specified unintended current paths in a charging system.",
+  "description": [
+    "Residual-current detection checks for specified unintended current paths in a charging system.",
+    "Charging equipment can use a detection result to request disconnection through its protective arrangement.",
+    "Show the conductors included in the measurement and the signal sent to the charging controller or protective device. The detector looks for a specified imbalance or leakage condition. Its block should not imply that sensing and opening the power circuit happen in the same physical component. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the conductors included in the detection arrangement.",
+    "Reference the types of residual current the selected device detects.",
+    "Show the trip or shutdown connection to the interrupting device.",
+    "A detector and the device that physically disconnects power are not automatically the same component."
+  ],
+  "drawingChecklist": [
+    "Identify the conductors included in the detection arrangement.",
+    "Reference the types of residual current the selected device detects.",
+    "Show the trip or shutdown connection to the interrupting device."
+  ],
+  "distinction": "A detector and the device that physically disconnects power are not automatically the same component.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Monitored charging conductors"
+    },
+    {
+      "label": "Concept output",
+      "value": "Trip or shutdown signal"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ev",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "contactor",
+    "ac-ev-charge-point",
+    "ev-control-pilot-interface",
+    "ev-charging-contactor-control"
+  ],
+  "artwork": "expanded-ev-residual-current-detection",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ev-residual-current-detection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ev-residual-current-detection.svg",
+  "id": "ev-residual-current-detection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ev-residual-current-detection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ev-residual-current-detection.json",
+  "svgPath": "artwork/svg/ev-residual-current-detection.svg",
+  "referencePath": "references/ev-residual-current-detection.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ev",
+      "title": "AC electric vehicle charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/ac-charging-pile-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "AC electric vehicle charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

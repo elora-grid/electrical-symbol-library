@@ -1,0 +1,103 @@
+{
+  "slug": "ansi-shielded-conductor",
+  "name": "ANSI/IEEE shielded conductor symbol",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "IEEE shielded wire",
+    "ANSI shielded cable",
+    "shielded single conductor"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented shielded conductor drawn with a dashed or broken outline around the wire to show a shield.",
+  "description": [
+    "In IEEE-oriented drawings a shielded conductor is commonly shown with a broken or dashed enclosure around the conductor, sometimes with a short lead to a ground symbol. US instrumentation drawings use it for analogue signal wiring, thermocouple extension leads and drive feedback.",
+    "This is an independently drawn explanation of the convention, not a reproduction of the IEEE graphic. As with the IEC form, the outline does not say where the shield is grounded, which must be shown at the shield lead. Shield drain wires should have their own terminal numbers."
+  ],
+  "readingNotes": [
+    "Locate the shield drain termination.",
+    "Check whether the shield is grounded at one end only."
+  ],
+  "drawingChecklist": [
+    "Show the shield ground point.",
+    "Assign terminal numbers to drain wires.",
+    "Record shield type in the cable schedule."
+  ],
+  "distinction": "A shielded conductor intercepts interference; a coaxial cable uses its outer conductor as the signal return.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "IEEE 315 graphic conventions for shielded conductors (standards context only)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Public IEEE-oriented earth forms used on shield drains."
+    }
+  ],
+  "related": [
+    "iec-screened-conductor",
+    "ansi-coaxial-cable",
+    "ansi-functional-earth"
+  ],
+  "artwork": "s28-ansi-shielded-conductor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Shielded conductor with broken enclosure",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-shielded-conductor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-shielded-conductor.svg",
+  "id": "ansi-shielded-conductor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-shielded-conductor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-shielded-conductor.json",
+  "svgPath": "artwork/svg/ansi-shielded-conductor.svg",
+  "referencePath": "references/ansi-shielded-conductor.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented earth forms used on shield drains."
+    }
+  ]
+}

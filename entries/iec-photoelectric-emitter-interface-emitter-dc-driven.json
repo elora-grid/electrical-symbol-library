@@ -1,0 +1,94 @@
+{
+  "slug": "iec-photoelectric-emitter-interface-emitter-dc-driven",
+  "name": "IEC photoelectric emitter interface: emitter - DC driven",
+  "kind": "symbol",
+  "abbreviation": "TX",
+  "aliases": [
+    "HPE1B15",
+    "VPE1B15",
+    "photoelectric emitter interface Emitter - DC Driven"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Photoelectric emitter interface form: Emitter - DC Driven.",
+  "description": [
+    "A photoelectric emitter supplies the light used by an optical sensing system; a complete sensing pair also needs a receiver. This entry identifies the emitter - dc driven form in the publisher's IEC-context family.",
+    "A conveyor may place the emitter on one side and a separate receiver on the other so an object can interrupt the optical path. This is the DC-supplied form. Preserve supply polarity and confirm the output circuit type from the device wiring diagram.",
+    "A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface."
+  ],
+  "readingNotes": [
+    "This is the DC-supplied form. Preserve supply polarity and confirm the output circuit type from the device wiring diagram.",
+    "A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the emitter - dc driven detail to the broader photoelectric emitter interface family. A supply connection to an emitter is different from a switched detection output. Check the listed terminal and output form rather than assuming every optical device has the same interface.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Emitter - DC Driven"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPE1B15 / VPE1B15. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "photoelectric emitter interface"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-iec-photoelectric-emitter-switches",
+      "relevance": "Public Photoelectric Emitter Switches table explicitly lists HPE1B15 / VPE1B15 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "photoelectric-emitter-receiver-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-photoelectric-emitter-interface-emitter-dc-driven",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Emitter - DC Driven",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter Switches, HPE1B15 / VPE1B15. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-photoelectric-emitter-interface-emitter-dc-driven",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-photoelectric-emitter-interface-emitter-dc-driven.svg",
+  "id": "iec-photoelectric-emitter-interface-emitter-dc-driven",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-photoelectric-emitter-interface-emitter-dc-driven",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-photoelectric-emitter-interface-emitter-dc-driven.json",
+  "svgPath": "artwork/svg/iec-photoelectric-emitter-interface-emitter-dc-driven.svg",
+  "referencePath": "references/iec-photoelectric-emitter-interface-emitter-dc-driven.md",
+  "publicSources": [
+    {
+      "id": "s28-iec-photoelectric-emitter-switches",
+      "title": "Autodesk IEC-60617 Symbol Preview: Photoelectric Emitter Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-CAF5714C-3562-40A0-A957-AB06150A5658.htm",
+      "type": "cad-reference",
+      "scope": "Public photoelectric emitter switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public Photoelectric Emitter Switches table explicitly lists HPE1B15 / VPE1B15 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "disconnector-manual-drive-engaged-indication",
+  "name": "Disconnector manual-drive engaged indication",
+  "kind": "symbol",
+  "abbreviation": "DMEI",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Manual-drive engagement contact",
+    "Drive mode indication"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented feedback that a manual operating interface is engaged.",
+  "description": [
+    "Identifies the documented feedback that a manual operating interface is engaged. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Manual-drive engagement contact” at the input and “Drive mode indication” at the output. The actual available feedback is equipment-specific.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Manual-drive engagement contact. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Drive mode indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The actual available feedback is equipment-specific.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for manual-drive engagement contact.",
+    "Identify the destination and defined state of drive mode indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The actual available feedback is equipment-specific."
+  ],
+  "distinction": "The actual available feedback is equipment-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Manual-drive engagement contact"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Drive mode indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DMEI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "disconnector-motor-control-isolation-interface"
+  ],
+  "artwork": "pi26-disconnector-manual-drive-engaged-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Manual-drive engagement contact",
+    "output": "Drive mode indication"
+  },
+  "url": "https://eloragrid.ai/symbols/disconnector-manual-drive-engaged-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/disconnector-manual-drive-engaged-indication.svg",
+  "id": "disconnector-manual-drive-engaged-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-manual-drive-engaged-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/disconnector-manual-drive-engaged-indication.json",
+  "svgPath": "artwork/svg/disconnector-manual-drive-engaged-indication.svg",
+  "referencePath": "references/disconnector-manual-drive-engaged-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

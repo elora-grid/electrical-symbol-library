@@ -1,0 +1,99 @@
+{
+  "slug": "connector-with-protective-earth-contact",
+  "name": "Connector with protective earth contact",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "earthing contact connector",
+    "PE pin connector",
+    "first-make earth connector"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A plug and socket in which one contact is the protective earth, usually making first and breaking last.",
+  "description": [
+    "This form identifies a connector where one contact carries the protective conductor. The earth contact is normally longer so it makes before and breaks after the live contacts, keeping the connected equipment earthed whenever it could be energised. The earth pin is drawn with a protective earth mark or PE label.",
+    "The symbol does not prove the first-make, last-break feature exists in the selected product, so the connector type must be checked. Where a connector carries power and signals, the earth pin also often serves as the reference for screens, which should be drawn explicitly."
+  ],
+  "readingNotes": [
+    "Identify the PE contact and check it is first-make, last-break.",
+    "Check that the PE pin is not used as a signal return."
+  ],
+  "drawingChecklist": [
+    "Label the PE contact clearly.",
+    "Specify a connector with leading earth contact.",
+    "Keep PE continuity through both connector halves."
+  ],
+  "distinction": "A connector PE contact carries the protective conductor through a separable joint; a protective earth terminal is a fixed connection point.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Plug and socket pair with one contact marked PE"
+    },
+    {
+      "label": "Contact sequence",
+      "value": "Earth makes first and breaks last"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public IEC-oriented protective earth form."
+    }
+  ],
+  "related": [
+    "protective-earth",
+    "iec-multi-pole-plug-and-socket",
+    "protective-earth-terminal-block"
+  ],
+  "artwork": "s28-connector-with-protective-earth-contact",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/connector-with-protective-earth-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/connector-with-protective-earth-contact.svg",
+  "id": "connector-with-protective-earth-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/connector-with-protective-earth-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/connector-with-protective-earth-contact.json",
+  "svgPath": "artwork/svg/connector-with-protective-earth-contact.svg",
+  "referencePath": "references/connector-with-protective-earth-contact.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented protective earth form."
+    }
+  ]
+}

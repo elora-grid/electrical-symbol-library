@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 — 2026-11-05
+
+Refresh to 3,155 released electrical references: 2,200 symbols/diagram references, 155 protection/device functions and 800 GA objects, supported by 563 public source records. Preserve 6,095 separately counted manufacturer CAD metadata listings.
+
+Add readable per-entry definitions, linked category directories and small retrieval shards. Update canonical website paths, strict installation-representation metadata, source-host validation, checksums and citation metadata.
+
+Align artwork with the current website: 2,355 public symbol/function SVG illustrations; no standalone GA object icons. Remove the bundled DXF pack from the current distribution and link to registered website downloads. Historical v1.0.0 assets and their licences remain in the original tagged release.
+
 ## 1.0.0 — 2026-10-14
 
 First public dataset release: 1,095 electrical references, 305 public sources,

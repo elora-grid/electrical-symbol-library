@@ -1,0 +1,105 @@
+{
+  "slug": "shield-wire-earth-termination-interface",
+  "name": "Shield-wire earth termination interface",
+  "kind": "symbol",
+  "abbreviation": "SETI",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Overhead shield-wire connection",
+    "Station earthing interface"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the assigned termination of the overhead shield-wire earthing path at the station.",
+  "description": [
+    "Identifies the assigned termination of the overhead shield-wire earthing path at the station. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Overhead shield-wire connection” at the input and “Station earthing interface” at the output. Current distribution depends on the complete earthing system.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Overhead shield-wire connection. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Station earthing interface. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Current distribution depends on the complete earthing system.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for overhead shield-wire connection.",
+    "Identify the destination and defined state of station earthing interface.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Current distribution depends on the complete earthing system."
+  ],
+  "distinction": "Current distribution depends on the complete earthing system. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Overhead shield-wire connection"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Station earthing interface"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SETI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "temporary-earthing-connection-point-reference"
+  ],
+  "artwork": "pi26-shield-wire-earth-termination-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Overhead shield-wire connection",
+    "output": "Station earthing interface"
+  },
+  "url": "https://eloragrid.ai/symbols/shield-wire-earth-termination-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/shield-wire-earth-termination-interface.svg",
+  "id": "shield-wire-earth-termination-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/shield-wire-earth-termination-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/shield-wire-earth-termination-interface.json",
+  "svgPath": "artwork/svg/shield-wire-earth-termination-interface.svg",
+  "referencePath": "references/shield-wire-earth-termination-interface.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

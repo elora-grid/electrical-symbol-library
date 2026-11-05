@@ -1,0 +1,84 @@
+{
+  "slug": "recording-instrument-general-symbol",
+  "name": "Recording instrument general symbol",
+  "kind": "symbol",
+  "abbreviation": "*",
+  "aliases": [
+    "recorder general symbol",
+    "chart recorder form",
+    "recording meter square"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "General square form for an instrument that keeps a time record of a quantity rather than just displaying it.",
+  "description": [
+    "A recording instrument keeps a record of a measured quantity over time, traditionally on a paper chart and now usually in memory. IEC-style diagrams draw it as a square, with the placeholder replaced by the recorded quantity, so it can be told apart from a simple indicating meter at a glance.",
+    "The square does not say how often samples are stored, how long records are retained or how they are retrieved. Those details are what make a recording useful in an investigation, and they belong in the instrument specification rather than on the symbol."
+  ],
+  "readingNotes": [
+    "Identify what quantity is recorded and its source.",
+    "Check how records are retrieved or exported."
+  ],
+  "drawingChecklist": [
+    "Fill in the recorded quantity",
+    "State sampling or chart speed",
+    "Reference data retrieval method"
+  ],
+  "distinction": "A recording instrument stores values against time; an indicating instrument shows only the present value.",
+  "facts": [
+    {
+      "label": "Shape convention",
+      "value": "Square, placeholder replaced by quantity"
+    },
+    {
+      "label": "Family",
+      "value": "Recording instruments"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "recording-wattmeter",
+    "indicating-instrument-general-symbol",
+    "integrating-instrument-general-symbol"
+  ],
+  "artwork": "s28-recording-instrument-general-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/recording-instrument-general-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/recording-instrument-general-symbol.svg",
+  "id": "recording-instrument-general-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/recording-instrument-general-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/recording-instrument-general-symbol.json",
+  "svgPath": "artwork/svg/recording-instrument-general-symbol.svg",
+  "referencePath": "references/recording-instrument-general-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

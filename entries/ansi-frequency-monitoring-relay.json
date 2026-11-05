@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-frequency-monitoring-relay",
+  "name": "ANSI/IEEE Frequency monitoring relay form",
+  "kind": "symbol",
+  "abbreviation": "f MON",
+  "aliases": [
+    "HCR1F40",
+    "VCR1F40",
+    "IEEE Frequency Relay",
+    "ANSI Frequency monitoring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of frequency monitoring relay: a frequency relay issues a documented output for a configured frequency condition.",
+  "description": [
+    "This reference locates frequency monitoring relay in Autodesk's IEEE-oriented miscellaneous relays family. A frequency relay issues a documented output for a configured frequency condition. The schematic identifies its measurement input and links its thresholds to the settings record. The public library uses HCR1F40 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Determine whether high frequency, low frequency or both are monitored. A frequency relay applies operating criteria; a frequency meter only indicates the measured value. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Determine whether high frequency, low frequency or both are monitored.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name measured bus",
+    "Reference thresholds and delay",
+    "Show output contacts"
+  ],
+  "distinction": "A frequency relay applies operating criteria; a frequency meter only indicates the measured value.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Relays; published form: Frequency Relay."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F40. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-miscellaneous-relays",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F40 as Frequency Relay. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "frequency-monitoring-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-frequency-monitoring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Frequency Relay",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Relays, block HCR1F40. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "frequency-monitoring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-frequency-monitoring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-frequency-monitoring-relay.svg",
+  "id": "ansi-frequency-monitoring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-frequency-monitoring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-frequency-monitoring-relay.json",
+  "svgPath": "artwork/svg/ansi-frequency-monitoring-relay.svg",
+  "referencePath": "references/ansi-frequency-monitoring-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-miscellaneous-relays",
+      "title": "Autodesk IEEE Symbol Preview: Miscellaneous Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA549E3E-4ABB-426E-9331-0226EF55EAA7.htm",
+      "type": "cad-reference",
+      "scope": "Public miscellaneous relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F40 as Frequency Relay. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

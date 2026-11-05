@@ -1,0 +1,105 @@
+{
+  "slug": "breaker-simulator-input-interface",
+  "name": "Breaker simulator input interface",
+  "kind": "symbol",
+  "abbreviation": "BSII",
+  "aliases": [
+    "Switchgear test and commissioning interfaces",
+    "switchgear Switchgear test and commissioning interfaces",
+    "switchgear",
+    "Switchgear",
+    "Simulator position signals",
+    "Controller feedback inputs"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Substitutes documented simulated breaker feedback for the selected controller test inputs.",
+  "description": [
+    "Substitutes documented simulated breaker feedback for the selected controller test inputs. A test interface separates measurement, command and indication paths so their behavior can be checked in the documented test configuration. The test boundary must show which real equipment outputs remain enabled.",
+    "In a switchgear relay panel, test links can separate a protective relay from the trip coils while maintaining the specified current-transformer secondary arrangement. For this reference, the drawing identifies “Simulator position signals” at the input and “Controller feedback inputs” at the output. Simulation must remain distinguishable from field feedback.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Simulator position signals. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Controller feedback inputs. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Simulation must remain distinguishable from field feedback.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for simulator position signals.",
+    "Identify the destination and defined state of controller feedback inputs.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Simulation must remain distinguishable from field feedback."
+  ],
+  "distinction": "Simulation must remain distinguishable from field feedback. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Simulator position signals"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Controller feedback inputs"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BSII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relay-test-block",
+    "test-plug",
+    "breaker-test-cabinet-interface"
+  ],
+  "artwork": "pi26-breaker-simulator-input-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "testing",
+    "input": "Simulator position signals",
+    "output": "Controller feedback inputs"
+  },
+  "url": "https://eloragrid.ai/symbols/breaker-simulator-input-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/breaker-simulator-input-interface.svg",
+  "id": "breaker-simulator-input-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/breaker-simulator-input-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/breaker-simulator-input-interface.json",
+  "svgPath": "artwork/svg/breaker-simulator-input-interface.svg",
+  "referencePath": "references/breaker-simulator-input-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

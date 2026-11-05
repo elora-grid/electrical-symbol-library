@@ -1,0 +1,106 @@
+{
+  "slug": "genset-controller",
+  "name": "Genset controller",
+  "kind": "symbol",
+  "abbreviation": "GC",
+  "aliases": [
+    "generator controller",
+    "engine-generator control module",
+    "AMF controller"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "The device controller that starts, protects and synchronises a generating set and controls its breaker.",
+  "description": [
+    "A genset controller starts and stops the engine, monitors engine sensors, provides generator protection functions and, in paralleling versions, synchronises the set and shares load with other sources. Automatic mains failure versions also monitor the utility supply and control the changeover.",
+    "Single-line diagrams draw it as a block beside the generator with measurement inputs from generator CTs and VTs, a breaker close and trip connection and a communication link to the microgrid or power management controller. The protection functions it provides are often listed by device number.",
+    "The block does not tell you whether it provides certified utility interface protection or only generator protection. It also does not show the governor and regulator interface, which may be analogue, digital or a communication link to the engine control unit."
+  ],
+  "readingNotes": [
+    "Read the listed protection functions; they may not include interface protection.",
+    "Check breaker control and synchronising connections."
+  ],
+  "drawingChecklist": [
+    "List protection and control functions.",
+    "Show measurement and breaker connections.",
+    "Reference governor and regulator interface."
+  ],
+  "distinction": "A genset controller handles one set; a microgrid controller coordinates many sources.",
+  "facts": [
+    {
+      "label": "Functions",
+      "value": "Start, protect, synchronise, share load"
+    },
+    {
+      "label": "Inputs",
+      "value": "Generator CTs and VTs, engine sensors"
+    },
+    {
+      "label": "Outputs",
+      "value": "Breaker control, governor and AVR commands"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-deif-single-genset",
+      "relevance": "Public single genset controller page describing start, stop and protection functions."
+    },
+    {
+      "sourceId": "pub-object-deif-ie250",
+      "relevance": "Public controller documentation."
+    }
+  ],
+  "related": [
+    "diesel-generator-set",
+    "microgrid-controller",
+    "ga-generator-paralleling-controller",
+    "25-synchronism-check"
+  ],
+  "artwork": "s28-genset-controller",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/genset-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/genset-controller.svg",
+  "id": "genset-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/genset-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/genset-controller.json",
+  "svgPath": "artwork/svg/genset-controller.svg",
+  "referencePath": "references/genset-controller.md",
+  "publicSources": [
+    {
+      "id": "s28-deif-single-genset",
+      "title": "Single genset controllers for backup power",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/products/controllers/engine-and-single-genset-controllers/",
+      "type": "manufacturer",
+      "scope": "Public single genset controller description covering start, stop, engine and generator protection.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public single genset controller page describing start, stop and protection functions."
+    },
+    {
+      "id": "pub-object-deif-ie250",
+      "title": "iE 250 controller documentation",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/documentation/ie-250",
+      "type": "manufacturer",
+      "scope": "Official controller and iE local display documentation. Verify base/front mounting and installed I/O options before selecting the drawing.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public controller documentation."
+    }
+  ]
+}

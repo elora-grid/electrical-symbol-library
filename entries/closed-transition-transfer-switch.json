@@ -1,0 +1,105 @@
+{
+  "slug": "closed-transition-transfer-switch",
+  "name": "Closed-transition transfer switch",
+  "kind": "symbol",
+  "abbreviation": "CTTS",
+  "aliases": [
+    "make-before-break transfer switch",
+    "closed-transition ATS",
+    "bumpless transfer switch"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A transfer switch that briefly parallels two synchronised sources so the load moves without interruption.",
+  "description": [
+    "A closed-transition transfer switch connects the load to the new source before disconnecting it from the old one, with both sources paralleled for a short time, typically less than 100 milliseconds. A synchronism check confirms that voltage, frequency and phase angle are within limits before the overlap is allowed.",
+    "Drawings show two switching devices or a transfer switch with both contacts able to close, plus a synchronism check function and often a note on maximum overlap time. Where the overlap is longer than the network operator allows, a soft-load transfer with a paralleling controller is used instead.",
+    "Even a momentary parallel connection can require approval from the network operator and protection against the generator feeding a utility fault. The symbol does not show the overlap timer, its backup trip or the interface protection."
+  ],
+  "readingNotes": [
+    "A synchronism check function should be associated with the switch.",
+    "Read the maximum overlap time permitted."
+  ],
+  "drawingChecklist": [
+    "State overlap time and synchronising limits.",
+    "Show synchronism check and backup trip.",
+    "Reference network operator approval."
+  ],
+  "distinction": "A closed-transition switch overlaps the two sources; an open-transition switch always breaks before it makes.",
+  "facts": [
+    {
+      "label": "Transition",
+      "value": "Make before break"
+    },
+    {
+      "label": "Overlap",
+      "value": "Typically under 100 ms"
+    },
+    {
+      "label": "Required check",
+      "value": "Synchronism"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public transfer switch fundamentals including transition types."
+    },
+    {
+      "sourceId": "s28-deif-ats-controller",
+      "relevance": "Public transfer controller page describing overlap switching."
+    }
+  ],
+  "related": [
+    "automatic-transfer-switch",
+    "25-synchronism-check",
+    "transfer-switch",
+    "static-transfer-switch"
+  ],
+  "artwork": "s28-closed-transition-transfer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/closed-transition-transfer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/closed-transition-transfer-switch.svg",
+  "id": "closed-transition-transfer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/closed-transition-transfer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/closed-transition-transfer-switch.json",
+  "svgPath": "artwork/svg/closed-transition-transfer-switch.svg",
+  "referencePath": "references/closed-transition-transfer-switch.md",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transfer switch fundamentals including transition types."
+    },
+    {
+      "id": "s28-deif-ats-controller",
+      "title": "ATS controllers",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/products/controllers/ats-controller/",
+      "type": "manufacturer",
+      "scope": "Public automatic transfer controller description including generator-mains mode and overlap switching.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public transfer controller page describing overlap switching."
+    }
+  ]
+}

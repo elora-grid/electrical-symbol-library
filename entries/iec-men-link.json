@@ -1,0 +1,108 @@
+{
+  "slug": "iec-men-link",
+  "name": "Neutral-to-earth link",
+  "kind": "symbol",
+  "abbreviation": "MEN",
+  "aliases": [
+    "MEN link",
+    "neutral earth bond",
+    "neutral to earth bonding link"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "The single link bonding the neutral bar to the earth bar at the point where a TN-C-S supply splits into N and PE.",
+  "description": [
+    "The neutral-to-earth link connects the neutral and earth bars at one point, normally the main switchboard. In Australian and New Zealand practice it is the MEN link, and in other TN-C-S schemes it is the point where the incoming PEN is split. It provides the low impedance path that lets earth faults operate overcurrent devices.",
+    "There must be only one such link in an installation section. A second neutral to earth bond downstream creates parallel neutral current in earthing conductors and can defeat residual current devices. The symbol does not show the conductor size of the link, which local rules set."
+  ],
+  "readingNotes": [
+    "Confirm there is only one neutral to earth link in the installation section.",
+    "Check RCD-protected circuits downstream for unintended bonds."
+  ],
+  "drawingChecklist": [
+    "Show the link at the main switchboard.",
+    "State link conductor size.",
+    "Avoid any downstream neutral to earth bond."
+  ],
+  "distinction": "The neutral-to-earth link bonds N and PE in service; the earth test link is opened only to test the electrode.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Link between neutral bar and earth bar"
+    },
+    {
+      "label": "Scheme context",
+      "value": "TN-C-S and MEN systems"
+    },
+    {
+      "label": "Rule",
+      "value": "One link per installation section"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of TN-C-S schemes and PEN separation."
+    },
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public installation-guide earthing connection elements."
+    }
+  ],
+  "related": [
+    "iec-pen-conductor-mark",
+    "iec-main-earthing-terminal",
+    "residual-current-circuit-breaker"
+  ],
+  "artwork": "s28-iec-men-link",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Neutral to earth bonding link",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-men-link",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-men-link.svg",
+  "id": "iec-men-link",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-men-link",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-men-link.json",
+  "svgPath": "artwork/svg/iec-men-link.svg",
+  "referencePath": "references/iec-men-link.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of TN-C-S schemes and PEN separation."
+    },
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide earthing connection elements."
+    }
+  ]
+}

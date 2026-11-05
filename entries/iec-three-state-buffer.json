@@ -1,0 +1,106 @@
+{
+  "slug": "iec-three-state-buffer",
+  "name": "IEC three-state buffer (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "EN",
+  "aliases": [
+    "IEC tri-state buffer",
+    "buffer with 3-state output",
+    "bus driver element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC buffer whose output carries the three-state triangle and is controlled by an EN input.",
+  "description": [
+    "The three-state buffer is drawn as a 1 element with a small downward triangle inside the outline next to the output, and an EN input. When EN is at its internal 1 state the output follows the input; at its internal 0 state the output goes to its external high-impedance state while the internal logic state is retained.",
+    "These elements appear where several drivers share a bus, such as data lines between controller cards. The drawing should make clear which signal drives each EN input and how the design prevents two drivers being enabled together, since the symbol itself does not show arbitration.",
+    "A negated EN input means the enable is active low, which is how many devices are supplied. Read the input marking carefully; reversing the enable sense would put a buffer on the bus at the wrong time."
+  ],
+  "readingNotes": [
+    "Find the EN input and check its polarity.",
+    "Identify all other drivers on the same bus."
+  ],
+  "drawingChecklist": [
+    "Place the three-state triangle next to the output.",
+    "Label the EN input and its source.",
+    "Show bus contention protection or a note on enable sequencing."
+  ],
+  "distinction": "An open-circuit output uses a diamond qualifier and has no high-impedance logic state of its own; the three-state triangle is different.",
+  "facts": [
+    {
+      "label": "Output qualifier",
+      "value": "Downward triangle (three-state)"
+    },
+    {
+      "label": "EN at internal 0",
+      "value": "Output at external high impedance"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Explains the three-state qualifier and EN input effects."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc125",
+      "relevance": "Manufacturer three-state buffer documentation."
+    }
+  ],
+  "related": [
+    "logic-three-state-buffer",
+    "iec-three-state-output-qualifier",
+    "iec-enable-input"
+  ],
+  "artwork": "s28-iec-three-state-buffer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "1 element with EN input and inverted-triangle three-state output qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-three-state-buffer"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-three-state-buffer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-three-state-buffer.svg",
+  "id": "iec-three-state-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-state-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-three-state-buffer.json",
+  "svgPath": "artwork/svg/iec-three-state-buffer.svg",
+  "referencePath": "references/iec-three-state-buffer.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Explains the three-state qualifier and EN input effects."
+    },
+    {
+      "id": "pub-electronics-ti-hc125",
+      "title": "SN74HC125 — three-state buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of three-state buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer three-state buffer documentation."
+    }
+  ]
+}

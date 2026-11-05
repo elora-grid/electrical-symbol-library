@@ -1,0 +1,105 @@
+{
+  "slug": "protection-core-ct-secondary-circuit",
+  "name": "Protection-core CT secondary circuit",
+  "kind": "symbol",
+  "abbreviation": "PCSC",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Protection CT core",
+    "Protection relay current circuit"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the CT core dedicated to the assigned protection measurement path.",
+  "description": [
+    "Identifies the CT core dedicated to the assigned protection measurement path. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “Protection CT core” at the input and “Protection relay current circuit” at the output. Core duty and characteristics require equipment data.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Protection CT core. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Protection relay current circuit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Core duty and characteristics require equipment data.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for protection ct core.",
+    "Identify the destination and defined state of protection relay current circuit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Core duty and characteristics require equipment data."
+  ],
+  "distinction": "Core duty and characteristics require equipment data. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Protection CT core"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Protection relay current circuit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PCSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "metering-core-ct-secondary-circuit"
+  ],
+  "artwork": "pi26-protection-core-ct-secondary-circuit",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "Protection CT core",
+    "output": "Protection relay current circuit"
+  },
+  "url": "https://eloragrid.ai/symbols/protection-core-ct-secondary-circuit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/protection-core-ct-secondary-circuit.svg",
+  "id": "protection-core-ct-secondary-circuit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/protection-core-ct-secondary-circuit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/protection-core-ct-secondary-circuit.json",
+  "svgPath": "artwork/svg/protection-core-ct-secondary-circuit.svg",
+  "referencePath": "references/protection-core-ct-secondary-circuit.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

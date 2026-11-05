@@ -1,0 +1,105 @@
+{
+  "slug": "detuned-capacitor-bank",
+  "name": "Detuned capacitor bank",
+  "kind": "symbol",
+  "abbreviation": "DCB",
+  "aliases": [
+    "detuned power factor correction",
+    "capacitor bank with blocking reactor",
+    "reactor-protected capacitor bank"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "Power factor correction capacitors with series reactors that tune each step below the lowest significant harmonic.",
+  "description": [
+    "A detuned capacitor bank places a reactor in series with each capacitor step so that the step resonates at a frequency below the lowest significant harmonic, commonly expressed as a detuning factor such as 7 per cent, which tunes near 189 Hz on a 50 Hz network. This prevents the bank from forming a parallel resonance that would amplify 5th harmonic currents from converters.",
+    "Single-line diagrams show several capacitor steps, each with a series reactor and a switching contactor or thyristor switch, controlled by a power factor regulator using a current transformer on the incoming supply. The detuning factor is noted on the bank.",
+    "The series reactor raises the voltage across the capacitors above network voltage, so the capacitors must be rated accordingly. The symbol does not show that voltage rise, the reactor thermal rating or the regulator settings."
+  ],
+  "readingNotes": [
+    "Read the detuning factor, usually given as a percentage.",
+    "Capacitor voltage rating should exceed network voltage."
+  ],
+  "drawingChecklist": [
+    "State kvar per step and detuning factor.",
+    "Show reactors, switching and regulator CT.",
+    "Reference capacitor voltage rating."
+  ],
+  "distinction": "A detuned bank avoids resonance and absorbs little harmonic current; a tuned filter is designed to sink harmonic current.",
+  "facts": [
+    {
+      "label": "Elements",
+      "value": "Capacitor steps with series reactors"
+    },
+    {
+      "label": "Detuning factor",
+      "value": "Commonly 5.67, 7 or 14 per cent"
+    },
+    {
+      "label": "Purpose",
+      "value": "Power factor correction without resonance"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-capacitors-filters",
+      "relevance": "Public shunt compensation banks with and without reactors context."
+    },
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public capacitor symbol family context."
+    }
+  ],
+  "related": [
+    "three-phase-power-factor-capacitor",
+    "single-tuned-harmonic-filter",
+    "thyristor-switched-capacitor",
+    "iron-core-reactor"
+  ],
+  "artwork": "s28-detuned-capacitor-bank",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/detuned-capacitor-bank",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/detuned-capacitor-bank.svg",
+  "id": "detuned-capacitor-bank",
+  "canonicalUrl": "https://eloragrid.ai/symbols/detuned-capacitor-bank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/detuned-capacitor-bank.json",
+  "svgPath": "artwork/svg/detuned-capacitor-bank.svg",
+  "referencePath": "references/detuned-capacitor-bank.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-capacitors-filters",
+      "title": "Capacitor and filter product offerings",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/capacitors-and-filters",
+      "type": "manufacturer",
+      "scope": "Public overview of passive and harmonic filters and shunt compensation banks with and without reactors.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public shunt compensation banks with and without reactors context."
+    },
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public capacitor symbol family context."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-key-operated-normally-closed-switch",
+  "name": "ANSI/IEEE Key-operated normally-closed switch form",
+  "kind": "symbol",
+  "abbreviation": "KEY NC",
+  "aliases": [
+    "HPB12KS",
+    "VPB12KS",
+    "IEEE Key Switch, Normally Closed",
+    "ANSI Key-operated normally-closed switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of key-operated normally-closed switch: a key-operated NC switch opens its reference closed contact through the key mechanism.",
+  "description": [
+    "This reference locates key-operated normally-closed switch in Autodesk's IEEE-oriented miscellaneous switches family. A key-operated NC switch opens its reference closed contact through the key mechanism. Its access and switching functions must be documented separately. The public library uses HPB12KS for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Read the reference position from the operator schedule. NC identifies the contact reference state, not a guarantee of tamper-proof control. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Read the reference position from the operator schedule.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Define normal key position",
+    "State contact action",
+    "Reference key-removal restrictions"
+  ],
+  "distinction": "NC identifies the contact reference state, not a guarantee of tamper-proof control.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: Key Switch, Normally Closed."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPB12KS. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Manual operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HPB12KS as Key Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "key-operated-normally-closed-switch",
+    "pushbutton-no",
+    "pushbutton-nc"
+  ],
+  "artwork": "s28-ansi-key-operated-normally-closed-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Key Switch, Normally Closed",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HPB12KS. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "key-operated-normally-closed-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-key-operated-normally-closed-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-key-operated-normally-closed-switch.svg",
+  "id": "ansi-key-operated-normally-closed-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-key-operated-normally-closed-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-key-operated-normally-closed-switch.json",
+  "svgPath": "artwork/svg/ansi-key-operated-normally-closed-switch.svg",
+  "referencePath": "references/ansi-key-operated-normally-closed-switch.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HPB12KS as Key Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

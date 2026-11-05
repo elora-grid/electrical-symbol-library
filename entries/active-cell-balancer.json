@@ -1,0 +1,87 @@
+{
+  "slug": "active-cell-balancer",
+  "name": "Active battery cell balancer",
+  "kind": "symbol",
+  "abbreviation": "BAL X",
+  "aliases": [
+    "Active battery cell balancer",
+    "Active battery cell balancer functional block",
+    "Active battery cell balancer schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An active balancer transfers energy between selected parts of a battery system.",
+  "description": [
+    "An active balancer transfers energy between selected parts of a battery system.",
+    "A converter-based balancing path can move energy rather than only dissipating it in a resistor.",
+    "Identify the cell or pack sections between which energy can move, together with the balancing controller. The distinguishing feature is an energy-transfer circuit, not just a measurement of unequal cell voltages. Draw its power-transfer path separately from the information used to decide when to balance. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the source and destination of transferred energy.",
+    "Show the selected converter or switching arrangement.",
+    "Reference the controller’s cell-selection and operating conditions.",
+    "The energy-transfer path and control method depend on the selected balancing design."
+  ],
+  "drawingChecklist": [
+    "Identify the source and destination of transferred energy.",
+    "Show the selected converter or switching arrangement.",
+    "Reference the controller’s cell-selection and operating conditions."
+  ],
+  "distinction": "The energy-transfer path and control method depend on the selected balancing design.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Selected cell or pack section"
+    },
+    {
+      "label": "Concept output",
+      "value": "Another cell or pack section"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-balance",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "battery-cabinet",
+    "battery-cell-voltage-monitor",
+    "passive-cell-balancer",
+    "battery-cell-temperature-monitor"
+  ],
+  "artwork": "expanded-active-cell-balancer",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/active-cell-balancer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/active-cell-balancer.svg",
+  "id": "active-cell-balancer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/active-cell-balancer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/active-cell-balancer.json",
+  "svgPath": "artwork/svg/active-cell-balancer.svg",
+  "referencePath": "references/active-cell-balancer.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-balance",
+      "title": "Battery monitors and balancers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/battery-management-ics/battery-monitors-balancers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

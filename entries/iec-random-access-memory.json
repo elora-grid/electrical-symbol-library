@@ -1,0 +1,90 @@
+{
+  "slug": "iec-random-access-memory",
+  "name": "IEC random-access memory (RAM)",
+  "kind": "symbol",
+  "abbreviation": "RAM",
+  "aliases": [
+    "RAM element",
+    "IEC RAM symbol",
+    "read/write memory block"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked RAM with address grouping, a write control input and A-labelled data inputs and outputs.",
+  "description": [
+    "A RAM symbol carries the RAM qualifier and organisation. Address inputs form an A group; a write input is labelled with control dependency, and data inputs are labelled A plus the control number and D, meaning data is written to the addressed word when the control is active. Data outputs are labelled A.",
+    "TI's overview builds a 16-word by 4-bit memory from latches to explain this notation. On drawings, RAM symbols document buffers in communication modules and processor boards.",
+    "The symbol does not state whether the memory is static or dynamic, its retention behaviour, or any battery backup. Note those where data must survive power loss."
+  ],
+  "readingNotes": [
+    "Write control appears as a C input; data inputs carry A and the control number.",
+    "Check for three-state outputs."
+  ],
+  "drawingChecklist": [
+    "State the organisation.",
+    "Show write and enable controls with dependency labels.",
+    "Note retention or backup arrangements."
+  ],
+  "distinction": "ROM has no write inputs; FIFO memory has no address inputs.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "RAM"
+    },
+    {
+      "label": "Write notation",
+      "value": "A,mD inputs under Cm control"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "RAM qualifier and the memory array example using A dependency."
+    }
+  ],
+  "related": [
+    "iec-read-only-memory",
+    "iec-address-dependency-a",
+    "iec-fifo-memory"
+  ],
+  "artwork": "s28-iec-random-access-memory",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with RAM qualifier, address grouping, write control and A-dependent data",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-random-access-memory",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-random-access-memory.svg",
+  "id": "iec-random-access-memory",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-random-access-memory",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-random-access-memory.json",
+  "svgPath": "artwork/svg/iec-random-access-memory.svg",
+  "referencePath": "references/iec-random-access-memory.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "RAM qualifier and the memory array example using A dependency."
+    }
+  ]
+}

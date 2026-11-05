@@ -1,0 +1,118 @@
+{
+  "slug": "iec-intruder-motion-detector",
+  "name": "Intruder motion detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "PIR",
+  "aliases": [
+    "PIR detector",
+    "passive infrared intruder detector",
+    "security motion sensor"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Security plan symbol for a passive infrared or dual-technology motion detector reporting to an intruder alarm.",
+  "description": [
+    "Intruder motion detectors sense movement, usually by passive infrared, sometimes combined with microwave. Security plans draw a small box or semicircle at the corner mounting position with the detection fan drawn into the room so coverage can be checked.",
+    "Each detector is wired to an alarm panel zone or an addressable bus, and the plan tags its zone. Detectors must not see heaters, moving curtains or direct sunlight, so the fan on the plan is a practical design check. The symbol does not state pet immunity, technology or masking detection. The security schedule records these."
+  ],
+  "readingNotes": [
+    "Check the coverage fan against windows and heat sources.",
+    "Read the zone tag."
+  ],
+  "drawingChecklist": [
+    "Show coverage fan.",
+    "Tag zone.",
+    "State detector technology."
+  ],
+  "distinction": "A lighting presence detector switches luminaires; this detector reports to an intruder alarm system.",
+  "facts": [
+    {
+      "label": "Sensing",
+      "value": "Passive infrared, sometimes with microwave"
+    },
+    {
+      "label": "System",
+      "value": "Intruder alarm"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-radiation",
+      "relevance": "Public IEC-oriented radiation qualifiers relevant to infrared and optical marks."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-presence-detector-lighting",
+    "iec-door-contact-plan-symbol",
+    "iec-cctv-camera-plan-symbol"
+  ],
+  "artwork": "s28-iec-intruder-motion-detector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Motion detector, intruder alarm",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-intruder-motion-detector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-intruder-motion-detector.svg",
+  "id": "iec-intruder-motion-detector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-intruder-motion-detector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-intruder-motion-detector.json",
+  "svgPath": "artwork/svg/iec-intruder-motion-detector.svg",
+  "referencePath": "references/iec-intruder-motion-detector.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-radiation",
+      "title": "Autodesk IEC-60617 preview: Radiation qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EABC81B4-549D-49C9-A0F5-086DD204A689.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented radiation qualifiers relevant to infrared and optical marks."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

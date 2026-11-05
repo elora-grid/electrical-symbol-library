@@ -1,0 +1,104 @@
+{
+  "slug": "iec-protective-conductor-mark",
+  "name": "Protective conductor mark",
+  "kind": "symbol",
+  "abbreviation": "PE",
+  "aliases": [
+    "PE conductor marking",
+    "protective earth conductor tick",
+    "earth conductor mark"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A mark on one stroke of a conductor group identifying the protective earth conductor carried with the circuit.",
+  "description": [
+    "This mark identifies the protective conductor within a group of conductors drawn as one line. It shows that the circuit carries its own PE conductor to the load, which is how the fault return path for automatic disconnection is provided in TN systems. The letters PE are often written beside the mark.",
+    "The mark does not tell you whether the PE is a separate core, the cable armour or a parallel earth continuity conductor. Each option affects earth fault loop impedance differently, so the cable schedule must say which is used. The mark is also distinct from the protective earth terminal symbol, which shows a connection point rather than a conductor in a run."
+  ],
+  "readingNotes": [
+    "Confirm what physically forms the PE: a core, armour or separate conductor.",
+    "Check that the PE size meets the protective conductor sizing rule used."
+  ],
+  "drawingChecklist": [
+    "Mark the PE on every circuit that carries one.",
+    "Identify whether armour is used as the PE.",
+    "Show PE terminations at both ends."
+  ],
+  "distinction": "The PE conductor mark identifies a conductor in a run; the protective earth symbol identifies a connection point to the earthing system.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Distinct mark on one stroke of a conductor group"
+    },
+    {
+      "label": "Letter code",
+      "value": "PE"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-schemes",
+      "relevance": "Public installation-guide definitions of TN, TT and IT schemes and protective conductors."
+    },
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public guide to earthing connection elements."
+    }
+  ],
+  "related": [
+    "protective-earth",
+    "iec-neutral-conductor-mark",
+    "iec-pen-conductor-mark"
+  ],
+  "artwork": "s28-iec-protective-conductor-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Protective conductor identification on a conductor group",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-protective-conductor-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-protective-conductor-mark.svg",
+  "id": "iec-protective-conductor-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-protective-conductor-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-protective-conductor-mark.json",
+  "svgPath": "artwork/svg/iec-protective-conductor-mark.svg",
+  "referencePath": "references/iec-protective-conductor-mark.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-schemes",
+      "title": "Definition of standardised earthing schemes",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Definition_of_standardised_earthing_schemes",
+      "type": "manufacturer",
+      "scope": "TT, TN (including TN-C and TN-C-S with PEN conductors) and IT system earthing arrangements.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide definitions of TN, TT and IT schemes and protective conductors."
+    },
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public guide to earthing connection elements."
+    }
+  ]
+}

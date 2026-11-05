@@ -1,0 +1,119 @@
+{
+  "slug": "iec-luminaire-general-plan-symbol",
+  "name": "Luminaire general plan symbol",
+  "kind": "symbol",
+  "abbreviation": "L",
+  "aliases": [
+    "lighting outlet",
+    "light point",
+    "luminaire position"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "General installation plan symbol for a luminaire or lighting point, drawn as a crossed circle at the ceiling position.",
+  "description": [
+    "On IEC-style lighting plans a crossed circle marks the position of a luminaire or a lighting outlet. It is the base form that other luminaire symbols modify: lines are added for linear fittings, arrows for spotlights and letters for emergency or special types.",
+    "The symbol is placed to scale at the ceiling position and tagged with a fixture type letter keyed to the luminaire schedule. Switching lines connect it to switches, and circuit labels identify the lighting circuit.",
+    "The crossed circle on a plan is not a control panel indicator lamp, even though the graphic is similar. Context, scale and the schedule make the difference."
+  ],
+  "readingNotes": [
+    "Read the fixture type tag against the luminaire schedule.",
+    "Follow switching lines to the switch positions."
+  ],
+  "drawingChecklist": [
+    "Tag each luminaire with its schedule type.",
+    "Show switching links.",
+    "Label the lighting circuit."
+  ],
+  "distinction": "The indicator lamp in control schematics uses a similar graphic but signals equipment state; the plan symbol locates a room luminaire.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Crossed circle at the luminaire position"
+    },
+    {
+      "label": "Companion document",
+      "value": "Luminaire schedule"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "autodesk-lamps",
+      "relevance": "Public lamp symbol family; the plan luminaire uses a similar crossed-circle element in a different drawing context."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "indicator-lamp",
+    "iec-one-way-light-switch",
+    "iec-wall-mounted-luminaire"
+  ],
+  "artwork": "s28-iec-luminaire-general-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Luminaire, general",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-luminaire-general-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-luminaire-general-plan-symbol.svg",
+  "id": "iec-luminaire-general-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-luminaire-general-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-luminaire-general-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-luminaire-general-plan-symbol.svg",
+  "referencePath": "references/iec-luminaire-general-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "autodesk-lamps",
+      "title": "Pilot lights: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BBCEBBBA-24AD-4D3A-B106-39550AAACA6C.htm",
+      "type": "cad-reference",
+      "scope": "Pilot-light and indication variants. A symbol alone does not establish the indicated operating condition.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public lamp symbol family; the plan luminaire uses a similar crossed-circle element in a different drawing context."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

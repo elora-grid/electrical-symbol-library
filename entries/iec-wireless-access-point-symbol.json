@@ -1,0 +1,99 @@
+{
+  "slug": "iec-wireless-access-point-symbol",
+  "name": "Wireless access point symbol",
+  "kind": "symbol",
+  "abbreviation": "WAP",
+  "aliases": [
+    "Wi-Fi access point",
+    "WLAN access point",
+    "AP"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan and network symbol for a wireless access point, a box or circle with radiating wave arcs.",
+  "description": [
+    "Wireless access points are drawn on plans as a small box or circle with radiating arcs, at ceiling or wall positions, tagged WAP or AP. They are usually powered by PoE through a data outlet, so the plan also shows that outlet.",
+    "Coverage is planned by survey or prediction, and the plan symbol locations come from that design. Industrial access points may have external antennas and need weatherproof or rail-rated enclosures. The arcs do not show coverage range or frequency band."
+  ],
+  "readingNotes": [
+    "Find the data outlet and PoE source.",
+    "Check coverage plan."
+  ],
+  "drawingChecklist": [
+    "Tag AP ID.",
+    "Show PoE data outlet.",
+    "State mounting."
+  ],
+  "distinction": "An antenna symbol shows a radiating element; the access point is a complete network device.",
+  "facts": [
+    {
+      "label": "Power",
+      "value": "Usually PoE"
+    },
+    {
+      "label": "Placement basis",
+      "value": "Wireless coverage survey"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; plan symbols for this device vary between legends, so read the project key"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-westermo-wireless-access-points",
+      "relevance": "Public product family page describing industrial wireless access points, clients and bridges."
+    },
+    {
+      "sourceId": "s28-westermo-poe-switches",
+      "relevance": "Public product family page describing Ethernet switches that power field devices over the data cable."
+    }
+  ],
+  "related": [
+    "iec-data-outlet",
+    "poe-powered-device-interface",
+    "iec-antenna-plan-symbol"
+  ],
+  "artwork": "s28-iec-wireless-access-point-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-wireless-access-point-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-wireless-access-point-symbol.svg",
+  "id": "iec-wireless-access-point-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-wireless-access-point-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-wireless-access-point-symbol.json",
+  "svgPath": "artwork/svg/iec-wireless-access-point-symbol.svg",
+  "referencePath": "references/iec-wireless-access-point-symbol.md",
+  "publicSources": [
+    {
+      "id": "s28-westermo-wireless-access-points",
+      "title": "Industrial WLAN access points, clients and bridges",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/wireless/access-points-clients-bridges",
+      "type": "manufacturer",
+      "scope": "Public product family page for industrial wireless access points used in networked installations.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing industrial wireless access points, clients and bridges."
+    },
+    {
+      "id": "s28-westermo-poe-switches",
+      "title": "Industrial PoE Ethernet switches",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/ethernet-switches/poe",
+      "type": "manufacturer",
+      "scope": "Public product family page for Ethernet switches that supply Power over Ethernet to field devices.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing Ethernet switches that power field devices over the data cable."
+    }
+  ]
+}

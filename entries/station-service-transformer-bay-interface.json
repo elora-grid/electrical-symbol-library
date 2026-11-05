@@ -1,0 +1,105 @@
+{
+  "slug": "station-service-transformer-bay-interface",
+  "name": "Station-service transformer bay interface",
+  "kind": "symbol",
+  "abbreviation": "STBI",
+  "aliases": [
+    "Switchyard bay circuit arrangements",
+    "switchyards Switchyard bay circuit arrangements",
+    "switchyards",
+    "Switchyards",
+    "Primary station connection",
+    "Auxiliary transformer circuit"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the switchyard connection supplying the assigned station-service transformer.",
+  "description": [
+    "Identifies the switchyard connection supplying the assigned station-service transformer. A bay circuit arrangement groups the switching, measuring and protection interfaces associated with a specific network circuit. A line bay, transformer bay and reactor bay share some devices but connect different kinds of primary equipment.",
+    "In a switchyard single-line drawing, the bay arrangement helps the reader follow the circuit from its bus connection to the external line, transformer or compensation equipment and identify the measurement boundaries along the path. For this reference, the drawing identifies “Primary station connection” at the input and “Auxiliary transformer circuit” at the output. Auxiliary source diversity requires separate assessment.",
+    "Preserve the actual order of primary connections, isolation points and CT locations. These conceptual arrangements do not establish equipment clearances, terminal layouts or an approved switching sequence. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Primary station connection. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Auxiliary transformer circuit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Auxiliary source diversity requires separate assessment.",
+    "Preserve the actual order of primary connections, isolation points and CT locations. These conceptual arrangements do not establish equipment clearances, terminal layouts or an approved switching sequence."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for primary station connection.",
+    "Identify the destination and defined state of auxiliary transformer circuit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Auxiliary source diversity requires separate assessment."
+  ],
+  "distinction": "Auxiliary source diversity requires separate assessment. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Primary station connection"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Auxiliary transformer circuit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "STBI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchyard bay circuit arrangements. Bay arrangements and coordinated breaker controls. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "current-transformer",
+    "cable-transition-bay-interface"
+  ],
+  "artwork": "pi26-station-service-transformer-bay-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-bays",
+    "input": "Primary station connection",
+    "output": "Auxiliary transformer circuit"
+  },
+  "url": "https://eloragrid.ai/symbols/station-service-transformer-bay-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-service-transformer-bay-interface.svg",
+  "id": "station-service-transformer-bay-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-service-transformer-bay-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-service-transformer-bay-interface.json",
+  "svgPath": "artwork/svg/station-service-transformer-bay-interface.svg",
+  "referencePath": "references/station-service-transformer-bay-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard bay circuit arrangements. Bay arrangements and coordinated breaker controls. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "voltage-transformer-with-two-secondaries",
+  "name": "Voltage transformer with two secondary windings",
+  "kind": "symbol",
+  "abbreviation": "VT",
+  "aliases": [
+    "dual-secondary VT",
+    "VT with metering and protection windings"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "VT with two separate secondary windings, typically one for metering and one for protection, each with its own fusing.",
+  "description": [
+    "This VT form has one primary and two secondary windings. The usual arrangement gives a metering winding with a high accuracy class and a protection winding, each fused or protected by an MCB separately so a fault on one circuit does not take out the other.",
+    "Both windings share the same core, so their combined burden must stay within the VT's thermal rating. The symbol shows the two windings but not the class of each or the secondary protection, which must be stated for each circuit."
+  ],
+  "readingNotes": [
+    "Read the class and burden of each winding.",
+    "Find the separate secondary protection for each winding."
+  ],
+  "drawingChecklist": [
+    "State class per winding",
+    "Show secondary fusing per winding",
+    "Reference earthing point"
+  ],
+  "distinction": "A VT with two secondaries shares one core; two separate VTs give independent cores.",
+  "facts": [
+    {
+      "label": "Windings",
+      "value": "One primary, two secondaries"
+    },
+    {
+      "label": "Typical split",
+      "value": "Metering and protection"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "autodesk-transformers",
+      "relevance": "Public potential-transformer symbol family used for context."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "voltage-transformer-with-residual-winding",
+    "current-transformer-with-two-secondaries"
+  ],
+  "artwork": "s28-voltage-transformer-with-two-secondaries",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltage-transformer-with-two-secondaries",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/voltage-transformer-with-two-secondaries.svg",
+  "id": "voltage-transformer-with-two-secondaries",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltage-transformer-with-two-secondaries",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltage-transformer-with-two-secondaries.json",
+  "svgPath": "artwork/svg/voltage-transformer-with-two-secondaries.svg",
+  "referencePath": "references/voltage-transformer-with-two-secondaries.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "autodesk-transformers",
+      "title": "Power, potential and autotransformer symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C1FE1690-DBF4-4F69-85C4-28E41F0A6392.htm",
+      "type": "cad-reference",
+      "scope": "Power transformers, voltage transformers, winding counts, screens and autotransformers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public potential-transformer symbol family used for context."
+    }
+  ]
+}

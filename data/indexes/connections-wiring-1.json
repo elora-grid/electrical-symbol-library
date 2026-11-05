@@ -1,0 +1,4555 @@
+{
+  "schemaVersion": 1,
+  "category": "connections-wiring",
+  "entries": [
+    {
+      "id": "terminal",
+      "slug": "terminal",
+      "name": "Terminal connection",
+      "kind": "symbol",
+      "abbreviation": "Terminal",
+      "aliases": [
+        "terminal block symbol",
+        "terminal point",
+        "connection terminal",
+        "terminal strip connection",
+        "HT0002",
+        "VT0002"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "An identified electrical connection point linking schematic and wiring information.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/terminal",
+      "recordPath": "entries/terminal.json",
+      "svgPath": "artwork/svg/terminal.svg",
+      "referencePath": "references/terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ct-test-terminal",
+      "slug": "ct-test-terminal",
+      "name": "CT test terminal",
+      "kind": "symbol",
+      "abbreviation": "CT test",
+      "aliases": [
+        "CT shorting terminal",
+        "current transformer test block",
+        "test disconnect terminal"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A current-transformer terminal arrangement providing documented test and shorting facilities.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/ct-test-terminal",
+      "recordPath": "entries/ct-test-terminal.json",
+      "svgPath": "artwork/svg/ct-test-terminal.svg",
+      "referencePath": "references/ct-test-terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protective-earth",
+      "slug": "protective-earth",
+      "name": "Protective earth",
+      "kind": "symbol",
+      "abbreviation": "PE",
+      "aliases": [
+        "protective ground",
+        "PE connection",
+        "protective earthing",
+        "ground symbol"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "An identified connection serving the protective earthing function.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/protective-earth",
+      "recordPath": "entries/protective-earth.json",
+      "svgPath": "artwork/svg/protective-earth.svg",
+      "referencePath": "references/protective-earth.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "terminal-strip",
+      "slug": "terminal-strip",
+      "name": "Terminal strip assembly",
+      "kind": "object",
+      "abbreviation": "Terminal strip",
+      "aliases": [
+        "terminal rail",
+        "terminal assembly",
+        "DIN rail terminal strip"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A physical assembly of identified terminals and the selected connecting accessories.",
+      "canonicalUrl": "https://eloragrid.ai/objects/terminal-strip",
+      "recordPath": "entries/terminal-strip.json",
+      "referencePath": "references/terminal-strip.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "feed-through-terminal-block",
+      "slug": "feed-through-terminal-block",
+      "name": "Feed-through terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB FEED",
+      "aliases": [
+        "feedthrough terminal"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A feed-through terminal provides an electrical connection between conductors assigned to the same terminal path.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/feed-through-terminal-block",
+      "recordPath": "entries/feed-through-terminal-block.json",
+      "svgPath": "artwork/svg/feed-through-terminal-block.svg",
+      "referencePath": "references/feed-through-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "disconnect-terminal-block",
+      "slug": "disconnect-terminal-block",
+      "name": "Disconnect terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB DISC",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A disconnect terminal includes a documented separable path for circuit isolation or testing at the wiring level.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/disconnect-terminal-block",
+      "recordPath": "entries/disconnect-terminal-block.json",
+      "svgPath": "artwork/svg/disconnect-terminal-block.svg",
+      "referencePath": "references/disconnect-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "knife-disconnect-terminal",
+      "slug": "knife-disconnect-terminal",
+      "name": "Knife-disconnect terminal",
+      "kind": "symbol",
+      "abbreviation": "TB KNIFE",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A knife-disconnect terminal opens its circuit path using a documented pivoting knife element.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/knife-disconnect-terminal",
+      "recordPath": "entries/knife-disconnect-terminal.json",
+      "svgPath": "artwork/svg/knife-disconnect-terminal.svg",
+      "referencePath": "references/knife-disconnect-terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "fuse-terminal-block",
+      "slug": "fuse-terminal-block",
+      "name": "Fuse terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB FUSE",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A fuse terminal integrates a fuse-link into a terminal connection path.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/fuse-terminal-block",
+      "recordPath": "entries/fuse-terminal-block.json",
+      "svgPath": "artwork/svg/fuse-terminal-block.svg",
+      "referencePath": "references/fuse-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "diode-terminal-block",
+      "slug": "diode-terminal-block",
+      "name": "Diode terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB DIODE",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A diode terminal includes a semiconductor diode in a documented terminal path.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/diode-terminal-block",
+      "recordPath": "entries/diode-terminal-block.json",
+      "svgPath": "artwork/svg/diode-terminal-block.svg",
+      "referencePath": "references/diode-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "component-terminal-block",
+      "slug": "component-terminal-block",
+      "name": "Component terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB COMP",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A component terminal incorporates a documented electrical component or component plug in its wiring path.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/component-terminal-block",
+      "recordPath": "entries/component-terminal-block.json",
+      "svgPath": "artwork/svg/component-terminal-block.svg",
+      "referencePath": "references/component-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "multilevel-terminal-block",
+      "slug": "multilevel-terminal-block",
+      "name": "Multilevel terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB LEVEL",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A multilevel terminal carries two or more documented connection levels within one terminal body.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/multilevel-terminal-block",
+      "recordPath": "entries/multilevel-terminal-block.json",
+      "svgPath": "artwork/svg/multilevel-terminal-block.svg",
+      "referencePath": "references/multilevel-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "multi-conductor-terminal-block",
+      "slug": "multi-conductor-terminal-block",
+      "name": "Multi-conductor terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB MULTI",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A multi-conductor terminal provides several connection points for its documented electrical path.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/multi-conductor-terminal-block",
+      "recordPath": "entries/multi-conductor-terminal-block.json",
+      "svgPath": "artwork/svg/multi-conductor-terminal-block.svg",
+      "referencePath": "references/multi-conductor-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protective-earth-terminal-block",
+      "slug": "protective-earth-terminal-block",
+      "name": "Protective-earth terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB PE",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A PE terminal provides a documented protective-conductor connection, often including a specified connection to the mounting rail.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/protective-earth-terminal-block",
+      "recordPath": "entries/protective-earth-terminal-block.json",
+      "svgPath": "artwork/svg/protective-earth-terminal-block.svg",
+      "referencePath": "references/protective-earth-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "sensor-terminal-block",
+      "slug": "sensor-terminal-block",
+      "name": "Sensor terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB SENSOR",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A sensor terminal organises supply, return and signal connections for a documented sensor wiring arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/sensor-terminal-block",
+      "recordPath": "entries/sensor-terminal-block.json",
+      "svgPath": "artwork/svg/sensor-terminal-block.svg",
+      "referencePath": "references/sensor-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "actuator-terminal-block",
+      "slug": "actuator-terminal-block",
+      "name": "Actuator terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB ACT",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An actuator terminal organises supply, output and any protective-conductor connections for a documented actuator circuit.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/actuator-terminal-block",
+      "recordPath": "entries/actuator-terminal-block.json",
+      "svgPath": "artwork/svg/actuator-terminal-block.svg",
+      "referencePath": "references/actuator-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "plug-in-terminal-block",
+      "slug": "plug-in-terminal-block",
+      "name": "Plug-in terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB PLUG",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A plug-in terminal allows a documented terminal circuit to be disconnected through a removable mating part.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/plug-in-terminal-block",
+      "recordPath": "entries/plug-in-terminal-block.json",
+      "svgPath": "artwork/svg/plug-in-terminal-block.svg",
+      "referencePath": "references/plug-in-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "high-current-terminal-block",
+      "slug": "high-current-terminal-block",
+      "name": "High-current terminal block",
+      "kind": "symbol",
+      "abbreviation": "TB POWER",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A high-current terminal provides a documented connection for large conductors and power circuits.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/high-current-terminal-block",
+      "recordPath": "entries/high-current-terminal-block.json",
+      "svgPath": "artwork/svg/high-current-terminal-block.svg",
+      "referencePath": "references/high-current-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "terminal-jumper-bridge",
+      "slug": "terminal-jumper-bridge",
+      "name": "Terminal jumper bridge",
+      "kind": "symbol",
+      "abbreviation": "TB BRIDGE",
+      "aliases": [],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A terminal bridge intentionally connects specified terminal points to a common potential.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/terminal-jumper-bridge",
+      "recordPath": "entries/terminal-jumper-bridge.json",
+      "svgPath": "artwork/svg/terminal-jumper-bridge.svg",
+      "referencePath": "references/terminal-jumper-bridge.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "plug-and-socket-connector-pair",
+      "slug": "plug-and-socket-connector-pair",
+      "name": "Plug and socket connector pair",
+      "kind": "symbol",
+      "abbreviation": "PLUG SOCKET",
+      "aliases": [
+        "HC01PJ",
+        "VC01PJ"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A plug/socket pair represents a detachable electrical connection with two mating sides.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/plug-and-socket-connector-pair",
+      "recordPath": "entries/plug-and-socket-connector-pair.json",
+      "svgPath": "artwork/svg/plug-and-socket-connector-pair.svg",
+      "referencePath": "references/plug-and-socket-connector-pair.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "connector-plug-half",
+      "slug": "connector-plug-half",
+      "name": "Connector plug half",
+      "kind": "symbol",
+      "abbreviation": "PLUG",
+      "aliases": [
+        "HC01P_",
+        "VC01P_"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A plug-half representation identifies one side of a detachable connector.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/connector-plug-half",
+      "recordPath": "entries/connector-plug-half.json",
+      "svgPath": "artwork/svg/connector-plug-half.svg",
+      "referencePath": "references/connector-plug-half.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "connector-socket-half",
+      "slug": "connector-socket-half",
+      "name": "Connector socket half",
+      "kind": "symbol",
+      "abbreviation": "SOCKET",
+      "aliases": [
+        "HC01_J",
+        "VC01_J"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A socket-half representation identifies the mating interface for a detachable plug.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/connector-socket-half",
+      "recordPath": "entries/connector-socket-half.json",
+      "svgPath": "artwork/svg/connector-socket-half.svg",
+      "referencePath": "references/connector-socket-half.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "wire-splice",
+      "slug": "wire-splice",
+      "name": "Wire splice",
+      "kind": "symbol",
+      "abbreviation": "SPLICE",
+      "aliases": [
+        "HSP1001",
+        "VSP1001"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A wire splice intentionally joins documented conductors without a detachable connector interface.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/wire-splice",
+      "recordPath": "entries/wire-splice.json",
+      "svgPath": "artwork/svg/wire-splice.svg",
+      "referencePath": "references/wire-splice.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "earth-connection",
+      "slug": "earth-connection",
+      "name": "Earth connection",
+      "kind": "symbol",
+      "abbreviation": "EARTH",
+      "aliases": [
+        "HGND2",
+        "VGND2"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "An earth connection identifies a documented circuit connection to earth.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/earth-connection",
+      "recordPath": "entries/earth-connection.json",
+      "svgPath": "artwork/svg/earth-connection.svg",
+      "referencePath": "references/earth-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "functional-earth",
+      "slug": "functional-earth",
+      "name": "Functional earth",
+      "kind": "symbol",
+      "abbreviation": "FE",
+      "aliases": [
+        "HGND3",
+        "VGND3"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Functional earth serves an operational purpose such as a documented EMC or signal-reference connection.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/functional-earth",
+      "recordPath": "entries/functional-earth.json",
+      "svgPath": "artwork/svg/functional-earth.svg",
+      "referencePath": "references/functional-earth.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protective-equipotential-bonding",
+      "slug": "protective-equipotential-bonding",
+      "name": "Protective equipotential bonding",
+      "kind": "symbol",
+      "abbreviation": "BOND PE",
+      "aliases": [
+        "HGND5",
+        "VGND5"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Protective equipotential bonding connects documented conductive parts as part of the protective arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/protective-equipotential-bonding",
+      "recordPath": "entries/protective-equipotential-bonding.json",
+      "svgPath": "artwork/svg/protective-equipotential-bonding.svg",
+      "referencePath": "references/protective-equipotential-bonding.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "functional-equipotential-bonding",
+      "slug": "functional-equipotential-bonding",
+      "name": "Functional equipotential bonding",
+      "kind": "symbol",
+      "abbreviation": "BOND FE",
+      "aliases": [
+        "HGND1",
+        "VGND1"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Functional equipotential bonding connects documented points for an operational or signal-related purpose.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/functional-equipotential-bonding",
+      "recordPath": "entries/functional-equipotential-bonding.json",
+      "svgPath": "artwork/svg/functional-equipotential-bonding.svg",
+      "referencePath": "references/functional-equipotential-bonding.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "surge-arrester",
+      "slug": "surge-arrester",
+      "name": "Surge arrester",
+      "kind": "symbol",
+      "abbreviation": "SA",
+      "aliases": [
+        "HFU1_S00373",
+        "VFU1_S00373"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A surge arrester diverts a documented surge-related current through its protective path.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/surge-arrester",
+      "recordPath": "entries/surge-arrester.json",
+      "svgPath": "artwork/svg/surge-arrester.svg",
+      "referencePath": "references/surge-arrester.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gas-discharge-protection-tube",
+      "slug": "gas-discharge-protection-tube",
+      "name": "Gas-discharge protection tube",
+      "kind": "symbol",
+      "abbreviation": "GDT",
+      "aliases": [
+        "HFU1_S00374",
+        "VFU1_S00374",
+        "gas discharge tube"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A gas-discharge tube provides a documented surge-protection path through gas breakdown.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/gas-discharge-protection-tube",
+      "recordPath": "entries/gas-discharge-protection-tube.json",
+      "svgPath": "artwork/svg/gas-discharge-protection-tube.svg",
+      "referencePath": "references/gas-discharge-protection-tube.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "spark-gap-protective-element",
+      "slug": "spark-gap-protective-element",
+      "name": "Spark-gap protective element",
+      "kind": "symbol",
+      "abbreviation": "SPARK GAP",
+      "aliases": [
+        "HFU1_S00371",
+        "VFU1_S00371"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A spark-gap element provides a documented breakdown path across separated electrodes.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/spark-gap-protective-element",
+      "recordPath": "entries/spark-gap-protective-element.json",
+      "svgPath": "artwork/svg/spark-gap-protective-element.svg",
+      "referencePath": "references/spark-gap-protective-element.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-terminal-marshalling-interface",
+      "slug": "ga-terminal-marshalling-interface",
+      "name": "Terminal marshalling interface",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "IO marshalling module",
+        "Terminal marshalling interface CAD",
+        "Terminal marshalling interface general arrangement",
+        "Terminal marshalling interface panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A marshalling interface organises field circuits and controller connections.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-terminal-marshalling-interface",
+      "recordPath": "entries/ga-terminal-marshalling-interface.json",
+      "referencePath": "references/ga-terminal-marshalling-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-feed-through-terminal-block",
+      "slug": "ga-feed-through-terminal-block",
+      "name": "Feed-through terminal block",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "through terminal",
+        "Feed-through terminal block CAD",
+        "Feed-through terminal block general arrangement",
+        "Feed-through terminal block panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A feed-through terminal provides a defined wiring connection across a terminal position.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-feed-through-terminal-block",
+      "recordPath": "entries/ga-feed-through-terminal-block.json",
+      "referencePath": "references/ga-feed-through-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-protective-earth-terminal-block",
+      "slug": "ga-protective-earth-terminal-block",
+      "name": "Protective-earth terminal block",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "PE earth terminal",
+        "Protective-earth terminal block CAD",
+        "Protective-earth terminal block general arrangement",
+        "Protective-earth terminal block panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A protective-earth terminal provides the specified connection between conductors and the earthing arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-protective-earth-terminal-block",
+      "recordPath": "entries/ga-protective-earth-terminal-block.json",
+      "referencePath": "references/ga-protective-earth-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-multi-level-terminal-block",
+      "slug": "ga-multi-level-terminal-block",
+      "name": "Multi-level terminal block",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "double deck triple deck terminal",
+        "Multi-level terminal block CAD",
+        "Multi-level terminal block general arrangement",
+        "Multi-level terminal block panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A multi-level terminal groups distinct connections at several levels within one rail position.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-multi-level-terminal-block",
+      "recordPath": "entries/ga-multi-level-terminal-block.json",
+      "referencePath": "references/ga-multi-level-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-fuse-terminal-block",
+      "slug": "ga-fuse-terminal-block",
+      "name": "Fuse terminal block",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "fused terminal",
+        "Fuse terminal block CAD",
+        "Fuse terminal block general arrangement",
+        "Fuse terminal block panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A fuse terminal combines a terminal position with a selected fuse arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-fuse-terminal-block",
+      "recordPath": "entries/ga-fuse-terminal-block.json",
+      "referencePath": "references/ga-fuse-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-disconnect-terminal-block",
+      "slug": "ga-disconnect-terminal-block",
+      "name": "Disconnect terminal block",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "knife disconnect terminal",
+        "Disconnect terminal block CAD",
+        "Disconnect terminal block general arrangement",
+        "Disconnect terminal block panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A disconnect terminal provides a defined separable point in a wiring circuit.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-disconnect-terminal-block",
+      "recordPath": "entries/ga-disconnect-terminal-block.json",
+      "referencePath": "references/ga-disconnect-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-ct-shorting-test-terminal",
+      "slug": "ga-ct-shorting-test-terminal",
+      "name": "CT shorting test terminal",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "current transformer test block",
+        "CT shorting test terminal CAD",
+        "CT shorting test terminal general arrangement",
+        "CT shorting test terminal panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A CT test terminal supports the specified measuring and test connection arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-ct-shorting-test-terminal",
+      "recordPath": "entries/ga-ct-shorting-test-terminal.json",
+      "referencePath": "references/ga-ct-shorting-test-terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-distribution-terminal-block",
+      "slug": "ga-distribution-terminal-block",
+      "name": "Distribution terminal block",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "power distribution block",
+        "Distribution terminal block CAD",
+        "Distribution terminal block general arrangement",
+        "Distribution terminal block panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A distribution block divides a supplied circuit among specified outgoing connections.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-distribution-terminal-block",
+      "recordPath": "entries/ga-distribution-terminal-block.json",
+      "referencePath": "references/ga-distribution-terminal-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-pluggable-terminal-connector",
+      "slug": "ga-pluggable-terminal-connector",
+      "name": "Pluggable terminal connector",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "removable terminal plug",
+        "Pluggable terminal connector CAD",
+        "Pluggable terminal connector general arrangement",
+        "Pluggable terminal connector panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A pluggable terminal arrangement separates a wiring connector from its mating interface.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-pluggable-terminal-connector",
+      "recordPath": "entries/ga-pluggable-terminal-connector.json",
+      "referencePath": "references/ga-pluggable-terminal-connector.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-terminal-end-stop",
+      "slug": "ga-terminal-end-stop",
+      "name": "Terminal end stop",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "rail end clamp",
+        "Terminal end stop CAD",
+        "Terminal end stop general arrangement",
+        "Terminal end stop panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An end stop retains a specified terminal assembly on its mounting rail.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-terminal-end-stop",
+      "recordPath": "entries/ga-terminal-end-stop.json",
+      "referencePath": "references/ga-terminal-end-stop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-terminal-marker-strip",
+      "slug": "ga-terminal-marker-strip",
+      "name": "Terminal marker strip",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "terminal identification label",
+        "Terminal marker strip CAD",
+        "Terminal marker strip general arrangement",
+        "Terminal marker strip panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A marker strip carries identification for the terminal arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-terminal-marker-strip",
+      "recordPath": "entries/ga-terminal-marker-strip.json",
+      "referencePath": "references/ga-terminal-marker-strip.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-cable-gland",
+      "slug": "ga-cable-gland",
+      "name": "Cable gland",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "cable entry gland",
+        "Cable gland CAD",
+        "Cable gland general arrangement",
+        "Cable gland panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A cable gland secures and, where specified, seals a cable at an enclosure entry.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-cable-gland",
+      "recordPath": "entries/ga-cable-gland.json",
+      "referencePath": "references/ga-cable-gland.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-cable-entry-frame",
+      "slug": "ga-cable-entry-frame",
+      "name": "Cable-entry frame",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "modular cable transit",
+        "Cable-entry frame CAD",
+        "Cable-entry frame general arrangement",
+        "Cable-entry frame panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A cable-entry frame organises one or more cables through a documented enclosure opening.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-cable-entry-frame",
+      "recordPath": "entries/ga-cable-entry-frame.json",
+      "referencePath": "references/ga-cable-entry-frame.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-bulkhead-connector",
+      "slug": "ga-bulkhead-connector",
+      "name": "Bulkhead connector",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "panel feedthrough connector",
+        "Bulkhead connector CAD",
+        "Bulkhead connector general arrangement",
+        "Bulkhead connector panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A bulkhead connector provides a separable electrical or communication interface at a panel surface.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-bulkhead-connector",
+      "recordPath": "entries/ga-bulkhead-connector.json",
+      "referencePath": "references/ga-bulkhead-connector.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-earth-bar",
+      "slug": "ga-earth-bar",
+      "name": "Earth bar",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "grounding busbar PE bar",
+        "Earth bar CAD",
+        "Earth bar general arrangement",
+        "Earth bar panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An earth bar provides a designated earthing connection point for multiple conductors.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-earth-bar",
+      "recordPath": "entries/ga-earth-bar.json",
+      "referencePath": "references/ga-earth-bar.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-neutral-bar",
+      "slug": "ga-neutral-bar",
+      "name": "Neutral bar",
+      "kind": "object",
+      "abbreviation": "GA",
+      "aliases": [
+        "neutral busbar N bar",
+        "Neutral bar CAD",
+        "Neutral bar general arrangement",
+        "Neutral bar panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A neutral bar groups specified neutral connections within an assembly.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-neutral-bar",
+      "recordPath": "entries/ga-neutral-bar.json",
+      "referencePath": "references/ga-neutral-bar.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-ziplinks",
+      "slug": "automationdirect-ziplinks",
+      "name": "AutomationDirect ZIPLinks",
+      "kind": "object",
+      "abbreviation": "ZIPLinks",
+      "aliases": [
+        "ZIPLinks",
+        "ZIPLinks CAD",
+        "ZIPLinks general arrangement",
+        "ZIPLinks panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect ZIPLinks is a terminal marshalling interface product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-ziplinks",
+      "recordPath": "entries/automationdirect-ziplinks.json",
+      "referencePath": "references/automationdirect-ziplinks.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-dinnectors",
+      "slug": "automationdirect-dinnectors",
+      "name": "AutomationDirect DINnectors",
+      "kind": "object",
+      "abbreviation": "DINnectors",
+      "aliases": [
+        "DINnectors",
+        "DINnectors CAD",
+        "DINnectors general arrangement",
+        "DINnectors panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect DINnectors is a feed-through terminal block product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-dinnectors",
+      "recordPath": "entries/automationdirect-dinnectors.json",
+      "referencePath": "references/automationdirect-dinnectors.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-konnect-it-din-rail-terminals",
+      "slug": "automationdirect-konnect-it-din-rail-terminals",
+      "name": "AutomationDirect Konnect-It DIN-rail terminals",
+      "kind": "object",
+      "abbreviation": "Konnect-It DIN-rail terminals",
+      "aliases": [
+        "Konnect-It DIN-rail terminals",
+        "Konnect-It DIN-rail terminals CAD",
+        "Konnect-It DIN-rail terminals general arrangement",
+        "Konnect-It DIN-rail terminals panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect Konnect-It DIN-rail terminals is a feed-through terminal block product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-konnect-it-din-rail-terminals",
+      "recordPath": "entries/automationdirect-konnect-it-din-rail-terminals.json",
+      "referencePath": "references/automationdirect-konnect-it-din-rail-terminals.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-bimed-cable-glands",
+      "slug": "automationdirect-bimed-cable-glands",
+      "name": "AutomationDirect Bimed cable glands",
+      "kind": "object",
+      "abbreviation": "Bimed cable glands",
+      "aliases": [
+        "Bimed cable glands",
+        "Bimed cable glands CAD",
+        "Bimed cable glands general arrangement",
+        "Bimed cable glands panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect Bimed cable glands is a cable gland product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-bimed-cable-glands",
+      "recordPath": "entries/automationdirect-bimed-cable-glands.json",
+      "referencePath": "references/automationdirect-bimed-cable-glands.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-zipport-multi-wire-connectors",
+      "slug": "automationdirect-zipport-multi-wire-connectors",
+      "name": "AutomationDirect ZIPport Multi-Wire Connectors",
+      "kind": "object",
+      "abbreviation": "ZIPport Multi-Wire Connectors",
+      "aliases": [
+        "ZIPport Multi-Wire Connectors",
+        "ZIPport Multi-Wire Connectors CAD",
+        "ZIPport Multi-Wire Connectors general arrangement",
+        "ZIPport Multi-Wire Connectors panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect ZIPport Multi-Wire Connectors is a bulkhead connector product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-zipport-multi-wire-connectors",
+      "recordPath": "entries/automationdirect-zipport-multi-wire-connectors.json",
+      "referencePath": "references/automationdirect-zipport-multi-wire-connectors.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-zipport-panel-interface-connectors",
+      "slug": "automationdirect-zipport-panel-interface-connectors",
+      "name": "AutomationDirect ZIPport Panel Interface Connectors",
+      "kind": "object",
+      "abbreviation": "ZIPport Panel Interface Connectors",
+      "aliases": [
+        "ZIPport Panel Interface Connectors",
+        "ZIPport Panel Interface Connectors CAD",
+        "ZIPport Panel Interface Connectors general arrangement",
+        "ZIPport Panel Interface Connectors panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect ZIPport Panel Interface Connectors is a bulkhead connector product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-zipport-panel-interface-connectors",
+      "recordPath": "entries/automationdirect-zipport-panel-interface-connectors.json",
+      "referencePath": "references/automationdirect-zipport-panel-interface-connectors.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "automationdirect-edison-power-distribution-blocks",
+      "slug": "automationdirect-edison-power-distribution-blocks",
+      "name": "AutomationDirect Edison Power Distribution Blocks",
+      "kind": "object",
+      "abbreviation": "Edison Power Distribution Blocks",
+      "aliases": [
+        "Edison Power Distribution Blocks",
+        "Edison Power Distribution Blocks CAD",
+        "Edison Power Distribution Blocks general arrangement",
+        "Edison Power Distribution Blocks panel layout"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "AutomationDirect Edison Power Distribution Blocks is a distribution terminal block product family referenced for electrical equipment layout.",
+      "canonicalUrl": "https://eloragrid.ai/objects/automationdirect-edison-power-distribution-blocks",
+      "recordPath": "entries/automationdirect-edison-power-distribution-blocks.json",
+      "referencePath": "references/automationdirect-edison-power-distribution-blocks.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ga-cable-joint",
+      "slug": "ga-cable-joint",
+      "name": "Power cable joint",
+      "kind": "object",
+      "abbreviation": "CABLE JOINT",
+      "aliases": [
+        "cable joint",
+        "power cable splice",
+        "MV cable joint",
+        "inline cable joint",
+        "underground cable splice"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An assembly joining power-cable sections while maintaining the required conductor, insulation, screen and environmental interfaces.",
+      "canonicalUrl": "https://eloragrid.ai/objects/ga-cable-joint",
+      "recordPath": "entries/ga-cable-joint.json",
+      "referencePath": "references/ga-cable-joint.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-terminal",
+      "slug": "ansi-terminal",
+      "name": "ANSI/IEEE terminal connection symbol",
+      "kind": "symbol",
+      "abbreviation": "Terminal",
+      "aliases": [
+        "IEEE terminal connection symbol",
+        "ANSI terminal connection symbol",
+        "HT0_02"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for terminal connection, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Terminals functional form",
+        "counterpart": "terminal",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal",
+      "recordPath": "entries/ansi-terminal.json",
+      "svgPath": "artwork/svg/ansi-terminal.svg",
+      "referencePath": "references/ansi-terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-numbered-terminal",
+      "slug": "ansi-numbered-terminal",
+      "name": "ANSI/IEEE numbered terminal symbol",
+      "kind": "symbol",
+      "abbreviation": "TERM 1",
+      "aliases": [
+        "IEEE numbered terminal symbol",
+        "ANSI numbered terminal symbol",
+        "HT0002"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented numbered connection-point form, with public vendor evidence and terminal-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE round terminal with terminal number",
+        "counterpart": "terminal",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-numbered-terminal",
+      "recordPath": "entries/ansi-numbered-terminal.json",
+      "svgPath": "artwork/svg/ansi-numbered-terminal.svg",
+      "referencePath": "references/ansi-numbered-terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-plug-and-socket-connector-pair",
+      "slug": "ansi-plug-and-socket-connector-pair",
+      "name": "ANSI/IEEE plug and socket connector pair symbol",
+      "kind": "symbol",
+      "abbreviation": "PLUG SOCKET",
+      "aliases": [
+        "IEEE plug and socket connector pair symbol",
+        "ANSI plug and socket connector pair symbol",
+        "HC01PJ"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for plug and socket connector pair, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Connectors - No Wirenumber Changes functional form",
+        "counterpart": "plug-and-socket-connector-pair",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-plug-and-socket-connector-pair",
+      "recordPath": "entries/ansi-plug-and-socket-connector-pair.json",
+      "svgPath": "artwork/svg/ansi-plug-and-socket-connector-pair.svg",
+      "referencePath": "references/ansi-plug-and-socket-connector-pair.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-connector-plug-half",
+      "slug": "ansi-connector-plug-half",
+      "name": "ANSI/IEEE connector plug half symbol",
+      "kind": "symbol",
+      "abbreviation": "PLUG",
+      "aliases": [
+        "IEEE connector plug half symbol",
+        "ANSI connector plug half symbol",
+        "HC01P_"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for connector plug half, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Connectors - No Wirenumber Changes functional form",
+        "counterpart": "connector-plug-half",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-connector-plug-half",
+      "recordPath": "entries/ansi-connector-plug-half.json",
+      "svgPath": "artwork/svg/ansi-connector-plug-half.svg",
+      "referencePath": "references/ansi-connector-plug-half.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-connector-socket-half",
+      "slug": "ansi-connector-socket-half",
+      "name": "ANSI/IEEE connector socket half symbol",
+      "kind": "symbol",
+      "abbreviation": "SOCKET",
+      "aliases": [
+        "IEEE connector socket half symbol",
+        "ANSI connector socket half symbol",
+        "HC01_J"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for connector socket half, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Connectors - No Wirenumber Changes functional form",
+        "counterpart": "connector-socket-half",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-connector-socket-half",
+      "recordPath": "entries/ansi-connector-socket-half.json",
+      "svgPath": "artwork/svg/ansi-connector-socket-half.svg",
+      "referencePath": "references/ansi-connector-socket-half.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-wire-splice",
+      "slug": "ansi-wire-splice",
+      "name": "ANSI/IEEE wire splice symbol",
+      "kind": "symbol",
+      "abbreviation": "SPLICE",
+      "aliases": [
+        "IEEE wire splice symbol",
+        "ANSI wire splice symbol",
+        "HSP1001"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for wire splice, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Splice Symbols functional form",
+        "counterpart": "wire-splice",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-wire-splice",
+      "recordPath": "entries/ansi-wire-splice.json",
+      "svgPath": "artwork/svg/ansi-wire-splice.svg",
+      "referencePath": "references/ansi-wire-splice.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-protective-earth",
+      "slug": "ansi-protective-earth",
+      "name": "ANSI/IEEE protective earth symbol",
+      "kind": "symbol",
+      "abbreviation": "PE",
+      "aliases": [
+        "IEEE protective earth symbol",
+        "ANSI protective earth symbol",
+        "HGND4"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for protective earth, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Miscellaneous functional form",
+        "counterpart": "protective-earth",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-protective-earth",
+      "recordPath": "entries/ansi-protective-earth.json",
+      "svgPath": "artwork/svg/ansi-protective-earth.svg",
+      "referencePath": "references/ansi-protective-earth.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-functional-earth",
+      "slug": "ansi-functional-earth",
+      "name": "ANSI/IEEE functional earth symbol",
+      "kind": "symbol",
+      "abbreviation": "FE",
+      "aliases": [
+        "IEEE functional earth symbol",
+        "ANSI functional earth symbol",
+        "HGND3"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented graphical reference for functional earth, with public vendor evidence and drawing-reading notes.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Miscellaneous functional form",
+        "counterpart": "functional-earth",
+        "reference": "Autodesk explicitly publishes this block under IEEE Symbol Preview. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-functional-earth",
+      "recordPath": "entries/ansi-functional-earth.json",
+      "svgPath": "artwork/svg/ansi-functional-earth.svg",
+      "referencePath": "references/ansi-functional-earth.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-cable-identification-marker",
+      "slug": "iec-cable-identification-marker",
+      "name": "Cable identification marker",
+      "kind": "symbol",
+      "abbreviation": "HW01",
+      "aliases": [
+        "Cable identification marker symbol",
+        "HW01",
+        "Cable identification marker IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A cable marker identifies a cable association within a schematic conductor group.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Cable identification marker",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Cable identification and twisted-pair annotation; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-identification-marker",
+      "recordPath": "entries/iec-cable-identification-marker.json",
+      "svgPath": "artwork/svg/iec-cable-identification-marker.svg",
+      "referencePath": "references/iec-cable-identification-marker.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-additional-cable-core-marker",
+      "slug": "iec-additional-cable-core-marker",
+      "name": "Additional cable-core marker",
+      "kind": "symbol",
+      "abbreviation": "HW02",
+      "aliases": [
+        "Additional cable-core marker symbol",
+        "HW02",
+        "Additional cable-core marker IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "An additional-core marker associates another conductor with an existing cable record.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Additional cable-core marker",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Cable identification and twisted-pair annotation; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-additional-cable-core-marker",
+      "recordPath": "entries/iec-additional-cable-core-marker.json",
+      "svgPath": "artwork/svg/iec-additional-cable-core-marker.svg",
+      "referencePath": "references/iec-additional-cable-core-marker.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-twisted-pair-indication",
+      "slug": "iec-twisted-pair-indication",
+      "name": "Twisted-pair indication",
+      "kind": "symbol",
+      "abbreviation": "HT0_TW",
+      "aliases": [
+        "Twisted-pair indication symbol",
+        "HT0_TW",
+        "Twisted-pair indication IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A twisted-pair indication identifies the documented association of two conductors as a twisted pair.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Twisted-pair indication",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Cable identification and twisted-pair annotation; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-twisted-pair-indication",
+      "recordPath": "entries/iec-twisted-pair-indication.json",
+      "svgPath": "artwork/svg/iec-twisted-pair-indication.svg",
+      "referencePath": "references/iec-twisted-pair-indication.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-generic-device-boundary",
+      "slug": "iec-generic-device-boundary",
+      "name": "Generic device boundary",
+      "kind": "symbol",
+      "abbreviation": "HDV1T6",
+      "aliases": [
+        "Generic device boundary symbol",
+        "HDV1T6, HDV1TC, HDV1TFL"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A generic device boundary groups the terminals belonging to one documented component or function.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-generic-device-boundary",
+      "recordPath": "entries/iec-generic-device-boundary.json",
+      "svgPath": "artwork/svg/iec-generic-device-boundary.svg",
+      "referencePath": "references/iec-generic-device-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-standalone-source-cross-reference",
+      "slug": "iec-standalone-source-cross-reference",
+      "name": "Standalone source cross-reference",
+      "kind": "symbol",
+      "abbreviation": "HA2S1_REF",
+      "aliases": [
+        "Standalone source cross-reference symbol",
+        "HA2S1_REF, HA3S1_REF, HA5S1_REF"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A source cross-reference identifies the originating side of a diagram continuation relationship.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-standalone-source-cross-reference",
+      "recordPath": "entries/iec-standalone-source-cross-reference.json",
+      "svgPath": "artwork/svg/iec-standalone-source-cross-reference.svg",
+      "referencePath": "references/iec-standalone-source-cross-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-standalone-destination-cross-reference",
+      "slug": "iec-standalone-destination-cross-reference",
+      "name": "Standalone destination cross-reference",
+      "kind": "symbol",
+      "abbreviation": "HA2D1_REF",
+      "aliases": [
+        "Standalone destination cross-reference symbol",
+        "HA2D1_REF, HA3D1_REF, HA5D1_REF"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A destination cross-reference identifies the receiving side of a diagram continuation relationship.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-standalone-destination-cross-reference",
+      "recordPath": "entries/iec-standalone-destination-cross-reference.json",
+      "svgPath": "artwork/svg/iec-standalone-destination-cross-reference.svg",
+      "referencePath": "references/iec-standalone-destination-cross-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-reference-only-wire-arrow",
+      "slug": "iec-reference-only-wire-arrow",
+      "name": "Reference-only wire arrow",
+      "kind": "symbol",
+      "abbreviation": "HA1X1",
+      "aliases": [
+        "Reference-only wire arrow symbol",
+        "HA1X1, HA1X1Y"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A reference-only arrow directs the reader to an associated wire continuation or annotation.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-reference-only-wire-arrow",
+      "recordPath": "entries/iec-reference-only-wire-arrow.json",
+      "svgPath": "artwork/svg/iec-reference-only-wire-arrow.svg",
+      "referencePath": "references/iec-reference-only-wire-arrow.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-one-line-connector-representation",
+      "slug": "iec-one-line-connector-representation",
+      "name": "One-line connector representation",
+      "kind": "symbol",
+      "abbreviation": "HC01PJ_1-",
+      "aliases": [
+        "One-line connector representation symbol",
+        "HC01PJ_1-",
+        "One-line connector representation IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A one-line connector representation identifies a connector interface in a simplified circuit view.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "One-line connector representation",
+        "reference": "Autodesk IEC-60617 Symbol Preview — One-line connector representation; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-one-line-connector-representation",
+      "recordPath": "entries/iec-one-line-connector-representation.json",
+      "svgPath": "artwork/svg/iec-one-line-connector-representation.svg",
+      "referencePath": "references/iec-one-line-connector-representation.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-one-line-terminal-representation",
+      "slug": "iec-one-line-terminal-representation",
+      "name": "One-line terminal representation",
+      "kind": "symbol",
+      "abbreviation": "HT0001_1-",
+      "aliases": [
+        "One-line terminal representation symbol",
+        "HT0001_1-, HT0002_1-",
+        "One-line terminal representation IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A one-line terminal identifies a termination point in a simplified circuit view.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "One-line terminal representation",
+        "reference": "Autodesk IEC-60617 Symbol Preview — One-line terminal representation; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-one-line-terminal-representation",
+      "recordPath": "entries/iec-one-line-terminal-representation.json",
+      "svgPath": "artwork/svg/iec-one-line-terminal-representation.svg",
+      "referencePath": "references/iec-one-line-terminal-representation.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-one-line-cable-identification",
+      "slug": "iec-one-line-cable-identification",
+      "name": "One-line cable identification",
+      "kind": "symbol",
+      "abbreviation": "HW01_1-",
+      "aliases": [
+        "One-line cable identification symbol",
+        "HW01_1-",
+        "One-line cable identification IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A one-line cable marker identifies the cable represented by a simplified connection line.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "One-line cable identification",
+        "reference": "Autodesk IEC-60617 Symbol Preview — One-line cable-marker representation; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-one-line-cable-identification",
+      "recordPath": "entries/iec-one-line-cable-identification.json",
+      "svgPath": "artwork/svg/iec-one-line-cable-identification.svg",
+      "referencePath": "references/iec-one-line-cable-identification.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-connector-retaining-wire-identity",
+      "slug": "iec-connector-retaining-wire-identity",
+      "name": "Connector retaining wire identity",
+      "kind": "symbol",
+      "abbreviation": "HC01PJ",
+      "aliases": [
+        "Connector retaining wire identity symbol",
+        "HC01PJ, HC01PJ1",
+        "Connector retaining wire identity IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "This form identifies a separable connector whose publisher representation preserves wire-number identity across the interface.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Connector retaining wire identity",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Connector forms that retain wire numbers; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-connector-retaining-wire-identity",
+      "recordPath": "entries/iec-connector-retaining-wire-identity.json",
+      "svgPath": "artwork/svg/iec-connector-retaining-wire-identity.svg",
+      "referencePath": "references/iec-connector-retaining-wire-identity.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-connector-changing-wire-identity",
+      "slug": "iec-connector-changing-wire-identity",
+      "name": "Connector changing wire identity",
+      "kind": "symbol",
+      "abbreviation": "HCN1PJ",
+      "aliases": [
+        "Connector changing wire identity symbol",
+        "HCN1PJ",
+        "Connector changing wire identity IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "This form identifies a connector representation that allows wire-number identities to change across the interface.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Connector changing wire identity",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Connector forms that change wire numbers; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-connector-changing-wire-identity",
+      "recordPath": "entries/iec-connector-changing-wire-identity.json",
+      "svgPath": "artwork/svg/iec-connector-changing-wire-identity.svg",
+      "referencePath": "references/iec-connector-changing-wire-identity.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-terminal-carrying-wire-identification",
+      "slug": "iec-terminal-carrying-wire-identification",
+      "name": "Terminal carrying wire identification",
+      "kind": "symbol",
+      "abbreviation": "HT0W02",
+      "aliases": [
+        "Terminal carrying wire identification symbol",
+        "HT0W02",
+        "Terminal carrying wire identification IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "This terminal representation carries the associated wire identifier at the connection point.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Terminal carrying wire identification",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Terminal numbering forms; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-terminal-carrying-wire-identification",
+      "recordPath": "entries/iec-terminal-carrying-wire-identification.json",
+      "svgPath": "artwork/svg/iec-terminal-carrying-wire-identification.svg",
+      "referencePath": "references/iec-terminal-carrying-wire-identification.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-terminal-with-wire-number-transition",
+      "slug": "iec-terminal-with-wire-number-transition",
+      "name": "Terminal with wire-number transition",
+      "kind": "symbol",
+      "abbreviation": "HT1002",
+      "aliases": [
+        "Terminal with wire-number transition symbol",
+        "HT1002",
+        "Terminal with wire-number transition IEC reference"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "This representation identifies a terminal across which the publisher permits a wire-number change.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Terminal with wire-number transition",
+        "reference": "Autodesk IEC-60617 Symbol Preview — Terminal numbering forms; vendor family reference, not certified IEC geometry or database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-terminal-with-wire-number-transition",
+      "recordPath": "entries/iec-terminal-with-wire-number-transition.json",
+      "svgPath": "artwork/svg/iec-terminal-with-wire-number-transition.svg",
+      "referencePath": "references/iec-terminal-with-wire-number-transition.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-conductor-connection-junction",
+      "slug": "iec-conductor-connection-junction",
+      "name": "Conductor connection junction",
+      "kind": "symbol",
+      "abbreviation": "JUNCTION",
+      "aliases": [
+        "Conductor connection junction symbol"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A junction indication marks a documented electrical connection between conductor branches.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-conductor-connection-junction",
+      "recordPath": "entries/iec-conductor-connection-junction.json",
+      "svgPath": "artwork/svg/iec-conductor-connection-junction.svg",
+      "referencePath": "references/iec-conductor-connection-junction.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-unconnected-conductor-crossing",
+      "slug": "iec-unconnected-conductor-crossing",
+      "name": "Unconnected conductor crossing",
+      "kind": "symbol",
+      "abbreviation": "CROSSING",
+      "aliases": [
+        "Unconnected conductor crossing symbol"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An unconnected crossing shows conductors passing across each other in the drawing without an electrical junction.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-unconnected-conductor-crossing",
+      "recordPath": "entries/iec-unconnected-conductor-crossing.json",
+      "svgPath": "artwork/svg/iec-unconnected-conductor-crossing.svg",
+      "referencePath": "references/iec-unconnected-conductor-crossing.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "flexible-conductor",
+      "slug": "flexible-conductor",
+      "name": "Flexible conductor",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "flexible lead",
+        "flexible connection",
+        "flex conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A wavy conductor line showing a connection that must flex, such as a lead to moving equipment or a vibration break.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/flexible-conductor",
+      "recordPath": "entries/flexible-conductor.json",
+      "svgPath": "artwork/svg/flexible-conductor.svg",
+      "referencePath": "references/flexible-conductor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-screened-conductor",
+      "slug": "iec-screened-conductor",
+      "name": "Screened conductor",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "shielded conductor",
+        "screened wire",
+        "single screened core"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A single conductor enclosed by a drawn screen outline, showing that the core has a conductive shield around it.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Screened single-conductor form",
+        "reference": "Independent IEC-context illustration; consult IEC 60617 for the exact screen outline."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-conductor",
+      "recordPath": "entries/iec-screened-conductor.json",
+      "svgPath": "artwork/svg/iec-screened-conductor.svg",
+      "referencePath": "references/iec-screened-conductor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-screened-multi-conductor-cable",
+      "slug": "iec-screened-multi-conductor-cable",
+      "name": "Screened multi-conductor cable",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "overall screened cable",
+        "collectively shielded cable",
+        "screened multicore"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "Several conductors enclosed together within one drawn screen, showing an overall shield around a multicore cable.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Overall screened multicore form",
+        "reference": "Independent IEC-context illustration of a collective screen; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-multi-conductor-cable",
+      "recordPath": "entries/iec-screened-multi-conductor-cable.json",
+      "svgPath": "artwork/svg/iec-screened-multi-conductor-cable.svg",
+      "referencePath": "references/iec-screened-multi-conductor-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-screened-conductor-with-earthed-screen",
+      "slug": "iec-screened-conductor-with-earthed-screen",
+      "name": "Screened conductor with earthed screen",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "shielded conductor grounded screen",
+        "screen earthed at one end",
+        "earthed shield"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A screened conductor whose screen tail is drawn to an earth symbol, recording where the shield is earthed.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Screened conductor with earthed screen tail",
+        "reference": "Independent illustration combining IEC-context screen and earth forms; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-conductor-with-earthed-screen",
+      "recordPath": "entries/iec-screened-conductor-with-earthed-screen.json",
+      "svgPath": "artwork/svg/iec-screened-conductor-with-earthed-screen.svg",
+      "referencePath": "references/iec-screened-conductor-with-earthed-screen.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-screened-twisted-pair",
+      "slug": "iec-screened-twisted-pair",
+      "name": "Screened twisted pair",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "shielded twisted pair",
+        "STP",
+        "individually screened pair"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "Two conductors drawn twisted together inside a screen outline, as used for noise-sensitive signal and communication pairs.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Twisted pair with individual screen",
+        "reference": "Independent combination of IEC-context twisted-pair and screen forms; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-twisted-pair",
+      "recordPath": "entries/iec-screened-twisted-pair.json",
+      "svgPath": "artwork/svg/iec-screened-twisted-pair.svg",
+      "referencePath": "references/iec-screened-twisted-pair.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-coaxial-cable",
+      "slug": "iec-coaxial-cable",
+      "name": "Coaxial cable",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "coax",
+        "coaxial pair",
+        "concentric cable"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A centre conductor drawn within a concentric outer conductor, used for RF, video and some high-frequency measurement leads.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Coaxial pair form",
+        "reference": "Independent IEC-context illustration of a concentric pair; consult IEC 60617 for the exact graphic."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-coaxial-cable",
+      "recordPath": "entries/iec-coaxial-cable.json",
+      "svgPath": "artwork/svg/iec-coaxial-cable.svg",
+      "referencePath": "references/iec-coaxial-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-coaxial-cable-with-earthed-outer-conductor",
+      "slug": "iec-coaxial-cable-with-earthed-outer-conductor",
+      "name": "Coaxial cable with earthed outer conductor",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "grounded coax shield",
+        "coax with earthed braid",
+        "earthed coaxial outer"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A coaxial cable whose outer conductor is drawn connected to earth, recording the reference point of the RF or signal return.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Coaxial pair with earthed outer conductor",
+        "reference": "Independent IEC-context combination of coaxial and earth forms; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-coaxial-cable-with-earthed-outer-conductor",
+      "recordPath": "entries/iec-coaxial-cable-with-earthed-outer-conductor.json",
+      "svgPath": "artwork/svg/iec-coaxial-cable-with-earthed-outer-conductor.svg",
+      "referencePath": "references/iec-coaxial-cable-with-earthed-outer-conductor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "conductor-in-conduit",
+      "slug": "conductor-in-conduit",
+      "name": "Conductor in conduit",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "wiring in conduit",
+        "conduit run",
+        "enclosed conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A conductor or circuit line drawn inside a conduit outline, showing that the wiring is enclosed in a pipe or tube run.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/conductor-in-conduit",
+      "recordPath": "entries/conductor-in-conduit.json",
+      "svgPath": "artwork/svg/conductor-in-conduit.svg",
+      "referencePath": "references/conductor-in-conduit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-overhead-line",
+      "slug": "iec-overhead-line",
+      "name": "Overhead line",
+      "kind": "symbol",
+      "abbreviation": "OHL",
+      "aliases": [
+        "aerial line",
+        "overhead conductor",
+        "pole line"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A line or route mark identifying conductors carried overhead on poles or towers rather than buried or enclosed.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Overhead line route form",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-overhead-line",
+      "recordPath": "entries/iec-overhead-line.json",
+      "svgPath": "artwork/svg/iec-overhead-line.svg",
+      "referencePath": "references/iec-overhead-line.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-underground-cable",
+      "slug": "iec-underground-cable",
+      "name": "Underground cable",
+      "kind": "symbol",
+      "abbreviation": "UGC",
+      "aliases": [
+        "buried cable",
+        "cable in ground",
+        "underground line"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A cable route marked as buried in the ground, distinguishing direct-buried or ducted sections from overhead lines.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Underground cable route form",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-underground-cable",
+      "recordPath": "entries/iec-underground-cable.json",
+      "svgPath": "artwork/svg/iec-underground-cable.svg",
+      "referencePath": "references/iec-underground-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-underwater-cable",
+      "slug": "iec-underwater-cable",
+      "name": "Underwater cable",
+      "kind": "symbol",
+      "abbreviation": "SC",
+      "aliases": [
+        "submarine cable",
+        "subsea cable",
+        "cable under water"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A cable section marked as laid under water, such as a river crossing, offshore export cable or lake crossing.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Underwater cable route form",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-underwater-cable",
+      "recordPath": "entries/iec-underwater-cable.json",
+      "svgPath": "artwork/svg/iec-underwater-cable.svg",
+      "referencePath": "references/iec-underwater-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "optical-fibre-cable",
+      "slug": "optical-fibre-cable",
+      "name": "Optical fibre cable",
+      "kind": "symbol",
+      "abbreviation": "OF",
+      "aliases": [
+        "fibre-optic cable",
+        "fibre link",
+        "optical cable"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A cable line carrying light rather than current, used for protection signalling, SCADA links and substation process bus.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/optical-fibre-cable",
+      "recordPath": "entries/optical-fibre-cable.json",
+      "svgPath": "artwork/svg/optical-fibre-cable.svg",
+      "referencePath": "references/optical-fibre-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-multicore-cable-grouping",
+      "slug": "iec-multicore-cable-grouping",
+      "name": "Conductors within one cable",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "cable core grouping",
+        "multicore cable outline",
+        "cable sheath grouping"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "An outline or loop drawn across several conductor lines to show that they are cores of the same cable.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Cable core grouping form",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-multicore-cable-grouping",
+      "recordPath": "entries/iec-multicore-cable-grouping.json",
+      "svgPath": "artwork/svg/iec-multicore-cable-grouping.svg",
+      "referencePath": "references/iec-multicore-cable-grouping.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "conductor-count-numeral",
+      "slug": "conductor-count-numeral",
+      "name": "Conductor count by numeral",
+      "kind": "symbol",
+      "abbreviation": "n",
+      "aliases": [
+        "number of conductors mark",
+        "single stroke with numeral",
+        "conductor quantity mark"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A single oblique stroke across a line with a number beside it, stating how many conductors the single line represents.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/conductor-count-numeral",
+      "recordPath": "entries/conductor-count-numeral.json",
+      "svgPath": "artwork/svg/conductor-count-numeral.svg",
+      "referencePath": "references/conductor-count-numeral.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-neutral-conductor-mark",
+      "slug": "iec-neutral-conductor-mark",
+      "name": "Neutral conductor mark",
+      "kind": "symbol",
+      "abbreviation": "N",
+      "aliases": [
+        "N conductor marking",
+        "neutral line mark",
+        "neutral tick"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A mark on a single-line conductor group identifying which conductor is the neutral, often drawn as a small circle on a stroke.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Neutral conductor identification on a conductor group",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-neutral-conductor-mark",
+      "recordPath": "entries/iec-neutral-conductor-mark.json",
+      "svgPath": "artwork/svg/iec-neutral-conductor-mark.svg",
+      "referencePath": "references/iec-neutral-conductor-mark.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-protective-conductor-mark",
+      "slug": "iec-protective-conductor-mark",
+      "name": "Protective conductor mark",
+      "kind": "symbol",
+      "abbreviation": "PE",
+      "aliases": [
+        "PE conductor marking",
+        "protective earth conductor tick",
+        "earth conductor mark"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A mark on one stroke of a conductor group identifying the protective earth conductor carried with the circuit.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Protective conductor identification on a conductor group",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-protective-conductor-mark",
+      "recordPath": "entries/iec-protective-conductor-mark.json",
+      "svgPath": "artwork/svg/iec-protective-conductor-mark.svg",
+      "referencePath": "references/iec-protective-conductor-mark.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-pen-conductor-mark",
+      "slug": "iec-pen-conductor-mark",
+      "name": "PEN conductor mark",
+      "kind": "symbol",
+      "abbreviation": "PEN",
+      "aliases": [
+        "combined neutral and earth mark",
+        "CNE conductor mark",
+        "PEN tick"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A mark identifying a combined protective and neutral conductor, as used in TN-C sections of a supply.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "PEN conductor identification on a conductor group",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-pen-conductor-mark",
+      "recordPath": "entries/iec-pen-conductor-mark.json",
+      "svgPath": "artwork/svg/iec-pen-conductor-mark.svg",
+      "referencePath": "references/iec-pen-conductor-mark.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-three-phase-five-wire-marking",
+      "slug": "iec-three-phase-five-wire-marking",
+      "name": "Three-phase circuit with neutral and PE marking",
+      "kind": "symbol",
+      "abbreviation": "3/N/PE",
+      "aliases": [
+        "3N PE notation",
+        "five-wire circuit mark",
+        "L1 L2 L3 N PE notation"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A single-line notation such as 3/N/PE showing a three-phase circuit carrying both a neutral and a separate protective conductor.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Conductor complement notation on a single line",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-phase-five-wire-marking",
+      "recordPath": "entries/iec-three-phase-five-wire-marking.json",
+      "svgPath": "artwork/svg/iec-three-phase-five-wire-marking.svg",
+      "referencePath": "references/iec-three-phase-five-wire-marking.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-conductor-interchange",
+      "slug": "iec-conductor-interchange",
+      "name": "Interchange of conductors",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "phase transposition",
+        "conductor crossover",
+        "phase rotation change"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A crossing mark showing that two or more conductors swap position, such as a phase transposition or deliberate phase swap.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Conductor interchange form",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-conductor-interchange",
+      "recordPath": "entries/iec-conductor-interchange.json",
+      "svgPath": "artwork/svg/iec-conductor-interchange.svg",
+      "referencePath": "references/iec-conductor-interchange.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "conductor-branch-from-group",
+      "slug": "conductor-branch-from-group",
+      "name": "Conductor branching from a group",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "single conductor leaving bundle",
+        "group breakout",
+        "conductor fan-out"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "One conductor drawn leaving a single-line conductor group at an angle, showing where it splits from the bundle.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/conductor-branch-from-group",
+      "recordPath": "entries/conductor-branch-from-group.json",
+      "svgPath": "artwork/svg/conductor-branch-from-group.svg",
+      "referencePath": "references/conductor-branch-from-group.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-t-connection-without-dot",
+      "slug": "iec-t-connection-without-dot",
+      "name": "T-connection without junction dot",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "plain tee junction",
+        "T-junction",
+        "undotted tee connection"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A conductor meeting another at a right angle and stopping there, which IEC practice reads as a connection even without a dot.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Undotted T-connection",
+        "reference": "Independent IEC-context illustration of a drafting convention; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-t-connection-without-dot",
+      "recordPath": "entries/iec-t-connection-without-dot.json",
+      "svgPath": "artwork/svg/iec-t-connection-without-dot.svg",
+      "referencePath": "references/iec-t-connection-without-dot.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-double-junction",
+      "slug": "iec-double-junction",
+      "name": "Double junction of conductors",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "staggered junction",
+        "offset four-way connection",
+        "double T-junction"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "Four conductors joined using two offset T-junctions rather than one crossing dot, to avoid confusion with a crossing.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Offset double junction",
+        "reference": "Independent IEC-context illustration of a drafting convention; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-double-junction",
+      "recordPath": "entries/iec-double-junction.json",
+      "svgPath": "artwork/svg/iec-double-junction.svg",
+      "referencePath": "references/iec-double-junction.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-conductor-junction",
+      "slug": "ansi-conductor-junction",
+      "name": "ANSI/IEEE conductor junction symbol",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "IEEE junction dot",
+        "ANSI connection dot",
+        "connected conductors dot"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented junction dot marking a connection between crossing or meeting conductors on an ANSI-style schematic.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Solid junction dot",
+        "reference": "Drawn from the publisher's wire connection guidance and IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "iec-conductor-connection-junction"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-conductor-junction",
+      "recordPath": "entries/ansi-conductor-junction.json",
+      "svgPath": "artwork/svg/ansi-conductor-junction.svg",
+      "referencePath": "references/ansi-conductor-junction.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-crossing-conductor-hop",
+      "slug": "ansi-crossing-conductor-hop",
+      "name": "ANSI/IEEE crossing conductor hop symbol",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "wire crossover loop",
+        "jump-over crossing",
+        "IEEE crossing not connected"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented hop or loop drawn where one conductor passes over another without connecting.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Crossing hop form",
+        "reference": "Drawn from the publisher's wire crossing display guidance and IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "iec-unconnected-conductor-crossing"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-crossing-conductor-hop",
+      "recordPath": "entries/ansi-crossing-conductor-hop.json",
+      "svgPath": "artwork/svg/ansi-crossing-conductor-hop.svg",
+      "referencePath": "references/ansi-crossing-conductor-hop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-shielded-conductor",
+      "slug": "ansi-shielded-conductor",
+      "name": "ANSI/IEEE shielded conductor symbol",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "IEEE shielded wire",
+        "ANSI shielded cable",
+        "shielded single conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented shielded conductor drawn with a dashed or broken outline around the wire to show a shield.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Shielded conductor with broken enclosure",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-shielded-conductor",
+      "recordPath": "entries/ansi-shielded-conductor.json",
+      "svgPath": "artwork/svg/ansi-shielded-conductor.svg",
+      "referencePath": "references/ansi-shielded-conductor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-coaxial-cable",
+      "slug": "ansi-coaxial-cable",
+      "name": "ANSI/IEEE coaxial cable symbol",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "IEEE coax",
+        "ANSI coaxial line",
+        "coaxial conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented coaxial cable drawn as a centre conductor with a surrounding outer conductor that terminates at each end.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Coaxial cable with outer conductor outline",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-coaxial-cable",
+      "recordPath": "entries/ansi-coaxial-cable.json",
+      "svgPath": "artwork/svg/ansi-coaxial-cable.svg",
+      "referencePath": "references/ansi-coaxial-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-twisted-pair",
+      "slug": "ansi-twisted-pair",
+      "name": "ANSI/IEEE twisted pair symbol",
+      "kind": "symbol",
+      "abbreviation": "TW",
+      "aliases": [
+        "IEEE twisted conductors",
+        "ANSI twisted pair",
+        "twisted wires"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented representation of two conductors twisted together, used to identify noise-rejecting signal pairs.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Twisted pair crossing form",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "iec-twisted-pair-indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-twisted-pair",
+      "recordPath": "entries/ansi-twisted-pair.json",
+      "svgPath": "artwork/svg/ansi-twisted-pair.svg",
+      "referencePath": "references/ansi-twisted-pair.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-multi-conductor-cable",
+      "slug": "ansi-multi-conductor-cable",
+      "name": "ANSI/IEEE multi-conductor cable symbol",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "IEEE multiconductor cable",
+        "ANSI cable grouping",
+        "cable bundle outline"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented outline or bracket grouping several conductors to show they belong to one multi-conductor cable.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Multi-conductor cable grouping",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-multi-conductor-cable",
+      "recordPath": "entries/ansi-multi-conductor-cable.json",
+      "svgPath": "artwork/svg/ansi-multi-conductor-cable.svg",
+      "referencePath": "references/ansi-multi-conductor-cable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-single-core-cable-sealing-end",
+      "slug": "iec-single-core-cable-sealing-end",
+      "name": "Single-core cable sealing end",
+      "kind": "symbol",
+      "abbreviation": "SE",
+      "aliases": [
+        "single-core cable termination",
+        "cable termination single core",
+        "outdoor sealing end"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "The termination at the end of a single-core cable where it is sealed and connected to an overhead line or equipment.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Single-core sealing end",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-single-core-cable-sealing-end",
+      "recordPath": "entries/iec-single-core-cable-sealing-end.json",
+      "svgPath": "artwork/svg/iec-single-core-cable-sealing-end.svg",
+      "referencePath": "references/iec-single-core-cable-sealing-end.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-multicore-cable-sealing-end",
+      "slug": "iec-multicore-cable-sealing-end",
+      "name": "Multicore cable sealing end",
+      "kind": "symbol",
+      "abbreviation": "SE",
+      "aliases": [
+        "three-core cable termination",
+        "trifurcating termination",
+        "multicore cable termination"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A cable termination where a multicore cable is sealed and its cores separated out to individual phase connections.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Multicore sealing end",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-multicore-cable-sealing-end",
+      "recordPath": "entries/iec-multicore-cable-sealing-end.json",
+      "svgPath": "artwork/svg/iec-multicore-cable-sealing-end.svg",
+      "referencePath": "references/iec-multicore-cable-sealing-end.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-cable-straight-through-joint",
+      "slug": "iec-cable-straight-through-joint",
+      "name": "Cable straight-through joint",
+      "kind": "symbol",
+      "abbreviation": "J",
+      "aliases": [
+        "inline cable joint",
+        "straight joint",
+        "through joint"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A joint connecting two lengths of the same cable in line, drawn as a mark on the cable route.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Straight-through cable joint",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-straight-through-joint",
+      "recordPath": "entries/iec-cable-straight-through-joint.json",
+      "svgPath": "artwork/svg/iec-cable-straight-through-joint.svg",
+      "referencePath": "references/iec-cable-straight-through-joint.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-cable-branch-joint",
+      "slug": "iec-cable-branch-joint",
+      "name": "Cable branch joint",
+      "kind": "symbol",
+      "abbreviation": "J",
+      "aliases": [
+        "tee joint",
+        "branch cable joint",
+        "breech joint"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A cable joint where a branch cable is taken off a main cable, drawn as a joint with a third cable leaving it.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Branch cable joint",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-branch-joint",
+      "recordPath": "entries/iec-cable-branch-joint.json",
+      "svgPath": "artwork/svg/iec-cable-branch-joint.svg",
+      "referencePath": "references/iec-cable-branch-joint.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-cable-transition-joint",
+      "slug": "iec-cable-transition-joint",
+      "name": "Cable transition joint",
+      "kind": "symbol",
+      "abbreviation": "J",
+      "aliases": [
+        "transition joint",
+        "paper to polymeric joint",
+        "mixed cable joint"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A joint connecting two different cable types, such as paper-insulated to polymeric or land cable to submarine cable.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Transition cable joint",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-transition-joint",
+      "recordPath": "entries/iec-cable-transition-joint.json",
+      "svgPath": "artwork/svg/iec-cable-transition-joint.svg",
+      "referencePath": "references/iec-cable-transition-joint.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "separable-cable-connector",
+      "slug": "separable-cable-connector",
+      "name": "Separable cable connector",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "elbow connector",
+        "T-connector",
+        "plug-in cable termination"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A plug-in screened termination that connects a medium voltage cable to an equipment bushing and can be separated.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/separable-cable-connector",
+      "recordPath": "entries/separable-cable-connector.json",
+      "svgPath": "artwork/svg/separable-cable-connector.svg",
+      "referencePath": "references/separable-cable-connector.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-cable-end-cap",
+      "slug": "iec-cable-end-cap",
+      "name": "Sealed cable end",
+      "kind": "symbol",
+      "abbreviation": "W",
+      "aliases": [
+        "cable end cap",
+        "unterminated cable end",
+        "capped cable"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A cable end that is sealed and capped but not connected, such as a spare circuit or a cable laid for future use.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Sealed unterminated cable end",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-end-cap",
+      "recordPath": "entries/iec-cable-end-cap.json",
+      "svgPath": "artwork/svg/iec-cable-end-cap.svg",
+      "referencePath": "references/iec-cable-end-cap.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-cable-pothead",
+      "slug": "ansi-cable-pothead",
+      "name": "ANSI/IEEE cable pothead symbol",
+      "kind": "symbol",
+      "abbreviation": "PH",
+      "aliases": [
+        "pothead",
+        "IEEE cable termination",
+        "ANSI cable terminator"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented pothead symbol marking a sealed cable termination where an insulated cable meets an overhead line or bus.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Pothead termination form",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-cable-pothead",
+      "recordPath": "entries/ansi-cable-pothead.json",
+      "svgPath": "artwork/svg/ansi-cable-pothead.svg",
+      "referencePath": "references/ansi-cable-pothead.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busway-feeder-run",
+      "slug": "busway-feeder-run",
+      "name": "Feeder busway",
+      "kind": "symbol",
+      "abbreviation": "BD",
+      "aliases": [
+        "bus duct",
+        "feeder busbar trunking",
+        "busway run"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "A busway run used purely to carry power between two points, drawn as a distinct trunking line without tap-off points.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/busway-feeder-run",
+      "recordPath": "entries/busway-feeder-run.json",
+      "svgPath": "artwork/svg/busway-feeder-run.svg",
+      "referencePath": "references/busway-feeder-run.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "plug-in-busway",
+      "slug": "plug-in-busway",
+      "name": "Plug-in busway",
+      "kind": "symbol",
+      "abbreviation": "BD",
+      "aliases": [
+        "plug-in busbar trunking",
+        "distribution busway",
+        "rising main busway"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Busway with tap-off outlets along its length, drawn with outlet marks where plug-in units can be connected.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/plug-in-busway",
+      "recordPath": "entries/plug-in-busway.json",
+      "svgPath": "artwork/svg/plug-in-busway.svg",
+      "referencePath": "references/plug-in-busway.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busway-tap-off-point",
+      "slug": "busway-tap-off-point",
+      "name": "Busway tap-off connection",
+      "kind": "symbol",
+      "abbreviation": "TO",
+      "aliases": [
+        "plug-in tap",
+        "busway outlet connection",
+        "tap-off unit connection"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "The connection of an outgoing circuit to a plug-in busway through a tap-off unit, usually containing a protective device.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/busway-tap-off-point",
+      "recordPath": "entries/busway-tap-off-point.json",
+      "svgPath": "artwork/svg/busway-tap-off-point.svg",
+      "referencePath": "references/busway-tap-off-point.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busway-end-feed-unit",
+      "slug": "busway-end-feed-unit",
+      "name": "Busway end feed unit",
+      "kind": "symbol",
+      "abbreviation": "EF",
+      "aliases": [
+        "busway feed box",
+        "busway incoming unit",
+        "end feeder"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "The point where incoming cables or a transformer connect to the end of a busway run, drawn as a feed box on the busway.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/busway-end-feed-unit",
+      "recordPath": "entries/busway-end-feed-unit.json",
+      "svgPath": "artwork/svg/busway-end-feed-unit.svg",
+      "referencePath": "references/busway-end-feed-unit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-distribution-block",
+      "slug": "power-distribution-block",
+      "name": "Power distribution block",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "distribution block",
+        "power splitter block",
+        "multi-tap distribution block"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A terminal assembly that splits one incoming conductor into several outgoing conductors on a common bar.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Power distribution block, 3 terminal",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Power Distribution Blocks; vendor family reference, not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-distribution-block",
+      "recordPath": "entries/power-distribution-block.json",
+      "svgPath": "artwork/svg/power-distribution-block.svg",
+      "referencePath": "references/power-distribution-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-multi-pole-plug-and-socket",
+      "slug": "iec-multi-pole-plug-and-socket",
+      "name": "Multi-pole plug and socket",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "multipole connector",
+        "multi-pin plug and socket",
+        "multi-way connector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A plug and socket pair drawn with several poles side by side, showing a multi-way connector carrying several conductors.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Multi-pole plug and socket, multi-line form",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Connectors - No Wirenumber Changes; vendor family reference, not certified IEC geometry.",
+        "counterpart": "plug-and-socket-connector-pair"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-multi-pole-plug-and-socket",
+      "recordPath": "entries/iec-multi-pole-plug-and-socket.json",
+      "svgPath": "artwork/svg/iec-multi-pole-plug-and-socket.svg",
+      "referencePath": "references/iec-multi-pole-plug-and-socket.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-coaxial-plug-and-socket",
+      "slug": "iec-coaxial-plug-and-socket",
+      "name": "Coaxial plug and socket",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "coax connector",
+        "coaxial connector pair",
+        "RF connector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A plug and socket pair with concentric inner and outer contacts, used to connect coaxial cables to equipment.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Coaxial plug and socket",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry.",
+        "counterpart": "plug-and-socket-connector-pair"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-coaxial-plug-and-socket",
+      "recordPath": "entries/iec-coaxial-plug-and-socket.json",
+      "svgPath": "artwork/svg/iec-coaxial-plug-and-socket.svg",
+      "referencePath": "references/iec-coaxial-plug-and-socket.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-fibre-optic-connector",
+      "slug": "iec-fibre-optic-connector",
+      "name": "Fibre-optic connector",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "optical connector",
+        "fibre connector pair",
+        "optical plug and socket"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A demountable joint between optical fibres, drawn as a connector on a fibre link with an optical path mark.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Optical fibre connector",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-fibre-optic-connector",
+      "recordPath": "entries/iec-fibre-optic-connector.json",
+      "svgPath": "artwork/svg/iec-fibre-optic-connector.svg",
+      "referencePath": "references/iec-fibre-optic-connector.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "inline-cable-coupler",
+      "slug": "inline-cable-coupler",
+      "name": "Inline cable coupler",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "cable-to-cable connector",
+        "free coupler",
+        "in-line connector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A connector joining two cables without either half being mounted on equipment, such as an extension lead coupling.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/inline-cable-coupler",
+      "recordPath": "entries/inline-cable-coupler.json",
+      "svgPath": "artwork/svg/inline-cable-coupler.svg",
+      "referencePath": "references/inline-cable-coupler.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "connector-with-protective-earth-contact",
+      "slug": "connector-with-protective-earth-contact",
+      "name": "Connector with protective earth contact",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "earthing contact connector",
+        "PE pin connector",
+        "first-make earth connector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A plug and socket in which one contact is the protective earth, usually making first and breaking last.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/connector-with-protective-earth-contact",
+      "recordPath": "entries/connector-with-protective-earth-contact.json",
+      "svgPath": "artwork/svg/connector-with-protective-earth-contact.svg",
+      "referencePath": "references/connector-with-protective-earth-contact.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-plug-jack-common-pin-number",
+      "slug": "iec-plug-jack-common-pin-number",
+      "name": "Plug and jack with common pin number",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "plug/jack shared pin label",
+        "common pin numbered connector",
+        "single pin number connector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A plug and jack pair carrying one shared pin number for both halves rather than separate numbers on each half.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Plug/Jack with common pin number",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Connectors - No Wirenumber Changes; vendor family reference, not certified IEC geometry.",
+        "counterpart": "plug-and-socket-connector-pair"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-plug-jack-common-pin-number",
+      "recordPath": "entries/iec-plug-jack-common-pin-number.json",
+      "svgPath": "artwork/svg/iec-plug-jack-common-pin-number.svg",
+      "referencePath": "references/iec-plug-jack-common-pin-number.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-additional-connector-pin",
+      "slug": "iec-additional-connector-pin",
+      "name": "Additional connector pin",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "2nd+ plug and jack",
+        "child connector pin",
+        "further connector contact"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A further pin of a connector already tagged elsewhere, drawn without repeating the connector body or tag.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "2nd+ Plug/Jack child form",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Connectors - No Wirenumber Changes; vendor family reference, not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-additional-connector-pin",
+      "recordPath": "entries/iec-additional-connector-pin.json",
+      "svgPath": "artwork/svg/iec-additional-connector-pin.svg",
+      "referencePath": "references/iec-additional-connector-pin.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-coaxial-connector",
+      "slug": "ansi-coaxial-connector",
+      "name": "ANSI/IEEE coaxial connector symbol",
+      "kind": "symbol",
+      "abbreviation": "J",
+      "aliases": [
+        "IEEE coax connector",
+        "ANSI RF connector",
+        "coaxial jack"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented coaxial connector symbol showing mating centre and outer contacts for a coaxial cable.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Coaxial connector form",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-coaxial-connector",
+      "recordPath": "entries/ansi-coaxial-connector.json",
+      "svgPath": "artwork/svg/ansi-coaxial-connector.svg",
+      "referencePath": "references/ansi-coaxial-connector.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-neutral-link-closed",
+      "slug": "iec-neutral-link-closed",
+      "name": "Neutral link, closed",
+      "kind": "symbol",
+      "abbreviation": "N",
+      "aliases": [
+        "closed neutral link",
+        "neutral isolating link closed",
+        "neutral bar link"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A removable link in the neutral conductor shown in its closed position, allowing the neutral to be opened for testing.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Neutral link, closed",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Fuses (Neutral Link - Closed); vendor family reference, not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-neutral-link-closed",
+      "recordPath": "entries/iec-neutral-link-closed.json",
+      "svgPath": "artwork/svg/iec-neutral-link-closed.svg",
+      "referencePath": "references/iec-neutral-link-closed.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-neutral-link-open",
+      "slug": "iec-neutral-link-open",
+      "name": "Neutral link, open",
+      "kind": "symbol",
+      "abbreviation": "N",
+      "aliases": [
+        "open neutral link",
+        "neutral link removed",
+        "neutral isolating link open"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A neutral link drawn removed or open, showing the neutral conductor disconnected at that point.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Neutral link, open",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Fuses (Neutral Link - Open); vendor family reference, not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-neutral-link-open",
+      "recordPath": "entries/iec-neutral-link-open.json",
+      "svgPath": "artwork/svg/iec-neutral-link-open.svg",
+      "referencePath": "references/iec-neutral-link-open.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bolted-link-closed",
+      "slug": "bolted-link-closed",
+      "name": "Bolted connecting link, closed",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "removable link closed",
+        "solid link",
+        "bolted bar link"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A bolted bar link providing a removable connection, shown closed, that can only be opened with tools and no load.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/bolted-link-closed",
+      "recordPath": "entries/bolted-link-closed.json",
+      "svgPath": "artwork/svg/bolted-link-closed.svg",
+      "referencePath": "references/bolted-link-closed.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bolted-link-open",
+      "slug": "bolted-link-open",
+      "name": "Bolted connecting link, open",
+      "kind": "symbol",
+      "abbreviation": "X",
+      "aliases": [
+        "removable link open",
+        "link removed",
+        "open bar link"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A bolted connecting link drawn removed, showing a deliberate open point that needs tools and a dead circuit to close.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/bolted-link-open",
+      "recordPath": "entries/bolted-link-open.json",
+      "svgPath": "artwork/svg/bolted-link-open.svg",
+      "referencePath": "references/bolted-link-open.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-removable-earth-test-link",
+      "slug": "iec-removable-earth-test-link",
+      "name": "Removable earth test link",
+      "kind": "symbol",
+      "abbreviation": "E",
+      "aliases": [
+        "earth disconnecting link",
+        "earth electrode test link",
+        "earthing test joint"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A removable link between the main earthing terminal and the earth electrode, opened to measure electrode resistance.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Removable earthing link",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-removable-earth-test-link",
+      "recordPath": "entries/iec-removable-earth-test-link.json",
+      "svgPath": "artwork/svg/iec-removable-earth-test-link.svg",
+      "referencePath": "references/iec-removable-earth-test-link.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-men-link",
+      "slug": "iec-men-link",
+      "name": "Neutral-to-earth link",
+      "kind": "symbol",
+      "abbreviation": "MEN",
+      "aliases": [
+        "MEN link",
+        "neutral earth bond",
+        "neutral to earth bonding link"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "The single link bonding the neutral bar to the earth bar at the point where a TN-C-S supply splits into N and PE.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Neutral to earth bonding link",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-men-link",
+      "recordPath": "entries/iec-men-link.json",
+      "svgPath": "artwork/svg/iec-men-link.svg",
+      "referencePath": "references/iec-men-link.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-terminal-jumper",
+      "slug": "ansi-terminal-jumper",
+      "name": "ANSI/IEEE terminal jumper symbol",
+      "kind": "symbol",
+      "abbreviation": "JMP",
+      "aliases": [
+        "IEEE jumper",
+        "ANSI terminal strap",
+        "jumper between terminals"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented jumper drawn between adjacent terminals to show they are strapped together.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Terminal jumper form",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "terminal-jumper-bridge"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal-jumper",
+      "recordPath": "entries/ansi-terminal-jumper.json",
+      "svgPath": "artwork/svg/ansi-terminal-jumper.svg",
+      "referencePath": "references/ansi-terminal-jumper.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-main-bonding-jumper",
+      "slug": "ansi-main-bonding-jumper",
+      "name": "ANSI/IEEE main bonding jumper symbol",
+      "kind": "symbol",
+      "abbreviation": "MBJ",
+      "aliases": [
+        "main bonding jumper",
+        "service bonding jumper",
+        "neutral to ground bond US"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "US-practice bonding jumper between the grounded neutral and the equipment grounding system at the service.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Main bonding jumper form",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-main-bonding-jumper",
+      "recordPath": "entries/ansi-main-bonding-jumper.json",
+      "svgPath": "artwork/svg/ansi-main-bonding-jumper.svg",
+      "referencePath": "references/ansi-main-bonding-jumper.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "flexible-bonding-strap",
+      "slug": "flexible-bonding-strap",
+      "name": "Flexible bonding strap",
+      "kind": "symbol",
+      "abbreviation": "BS",
+      "aliases": [
+        "braided bonding strap",
+        "door earth strap",
+        "bonding braid"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A flexible braid or strap bonding a movable or vibrating metal part, such as a panel door, to the earthing system.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/flexible-bonding-strap",
+      "recordPath": "entries/flexible-bonding-strap.json",
+      "svgPath": "artwork/svg/flexible-bonding-strap.svg",
+      "referencePath": "references/flexible-bonding-strap.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-frame-or-chassis-connection",
+      "slug": "iec-frame-or-chassis-connection",
+      "name": "Frame or chassis connection",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "chassis connection",
+        "frame connection",
+        "mass connection"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A connection to the metal frame or chassis of equipment, which may or may not itself be connected to earth.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Frame or chassis connection",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-frame-or-chassis-connection",
+      "recordPath": "entries/iec-frame-or-chassis-connection.json",
+      "svgPath": "artwork/svg/iec-frame-or-chassis-connection.svg",
+      "referencePath": "references/iec-frame-or-chassis-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-chassis-ground",
+      "slug": "ansi-chassis-ground",
+      "name": "ANSI/IEEE chassis ground symbol",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "IEEE chassis ground",
+        "frame ground",
+        "ANSI chassis connection"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI"
+      ],
+      "summary": "IEEE-oriented chassis or frame ground drawn as a line ending in angled strokes, used for equipment frame returns.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Chassis ground form",
+        "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-chassis-ground",
+      "recordPath": "entries/ansi-chassis-ground.json",
+      "svgPath": "artwork/svg/ansi-chassis-ground.svg",
+      "referencePath": "references/ansi-chassis-ground.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-noiseless-earth",
+      "slug": "iec-noiseless-earth",
+      "name": "Noiseless earth",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "clean earth",
+        "low-noise earth",
+        "instrument earth"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "An earth connection specifically designated as low-noise, used for sensitive measurement and electronics references.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Noiseless earth",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-noiseless-earth",
+      "recordPath": "entries/iec-noiseless-earth.json",
+      "svgPath": "artwork/svg/iec-noiseless-earth.svg",
+      "referencePath": "references/iec-noiseless-earth.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-earth-electrode",
+      "slug": "iec-earth-electrode",
+      "name": "Earth electrode",
+      "kind": "symbol",
+      "abbreviation": "E",
+      "aliases": [
+        "earth rod",
+        "ground rod",
+        "earthing electrode"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "A conductor in contact with the ground, such as a driven rod, providing the installation's connection to earth.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Earth electrode",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-earth-electrode",
+      "recordPath": "entries/iec-earth-electrode.json",
+      "svgPath": "artwork/svg/iec-earth-electrode.svg",
+      "referencePath": "references/iec-earth-electrode.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "earth-grid-conductor",
+      "slug": "earth-grid-conductor",
+      "name": "Earth grid conductor",
+      "kind": "symbol",
+      "abbreviation": "EG",
+      "aliases": [
+        "earth mat",
+        "earthing grid",
+        "buried earth conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A buried horizontal earthing conductor forming part of a substation or plant earth grid, drawn on layout plans.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/earth-grid-conductor",
+      "recordPath": "entries/earth-grid-conductor.json",
+      "svgPath": "artwork/svg/earth-grid-conductor.svg",
+      "referencePath": "references/earth-grid-conductor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "earth-electrode-with-inspection-pit",
+      "slug": "earth-electrode-with-inspection-pit",
+      "name": "Earth electrode with inspection pit",
+      "kind": "symbol",
+      "abbreviation": "E",
+      "aliases": [
+        "earth pit",
+        "inspection pit electrode",
+        "earth rod with pit"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "An earth electrode drawn inside a pit outline, showing that its top and connection are accessible for inspection and testing.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/earth-electrode-with-inspection-pit",
+      "recordPath": "entries/earth-electrode-with-inspection-pit.json",
+      "svgPath": "artwork/svg/earth-electrode-with-inspection-pit.svg",
+      "referencePath": "references/earth-electrode-with-inspection-pit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "lightning-down-conductor",
+      "slug": "lightning-down-conductor",
+      "name": "Lightning protection down-conductor",
+      "kind": "symbol",
+      "abbreviation": "DC",
+      "aliases": [
+        "down conductor",
+        "lightning down lead",
+        "LPS down conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "The conductor carrying lightning current from air terminations on a structure down to the earth termination system.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/lightning-down-conductor",
+      "recordPath": "entries/lightning-down-conductor.json",
+      "svgPath": "artwork/svg/lightning-down-conductor.svg",
+      "referencePath": "references/lightning-down-conductor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "lightning-air-termination",
+      "slug": "lightning-air-termination",
+      "name": "Lightning air termination",
+      "kind": "symbol",
+      "abbreviation": "AT",
+      "aliases": [
+        "air terminal",
+        "lightning rod",
+        "finial"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A rod or mesh conductor on top of a structure intended to intercept lightning strikes before they hit the structure.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/lightning-air-termination",
+      "recordPath": "entries/lightning-air-termination.json",
+      "svgPath": "artwork/svg/lightning-air-termination.svg",
+      "referencePath": "references/lightning-air-termination.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "lightning-test-joint",
+      "slug": "lightning-test-joint",
+      "name": "Lightning protection test joint",
+      "kind": "symbol",
+      "abbreviation": "TJ",
+      "aliases": [
+        "down-conductor test clamp",
+        "LPS test link",
+        "testing joint"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "GA",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A disconnectable joint near the base of a down-conductor that allows the earth termination to be tested separately.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/lightning-test-joint",
+      "recordPath": "entries/lightning-test-joint.json",
+      "svgPath": "artwork/svg/lightning-test-joint.svg",
+      "referencePath": "references/lightning-test-joint.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-main-earthing-terminal",
+      "slug": "iec-main-earthing-terminal",
+      "name": "Main earthing terminal",
+      "kind": "symbol",
+      "abbreviation": "MET",
+      "aliases": [
+        "main earth bar",
+        "MET",
+        "main earthing busbar"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "The terminal or bar where protective conductors, bonding conductors and the earthing conductor of an installation meet.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Main earthing terminal",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-main-earthing-terminal",
+      "recordPath": "entries/iec-main-earthing-terminal.json",
+      "svgPath": "artwork/svg/iec-main-earthing-terminal.svg",
+      "referencePath": "references/iec-main-earthing-terminal.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-earth-connection",
+      "slug": "ansi-earth-connection",
+      "name": "ANSI/IEEE earth connection symbol",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "IEEE ground",
+        "ANSI earth ground",
+        "ground connection"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented ground symbol with three diminishing bars, used for a general connection to earth.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Earth/Ground form",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "earth-connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-earth-connection",
+      "recordPath": "entries/ansi-earth-connection.json",
+      "svgPath": "artwork/svg/ansi-earth-connection.svg",
+      "referencePath": "references/ansi-earth-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-protective-equipotential-bonding",
+      "slug": "ansi-protective-equipotential-bonding",
+      "name": "ANSI/IEEE protective equipotential bonding symbol",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "IEEE protective bond",
+        "ANSI equipment bonding",
+        "protective bonding conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented protective equipotential bond, connecting exposed metal parts together for safety.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented protective equipotential bond form",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "protective-equipotential-bonding"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-protective-equipotential-bonding",
+      "recordPath": "entries/ansi-protective-equipotential-bonding.json",
+      "svgPath": "artwork/svg/ansi-protective-equipotential-bonding.svg",
+      "referencePath": "references/ansi-protective-equipotential-bonding.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-functional-equipotential-bonding",
+      "slug": "ansi-functional-equipotential-bonding",
+      "name": "ANSI/IEEE functional equipotential bonding symbol",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "IEEE functional bond",
+        "ANSI signal bonding",
+        "functional bonding conductor"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented functional equipotential bond used to keep equipment at a common reference for operation or noise control.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented functional equipotential bond form",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "functional-equipotential-bonding"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-functional-equipotential-bonding",
+      "recordPath": "entries/ansi-functional-equipotential-bonding.json",
+      "svgPath": "artwork/svg/ansi-functional-equipotential-bonding.svg",
+      "referencePath": "references/ansi-functional-equipotential-bonding.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "direct-neutral-earthing-connection",
+      "slug": "direct-neutral-earthing-connection",
+      "name": "Direct neutral earthing connection",
+      "kind": "symbol",
+      "abbreviation": "-",
+      "aliases": [
+        "solidly earthed neutral",
+        "solid neutral grounding",
+        "neutral point earthed"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "IEEE / ANSI"
+      ],
+      "summary": "A transformer or generator star point connected straight to earth with no intentional impedance, as in a solidly earthed system.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/direct-neutral-earthing-connection",
+      "recordPath": "entries/direct-neutral-earthing-connection.json",
+      "svgPath": "artwork/svg/direct-neutral-earthing-connection.svg",
+      "referencePath": "references/direct-neutral-earthing-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-cable-screen-cross-bonding",
+      "slug": "iec-cable-screen-cross-bonding",
+      "name": "Cable screen cross-bonding",
+      "kind": "symbol",
+      "abbreviation": "CB",
+      "aliases": [
+        "sheath cross-bonding",
+        "screen transposition",
+        "cross-bonded sheaths"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC"
+      ],
+      "summary": "Screens of three single-core cables transposed at joints so that induced sheath voltages cancel over a major section.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Cross-bonded cable screen arrangement",
+        "reference": "Independent IEC-context illustration; not certified IEC geometry."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-cable-screen-cross-bonding",
+      "recordPath": "entries/iec-cable-screen-cross-bonding.json",
+      "svgPath": "artwork/svg/iec-cable-screen-cross-bonding.svg",
+      "referencePath": "references/iec-cable-screen-cross-bonding.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-surge-arrester",
+      "slug": "ansi-surge-arrester",
+      "name": "ANSI/IEEE surge arrester symbol",
+      "kind": "symbol",
+      "abbreviation": "SA",
+      "aliases": [
+        "IEEE lightning arrester",
+        "ANSI surge diverter",
+        "arrester"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented surge arrester symbol connected between a line and ground to limit transient overvoltage.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented surge diverter form",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "surge-arrester"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-surge-arrester",
+      "recordPath": "entries/ansi-surge-arrester.json",
+      "svgPath": "artwork/svg/ansi-surge-arrester.svg",
+      "referencePath": "references/ansi-surge-arrester.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-spark-gap",
+      "slug": "ansi-spark-gap",
+      "name": "ANSI/IEEE spark gap symbol",
+      "kind": "symbol",
+      "abbreviation": "SG",
+      "aliases": [
+        "IEEE spark gap",
+        "ANSI protective gap",
+        "air gap"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented spark gap drawn as two facing electrodes separated by an air gap, which breaks down at high voltage.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented spark gap form",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "spark-gap-protective-element"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-spark-gap",
+      "recordPath": "entries/ansi-spark-gap.json",
+      "svgPath": "artwork/svg/ansi-spark-gap.svg",
+      "referencePath": "references/ansi-spark-gap.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-gas-discharge-tube",
+      "slug": "ansi-gas-discharge-tube",
+      "name": "ANSI/IEEE gas discharge tube symbol",
+      "kind": "symbol",
+      "abbreviation": "GDT",
+      "aliases": [
+        "IEEE gas tube arrester",
+        "ANSI GDT",
+        "gas-filled surge protector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented protective gas discharge tube: electrodes within a sealed envelope that conduct when voltage exceeds breakdown.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented protective gas discharge tube form",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "gas-discharge-protection-tube"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-gas-discharge-tube",
+      "recordPath": "entries/ansi-gas-discharge-tube.json",
+      "svgPath": "artwork/svg/ansi-gas-discharge-tube.svg",
+      "referencePath": "references/ansi-gas-discharge-tube.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-double-spark-gap",
+      "slug": "iec-double-spark-gap",
+      "name": "Double spark gap",
+      "kind": "symbol",
+      "abbreviation": "F",
+      "aliases": [
+        "two-gap spark gap",
+        "three-electrode spark gap",
+        "double protective gap"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A spark gap form with two gaps sharing a common electrode, used to protect two conductors against a common earth.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Spark Gap, Double",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Miscellaneous; vendor family reference, not certified IEC geometry.",
+        "counterpart": "spark-gap-protective-element"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-double-spark-gap",
+      "recordPath": "entries/iec-double-spark-gap.json",
+      "svgPath": "artwork/svg/iec-double-spark-gap.svg",
+      "referencePath": "references/iec-double-spark-gap.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-symmetric-gas-discharge-tube",
+      "slug": "iec-symmetric-gas-discharge-tube",
+      "name": "Symmetric gas discharge tube",
+      "kind": "symbol",
+      "abbreviation": "F",
+      "aliases": [
+        "symmetric GDT",
+        "symmetrical gas tube",
+        "bidirectional gas discharge protector"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "A protective gas discharge tube drawn with identical electrodes either side, listed as a distinct symmetric form.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Protective Gas Discharge Tube, Symmetric",
+        "reference": "Autodesk IEC-60617 Symbol Preview: Miscellaneous; vendor family reference, not certified IEC geometry.",
+        "counterpart": "gas-discharge-protection-tube"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-symmetric-gas-discharge-tube",
+      "recordPath": "entries/iec-symmetric-gas-discharge-tube.json",
+      "svgPath": "artwork/svg/iec-symmetric-gas-discharge-tube.svg",
+      "referencePath": "references/iec-symmetric-gas-discharge-tube.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-terminal-with-wire-number",
+      "slug": "ansi-terminal-with-wire-number",
+      "name": "ANSI/IEEE terminal with wire number symbol",
+      "kind": "symbol",
+      "abbreviation": "TB",
+      "aliases": [
+        "IEEE round terminal with wire number",
+        "ANSI terminal wire label",
+        "terminal carrying wire number"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented round terminal that displays the wire number passing through it rather than a terminal number.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Round with Wire Number terminal",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Terminals. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "iec-terminal-carrying-wire-identification"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal-with-wire-number",
+      "recordPath": "entries/ansi-terminal-with-wire-number.json",
+      "svgPath": "artwork/svg/ansi-terminal-with-wire-number.svg",
+      "referencePath": "references/ansi-terminal-with-wire-number.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-terminal-with-wire-number-change",
+      "slug": "ansi-terminal-with-wire-number-change",
+      "name": "ANSI/IEEE terminal with wire number change symbol",
+      "kind": "symbol",
+      "abbreviation": "TB",
+      "aliases": [
+        "IEEE terminal wire number change",
+        "ANSI renumbering terminal",
+        "wire number transition terminal"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-oriented round terminal at which the wire number changes, with a different number on each side.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Autodesk IEEE-oriented Round with Wire Number Change terminal",
+        "reference": "Autodesk publishes this block under IEEE Symbol Preview: Terminals. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "iec-terminal-with-wire-number-transition"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal-with-wire-number-change",
+      "recordPath": "entries/ansi-terminal-with-wire-number-change.json",
+      "svgPath": "artwork/svg/ansi-terminal-with-wire-number-change.svg",
+      "referencePath": "references/ansi-terminal-with-wire-number-change.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-neutral-link-closed",
+      "slug": "ansi-neutral-link-closed",
+      "name": "ANSI/IEEE Neutral link, closed form",
+      "kind": "symbol",
+      "abbreviation": "N",
+      "aliases": [
+        "HFU1NLC",
+        "VFU1NLC",
+        "IEEE Neutral Link - Closed",
+        "ANSI Neutral link, closed"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-library form of neutral link, closed: a removable link in the neutral conductor shown in its closed position, allowing the neutral to be opened for testing.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Neutral Link - Closed",
+        "reference": "Autodesk IEEE Symbol Preview: Fuses, block HFU1NLC. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+        "counterpart": "iec-neutral-link-closed"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-neutral-link-closed",
+      "recordPath": "entries/ansi-neutral-link-closed.json",
+      "svgPath": "artwork/svg/ansi-neutral-link-closed.svg",
+      "referencePath": "references/ansi-neutral-link-closed.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-neutral-link-open",
+      "slug": "ansi-neutral-link-open",
+      "name": "ANSI/IEEE Neutral link, open form",
+      "kind": "symbol",
+      "abbreviation": "N",
+      "aliases": [
+        "HFU1NLO",
+        "VFU1NLO",
+        "IEEE Neutral Link - Open",
+        "ANSI Neutral link, open"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-library form of neutral link, open: a neutral link drawn removed or open, showing the neutral conductor disconnected at that point.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Neutral Link - Open",
+        "reference": "Autodesk IEEE Symbol Preview: Fuses, block HFU1NLO. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+        "counterpart": "iec-neutral-link-open"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-neutral-link-open",
+      "recordPath": "entries/ansi-neutral-link-open.json",
+      "svgPath": "artwork/svg/ansi-neutral-link-open.svg",
+      "referencePath": "references/ansi-neutral-link-open.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-double-spark-gap",
+      "slug": "ansi-double-spark-gap",
+      "name": "ANSI/IEEE Double spark gap form",
+      "kind": "symbol",
+      "abbreviation": "F",
+      "aliases": [
+        "HFU1_S00372",
+        "VFU1_S00372",
+        "IEEE Spark Gap, Double",
+        "ANSI Double spark gap"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-library form of double spark gap: a spark gap form with two gaps sharing a common electrode, used to protect two conductors against a common earth.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Spark Gap, Double",
+        "reference": "Autodesk IEEE Symbol Preview: Miscellaneous, block HFU1_S00372. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+        "counterpart": "iec-double-spark-gap"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-double-spark-gap",
+      "recordPath": "entries/ansi-double-spark-gap.json",
+      "svgPath": "artwork/svg/ansi-double-spark-gap.svg",
+      "referencePath": "references/ansi-double-spark-gap.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-symmetric-gas-discharge-tube",
+      "slug": "ansi-symmetric-gas-discharge-tube",
+      "name": "ANSI/IEEE Symmetric gas discharge tube form",
+      "kind": "symbol",
+      "abbreviation": "F",
+      "aliases": [
+        "HFU1_S00375",
+        "VFU1_S00375",
+        "IEEE Protective Gas Discharge Tube, Symmetric",
+        "ANSI Symmetric gas discharge tube"
+      ],
+      "category": "connections-wiring",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "IEEE-library form of symmetric gas discharge tube: a protective gas discharge tube drawn with identical electrodes either side, listed as a distinct symmetric form.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Protective Gas Discharge Tube, Symmetric",
+        "reference": "Autodesk IEEE Symbol Preview: Miscellaneous, block HFU1_S00375. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+        "counterpart": "iec-symmetric-gas-discharge-tube"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-symmetric-gas-discharge-tube",
+      "recordPath": "entries/ansi-symmetric-gas-discharge-tube.json",
+      "svgPath": "artwork/svg/ansi-symmetric-gas-discharge-tube.svg",
+      "referencePath": "references/ansi-symmetric-gas-discharge-tube.md",
+      "contentLicense": "CC-BY-4.0"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "iec-astable-element",
+  "name": "IEC astable element",
+  "kind": "symbol",
+  "abbreviation": "G",
+  "aliases": [
+    "astable multivibrator",
+    "IEC oscillator element",
+    "G qualifier element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked G, an astable that produces a continuous pulse train; drawing the waveform is optional.",
+  "description": [
+    "The astable element is marked with G, optionally followed by a sketch of the output waveform. It produces a free-running pulse train. Variants include !G for a synchronously starting astable and G! for one that stops only after completing a pulse, as listed in TI's public overview.",
+    "Astable elements represent oscillators on logic diagrams: flasher circuits for indicator lamps, test pulse generators and clock sources. Where an enable input exists, its effect on the output at start and stop should be considered because the variant qualifiers describe exactly that.",
+    "The symbol does not state frequency or duty cycle. Note those values beside the element or reference the timing components."
+  ],
+  "readingNotes": [
+    "Check for ! before or after G, which changes start or stop behaviour.",
+    "Find frequency and duty cycle in notes or timing parts."
+  ],
+  "drawingChecklist": [
+    "Mark the element with G.",
+    "State frequency and duty cycle.",
+    "Use !G or G! where start or stop behaviour matters."
+  ],
+  "distinction": "A monostable produces one pulse per trigger; an astable runs continuously while enabled.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "G"
+    },
+    {
+      "label": "Variants",
+      "value": "!G synchronous start, G! completes last pulse"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists G, !G and G! astable qualifiers."
+    }
+  ],
+  "related": [
+    "clock-generator",
+    "iec-non-retriggerable-monostable",
+    "voltage-controlled-oscillator"
+  ],
+  "artwork": "s28-iec-astable-element",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with the G qualifier and optional waveform",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-astable-element",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-astable-element.svg",
+  "id": "iec-astable-element",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-astable-element",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-astable-element.json",
+  "svgPath": "artwork/svg/iec-astable-element.svg",
+  "referencePath": "references/iec-astable-element.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists G, !G and G! astable qualifiers."
+    }
+  ]
+}

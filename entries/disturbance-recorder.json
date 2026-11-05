@@ -1,0 +1,101 @@
+{
+  "slug": "disturbance-recorder",
+  "name": "Disturbance recorder",
+  "kind": "symbol",
+  "abbreviation": "DFR",
+  "aliases": [
+    "digital fault recorder",
+    "fault recorder",
+    "transient recorder"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Recorder that captures analogue waveforms and binary signals before and after a trigger for fault analysis.",
+  "description": [
+    "A disturbance recorder captures sampled current and voltage waveforms together with breaker and protection contact states when a trigger occurs. Pre-fault and post-fault data let engineers check how protection performed, so the recorder is drawn with its analogue inputs from CTs and VTs and its binary inputs from trip and position contacts.",
+    "Many protection relays now include this function, so a separate recorder symbol usually indicates a dedicated substation-wide unit. The symbol does not show trigger conditions, sample rate or record length, and records are commonly exchanged in a standard file format that should be named in the specification."
+  ],
+  "readingNotes": [
+    "Trace analogue inputs to their CTs and VTs.",
+    "List binary inputs and their sources."
+  ],
+  "drawingChecklist": [
+    "List analogue channels",
+    "List binary channels",
+    "State trigger and record length"
+  ],
+  "distinction": "A disturbance recorder stores high-rate waveforms around an event; a sequence-of-events recorder stores timestamped contact changes only.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Analogue currents and voltages plus binary signals"
+    },
+    {
+      "label": "Record",
+      "value": "Pre- and post-trigger waveforms"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-functions",
+      "relevance": "Public relay function list including disturbance recording within protection IEDs."
+    },
+    {
+      "sourceId": "public-power-quality-meter",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    }
+  ],
+  "related": [
+    "sequence-of-events-recorder",
+    "numerical-protection-relay",
+    "oscilloscope"
+  ],
+  "artwork": "s28-disturbance-recorder",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/disturbance-recorder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/disturbance-recorder.svg",
+  "id": "disturbance-recorder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/disturbance-recorder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/disturbance-recorder.json",
+  "svgPath": "artwork/svg/disturbance-recorder.svg",
+  "referencePath": "references/disturbance-recorder.md",
+  "publicSources": [
+    {
+      "id": "abb-functions",
+      "title": "Relion 620: functions, codes and symbols",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Published product mappings between function names, IEC 61850 identifiers, IEC mnemonics and ANSI designations. These are product examples, not universal equivalences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public relay function list including disturbance recording within protection IEDs."
+    },
+    {
+      "id": "public-power-quality-meter",
+      "title": "PowerLogic ION9000 user manual",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/26719674/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer documentation for the installation, operation and configuration of an advanced energy and power-quality meter. Exact functions and terminals depend on the selected model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    }
+  ]
+}

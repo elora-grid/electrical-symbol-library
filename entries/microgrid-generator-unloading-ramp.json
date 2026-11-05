@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-unloading-ramp",
+  "name": "Microgrid generator unloading ramp",
+  "kind": "symbol",
+  "abbreviation": "MGUR",
+  "aliases": [
+    "Microgrid generating-set coordination",
+    "microgrids Microgrid generating-set coordination",
+    "microgrids",
+    "Microgrids",
+    "Generator unload request",
+    "Reducing generator power target"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reduces the assigned generator target before its documented electrical disconnection.",
+  "description": [
+    "Reduces the assigned generator target before its documented electrical disconnection. Generating-set coordination decides which available machines should operate and how their power contribution is shared. Engine starting, breaker connection, load acceptance and stopping are separate stages with their own feedback.",
+    "In a microgrid power station, the controller can request an additional generator when available reserve falls and later unload a selected machine before its documented stop sequence. For this reference, the drawing identifies “Generator unload request” at the input and “Reducing generator power target” at the output. The receiving controller must support the ramp request.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Generator unload request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Reducing generator power target. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The receiving controller must support the ramp request.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for generator unload request.",
+    "Identify the destination and defined state of reducing generator power target.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The receiving controller must support the ramp request."
+  ],
+  "distinction": "The receiving controller must support the ramp request. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Generator unload request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Reducing generator power target"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGUR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-genset-control",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "genset-controller",
+    "diesel-generator-set",
+    "microgrid-generator-disconnect-confirmation"
+  ],
+  "artwork": "pi26-microgrid-generator-unloading-ramp",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-gensets",
+    "input": "Generator unload request",
+    "output": "Reducing generator power target"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-unloading-ramp",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-unloading-ramp.svg",
+  "id": "microgrid-generator-unloading-ramp",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-unloading-ramp",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-unloading-ramp.json",
+  "svgPath": "artwork/svg/microgrid-generator-unloading-ramp.svg",
+  "referencePath": "references/microgrid-generator-unloading-ramp.md",
+  "publicSources": [
+    {
+      "id": "pi26-genset-control",
+      "publisher": "DEIF",
+      "title": "AGC power management options G4, G5 and G8",
+      "url": "https://www.deif.com/media/5a4bx0xv/agc-3-option-g4-g5-and-g8-power-management-4189340696-uk.pdf",
+      "scope": "Generator start/stop, load sharing, reserve and power management.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

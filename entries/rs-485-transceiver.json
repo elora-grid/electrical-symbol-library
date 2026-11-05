@@ -1,0 +1,87 @@
+{
+  "slug": "rs-485-transceiver",
+  "name": "RS-485 transceiver",
+  "kind": "symbol",
+  "abbreviation": "RS485",
+  "aliases": [
+    "RS-485 transceiver",
+    "RS-485 transceiver functional block",
+    "RS-485 transceiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An RS-485 transceiver sends and receives differential serial signals on its specified bus arrangement.",
+  "description": [
+    "An RS-485 transceiver sends and receives differential serial signals on its specified bus arrangement.",
+    "An industrial device can use the interface to communicate over a compatible serial link.",
+    "Mark the logic-side transmit/receive signals and the bus pair separately. RS-485 describes the electrical interface, so a drawing should also identify the application protocol and the intended half- or full-duplex arrangement. Reference the selected termination, bias and protection circuits. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the application protocol separately from RS-485.",
+    "Show the selected bus pair, termination and reference arrangement.",
+    "Label direction-enable signals if the chosen transceiver uses them.",
+    "RS-485 defines an electrical interface; it does not by itself specify the application protocol."
+  ],
+  "drawingChecklist": [
+    "Identify the application protocol separately from RS-485.",
+    "Show the selected bus pair, termination and reference arrangement.",
+    "Label direction-enable signals if the chosen transceiver uses them."
+  ],
+  "distinction": "RS-485 defines an electrical interface; it does not by itself specify the application protocol.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Controller transmit/receive"
+    },
+    {
+      "label": "Concept output",
+      "value": "Specified serial bus"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-serial",
+      "relevance": "RS-485 and RS-422 interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-bus-transceiver",
+    "rs-422-transceiver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-rs-485-transceiver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/rs-485-transceiver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/rs-485-transceiver.svg",
+  "id": "rs-485-transceiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/rs-485-transceiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/rs-485-transceiver.json",
+  "svgPath": "artwork/svg/rs-485-transceiver.svg",
+  "referencePath": "references/rs-485-transceiver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-serial",
+      "title": "RS-485 and RS-422 interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/rs-485-rs-422-transceivers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "RS-485 and RS-422 interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

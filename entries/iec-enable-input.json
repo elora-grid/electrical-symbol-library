@@ -1,0 +1,90 @@
+{
+  "slug": "iec-enable-input",
+  "name": "IEC enable input (EN)",
+  "kind": "symbol",
+  "abbreviation": "EN",
+  "aliases": [
+    "EN input",
+    "output enable label",
+    "enable qualifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Input labelled EN that enables all outputs of the element when at its internal 1 state.",
+  "description": [
+    "An input labelled EN inside the outline enables every external output of the element. At its internal 0 state, open-circuit outputs are off, three-state outputs go to high impedance and other outputs take their internal 0 state. It has no effect on inputs, according to TI's public summary of the notation.",
+    "When an enable affects only some outputs, the notation changes to EN dependency with a number, for example EN1 with affected outputs labelled 1. Readers should distinguish a plain EN from ENm because the scope is different.",
+    "The label does not show the timing needed between enable and valid output. Enable and disable times are device data. Check the enabled and disabled output conditions in the selected device truth table before connecting a shared bus."
+  ],
+  "readingNotes": [
+    "A plain EN affects all outputs; ENm affects only outputs labelled m.",
+    "Check for an external polarity mark on the EN input."
+  ],
+  "drawingChecklist": [
+    "Write EN inside the outline at the input.",
+    "Use ENm where scope is limited.",
+    "Show the source of the enable signal."
+  ],
+  "distinction": "A C (control) input permits action of affected inputs; EN acts on outputs.",
+  "facts": [
+    {
+      "label": "Scope",
+      "value": "All outputs of the element"
+    },
+    {
+      "label": "Effect at internal 0",
+      "value": "Three-state outputs high impedance"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Describes the EN input and its effect on different output types."
+    }
+  ],
+  "related": [
+    "iec-three-state-output-qualifier",
+    "iec-control-dependency-c",
+    "iec-three-state-buffer"
+  ],
+  "artwork": "s28-iec-enable-input",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Input labelled EN inside the outline",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-enable-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-enable-input.svg",
+  "id": "iec-enable-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-enable-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-enable-input.json",
+  "svgPath": "artwork/svg/iec-enable-input.svg",
+  "referencePath": "references/iec-enable-input.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Describes the EN input and its effect on different output types."
+    }
+  ]
+}

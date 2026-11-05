@@ -1,0 +1,105 @@
+{
+  "slug": "goose-interlock-publisher-interface",
+  "name": "GOOSE interlock publisher interface",
+  "kind": "symbol",
+  "abbreviation": "GIPI",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Interlock source states",
+    "Published interlock data"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Publishes the equipment states used by the assigned remote interlocking function.",
+  "description": [
+    "Publishes the equipment states used by the assigned remote interlocking function. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Interlock source states” at the input and “Published interlock data” at the output. An event-message link does not replace mechanical restrictions.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Interlock source states. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Published interlock data. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "An event-message link does not replace mechanical restrictions.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for interlock source states.",
+    "Identify the destination and defined state of published interlock data.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: An event-message link does not replace mechanical restrictions."
+  ],
+  "distinction": "An event-message link does not replace mechanical restrictions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Interlock source states"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Published interlock data"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GIPI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "goose-interlock-subscriber-interface"
+  ],
+  "artwork": "pi26-goose-interlock-publisher-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Interlock source states",
+    "output": "Published interlock data"
+  },
+  "url": "https://eloragrid.ai/symbols/goose-interlock-publisher-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/goose-interlock-publisher-interface.svg",
+  "id": "goose-interlock-publisher-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/goose-interlock-publisher-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/goose-interlock-publisher-interface.json",
+  "svgPath": "artwork/svg/goose-interlock-publisher-interface.svg",
+  "referencePath": "references/goose-interlock-publisher-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

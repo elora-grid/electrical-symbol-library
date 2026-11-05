@@ -1,0 +1,106 @@
+{
+  "slug": "battery-power-conversion-system",
+  "name": "Battery power conversion system",
+  "kind": "symbol",
+  "abbreviation": "PCS",
+  "aliases": [
+    "PCS",
+    "battery inverter",
+    "storage power conversion system"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "The bidirectional inverter stage of a battery plant that charges and discharges the DC battery from the AC network.",
+  "description": [
+    "The power conversion system is the bidirectional converter that sits between the battery DC bus and the AC network in a storage plant. It charges the battery by rectifying AC and discharges it by inverting DC, under the direction of a plant controller that sets active and reactive power or operates in a grid-forming mode.",
+    "Drawings show a converter box with both AC and DC marks and a bidirectional energy-flow arrow, a DC breaker or switch on the battery side, and an AC breaker, filter and often a medium-voltage skid transformer on the network side. Several PCS units may share one transformer.",
+    "The symbol does not tell you whether the unit can black-start a dead bus, how much overload it can supply or how it limits fault current. Those features drive protection settings and must be read from the converter specification."
+  ],
+  "readingNotes": [
+    "Look for the bidirectional energy-flow qualifier to confirm charge and discharge capability.",
+    "Check the transformer and filter on the AC side."
+  ],
+  "drawingChecklist": [
+    "State kW, kVA and DC voltage window.",
+    "Show DC and AC switching and filters.",
+    "Reference control modes and black-start capability."
+  ],
+  "distinction": "A PCS is a utility or commercial storage converter; an inverter-charger is a smaller low-voltage unit with an integral AC transfer relay.",
+  "facts": [
+    {
+      "label": "Energy flow",
+      "value": "Bidirectional"
+    },
+    {
+      "label": "Ratings",
+      "value": "kW, kVA and DC voltage window"
+    },
+    {
+      "label": "Network side",
+      "value": "Filter and often a skid transformer"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "energy-storage",
+      "relevance": "Public power conversion context for battery storage."
+    },
+    {
+      "sourceId": "iec-public-energy",
+      "relevance": "Public IEC-context energy-flow qualifier family used for the bidirectional mark."
+    }
+  ],
+  "related": [
+    "battery-energy-storage-system",
+    "iec-bidirectional-energy-flow-qualifier",
+    "bidirectional-inverter-charger",
+    "grid-forming-inverter"
+  ],
+  "artwork": "s28-battery-power-conversion-system",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-power-conversion-system",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-power-conversion-system.svg",
+  "id": "battery-power-conversion-system",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-power-conversion-system",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-power-conversion-system.json",
+  "svgPath": "artwork/svg/battery-power-conversion-system.svg",
+  "referencePath": "references/battery-power-conversion-system.md",
+  "publicSources": [
+    {
+      "id": "energy-storage",
+      "title": "Battery energy storage and power conversion",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/sg/en-us/products/energy-storage.html",
+      "type": "manufacturer",
+      "scope": "Explains battery storage and the power-conversion interface. Product-specific installation requirements remain with the manufacturer.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public power conversion context for battery storage."
+    },
+    {
+      "id": "iec-public-energy",
+      "title": "Autodesk IEC-60617 preview: Energy-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-2039C5DD-1C01-4D77-AD97-584052C53D75.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-context energy-flow qualifier family used for the bidirectional mark."
+    }
+  ]
+}

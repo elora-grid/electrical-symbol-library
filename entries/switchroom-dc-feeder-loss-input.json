@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-dc-feeder-loss-input",
+  "name": "Switchroom DC feeder-loss input",
+  "kind": "symbol",
+  "abbreviation": "SDFI",
+  "aliases": [
+    "Switchroom DC interfaces and alarm collection",
+    "switchrooms Switchroom DC interfaces and alarm collection",
+    "switchrooms",
+    "Switchrooms",
+    "Room DC voltage",
+    "DC feeder-loss alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports loss of the assigned incoming DC feeder at its monitored room boundary.",
+  "description": [
+    "Reports loss of the assigned incoming DC feeder at its monitored room boundary. A room DC interface connects station battery distribution, alarm contacts and operating circuits. DC supplies may remain energized when the room's normal AC supply is unavailable, so their source and distribution boundaries must be shown separately.",
+    "In a switchroom, the station battery can continue supplying protection and breaker controls during an AC supply interruption. The alarm system should distinguish charger loss from a low battery condition. For this reference, the drawing identifies “Room DC voltage” at the input and “DC feeder-loss alarm” at the output. The monitoring circuit needs a dependable alarm path.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Room DC voltage. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: DC feeder-loss alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The monitoring circuit needs a dependable alarm path.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for room dc voltage.",
+    "Identify the destination and defined state of dc feeder-loss alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The monitoring circuit needs a dependable alarm path."
+  ],
+  "distinction": "The monitoring circuit needs a dependable alarm path. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Room DC voltage"
+    },
+    {
+      "label": "Output / connection",
+      "value": "DC feeder-loss alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SDFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "battery-charger-controller",
+    "switchroom-alarm-supply-redundancy-interface"
+  ],
+  "artwork": "pi26-switchroom-dc-feeder-loss-input",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-dc",
+    "input": "Room DC voltage",
+    "output": "DC feeder-loss alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-dc-feeder-loss-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-dc-feeder-loss-input.svg",
+  "id": "switchroom-dc-feeder-loss-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-dc-feeder-loss-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-dc-feeder-loss-input.json",
+  "svgPath": "artwork/svg/switchroom-dc-feeder-loss-input.svg",
+  "referencePath": "references/switchroom-dc-feeder-loss-input.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

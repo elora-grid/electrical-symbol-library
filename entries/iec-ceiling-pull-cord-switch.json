@@ -1,0 +1,103 @@
+{
+  "slug": "iec-ceiling-pull-cord-switch",
+  "name": "Ceiling pull-cord switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "SPC",
+  "aliases": [
+    "ceiling pull switch",
+    "pull-cord light switch",
+    "bathroom pull switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a ceiling-mounted switch operated by a hanging cord, common in bathrooms and accessible toilets.",
+  "description": [
+    "A ceiling pull-cord switch is a one-way or two-pole switch fixed to the ceiling and operated by a cord. The plan mark adds a short line with a small arrow or cord end to the switch symbol, telling the reader that the device sits at ceiling level and is operated from below.",
+    "These switches are used in bathrooms where a wall switch would be in a restricted zone, and in accessible toilets where the cord forms part of an assistance call system. The plan should distinguish a light-switching pull cord from an emergency assistance pull cord, which is a different device.",
+    "The plan mark does not give the cord length or ceiling fixing detail. Those come from the specification and accessibility requirements."
+  ],
+  "readingNotes": [
+    "Check whether the cord switches lights, a fan or an assistance call.",
+    "Note that this is a building plan mark; schematic pull-cord switches in machine controls are a different device."
+  ],
+  "drawingChecklist": [
+    "State switch rating and pole count.",
+    "Distinguish from assistance-call pull cords.",
+    "Give cord length or end height."
+  ],
+  "distinction": "The schematic pull-cord switch in control circuits is a machine emergency device; this plan mark is a building lighting accessory.",
+  "facts": [
+    {
+      "label": "Mounting",
+      "value": "Ceiling, operated by cord from below"
+    },
+    {
+      "label": "Typical rooms",
+      "value": "Bathrooms and toilets"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Public IEC-oriented family showing operating-device qualifiers such as pull operation."
+    }
+  ],
+  "related": [
+    "pull-cord-switch",
+    "iec-one-way-light-switch"
+  ],
+  "artwork": "s28-iec-ceiling-pull-cord-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Pull-cord switch, building installation",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-ceiling-pull-cord-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-ceiling-pull-cord-switch.svg",
+  "id": "iec-ceiling-pull-cord-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-ceiling-pull-cord-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-ceiling-pull-cord-switch.json",
+  "svgPath": "artwork/svg/iec-ceiling-pull-cord-switch.svg",
+  "referencePath": "references/iec-ceiling-pull-cord-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented family showing operating-device qualifiers such as pull operation."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "iec-not-gate",
+  "name": "IEC NOT element (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1",
+  "aliases": [
+    "IEC inverter",
+    "rectangular inverter",
+    "negator"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Single-input IEC box marked 1 with a negation at the output, inverting the logic state.",
+  "description": [
+    "The IEC inverter is a single-input element carrying the qualifier 1, meaning the one input must be active, together with a negation at the output. The result is that the output is active when the input is inactive. Data books often replace the circle with a polarity triangle to show an active-low output.",
+    "Because negation can be drawn directly on any input or output, a standalone NOT box is often only used where an inverter really exists as a component or as a separate program instruction. On purely functional logic sheets drafters usually fold the inversion into the next element as a negated input.",
+    "The symbol gives no information about input thresholds. A Schmitt-trigger inverter adds the hysteresis qualifier; without it, slow or noisy inputs may not be handled cleanly."
+  ],
+  "readingNotes": [
+    "Check whether the inversion is a real component or only a notation choice.",
+    "Look for a hysteresis mark if the input comes from a slow signal."
+  ],
+  "drawingChecklist": [
+    "Mark the box with 1 and negate the output.",
+    "Avoid stacking inverters when a negated input would do.",
+    "Reference the device when the inverter is a discrete part."
+  ],
+  "distinction": "A box marked 1 without output negation is a non-inverting buffer.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "1 with output negation"
+    },
+    {
+      "label": "Input count",
+      "value": "One"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines the 1 qualifier and logic negation."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc04",
+      "relevance": "Manufacturer inverter documentation."
+    }
+  ],
+  "related": [
+    "logic-inverter",
+    "iec-buffer",
+    "iec-schmitt-trigger-inverter"
+  ],
+  "artwork": "s28-iec-not-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Single-input element marked 1 with output negation",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-inverter"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-not-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-not-gate.svg",
+  "id": "iec-not-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-not-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-not-gate.json",
+  "svgPath": "artwork/svg/iec-not-gate.svg",
+  "referencePath": "references/iec-not-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines the 1 qualifier and logic negation."
+    },
+    {
+      "id": "pub-electronics-ti-hc04",
+      "title": "SN74HC04 — digital inverters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of digital inverters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer inverter documentation."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "ansi-cross-coupled-nand-latch",
+  "name": "ANSI cross-coupled NAND latch",
+  "kind": "symbol",
+  "abbreviation": "S̄R̄",
+  "aliases": [
+    "NAND SR latch",
+    "active-low set-reset latch",
+    "cross-coupled NAND flip-flop"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Two NAND gates with outputs fed back to each other, forming an SR latch with active-low set and reset.",
+  "description": [
+    "Drawing the latch as two cross-coupled NAND gates shows its construction explicitly. A low on the set input forces Q high; a low on the reset input forces the complement high. With both inputs high the latch holds. Both inputs low drives both outputs high, which is normally treated as invalid.",
+    "This drawing form is common in teaching material, switch debounce circuits and older schematics where the latch is built from a quad NAND package. It lets a reviewer see the feedback paths and the pins used.",
+    "Because the latch is built from gates, the drawing shows nothing about which state it adopts at power-up. If a defined state is needed, a reset pulse or a pull network must be shown."
+  ],
+  "readingNotes": [
+    "Inputs are active low.",
+    "Both inputs low gives both outputs high and is usually avoided."
+  ],
+  "drawingChecklist": [
+    "Draw the feedback paths clearly without ambiguous crossings.",
+    "Mark inputs as active low in the net names.",
+    "Show any power-up reset arrangement."
+  ],
+  "distinction": "The cross-coupled NOR latch has active-high inputs.",
+  "facts": [
+    {
+      "label": "Input sense",
+      "value": "Active low"
+    },
+    {
+      "label": "Invalid state",
+      "value": "Both inputs low"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-ti-hc00",
+      "relevance": "NAND gate documentation for the building block."
+    },
+    {
+      "sourceId": "pub-electronics-ti-ls279",
+      "relevance": "SR latch device documentation."
+    }
+  ],
+  "related": [
+    "set-reset-latch",
+    "ansi-cross-coupled-nor-latch",
+    "iec-sr-latch"
+  ],
+  "artwork": "s28-ansi-cross-coupled-nand-latch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Two NAND outlines with each output fed back to the other gate's input",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "set-reset-latch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-cross-coupled-nand-latch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-cross-coupled-nand-latch.svg",
+  "id": "ansi-cross-coupled-nand-latch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-cross-coupled-nand-latch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-cross-coupled-nand-latch.json",
+  "svgPath": "artwork/svg/ansi-cross-coupled-nand-latch.svg",
+  "referencePath": "references/ansi-cross-coupled-nand-latch.md",
+  "publicSources": [
+    {
+      "id": "pub-electronics-ti-hc00",
+      "title": "SN74HC00 — NAND gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of nand gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "NAND gate documentation for the building block."
+    },
+    {
+      "id": "pub-electronics-ti-ls279",
+      "title": "SN74LS279A — set-reset latches",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74LS279A",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of set-reset latches. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "SR latch device documentation."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-photovoltaic-generator",
+  "name": "ANSI/IEEE Photovoltaic generator form",
+  "kind": "symbol",
+  "abbreviation": "PV GEN",
+  "aliases": [
+    "HPW1_S00908",
+    "VPW1_S00908",
+    "IEEE Photovoltaic Generator",
+    "ANSI Photovoltaic generator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of photovoltaic generator: a photovoltaic generator represents the electrical production of PV cells or modules.",
+  "description": [
+    "This reference locates photovoltaic generator in Autodesk's IEEE-oriented electronics family. A photovoltaic generator represents the electrical production of PV cells or modules. On an SLD it is linked to documented series/parallel strings, DC protection and the inverter interface. The public library uses HPW1_S00908 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Differentiate the generating array from its inverter and any energy-storage branch. The PV generator is a DC generating function; the inverter produces the documented AC interface. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Differentiate the generating array from its inverter and any energy-storage branch.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Reference module/string arrangement",
+    "State DC ratings",
+    "Show connected inverter/protection"
+  ],
+  "distinction": "The PV generator is a DC generating function; the inverter produces the documented AC interface.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Electronics; published form: Photovoltaic Generator."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPW1_S00908. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-electronics",
+      "relevance": "Public IEEE-oriented Electronics table explicitly lists HPW1_S00908 as Photovoltaic Generator. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "photovoltaic-generator",
+    "generator",
+    "busbar"
+  ],
+  "artwork": "s28-ansi-photovoltaic-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Photovoltaic Generator",
+    "reference": "Autodesk IEEE Symbol Preview: Electronics, block HPW1_S00908. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "photovoltaic-generator"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-photovoltaic-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-photovoltaic-generator.svg",
+  "id": "ansi-photovoltaic-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-photovoltaic-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-photovoltaic-generator.json",
+  "svgPath": "artwork/svg/ansi-photovoltaic-generator.svg",
+  "referencePath": "references/ansi-photovoltaic-generator.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-electronics",
+      "title": "Autodesk IEEE Symbol Preview: Electronics",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-861363BD-49C1-4951-8114-1559F4D887CE.htm",
+      "type": "cad-reference",
+      "scope": "Public electronics family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Electronics table explicitly lists HPW1_S00908 as Photovoltaic Generator. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

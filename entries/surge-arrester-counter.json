@@ -1,0 +1,84 @@
+{
+  "slug": "surge-arrester-counter",
+  "name": "Surge arrester counter",
+  "kind": "symbol",
+  "abbreviation": "SC",
+  "aliases": [
+    "surge counter",
+    "arrester monitor",
+    "discharge counter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Counter in a surge arrester's earth lead that registers discharges and often shows leakage current.",
+  "description": [
+    "A surge counter is installed in the earth connection of a surge arrester, which must therefore be mounted on an insulating base. It increments each time the arrester discharges a significant surge, and many models include a milliammeter for leakage current, which helps assess arrester condition.",
+    "On single-line diagrams the counter is drawn between the arrester and earth. The symbol does not tell you the counting threshold or whether leakage reading is total or resistive, and the insulating base must be shown so the counter is not bypassed."
+  ],
+  "readingNotes": [
+    "Check the arrester is on an insulating base.",
+    "Note whether leakage current is shown."
+  ],
+  "drawingChecklist": [
+    "Show counter in earth lead",
+    "Show insulating base",
+    "State counting threshold"
+  ],
+  "distinction": "A surge counter records arrester operations; the surge arrester itself diverts the surge.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Arrester earth lead"
+    },
+    {
+      "label": "Readings",
+      "value": "Discharge count and often leakage current"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-earthing-surge",
+      "relevance": "Public AutoCAD Electrical earthing and surge protection symbol family."
+    }
+  ],
+  "related": [
+    "surge-arrester",
+    "earth-connection",
+    "ammeter"
+  ],
+  "artwork": "s28-surge-arrester-counter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/surge-arrester-counter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/surge-arrester-counter.svg",
+  "id": "surge-arrester-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/surge-arrester-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/surge-arrester-counter.json",
+  "svgPath": "artwork/svg/surge-arrester-counter.svg",
+  "referencePath": "references/surge-arrester-counter.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-earthing-surge",
+      "title": "AutoCAD Electrical: Earthing, sources and surge protection",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1E3FDEAE-B4B2-417C-8075-108AA2C6E509.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical earthing and surge protection symbol family."
+    }
+  ]
+}

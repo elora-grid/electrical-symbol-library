@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-intentional-island-request-interface",
+  "name": "Microgrid intentional-island request interface",
+  "kind": "symbol",
+  "abbreviation": "MIRI",
+  "aliases": [
+    "Microgrid operating-mode controls",
+    "microgrids Microgrid operating-mode controls",
+    "microgrids",
+    "Microgrids",
+    "Intentional island request",
+    "Island preparation request"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the authorized request to prepare the defined microgrid for separation from the utility.",
+  "description": [
+    "Receives the authorized request to prepare the defined microgrid for separation from the utility. A microgrid operating-mode function coordinates how local sources and loads relate to the utility connection. The selected mode, the measured electrical condition and the actual switching configuration can differ during a transition.",
+    "In a microgrid serving a switchroom and industrial loads, the controller can move between grid-connected and islanded operating states only through its defined transition logic. Each state needs identifiable source roles and feedback. For this reference, the drawing identifies “Intentional island request” at the input and “Island preparation request” at the output. A request is not proof of successful separation.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Intentional island request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Island preparation request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A request is not proof of successful separation.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for intentional island request.",
+    "Identify the destination and defined state of island preparation request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A request is not proof of successful separation."
+  ],
+  "distinction": "A request is not proof of successful separation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Intentional island request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Island preparation request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MIRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "grid-forming-inverter",
+    "microgrid-unintentional-island-response-coordinator"
+  ],
+  "artwork": "pi26-microgrid-intentional-island-request-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-modes",
+    "input": "Intentional island request",
+    "output": "Island preparation request"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-intentional-island-request-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-intentional-island-request-interface.svg",
+  "id": "microgrid-intentional-island-request-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-intentional-island-request-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-intentional-island-request-interface.json",
+  "svgPath": "artwork/svg/microgrid-intentional-island-request-interface.svg",
+  "referencePath": "references/microgrid-intentional-island-request-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

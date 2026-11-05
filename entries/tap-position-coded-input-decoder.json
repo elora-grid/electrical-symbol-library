@@ -1,0 +1,105 @@
+{
+  "slug": "tap-position-coded-input-decoder",
+  "name": "Tap-position coded-input decoder",
+  "kind": "symbol",
+  "abbreviation": "TCD",
+  "aliases": [
+    "Transformer regulation and cooling control",
+    "substations Transformer regulation and cooling control",
+    "substations",
+    "Substations",
+    "Tap contact code",
+    "Decoded tap position"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Converts the installed tap-position contact code into the controller's displayed position.",
+  "description": [
+    "Converts the installed tap-position contact code into the controller's displayed position. Transformer regulation changes the selected winding connection to influence voltage, while cooling control manages the installed fans and pumps. Commands, mechanical position and measured results belong to different parts of the diagram.",
+    "In a substation, a voltage regulator can request a tap change and check the resulting tap-position feedback. A separate controller stages cooling equipment according to the transformer manufacturer's defined conditions. For this reference, the drawing identifies “Tap contact code” at the input and “Decoded tap position” at the output. Invalid codes require explicit handling.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Tap contact code. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Decoded tap position. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Invalid codes require explicit handling.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for tap contact code.",
+    "Identify the destination and defined state of decoded tap position.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Invalid codes require explicit handling."
+  ],
+  "distinction": "Invalid codes require explicit handling. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Tap contact code"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Decoded tap position"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TCD is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-control",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "adjustable-ratio-transformer",
+    "winding-temperature-indicator",
+    "tap-position-analogue-input-interface"
+  ],
+  "artwork": "pi26-tap-position-coded-input-decoder",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-regulation",
+    "input": "Tap contact code",
+    "output": "Decoded tap position"
+  },
+  "url": "https://eloragrid.ai/symbols/tap-position-coded-input-decoder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/tap-position-coded-input-decoder.svg",
+  "id": "tap-position-coded-input-decoder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/tap-position-coded-input-decoder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/tap-position-coded-input-decoder.json",
+  "svgPath": "artwork/svg/tap-position-coded-input-decoder.svg",
+  "referencePath": "references/tap-position-coded-input-decoder.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-control",
+      "publisher": "SEL",
+      "title": "SEL-2414 transformer monitor",
+      "url": "https://selinc.com/products/2414/",
+      "scope": "Transformer temperature, cooling, tap changing and parallel operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

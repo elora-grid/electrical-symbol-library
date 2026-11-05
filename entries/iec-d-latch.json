@@ -1,0 +1,106 @@
+{
+  "slug": "iec-d-latch",
+  "name": "IEC transparent D latch (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "C1 1D",
+  "aliases": [
+    "IEC level-sensitive latch",
+    "transparent latch IEC form",
+    "C1 1D latch"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC bistable with a static C1 control and 1D input; the output follows D while C1 is active.",
+  "description": [
+    "The transparent latch is drawn like the D flip-flop but the C1 input has no dynamic wedge. While C1 is at its internal 1 state, the output follows the 1D input; when C1 returns to 0 the last value is held. TI's overview describes this as a level-operated control input.",
+    "Latches are used to capture data from a bus or to hold a value for a display or relay driver. In octal devices the common-control block carries C1 and the output enable, with eight per-bit elements below.",
+    "Because the output follows the input during the active level, glitches on D during that time pass through. The symbol shows this behaviour only through the absence of the wedge, so check it carefully."
+  ],
+  "readingNotes": [
+    "No wedge on C1 means level-sensitive.",
+    "In octal parts, look for C1 in the common-control block."
+  ],
+  "drawingChecklist": [
+    "Draw C1 without a dynamic mark.",
+    "Prefix the data input with 1.",
+    "Show output enable separately if present."
+  ],
+  "distinction": "The IEC D flip-flop has a dynamic wedge on C1 and captures only at the edge.",
+  "facts": [
+    {
+      "label": "Clock type",
+      "value": "Level-operated"
+    },
+    {
+      "label": "Key labels",
+      "value": "C1, 1D"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Transparent latch behaviour with level-operated control input."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc373",
+      "relevance": "Transparent latch documentation."
+    }
+  ],
+  "related": [
+    "transparent-d-latch",
+    "iec-d-flip-flop",
+    "iec-common-control-block"
+  ],
+  "artwork": "s28-iec-d-latch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular bistable with static C1 and 1D inputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "transparent-d-latch"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-d-latch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-d-latch.svg",
+  "id": "iec-d-latch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-d-latch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-d-latch.json",
+  "svgPath": "artwork/svg/iec-d-latch.svg",
+  "referencePath": "references/iec-d-latch.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Transparent latch behaviour with level-operated control input."
+    },
+    {
+      "id": "pub-electronics-ti-hc373",
+      "title": "SN74HC373 — transparent D latches",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc373.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of transparent d latches. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Transparent latch documentation."
+    }
+  ]
+}

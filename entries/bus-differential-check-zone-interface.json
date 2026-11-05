@@ -1,0 +1,105 @@
+{
+  "slug": "bus-differential-check-zone-interface",
+  "name": "Bus differential check-zone interface",
+  "kind": "symbol",
+  "abbreviation": "BDCI",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Check-zone current inputs",
+    "Check-zone permission"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Provides the separately defined overall check-zone condition used by a bus protection scheme.",
+  "description": [
+    "Provides the separately defined overall check-zone condition used by a bus protection scheme. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Check-zone current inputs” at the input and “Check-zone permission” at the output. Check zones and discriminating zones have different roles.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Check-zone current inputs. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Check-zone permission. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Check zones and discriminating zones have different roles.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for check-zone current inputs.",
+    "Identify the destination and defined state of check-zone permission.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Check zones and discriminating zones have different roles."
+  ],
+  "distinction": "Check zones and discriminating zones have different roles. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Check-zone current inputs"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Check-zone permission"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BDCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "bus-protection-isolator-replica-interface"
+  ],
+  "artwork": "pi26-bus-differential-check-zone-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Check-zone current inputs",
+    "output": "Check-zone permission"
+  },
+  "url": "https://eloragrid.ai/symbols/bus-differential-check-zone-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bus-differential-check-zone-interface.svg",
+  "id": "bus-differential-check-zone-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bus-differential-check-zone-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bus-differential-check-zone-interface.json",
+  "svgPath": "artwork/svg/bus-differential-check-zone-interface.svg",
+  "referencePath": "references/bus-differential-check-zone-interface.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

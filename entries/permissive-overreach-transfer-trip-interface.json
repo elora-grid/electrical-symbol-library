@@ -1,0 +1,105 @@
+{
+  "slug": "permissive-overreach-transfer-trip-interface",
+  "name": "Permissive overreach transfer-trip interface",
+  "kind": "symbol",
+  "abbreviation": "POTI",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Local detection and remote permission",
+    "Permissive trip decision"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Combines the defined local overreaching detection with the received permissive signal.",
+  "description": [
+    "Combines the defined local overreaching detection with the received permissive signal. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Local detection and remote permission” at the input and “Permissive trip decision” at the output. Exact logic follows the selected protection scheme.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Local detection and remote permission. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Permissive trip decision. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Exact logic follows the selected protection scheme.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for local detection and remote permission.",
+    "Identify the destination and defined state of permissive trip decision.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Exact logic follows the selected protection scheme."
+  ],
+  "distinction": "Exact logic follows the selected protection scheme. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Local detection and remote permission"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Permissive trip decision"
+    },
+    {
+      "label": "Lookup label",
+      "value": "POTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "permissive-underreach-transfer-trip-interface"
+  ],
+  "artwork": "pi26-permissive-overreach-transfer-trip-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Local detection and remote permission",
+    "output": "Permissive trip decision"
+  },
+  "url": "https://eloragrid.ai/symbols/permissive-overreach-transfer-trip-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/permissive-overreach-transfer-trip-interface.svg",
+  "id": "permissive-overreach-transfer-trip-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/permissive-overreach-transfer-trip-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/permissive-overreach-transfer-trip-interface.json",
+  "svgPath": "artwork/svg/permissive-overreach-transfer-trip-interface.svg",
+  "referencePath": "references/permissive-overreach-transfer-trip-interface.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "iec-media-converter-symbol",
+  "name": "Media converter symbol",
+  "kind": "symbol",
+  "abbreviation": "MC",
+  "aliases": [
+    "copper-to-fibre converter",
+    "Ethernet fibre converter",
+    "optical transceiver unit"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Network symbol for a media converter linking copper Ethernet to optical fibre, drawn as a box with electrical and optical ports.",
+  "description": [
+    "A media converter changes the physical medium of an Ethernet link from copper twisted pair to optical fibre, without routing or switching. Diagrams draw a box with a copper port on one side and a fibre port, often marked with a light arrow, on the other.",
+    "On electrical and control drawings, media converters appear where a device with copper Ethernet must reach a remote location or cross an area with earth potential differences. Their power supply and mounting in the panel are shown on the schematic. The symbol does not show the fibre type or wavelength. The fibre port must match the cable."
+  ],
+  "readingNotes": [
+    "Identify which side is fibre.",
+    "Check power supply."
+  ],
+  "drawingChecklist": [
+    "State fibre type and connector.",
+    "Show power supply.",
+    "Label link ends."
+  ],
+  "distinction": "A network switch forwards traffic between many ports; a media converter only changes the medium on one link.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Medium conversion only"
+    },
+    {
+      "label": "Ports",
+      "value": "One copper, one fibre"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; plan symbols for this device vary between legends, so read the project key"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-westermo-media-converters",
+      "relevance": "Public product family page describing copper Ethernet to fibre conversion."
+    },
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ],
+  "related": [
+    "iec-fibre-optic-link-symbol",
+    "ethernet-phy",
+    "iec-network-switch-plan-symbol"
+  ],
+  "artwork": "s28-iec-media-converter-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/iec-media-converter-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-media-converter-symbol.svg",
+  "id": "iec-media-converter-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-media-converter-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-media-converter-symbol.json",
+  "svgPath": "artwork/svg/iec-media-converter-symbol.svg",
+  "referencePath": "references/iec-media-converter-symbol.md",
+  "publicSources": [
+    {
+      "id": "s28-westermo-media-converters",
+      "title": "Industrial Ethernet to fibre media converters",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/converters/ethernet-media-converters",
+      "type": "manufacturer",
+      "scope": "Public product family page for copper Ethernet to multimode or single-mode fibre conversion.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing copper Ethernet to fibre conversion."
+    },
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-operation-mode-mismatch",
+  "name": "Microgrid generator operation-mode mismatch",
+  "kind": "symbol",
+  "abbreviation": "MGOM",
+  "aliases": [
+    "Microgrid generating-set coordination",
+    "microgrids Microgrid generating-set coordination",
+    "microgrids",
+    "Microgrids",
+    "Requested and reported generator modes",
+    "Generator mode mismatch alarm"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Detects disagreement between the requested generator control role and its reported mode.",
+  "description": [
+    "Detects disagreement between the requested generator control role and its reported mode. Generating-set coordination decides which available machines should operate and how their power contribution is shared. Engine starting, breaker connection, load acceptance and stopping are separate stages with their own feedback.",
+    "In a microgrid power station, the controller can request an additional generator when available reserve falls and later unload a selected machine before its documented stop sequence. For this reference, the drawing identifies “Requested and reported generator modes” at the input and “Generator mode mismatch alarm” at the output. A connected source may not accept every control mode.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Requested and reported generator modes. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Generator mode mismatch alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A connected source may not accept every control mode.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for requested and reported generator modes.",
+    "Identify the destination and defined state of generator mode mismatch alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A connected source may not accept every control mode."
+  ],
+  "distinction": "A connected source may not accept every control mode. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Requested and reported generator modes"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Generator mode mismatch alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGOM is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-genset-control",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "genset-controller",
+    "diesel-generator-set",
+    "microgrid-generator-start-demand-allocator"
+  ],
+  "artwork": "pi26-microgrid-generator-operation-mode-mismatch",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-gensets",
+    "input": "Requested and reported generator modes",
+    "output": "Generator mode mismatch alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-operation-mode-mismatch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-operation-mode-mismatch.svg",
+  "id": "microgrid-generator-operation-mode-mismatch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-operation-mode-mismatch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-operation-mode-mismatch.json",
+  "svgPath": "artwork/svg/microgrid-generator-operation-mode-mismatch.svg",
+  "referencePath": "references/microgrid-generator-operation-mode-mismatch.md",
+  "publicSources": [
+    {
+      "id": "pi26-genset-control",
+      "publisher": "DEIF",
+      "title": "AGC power management options G4, G5 and G8",
+      "url": "https://www.deif.com/media/5a4bx0xv/agc-3-option-g4-g5-and-g8-power-management-4189340696-uk.pdf",
+      "scope": "Generator start/stop, load sharing, reserve and power management.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

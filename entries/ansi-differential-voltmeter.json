@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-differential-voltmeter",
+  "name": "ANSI/IEEE differential voltmeter symbol",
+  "kind": "symbol",
+  "abbreviation": "ΔV",
+  "aliases": [
+    "IEEE differential voltmeter symbol",
+    "ANSI differential voltmeter symbol",
+    "HVM1P7"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library differential voltmeter form reading the difference between two voltages, for example across a synchronising point.",
+  "description": [
+    "A differential voltmeter reads the difference between two applied voltages rather than either voltage alone. In synchronising panels it is wired between the incoming and running VT secondaries so the operator can see when the voltage difference is small enough to close the breaker.",
+    "The symbol does not show whether both inputs come from the same phase, or whether VT ratios are matched. If the two VTs have different ratios or phase shifts through a transformer, the reading is meaningless unless interposing correction is drawn."
+  ],
+  "readingNotes": [
+    "Confirm both inputs are taken from the same phase pair.",
+    "Check the VT ratios on both sides of the closing point."
+  ],
+  "drawingChecklist": [
+    "Identify both voltage sources",
+    "Show phase reference",
+    "Note any ratio or angle correction"
+  ],
+  "distinction": "A differential voltmeter shows the difference between two voltages; a double voltmeter shows both voltages on separate scales.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HVM1P7 / VVM1P7 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Typical location",
+      "value": "Synchronising panel across a closing point"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Differential Voltmeter block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "differential-voltmeter",
+    "ansi-synchronoscope",
+    "double-voltmeter"
+  ],
+  "artwork": "s28-ansi-differential-voltmeter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Differential Voltmeter",
+    "counterpart": "differential-voltmeter",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-differential-voltmeter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-differential-voltmeter.svg",
+  "id": "ansi-differential-voltmeter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-differential-voltmeter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-differential-voltmeter.json",
+  "svgPath": "artwork/svg/ansi-differential-voltmeter.svg",
+  "referencePath": "references/ansi-differential-voltmeter.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Differential Voltmeter block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

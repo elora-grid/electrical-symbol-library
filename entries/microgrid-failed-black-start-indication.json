@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-failed-black-start-indication",
+  "name": "Microgrid failed-black-start indication",
+  "kind": "symbol",
+  "abbreviation": "MFI",
+  "aliases": [
+    "Microgrid black-start and restoration controls",
+    "microgrids Microgrid black-start and restoration controls",
+    "microgrids",
+    "Microgrids",
+    "Start request and reference feedback",
+    "Black-start failure alarm"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports failure to reach the assigned initial-reference conditions during a black-start attempt.",
+  "description": [
+    "Reports failure to reach the assigned initial-reference conditions during a black-start attempt. Black-start and restoration control coordinates the establishment of an electrical reference and the gradual return of assigned resources and loads. A dead system, an available starting source and a successful load restoration are distinct states.",
+    "In a microgrid recovering from a blackout, an available grid-forming source can establish the assigned island reference before compatible generation and eligible load groups are introduced under the validated restoration strategy. For this reference, the drawing identifies “Start request and reference feedback” at the input and “Black-start failure alarm” at the output. The alarm should retain its initiating cause.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Start request and reference feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Black-start failure alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The alarm should retain its initiating cause.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for start request and reference feedback.",
+    "Identify the destination and defined state of black-start failure alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The alarm should retain its initiating cause."
+  ],
+  "distinction": "The alarm should retain its initiating cause. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Start request and reference feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Black-start failure alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "microgrid-controller",
+    "microgrid-restoration-progress-recorder"
+  ],
+  "artwork": "pi26-microgrid-failed-black-start-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-restoration",
+    "input": "Start request and reference feedback",
+    "output": "Black-start failure alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-failed-black-start-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-failed-black-start-indication.svg",
+  "id": "microgrid-failed-black-start-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-failed-black-start-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-failed-black-start-indication.json",
+  "svgPath": "artwork/svg/microgrid-failed-black-start-indication.svg",
+  "referencePath": "references/microgrid-failed-black-start-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

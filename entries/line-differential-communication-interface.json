@@ -1,0 +1,105 @@
+{
+  "slug": "line-differential-communication-interface",
+  "name": "Line differential communication interface",
+  "kind": "symbol",
+  "abbreviation": "LDCI",
+  "aliases": [
+    "Substation protection scheme interfaces",
+    "substations Substation protection scheme interfaces",
+    "substations",
+    "Substations",
+    "Local and remote current information",
+    "Differential comparison data"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the exchanged current information used by the assigned line differential scheme.",
+  "description": [
+    "Identifies the exchanged current information used by the assigned line differential scheme. A protection scheme combines measurements, decision elements and communication or trip outputs to protect a defined part of the network. A function number names a job; the scheme interface shows how that job connects to other equipment.",
+    "In a substation feeder bay, local current and voltage measurements may combine with a remote-end signal before the protection issues the assigned trip request. Backup actions use their own defined initiations and supervision. For this reference, the drawing identifies “Local and remote current information” at the input and “Differential comparison data” at the output. Channel health affects scheme availability.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Local and remote current information. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Differential comparison data. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Channel health affects scheme availability.",
+    "Keep each protected zone, initiating quantity, blocking signal and trip destination distinct. Settings, communication performance and coordination require the approved protection study and selected relay documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for local and remote current information.",
+    "Identify the destination and defined state of differential comparison data.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Channel health affects scheme availability."
+  ],
+  "distinction": "Channel health affects scheme availability. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Local and remote current information"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Differential comparison data"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LDCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-sel-line",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "50bf-circuit-breaker-failure-protection",
+    "87b-busbar-differential-protection",
+    "permissive-overreach-transfer-trip-interface"
+  ],
+  "artwork": "pi26-line-differential-communication-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "protection-schemes",
+    "input": "Local and remote current information",
+    "output": "Differential comparison data"
+  },
+  "url": "https://eloragrid.ai/symbols/line-differential-communication-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/line-differential-communication-interface.svg",
+  "id": "line-differential-communication-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/line-differential-communication-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/line-differential-communication-interface.json",
+  "svgPath": "artwork/svg/line-differential-communication-interface.svg",
+  "referencePath": "references/line-differential-communication-interface.md",
+  "publicSources": [
+    {
+      "id": "pub-function-sel-line",
+      "title": "SEL-411L line differential protection overview",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/411l/",
+      "type": "manufacturer",
+      "scope": "Public explanation of communication-assisted line current differential protection and the associated terminal measurements. Product diagrams and technical papers remain on the publisher site.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation protection scheme interfaces. Line protection, breaker failure, communications and protection coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

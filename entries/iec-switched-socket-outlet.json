@@ -1,0 +1,119 @@
+{
+  "slug": "iec-switched-socket-outlet",
+  "name": "Switched socket outlet",
+  "kind": "symbol",
+  "abbreviation": "SSO",
+  "aliases": [
+    "socket outlet with switch",
+    "switched GPO",
+    "switched power point"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a socket outlet with its own integral switch that controls the supply to the plug.",
+  "description": [
+    "A switched socket outlet combines the outlet and a single-pole or double-pole switch in one accessory plate. On the plan the outlet half circle carries a short switch stroke with a tick, borrowed from the light-switch form, showing that the user can interrupt supply at the outlet without removing the plug.",
+    "Switched outlets are the norm in Australian and British domestic work and common in kitchens, offices and plant rooms elsewhere. The symbol helps the electrician choose the correct accessory and helps the estimator count switched against unswitched outlets, which differ in cost and in the depth of box required.",
+    "The mark does not say whether the switch breaks one pole or both, and it does not make the outlet suitable for isolation of fixed equipment. Pole count and any isolation duty should be stated in the specification."
+  ],
+  "readingNotes": [
+    "The switch stroke is attached to the outlet, not drawn as a separate switch symbol nearby.",
+    "Count switched and unswitched outlets separately when taking off quantities."
+  ],
+  "drawingChecklist": [
+    "Specify single-pole or double-pole switching.",
+    "Identify outlets that must be unswitched, such as refrigerator or server outlets.",
+    "Keep circuit tags and earthing information on the symbol."
+  ],
+  "distinction": "A socket outlet with interlocked switch prevents plug insertion or withdrawal while energised; a plain switched outlet only lets the user switch the supply.",
+  "facts": [
+    {
+      "label": "Drawing role",
+      "value": "Outlet with local on/off control"
+    },
+    {
+      "label": "Quantity note",
+      "value": "Counted separately from unswitched outlets"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Explains elementary switching functions such as isolation, control and functional switching."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "iec-socket-outlet-with-protective-contact",
+    "iec-socket-outlet-with-interlocked-switch",
+    "iec-duplex-power-receptacle"
+  ],
+  "artwork": "s28-iec-switched-socket-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Switched socket outlet",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-switched-socket-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-switched-socket-outlet.svg",
+  "id": "iec-switched-socket-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-switched-socket-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-switched-socket-outlet.json",
+  "svgPath": "artwork/svg/iec-switched-socket-outlet.svg",
+  "referencePath": "references/iec-switched-socket-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains elementary switching functions such as isolation, control and functional switching."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

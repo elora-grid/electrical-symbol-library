@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-capacitive-proximity-switch",
+  "name": "ANSI/IEEE Capacitive proximity switch form",
+  "kind": "symbol",
+  "abbreviation": "PROX CAP",
+  "aliases": [
+    "HPX1C",
+    "VPX1C",
+    "IEEE Capacitive",
+    "ANSI Capacitive proximity switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of capacitive proximity switch: a capacitive proximity switch detects a target through a change in its sensing capacitance.",
+  "description": [
+    "This reference locates capacitive proximity switch in Autodesk's IEEE-oriented capacitive switches family. A capacitive proximity switch detects a target through a change in its sensing capacitance. Its supply and switching output are shown separately from the target or process material. The public library uses HPX1C for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Read sensitivity and target conditions from the product selection. Capacitive sensing is different from inductive metal-target sensing. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Read sensitivity and target conditions from the product selection.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify supply terminals",
+    "State output function",
+    "Reference target material and sensitivity"
+  ],
+  "distinction": "Capacitive sensing is different from inductive metal-target sensing.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Capacitive Switches; published form: Capacitive."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX1C. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-capacitive-switches",
+      "relevance": "Public IEEE-oriented Capacitive Switches table explicitly lists HPX1C as Capacitive. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "capacitive-proximity-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-capacitive-proximity-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Capacitive",
+    "reference": "Autodesk IEEE Symbol Preview: Capacitive Switches, block HPX1C. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "capacitive-proximity-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-capacitive-proximity-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-capacitive-proximity-switch.svg",
+  "id": "ansi-capacitive-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-capacitive-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-capacitive-proximity-switch.json",
+  "svgPath": "artwork/svg/ansi-capacitive-proximity-switch.svg",
+  "referencePath": "references/ansi-capacitive-proximity-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-capacitive-switches",
+      "title": "Autodesk IEEE Symbol Preview: Capacitive Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0A02EC13-587A-4116-8052-B5C587CC11D0.htm",
+      "type": "cad-reference",
+      "scope": "Public capacitive switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Capacitive Switches table explicitly lists HPX1C as Capacitive. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

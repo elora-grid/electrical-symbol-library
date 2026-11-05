@@ -1,0 +1,105 @@
+{
+  "slug": "digital-secondary-test-mode-indication",
+  "name": "Digital secondary test-mode indication",
+  "kind": "symbol",
+  "abbreviation": "DSTI",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Test or simulation status",
+    "Digital test-mode indication"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the selected test or simulation state used by a digital-secondary application.",
+  "description": [
+    "Identifies the selected test or simulation state used by a digital-secondary application. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Test or simulation status” at the input and “Digital test-mode indication” at the output. Test behavior must match the selected devices.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Test or simulation status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Digital test-mode indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Test behavior must match the selected devices.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for test or simulation status.",
+    "Identify the destination and defined state of digital test-mode indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Test behavior must match the selected devices."
+  ],
+  "distinction": "Test behavior must match the selected devices. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Test or simulation status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Digital test-mode indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DSTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "process-bus-maintenance-isolation-boundary"
+  ],
+  "artwork": "pi26-digital-secondary-test-mode-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Test or simulation status",
+    "output": "Digital test-mode indication"
+  },
+  "url": "https://eloragrid.ai/symbols/digital-secondary-test-mode-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/digital-secondary-test-mode-indication.svg",
+  "id": "digital-secondary-test-mode-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/digital-secondary-test-mode-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/digital-secondary-test-mode-indication.json",
+  "svgPath": "artwork/svg/digital-secondary-test-mode-indication.svg",
+  "referencePath": "references/digital-secondary-test-mode-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

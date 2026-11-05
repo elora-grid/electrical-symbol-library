@@ -1,0 +1,91 @@
+{
+  "slug": "ansi-three-input-and-gate",
+  "name": "ANSI three-input AND gate",
+  "kind": "symbol",
+  "abbreviation": "AND3",
+  "aliases": [
+    "3-input AND gate",
+    "triple-input AND",
+    "distinctive-shape AND3"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "D-shaped AND outline with three input leads; the output is high only when all three inputs are high.",
+  "description": [
+    "The three-input AND keeps the familiar flat-backed D outline and simply adds a third input lead on the flat side. All three inputs must be at logic 1 in positive logic for the output to be at logic 1. Packages such as triple three-input AND devices provide this function directly.",
+    "Drafters use the wider gate rather than cascading two-input gates when the function is a single permissive with three conditions, such as guard closed, pressure healthy and mode selected. A single symbol keeps the logic readable and avoids implying an intermediate signal that does not exist.",
+    "The outline does not show whether an unused input is tied high when a three-input part is used for two signals. Unused inputs on the physical device need a defined level shown on the schematic."
+  ],
+  "readingNotes": [
+    "Count the input leads; a third input is easy to overlook where leads are closely spaced.",
+    "Check unused inputs are tied to a defined level."
+  ],
+  "drawingChecklist": [
+    "Space the three inputs evenly along the flat side.",
+    "Label each permissive signal.",
+    "Show tie-offs for unused inputs on multi-input packages."
+  ],
+  "distinction": "A two-input AND followed by another AND produces the same logic but implies an intermediate net.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Three"
+    },
+    {
+      "label": "Example device family",
+      "value": "Triple three-input AND packages"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc11",
+      "relevance": "Manufacturer documentation for triple three-input AND gates."
+    }
+  ],
+  "related": [
+    "logic-and-gate",
+    "iec-and-gate",
+    "ansi-four-input-nand-gate"
+  ],
+  "artwork": "s28-ansi-three-input-and-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "D-shaped AND outline with three inputs",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-and-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-input-and-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-input-and-gate.svg",
+  "id": "ansi-three-input-and-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-input-and-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-input-and-gate.json",
+  "svgPath": "artwork/svg/ansi-three-input-and-gate.svg",
+  "referencePath": "references/ansi-three-input-and-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc11",
+      "title": "SNx4HC11 triple 3-input AND gates",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc11.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for three-input AND gates.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for triple three-input AND gates."
+    }
+  ]
+}

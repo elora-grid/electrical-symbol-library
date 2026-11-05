@@ -1,0 +1,105 @@
+{
+  "slug": "secondary-injection-current-input-boundary",
+  "name": "Secondary-injection current input boundary",
+  "kind": "symbol",
+  "abbreviation": "SCIB",
+  "aliases": [
+    "Switchgear test and commissioning interfaces",
+    "switchgear Switchgear test and commissioning interfaces",
+    "switchgear",
+    "Switchgear",
+    "Injection current source",
+    "Relay current input"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies where a test source applies current to the assigned measuring input circuit.",
+  "description": [
+    "Identifies where a test source applies current to the assigned measuring input circuit. A test interface separates measurement, command and indication paths so their behavior can be checked in the documented test configuration. The test boundary must show which real equipment outputs remain enabled.",
+    "In a switchgear relay panel, test links can separate a protective relay from the trip coils while maintaining the specified current-transformer secondary arrangement. For this reference, the drawing identifies “Injection current source” at the input and “Relay current input” at the output. The live CT connection needs a separate defined arrangement.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Injection current source. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Relay current input. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The live CT connection needs a separate defined arrangement.",
+    "Trace the source and destination on each side of the test boundary. Use the selected test-device instructions for actual operations and never infer a safe current-transformer switching sequence from an educational diagram."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for injection current source.",
+    "Identify the destination and defined state of relay current input.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The live CT connection needs a separate defined arrangement."
+  ],
+  "distinction": "The live CT connection needs a separate defined arrangement. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Injection current source"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Relay current input"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SCIB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relay-test-block",
+    "test-plug",
+    "secondary-injection-voltage-input-boundary"
+  ],
+  "artwork": "pi26-secondary-injection-current-input-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "testing",
+    "input": "Injection current source",
+    "output": "Relay current input"
+  },
+  "url": "https://eloragrid.ai/symbols/secondary-injection-current-input-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/secondary-injection-current-input-boundary.svg",
+  "id": "secondary-injection-current-input-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/secondary-injection-current-input-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/secondary-injection-current-input-boundary.json",
+  "svgPath": "artwork/svg/secondary-injection-current-input-boundary.svg",
+  "referencePath": "references/secondary-injection-current-input-boundary.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear test and commissioning interfaces. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

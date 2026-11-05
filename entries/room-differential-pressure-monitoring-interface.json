@@ -1,0 +1,105 @@
+{
+  "slug": "room-differential-pressure-monitoring-interface",
+  "name": "Room differential-pressure monitoring interface",
+  "kind": "symbol",
+  "abbreviation": "RDMI",
+  "aliases": [
+    "Switchroom environmental supervision",
+    "switchrooms Switchroom environmental supervision",
+    "switchrooms",
+    "Switchrooms",
+    "Room differential pressure",
+    "Pressure status signal"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the measured pressure difference used by the selected room ventilation strategy.",
+  "description": [
+    "Identifies the measured pressure difference used by the selected room ventilation strategy. Environmental supervision turns measurements or contact states into clearly named room-service indications. A sensor measures a condition; the supervisory function decides whether the assigned alarm or control response is needed.",
+    "In a switchroom, water ingress, temperature, humidity and equipment-service alarms can be sent to the station controller with separate point names so an operator can identify the affected area. For this reference, the drawing identifies “Room differential pressure” at the input and “Pressure status signal” at the output. The required pressure regime is project-specific.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Room differential pressure. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Pressure status signal. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The required pressure regime is project-specific.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for room differential pressure.",
+    "Identify the destination and defined state of pressure status signal.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The required pressure regime is project-specific."
+  ],
+  "distinction": "The required pressure regime is project-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Room differential pressure"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Pressure status signal"
+    },
+    {
+      "label": "Lookup label",
+      "value": "RDMI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relative-humidity-sensor",
+    "temperature-indicator",
+    "switchroom-filter-maintenance-indication"
+  ],
+  "artwork": "pi26-room-differential-pressure-monitoring-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-environment",
+    "input": "Room differential pressure",
+    "output": "Pressure status signal"
+  },
+  "url": "https://eloragrid.ai/symbols/room-differential-pressure-monitoring-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/room-differential-pressure-monitoring-interface.svg",
+  "id": "room-differential-pressure-monitoring-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/room-differential-pressure-monitoring-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/room-differential-pressure-monitoring-interface.json",
+  "svgPath": "artwork/svg/room-differential-pressure-monitoring-interface.svg",
+  "referencePath": "references/room-differential-pressure-monitoring-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

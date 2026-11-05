@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-excitation-reference-interface",
+  "name": "Microgrid generator excitation reference interface",
+  "kind": "symbol",
+  "abbreviation": "MGERI",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Authorized excitation demand",
+    "Generator regulator reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers the assigned voltage or reactive-control demand to the generator excitation-control interface.",
+  "description": [
+    "Transfers the assigned voltage or reactive-control demand to the generator excitation-control interface. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Authorized excitation demand” at the input and “Generator regulator reference” at the output. The generator regulator defines the accepted interface.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Authorized excitation demand. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Generator regulator reference. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The generator regulator defines the accepted interface.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for authorized excitation demand.",
+    "Identify the destination and defined state of generator regulator reference.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The generator regulator defines the accepted interface."
+  ],
+  "distinction": "The generator regulator defines the accepted interface. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Authorized excitation demand"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Generator regulator reference"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGERI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-bus-voltage-deviation-monitor"
+  ],
+  "artwork": "pi26-microgrid-generator-excitation-reference-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Authorized excitation demand",
+    "output": "Generator regulator reference"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-excitation-reference-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-excitation-reference-interface.svg",
+  "id": "microgrid-generator-excitation-reference-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-excitation-reference-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-excitation-reference-interface.json",
+  "svgPath": "artwork/svg/microgrid-generator-excitation-reference-interface.svg",
+  "referencePath": "references/microgrid-generator-excitation-reference-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

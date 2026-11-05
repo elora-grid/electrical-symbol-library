@@ -1,0 +1,117 @@
+{
+  "slug": "ansi-neutral-unbalance-relay-between-two-systems",
+  "name": "ANSI/IEEE Neutral-unbalance relay between two polyphase systems form",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "HCR1F33",
+    "VCR1F33",
+    "IEEE In Neutral between 2 Multi-Phase Systems",
+    "ANSI Neutral-unbalance relay between two polyphase systems"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library reference for neutral-unbalance relay between two polyphase systems, with its operating meaning, connection notes and public vendor block identity.",
+  "description": [
+    "This reference locates neutral-unbalance relay between two polyphase systems in Autodesk's IEEE-oriented current protection relays family. This form shows a current relay in the conductor that joins the neutral points of two star-connected polyphase systems. A familiar application is the double-star capacitor bank, where a CT in the link between the two star points detects unbalance caused by failed capacitor units. The public library uses HCR1F33 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "In a healthy balanced arrangement the link carries little current, so the relay setting is a small fraction of phase current and must allow for natural unbalance. The symbol does not tell you the alarm and trip stages or the compensation for inherent unbalance; those are in the bank protection settings. Identify the two star points joined by the measured link. This relay measures the link between two star points; a neutral-current relay measures one neutral path to earth or to the supply. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the two star points joined by the measured link.",
+    "Look for separate alarm and trip stages."
+  ],
+  "drawingChecklist": [
+    "Show the interconnecting link and CT",
+    "State alarm and trip settings",
+    "Note inherent unbalance compensation"
+  ],
+  "distinction": "This relay measures the link between two star points; a neutral-current relay measures one neutral path to earth or to the supply.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Current Protection Relays; published form: In Neutral between 2 Multi-Phase Systems."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F33. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Measured quantity",
+      "value": "Current in a neutral interconnection between two systems"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-current-protection-relays",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F33 as In Neutral between 2 Multi-Phase Systems. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "neutral-unbalance-relay-between-two-systems",
+    "neutral-current-relay",
+    "60-voltage-or-current-balance-relay",
+    "current-transformer"
+  ],
+  "artwork": "s28-ansi-neutral-unbalance-relay-between-two-systems",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "In Neutral between 2 Multi-Phase Systems",
+    "reference": "Autodesk IEEE Symbol Preview: Current Protection Relays, block HCR1F33. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "neutral-unbalance-relay-between-two-systems"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-neutral-unbalance-relay-between-two-systems",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-neutral-unbalance-relay-between-two-systems.svg",
+  "id": "ansi-neutral-unbalance-relay-between-two-systems",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-neutral-unbalance-relay-between-two-systems",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-neutral-unbalance-relay-between-two-systems.json",
+  "svgPath": "artwork/svg/ansi-neutral-unbalance-relay-between-two-systems.svg",
+  "referencePath": "references/ansi-neutral-unbalance-relay-between-two-systems.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-current-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Current Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC11EC4D-374C-4191-9534-C802D3932711.htm",
+      "type": "cad-reference",
+      "scope": "Public current protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F33 as In Neutral between 2 Multi-Phase Systems. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

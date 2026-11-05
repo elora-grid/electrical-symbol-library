@@ -1,0 +1,105 @@
+{
+  "slug": "built-on-earthing-switch-connection",
+  "name": "Built-on earthing-switch connection",
+  "kind": "symbol",
+  "abbreviation": "BEC",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Selected device conductor section",
+    "Built-on earthing path"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the earthing function mounted with the selected primary switching assembly.",
+  "description": [
+    "Identifies the earthing function mounted with the selected primary switching assembly. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Selected device conductor section” at the input and “Built-on earthing path” at the output. Mechanical integration does not define all electrical interlocks.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Selected device conductor section. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Built-on earthing path. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Mechanical integration does not define all electrical interlocks.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for selected device conductor section.",
+    "Identify the destination and defined state of built-on earthing path.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Mechanical integration does not define all electrical interlocks."
+  ],
+  "distinction": "Mechanical integration does not define all electrical interlocks. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Selected device conductor section"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Built-on earthing path"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BEC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "bus-selector-earthing-switch-association"
+  ],
+  "artwork": "pi26-built-on-earthing-switch-connection",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Selected device conductor section",
+    "output": "Built-on earthing path"
+  },
+  "url": "https://eloragrid.ai/symbols/built-on-earthing-switch-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/built-on-earthing-switch-connection.svg",
+  "id": "built-on-earthing-switch-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/built-on-earthing-switch-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/built-on-earthing-switch-connection.json",
+  "svgPath": "artwork/svg/built-on-earthing-switch-connection.svg",
+  "referencePath": "references/built-on-earthing-switch-connection.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

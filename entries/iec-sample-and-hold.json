@@ -1,0 +1,106 @@
+{
+  "slug": "iec-sample-and-hold",
+  "name": "IEC sample-and-hold element",
+  "kind": "symbol",
+  "abbreviation": "S/H",
+  "aliases": [
+    "sample-hold element",
+    "track-and-hold element",
+    "S/H block"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Analogue element marked S/H with a digital control input; it tracks the input, then holds the last value.",
+  "description": [
+    "The sample-and-hold element has an analogue input, an analogue output and a digital control input. While the control is in the sample state the output follows the input; when it changes to hold, the output keeps the last value. IEC-style analogue diagrams mark the digital control input with a # sign, as TI's overview describes for digital inputs on analogue symbols.",
+    "Sample-and-hold stages appear in front of analogue-to-digital converters, in multiplexed measurement systems and in peak capture. The drawing should show the control signal source and the hold capacitor, because the hold quality depends on it.",
+    "The element does not show droop rate, acquisition time or aperture delay. Those are device and component properties. Check the acquisition interval and hold duration against the measurement sequence and the selected component data."
+  ],
+  "readingNotes": [
+    "Identify the digital control input and its sense.",
+    "Find the hold capacitor."
+  ],
+  "drawingChecklist": [
+    "Mark the control input as digital.",
+    "Show the hold capacitor value.",
+    "State acquisition and hold timing where critical."
+  ],
+  "distinction": "An analogue switch alone passes signals; the S/H element includes the hold storage and buffering.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Analogue signal plus digital control"
+    },
+    {
+      "label": "Key parameters",
+      "value": "Acquisition time, droop"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Describes # as the marking for digital inputs on analogue symbols."
+    },
+    {
+      "sourceId": "pub-electronics-adi-sample-hold",
+      "relevance": "Manufacturer sample-and-hold application note."
+    }
+  ],
+  "related": [
+    "sample-and-hold-amplifier",
+    "analog-to-digital-converter",
+    "analog-bilateral-switch"
+  ],
+  "artwork": "s28-iec-sample-and-hold",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular analogue element with S/H function and a digital control input",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "sample-and-hold-amplifier"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-sample-and-hold",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-sample-and-hold.svg",
+  "id": "iec-sample-and-hold",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-sample-and-hold",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-sample-and-hold.json",
+  "svgPath": "artwork/svg/iec-sample-and-hold.svg",
+  "referencePath": "references/iec-sample-and-hold.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Describes # as the marking for digital inputs on analogue symbols."
+    },
+    {
+      "id": "pub-electronics-adi-sample-hold",
+      "title": "AN-1515: sample-and-hold function using an analogue switch",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/resources/app-notes/an-1515.html",
+      "type": "manufacturer",
+      "scope": "Public application note establishing the sample-and-hold acquisition function. No complete manufacturer example circuit or component values are reproduced.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer sample-and-hold application note."
+    }
+  ]
+}

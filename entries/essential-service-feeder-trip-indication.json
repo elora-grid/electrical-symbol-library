@@ -1,0 +1,105 @@
+{
+  "slug": "essential-service-feeder-trip-indication",
+  "name": "Essential-service feeder trip indication",
+  "kind": "symbol",
+  "abbreviation": "EFTI",
+  "aliases": [
+    "Switchroom auxiliary AC distribution",
+    "switchrooms Switchroom auxiliary AC distribution",
+    "switchrooms",
+    "Switchrooms",
+    "Branch protective-device status",
+    "Essential feeder fault alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies an operated protective device on the assigned essential service branch.",
+  "description": [
+    "Identifies an operated protective device on the assigned essential service branch. An auxiliary AC distribution diagram identifies the supplies serving room services and control-support equipment. Essential, backed-up and ordinary circuits can have different source paths and operating priorities.",
+    "In a switchroom, the lighting, service sockets, charger input and room cooling may be fed from different auxiliary branches. A source change must preserve the identities of loads that require continuity. For this reference, the drawing identifies “Branch protective-device status” at the input and “Essential feeder fault alarm” at the output. Alarm naming must identify the actual branch.",
+    "Label source, branch protection and load purpose. The arrangement does not establish conductor sizes, protection settings or installation compliance; it links the operating role to the selected equipment schedule. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Branch protective-device status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Essential feeder fault alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Alarm naming must identify the actual branch.",
+    "Label source, branch protection and load purpose. The arrangement does not establish conductor sizes, protection settings or installation compliance; it links the operating role to the selected equipment schedule."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for branch protective-device status.",
+    "Identify the destination and defined state of essential feeder fault alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Alarm naming must identify the actual branch."
+  ],
+  "distinction": "Alarm naming must identify the actual branch. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Branch protective-device status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Essential feeder fault alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "EFTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-power",
+      "relevance": "Public technical context for switchroom auxiliary ac distribution. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-panel-service-outlet",
+    "ac-uninterruptible-power-supply",
+    "auxiliary-board-load-shedding-input"
+  ],
+  "artwork": "pi26-essential-service-feeder-trip-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-ac",
+    "input": "Branch protective-device status",
+    "output": "Essential feeder fault alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/essential-service-feeder-trip-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/essential-service-feeder-trip-indication.svg",
+  "id": "essential-service-feeder-trip-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/essential-service-feeder-trip-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/essential-service-feeder-trip-indication.json",
+  "svgPath": "artwork/svg/essential-service-feeder-trip-indication.svg",
+  "referencePath": "references/essential-service-feeder-trip-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-power",
+      "publisher": "SEL",
+      "title": "SEL-RPM redundant power module",
+      "url": "https://selinc.com/products/RPM/",
+      "scope": "Independent AC and DC sources for station auxiliary power.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom auxiliary ac distribution. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

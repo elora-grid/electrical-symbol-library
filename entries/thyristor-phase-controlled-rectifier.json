@@ -1,0 +1,106 @@
+{
+  "slug": "thyristor-phase-controlled-rectifier",
+  "name": "Thyristor phase-controlled rectifier",
+  "kind": "symbol",
+  "abbreviation": "SCR REC",
+  "aliases": [
+    "controlled rectifier",
+    "SCR rectifier",
+    "six-pulse thyristor converter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An AC-to-DC converter using thyristors fired at a controlled angle to set its DC output voltage.",
+  "description": [
+    "A phase-controlled rectifier uses thyristors instead of diodes, so the firing angle sets the average DC output voltage. Six-pulse bridges are widely used for large battery chargers, electrolysers, DC drives and older UPS rectifiers because they are robust and simple to control.",
+    "On single-line diagrams it appears as the rectifier box with AC and DC marks plus a thyristor or control qualifier, or as a bridge of thyristor symbols on detailed schematics. A rectifier transformer, line reactor and harmonic filter are often drawn upstream.",
+    "Reducing the output voltage by delaying firing also lowers the input power factor, and the converter draws characteristic harmonics at 5th, 7th, 11th and 13th orders. The symbol does not show these effects, which must be assessed with the network harmonic study."
+  ],
+  "readingNotes": [
+    "A thyristor mark inside or beside the rectifier block distinguishes it from a diode rectifier.",
+    "Expect harmonic filtering or a phase-shifting transformer on large units."
+  ],
+  "drawingChecklist": [
+    "State pulse number and DC rating.",
+    "Show rectifier transformer and line reactor.",
+    "Reference harmonic study and filter design."
+  ],
+  "distinction": "A phase-controlled rectifier sets voltage by firing angle; an active front-end rectifier uses switched transistors and can run near unity power factor.",
+  "facts": [
+    {
+      "label": "Switching device",
+      "value": "Thyristor"
+    },
+    {
+      "label": "Control",
+      "value": "Firing angle"
+    },
+    {
+      "label": "Characteristic harmonics",
+      "value": "6k plus or minus 1 for a six-pulse bridge"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-semiconductors",
+      "relevance": "Public semiconductor symbol family including thyristor forms."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ],
+  "related": [
+    "silicon-controlled-rectifier",
+    "three-phase-bridge-rectifier",
+    "twelve-pulse-rectifier",
+    "active-front-end-rectifier"
+  ],
+  "artwork": "s28-thyristor-phase-controlled-rectifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/thyristor-phase-controlled-rectifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/thyristor-phase-controlled-rectifier.svg",
+  "id": "thyristor-phase-controlled-rectifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/thyristor-phase-controlled-rectifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/thyristor-phase-controlled-rectifier.json",
+  "svgPath": "artwork/svg/thyristor-phase-controlled-rectifier.svg",
+  "referencePath": "references/thyristor-phase-controlled-rectifier.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-semiconductors",
+      "title": "AutoCAD Electrical: Semiconductor components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-AC954072-7314-4682-88AF-38160D61E9A2.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public semiconductor symbol family including thyristor forms."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ]
+}

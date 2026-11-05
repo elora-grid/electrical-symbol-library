@@ -1,0 +1,83 @@
+{
+  "slug": "energy-meter-repeater",
+  "name": "Energy meter repeater",
+  "kind": "symbol",
+  "abbreviation": "kWh",
+  "aliases": [
+    "slave energy register",
+    "remote reading meter",
+    "energy counter receiver"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Remote register that counts pulses from a transmitting energy meter and repeats its reading at another location.",
+  "description": [
+    "An energy meter repeater has no measuring inputs of its own. It counts pulses from a transmitting meter and displays the resulting energy at a control room or tenant panel, so on the drawing it connects only to a signal circuit rather than to CTs and VTs.",
+    "Because it counts pulses, the repeater can drift from the master meter if pulses are lost or the supply is interrupted. The symbol does not show whether it has non-volatile memory or how it is reconciled with the master, which matters if the repeater is used for billing."
+  ],
+  "readingNotes": [
+    "Confirm the repeater has no direct measuring inputs.",
+    "Check the pulse weight matches the transmitting meter."
+  ],
+  "drawingChecklist": [
+    "Reference the master meter",
+    "State pulse weight",
+    "Show signal supply"
+  ],
+  "distinction": "A repeater counts pulses from another meter; a summation meter adds pulses from several meters.",
+  "facts": [
+    {
+      "label": "Input",
+      "value": "Pulse signal from a transmitting meter"
+    },
+    {
+      "label": "Measuring inputs",
+      "value": "None"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "energy-meter-with-pulse-transmitter",
+    "summation-energy-meter",
+    "active-energy-meter"
+  ],
+  "artwork": "s28-energy-meter-repeater",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/energy-meter-repeater",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/energy-meter-repeater.svg",
+  "id": "energy-meter-repeater",
+  "canonicalUrl": "https://eloragrid.ai/symbols/energy-meter-repeater",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/energy-meter-repeater.json",
+  "svgPath": "artwork/svg/energy-meter-repeater.svg",
+  "referencePath": "references/energy-meter-repeater.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

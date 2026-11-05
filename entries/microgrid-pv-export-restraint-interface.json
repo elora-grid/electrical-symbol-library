@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-pv-export-restraint-interface",
+  "name": "Microgrid PV export-restraint interface",
+  "kind": "symbol",
+  "abbreviation": "MPEI",
+  "aliases": [
+    "Microgrid renewable-generation interfaces",
+    "microgrids Microgrid renewable-generation interfaces",
+    "microgrids",
+    "Microgrids",
+    "Site export limit demand",
+    "PV output restraint"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects the assigned site export-control demand to the PV dispatch limiter.",
+  "description": [
+    "Connects the assigned site export-control demand to the PV dispatch limiter. Renewable-generation coordination connects variable resource availability, inverter operating limits and the microgrid power target. Available solar or wind power, an issued curtailment request and actual delivered power are different signals.",
+    "In a microgrid with solar generation, the controller can restrain inverter output when local load and storage cannot absorb the available power. The resource controller reports its own availability and accepted operating limits. For this reference, the drawing identifies “Site export limit demand” at the input and “PV output restraint” at the output. Other resources can also affect PCC export.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Site export limit demand. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: PV output restraint. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Other resources can also affect PCC export.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for site export limit demand.",
+    "Identify the destination and defined state of pv output restraint.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Other resources can also affect PCC export."
+  ],
+  "distinction": "Other resources can also affect PCC export. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Site export limit demand"
+    },
+    {
+      "label": "Output / connection",
+      "value": "PV output restraint"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MPEI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-pv-control",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "pv-string-inverter",
+    "photovoltaic-string-combiner",
+    "microgrid-pv-ramp-rate-coordination"
+  ],
+  "artwork": "pi26-microgrid-pv-export-restraint-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-renewables",
+    "input": "Site export limit demand",
+    "output": "PV output restraint"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-pv-export-restraint-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-pv-export-restraint-interface.svg",
+  "id": "microgrid-pv-export-restraint-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-pv-export-restraint-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-pv-export-restraint-interface.json",
+  "svgPath": "artwork/svg/microgrid-pv-export-restraint-interface.svg",
+  "referencePath": "references/microgrid-pv-export-restraint-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-pv-control",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid processing and control functions",
+      "url": "https://productinfo.se.com/esxp_digital_apps_iec/mg/English/BM_ESXP_DG_Microgrid_IEC_0001122076.xml/%24/ESXP_DG_MG_SD_Processing_0001125595",
+      "scope": "Renewable generation dispatch and microgrid source coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

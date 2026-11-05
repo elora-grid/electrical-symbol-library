@@ -1,0 +1,117 @@
+{
+  "slug": "ansi-residual-current-breaker-with-overcurrent-protection",
+  "name": "ANSI/IEEE Residual-current breaker with overcurrent protection form",
+  "kind": "symbol",
+  "abbreviation": "RCBO",
+  "aliases": [
+    "HCB11Q13",
+    "VCB11Q13",
+    "IEEE Magneto/Thermal with Differential",
+    "ANSI Residual-current breaker with overcurrent protection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of residual-current breaker with overcurrent protection: an RCBO combines residual-current operation with overcurrent protection in one device.",
+  "description": [
+    "This reference locates residual-current breaker with overcurrent protection in Autodesk's IEEE-oriented 1 pole circuit breakers family. An RCBO combines residual-current operation with overcurrent protection in one device. It is often shown as a combined protective function rather than as two unrelated devices. The public library uses HCB11Q13 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Identify which neutral connection is switched, sensed or permanently connected for the selected model. An RCBO differs from an RCCB by its integral overcurrent protective function. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify which neutral connection is switched, sensed or permanently connected for the selected model.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record residual-current type",
+    "Record overcurrent curve and rating",
+    "Verify neutral terminal connections"
+  ],
+  "distinction": "An RCBO differs from an RCCB by its integral overcurrent protective function.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 1 Pole Circuit Breakers; published form: Magneto/Thermal with Differential."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCB11Q13. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Circuit interruption"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7f08a484-0517-4954-bd68-1648ddbc84a1",
+      "relevance": "Public IEEE-oriented 1 Pole Circuit Breakers table explicitly lists HCB11Q13 as Magneto/Thermal with Differential. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "breaker-characteristics",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ],
+  "related": [
+    "residual-current-breaker-with-overcurrent-protection",
+    "circuit-breaker",
+    "core-balance-current-transformer",
+    "protective-earth"
+  ],
+  "artwork": "s28-ansi-residual-current-breaker-with-overcurrent-protection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Magneto/Thermal with Differential",
+    "reference": "Autodesk IEEE Symbol Preview: 1 Pole Circuit Breakers, block HCB11Q13. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "residual-current-breaker-with-overcurrent-protection"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-residual-current-breaker-with-overcurrent-protection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-residual-current-breaker-with-overcurrent-protection.svg",
+  "id": "ansi-residual-current-breaker-with-overcurrent-protection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-residual-current-breaker-with-overcurrent-protection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-residual-current-breaker-with-overcurrent-protection.json",
+  "svgPath": "artwork/svg/ansi-residual-current-breaker-with-overcurrent-protection.svg",
+  "referencePath": "references/ansi-residual-current-breaker-with-overcurrent-protection.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7f08a484-0517-4954-bd68-1648ddbc84a1",
+      "title": "Autodesk IEEE Symbol Preview — 1 Pole Circuit Breakers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7F08A484-0517-4954-BD68-1648DDBC84A1.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 1 Pole Circuit Breakers table explicitly lists HCB11Q13 as Magneto/Thermal with Differential. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "breaker-characteristics",
+      "title": "Fundamental characteristics of a circuit-breaker",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Fundamental_characteristics_of_a_circuit-breaker",
+      "type": "manufacturer",
+      "scope": "Voltage, current, tripping and breaking-capacity concepts; not a product selection or settings prescription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public documentation of this equipment function or named vendor variant; the illustration is independently authored and is not the source graphic."
+    }
+  ]
+}

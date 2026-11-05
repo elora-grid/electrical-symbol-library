@@ -1,0 +1,106 @@
+{
+  "slug": "iec-odd-parity-element",
+  "name": "IEC odd-parity element",
+  "kind": "symbol",
+  "abbreviation": "2k+1",
+  "aliases": [
+    "odd-number-active element",
+    "2k+1 qualifier element",
+    "odd parity gate"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Element marked 2k+1 that is active when an odd number of inputs are active, as used for parity.",
+  "description": [
+    "The 2k+1 qualifier means the output is active when an odd number of inputs are active. It is what a cascade of two-input exclusive-OR gates actually computes, and it is the correct IEC qualifier for an odd-parity tree drawn as a single element.",
+    "Drafters converting older drawings sometimes mark a multi-input parity tree as =1. That is wrong under the IEC meaning, because =1 requires exactly one active input. Replacing it with 2k+1 removes the ambiguity.",
+    "The element does not indicate the number of data bits on its own; show the full input set or a grouped bus with its width."
+  ],
+  "readingNotes": [
+    "Do not read 2k+1 as exactly one active.",
+    "Check whether the result is used as odd or even parity downstream."
+  ],
+  "drawingChecklist": [
+    "Use 2k+1 for multi-input parity trees.",
+    "State the word width.",
+    "Reference the parity convention used by the protocol or memory."
+  ],
+  "distinction": "The =1 element gives the same result only for two inputs.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "2k+1 (odd number active)"
+    },
+    {
+      "label": "Two-input equivalent",
+      "value": "Exclusive-OR"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines 2k+1 and contrasts it with =1."
+    },
+    {
+      "sourceId": "pub-electronics-ti-ls280",
+      "relevance": "Manufacturer parity generator and checker documentation."
+    }
+  ],
+  "related": [
+    "parity-generator-checker",
+    "iec-even-parity-element",
+    "iec-xor-gate"
+  ],
+  "artwork": "s28-iec-odd-parity-element",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with the 2k+1 general qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "parity-generator-checker"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-odd-parity-element",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-odd-parity-element.svg",
+  "id": "iec-odd-parity-element",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-odd-parity-element",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-odd-parity-element.json",
+  "svgPath": "artwork/svg/iec-odd-parity-element.svg",
+  "referencePath": "references/iec-odd-parity-element.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines 2k+1 and contrasts it with =1."
+    },
+    {
+      "id": "pub-electronics-ti-ls280",
+      "title": "SN74LS280 — odd/even parity generation and checking",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74LS280",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of odd/even parity generation and checking. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer parity generator and checker documentation."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "shutter-access-interlock-interface",
+  "name": "Shutter-access interlock interface",
+  "kind": "symbol",
+  "abbreviation": "SII",
+  "aliases": [
+    "Switchgear interlocking functions",
+    "switchgear Switchgear interlocking functions",
+    "switchgear",
+    "Switchgear",
+    "Shutter and access conditions",
+    "Access interlock status"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Relates primary-contact shutter position to the documented access restrictions.",
+  "description": [
+    "Relates primary-contact shutter position to the documented access restrictions. An interlocking function permits or blocks an operation according to the positions and conditions of related equipment. Electrical, mechanical and trapped-key interlocks implement different parts of a coordinated operating philosophy.",
+    "In a switchgear feeder panel, a control diagram can prevent an incompatible combination of breaker, disconnector and earthing-switch positions. The physical equipment documents determine which restrictions are mechanically enforced. For this reference, the drawing identifies “Shutter and access conditions” at the input and “Access interlock status” at the output. The indication is not authorization to approach live contacts.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Shutter and access conditions. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Access interlock status. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The indication is not authorization to approach live contacts.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for shutter and access conditions.",
+    "Identify the destination and defined state of access interlock status.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The indication is not authorization to approach live contacts."
+  ],
+  "distinction": "The indication is not authorization to approach live contacts. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Shutter and access conditions"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Access interlock status"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-mechanical-interlock-between-devices",
+    "earthing-switch",
+    "cable-compartment-door-interlock"
+  ],
+  "artwork": "pi26-shutter-access-interlock-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "interlocks",
+    "input": "Shutter and access conditions",
+    "output": "Access interlock status"
+  },
+  "url": "https://eloragrid.ai/symbols/shutter-access-interlock-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/shutter-access-interlock-interface.svg",
+  "id": "shutter-access-interlock-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/shutter-access-interlock-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/shutter-access-interlock-interface.json",
+  "svgPath": "artwork/svg/shutter-access-interlock-interface.svg",
+  "referencePath": "references/shutter-access-interlock-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

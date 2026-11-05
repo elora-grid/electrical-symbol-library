@@ -1,0 +1,105 @@
+{
+  "slug": "cable-compartment-door-interlock",
+  "name": "Cable-compartment door interlock",
+  "kind": "symbol",
+  "abbreviation": "CDI",
+  "aliases": [
+    "Switchgear interlocking functions",
+    "switchgear Switchgear interlocking functions",
+    "switchgear",
+    "Switchgear",
+    "Door and earthing conditions",
+    "Door interlock state"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Relates access to the cable compartment to the equipment states defined by its interlocking scheme.",
+  "description": [
+    "Relates access to the cable compartment to the equipment states defined by its interlocking scheme. An interlocking function permits or blocks an operation according to the positions and conditions of related equipment. Electrical, mechanical and trapped-key interlocks implement different parts of a coordinated operating philosophy.",
+    "In a switchgear feeder panel, a control diagram can prevent an incompatible combination of breaker, disconnector and earthing-switch positions. The physical equipment documents determine which restrictions are mechanically enforced. For this reference, the drawing identifies “Door and earthing conditions” at the input and “Door interlock state” at the output. Compartment access requires the complete equipment procedure.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Door and earthing conditions. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Door interlock state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Compartment access requires the complete equipment procedure.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for door and earthing conditions.",
+    "Identify the destination and defined state of door interlock state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Compartment access requires the complete equipment procedure."
+  ],
+  "distinction": "Compartment access requires the complete equipment procedure. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Door and earthing conditions"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Door interlock state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CDI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-mechanical-interlock-between-devices",
+    "earthing-switch",
+    "trapped-key-transfer-permissive"
+  ],
+  "artwork": "pi26-cable-compartment-door-interlock",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "interlocks",
+    "input": "Door and earthing conditions",
+    "output": "Door interlock state"
+  },
+  "url": "https://eloragrid.ai/symbols/cable-compartment-door-interlock",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/cable-compartment-door-interlock.svg",
+  "id": "cable-compartment-door-interlock",
+  "canonicalUrl": "https://eloragrid.ai/symbols/cable-compartment-door-interlock",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/cable-compartment-door-interlock.json",
+  "svgPath": "artwork/svg/cable-compartment-door-interlock.svg",
+  "referencePath": "references/cable-compartment-door-interlock.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

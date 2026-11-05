@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-control-mode-event-recorder",
+  "name": "Microgrid control-mode event recorder",
+  "kind": "symbol",
+  "abbreviation": "MCER",
+  "aliases": [
+    "Microgrid supervisory and communication interfaces",
+    "microgrids Microgrid supervisory and communication interfaces",
+    "microgrids",
+    "Microgrids",
+    "Control authority events",
+    "Mode and authority history"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Associates changes in control authority or mode with their recorded causes and times.",
+  "description": [
+    "Associates changes in control authority or mode with their recorded causes and times. Microgrid supervision coordinates measurements, control authority and resource communication without replacing local protection. Each resource value needs a named measurement boundary, freshness condition and intended control use.",
+    "In a microgrid control room, the operator can see source availability, active constraints and current operating mode. A communication failure should remain distinguishable from an electrical resource failure. For this reference, the drawing identifies “Control authority events” at the input and “Mode and authority history” at the output. Event timing quality needs retention.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Control authority events. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Mode and authority history. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Event timing quality needs retention.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for control authority events.",
+    "Identify the destination and defined state of mode and authority history.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Event timing quality needs retention."
+  ],
+  "distinction": "Event timing quality needs retention. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Control authority events"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Mode and authority history"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MCER is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "sequence-of-events-recorder",
+    "microgrid-energy-accounting-measurement-boundary"
+  ],
+  "artwork": "pi26-microgrid-control-mode-event-recorder",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-monitoring",
+    "input": "Control authority events",
+    "output": "Mode and authority history"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-control-mode-event-recorder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-control-mode-event-recorder.svg",
+  "id": "microgrid-control-mode-event-recorder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-control-mode-event-recorder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-control-mode-event-recorder.json",
+  "svgPath": "artwork/svg/microgrid-control-mode-event-recorder.svg",
+  "referencePath": "references/microgrid-control-mode-event-recorder.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

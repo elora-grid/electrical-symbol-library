@@ -1,0 +1,105 @@
+{
+  "slug": "station-gnss-time-source-interface",
+  "name": "Station GNSS time-source interface",
+  "kind": "symbol",
+  "abbreviation": "SGTI",
+  "aliases": [
+    "Substation timing and event interfaces",
+    "substations Substation timing and event interfaces",
+    "substations",
+    "Substations",
+    "GNSS time reception",
+    "Station clock reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the external satellite-based time reference feeding the selected station clock.",
+  "description": [
+    "Identifies the external satellite-based time reference feeding the selected station clock. A station time system provides a shared time reference for protection records, measurements and automation. Different devices can use different timing protocols, so the time source, distribution path and quality information must remain identifiable.",
+    "In a substation, a station clock can provide precision timing to process equipment and another timing interface to event recorders. The alarm system should distinguish loss of a distribution path from loss of the external time source. For this reference, the drawing identifies “GNSS time reception” at the input and “Station clock reference” at the output. Reception quality affects the clock operating state.",
+    "Show the source and client of each time connection. Required accuracy, holdover, protocol profile and loss-of-time behavior follow the selected application; a common timestamp format does not guarantee synchronized events. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: GNSS time reception. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Station clock reference. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Reception quality affects the clock operating state.",
+    "Show the source and client of each time connection. Required accuracy, holdover, protocol profile and loss-of-time behavior follow the selected application; a common timestamp format does not guarantee synchronized events."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for gnss time reception.",
+    "Identify the destination and defined state of station clock reference.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Reception quality affects the clock operating state."
+  ],
+  "distinction": "Reception quality affects the clock operating state. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "GNSS time reception"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Station clock reference"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SGTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-time",
+      "relevance": "Public technical context for substation timing and event interfaces. PTP, NTP, IRIG-B, pulse distribution, reference failover and timing quality. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "sequence-of-events-recorder",
+    "phasor-measurement-unit",
+    "station-clock-holdover-state-indication"
+  ],
+  "artwork": "pi26-station-gnss-time-source-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-time",
+    "input": "GNSS time reception",
+    "output": "Station clock reference"
+  },
+  "url": "https://eloragrid.ai/symbols/station-gnss-time-source-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-gnss-time-source-interface.svg",
+  "id": "station-gnss-time-source-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-gnss-time-source-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-gnss-time-source-interface.json",
+  "svgPath": "artwork/svg/station-gnss-time-source-interface.svg",
+  "referencePath": "references/station-gnss-time-source-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-time",
+      "publisher": "SEL",
+      "title": "SEL-2488 satellite-synchronised network clock",
+      "url": "https://selinc.com/products/2488/",
+      "scope": "PTP, NTP, IRIG-B, pulse distribution, reference failover and timing quality.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation timing and event interfaces. PTP, NTP, IRIG-B, pulse distribution, reference failover and timing quality. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

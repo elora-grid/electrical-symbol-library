@@ -1,0 +1,87 @@
+{
+  "slug": "capacitive-level-sensor",
+  "name": "Capacitive level sensor",
+  "kind": "symbol",
+  "abbreviation": "CAP LVL",
+  "aliases": [
+    "Capacitive level sensor",
+    "Capacitive level sensor functional block",
+    "Capacitive level sensor schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A capacitive level sensor uses a change in capacitance associated with material near its sensing arrangement.",
+  "description": [
+    "A capacitive level sensor uses a change in capacitance associated with material near its sensing arrangement.",
+    "A tank-level system can detect a changing material level using a suitable sensor and calibration.",
+    "Show the sensing electrode or arrangement, surrounding material and relevant vessel reference. A change in capacitance is interpreted using the selected installation and calibration. The material’s electrical properties matter, so a layout should identify the actual contents rather than treating all liquids or solids as equivalent. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify sensing arrangement and vessel reference.",
+    "State the material and required level indication.",
+    "Reference calibration, mounting and output requirements.",
+    "Material properties and vessel geometry affect the response and must be part of the selected design."
+  ],
+  "drawingChecklist": [
+    "Identify sensing arrangement and vessel reference.",
+    "State the material and required level indication.",
+    "Reference calibration, mounting and output requirements."
+  ],
+  "distinction": "Material properties and vessel geometry affect the response and must be part of the selected design.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Material near sensing arrangement"
+    },
+    {
+      "label": "Concept output",
+      "value": "Configured level indication"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-capacitive-level-sensor",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "hall-effect-current-sensor",
+    "magnetic-position-sensor",
+    "inductive-position-sensor"
+  ],
+  "artwork": "expanded-capacitive-level-sensor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/capacitive-level-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/capacitive-level-sensor.svg",
+  "id": "capacitive-level-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/capacitive-level-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/capacitive-level-sensor.json",
+  "svgPath": "artwork/svg/capacitive-level-sensor.svg",
+  "referencePath": "references/capacitive-level-sensor.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-capacitive-level-sensor",
+      "title": "Capacitive liquid-level reference design",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/tool/TIDA-00317",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

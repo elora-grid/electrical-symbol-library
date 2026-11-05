@@ -1,0 +1,100 @@
+{
+  "slug": "numerical-protection-relay",
+  "name": "Numerical protection relay (IED)",
+  "kind": "symbol",
+  "abbreviation": "IED",
+  "aliases": [
+    "intelligent electronic device",
+    "multifunction protection relay",
+    "digital protection relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Single relay block on an SLD that lists the protection functions it provides, with CT, VT and trip connections.",
+  "description": [
+    "A numerical protection relay, or IED, combines many protection, control and measuring functions in one device. Single-line diagrams draw it as a block connected to its CTs, VTs and breaker trip coil, with the enabled functions listed inside or beside it using IEC function symbols or ANSI device numbers.",
+    "Listing a function on the block shows it is enabled, not how it is set. The block does not show settings, logic between functions, or communications, so it must be read with the settings file and the protection logic diagram."
+  ],
+  "readingNotes": [
+    "Read the function list as enabled functions, not settings.",
+    "Trace CT, VT and trip connections to the block."
+  ],
+  "drawingChecklist": [
+    "List enabled functions",
+    "Show CT, VT and trip connections",
+    "Reference settings file"
+  ],
+  "distinction": "An IED block represents a multifunction device; a single measuring relay symbol represents one function.",
+  "facts": [
+    {
+      "label": "Content",
+      "value": "Protection, control and measuring functions in one device"
+    },
+    {
+      "label": "Function labels",
+      "value": "IEC symbols or ANSI device numbers"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-functions",
+      "relevance": "Public manufacturer list of relay functions with codes and symbols."
+    },
+    {
+      "sourceId": "pub-function-sel-product-catalog",
+      "relevance": "Public relay product guide with function tables."
+    }
+  ],
+  "related": [
+    "measuring-relay",
+    "50-instantaneous-overcurrent",
+    "trip-circuit-supervision-relay"
+  ],
+  "artwork": "s28-numerical-protection-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/numerical-protection-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/numerical-protection-relay.svg",
+  "id": "numerical-protection-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/numerical-protection-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/numerical-protection-relay.json",
+  "svgPath": "artwork/svg/numerical-protection-relay.svg",
+  "referencePath": "references/numerical-protection-relay.md",
+  "publicSources": [
+    {
+      "id": "abb-functions",
+      "title": "Relion 620: functions, codes and symbols",
+      "publisher": "ABB",
+      "url": "https://techdoc.relays.protection-control.abb/r/620-series-IEC-60870-5-103-Point-List-Manual/2.0-FP1-IEC/en-US/Functions-codes-and-symbols",
+      "type": "manufacturer",
+      "scope": "Published product mappings between function names, IEC 61850 identifiers, IEC mnemonics and ANSI designations. These are product examples, not universal equivalences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer list of relay functions with codes and symbols."
+    },
+    {
+      "id": "pub-function-sel-product-catalog",
+      "title": "SEL 2022 Product and Solution Guide: published protection function tables",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/api/download/136012",
+      "type": "manufacturer",
+      "scope": "Public historical product guide documenting 21P phase distance and 21G ground distance mappings among other line-protection functions. Referenced for terminology, not current product availability or a product recommendation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public relay product guide with function tables."
+    }
+  ]
+}

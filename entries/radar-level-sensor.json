@@ -1,0 +1,87 @@
+{
+  "slug": "radar-level-sensor",
+  "name": "Radar level sensing function",
+  "kind": "symbol",
+  "abbreviation": "RAD LVL",
+  "aliases": [
+    "Radar level sensing function",
+    "Radar level sensing function functional block",
+    "Radar level sensing function schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A radar sensing function uses radio-frequency signals to obtain information about a target or surface.",
+  "description": [
+    "A radar sensing function uses radio-frequency signals to obtain information about a target or surface.",
+    "A suitable level installation can interpret reflections from the measured surface.",
+    "Show the sensor’s radio-frequency path towards the measured surface and identify the reported level reference. A distance to the surface and a level within a vessel are related through the selected geometry. They should not be treated as identical values without defining the reference points. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the measured surface and level reference.",
+    "Reference the selected sensor and installation geometry.",
+    "Show the electrical output and receiving control system.",
+    "The sensing principle does not establish suitability for every vessel, material or installation."
+  ],
+  "drawingChecklist": [
+    "Identify the measured surface and level reference.",
+    "Reference the selected sensor and installation geometry.",
+    "Show the electrical output and receiving control system."
+  ],
+  "distinction": "The sensing principle does not establish suitability for every vessel, material or installation.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Radio reflections from surface"
+    },
+    {
+      "label": "Concept output",
+      "value": "Configured level information"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-radar-level-sensor",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "hall-effect-current-sensor",
+    "magnetic-position-sensor",
+    "inductive-position-sensor"
+  ],
+  "artwork": "expanded-radar-level-sensor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/radar-level-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/radar-level-sensor.svg",
+  "id": "radar-level-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/radar-level-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/radar-level-sensor.json",
+  "svgPath": "artwork/svg/radar-level-sensor.svg",
+  "referencePath": "references/radar-level-sensor.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-radar-level-sensor",
+      "title": "Radar level-transmitter architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/level-transmitter",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

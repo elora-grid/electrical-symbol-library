@@ -1,0 +1,90 @@
+{
+  "slug": "ansi-and-or-invert-gate",
+  "name": "ANSI AND-OR-invert gate",
+  "kind": "symbol",
+  "abbreviation": "AOI",
+  "aliases": [
+    "AOI gate",
+    "distinctive-shape AND-OR-INVERT",
+    "sum-of-products inverter"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Two D-shaped AND gates feeding a bubbled OR outline, drawn as the distinctive-shape AND-OR-invert function.",
+  "description": [
+    "In distinctive-shape drawings the AND-OR-invert function is shown as two or more AND outlines whose outputs enter an OR outline with an output bubble. Data books often draw the AND outlines touching the OR outline to indicate that the whole structure is one gate within one package section.",
+    "AOI gates are found in older logic boards for multiplexing and for implementing compact sum-of-products expressions. When checking, write the expression as the complement of the OR of each AND term.",
+    "The drawing does not reveal whether the device provides expandable inputs or how unused AND inputs must be terminated. Refer to the device documentation for those details."
+  ],
+  "readingNotes": [
+    "Treat touching outlines as one device function, not separate packages.",
+    "Apply the final inversion after the OR."
+  ],
+  "drawingChecklist": [
+    "Keep the AND sections visually grouped with the OR.",
+    "Label each product-term input.",
+    "Terminate unused AND inputs as the device requires."
+  ],
+  "distinction": "The IEC AND-OR-invert uses abutted rectangular & and ≥1 elements instead of distinctive outlines.",
+  "facts": [
+    {
+      "label": "Structure",
+      "value": "AND terms into OR with inverted output"
+    },
+    {
+      "label": "Example device family",
+      "value": "Dual AND-OR-invert gate packages"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ls51",
+      "relevance": "Manufacturer AND-OR-invert gate documentation."
+    }
+  ],
+  "related": [
+    "iec-and-or-invert-gate",
+    "logic-nor-gate",
+    "logic-and-gate"
+  ],
+  "artwork": "s28-ansi-and-or-invert-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Two AND outlines feeding an OR outline with output bubble",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-and-or-invert-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-and-or-invert-gate.svg",
+  "id": "ansi-and-or-invert-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-and-or-invert-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-and-or-invert-gate.json",
+  "svgPath": "artwork/svg/ansi-and-or-invert-gate.svg",
+  "referencePath": "references/ansi-and-or-invert-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ls51",
+      "title": "SN74LS51 AND-OR-invert gates",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls51.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for AND-OR-invert gates.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer AND-OR-invert gate documentation."
+    }
+  ]
+}

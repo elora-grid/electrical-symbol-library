@@ -1,0 +1,105 @@
+{
+  "slug": "direct-on-line-starter-command-block",
+  "name": "Direct-on-line starter command block",
+  "kind": "symbol",
+  "abbreviation": "DSCB",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Run request and permits",
+    "Starter coil command"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Converts the selected motor run request into the defined contactor operating command.",
+  "description": [
+    "Converts the selected motor run request into the defined contactor operating command. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Run request and permits” at the input and “Starter coil command” at the output. The contactor is not the motor protection function.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Run request and permits. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Starter coil command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The contactor is not the motor protection function.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for run request and permits.",
+    "Identify the destination and defined state of starter coil command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The contactor is not the motor protection function."
+  ],
+  "distinction": "The contactor is not the motor protection function. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Run request and permits"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Starter coil command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DSCB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "reversing-starter-electrical-interlock"
+  ],
+  "artwork": "pi26-direct-on-line-starter-command-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Run request and permits",
+    "output": "Starter coil command"
+  },
+  "url": "https://eloragrid.ai/symbols/direct-on-line-starter-command-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/direct-on-line-starter-command-block.svg",
+  "id": "direct-on-line-starter-command-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/direct-on-line-starter-command-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/direct-on-line-starter-command-block.json",
+  "svgPath": "artwork/svg/direct-on-line-starter-command-block.svg",
+  "referencePath": "references/direct-on-line-starter-command-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

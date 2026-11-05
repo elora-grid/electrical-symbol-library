@@ -1,0 +1,87 @@
+{
+  "slug": "photovoltaic-module",
+  "name": "Photovoltaic module",
+  "kind": "symbol",
+  "abbreviation": "PV MOD",
+  "aliases": [
+    "Photovoltaic module",
+    "Photovoltaic module functional block",
+    "Photovoltaic module schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A photovoltaic module converts light into DC electrical power.",
+  "description": [
+    "A photovoltaic module converts light into DC electrical power.",
+    "Modules can be interconnected to form a larger generating arrangement.",
+    "Show the module’s DC terminals and identify the selected module in the equipment schedule. A module is an assembly of solar cells; a complete array can connect many modules. The symbol identifies the role, while the chosen product and operating conditions determine the actual electrical values. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Reference the exact module and terminal polarity.",
+    "Identify associated string and module count elsewhere in the drawing.",
+    "Use the selected module documentation for electrical and mounting data.",
+    "A module's electrical output varies with its operating conditions; the symbol is not a rated output value."
+  ],
+  "drawingChecklist": [
+    "Reference the exact module and terminal polarity.",
+    "Identify associated string and module count elsewhere in the drawing.",
+    "Use the selected module documentation for electrical and mounting data."
+  ],
+  "distinction": "A module's electrical output varies with its operating conditions; the symbol is not a rated output value.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Light on the solar cells"
+    },
+    {
+      "label": "Concept output",
+      "value": "DC electrical output"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pv",
+      "relevance": "Solar electrical system architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "photovoltaic-generator",
+    "photovoltaic-string",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-photovoltaic-module",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-module",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/photovoltaic-module.svg",
+  "id": "photovoltaic-module",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-module",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-module.json",
+  "svgPath": "artwork/svg/photovoltaic-module.svg",
+  "referencePath": "references/photovoltaic-module.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pv",
+      "title": "Solar electrical system architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/industrial/energy-infrastructure/solar-energy/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Solar electrical system architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

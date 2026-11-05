@@ -1,0 +1,101 @@
+{
+  "slug": "plug-in-busway",
+  "name": "Plug-in busway",
+  "kind": "symbol",
+  "abbreviation": "BD",
+  "aliases": [
+    "plug-in busbar trunking",
+    "distribution busway",
+    "rising main busway"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Busway with tap-off outlets along its length, drawn with outlet marks where plug-in units can be connected.",
+  "description": [
+    "Plug-in busway distributes power along its route through outlets into which tap-off units can be inserted. It is common in rising mains in multi-storey buildings, factory floors and data halls, where loads change and new feeders are added without rewiring.",
+    "The symbol shows that outlets exist but not which are used. Tap-off units actually fitted are drawn separately with their protective devices. Readers should not assume every outlet mark represents a connected load, and voltage drop calculations should use the actual tap-off positions."
+  ],
+  "readingNotes": [
+    "Distinguish outlet positions from fitted tap-off units.",
+    "Check voltage drop to the most remote tap-off."
+  ],
+  "drawingChecklist": [
+    "Mark outlet positions on the layout.",
+    "Draw fitted tap-off units separately.",
+    "State rating and conductor configuration."
+  ],
+  "distinction": "Plug-in busway has outlets for tap-off units; feeder busway carries power point to point only.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Busway line with outlet marks along it"
+    },
+    {
+      "label": "Typical use",
+      "value": "Rising mains and flexible factory distribution"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Manufacturer busbar trunking ranges with tap-off outlets."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology including busway distribution."
+    }
+  ],
+  "related": [
+    "busway-feeder-run",
+    "busway-tap-off-point",
+    "ga-busway-tap-off-unit"
+  ],
+  "artwork": "s28-plug-in-busway",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/plug-in-busway",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/plug-in-busway.svg",
+  "id": "plug-in-busway",
+  "canonicalUrl": "https://eloragrid.ai/symbols/plug-in-busway",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/plug-in-busway.json",
+  "svgPath": "artwork/svg/plug-in-busway.svg",
+  "referencePath": "references/plug-in-busway.md",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer busbar trunking ranges with tap-off outlets."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology including busway distribution."
+    }
+  ]
+}

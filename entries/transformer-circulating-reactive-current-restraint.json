@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-circulating-reactive-current-restraint",
+  "name": "Transformer circulating-reactive-current restraint",
+  "kind": "symbol",
+  "abbreviation": "TCR",
+  "aliases": [
+    "Transformer regulation and cooling control",
+    "substations Transformer regulation and cooling control",
+    "substations",
+    "Substations",
+    "Transformer reactive-current comparison",
+    "Regulation restraint input"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses the selected reactive-current comparison to restrain unsuitable parallel regulation.",
+  "description": [
+    "Uses the selected reactive-current comparison to restrain unsuitable parallel regulation. Transformer regulation changes the selected winding connection to influence voltage, while cooling control manages the installed fans and pumps. Commands, mechanical position and measured results belong to different parts of the diagram.",
+    "In a substation, a voltage regulator can request a tap change and check the resulting tap-position feedback. A separate controller stages cooling equipment according to the transformer manufacturer's defined conditions. For this reference, the drawing identifies “Transformer reactive-current comparison” at the input and “Regulation restraint input” at the output. The method depends on the parallel-control scheme.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Transformer reactive-current comparison. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Regulation restraint input. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The method depends on the parallel-control scheme.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for transformer reactive-current comparison.",
+    "Identify the destination and defined state of regulation restraint input.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The method depends on the parallel-control scheme."
+  ],
+  "distinction": "The method depends on the parallel-control scheme. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Transformer reactive-current comparison"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Regulation restraint input"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TCR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-control",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "adjustable-ratio-transformer",
+    "winding-temperature-indicator",
+    "transformer-cooling-stage-one-request"
+  ],
+  "artwork": "pi26-transformer-circulating-reactive-current-restraint",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-regulation",
+    "input": "Transformer reactive-current comparison",
+    "output": "Regulation restraint input"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-circulating-reactive-current-restraint",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-circulating-reactive-current-restraint.svg",
+  "id": "transformer-circulating-reactive-current-restraint",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-circulating-reactive-current-restraint",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-circulating-reactive-current-restraint.json",
+  "svgPath": "artwork/svg/transformer-circulating-reactive-current-restraint.svg",
+  "referencePath": "references/transformer-circulating-reactive-current-restraint.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-control",
+      "publisher": "SEL",
+      "title": "SEL-2414 transformer monitor",
+      "url": "https://selinc.com/products/2414/",
+      "scope": "Transformer temperature, cooling, tap changing and parallel operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "low-side-power-switch",
+  "name": "Low-side power switch",
+  "kind": "symbol",
+  "abbreviation": "LS SW",
+  "aliases": [
+    "Low-side power switch",
+    "Low-side power switch functional block",
+    "Low-side power switch schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A low-side switch controls the return-side connection of a load in its specified circuit.",
+  "description": [
+    "A low-side switch controls the return-side connection of a load in its specified circuit.",
+    "A load can remain connected to its supply while its return path is switched by a suitable device.",
+    "Place the switch between the load and its defined return reference. The load may remain connected to the supply even while this switch is open. Show the complete current loop so a reader does not mistake return-path switching for disconnection of every supply conductor. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the load’s permanent supply connection.",
+    "Show the switched return path and reference.",
+    "Reference control-drive and load-transient requirements.",
+    "Low-side switching does not necessarily isolate the load from the supply conductor."
+  ],
+  "drawingChecklist": [
+    "Identify the load’s permanent supply connection.",
+    "Show the switched return path and reference.",
+    "Reference control-drive and load-transient requirements."
+  ],
+  "distinction": "Low-side switching does not necessarily isolate the load from the supply conductor.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Load return connection"
+    },
+    {
+      "label": "Concept output",
+      "value": "Defined circuit return"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-lowside",
+      "relevance": "Low-side power switching: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "low-side-gate-driver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-low-side-power-switch",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/low-side-power-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/low-side-power-switch.svg",
+  "id": "low-side-power-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/low-side-power-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/low-side-power-switch.json",
+  "svgPath": "artwork/svg/low-side-power-switch.svg",
+  "referencePath": "references/low-side-power-switch.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-lowside",
+      "title": "Low-side power switching",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/low-side-switches/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Low-side power switching: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

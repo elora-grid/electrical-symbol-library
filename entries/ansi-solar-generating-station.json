@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-solar-generating-station",
+  "name": "ANSI/IEEE Solar generating station form",
+  "kind": "symbol",
+  "abbreviation": "SOLAR STN",
+  "aliases": [
+    "HDV1_S00400",
+    "VDV1_S00400",
+    "IEEE Solar Generating Station, In Service Or Unspecified",
+    "ANSI Solar generating station"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of solar generating station: a solar generating station is a system-level representation of a documented solar-generation facility.",
+  "description": [
+    "This reference locates solar generating station in Autodesk's IEEE-oriented power stations family. A solar generating station is a system-level representation of a documented solar-generation facility. It identifies the facility type on a system diagram rather than replacing its internal electrical design. The public library uses HDV1_S00400 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Use linked SLDs to identify the array, inverter and connection equipment within the station. A station-type marker is a site-level concept, not a single PV module symbol. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Use linked SLDs to identify the array, inverter and connection equipment within the station.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name facility boundary",
+    "Reference internal SLD",
+    "Identify connection point"
+  ],
+  "distinction": "A station-type marker is a site-level concept, not a single PV module symbol.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Power Stations; published form: Solar Generating Station, In Service Or Unspecified."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HDV1_S00400. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Supply or network role"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-power-stations",
+      "relevance": "Public IEEE-oriented Power Stations table explicitly lists HDV1_S00400 as Solar Generating Station, In Service Or Unspecified. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "solar-generating-station",
+    "generator",
+    "busbar"
+  ],
+  "artwork": "s28-ansi-solar-generating-station",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Solar Generating Station, In Service Or Unspecified",
+    "reference": "Autodesk IEEE Symbol Preview: Power Stations, block HDV1_S00400. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "solar-generating-station"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-solar-generating-station",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-solar-generating-station.svg",
+  "id": "ansi-solar-generating-station",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-solar-generating-station",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-solar-generating-station.json",
+  "svgPath": "artwork/svg/ansi-solar-generating-station.svg",
+  "referencePath": "references/ansi-solar-generating-station.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-power-stations",
+      "title": "Autodesk IEEE Symbol Preview: Power Stations",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-002D3D7C-C3E9-4B60-9F6D-FFBB383C1862.htm",
+      "type": "cad-reference",
+      "scope": "Public power stations family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Power Stations table explicitly lists HDV1_S00400 as Solar Generating Station, In Service Or Unspecified. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

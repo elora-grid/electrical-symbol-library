@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-three-wire-touch-sensitive-switch",
+  "name": "ANSI/IEEE Three-wire touch-sensitive switch form",
+  "kind": "symbol",
+  "abbreviation": "HPX11TS3",
+  "aliases": [
+    "HPX11TS3",
+    "VPX11TS3",
+    "IEEE Normally Open 3 Wire",
+    "ANSI Three-wire touch-sensitive switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-wire touch-sensitive switch: this representation distinguishes a separately supplied three-wire touch-switch interface.",
+  "description": [
+    "This reference locates three-wire touch-sensitive switch in Autodesk's IEEE-oriented touch switches family. This representation distinguishes a separately supplied three-wire touch-switch interface. The public library uses HPX11TS3 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Identify power, return and output using the selected product connection information. Wire count is not an output-polarity or protocol specification. Identify power, return and output using the selected product connection information. Wire count is not an output-polarity or protocol specification. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify power, return and output using the selected product connection information.",
+    "Wire count is not an output-polarity or protocol specification."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify power, return and output using the selected product connection information.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Wire count is not an output-polarity or protocol specification.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Touch Switches; published form: Normally Open 3 Wire."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX11TS3. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Identify power, return and output using the selected product connection information."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-touch-switches",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX11TS3 as Normally Open 3 Wire. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-three-wire-touch-sensitive-switch",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-three-wire-touch-sensitive-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Normally Open 3 Wire",
+    "reference": "Autodesk IEEE Symbol Preview: Touch Switches, block HPX11TS3. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-three-wire-touch-sensitive-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-wire-touch-sensitive-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-wire-touch-sensitive-switch.svg",
+  "id": "ansi-three-wire-touch-sensitive-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-wire-touch-sensitive-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-wire-touch-sensitive-switch.json",
+  "svgPath": "artwork/svg/ansi-three-wire-touch-sensitive-switch.svg",
+  "referencePath": "references/ansi-three-wire-touch-sensitive-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-touch-switches",
+      "title": "Autodesk IEEE Symbol Preview: Touch Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-75D5D41D-60B5-4D57-852E-D4422F14F392.htm",
+      "type": "cad-reference",
+      "scope": "Public touch switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Touch Switches table explicitly lists HPX11TS3 as Normally Open 3 Wire. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-synchronising-phase-error-block",
+  "name": "Microgrid synchronising phase-error block",
+  "kind": "symbol",
+  "abbreviation": "MSPB",
+  "aliases": [
+    "Microgrid synchronising interfaces",
+    "microgrids Microgrid synchronising interfaces",
+    "microgrids",
+    "Microgrids",
+    "Two voltage phase references",
+    "Synchronising phase error"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Calculates the defined phase-angle difference between the two assigned voltage references.",
+  "description": [
+    "Calculates the defined phase-angle difference between the two assigned voltage references. Synchronising control compares two AC systems before their assigned connecting breaker closes. Voltage magnitude, frequency, phase relationship, breaker readiness and command authority are separate inputs to the closing decision.",
+    "In a microgrid reconnecting at its point of common coupling, a synchroniser can adjust the island reference while a separate permissive confirms the permitted relationship across the open breaker. For this reference, the drawing identifies “Two voltage phase references” at the input and “Synchronising phase error” at the output. Phase sequence and transformer displacement affect interpretation.",
+    "Identify the two measurement sides and the equipment receiving any adjustment request. Closing limits, breaker timing and loss-of-measurement behavior require the approved synchronising design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Two voltage phase references. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Synchronising phase error. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Phase sequence and transformer displacement affect interpretation.",
+    "Identify the two measurement sides and the equipment receiving any adjustment request. Closing limits, breaker timing and loss-of-measurement behavior require the approved synchronising design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for two voltage phase references.",
+    "Identify the destination and defined state of synchronising phase error.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Phase sequence and transformer displacement affect interpretation."
+  ],
+  "distinction": "Phase sequence and transformer displacement affect interpretation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Two voltage phase references"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Synchronising phase error"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MSPB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-design",
+      "relevance": "Public technical context for microgrid synchronising interfaces. Microgrid power and control interfaces, synchronisation and source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "25-synchronism-check",
+    "synchronoscope",
+    "microgrid-synchronising-voltage-error-block"
+  ],
+  "artwork": "pi26-microgrid-synchronising-phase-error-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-sync",
+    "input": "Two voltage phase references",
+    "output": "Synchronising phase error"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-synchronising-phase-error-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-synchronising-phase-error-block.svg",
+  "id": "microgrid-synchronising-phase-error-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-synchronising-phase-error-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-synchronising-phase-error-block.json",
+  "svgPath": "artwork/svg/microgrid-synchronising-phase-error-block.svg",
+  "referencePath": "references/microgrid-synchronising-phase-error-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-design",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid Flex components and control design",
+      "url": "https://productinfo.se.com/microgrid_guide/0100db2503_ecostruxure-microgrid-flex_design-guide_iec/English/0100DB2503-Microgrid%20Flex%20Design%20Guide-IEC-Optimize%20%28bookmap%29_DD00654397.XML.xml/%24/MicrogridFlexComponents-3A7DD96C",
+      "scope": "Microgrid power and control interfaces, synchronisation and source coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid synchronising interfaces. Microgrid power and control interfaces, synchronisation and source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

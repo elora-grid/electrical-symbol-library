@@ -1,0 +1,105 @@
+{
+  "slug": "protection-communication-redundant-path-selector",
+  "name": "Protection communication redundant-path selector",
+  "kind": "symbol",
+  "abbreviation": "PCRS",
+  "aliases": [
+    "Line carrier and protection communication interfaces",
+    "switchyards Line carrier and protection communication interfaces",
+    "switchyards",
+    "Switchyards",
+    "Alternative channel health",
+    "Selected communication path"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects the documented available protection communication path using the assigned health inputs.",
+  "description": [
+    "Selects the documented available protection communication path using the assigned health inputs. A protection communication interface carries information between circuit ends or couples a communication signal to a primary line. Its signal path is different from the power-current path even when both use part of the same installation.",
+    "In a switchyard line bay, carrier-coupling equipment can connect a protection communication terminal to the transmission conductor. Fiber-based protection uses another physical path but still needs named endpoints and channel supervision. For this reference, the drawing identifies “Alternative channel health” at the input and “Selected communication path” at the output. Path independence requires assessment of shared infrastructure.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Alternative channel health. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected communication path. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Path independence requires assessment of shared infrastructure.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for alternative channel health.",
+    "Identify the destination and defined state of selected communication path.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Path independence requires assessment of shared infrastructure."
+  ],
+  "distinction": "Path independence requires assessment of shared infrastructure. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Alternative channel health"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected communication path"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PCRS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-carrier",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "capacitor-voltage-transformer",
+    "85-pilot-or-carrier-receiver-relay",
+    "line-communication-cabinet-power-alarm"
+  ],
+  "artwork": "pi26-protection-communication-redundant-path-selector",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "line-communications",
+    "input": "Alternative channel health",
+    "output": "Selected communication path"
+  },
+  "url": "https://eloragrid.ai/symbols/protection-communication-redundant-path-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/protection-communication-redundant-path-selector.svg",
+  "id": "protection-communication-redundant-path-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/protection-communication-redundant-path-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/protection-communication-redundant-path-selector.json",
+  "svgPath": "artwork/svg/protection-communication-redundant-path-selector.svg",
+  "referencePath": "references/protection-communication-redundant-path-selector.md",
+  "publicSources": [
+    {
+      "id": "pi26-carrier",
+      "publisher": "GE Vernova",
+      "title": "Line traps: power-line carrier communication",
+      "url": "https://www.gevernova.com/grid-solutions/sites/default/files/2025-09/Line-Traps-Brochure-EN-N50059-Hybrid-202504-R002.pdf",
+      "scope": "Line traps, coupling and power-line carrier communications.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

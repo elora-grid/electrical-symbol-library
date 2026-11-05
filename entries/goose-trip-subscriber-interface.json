@@ -1,0 +1,105 @@
+{
+  "slug": "goose-trip-subscriber-interface",
+  "name": "GOOSE trip subscriber interface",
+  "kind": "symbol",
+  "abbreviation": "GTSI",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Subscribed trip event",
+    "Assigned local trip request"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Maps the assigned received trip message to its defined local control output.",
+  "description": [
+    "Maps the assigned received trip message to its defined local control output. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Subscribed trip event” at the input and “Assigned local trip request” at the output. Authority and quality handling require configuration.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Subscribed trip event. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned local trip request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Authority and quality handling require configuration.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for subscribed trip event.",
+    "Identify the destination and defined state of assigned local trip request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Authority and quality handling require configuration."
+  ],
+  "distinction": "Authority and quality handling require configuration. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Subscribed trip event"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned local trip request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GTSI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "goose-interlock-publisher-interface"
+  ],
+  "artwork": "pi26-goose-trip-subscriber-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Subscribed trip event",
+    "output": "Assigned local trip request"
+  },
+  "url": "https://eloragrid.ai/symbols/goose-trip-subscriber-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/goose-trip-subscriber-interface.svg",
+  "id": "goose-trip-subscriber-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/goose-trip-subscriber-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/goose-trip-subscriber-interface.json",
+  "svgPath": "artwork/svg/goose-trip-subscriber-interface.svg",
+  "referencePath": "references/goose-trip-subscriber-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

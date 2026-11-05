@@ -1,0 +1,98 @@
+{
+  "slug": "excess-energy-meter",
+  "name": "Excess-energy meter",
+  "kind": "symbol",
+  "abbreviation": "kWh>",
+  "aliases": [
+    "over-threshold energy meter",
+    "excess consumption meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Integrating meter that counts only the energy taken while power is above a set threshold.",
+  "description": [
+    "An excess-energy meter records energy only for the part of the load above a set power level. It was used for tariffs that penalised consumption beyond an agreed capacity, and the same idea appears in modern meters as threshold registers.",
+    "The symbol identifies the excess function but not the threshold, which is a contractual value that must be written beside the meter. Without that value the register cannot be interpreted or checked."
+  ],
+  "readingNotes": [
+    "Find the stated power threshold.",
+    "Check the register is read with the main energy register."
+  ],
+  "drawingChecklist": [
+    "State threshold power",
+    "Reference tariff clause",
+    "Show measuring inputs"
+  ],
+  "distinction": "An excess-energy meter counts only energy above a threshold; a maximum-demand meter records the highest average power.",
+  "facts": [
+    {
+      "label": "Integrated quantity",
+      "value": "Energy above a set power"
+    },
+    {
+      "label": "Key setting",
+      "value": "Power threshold"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ],
+  "related": [
+    "active-energy-meter",
+    "maximum-demand-energy-meter",
+    "integrating-instrument-general-symbol"
+  ],
+  "artwork": "s28-excess-energy-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/excess-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/excess-energy-meter.svg",
+  "id": "excess-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/excess-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/excess-energy-meter.json",
+  "svgPath": "artwork/svg/excess-energy-meter.svg",
+  "referencePath": "references/excess-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ]
+}

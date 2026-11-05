@@ -1,0 +1,100 @@
+{
+  "slug": "earth-fault-voltage-relay",
+  "name": "Earth-fault voltage relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "ground failure voltage protection",
+    "frame leakage voltage relay",
+    "HCR1F31"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Relay form that operates on a voltage appearing because of an earth fault, such as between a frame and earth.",
+  "description": [
+    "This relay measures a voltage that appears only when there is an earth fault, for example between exposed metalwork and a reference earth, or across a neutral earthing impedance. It is useful where earth-fault current is limited and a voltage is easier to detect than a current.",
+    "The symbol does not say where the voltage is measured. A relay across a neutral earthing resistor and one connected between frame and auxiliary earth electrode have very different settings, so the measurement points must be drawn and labelled."
+  ],
+  "readingNotes": [
+    "Trace both measurement connections of the relay.",
+    "Check the reference earth used by the relay."
+  ],
+  "drawingChecklist": [
+    "Show measurement points",
+    "State threshold and delay",
+    "Reference earthing arrangement"
+  ],
+  "distinction": "An earth-fault voltage relay measures fault-related voltage; a residual voltage relay measures zero-sequence voltage from VT windings.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Voltage caused by an earth fault"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F31 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-voltage-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Ground Failure Voltage Protection block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public context for neutral-earthing and earth-fault protection."
+    }
+  ],
+  "related": [
+    "residual-voltage-monitoring-relay",
+    "earth-fault-current-relay",
+    "64-ground-detector-protection"
+  ],
+  "artwork": "s28-earth-fault-voltage-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/earth-fault-voltage-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/earth-fault-voltage-relay.svg",
+  "id": "earth-fault-voltage-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/earth-fault-voltage-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/earth-fault-voltage-relay.json",
+  "svgPath": "artwork/svg/earth-fault-voltage-relay.svg",
+  "referencePath": "references/earth-fault-voltage-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-voltage-relays",
+      "title": "AutoCAD Electrical: Voltage monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5296749E-9336-4B07-9956-160963D6C848.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Ground Failure Voltage Protection block; the illustration is independently drawn."
+    },
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for neutral-earthing and earth-fault protection."
+    }
+  ]
+}

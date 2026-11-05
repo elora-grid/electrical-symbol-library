@@ -1,0 +1,105 @@
+{
+  "slug": "live-bus-synchronised-closing-gate",
+  "name": "Live-bus synchronised closing gate",
+  "kind": "symbol",
+  "abbreviation": "LSCG",
+  "aliases": [
+    "Breaker closing controls",
+    "switchgear Breaker closing controls",
+    "switchgear",
+    "Switchgear",
+    "Two live-side measurements",
+    "Synchronised close permission"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requires the defined synchronising conditions before connecting two live AC systems.",
+  "description": [
+    "Requires the defined synchronising conditions before connecting two live AC systems. A closing circuit combines an operator or automatic request with the conditions that allow the breaker to close. The closing coil releases stored mechanism energy where that construction is used; it is different from the spring-charging motor.",
+    "In a switchgear bus-coupler panel, a close request is checked against position, mechanism readiness and the selected live-bus or dead-bus conditions before the closing circuit is enabled. For this reference, the drawing identifies “Two live-side measurements” at the input and “Synchronised close permission” at the output. Permissive limits require the approved connection study.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Two live-side measurements. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Synchronised close permission. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Permissive limits require the approved connection study.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for two live-side measurements.",
+    "Identify the destination and defined state of synchronised close permission.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Permissive limits require the approved connection study."
+  ],
+  "distinction": "Permissive limits require the approved connection study. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Two live-side measurements"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Synchronised close permission"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LSCG is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "25-synchronism-check",
+    "closing-circuit-fuse-failure-alarm"
+  ],
+  "artwork": "pi26-live-bus-synchronised-closing-gate",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "close",
+    "input": "Two live-side measurements",
+    "output": "Synchronised close permission"
+  },
+  "url": "https://eloragrid.ai/symbols/live-bus-synchronised-closing-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/live-bus-synchronised-closing-gate.svg",
+  "id": "live-bus-synchronised-closing-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/live-bus-synchronised-closing-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/live-bus-synchronised-closing-gate.json",
+  "svgPath": "artwork/svg/live-bus-synchronised-closing-gate.svg",
+  "referencePath": "references/live-bus-synchronised-closing-gate.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

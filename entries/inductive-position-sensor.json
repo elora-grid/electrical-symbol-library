@@ -1,0 +1,87 @@
+{
+  "slug": "inductive-position-sensor",
+  "name": "Inductive position sensor",
+  "kind": "symbol",
+  "abbreviation": "IND POS",
+  "aliases": [
+    "Inductive position sensor",
+    "Inductive position sensor functional block",
+    "Inductive position sensor schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An inductive position sensor uses an electromagnetic interaction to infer a target's position.",
+  "description": [
+    "An inductive position sensor uses an electromagnetic interaction to infer a target's position.",
+    "A control system can monitor a selected metallic target arrangement with its matching sensing circuit.",
+    "Identify the target and sensing-coil arrangement, then label the position-related output. The selected design derives information from an electromagnetic interaction with the target. Do not replace it with a generic on/off proximity-switch symbol if the intended output is a continuous position measurement. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the target material and mechanical arrangement.",
+    "Show the measured axis or movement.",
+    "Reference the selected sensing circuit and calibration requirements.",
+    "Continuous position measurement is different from a simple proximity switch's on/off output."
+  ],
+  "drawingChecklist": [
+    "Identify the target material and mechanical arrangement.",
+    "Show the measured axis or movement.",
+    "Reference the selected sensing circuit and calibration requirements."
+  ],
+  "distinction": "Continuous position measurement is different from a simple proximity switch's on/off output.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Specified moving target"
+    },
+    {
+      "label": "Concept output",
+      "value": "Position-related signal"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-inductive-position-sensor",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "temperature-measuring-transducer",
+    "hall-effect-current-sensor",
+    "magnetic-position-sensor",
+    "ultrasonic-distance-sensor"
+  ],
+  "artwork": "expanded-inductive-position-sensor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/inductive-position-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/inductive-position-sensor.svg",
+  "id": "inductive-position-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/inductive-position-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/inductive-position-sensor.json",
+  "svgPath": "artwork/svg/inductive-position-sensor.svg",
+  "referencePath": "references/inductive-position-sensor.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-inductive-position-sensor",
+      "title": "Inductive sensing and conversion example",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/LDC1614",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

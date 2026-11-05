@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-protective-equipotential-bonding",
+  "name": "ANSI/IEEE protective equipotential bonding symbol",
+  "kind": "symbol",
+  "abbreviation": "-",
+  "aliases": [
+    "IEEE protective bond",
+    "ANSI equipment bonding",
+    "protective bonding conductor"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented protective equipotential bond, connecting exposed metal parts together for safety.",
+  "description": [
+    "The protective equipotential bond connects exposed and extraneous conductive parts so that dangerous touch voltages cannot develop between them during a fault. The publisher's IEEE miscellaneous preview lists a protective equipotential bond form, which is the US-practice counterpart of the existing IEC page.",
+    "This illustration is an independent explanation and not the IEEE graphic. The bond symbol does not state conductor size or the parts bonded; those belong in bonding schedules. In US terminology this aligns with equipment bonding, which is distinct from the main bonding jumper at the service."
+  ],
+  "readingNotes": [
+    "Identify the parts bonded at each symbol.",
+    "Distinguish equipment bonding from the service bonding jumper."
+  ],
+  "drawingChecklist": [
+    "Schedule bonding conductor sizes.",
+    "Label bonded parts.",
+    "Keep protective and functional bonds distinct."
+  ],
+  "distinction": "A protective bond is for safety; a functional bond is for equipment operation or noise control.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous (Protective equipotential bond)"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HGND5 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Exact public IEEE-oriented category page listing the protective equipotential bond form."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "protective-equipotential-bonding",
+    "ansi-functional-equipotential-bonding",
+    "ansi-main-bonding-jumper"
+  ],
+  "artwork": "s28-ansi-protective-equipotential-bonding",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented protective equipotential bond form",
+    "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "protective-equipotential-bonding"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-protective-equipotential-bonding",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-protective-equipotential-bonding.svg",
+  "id": "ansi-protective-equipotential-bonding",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-protective-equipotential-bonding",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-protective-equipotential-bonding.json",
+  "svgPath": "artwork/svg/ansi-protective-equipotential-bonding.svg",
+  "referencePath": "references/ansi-protective-equipotential-bonding.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page listing the protective equipotential bond form."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "ansi-multi-conductor-cable",
+  "name": "ANSI/IEEE multi-conductor cable symbol",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "IEEE multiconductor cable",
+    "ANSI cable grouping",
+    "cable bundle outline"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented outline or bracket grouping several conductors to show they belong to one multi-conductor cable.",
+  "description": [
+    "US-practice schematics group conductors of one cable with an enclosing outline, a bracket or an oval drawn across the conductor lines, usually with the cable number beside it. It lets the reader see which wires travel together between enclosures.",
+    "This illustration explains the convention rather than reproducing the IEEE graphic. The grouping implies no shield. Cable conductor count, gauge and insulation rating come from the cable schedule, and spare conductors are often not drawn."
+  ],
+  "readingNotes": [
+    "Read the cable number next to the grouping.",
+    "Expect undrawn spare conductors."
+  ],
+  "drawingChecklist": [
+    "Tag every grouping with the cable number.",
+    "Use the same tag across sheets.",
+    "Record gauge and spares in the schedule."
+  ],
+  "distinction": "A cable grouping shows shared jacket only; a shielded cable form adds a conductive shield.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "IEEE 315 graphic conventions for multiple-conductor cable (standards context only)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Public publisher family for cable markers in the companion IEC library."
+    }
+  ],
+  "related": [
+    "iec-multicore-cable-grouping",
+    "iec-cable-identification-marker",
+    "ansi-shielded-conductor"
+  ],
+  "artwork": "s28-ansi-multi-conductor-cable",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Multi-conductor cable grouping",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-multi-conductor-cable",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-multi-conductor-cable.svg",
+  "id": "ansi-multi-conductor-cable",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-multi-conductor-cable",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-multi-conductor-cable.json",
+  "svgPath": "artwork/svg/ansi-multi-conductor-cable.svg",
+  "referencePath": "references/ansi-multi-conductor-cable.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public publisher family for cable markers in the companion IEC library."
+    }
+  ]
+}

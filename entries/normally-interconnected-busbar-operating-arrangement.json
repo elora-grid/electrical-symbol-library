@@ -1,0 +1,106 @@
+{
+  "slug": "normally-interconnected-busbar-operating-arrangement",
+  "name": "Normally interconnected busbar operating arrangement",
+  "kind": "symbol",
+  "abbreviation": "NIBOA",
+  "aliases": [
+    "Switchyard busbar arrangements",
+    "switchyards Switchyard busbar arrangements",
+    "switchyards",
+    "Switchyards",
+    "Connected bus sections",
+    "Interconnected normal operating state"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the defined normal connection between the assigned bus sections and supply paths.",
+  "description": [
+    "Shows the defined normal connection between the assigned bus sections and supply paths. A busbar arrangement defines the available paths between incoming circuits, outgoing circuits and bus sections. Its switching devices and measurement boundaries determine how a circuit can remain connected when part of the installation is unavailable.",
+    "In a switchyard, a single-line arrangement helps identify the bay connections, tie devices and possible alternate supply paths. Normal open points must remain separate from the equipment's physical ability to close. For this reference, the drawing identifies “Connected bus sections” at the input and “Interconnected normal operating state” at the output. Fault-duty and source-parallel limits require study.",
+    "Name each bus, bay and switching device. The arrangement illustrates electrical connectivity; reliability, fault levels, permitted switching and protection coordination require the actual network design. The circuit arrangement is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Connected bus sections. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Interconnected normal operating state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Fault-duty and source-parallel limits require study.",
+    "Name each bus, bay and switching device. The arrangement illustrates electrical connectivity; reliability, fault levels, permitted switching and protection coordination require the actual network design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for connected bus sections.",
+    "Identify the destination and defined state of interconnected normal operating state.",
+    "Record the equipment or control-document revision supporting this circuit arrangement.",
+    "Check this application limit in the project design: Fault-duty and source-parallel limits require study."
+  ],
+  "distinction": "Fault-duty and source-parallel limits require study. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Circuit arrangement"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Connected bus sections"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Interconnected normal operating state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "NIBOA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchyard busbar arrangements. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "disconnector",
+    "single-bus-single-breaker-bay-arrangement"
+  ],
+  "artwork": "pi26-normally-interconnected-busbar-operating-arrangement",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "circuit-arrangement",
+    "focus": "switchyards",
+    "family": "yard-buses",
+    "input": "Connected bus sections",
+    "output": "Interconnected normal operating state"
+  },
+  "url": "https://eloragrid.ai/symbols/normally-interconnected-busbar-operating-arrangement",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/normally-interconnected-busbar-operating-arrangement.svg",
+  "id": "normally-interconnected-busbar-operating-arrangement",
+  "canonicalUrl": "https://eloragrid.ai/symbols/normally-interconnected-busbar-operating-arrangement",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/normally-interconnected-busbar-operating-arrangement.json",
+  "svgPath": "artwork/svg/normally-interconnected-busbar-operating-arrangement.svg",
+  "referencePath": "references/normally-interconnected-busbar-operating-arrangement.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard busbar arrangements. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

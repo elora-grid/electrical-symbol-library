@@ -1,0 +1,100 @@
+{
+  "slug": "rogowski-coil",
+  "name": "Rogowski coil current sensor",
+  "kind": "symbol",
+  "abbreviation": "RC",
+  "aliases": [
+    "Rogowski coil",
+    "air-core current sensor",
+    "flexible current probe"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Air-cored coil around a conductor whose output voltage is proportional to the rate of change of current.",
+  "description": [
+    "A Rogowski coil is wound on a non-magnetic former and placed around the conductor. Its output voltage is proportional to the rate of change of current, so an integrator in the relay or meter reconstructs the current waveform. With no iron core it does not saturate, which suits high fault currents and wide measuring ranges.",
+    "The output is a low-level voltage, not a current, so it must go to an input designed for it and cannot be wired into a conventional 1 A or 5 A CT circuit. The symbol does not show the sensor's coefficient, cable length limits or the matching relay input, all of which affect accuracy."
+  ],
+  "readingNotes": [
+    "Confirm the receiving input is designed for Rogowski sensors.",
+    "Do not apply CT shorting practice to this low-level voltage output."
+  ],
+  "drawingChecklist": [
+    "State sensor coefficient",
+    "Reference matching input",
+    "Respect cable length limit"
+  ],
+  "distinction": "A Rogowski coil has no iron core and gives a voltage output; a conventional CT has an iron core and a current output.",
+  "facts": [
+    {
+      "label": "Output",
+      "value": "Voltage proportional to di/dt"
+    },
+    {
+      "label": "Saturation",
+      "value": "None, as there is no iron core"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-abb-advasense-sensors",
+      "relevance": "Public manufacturer page describing low-power instrument transformers based on Rogowski coils and voltage dividers."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    }
+  ],
+  "related": [
+    "low-power-current-transformer",
+    "current-transformer",
+    "resistive-voltage-divider-sensor"
+  ],
+  "artwork": "s28-rogowski-coil",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/rogowski-coil",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/rogowski-coil.svg",
+  "id": "rogowski-coil",
+  "canonicalUrl": "https://eloragrid.ai/symbols/rogowski-coil",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/rogowski-coil.json",
+  "svgPath": "artwork/svg/rogowski-coil.svg",
+  "referencePath": "references/rogowski-coil.md",
+  "publicSources": [
+    {
+      "id": "s28-abb-advasense-sensors",
+      "title": "Medium-voltage indoor sensors: Rogowski coil and voltage divider low-power instrument transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-sensors",
+      "type": "manufacturer",
+      "scope": "Public product overview describing low-power instrument transformers based on Rogowski coils and voltage dividers for MV switchgear.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer page describing low-power instrument transformers based on Rogowski coils and voltage dividers."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    }
+  ]
+}

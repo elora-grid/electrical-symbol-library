@@ -1,0 +1,87 @@
+{
+  "slug": "isolated-comparator",
+  "name": "Isolated comparator",
+  "kind": "symbol",
+  "abbreviation": "ISO CMP",
+  "aliases": [
+    "Isolated comparator",
+    "Isolated comparator functional block",
+    "Isolated comparator schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An isolated comparator evaluates an input condition and transfers its comparison result across an isolation barrier.",
+  "description": [
+    "An isolated comparator evaluates an input condition and transfers its comparison result across an isolation barrier.",
+    "A higher-voltage measurement domain can provide a threshold result to a separate controller domain.",
+    "Show the measured condition and comparison reference on the appropriate side of the isolation barrier, then label the result sent to the controller. A comparator reports a threshold relationship. It should not be drawn as if it continuously reports the full measured analogue value. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the monitored input and comparison condition.",
+    "Show the isolation boundary and both reference domains.",
+    "Label the output as a threshold result.",
+    "A threshold indication is different from a continuously measured analogue value."
+  ],
+  "drawingChecklist": [
+    "Identify the monitored input and comparison condition.",
+    "Show the isolation boundary and both reference domains.",
+    "Label the output as a threshold result."
+  ],
+  "distinction": "A threshold indication is different from a continuously measured analogue value.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Input versus threshold"
+    },
+    {
+      "label": "Concept output",
+      "value": "Threshold result to controller"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-isolation",
+      "relevance": "Isolated signal and control functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "capacitive-digital-isolator",
+    "magnetic-digital-isolator",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-isolated-comparator",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-comparator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/isolated-comparator.svg",
+  "id": "isolated-comparator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-comparator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-comparator.json",
+  "svgPath": "artwork/svg/isolated-comparator.svg",
+  "referencePath": "references/isolated-comparator.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-isolation",
+      "title": "Isolated signal and control functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/isolation/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Isolated signal and control functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

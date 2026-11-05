@@ -7,7 +7,7 @@ The source snapshot is `data/catalogue.json`, with `schemaVersion: 2`, publisher
 | `canonicalUrl` | Preferred Elora HTML citation URL for this definition. |
 | `id` | Stable entry slug, also used as the JSON and SVG filename. |
 | `recordPath` | Relative path to the complete per-entry JSON. |
-| `svgPath` | Relative path to the original educational SVG. |
+| `svgPath` | Optional path to original educational SVG, present for symbols/functions and absent for GA objects. |
 | `contentLicense` | Licence for original contributions, `CC-BY-4.0`. |
 | `publicSources` | The entry's resolved public source records and relevance notes. |
 
@@ -22,3 +22,7 @@ The compact index omits long prose and resolves to per-entry files. `data/manufa
 `schema/` supplies Draft 2020-12 JSON Schemas. `manifest.json` contains package version, data review date, separate coverage counts and SHA-256/byte counts for every distributed file except the manifest itself, transient dependencies, Git internals and release archives.
 
 `npm run build` regenerates the index, entry files, README counts, coverage page, citation version and manifest. `npm run sync` fetches the current public website dataset and original illustrations first. Neither command pushes to GitHub. Stable slugs are intended to persist; future migrations should provide redirects/aliases rather than silently reuse an ID for a different meaning.
+
+## Version 2 discovery and artwork
+
+`referencePath` identifies a readable Markdown definition. `svgPath` exists only for symbols and functions with original public concept artwork; it is absent for GA objects. Optional `representation` describes functional-block/circuit-arrangement type, installation focus, family, input and output. `data/discovery.json` links category shards of at most 250 compact records. Current DXF/legend packs are delivered through the website rather than bundled here.

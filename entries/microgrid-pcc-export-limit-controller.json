@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-pcc-export-limit-controller",
+  "name": "Microgrid PCC export-limit controller",
+  "kind": "symbol",
+  "abbreviation": "MPEC",
+  "aliases": [
+    "Microgrid active-power dispatch controls",
+    "microgrids Microgrid active-power dispatch controls",
+    "microgrids",
+    "Microgrids",
+    "PCC export measurement and limit",
+    "Export-control adjustment"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests resource adjustments when measured export approaches the assigned connection limit.",
+  "description": [
+    "Requests resource adjustments when measured export approaches the assigned connection limit. Active-power dispatch allocates the electrical work performed by the microgrid resources. A total site target, a resource power limit and the actual measured contribution are different quantities that must be connected clearly in the diagram.",
+    "In a microgrid with solar generation, a battery and generators, the controller can allocate an import/export target among the available resources while reserving the power needed for operating disturbances. For this reference, the drawing identifies “PCC export measurement and limit” at the input and “Export-control adjustment” at the output. Protection can provide a separate export-related function.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: PCC export measurement and limit. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Export-control adjustment. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Protection can provide a separate export-related function.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for pcc export measurement and limit.",
+    "Identify the destination and defined state of export-control adjustment.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Protection can provide a separate export-related function."
+  ],
+  "distinction": "Protection can provide a separate export-related function. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "PCC export measurement and limit"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Export-control adjustment"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MPEC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-plant-controller",
+    "point-of-common-coupling",
+    "microgrid-zero-interchange-target-block"
+  ],
+  "artwork": "pi26-microgrid-pcc-export-limit-controller",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-active",
+    "input": "PCC export measurement and limit",
+    "output": "Export-control adjustment"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-pcc-export-limit-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-pcc-export-limit-controller.svg",
+  "id": "microgrid-pcc-export-limit-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-pcc-export-limit-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-pcc-export-limit-controller.json",
+  "svgPath": "artwork/svg/microgrid-pcc-export-limit-controller.svg",
+  "referencePath": "references/microgrid-pcc-export-limit-controller.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

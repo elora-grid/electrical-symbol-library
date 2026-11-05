@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-capacitor-step-coordination-request",
+  "name": "Microgrid capacitor-step coordination request",
+  "kind": "symbol",
+  "abbreviation": "MCCR",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Reactive demand and bank availability",
+    "Capacitor stage request"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests the assigned switched-capacitor stage under the documented supervisory strategy.",
+  "description": [
+    "Requests the assigned switched-capacitor stage under the documented supervisory strategy. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Reactive demand and bank availability” at the input and “Capacitor stage request” at the output. Switching duties and protection remain separately designed.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reactive demand and bank availability. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Capacitor stage request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Switching duties and protection remain separately designed.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reactive demand and bank availability.",
+    "Identify the destination and defined state of capacitor stage request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Switching duties and protection remain separately designed."
+  ],
+  "distinction": "Switching duties and protection remain separately designed. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reactive demand and bank availability"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Capacitor stage request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MCCR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-dynamic-compensator-reference-interface"
+  ],
+  "artwork": "pi26-microgrid-capacitor-step-coordination-request",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Reactive demand and bank availability",
+    "output": "Capacitor stage request"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-capacitor-step-coordination-request",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-capacitor-step-coordination-request.svg",
+  "id": "microgrid-capacitor-step-coordination-request",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-capacitor-step-coordination-request",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-capacitor-step-coordination-request.json",
+  "svgPath": "artwork/svg/microgrid-capacitor-step-coordination-request.svg",
+  "referencePath": "references/microgrid-capacitor-step-coordination-request.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

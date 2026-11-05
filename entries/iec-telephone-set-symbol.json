@@ -1,0 +1,103 @@
+{
+  "slug": "iec-telephone-set-symbol",
+  "name": "Telephone set symbol",
+  "kind": "symbol",
+  "abbreviation": "TEL",
+  "aliases": [
+    "telephone handset",
+    "telephone instrument",
+    "phone"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Symbol for a telephone instrument, drawn as a handset shape, used on communication layouts and schematics.",
+  "description": [
+    "The telephone set symbol shows the instrument itself, usually as a stylised handset over a base or a circle with a handset. It appears on communication system diagrams, lift and emergency phone schematics and on plans where a fixed phone is supplied.",
+    "Where a phone is provided as part of a system, such as a lift car phone, help point or emergency phone, the symbol distinguishes the supplied device from a simple outlet. The plan then tags the device type. The symbol does not tell you whether the instrument is analogue, IP or hands-free."
+  ],
+  "readingNotes": [
+    "Check whether the instrument is supplied or only the outlet.",
+    "Read the device type tag."
+  ],
+  "drawingChecklist": [
+    "State instrument type.",
+    "Show its outlet or line.",
+    "Note emergency use where relevant."
+  ],
+  "distinction": "A telephone outlet is the termination; the telephone set symbol is the instrument.",
+  "facts": [
+    {
+      "label": "Represents",
+      "value": "Telephone instrument"
+    },
+    {
+      "label": "Typical system uses",
+      "value": "Lift phones, help points, emergency phones"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ],
+  "related": [
+    "iec-telephone-outlet",
+    "iec-door-intercom-station"
+  ],
+  "artwork": "s28-iec-telephone-set-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Telephone set",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-telephone-set-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-telephone-set-symbol.svg",
+  "id": "iec-telephone-set-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-telephone-set-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-telephone-set-symbol.json",
+  "svgPath": "artwork/svg/iec-telephone-set-symbol.svg",
+  "referencePath": "references/iec-telephone-set-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ]
+}

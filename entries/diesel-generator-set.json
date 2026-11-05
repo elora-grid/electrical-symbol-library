@@ -1,0 +1,106 @@
+{
+  "slug": "diesel-generator-set",
+  "name": "Diesel generator set",
+  "kind": "symbol",
+  "abbreviation": "DG",
+  "aliases": [
+    "diesel genset",
+    "diesel engine generator",
+    "standby diesel generator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A compression-ignition engine coupled to an alternator, shown as a source on microgrid and standby power single-line diagrams.",
+  "description": [
+    "A diesel generator set combines a diesel engine, an alternator, a controller and usually a generator breaker into one package. On a microgrid single-line diagram it is the dispatchable source that sets voltage and frequency when the utility is absent, or that supports the battery during long periods of low renewable output.",
+    "It is commonly drawn as a generator circle with an engine box or the letters DG or D beside the mechanical coupling, followed by the generator breaker and its protection relay. Ratings are often written as prime, continuous or standby, because the same set can carry different loads under each duty definition.",
+    "The symbol does not tell you minimum loading limits, fuel autonomy or the governor and regulator settings needed to share load with other sources. Light loading of diesel engines causes wet stacking, so microgrid controls often maintain a minimum genset load that the diagram does not show."
+  ],
+  "readingNotes": [
+    "Check whether the rating shown is standby, prime or continuous.",
+    "Follow the controller connections to see whether the set can parallel with other sources."
+  ],
+  "drawingChecklist": [
+    "State kVA, kW, power factor and duty rating.",
+    "Show generator breaker and neutral earthing.",
+    "Reference controller and fuel system drawings."
+  ],
+  "distinction": "A diesel set uses compression ignition and liquid fuel; a gas engine set uses spark ignition and gaseous fuel with different load-acceptance behaviour.",
+  "facts": [
+    {
+      "label": "Prime mover",
+      "value": "Diesel reciprocating engine"
+    },
+    {
+      "label": "Typical role",
+      "value": "Standby or grid-forming backup source"
+    },
+    {
+      "label": "Duty ratings",
+      "value": "Standby, prime, continuous"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public generator-set application manual for ratings and installation context."
+    },
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public generator switchgear and paralleling control context."
+    }
+  ],
+  "related": [
+    "generator-package",
+    "three-phase-synchronous-generator",
+    "genset-controller",
+    "gas-engine-generator-set"
+  ],
+  "artwork": "s28-diesel-generator-set",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/diesel-generator-set",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/diesel-generator-set.svg",
+  "id": "diesel-generator-set",
+  "canonicalUrl": "https://eloragrid.ai/symbols/diesel-generator-set",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/diesel-generator-set.json",
+  "svgPath": "artwork/svg/diesel-generator-set.svg",
+  "referencePath": "references/diesel-generator-set.md",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator-set application manual for ratings and installation context."
+    },
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator switchgear and paralleling control context."
+    }
+  ]
+}

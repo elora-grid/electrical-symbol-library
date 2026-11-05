@@ -1,0 +1,82 @@
+{
+  "slug": "volt-squared-hour-meter",
+  "name": "Volt-squared-hour meter",
+  "kind": "symbol",
+  "abbreviation": "V²h",
+  "aliases": [
+    "V2h meter",
+    "voltage-squared-hour meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Integrating meter that totalises the square of voltage over time, used to assess voltage-dependent losses and stress.",
+  "description": [
+    "A volt-squared-hour meter integrates the square of voltage over time. Quantities such as iron losses in transformers and the stress on some insulation vary roughly with voltage squared, so the register gives a measure of exposure that a simple time-at-voltage record would not.",
+    "It is uncommon on modern drawings and is often provided as a calculated register inside a multifunction meter. The symbol does not tell you the reference voltage or whether the value is per phase or combined, so the meter documentation is needed to use the reading."
+  ],
+  "readingNotes": [
+    "Check whether the value is per phase or combined.",
+    "Confirm whether this is a separate meter or a calculated register."
+  ],
+  "drawingChecklist": [
+    "Show VT source",
+    "State reference voltage",
+    "Reference meter documentation"
+  ],
+  "distinction": "A V²h meter integrates voltage squared; a kWh meter integrates power.",
+  "facts": [
+    {
+      "label": "Integrated quantity",
+      "value": "Voltage squared over time"
+    },
+    {
+      "label": "Typical use",
+      "value": "Loss and stress assessment"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "integrating-instrument-general-symbol",
+    "ampere-hour-meter",
+    "recording-voltmeter"
+  ],
+  "artwork": "s28-volt-squared-hour-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/volt-squared-hour-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/volt-squared-hour-meter.svg",
+  "id": "volt-squared-hour-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/volt-squared-hour-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/volt-squared-hour-meter.json",
+  "svgPath": "artwork/svg/volt-squared-hour-meter.svg",
+  "referencePath": "references/volt-squared-hour-meter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "iec-analogue-multiplier",
+  "name": "IEC analogue multiplier element",
+  "kind": "symbol",
+  "abbreviation": "Π",
+  "aliases": [
+    "multiplier element",
+    "analogue product element",
+    "pi multiplier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Analogue element with a multiplication mark whose output is proportional to the product of two inputs.",
+  "description": [
+    "An analogue multiplier element produces an output proportional to the product of its inputs, usually scaled by a fixed factor such as one tenth of a volt per volt squared. IEC-style diagrams draw it as a rectangle with a multiplication mark; TI's logic overview uses the Greek capital pi as the multiplier qualifier in the digital context.",
+    "Multipliers appear in power calculation from voltage and current signals, modulators and gain-control circuits. The scale factor and the quadrant capability must be stated, because a one-quadrant device cannot handle negative inputs.",
+    "The element does not show accuracy or bandwidth. Those govern whether a hardware multiplier or a digital calculation is appropriate."
+  ],
+  "readingNotes": [
+    "State scale factor and quadrant capability.",
+    "Identify which inputs carry voltage and current in power calculations."
+  ],
+  "drawingChecklist": [
+    "Mark the multiplication function.",
+    "State the scale factor.",
+    "State quadrant capability."
+  ],
+  "distinction": "A summing element adds signals; the multiplier forms their product.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Product of inputs times scale factor"
+    },
+    {
+      "label": "Key data",
+      "value": "Scale factor and quadrants"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "sourceId": "pub-electronics-adi-multiplier",
+      "relevance": "Manufacturer analogue multiplier documentation."
+    }
+  ],
+  "related": [
+    "analog-multiplier",
+    "iec-summing-amplifier",
+    "rms-to-dc-converter"
+  ],
+  "artwork": "s28-iec-analogue-multiplier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular analogue element with a multiplication function mark",
+    "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "analog-multiplier"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-analogue-multiplier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-analogue-multiplier.svg",
+  "id": "iec-analogue-multiplier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-analogue-multiplier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-analogue-multiplier.json",
+  "svgPath": "artwork/svg/iec-analogue-multiplier.svg",
+  "referencePath": "references/iec-analogue-multiplier.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "id": "pub-electronics-adi-multiplier",
+      "title": "AD633 — analogue multiplication",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ad633.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for analogue multiplication. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer analogue multiplier documentation."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-solenoid-valve-no-auxiliary-contact",
+  "name": "ANSI/IEEE Solenoid-valve NO auxiliary contact form",
+  "kind": "symbol",
+  "abbreviation": "HSV21",
+  "aliases": [
+    "HSV21",
+    "VSV21",
+    "IEEE Solenoid Valve Auxiliary Normally Open Contact",
+    "ANSI Solenoid-valve NO auxiliary contact"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of solenoid-valve no auxiliary contact: this form identifies a normally-open auxiliary contact associated with a solenoid valve.",
+  "description": [
+    "This reference locates solenoid-valve no auxiliary contact in Autodesk's IEEE-oriented solenoids family. This form identifies a normally-open auxiliary contact associated with a solenoid valve. The public library uses HSV21 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Cross-reference the actuator or valve tag and state which position the contact reports. An auxiliary contact is not the power terminal of the solenoid coil. Cross-reference the actuator or valve tag and state which position the contact reports. An auxiliary contact is not the power terminal of the solenoid coil. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Cross-reference the actuator or valve tag and state which position the contact reports.",
+    "An auxiliary contact is not the power terminal of the solenoid coil."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Cross-reference the actuator or valve tag and state which position the contact reports.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "An auxiliary contact is not the power terminal of the solenoid coil.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Solenoids; published form: Solenoid Valve Auxiliary Normally Open Contact."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSV21. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Cross-reference the actuator or valve tag and state which position the contact reports."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-solenoids",
+      "relevance": "Public IEEE-oriented Solenoids table explicitly lists HSV21 as Solenoid Valve Auxiliary Normally Open Contact. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-solenoid-valve-no-auxiliary-contact",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-solenoid-valve-no-auxiliary-contact",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Solenoid Valve Auxiliary Normally Open Contact",
+    "reference": "Autodesk IEEE Symbol Preview: Solenoids, block HSV21. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-solenoid-valve-no-auxiliary-contact"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-solenoid-valve-no-auxiliary-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-solenoid-valve-no-auxiliary-contact.svg",
+  "id": "ansi-solenoid-valve-no-auxiliary-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-solenoid-valve-no-auxiliary-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-solenoid-valve-no-auxiliary-contact.json",
+  "svgPath": "artwork/svg/ansi-solenoid-valve-no-auxiliary-contact.svg",
+  "referencePath": "references/ansi-solenoid-valve-no-auxiliary-contact.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-solenoids",
+      "title": "Autodesk IEEE Symbol Preview: Solenoids",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F7BADF45-D679-4050-BE46-0199A3A76230.htm",
+      "type": "cad-reference",
+      "scope": "Public solenoids family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Solenoids table explicitly lists HSV21 as Solenoid Valve Auxiliary Normally Open Contact. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "neutral-earthing-resistor",
+  "name": "Neutral earthing resistor",
+  "kind": "symbol",
+  "abbreviation": "NER",
+  "aliases": [
+    "NER",
+    "neutral grounding resistor",
+    "earthing resistor"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A resistor between a transformer or generator neutral and earth that limits earth-fault current to a set value.",
+  "description": [
+    "A neutral earthing resistor connects the star point of a transformer or generator to earth through a defined resistance. It limits earth-fault current, typically to tens or hundreds of amperes on medium-voltage systems and a few amperes on high-resistance earthed low-voltage systems, reducing damage and arc energy while keeping enough current for protection to detect.",
+    "Drawings show a resistor between the neutral of a star winding and the earth symbol, often with a current transformer in the neutral lead for earth-fault protection and sometimes a disconnector. The resistor current and time rating, such as 400 A for 10 seconds, are written beside it.",
+    "The symbol does not show the resistor's monitoring, which some designs use to detect an open resistor. It also does not show whether generator and transformer neutrals are earthed at the same time, which affects fault current and circulating harmonic currents."
+  ],
+  "readingNotes": [
+    "Read the current and time rating together.",
+    "A neutral CT normally feeds earth-fault protection."
+  ],
+  "drawingChecklist": [
+    "State resistance, current and time rating.",
+    "Show neutral CT and disconnector.",
+    "Reference earth-fault protection settings."
+  ],
+  "distinction": "A neutral earthing resistor limits fault current resistively; an arc suppression coil compensates capacitive fault current with inductance.",
+  "facts": [
+    {
+      "label": "Connection",
+      "value": "Neutral to earth"
+    },
+    {
+      "label": "Rating",
+      "value": "Current and time, for example 400 A 10 s"
+    },
+    {
+      "label": "Associated protection",
+      "value": "Neutral CT earth-fault relay"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-postglover-ng",
+      "relevance": "Public neutral earthing resistor resource library."
+    },
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public neutral earthing and earth-fault protection context."
+    }
+  ],
+  "related": [
+    "star-winding-with-accessible-neutral",
+    "arc-suppression-coil",
+    "51n-time-neutral-overcurrent-protection",
+    "ga-neutral-earthing-resistor-cabinet"
+  ],
+  "artwork": "s28-neutral-earthing-resistor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/neutral-earthing-resistor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/neutral-earthing-resistor.svg",
+  "id": "neutral-earthing-resistor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/neutral-earthing-resistor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/neutral-earthing-resistor.json",
+  "svgPath": "artwork/svg/neutral-earthing-resistor.svg",
+  "referencePath": "references/neutral-earthing-resistor.md",
+  "publicSources": [
+    {
+      "id": "pub-object-postglover-ng",
+      "title": "Neutral grounding resistor and transformer resources",
+      "publisher": "Post Glover",
+      "url": "https://www.postglover.com/literature-library/",
+      "type": "manufacturer",
+      "scope": "Official neutral-grounding equipment classification and installation references; no generic enclosure is presented as a verified product outline.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public neutral earthing resistor resource library."
+    },
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public neutral earthing and earth-fault protection context."
+    }
+  ]
+}

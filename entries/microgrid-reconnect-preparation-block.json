@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-reconnect-preparation-block",
+  "name": "Microgrid reconnect preparation block",
+  "kind": "symbol",
+  "abbreviation": "MRPB",
+  "aliases": [
+    "Microgrid operating-mode controls",
+    "microgrids Microgrid operating-mode controls",
+    "microgrids",
+    "Microgrids",
+    "Utility availability and island state",
+    "Reconnection preparation state"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Checks the defined prerequisites before attempting the selected return to grid connection.",
+  "description": [
+    "Checks the defined prerequisites before attempting the selected return to grid connection. A microgrid operating-mode function coordinates how local sources and loads relate to the utility connection. The selected mode, the measured electrical condition and the actual switching configuration can differ during a transition.",
+    "In a microgrid serving a switchroom and industrial loads, the controller can move between grid-connected and islanded operating states only through its defined transition logic. Each state needs identifiable source roles and feedback. For this reference, the drawing identifies “Utility availability and island state” at the input and “Reconnection preparation state” at the output. Reconnection needs the assigned synchronising conditions.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Utility availability and island state. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Reconnection preparation state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Reconnection needs the assigned synchronising conditions.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for utility availability and island state.",
+    "Identify the destination and defined state of reconnection preparation state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Reconnection needs the assigned synchronising conditions."
+  ],
+  "distinction": "Reconnection needs the assigned synchronising conditions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Utility availability and island state"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Reconnection preparation state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRPB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "grid-forming-inverter",
+    "microgrid-transition-state-indication"
+  ],
+  "artwork": "pi26-microgrid-reconnect-preparation-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-modes",
+    "input": "Utility availability and island state",
+    "output": "Reconnection preparation state"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-reconnect-preparation-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-reconnect-preparation-block.svg",
+  "id": "microgrid-reconnect-preparation-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-reconnect-preparation-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-reconnect-preparation-block.json",
+  "svgPath": "artwork/svg/microgrid-reconnect-preparation-block.svg",
+  "referencePath": "references/microgrid-reconnect-preparation-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

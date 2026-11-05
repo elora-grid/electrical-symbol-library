@@ -1,0 +1,90 @@
+{
+  "slug": "mean-well-hdr-60",
+  "name": "MEAN WELL HDR-60 power supply",
+  "kind": "object",
+  "abbreviation": "HDR-60",
+  "aliases": [
+    "HDR-60 GA",
+    "HDR-60 CAD",
+    "HDR-60 panel layout",
+    "HDR-60-12",
+    "HDR-60-15",
+    "HDR-60-24",
+    "HDR-60-48",
+    "HDR-60-5"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Compact rail-mounted power-supply family with five listed output-voltage variants.",
+  "description": [
+    "Place the supply beside the relevant DC distribution terminals while keeping input wiring and output wiring identifiable. Use the exact manufacturer model when checking rail space and terminal access.",
+    "The GA illustration is independently authored conceptual geometry, without dimensions or scale. Refer to the manufacturer STEP and selected product instructions for the actual mounting envelope."
+  ],
+  "readingNotes": [
+    "The product page lists HDR-60-5, -12, -15, -24 and -48. The family STEP is a mechanical reference; choose the electrical order code separately.",
+    "A shared family model does not mean all output variants deliver the same current or power under every operating condition."
+  ],
+  "drawingChecklist": [
+    "Record the complete output-voltage order code.",
+    "Check the selected CAD configuration, terminal access and rail attachment.",
+    "Apply manufacturer installation spacing and reserve cable bend and replacement space."
+  ],
+  "distinction": "A shared family model does not mean all output variants deliver the same current or power under every operating condition.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "MEAN WELL"
+    },
+    {
+      "label": "Family",
+      "value": "HDR-60"
+    },
+    {
+      "label": "Listed variants",
+      "value": "HDR-60-12, HDR-60-15, HDR-60-24, HDR-60-48, HDR-60-5"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual GA; unitless, not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-expansion-mean-well-hdr-60",
+      "relevance": "Official family resource listing electrical variants and the downloadable 3D archive."
+    }
+  ],
+  "related": [
+    "ga-din-rail-ac-dc-power-supply",
+    "terminal-strip"
+  ],
+  "artwork": "edu-object-mean-well-hdr-60",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/mean-well-hdr-60",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/mean-well-hdr-60",
+  "id": "mean-well-hdr-60",
+  "canonicalUrl": "https://eloragrid.ai/objects/mean-well-hdr-60",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/mean-well-hdr-60.json",
+  "referencePath": "references/mean-well-hdr-60.md",
+  "publicSources": [
+    {
+      "id": "ga-expansion-mean-well-hdr-60",
+      "title": "MEAN WELL HDR-60 official product and CAD resources",
+      "publisher": "MEAN WELL",
+      "url": "https://www.meanwell.com.cn/webapp/product/search.aspx?prod=HDR-60",
+      "type": "manufacturer",
+      "scope": "Listed electrical variants and family STEP archive; verify selected configuration.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Official family resource listing electrical variants and the downloadable 3D archive."
+    }
+  ]
+}

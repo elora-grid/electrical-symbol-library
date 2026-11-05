@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-renewable-penetration-supervisor",
+  "name": "Microgrid renewable-penetration supervisor",
+  "kind": "symbol",
+  "abbreviation": "MRS",
+  "aliases": [
+    "Microgrid renewable-generation interfaces",
+    "microgrids Microgrid renewable-generation interfaces",
+    "microgrids",
+    "Microgrids",
+    "Renewable and total power quantities",
+    "Renewable contribution information"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Calculates the assigned renewable contribution measure used by the documented operating strategy.",
+  "description": [
+    "Calculates the assigned renewable contribution measure used by the documented operating strategy. Renewable-generation coordination connects variable resource availability, inverter operating limits and the microgrid power target. Available solar or wind power, an issued curtailment request and actual delivered power are different signals.",
+    "In a microgrid with solar generation, the controller can restrain inverter output when local load and storage cannot absorb the available power. The resource controller reports its own availability and accepted operating limits. For this reference, the drawing identifies “Renewable and total power quantities” at the input and “Renewable contribution information” at the output. The chosen ratio and measurement boundary must be defined.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Renewable and total power quantities. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Renewable contribution information. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The chosen ratio and measurement boundary must be defined.",
+    "Identify the point where power is measured and the system declaring each availability or limit signal. Resource forecasts and controller requests do not guarantee the delivered generation at every instant."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for renewable and total power quantities.",
+    "Identify the destination and defined state of renewable contribution information.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The chosen ratio and measurement boundary must be defined."
+  ],
+  "distinction": "The chosen ratio and measurement boundary must be defined. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Renewable and total power quantities"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Renewable contribution information"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-pv-control",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "pv-string-inverter",
+    "photovoltaic-string-combiner",
+    "microgrid-renewable-loss-reserve-request"
+  ],
+  "artwork": "pi26-microgrid-renewable-penetration-supervisor",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-renewables",
+    "input": "Renewable and total power quantities",
+    "output": "Renewable contribution information"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-renewable-penetration-supervisor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-renewable-penetration-supervisor.svg",
+  "id": "microgrid-renewable-penetration-supervisor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-renewable-penetration-supervisor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-renewable-penetration-supervisor.json",
+  "svgPath": "artwork/svg/microgrid-renewable-penetration-supervisor.svg",
+  "referencePath": "references/microgrid-renewable-penetration-supervisor.md",
+  "publicSources": [
+    {
+      "id": "pi26-pv-control",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid processing and control functions",
+      "url": "https://productinfo.se.com/esxp_digital_apps_iec/mg/English/BM_ESXP_DG_Microgrid_IEC_0001122076.xml/%24/ESXP_DG_MG_SD_Processing_0001125595",
+      "scope": "Renewable generation dispatch and microgrid source coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid renewable-generation interfaces. Renewable generation dispatch and microgrid source coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "iec-nand-gate",
+  "name": "IEC NAND gate (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "&",
+  "aliases": [
+    "IEC NAND element",
+    "rectangular NAND gate",
+    "AND with negated output"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC AND box with a negation circle or polarity triangle at its output, giving the NAND function.",
+  "description": [
+    "In the IEC rectangular system there is no separate NAND qualifier. The element is an & box whose output carries a logic negation circle, or in data-book practice a polarity triangle marking the output as active-low. The output therefore stands at its external 0 state only when all inputs are active.",
+    "When reading device data books that use polarity indicators instead of circles, the triangle at the output means the internal 1 state produces a low level. A drawing should be consistent: mixing circles and triangles on the same sheet invites misreading because circles depend on the declared logic convention.",
+    "The symbol does not show output drive type. Open-collector, three-state or totem-pole outputs need their own qualifier inside the outline next to the output line."
+  ],
+  "readingNotes": [
+    "Look for the circle or triangle at the output edge; it is easy to miss on a reduced print.",
+    "Confirm whether the sheet uses positive logic, negative logic or polarity indicators."
+  ],
+  "drawingChecklist": [
+    "Draw the negation mark touching the outline at the output.",
+    "State the logic convention in the sheet notes.",
+    "Add an output-type qualifier where the output is not a standard push-pull stage."
+  ],
+  "distinction": "An & box with a negated input rather than a negated output is a different function (an inhibit-type AND), not a NAND.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "& plus output negation"
+    },
+    {
+      "label": "Output active state",
+      "value": "External 0 when all inputs active (positive logic)"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Explains output negation and polarity indicator conventions."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc00",
+      "relevance": "Manufacturer NAND gate documentation."
+    }
+  ],
+  "related": [
+    "logic-nand-gate",
+    "iec-and-gate",
+    "iec-logic-output-negation"
+  ],
+  "artwork": "s28-iec-nand-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "& rectangular element with output negation circle",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-nand-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-nand-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-nand-gate.svg",
+  "id": "iec-nand-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-nand-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-nand-gate.json",
+  "svgPath": "artwork/svg/iec-nand-gate.svg",
+  "referencePath": "references/iec-nand-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Explains output negation and polarity indicator conventions."
+    },
+    {
+      "id": "pub-electronics-ti-hc00",
+      "title": "SN74HC00 — NAND gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of nand gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer NAND gate documentation."
+    }
+  ]
+}

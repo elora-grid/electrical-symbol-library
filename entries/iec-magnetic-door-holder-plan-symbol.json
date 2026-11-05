@@ -1,0 +1,102 @@
+{
+  "slug": "iec-magnetic-door-holder-plan-symbol",
+  "name": "Magnetic door holder plan symbol",
+  "kind": "symbol",
+  "abbreviation": "DH",
+  "aliases": [
+    "fire door holder",
+    "electromagnetic door retainer",
+    "door hold-open device"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for an electromagnetic door holder that keeps fire doors open and releases them on alarm.",
+  "description": [
+    "Electromagnetic door holders keep fire doors open during normal use and release them when the fire alarm operates or the supply fails. Plans draw a small box against the wall at the door swing with an M or DH tag, linked to the fire alarm interface.",
+    "The holder is fail-safe: loss of power releases the door. The plan should show the interface relay or module and the supply, so the installer can wire the release correctly. The symbol does not show holding force or the door closer, which is a door hardware item."
+  ],
+  "readingNotes": [
+    "Check the door swing and holder position.",
+    "Find the alarm interface that releases it."
+  ],
+  "drawingChecklist": [
+    "Show interface module.",
+    "State supply voltage.",
+    "Coordinate with door hardware schedule."
+  ],
+  "distinction": "A door contact only reports door position; a door holder keeps a fire door open until alarm.",
+  "facts": [
+    {
+      "label": "Fail state",
+      "value": "Releases door on power loss"
+    },
+    {
+      "label": "Interface",
+      "value": "Fire alarm relay or module"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "iec-fire-alarm-control-panel-plan-symbol",
+    "iec-door-contact-plan-symbol"
+  ],
+  "artwork": "s28-iec-magnetic-door-holder-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Door holder",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-magnetic-door-holder-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-magnetic-door-holder-plan-symbol.svg",
+  "id": "iec-magnetic-door-holder-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-magnetic-door-holder-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-magnetic-door-holder-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-magnetic-door-holder-plan-symbol.svg",
+  "referencePath": "references/iec-magnetic-door-holder-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

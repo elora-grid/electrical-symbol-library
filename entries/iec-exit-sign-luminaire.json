@@ -1,0 +1,102 @@
+{
+  "slug": "iec-exit-sign-luminaire",
+  "name": "Exit sign luminaire plan mark",
+  "kind": "symbol",
+  "abbreviation": "EXIT",
+  "aliases": [
+    "illuminated exit sign",
+    "escape route sign",
+    "exit luminaire"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for an illuminated exit or escape route sign, with an arrow showing the direction of travel.",
+  "description": [
+    "Exit signs are drawn as a rectangle or luminaire mark with an arrow or EXIT text and, where relevant, the direction arrow that will appear on the sign face. Their position is set by the escape route design and they are usually maintained emergency luminaires.",
+    "The plan should show mounting (ceiling-hung, wall or projecting), whether single- or double-sided, and the arrow direction. Errors in arrow direction are a common defect found at inspection. The symbol does not give the viewing distance or legend type. Local regulations determine pictogram style."
+  ],
+  "readingNotes": [
+    "Check arrow direction matches the escape route.",
+    "Check single- or double-sided faces."
+  ],
+  "drawingChecklist": [
+    "Specify faces and arrows.",
+    "State viewing distance class.",
+    "Confirm maintained operation."
+  ],
+  "distinction": "An emergency luminaire lights the escape route; an exit sign identifies the route and direction.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Rectangle with direction arrow"
+    },
+    {
+      "label": "Common operation",
+      "value": "Maintained"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "iec-maintained-emergency-luminaire",
+    "ansi-exit-light-outlet"
+  ],
+  "artwork": "s28-iec-exit-sign-luminaire",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Exit sign luminaire",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-exit-sign-luminaire",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-exit-sign-luminaire.svg",
+  "id": "iec-exit-sign-luminaire",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-exit-sign-luminaire",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-exit-sign-luminaire.json",
+  "svgPath": "artwork/svg/iec-exit-sign-luminaire.svg",
+  "referencePath": "references/iec-exit-sign-luminaire.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

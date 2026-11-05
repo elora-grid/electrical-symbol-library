@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-bus-voltage-deviation-monitor",
+  "name": "Microgrid bus-voltage deviation monitor",
+  "kind": "symbol",
+  "abbreviation": "MBDM",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Bus voltage and reference",
+    "Voltage deviation information"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports the difference between the monitored bus voltage and its assigned reference.",
+  "description": [
+    "Reports the difference between the monitored bus voltage and its assigned reference. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Bus voltage and reference” at the input and “Voltage deviation information” at the output. Measurement location matters.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Bus voltage and reference. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Voltage deviation information. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Measurement location matters.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for bus voltage and reference.",
+    "Identify the destination and defined state of voltage deviation information.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Measurement location matters."
+  ],
+  "distinction": "Measurement location matters. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Bus voltage and reference"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Voltage deviation information"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MBDM is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-voltage-control-mode-selector"
+  ],
+  "artwork": "pi26-microgrid-bus-voltage-deviation-monitor",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Bus voltage and reference",
+    "output": "Voltage deviation information"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-bus-voltage-deviation-monitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-bus-voltage-deviation-monitor.svg",
+  "id": "microgrid-bus-voltage-deviation-monitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-bus-voltage-deviation-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-bus-voltage-deviation-monitor.json",
+  "svgPath": "artwork/svg/microgrid-bus-voltage-deviation-monitor.svg",
+  "referencePath": "references/microgrid-bus-voltage-deviation-monitor.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

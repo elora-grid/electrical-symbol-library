@@ -1,0 +1,101 @@
+{
+  "slug": "busway-feeder-run",
+  "name": "Feeder busway",
+  "kind": "symbol",
+  "abbreviation": "BD",
+  "aliases": [
+    "bus duct",
+    "feeder busbar trunking",
+    "busway run"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A busway run used purely to carry power between two points, drawn as a distinct trunking line without tap-off points.",
+  "description": [
+    "Feeder busway carries high current between a transformer and switchboard, or between switchboards, in an enclosed busbar trunking rather than parallel cables. Single-line diagrams draw it as a distinct line style or double line with its rating, so that it is not mistaken for cable.",
+    "The symbol does not show the busway impedance, which is often lower than equivalent cables and affects fault level downstream. It also does not show the conductor arrangement, such as whether a full neutral or separate earth bar is included. Expansion units, fire barriers and flanged ends are physical details on the busway layout drawing."
+  ],
+  "readingNotes": [
+    "Read the busway rating and conductor arrangement.",
+    "Use busway impedance, not cable data, for fault calculations."
+  ],
+  "drawingChecklist": [
+    "State current rating and conductor configuration.",
+    "Reference the busway layout drawing.",
+    "Include busway impedance in fault studies."
+  ],
+  "distinction": "Feeder busway has no tap-off points; plug-in busway provides outlets along its length.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Double line or distinct trunking line between two boards"
+    },
+    {
+      "label": "Typical use",
+      "value": "Transformer to main switchboard links"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Manufacturer busbar trunking ranges including feeder runs."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "plug-in-busway",
+    "busbar-trunking",
+    "busbar"
+  ],
+  "artwork": "s28-busway-feeder-run",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/busway-feeder-run",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/busway-feeder-run.svg",
+  "id": "busway-feeder-run",
+  "canonicalUrl": "https://eloragrid.ai/symbols/busway-feeder-run",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/busway-feeder-run.json",
+  "svgPath": "artwork/svg/busway-feeder-run.svg",
+  "referencePath": "references/busway-feeder-run.md",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer busbar trunking ranges including feeder runs."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

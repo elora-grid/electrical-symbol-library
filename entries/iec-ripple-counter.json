@@ -1,0 +1,106 @@
+{
+  "slug": "iec-ripple-counter",
+  "name": "IEC ripple counter (RCTRm)",
+  "kind": "symbol",
+  "abbreviation": "RCTR",
+  "aliases": [
+    "asynchronous counter IEC form",
+    "ripple-carry counter",
+    "RCTR4"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC counter marked RCTRm: an asynchronous ripple-carry counter with a cycle length of 2 to the power m.",
+  "description": [
+    "RCTRm identifies an asynchronous or ripple-carry counter of m bits. Each stage clocks the next, so outputs change one after another rather than simultaneously. The clock input carries a dynamic mark, and a clear input is usually shown as an asynchronous R.",
+    "Ripple counters are used where outputs are not decoded together at high speed, such as long frequency dividers or simple timers. Drawing them with RCTR rather than CTR warns a reviewer that decoding several outputs together may produce brief false states.",
+    "The symbol does not state the cumulative delay through the stages. That depends on the logic family and the number of bits."
+  ],
+  "readingNotes": [
+    "RCTR warns that outputs settle in sequence.",
+    "Avoid decoding multiple outputs without synchronisation."
+  ],
+  "drawingChecklist": [
+    "Use RCTR for asynchronous counters.",
+    "Show the clear input and its polarity.",
+    "Note any decoding that relies on stable outputs."
+  ],
+  "distinction": "CTRm counters are synchronous and all outputs change on the same clock edge.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "RCTRm"
+    },
+    {
+      "label": "Timing",
+      "value": "Outputs change in sequence"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists RCTRm as the asynchronous ripple-carry counter qualifier."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc393",
+      "relevance": "Ripple binary counter documentation."
+    }
+  ],
+  "related": [
+    "ripple-binary-counter",
+    "iec-synchronous-binary-counter",
+    "iec-t-flip-flop"
+  ],
+  "artwork": "s28-iec-ripple-counter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with the RCTRm qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "ripple-binary-counter"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-ripple-counter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-ripple-counter.svg",
+  "id": "iec-ripple-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-ripple-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-ripple-counter.json",
+  "svgPath": "artwork/svg/iec-ripple-counter.svg",
+  "referencePath": "references/iec-ripple-counter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists RCTRm as the asynchronous ripple-carry counter qualifier."
+    },
+    {
+      "id": "pub-electronics-ti-hc393",
+      "title": "SN74HC393 — ripple binary counters",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of ripple binary counters. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Ripple binary counter documentation."
+    }
+  ]
+}

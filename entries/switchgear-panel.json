@@ -15,10 +15,9 @@
   "referenceFamilies": [
     "Manufacturer"
   ],
-  "summary": "A generic arrangement object linking switching equipment to its manufacturer drawings.",
+  "summary": "An equipment reference for general arrangement drawings, linked to manufacturer resources.",
   "description": [
-    "A switchgear-panel object represents the equipment envelope and interfaces used when arranging a switchroom or substation. The manufacturer and panel configuration establish the physical dimensions, cable entries, access sides and other installation information.",
-    "The original envelope illustration is unscaled and has no manufacturer dimensions. Follow the cited public resources to the exact product, then use its current drawing and installation information for engineering work."
+    "A switchgear-panel object represents the equipment envelope and interfaces used when arranging a switchroom or substation. The manufacturer and panel configuration establish the physical dimensions, cable entries, access sides and other installation information."
   ],
   "readingNotes": [
     "Read plan and elevation views together.",
@@ -38,14 +37,6 @@
     {
       "label": "Dimensions",
       "value": "Use the exact manufacturer/model drawing"
-    },
-    {
-      "label": "Illustration scale",
-      "value": "Not to scale"
-    },
-    {
-      "label": "Download scope",
-      "value": "Original concept envelope only"
     }
   ],
   "references": [
@@ -65,15 +56,15 @@
   ],
   "artwork": "panel",
   "publishedOn": "2026-10-13",
-  "updatedOn": "2026-10-13",
+  "updatedOn": "2026-10-27",
   "provenance": "independent-public-research",
   "url": "https://eloragrid.ai/objects/switchgear-panel",
-  "illustration": "https://eloragrid.ai/library/illustrations/switchgear-panel.svg",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/switchgear-panel",
   "id": "switchgear-panel",
   "canonicalUrl": "https://eloragrid.ai/objects/switchgear-panel",
   "contentLicense": "CC-BY-4.0",
   "recordPath": "entries/switchgear-panel.json",
-  "svgPath": "artwork/svg/switchgear-panel.svg",
+  "referencePath": "references/switchgear-panel.md",
   "publicSources": [
     {
       "id": "abb-switchgear",

@@ -1,0 +1,100 @@
+{
+  "slug": "minimum-voltage-relay",
+  "name": "Minimum-voltage measuring relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "minimum voltage protection",
+    "undervoltage measuring relay",
+    "HCR1F35"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring relay that operates when voltage falls below a set level while some voltage is still present.",
+  "description": [
+    "The minimum-voltage relay form operates when the measured voltage falls below its setting. It is used for motor undervoltage tripping, load shedding and transfer schemes, where a sustained voltage dip indicates a supply problem rather than a momentary disturbance.",
+    "The symbol shows the voltage quantity and the less-than threshold but not the time delay, which phases are monitored or whether operation is blocked on VT fuse failure. Without a blocking input a blown VT fuse can cause an unwanted trip, so the supervision arrangement should be cross-referenced."
+  ],
+  "readingNotes": [
+    "Check which phase voltages are monitored.",
+    "Look for VT supervision or fuse-failure blocking."
+  ],
+  "drawingChecklist": [
+    "State threshold and delay",
+    "Show VT source",
+    "Reference blocking input"
+  ],
+  "distinction": "A minimum-voltage relay responds to a reduced voltage; a loss-of-voltage relay responds to absence of voltage.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Voltage below a set level"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F35 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-voltage-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Minimum Voltage Protection block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "loss-of-voltage-monitoring-relay",
+    "27-undervoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-minimum-voltage-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/minimum-voltage-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/minimum-voltage-relay.svg",
+  "id": "minimum-voltage-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/minimum-voltage-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/minimum-voltage-relay.json",
+  "svgPath": "artwork/svg/minimum-voltage-relay.svg",
+  "referencePath": "references/minimum-voltage-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-voltage-relays",
+      "title": "AutoCAD Electrical: Voltage monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5296749E-9336-4B07-9956-160963D6C848.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Minimum Voltage Protection block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

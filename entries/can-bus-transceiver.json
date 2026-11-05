@@ -1,0 +1,87 @@
+{
+  "slug": "can-bus-transceiver",
+  "name": "CAN bus transceiver",
+  "kind": "symbol",
+  "abbreviation": "CAN",
+  "aliases": [
+    "CAN bus transceiver",
+    "CAN bus transceiver functional block",
+    "CAN bus transceiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "CAN (Controller Area Network) lets electronic devices exchange messages. A transceiver is the part that sends and receives the network's electrical signals.",
+  "description": [
+    "CAN (Controller Area Network) lets electronic devices exchange messages. A transceiver is the part that sends and receives the network's electrical signals.",
+    "For example, a battery controller can report measurements to a system controller over a compatible CAN connection.",
+    "Put the CAN controller on the logic side and the CAN bus pair on the other side of the transceiver. The controller creates and interprets messages; the transceiver drives and receives their electrical signals. Show bus termination and reference connections from the selected network design. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Separate controller transmit/receive signals from bus conductors.",
+    "Reference the selected termination and cable arrangement.",
+    "Identify the transceiver supply and bus-reference connections.",
+    "The transceiver supplies a physical interface; it is not necessarily the CAN protocol controller."
+  ],
+  "drawingChecklist": [
+    "Separate controller transmit/receive signals from bus conductors.",
+    "Reference the selected termination and cable arrangement.",
+    "Identify the transceiver supply and bus-reference connections."
+  ],
+  "distinction": "The transceiver supplies a physical interface; it is not necessarily the CAN protocol controller.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Controller logic signals"
+    },
+    {
+      "label": "Concept output",
+      "value": "CAN bus pair"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-can",
+      "relevance": "CAN interface functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-bus-transceiver",
+    "can-fd-transceiver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-can-bus-transceiver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/can-bus-transceiver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/can-bus-transceiver.svg",
+  "id": "can-bus-transceiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/can-bus-transceiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/can-bus-transceiver.json",
+  "svgPath": "artwork/svg/can-bus-transceiver.svg",
+  "referencePath": "references/can-bus-transceiver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-can",
+      "title": "CAN interface functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/can-transceivers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "CAN interface functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

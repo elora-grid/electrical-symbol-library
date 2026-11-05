@@ -1,0 +1,90 @@
+{
+  "slug": "iec-decade-counter",
+  "name": "IEC decade counter (CTR DIV10)",
+  "kind": "symbol",
+  "abbreviation": "CTR DIV10",
+  "aliases": [
+    "BCD decade counter IEC form",
+    "divide-by-ten counter",
+    "CTRDIV10"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC counter marked CTR DIV10, counting through ten states with BCD-weighted outputs.",
+  "description": [
+    "CTR DIVm identifies a counter whose cycle length is m. A decade counter is therefore CTR DIV10, with outputs weighted 1, 2, 4 and 8 for a BCD count from 0 to 9. The carry output is often marked CT=9 to show it is active at the last state.",
+    "Decade counters drive numeric displays through BCD-to-seven-segment decoders and form decimal dividers in timing circuits. A drafter cascading stages should show the CT=9 carry feeding the enable of the next decade.",
+    "This differs from a decoded one-of-ten counter, which provides ten separate outputs rather than a BCD code. Check the outputs before assuming either form."
+  ],
+  "readingNotes": [
+    "DIV10 states a cycle of ten.",
+    "CT=9 marks the carry used to cascade decades."
+  ],
+  "drawingChecklist": [
+    "Use CTR DIV10 rather than CTR4 for BCD counters.",
+    "Show BCD output weights.",
+    "Show cascading between decades."
+  ],
+  "distinction": "The decoded decade counter has ten one-hot outputs rather than BCD-weighted outputs.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "CTR DIV10"
+    },
+    {
+      "label": "Outputs",
+      "value": "BCD weights 1, 2, 4, 8"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines CTR DIVm and contents outputs such as CT=9."
+    }
+  ],
+  "related": [
+    "one-hot-decade-counter",
+    "iec-bcd-to-seven-segment-decoder",
+    "iec-synchronous-binary-counter"
+  ],
+  "artwork": "s28-iec-decade-counter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with the CTR DIVm qualifier, m = 10",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-decade-counter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-decade-counter.svg",
+  "id": "iec-decade-counter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-decade-counter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-decade-counter.json",
+  "svgPath": "artwork/svg/iec-decade-counter.svg",
+  "referencePath": "references/iec-decade-counter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines CTR DIVm and contents outputs such as CT=9."
+    }
+  ]
+}

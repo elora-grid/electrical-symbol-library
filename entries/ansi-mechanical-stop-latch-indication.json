@@ -1,0 +1,99 @@
+{
+  "slug": "ansi-mechanical-stop-latch-indication",
+  "name": "ANSI/IEEE Mechanical stop-latch indication form",
+  "kind": "symbol",
+  "abbreviation": "Q021208",
+  "aliases": [
+    "Q021208",
+    "IEEE Auto Non Return Stop Latch",
+    "ANSI Mechanical stop-latch indication"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of mechanical stop-latch indication: a stop-latch indication identifies a mechanically retained control position.",
+  "description": [
+    "This reference locates mechanical stop-latch indication in Autodesk's IEEE-oriented mechanical controls family. A stop-latch indication identifies a mechanically retained control position. A stop latch mechanically retains a position until its specified release action occurs. The mechanism state can be maintained without an electrical holding coil remaining energised. The public library uses Q021208 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Identify the retained movement and the release/reset path. If position is reported electrically, cross-reference the feedback contact rather than assuming the latch indication supplies that signal. Specify the release action and the controlled device relationship. A stop latch is distinct from a timer holding a circuit electrically. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Specify the release action and the controlled device relationship.",
+    "A stop latch is distinct from a timer holding a circuit electrically."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Specify the release action and the controlled device relationship.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A stop latch is distinct from a timer holding a circuit electrically.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Mechanical Controls; published form: Auto Non Return Stop Latch."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q021208. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Specify the release action and the controlled device relationship."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-mechanical-controls",
+      "relevance": "Public IEEE-oriented Mechanical Controls table explicitly lists Q021208 as Auto Non Return Stop Latch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-mechanical-stop-latch-indication",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-mechanical-stop-latch-indication",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Auto Non Return Stop Latch",
+    "reference": "Autodesk IEEE Symbol Preview: Mechanical Controls, block Q021208. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-mechanical-stop-latch-indication"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-mechanical-stop-latch-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-mechanical-stop-latch-indication.svg",
+  "id": "ansi-mechanical-stop-latch-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-mechanical-stop-latch-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-mechanical-stop-latch-indication.json",
+  "svgPath": "artwork/svg/ansi-mechanical-stop-latch-indication.svg",
+  "referencePath": "references/ansi-mechanical-stop-latch-indication.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-mechanical-controls",
+      "title": "Autodesk IEEE Symbol Preview: Mechanical Controls",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-450F6FD7-7A10-4F81-92A1-0D9BECFB23FC.htm",
+      "type": "cad-reference",
+      "scope": "Public mechanical controls family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Mechanical Controls table explicitly lists Q021208 as Auto Non Return Stop Latch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

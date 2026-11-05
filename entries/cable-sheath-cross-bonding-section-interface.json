@@ -1,0 +1,105 @@
+{
+  "slug": "cable-sheath-cross-bonding-section-interface",
+  "name": "Cable sheath cross-bonding section interface",
+  "kind": "symbol",
+  "abbreviation": "CSCSI",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Sectioned cable sheaths",
+    "Cross-bonding connections"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the sheath-section interconnections used by the assigned cross-bonded cable system.",
+  "description": [
+    "Identifies the sheath-section interconnections used by the assigned cross-bonded cable system. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Sectioned cable sheaths” at the input and “Cross-bonding connections” at the output. Section lengths and joint arrangements require a cable design.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Sectioned cable sheaths. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Cross-bonding connections. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Section lengths and joint arrangements require a cable design.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for sectioned cable sheaths.",
+    "Identify the destination and defined state of cross-bonding connections.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Section lengths and joint arrangements require a cable design."
+  ],
+  "distinction": "Section lengths and joint arrangements require a cable design. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Sectioned cable sheaths"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Cross-bonding connections"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CSCSI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "cable-sheath-voltage-limiter-interface"
+  ],
+  "artwork": "pi26-cable-sheath-cross-bonding-section-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Sectioned cable sheaths",
+    "output": "Cross-bonding connections"
+  },
+  "url": "https://eloragrid.ai/symbols/cable-sheath-cross-bonding-section-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/cable-sheath-cross-bonding-section-interface.svg",
+  "id": "cable-sheath-cross-bonding-section-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/cable-sheath-cross-bonding-section-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/cable-sheath-cross-bonding-section-interface.json",
+  "svgPath": "artwork/svg/cable-sheath-cross-bonding-section-interface.svg",
+  "referencePath": "references/cable-sheath-cross-bonding-section-interface.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

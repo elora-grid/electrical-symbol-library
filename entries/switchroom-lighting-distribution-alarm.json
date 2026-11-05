@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-lighting-distribution-alarm",
+  "name": "Switchroom lighting distribution alarm",
+  "kind": "symbol",
+  "abbreviation": "SLDA",
+  "aliases": [
+    "Switchroom lighting and access interfaces",
+    "switchrooms Switchroom lighting and access interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Lighting branch protection status",
+    "Lighting distribution alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports the operated status of the assigned room lighting protective device.",
+  "description": [
+    "Reports the operated status of the assigned room lighting protective device. Lighting and access interfaces coordinate the electrical-room service circuits and their supervision. Normal lighting, emergency illumination and access indication have different power sources and purposes.",
+    "In a switchroom, a normal lighting branch may be switched locally while the specified emergency luminaires remain connected to their own backed-up or integral supply. For this reference, the drawing identifies “Lighting branch protection status” at the input and “Lighting distribution alarm” at the output. The alarm path may use another supply.",
+    "Identify the lighting supply type, controlled circuit and the meaning of any test or failure output. A drawing symbol does not establish illumination levels, emergency duration or an approved egress arrangement. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Lighting branch protection status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Lighting distribution alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The alarm path may use another supply.",
+    "Identify the lighting supply type, controlled circuit and the meaning of any test or failure output. A drawing symbol does not establish illumination levels, emergency duration or an approved egress arrangement."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for lighting branch protection status.",
+    "Identify the destination and defined state of lighting distribution alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The alarm path may use another supply."
+  ],
+  "distinction": "The alarm path may use another supply. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Lighting branch protection status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Lighting distribution alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SLDA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-room-services",
+      "relevance": "Public technical context for switchroom lighting and access interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-maintained-emergency-luminaire",
+    "iec-exit-sign-luminaire",
+    "panel-inspection-light-door-contact"
+  ],
+  "artwork": "pi26-switchroom-lighting-distribution-alarm",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-lighting",
+    "input": "Lighting branch protection status",
+    "output": "Lighting distribution alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-lighting-distribution-alarm",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-lighting-distribution-alarm.svg",
+  "id": "switchroom-lighting-distribution-alarm",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-lighting-distribution-alarm",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-lighting-distribution-alarm.json",
+  "svgPath": "artwork/svg/switchroom-lighting-distribution-alarm.svg",
+  "referencePath": "references/switchroom-lighting-distribution-alarm.md",
+  "publicSources": [
+    {
+      "id": "pi26-room-services",
+      "publisher": "Schneider Electric",
+      "title": "Indoor substation: lighting, fire and auxiliary services",
+      "url": "https://www.electrical-installation.org/enwiki/Indoor_substation",
+      "scope": "Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom lighting and access interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

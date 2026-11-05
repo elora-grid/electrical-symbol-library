@@ -1,0 +1,104 @@
+{
+  "slug": "iec-multicore-cable-sealing-end",
+  "name": "Multicore cable sealing end",
+  "kind": "symbol",
+  "abbreviation": "SE",
+  "aliases": [
+    "three-core cable termination",
+    "trifurcating termination",
+    "multicore cable termination"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A cable termination where a multicore cable is sealed and its cores separated out to individual phase connections.",
+  "description": [
+    "The multicore sealing end shows a three-core or other multicore cable ending in a single termination from which the individual cores fan out. It is typical on medium voltage three-core cables entering ring main units, pole-mounted transformers and outdoor line transitions, where a breakout boot separates the cores.",
+    "The symbol does not tell the reader the termination type or the screen and armour earthing arrangement. Armour is usually earthed at the gland and the core screens at the termination, both of which should appear on the earthing details. Phase identification of the fanned-out cores must also be checked against the equipment."
+  ],
+  "readingNotes": [
+    "Check phase identification of the separated cores.",
+    "Find armour and screen earthing details."
+  ],
+  "drawingChecklist": [
+    "State termination type and voltage class.",
+    "Label phases on the separated cores.",
+    "Show armour and screen earthing."
+  ],
+  "distinction": "A multicore sealing end splits one cable into several cores; a single-core sealing end terminates one core per cable.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Termination cone with several conductors leaving the top"
+    },
+    {
+      "label": "Typical use",
+      "value": "Three-core MV cables at ring main units and line transitions"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for cable terminations and accessories."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-single-core-cable-sealing-end",
+    "iec-cable-straight-through-joint",
+    "ga-cable-gland"
+  ],
+  "artwork": "s28-iec-multicore-cable-sealing-end",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Multicore sealing end",
+    "reference": "Independent IEC-context illustration; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-multicore-cable-sealing-end",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-multicore-cable-sealing-end.svg",
+  "id": "iec-multicore-cable-sealing-end",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-multicore-cable-sealing-end",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-multicore-cable-sealing-end.json",
+  "svgPath": "artwork/svg/iec-multicore-cable-sealing-end.svg",
+  "referencePath": "references/iec-multicore-cable-sealing-end.md",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for cable terminations and accessories."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

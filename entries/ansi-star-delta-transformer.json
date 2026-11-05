@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-star-delta-transformer",
+  "name": "ANSI/IEEE Star-delta transformer form",
+  "kind": "symbol",
+  "abbreviation": "TX Y-D",
+  "aliases": [
+    "HXF1P3SD",
+    "VXF1P3SD",
+    "IEEE 3 Phase Star/Delta",
+    "ANSI Star-delta transformer"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of star-delta transformer: a star-delta transformer connects one winding set in star and the other in delta.",
+  "description": [
+    "This reference locates star-delta transformer in Autodesk's IEEE-oriented 3 phase transformers family. A star-delta transformer connects one winding set in star and the other in delta. The notation identifies winding topology; a clock-number or equivalent phase-displacement designation is still needed where system phase relationships matter. The public library uses HXF1P3SD for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Read which side is star from the declared primary and secondary labels. Y-D topology alone does not specify a complete transformer vector group. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Read which side is star from the declared primary and secondary labels.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify winding sides",
+    "State complete vector group",
+    "Show neutral availability"
+  ],
+  "distinction": "Y-D topology alone does not specify a complete transformer vector group.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Phase Transformers; published form: 3 Phase Star/Delta."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HXF1P3SD. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-3-phase-transformers",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1P3SD as 3 Phase Star/Delta. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "star-delta-transformer",
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-star-delta-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Star/Delta",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Phase Transformers, block HXF1P3SD. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "star-delta-transformer"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-star-delta-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-star-delta-transformer.svg",
+  "id": "ansi-star-delta-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-star-delta-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-star-delta-transformer.json",
+  "svgPath": "artwork/svg/ansi-star-delta-transformer.svg",
+  "referencePath": "references/ansi-star-delta-transformer.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-3-phase-transformers",
+      "title": "Autodesk IEEE Symbol Preview: 3 Phase Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EE75A5D4-8CBD-4E78-94A3-226A94E61817.htm",
+      "type": "cad-reference",
+      "scope": "Public 3 phase transformers family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1P3SD as 3 Phase Star/Delta. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

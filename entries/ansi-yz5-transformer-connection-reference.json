@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-yz5-transformer-connection-reference",
+  "name": "ANSI/IEEE Yz5 transformer connection reference form",
+  "kind": "symbol",
+  "abbreviation": "Yz5",
+  "aliases": [
+    "HXF1T28",
+    "VXF1T28",
+    "IEEE 3 Phase Yz5",
+    "ANSI Yz5 transformer connection reference"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of yz5 transformer connection reference: this reference identifies the publisher's Yz5 transformer connection form with star/zigzag winding topology.",
+  "description": [
+    "This reference locates yz5 transformer connection reference in Autodesk's IEEE-oriented 3 phase transformers family. Yz5 combines an HV-side star winding designation with an LV-side zigzag designation and clock group 5. The letters describe connection topology; the final number identifies the phase relationship recorded with the transformer connection diagram. It is different from the voltage ratio or the number of terminals. The public library uses HXF1T28 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "A drafter should preserve the full Yz5 designation across the SLD, transformer schedule and protection references. Two devices with the same winding letters but a different clock number are not the same connection reference. Check the selected transformer terminal diagram and the protection application documentation; the concept preview does not specify polarity tests, parallel-operation suitability or relay settings. Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram. The clock-group suffix is different from a voltage ratio, power rating or physical terminal number. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram.",
+    "The clock-group suffix is different from a voltage ratio, power rating or physical terminal number."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The clock-group suffix is different from a voltage ratio, power rating or physical terminal number.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Phase Transformers; published form: 3 Phase Yz5."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HXF1T28. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Preserve the full group notation and verify the terminal/phase relationship in the selected transformer diagram."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "HV winding topology",
+      "value": "star"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-3-phase-transformers",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T28 as 3 Phase Yz5. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-yz5-transformer-connection-reference",
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-yz5-transformer-connection-reference",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Yz5",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Phase Transformers, block HXF1T28. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-yz5-transformer-connection-reference"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-yz5-transformer-connection-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-yz5-transformer-connection-reference.svg",
+  "id": "ansi-yz5-transformer-connection-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-yz5-transformer-connection-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-yz5-transformer-connection-reference.json",
+  "svgPath": "artwork/svg/ansi-yz5-transformer-connection-reference.svg",
+  "referencePath": "references/ansi-yz5-transformer-connection-reference.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-3-phase-transformers",
+      "title": "Autodesk IEEE Symbol Preview: 3 Phase Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EE75A5D4-8CBD-4E78-94A3-226A94E61817.htm",
+      "type": "cad-reference",
+      "scope": "Public 3 phase transformers family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T28 as 3 Phase Yz5. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

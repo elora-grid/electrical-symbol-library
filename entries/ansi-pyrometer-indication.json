@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-pyrometer-indication",
+  "name": "ANSI/IEEE thermometer/pyrometer symbol",
+  "kind": "symbol",
+  "abbreviation": "PYR",
+  "aliases": [
+    "IEEE pyrometer symbol",
+    "ANSI thermometer pyrometer symbol",
+    "HIN1P25"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library thermometer/pyrometer form for high-temperature indication, often from thermocouples or radiation sensors.",
+  "description": [
+    "Pyrometer indication is used where temperatures are too high for ordinary thermometers, such as furnaces, kilns and exhaust gas. The instrument is commonly fed from a thermocouple or an optical radiation sensor, so the input wiring and any cold-junction compensation must be shown with the instrument.",
+    "The form identifies the indicating instrument, not the sensing principle. A radiation pyrometer and a thermocouple pyrometer look the same at the instrument circle, and emissivity settings or sensor range limits must come from the instrument data."
+  ],
+  "readingNotes": [
+    "Identify the sensing element feeding the pyrometer.",
+    "Check for cold-junction compensation when a thermocouple is used."
+  ],
+  "drawingChecklist": [
+    "Name the sensing principle",
+    "State the temperature range",
+    "Reference compensation or emissivity setting"
+  ],
+  "distinction": "The pyrometer form signals a high-temperature indicator; the general thermometer form covers ordinary temperature indication.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1P25 / VIN1P25 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Typical use",
+      "value": "Furnace, kiln and exhaust temperature indication"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Thermometer/Pyrometer block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-pyrometer-indication",
+    "ansi-thermocouple",
+    "ansi-temperature-indicator"
+  ],
+  "artwork": "s28-ansi-pyrometer-indication",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Thermometer/Pyrometer",
+    "counterpart": "iec-pyrometer-indication",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-pyrometer-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-pyrometer-indication.svg",
+  "id": "ansi-pyrometer-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-pyrometer-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-pyrometer-indication.json",
+  "svgPath": "artwork/svg/ansi-pyrometer-indication.svg",
+  "referencePath": "references/ansi-pyrometer-indication.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Thermometer/Pyrometer block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

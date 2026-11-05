@@ -1,0 +1,98 @@
+{
+  "slug": "definite-time-delay-measuring-qualifier",
+  "name": "Definite-time delay qualifier for measuring relays",
+  "kind": "symbol",
+  "abbreviation": "t",
+  "aliases": [
+    "definite time qualifier",
+    "fixed time-delay marking"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Qualifier added to a measuring relay symbol to show that operation follows a fixed time delay after pick-up.",
+  "description": [
+    "This qualifier is added inside or beside a measuring relay box to show that the relay operates a fixed time after its measured quantity crosses the threshold. Combined with a quantity such as I> or U<, it tells the reader the element is definite-time rather than instantaneous or inverse-time.",
+    "The qualifier states the type of delay, not its value. The delay setting itself must appear in the settings table, and an element shown without any time qualifier should not automatically be assumed to be instantaneous unless the legend says so."
+  ],
+  "readingNotes": [
+    "Read the qualifier together with the quantity and threshold sign.",
+    "Take the actual delay value from the settings record."
+  ],
+  "drawingChecklist": [
+    "Pair with quantity and threshold",
+    "State delay setting",
+    "Confirm legend convention"
+  ],
+  "distinction": "A definite-time qualifier gives a fixed delay; an inverse-time qualifier gives a delay that shortens as the quantity increases.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Fixed delay after pick-up"
+    },
+    {
+      "label": "Applies to",
+      "value": "Measuring relay symbols"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "iec-public-operating",
+      "relevance": "Public IEC-context qualifier family showing how qualifiers modify a base symbol."
+    }
+  ],
+  "related": [
+    "inverse-time-characteristic-qualifier",
+    "measuring-relay",
+    "maximum-current-monitoring-relay"
+  ],
+  "artwork": "s28-definite-time-delay-measuring-qualifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/definite-time-delay-measuring-qualifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/definite-time-delay-measuring-qualifier.svg",
+  "id": "definite-time-delay-measuring-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/definite-time-delay-measuring-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/definite-time-delay-measuring-qualifier.json",
+  "svgPath": "artwork/svg/definite-time-delay-measuring-qualifier.svg",
+  "referencePath": "references/definite-time-delay-measuring-qualifier.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "iec-public-operating",
+      "title": "Autodesk IEC-60617 preview: Operating-device and function qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3598E18D-9F8A-48CE-83D0-4CEBA0AE869C.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-context qualifier family showing how qualifiers modify a base symbol."
+    }
+  ]
+}

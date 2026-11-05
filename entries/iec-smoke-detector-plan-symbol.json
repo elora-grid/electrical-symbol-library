@@ -1,0 +1,104 @@
+{
+  "slug": "iec-smoke-detector-plan-symbol",
+  "name": "Smoke detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "SD",
+  "aliases": [
+    "point smoke detector",
+    "optical smoke detector symbol",
+    "automatic fire detector, smoke"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Fire alarm plan symbol for a point smoke detector, drawn as a detector box with a smoke indication.",
+  "description": [
+    "Point smoke detectors are drawn on fire alarm layouts as a square or circle with a smoke mark inside, such as wavy lines or the letter S, at their ceiling position. Each symbol is usually tagged with its loop and device address so the plan doubles as the commissioning record.",
+    "Spacing and coverage radius depend on ceiling height and the applicable fire detection code, so the plan is used to check coverage. Detectors near air supply grilles, in voids or in lift shafts need special attention and often appear with extra annotations.",
+    "The symbol does not tell you whether the detector is optical, ionisation or multi-sensor unless tagged. A separate GA object may record its physical installation point."
+  ],
+  "readingNotes": [
+    "Read the loop and address tag.",
+    "Check spacing against coverage requirements."
+  ],
+  "drawingChecklist": [
+    "Tag loop and address.",
+    "State detector type.",
+    "Note void or concealed locations needing indicators."
+  ],
+  "distinction": "A heat detector responds to temperature, not smoke; it uses a different internal mark.",
+  "facts": [
+    {
+      "label": "Placement",
+      "value": "Ceiling, within coverage radius"
+    },
+    {
+      "label": "Commissioning data",
+      "value": "Loop and device address"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "ga-smoke-detector-installation-point",
+    "iec-heat-detector-plan-symbol",
+    "iec-multi-sensor-detector-plan-symbol"
+  ],
+  "artwork": "s28-iec-smoke-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Smoke detector",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-smoke-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-smoke-detector-plan-symbol.svg",
+  "id": "iec-smoke-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-smoke-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-smoke-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-smoke-detector-plan-symbol.svg",
+  "referencePath": "references/iec-smoke-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

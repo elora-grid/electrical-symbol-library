@@ -1,0 +1,105 @@
+{
+  "slug": "maintenance-mode-closing-inhibit",
+  "name": "Maintenance-mode closing inhibit",
+  "kind": "symbol",
+  "abbreviation": "MCI",
+  "aliases": [
+    "Switchgear interlocking functions",
+    "switchgear Switchgear interlocking functions",
+    "switchgear",
+    "Switchgear",
+    "Maintenance mode selection",
+    "Automatic close inhibit"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Suppresses the defined automatic closing paths while the assigned maintenance mode is selected.",
+  "description": [
+    "Suppresses the defined automatic closing paths while the assigned maintenance mode is selected. An interlocking function permits or blocks an operation according to the positions and conditions of related equipment. Electrical, mechanical and trapped-key interlocks implement different parts of a coordinated operating philosophy.",
+    "In a switchgear feeder panel, a control diagram can prevent an incompatible combination of breaker, disconnector and earthing-switch positions. The physical equipment documents determine which restrictions are mechanically enforced. For this reference, the drawing identifies “Maintenance mode selection” at the input and “Automatic close inhibit” at the output. Maintenance mode does not create electrical isolation.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Maintenance mode selection. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Automatic close inhibit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Maintenance mode does not create electrical isolation.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for maintenance mode selection.",
+    "Identify the destination and defined state of automatic close inhibit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Maintenance mode does not create electrical isolation."
+  ],
+  "distinction": "Maintenance mode does not create electrical isolation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Maintenance mode selection"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Automatic close inhibit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-mechanical-interlock-between-devices",
+    "earthing-switch",
+    "test-mode-output-blocking"
+  ],
+  "artwork": "pi26-maintenance-mode-closing-inhibit",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "interlocks",
+    "input": "Maintenance mode selection",
+    "output": "Automatic close inhibit"
+  },
+  "url": "https://eloragrid.ai/symbols/maintenance-mode-closing-inhibit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/maintenance-mode-closing-inhibit.svg",
+  "id": "maintenance-mode-closing-inhibit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/maintenance-mode-closing-inhibit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/maintenance-mode-closing-inhibit.json",
+  "svgPath": "artwork/svg/maintenance-mode-closing-inhibit.svg",
+  "referencePath": "references/maintenance-mode-closing-inhibit.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

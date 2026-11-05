@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-fan-local-auto-interface",
+  "name": "Switchroom fan local-auto interface",
+  "kind": "symbol",
+  "abbreviation": "SFLI",
+  "aliases": [
+    "Switchroom ventilation interfaces",
+    "switchrooms Switchroom ventilation interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Local-auto selector",
+    "Accepted fan command"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects the permitted local or automatic command path for the room fan.",
+  "description": [
+    "Selects the permitted local or automatic command path for the room fan. Ventilation control coordinates the equipment that manages heat and air movement in an electrical room. A temperature request, a fan command and proof of airflow are separate signals, and the room design determines how they interact.",
+    "In a switchroom containing transformers and auxiliary panels, the room controller can supervise fan availability and send an alarm when the documented ventilation duty is not achieved. For this reference, the drawing identifies “Local-auto selector” at the input and “Accepted fan command” at the output. Local operation still follows the specified interlocks.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Local-auto selector. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Accepted fan command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Local operation still follows the specified interlocks.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for local-auto selector.",
+    "Identify the destination and defined state of accepted fan command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Local operation still follows the specified interlocks."
+  ],
+  "distinction": "Local operation still follows the specified interlocks. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Local-auto selector"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Accepted fan command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SFLI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-switchroom-exhaust-fan",
+    "ga-enclosure-thermostat",
+    "enclosure-condensation-control-request"
+  ],
+  "artwork": "pi26-switchroom-fan-local-auto-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "ventilation",
+    "input": "Local-auto selector",
+    "output": "Accepted fan command"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-fan-local-auto-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-fan-local-auto-interface.svg",
+  "id": "switchroom-fan-local-auto-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-fan-local-auto-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-fan-local-auto-interface.json",
+  "svgPath": "artwork/svg/switchroom-fan-local-auto-interface.svg",
+  "referencePath": "references/switchroom-fan-local-auto-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

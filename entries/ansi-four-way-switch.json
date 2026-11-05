@@ -1,0 +1,88 @@
+{
+  "slug": "ansi-four-way-switch",
+  "name": "ANSI four-way switch plan symbol",
+  "kind": "symbol",
+  "abbreviation": "S4",
+  "aliases": [
+    "S4 switch",
+    "four-way switch symbol",
+    "4-way switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol S4 for a four-way switch placed between two three-way switches to add control points.",
+  "description": [
+    "The S4 symbol marks a four-way switch, which crosses the travellers between two three-way switches. Any number of S4 switches can be added along the travellers, so long corridors and rooms with several entries show S3 at the ends and S4 between.",
+    "Reading the plan, the installer checks that S4 never appears without a pair of S3 switches on the same group. The IEC equivalent is the intermediate switch.",
+    "The symbol gives no information about the device rating or style. Smart switching systems may replace this wiring scheme with a master and companion device, which should be noted."
+  ],
+  "readingNotes": [
+    "Confirm two S3 switches exist on the same group.",
+    "Watch for smart-switch notes that change the wiring scheme."
+  ],
+  "drawingChecklist": [
+    "Show S3 at each end.",
+    "Number control points for clarity.",
+    "State any smart-control alternative."
+  ],
+  "distinction": "S3 changes over; S4 crosses two travellers and only works between S3 switches.",
+  "facts": [
+    {
+      "label": "Contact",
+      "value": "Crossover of two travellers"
+    },
+    {
+      "label": "IEC equivalent term",
+      "value": "Intermediate switch"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-intermediate-light-switch",
+    "ansi-three-way-switch"
+  ],
+  "artwork": "s28-ansi-four-way-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Four-way switch, S4",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-four-way-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-four-way-switch.svg",
+  "id": "ansi-four-way-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-four-way-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-four-way-switch.json",
+  "svgPath": "artwork/svg/ansi-four-way-switch.svg",
+  "referencePath": "references/ansi-four-way-switch.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-separately-excited-dc-motor",
+  "name": "ANSI/IEEE Separately excited DC motor form",
+  "kind": "symbol",
+  "abbreviation": "M DC SEP",
+  "aliases": [
+    "HMO1M12",
+    "VMO1M12",
+    "IEEE DC Motor - Independent Excitation",
+    "ANSI Separately excited DC motor"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of separately excited dc motor: a separately excited DC motor has a documented field circuit supplied separately from the armature circuit.",
+  "description": [
+    "This reference locates separately excited dc motor in Autodesk's IEEE-oriented dc motors family. A separately excited DC motor has a documented field circuit supplied separately from the armature circuit. The schematic must show both supplies and their relevant controls. The public library uses HMO1M12 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Trace the field source independently from armature power. Separately excited and series-excited motors do not share the same field-current path. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Trace the field source independently from armature power.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify field supply",
+    "Identify armature supply",
+    "Reference coordinated control sequence"
+  ],
+  "distinction": "Separately excited and series-excited motors do not share the same field-current path.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: DC Motors; published form: DC Motor - Independent Excitation."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HMO1M12. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Rotating or linear load"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-6a65d995-18bc-4a3c-a34e-c6bb276e8410",
+      "relevance": "Public IEEE-oriented DC Motors table explicitly lists HMO1M12 as DC Motor - Independent Excitation. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "separately-excited-dc-motor",
+    "motor",
+    "contactor"
+  ],
+  "artwork": "s28-ansi-separately-excited-dc-motor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "DC Motor - Independent Excitation",
+    "reference": "Autodesk IEEE Symbol Preview: DC Motors, block HMO1M12. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "separately-excited-dc-motor"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-separately-excited-dc-motor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-separately-excited-dc-motor.svg",
+  "id": "ansi-separately-excited-dc-motor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-separately-excited-dc-motor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-separately-excited-dc-motor.json",
+  "svgPath": "artwork/svg/ansi-separately-excited-dc-motor.svg",
+  "referencePath": "references/ansi-separately-excited-dc-motor.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-6a65d995-18bc-4a3c-a34e-c6bb276e8410",
+      "title": "Autodesk IEEE Symbol Preview — DC Motors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A65D995-18BC-4A3C-A34E-C6BB276E8410.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented DC Motors table explicitly lists HMO1M12 as DC Motor - Independent Excitation. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

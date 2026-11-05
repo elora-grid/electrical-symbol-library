@@ -1,0 +1,4530 @@
+{
+  "schemaVersion": 1,
+  "category": "power-distribution",
+  "entries": [
+    {
+      "id": "two-bus-section-coupler-arrangement",
+      "slug": "two-bus-section-coupler-arrangement",
+      "name": "Two-bus section-coupler arrangement",
+      "kind": "symbol",
+      "abbreviation": "TSA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Two sectioned buses",
+        "Section-coupling paths"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented coupler connections between corresponding sections of two buses.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Two sectioned buses",
+        "output": "Section-coupling paths"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/two-bus-section-coupler-arrangement",
+      "recordPath": "entries/two-bus-section-coupler-arrangement.json",
+      "svgPath": "artwork/svg/two-bus-section-coupler-arrangement.svg",
+      "referencePath": "references/two-bus-section-coupler-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bus-selector-disconnector-pair",
+      "slug": "bus-selector-disconnector-pair",
+      "name": "Bus-selector disconnector pair",
+      "kind": "symbol",
+      "abbreviation": "BDP",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Two bus conductors",
+        "Selected bay connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the two selectable isolating paths connecting a bay to its assigned buses.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Two bus conductors",
+        "output": "Selected bay connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bus-selector-disconnector-pair",
+      "recordPath": "entries/bus-selector-disconnector-pair.json",
+      "svgPath": "artwork/svg/bus-selector-disconnector-pair.svg",
+      "referencePath": "references/bus-selector-disconnector-pair.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busbar-earthing-point-arrangement",
+      "slug": "busbar-earthing-point-arrangement",
+      "name": "Busbar earthing-point arrangement",
+      "kind": "symbol",
+      "abbreviation": "BEA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus section and earthing device",
+        "Defined bus earthing point"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the earthing-switch connections assigned to the named bus section.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Bus section and earthing device",
+        "output": "Defined bus earthing point"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/busbar-earthing-point-arrangement",
+      "recordPath": "entries/busbar-earthing-point-arrangement.json",
+      "svgPath": "artwork/svg/busbar-earthing-point-arrangement.svg",
+      "referencePath": "references/busbar-earthing-point-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busbar-voltage-measurement-bay-arrangement",
+      "slug": "busbar-voltage-measurement-bay-arrangement",
+      "name": "Busbar voltage-measurement bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "BVBA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus conductor",
+        "Bus-voltage measurement path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the assigned bus voltage measurement equipment through its documented bay interfaces.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Bus conductor",
+        "output": "Bus-voltage measurement path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/busbar-voltage-measurement-bay-arrangement",
+      "recordPath": "entries/busbar-voltage-measurement-bay-arrangement.json",
+      "svgPath": "artwork/svg/busbar-voltage-measurement-bay-arrangement.svg",
+      "referencePath": "references/busbar-voltage-measurement-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busbar-surge-protection-connection-arrangement",
+      "slug": "busbar-surge-protection-connection-arrangement",
+      "name": "Busbar surge-protection connection arrangement",
+      "kind": "symbol",
+      "abbreviation": "BSCA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus and arrester connection",
+        "Surge-protection interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the connection of the selected surge-protection equipment to the assigned bus.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Bus and arrester connection",
+        "output": "Surge-protection interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/busbar-surge-protection-connection-arrangement",
+      "recordPath": "entries/busbar-surge-protection-connection-arrangement.json",
+      "svgPath": "artwork/svg/busbar-surge-protection-connection-arrangement.svg",
+      "referencePath": "references/busbar-surge-protection-connection-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busbar-protection-zone-overlap-arrangement",
+      "slug": "busbar-protection-zone-overlap-arrangement",
+      "name": "Busbar protection-zone overlap arrangement",
+      "kind": "symbol",
+      "abbreviation": "BPOA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "CT locations and bus sections",
+        "Protection-zone overlap"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Relates the selected current-measurement locations to neighboring bus protection boundaries.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "CT locations and bus sections",
+        "output": "Protection-zone overlap"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/busbar-protection-zone-overlap-arrangement",
+      "recordPath": "entries/busbar-protection-zone-overlap-arrangement.json",
+      "svgPath": "artwork/svg/busbar-protection-zone-overlap-arrangement.svg",
+      "referencePath": "references/busbar-protection-zone-overlap-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "busbar-extension-isolation-arrangement",
+      "slug": "busbar-extension-isolation-arrangement",
+      "name": "Busbar extension isolation arrangement",
+      "kind": "symbol",
+      "abbreviation": "BEIA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Existing bus and extension boundary",
+        "Separated extension interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the designed isolation boundary between an operating bus and its extension interface.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Existing bus and extension boundary",
+        "output": "Separated extension interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/busbar-extension-isolation-arrangement",
+      "recordPath": "entries/busbar-extension-isolation-arrangement.json",
+      "svgPath": "artwork/svg/busbar-extension-isolation-arrangement.svg",
+      "referencePath": "references/busbar-extension-isolation-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "normally-split-busbar-operating-arrangement",
+      "slug": "normally-split-busbar-operating-arrangement",
+      "name": "Normally split busbar operating arrangement",
+      "kind": "symbol",
+      "abbreviation": "NSBOA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus sections and normal open point",
+        "Split normal operating state"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the defined normal separation between bus sections that can be connected by switching.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Bus sections and normal open point",
+        "output": "Split normal operating state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/normally-split-busbar-operating-arrangement",
+      "recordPath": "entries/normally-split-busbar-operating-arrangement.json",
+      "svgPath": "artwork/svg/normally-split-busbar-operating-arrangement.svg",
+      "referencePath": "references/normally-split-busbar-operating-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "normally-interconnected-busbar-operating-arrangement",
+      "slug": "normally-interconnected-busbar-operating-arrangement",
+      "name": "Normally interconnected busbar operating arrangement",
+      "kind": "symbol",
+      "abbreviation": "NIBOA",
+      "aliases": [
+        "Switchyard busbar arrangements",
+        "switchyards Switchyard busbar arrangements",
+        "switchyards",
+        "Switchyards",
+        "Connected bus sections",
+        "Interconnected normal operating state"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "SLD",
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the defined normal connection between the assigned bus sections and supply paths.",
+      "representation": {
+        "type": "circuit-arrangement",
+        "focus": "switchyards",
+        "family": "yard-buses",
+        "input": "Connected bus sections",
+        "output": "Interconnected normal operating state"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/normally-interconnected-busbar-operating-arrangement",
+      "recordPath": "entries/normally-interconnected-busbar-operating-arrangement.json",
+      "svgPath": "artwork/svg/normally-interconnected-busbar-operating-arrangement.svg",
+      "referencePath": "references/normally-interconnected-busbar-operating-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "overhead-line-outgoing-bay-arrangement",
+      "slug": "overhead-line-outgoing-bay-arrangement",
+      "name": "Overhead-line outgoing bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "OOBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Switchyard bus",
+        "Overhead-line circuit"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Groups the assigned line switching and measurement interfaces between the bus and overhead-line connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Switchyard bus",
+        "output": "Overhead-line circuit"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/overhead-line-outgoing-bay-arrangement",
+      "recordPath": "entries/overhead-line-outgoing-bay-arrangement.json",
+      "svgPath": "artwork/svg/overhead-line-outgoing-bay-arrangement.svg",
+      "referencePath": "references/overhead-line-outgoing-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "underground-cable-outgoing-bay-arrangement",
+      "slug": "underground-cable-outgoing-bay-arrangement",
+      "name": "Underground-cable outgoing bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "UOBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Switchyard bus",
+        "Cable circuit termination"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Groups switching and measurement interfaces serving the assigned cable circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Switchyard bus",
+        "output": "Cable circuit termination"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/underground-cable-outgoing-bay-arrangement",
+      "recordPath": "entries/underground-cable-outgoing-bay-arrangement.json",
+      "svgPath": "artwork/svg/underground-cable-outgoing-bay-arrangement.svg",
+      "referencePath": "references/underground-cable-outgoing-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-transformer-primary-bay-arrangement",
+      "slug": "power-transformer-primary-bay-arrangement",
+      "name": "Power-transformer primary bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "PPBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus and primary bay",
+        "Transformer primary connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the transformer high-voltage winding through its assigned bay switching and measurement devices.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Bus and primary bay",
+        "output": "Transformer primary connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-transformer-primary-bay-arrangement",
+      "recordPath": "entries/power-transformer-primary-bay-arrangement.json",
+      "svgPath": "artwork/svg/power-transformer-primary-bay-arrangement.svg",
+      "referencePath": "references/power-transformer-primary-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-transformer-secondary-bay-arrangement",
+      "slug": "power-transformer-secondary-bay-arrangement",
+      "name": "Power-transformer secondary bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "PSBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Transformer secondary winding",
+        "Secondary-side bus connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the bay circuit serving the transformer's assigned secondary winding connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Transformer secondary winding",
+        "output": "Secondary-side bus connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-transformer-secondary-bay-arrangement",
+      "recordPath": "entries/power-transformer-secondary-bay-arrangement.json",
+      "svgPath": "artwork/svg/power-transformer-secondary-bay-arrangement.svg",
+      "referencePath": "references/power-transformer-secondary-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "shunt-reactor-switching-bay-arrangement",
+      "slug": "shunt-reactor-switching-bay-arrangement",
+      "name": "Shunt-reactor switching bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "SSBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus or line connection",
+        "Shunt-reactor circuit"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the selected shunt reactor through its assigned switching and measurement interfaces.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Bus or line connection",
+        "output": "Shunt-reactor circuit"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/shunt-reactor-switching-bay-arrangement",
+      "recordPath": "entries/shunt-reactor-switching-bay-arrangement.json",
+      "svgPath": "artwork/svg/shunt-reactor-switching-bay-arrangement.svg",
+      "referencePath": "references/shunt-reactor-switching-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "capacitor-bank-switching-bay-arrangement",
+      "slug": "capacitor-bank-switching-bay-arrangement",
+      "name": "Capacitor-bank switching bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "CSBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bus connection",
+        "Capacitor bank circuit"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the selected capacitor bank through the assigned switching and protection interfaces.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Bus connection",
+        "output": "Capacitor bank circuit"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/capacitor-bank-switching-bay-arrangement",
+      "recordPath": "entries/capacitor-bank-switching-bay-arrangement.json",
+      "svgPath": "artwork/svg/capacitor-bank-switching-bay-arrangement.svg",
+      "referencePath": "references/capacitor-bank-switching-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bus-coupler-bay-primary-arrangement",
+      "slug": "bus-coupler-bay-primary-arrangement",
+      "name": "Bus-coupler bay primary arrangement",
+      "kind": "symbol",
+      "abbreviation": "BBPA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Two bus conductors",
+        "Coupler bay connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Groups the devices assigned to the connection between two named buses.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Two bus conductors",
+        "output": "Coupler bay connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bus-coupler-bay-primary-arrangement",
+      "recordPath": "entries/bus-coupler-bay-primary-arrangement.json",
+      "svgPath": "artwork/svg/bus-coupler-bay-primary-arrangement.svg",
+      "referencePath": "references/bus-coupler-bay-primary-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bus-section-bay-primary-arrangement",
+      "slug": "bus-section-bay-primary-arrangement",
+      "name": "Bus-section bay primary arrangement",
+      "kind": "symbol",
+      "abbreviation": "BBPA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Adjacent bus sections",
+        "Section bay connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Groups the devices that connect or separate the assigned sections of one bus.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Adjacent bus sections",
+        "output": "Section bay connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bus-section-bay-primary-arrangement",
+      "recordPath": "entries/bus-section-bay-primary-arrangement.json",
+      "svgPath": "artwork/svg/bus-section-bay-primary-arrangement.svg",
+      "referencePath": "references/bus-section-bay-primary-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "breaker-and-a-half-middle-bay-interface",
+      "slug": "breaker-and-a-half-middle-bay-interface",
+      "name": "Breaker-and-a-half middle-bay interface",
+      "kind": "symbol",
+      "abbreviation": "BMI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Two diameter circuits",
+        "Middle-breaker interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the shared middle-breaker connections within the assigned diameter.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Two diameter circuits",
+        "output": "Middle-breaker interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/breaker-and-a-half-middle-bay-interface",
+      "recordPath": "entries/breaker-and-a-half-middle-bay-interface.json",
+      "svgPath": "artwork/svg/breaker-and-a-half-middle-bay-interface.svg",
+      "referencePath": "references/breaker-and-a-half-middle-bay-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ring-bus-feeder-takeoff-interface",
+      "slug": "ring-bus-feeder-takeoff-interface",
+      "name": "Ring-bus feeder takeoff interface",
+      "kind": "symbol",
+      "abbreviation": "RFTI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Adjacent ring switching nodes",
+        "Feeder takeoff"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the circuit takeoff between its assigned adjacent ring breakers.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Adjacent ring switching nodes",
+        "output": "Feeder takeoff"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ring-bus-feeder-takeoff-interface",
+      "recordPath": "entries/ring-bus-feeder-takeoff-interface.json",
+      "svgPath": "artwork/svg/ring-bus-feeder-takeoff-interface.svg",
+      "referencePath": "references/ring-bus-feeder-takeoff-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "transformer-tertiary-bay-arrangement",
+      "slug": "transformer-tertiary-bay-arrangement",
+      "name": "Transformer tertiary bay arrangement",
+      "kind": "symbol",
+      "abbreviation": "TTBA",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Tertiary winding connection",
+        "Tertiary circuit interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned protection and switching interface of an accessible transformer tertiary winding.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Tertiary winding connection",
+        "output": "Tertiary circuit interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/transformer-tertiary-bay-arrangement",
+      "recordPath": "entries/transformer-tertiary-bay-arrangement.json",
+      "svgPath": "artwork/svg/transformer-tertiary-bay-arrangement.svg",
+      "referencePath": "references/transformer-tertiary-bay-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "neutral-reactor-transformer-interface",
+      "slug": "neutral-reactor-transformer-interface",
+      "name": "Neutral reactor transformer interface",
+      "kind": "symbol",
+      "abbreviation": "NRTI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Transformer neutral",
+        "Neutral reactor connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the neutral-connected reactor path associated with the assigned transformer winding.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Transformer neutral",
+        "output": "Neutral reactor connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/neutral-reactor-transformer-interface",
+      "recordPath": "entries/neutral-reactor-transformer-interface.json",
+      "svgPath": "artwork/svg/neutral-reactor-transformer-interface.svg",
+      "referencePath": "references/neutral-reactor-transformer-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-service-transformer-bay-interface",
+      "slug": "station-service-transformer-bay-interface",
+      "name": "Station-service transformer bay interface",
+      "kind": "symbol",
+      "abbreviation": "STBI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Primary station connection",
+        "Auxiliary transformer circuit"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the switchyard connection supplying the assigned station-service transformer.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Primary station connection",
+        "output": "Auxiliary transformer circuit"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-service-transformer-bay-interface",
+      "recordPath": "entries/station-service-transformer-bay-interface.json",
+      "svgPath": "artwork/svg/station-service-transformer-bay-interface.svg",
+      "referencePath": "references/station-service-transformer-bay-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "cable-transition-bay-interface",
+      "slug": "cable-transition-bay-interface",
+      "name": "Cable-transition bay interface",
+      "kind": "symbol",
+      "abbreviation": "CBI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Overhead-line circuit",
+        "Cable circuit interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Marks the electrical transition between the assigned overhead and cable circuit sections.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Overhead-line circuit",
+        "output": "Cable circuit interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/cable-transition-bay-interface",
+      "recordPath": "entries/cable-transition-bay-interface.json",
+      "svgPath": "artwork/svg/cable-transition-bay-interface.svg",
+      "referencePath": "references/cable-transition-bay-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "line-end-voltage-measurement-interface",
+      "slug": "line-end-voltage-measurement-interface",
+      "name": "Line-end voltage-measurement interface",
+      "kind": "symbol",
+      "abbreviation": "LVI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Line conductor voltage",
+        "Line-voltage measuring path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Places the selected voltage measurement on the identified line side of its bay.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Line conductor voltage",
+        "output": "Line-voltage measuring path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/line-end-voltage-measurement-interface",
+      "recordPath": "entries/line-end-voltage-measurement-interface.json",
+      "svgPath": "artwork/svg/line-end-voltage-measurement-interface.svg",
+      "referencePath": "references/line-end-voltage-measurement-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "line-side-earthing-switch-bay-interface",
+      "slug": "line-side-earthing-switch-bay-interface",
+      "name": "Line-side earthing-switch bay interface",
+      "kind": "symbol",
+      "abbreviation": "LEBI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Isolated line section",
+        "Line-side earthing connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned earthing connection on the line side of the bay devices.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Isolated line section",
+        "output": "Line-side earthing connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/line-side-earthing-switch-bay-interface",
+      "recordPath": "entries/line-side-earthing-switch-bay-interface.json",
+      "svgPath": "artwork/svg/line-side-earthing-switch-bay-interface.svg",
+      "referencePath": "references/line-side-earthing-switch-bay-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bus-side-earthing-switch-bay-interface",
+      "slug": "bus-side-earthing-switch-bay-interface",
+      "name": "Bus-side earthing-switch bay interface",
+      "kind": "symbol",
+      "abbreviation": "BEBI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Assigned bus-side section",
+        "Bus-side earthing connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned earthing connection on the bus side of the bay devices.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Assigned bus-side section",
+        "output": "Bus-side earthing connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bus-side-earthing-switch-bay-interface",
+      "recordPath": "entries/bus-side-earthing-switch-bay-interface.json",
+      "svgPath": "artwork/svg/bus-side-earthing-switch-bay-interface.svg",
+      "referencePath": "references/bus-side-earthing-switch-bay-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bay-maintenance-bypass-interface",
+      "slug": "bay-maintenance-bypass-interface",
+      "name": "Bay maintenance bypass interface",
+      "kind": "symbol",
+      "abbreviation": "BMBI",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Bay main and bypass paths",
+        "Maintenance bypass connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented alternate connection associated with maintaining the assigned bay equipment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Bay main and bypass paths",
+        "output": "Maintenance bypass connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bay-maintenance-bypass-interface",
+      "recordPath": "entries/bay-maintenance-bypass-interface.json",
+      "svgPath": "artwork/svg/bay-maintenance-bypass-interface.svg",
+      "referencePath": "references/bay-maintenance-bypass-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "future-bay-reserved-connection-boundary",
+      "slug": "future-bay-reserved-connection-boundary",
+      "name": "Future-bay reserved connection boundary",
+      "kind": "symbol",
+      "abbreviation": "FRCB",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Named bus reservation",
+        "Future bay connection reference"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Marks the intentionally reserved electrical interface for a future bay extension.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Named bus reservation",
+        "output": "Future bay connection reference"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/future-bay-reserved-connection-boundary",
+      "recordPath": "entries/future-bay-reserved-connection-boundary.json",
+      "svgPath": "artwork/svg/future-bay-reserved-connection-boundary.svg",
+      "referencePath": "references/future-bay-reserved-connection-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bay-primary-to-secondary-cross-reference",
+      "slug": "bay-primary-to-secondary-cross-reference",
+      "name": "Bay primary-to-secondary cross-reference",
+      "kind": "symbol",
+      "abbreviation": "BPC",
+      "aliases": [
+        "Switchyard bay circuit arrangements",
+        "switchyards Switchyard bay circuit arrangements",
+        "switchyards",
+        "Switchyards",
+        "Primary device identities",
+        "Secondary drawing references"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Links primary switching and measurement device tags to their associated control and protection drawings.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-bays",
+        "input": "Primary device identities",
+        "output": "Secondary drawing references"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bay-primary-to-secondary-cross-reference",
+      "recordPath": "entries/bay-primary-to-secondary-cross-reference.json",
+      "svgPath": "artwork/svg/bay-primary-to-secondary-cross-reference.svg",
+      "referencePath": "references/bay-primary-to-secondary-cross-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "live-tank-circuit-breaker-application-reference",
+      "slug": "live-tank-circuit-breaker-application-reference",
+      "name": "Live-tank circuit-breaker application reference",
+      "kind": "symbol",
+      "abbreviation": "LCAR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "High-voltage circuit",
+        "Live-tank interrupting equipment"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented live-tank breaker construction used in the assigned primary circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "High-voltage circuit",
+        "output": "Live-tank interrupting equipment"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/live-tank-circuit-breaker-application-reference",
+      "recordPath": "entries/live-tank-circuit-breaker-application-reference.json",
+      "svgPath": "artwork/svg/live-tank-circuit-breaker-application-reference.svg",
+      "referencePath": "references/live-tank-circuit-breaker-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "dead-tank-circuit-breaker-application-reference",
+      "slug": "dead-tank-circuit-breaker-application-reference",
+      "name": "Dead-tank circuit-breaker application reference",
+      "kind": "symbol",
+      "abbreviation": "DCAR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "High-voltage circuit",
+        "Dead-tank interrupting equipment"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented grounded-tank breaker construction in the assigned circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "High-voltage circuit",
+        "output": "Dead-tank interrupting equipment"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/dead-tank-circuit-breaker-application-reference",
+      "recordPath": "entries/dead-tank-circuit-breaker-application-reference.json",
+      "svgPath": "artwork/svg/dead-tank-circuit-breaker-application-reference.svg",
+      "referencePath": "references/dead-tank-circuit-breaker-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "hybrid-switchgear-module-reference",
+      "slug": "hybrid-switchgear-module-reference",
+      "name": "Hybrid switchgear module reference",
+      "kind": "symbol",
+      "abbreviation": "HSMR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Module primary connections",
+        "Integrated switching functions"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Groups the documented integrated primary functions within a selected hybrid switching module.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Module primary connections",
+        "output": "Integrated switching functions"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/hybrid-switchgear-module-reference",
+      "recordPath": "entries/hybrid-switchgear-module-reference.json",
+      "svgPath": "artwork/svg/hybrid-switchgear-module-reference.svg",
+      "referencePath": "references/hybrid-switchgear-module-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-circuit-breaker-compartment-reference",
+      "slug": "gis-circuit-breaker-compartment-reference",
+      "name": "GIS circuit-breaker compartment reference",
+      "kind": "symbol",
+      "abbreviation": "GCCR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "GIS primary conductor",
+        "GIS interrupting compartment"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the circuit-breaker functional compartment within the assigned gas-insulated assembly.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "GIS primary conductor",
+        "output": "GIS interrupting compartment"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-circuit-breaker-compartment-reference",
+      "recordPath": "entries/gis-circuit-breaker-compartment-reference.json",
+      "svgPath": "artwork/svg/gis-circuit-breaker-compartment-reference.svg",
+      "referencePath": "references/gis-circuit-breaker-compartment-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-disconnector-compartment-reference",
+      "slug": "gis-disconnector-compartment-reference",
+      "name": "GIS disconnector compartment reference",
+      "kind": "symbol",
+      "abbreviation": "GDCR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "GIS primary path",
+        "GIS disconnector function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented isolation function within the selected gas-insulated arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "GIS primary path",
+        "output": "GIS disconnector function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-disconnector-compartment-reference",
+      "recordPath": "entries/gis-disconnector-compartment-reference.json",
+      "svgPath": "artwork/svg/gis-disconnector-compartment-reference.svg",
+      "referencePath": "references/gis-disconnector-compartment-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-earthing-switch-compartment-reference",
+      "slug": "gis-earthing-switch-compartment-reference",
+      "name": "GIS earthing-switch compartment reference",
+      "kind": "symbol",
+      "abbreviation": "GECR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "GIS conductor section",
+        "GIS earthing connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned earthing function within the documented gas-insulated assembly.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "GIS conductor section",
+        "output": "GIS earthing connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-earthing-switch-compartment-reference",
+      "recordPath": "entries/gis-earthing-switch-compartment-reference.json",
+      "svgPath": "artwork/svg/gis-earthing-switch-compartment-reference.svg",
+      "referencePath": "references/gis-earthing-switch-compartment-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-gas-zone-boundary-reference",
+      "slug": "gis-gas-zone-boundary-reference",
+      "name": "GIS gas-zone boundary reference",
+      "kind": "symbol",
+      "abbreviation": "GGBR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Connected GIS compartments",
+        "Defined gas-zone boundary"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Marks the manufacturer-defined gas compartment boundary on the primary arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Connected GIS compartments",
+        "output": "Defined gas-zone boundary"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-gas-zone-boundary-reference",
+      "recordPath": "entries/gis-gas-zone-boundary-reference.json",
+      "svgPath": "artwork/svg/gis-gas-zone-boundary-reference.svg",
+      "referencePath": "references/gis-gas-zone-boundary-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-to-air-bushing-interface",
+      "slug": "gis-to-air-bushing-interface",
+      "name": "GIS-to-air bushing interface",
+      "kind": "symbol",
+      "abbreviation": "GBI",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "GIS conductor",
+        "Air-side terminal"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the primary transition between a gas-insulated conductor and its air-insulated connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "GIS conductor",
+        "output": "Air-side terminal"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-to-air-bushing-interface",
+      "recordPath": "entries/gis-to-air-bushing-interface.json",
+      "svgPath": "artwork/svg/gis-to-air-bushing-interface.svg",
+      "referencePath": "references/gis-to-air-bushing-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "transformer-high-voltage-bushing-reference",
+      "slug": "transformer-high-voltage-bushing-reference",
+      "name": "Transformer high-voltage bushing reference",
+      "kind": "symbol",
+      "abbreviation": "THBR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Transformer winding connection",
+        "External high-voltage terminal"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the insulated conductor passage between the transformer winding system and its external terminal.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Transformer winding connection",
+        "output": "External high-voltage terminal"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/transformer-high-voltage-bushing-reference",
+      "recordPath": "entries/transformer-high-voltage-bushing-reference.json",
+      "svgPath": "artwork/svg/transformer-high-voltage-bushing-reference.svg",
+      "referencePath": "references/transformer-high-voltage-bushing-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "wall-bushing-primary-interface",
+      "slug": "wall-bushing-primary-interface",
+      "name": "Wall bushing primary interface",
+      "kind": "symbol",
+      "abbreviation": "WBPI",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Primary conductor on one side",
+        "Primary conductor on the other side"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the insulated primary conductor passage through a building or compartment boundary.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Primary conductor on one side",
+        "output": "Primary conductor on the other side"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/wall-bushing-primary-interface",
+      "recordPath": "entries/wall-bushing-primary-interface.json",
+      "svgPath": "artwork/svg/wall-bushing-primary-interface.svg",
+      "referencePath": "references/wall-bushing-primary-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "oil-to-oil-bushing-interface-reference",
+      "slug": "oil-to-oil-bushing-interface-reference",
+      "name": "Oil-to-oil bushing interface reference",
+      "kind": "symbol",
+      "abbreviation": "OBIR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "First oil-insulated connection",
+        "Second oil-insulated connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected insulated conductor passage between the documented oil-insulated compartments.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "First oil-insulated connection",
+        "output": "Second oil-insulated connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/oil-to-oil-bushing-interface-reference",
+      "recordPath": "entries/oil-to-oil-bushing-interface-reference.json",
+      "svgPath": "artwork/svg/oil-to-oil-bushing-interface-reference.svg",
+      "referencePath": "references/oil-to-oil-bushing-interface-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "outdoor-post-insulator-support-reference",
+      "slug": "outdoor-post-insulator-support-reference",
+      "name": "Outdoor post-insulator support reference",
+      "kind": "symbol",
+      "abbreviation": "OPSR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Supported primary conductor",
+        "Insulated mechanical support"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies a primary conductor's insulating support function in the assigned yard arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Supported primary conductor",
+        "output": "Insulated mechanical support"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/outdoor-post-insulator-support-reference",
+      "recordPath": "entries/outdoor-post-insulator-support-reference.json",
+      "svgPath": "artwork/svg/outdoor-post-insulator-support-reference.svg",
+      "referencePath": "references/outdoor-post-insulator-support-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "suspension-insulator-conductor-reference",
+      "slug": "suspension-insulator-conductor-reference",
+      "name": "Suspension-insulator conductor reference",
+      "kind": "symbol",
+      "abbreviation": "SCR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Suspended primary conductor",
+        "Insulated suspension interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the suspended conductor support used at the assigned yard connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Suspended primary conductor",
+        "output": "Insulated suspension interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/suspension-insulator-conductor-reference",
+      "recordPath": "entries/suspension-insulator-conductor-reference.json",
+      "svgPath": "artwork/svg/suspension-insulator-conductor-reference.svg",
+      "referencePath": "references/suspension-insulator-conductor-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "station-class-surge-arrester-connection-reference",
+      "slug": "station-class-surge-arrester-connection-reference",
+      "name": "Station-class surge-arrester connection reference",
+      "kind": "symbol",
+      "abbreviation": "SSCR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Primary conductor and earth",
+        "Surge-arrester connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned primary-to-earth surge-protection connection at a station circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Primary conductor and earth",
+        "output": "Surge-arrester connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/station-class-surge-arrester-connection-reference",
+      "recordPath": "entries/station-class-surge-arrester-connection-reference.json",
+      "svgPath": "artwork/svg/station-class-surge-arrester-connection-reference.svg",
+      "referencePath": "references/station-class-surge-arrester-connection-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "surge-arrester-disconnector-indication-interface",
+      "slug": "surge-arrester-disconnector-indication-interface",
+      "name": "Surge-arrester disconnector indication interface",
+      "kind": "symbol",
+      "abbreviation": "SDII",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Arrester disconnector condition",
+        "Disconnection indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected arrester disconnection device or its documented status output.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Arrester disconnector condition",
+        "output": "Disconnection indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/surge-arrester-disconnector-indication-interface",
+      "recordPath": "entries/surge-arrester-disconnector-indication-interface.json",
+      "svgPath": "artwork/svg/surge-arrester-disconnector-indication-interface.svg",
+      "referencePath": "references/surge-arrester-disconnector-indication-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "inductive-voltage-transformer-yard-reference",
+      "slug": "inductive-voltage-transformer-yard-reference",
+      "name": "Inductive voltage-transformer yard reference",
+      "kind": "symbol",
+      "abbreviation": "IVYR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Primary voltage",
+        "Secondary measurement interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the inductive voltage-measuring equipment at its assigned outdoor primary connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Primary voltage",
+        "output": "Secondary measurement interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/inductive-voltage-transformer-yard-reference",
+      "recordPath": "entries/inductive-voltage-transformer-yard-reference.json",
+      "svgPath": "artwork/svg/inductive-voltage-transformer-yard-reference.svg",
+      "referencePath": "references/inductive-voltage-transformer-yard-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "combined-ct-vt-yard-application-reference",
+      "slug": "combined-ct-vt-yard-application-reference",
+      "name": "Combined CT-VT yard application reference",
+      "kind": "symbol",
+      "abbreviation": "CCYAR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Primary current and voltage",
+        "Assigned secondary measurement circuits"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Groups the current and voltage measurement roles of the selected combined instrument transformer.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Primary current and voltage",
+        "output": "Assigned secondary measurement circuits"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/combined-ct-vt-yard-application-reference",
+      "recordPath": "entries/combined-ct-vt-yard-application-reference.json",
+      "svgPath": "artwork/svg/combined-ct-vt-yard-application-reference.svg",
+      "referencePath": "references/combined-ct-vt-yard-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "shunt-reactor-primary-neutral-reference",
+      "slug": "shunt-reactor-primary-neutral-reference",
+      "name": "Shunt-reactor primary neutral reference",
+      "kind": "symbol",
+      "abbreviation": "SPNR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Reactor winding neutral",
+        "Assigned neutral connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected reactor neutral connection and its relationship to the earthing arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Reactor winding neutral",
+        "output": "Assigned neutral connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/shunt-reactor-primary-neutral-reference",
+      "recordPath": "entries/shunt-reactor-primary-neutral-reference.json",
+      "svgPath": "artwork/svg/shunt-reactor-primary-neutral-reference.svg",
+      "referencePath": "references/shunt-reactor-primary-neutral-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "series-reactor-primary-path-reference",
+      "slug": "series-reactor-primary-path-reference",
+      "name": "Series-reactor primary path reference",
+      "kind": "symbol",
+      "abbreviation": "SPPR",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Incoming primary current",
+        "Series-reactor outgoing path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the reactor inserted in the assigned main power-current path.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Incoming primary current",
+        "output": "Series-reactor outgoing path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/series-reactor-primary-path-reference",
+      "recordPath": "entries/series-reactor-primary-path-reference.json",
+      "svgPath": "artwork/svg/series-reactor-primary-path-reference.svg",
+      "referencePath": "references/series-reactor-primary-path-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "discharge-coil-capacitor-bank-interface",
+      "slug": "discharge-coil-capacitor-bank-interface",
+      "name": "Discharge-coil capacitor-bank interface",
+      "kind": "symbol",
+      "abbreviation": "DCI",
+      "aliases": [
+        "High-voltage primary equipment references",
+        "switchyards High-voltage primary equipment references",
+        "switchyards",
+        "Switchyards",
+        "Capacitor-bank terminals",
+        "Assigned discharge-coil connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented discharge or measurement connection associated with the selected capacitor bank.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "hv-primary",
+        "input": "Capacitor-bank terminals",
+        "output": "Assigned discharge-coil connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/discharge-coil-capacitor-bank-interface",
+      "recordPath": "entries/discharge-coil-capacitor-bank-interface.json",
+      "svgPath": "artwork/svg/discharge-coil-capacitor-bank-interface.svg",
+      "referencePath": "references/discharge-coil-capacitor-bank-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "centre-break-disconnector-application-reference",
+      "slug": "centre-break-disconnector-application-reference",
+      "name": "Centre-break disconnector application reference",
+      "kind": "symbol",
+      "abbreviation": "CDAR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Primary terminal pair",
+        "Centre-break isolation function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented disconnector construction with its defined centre-opening contact arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Primary terminal pair",
+        "output": "Centre-break isolation function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/centre-break-disconnector-application-reference",
+      "recordPath": "entries/centre-break-disconnector-application-reference.json",
+      "svgPath": "artwork/svg/centre-break-disconnector-application-reference.svg",
+      "referencePath": "references/centre-break-disconnector-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "double-side-break-disconnector-application-reference",
+      "slug": "double-side-break-disconnector-application-reference",
+      "name": "Double-side-break disconnector application reference",
+      "kind": "symbol",
+      "abbreviation": "DDAR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Primary terminal pair",
+        "Double-break isolation function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the disconnector construction providing its documented two contact-separation points.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Primary terminal pair",
+        "output": "Double-break isolation function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/double-side-break-disconnector-application-reference",
+      "recordPath": "entries/double-side-break-disconnector-application-reference.json",
+      "svgPath": "artwork/svg/double-side-break-disconnector-application-reference.svg",
+      "referencePath": "references/double-side-break-disconnector-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "vertical-break-disconnector-application-reference",
+      "slug": "vertical-break-disconnector-application-reference",
+      "name": "Vertical-break disconnector application reference",
+      "kind": "symbol",
+      "abbreviation": "VDAR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Primary connection",
+        "Vertical-break isolation function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected disconnector construction whose moving contact opens in its documented vertical plane.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Primary connection",
+        "output": "Vertical-break isolation function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/vertical-break-disconnector-application-reference",
+      "recordPath": "entries/vertical-break-disconnector-application-reference.json",
+      "svgPath": "artwork/svg/vertical-break-disconnector-application-reference.svg",
+      "referencePath": "references/vertical-break-disconnector-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "pantograph-bus-selector-reference",
+      "slug": "pantograph-bus-selector-reference",
+      "name": "Pantograph bus-selector reference",
+      "kind": "symbol",
+      "abbreviation": "PBR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Bay primary terminal",
+        "Pantograph bus connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected articulated disconnector connection to the assigned bus conductor.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Bay primary terminal",
+        "output": "Pantograph bus connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/pantograph-bus-selector-reference",
+      "recordPath": "entries/pantograph-bus-selector-reference.json",
+      "svgPath": "artwork/svg/pantograph-bus-selector-reference.svg",
+      "referencePath": "references/pantograph-bus-selector-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "semi-pantograph-disconnector-reference",
+      "slug": "semi-pantograph-disconnector-reference",
+      "name": "Semi-pantograph disconnector reference",
+      "kind": "symbol",
+      "abbreviation": "SDR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Bay primary terminal",
+        "Semi-pantograph bus connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented semi-pantograph construction at its assigned yard connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Bay primary terminal",
+        "output": "Semi-pantograph bus connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/semi-pantograph-disconnector-reference",
+      "recordPath": "entries/semi-pantograph-disconnector-reference.json",
+      "svgPath": "artwork/svg/semi-pantograph-disconnector-reference.svg",
+      "referencePath": "references/semi-pantograph-disconnector-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "knee-type-disconnector-application-reference",
+      "slug": "knee-type-disconnector-application-reference",
+      "name": "Knee-type disconnector application reference",
+      "kind": "symbol",
+      "abbreviation": "KDAR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Primary terminal pair",
+        "Knee-type isolation function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected articulated knee-type contact arrangement in the primary circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Primary terminal pair",
+        "output": "Knee-type isolation function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/knee-type-disconnector-application-reference",
+      "recordPath": "entries/knee-type-disconnector-application-reference.json",
+      "svgPath": "artwork/svg/knee-type-disconnector-application-reference.svg",
+      "referencePath": "references/knee-type-disconnector-application-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "v-type-centre-break-disconnector-reference",
+      "slug": "v-type-centre-break-disconnector-reference",
+      "name": "V-type centre-break disconnector reference",
+      "kind": "symbol",
+      "abbreviation": "VCDR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Primary connection pair",
+        "V-type isolation function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented V-arranged centre-break disconnector construction.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Primary connection pair",
+        "output": "V-type isolation function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/v-type-centre-break-disconnector-reference",
+      "recordPath": "entries/v-type-centre-break-disconnector-reference.json",
+      "svgPath": "artwork/svg/v-type-centre-break-disconnector-reference.svg",
+      "referencePath": "references/v-type-centre-break-disconnector-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "freestanding-earthing-switch-connection",
+      "slug": "freestanding-earthing-switch-connection",
+      "name": "Freestanding earthing-switch connection",
+      "kind": "symbol",
+      "abbreviation": "FEC",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Assigned primary conductor",
+        "Earth connection through switch"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies a separately mounted earthing device connected to the assigned primary section.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Assigned primary conductor",
+        "output": "Earth connection through switch"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/freestanding-earthing-switch-connection",
+      "recordPath": "entries/freestanding-earthing-switch-connection.json",
+      "svgPath": "artwork/svg/freestanding-earthing-switch-connection.svg",
+      "referencePath": "references/freestanding-earthing-switch-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "built-on-earthing-switch-connection",
+      "slug": "built-on-earthing-switch-connection",
+      "name": "Built-on earthing-switch connection",
+      "kind": "symbol",
+      "abbreviation": "BEC",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Selected device conductor section",
+        "Built-on earthing path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the earthing function mounted with the selected primary switching assembly.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Selected device conductor section",
+        "output": "Built-on earthing path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/built-on-earthing-switch-connection",
+      "recordPath": "entries/built-on-earthing-switch-connection.json",
+      "svgPath": "artwork/svg/built-on-earthing-switch-connection.svg",
+      "referencePath": "references/built-on-earthing-switch-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "bus-selector-earthing-switch-association",
+      "slug": "bus-selector-earthing-switch-association",
+      "name": "Bus-selector earthing-switch association",
+      "kind": "symbol",
+      "abbreviation": "BEA",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Selector and earth-switch identities",
+        "Associated operating references"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Relates the assigned bus-selector disconnector to its documented associated earthing device.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Selector and earth-switch identities",
+        "output": "Associated operating references"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/bus-selector-earthing-switch-association",
+      "recordPath": "entries/bus-selector-earthing-switch-association.json",
+      "svgPath": "artwork/svg/bus-selector-earthing-switch-association.svg",
+      "referencePath": "references/bus-selector-earthing-switch-association.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "line-disconnector-earthing-switch-association",
+      "slug": "line-disconnector-earthing-switch-association",
+      "name": "Line-disconnector earthing-switch association",
+      "kind": "symbol",
+      "abbreviation": "LEA",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Line isolator and earth switch",
+        "Line-section device association"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Links the line isolating device and the earthing device serving the named line section.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Line isolator and earth switch",
+        "output": "Line-section device association"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/line-disconnector-earthing-switch-association",
+      "recordPath": "entries/line-disconnector-earthing-switch-association.json",
+      "svgPath": "artwork/svg/line-disconnector-earthing-switch-association.svg",
+      "referencePath": "references/line-disconnector-earthing-switch-association.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "motor-operated-disconnector-limit-switch-interface",
+      "slug": "motor-operated-disconnector-limit-switch-interface",
+      "name": "Motor-operated disconnector limit switch interface",
+      "kind": "symbol",
+      "abbreviation": "MDLSI",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Drive end-position contacts",
+        "Open and closed position inputs"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Carries the selected mechanism's end-position contacts into the yard control circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Drive end-position contacts",
+        "output": "Open and closed position inputs"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/motor-operated-disconnector-limit-switch-interface",
+      "recordPath": "entries/motor-operated-disconnector-limit-switch-interface.json",
+      "svgPath": "artwork/svg/motor-operated-disconnector-limit-switch-interface.svg",
+      "referencePath": "references/motor-operated-disconnector-limit-switch-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "disconnector-operating-torque-alarm-interface",
+      "slug": "disconnector-operating-torque-alarm-interface",
+      "name": "Disconnector operating-torque alarm interface",
+      "kind": "symbol",
+      "abbreviation": "DOAI",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Mechanism condition monitor",
+        "Drive-condition alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Receives the selected drive monitor's declared abnormal operating condition.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Mechanism condition monitor",
+        "output": "Drive-condition alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-operating-torque-alarm-interface",
+      "recordPath": "entries/disconnector-operating-torque-alarm-interface.json",
+      "svgPath": "artwork/svg/disconnector-operating-torque-alarm-interface.svg",
+      "referencePath": "references/disconnector-operating-torque-alarm-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "disconnector-incomplete-travel-supervision",
+      "slug": "disconnector-incomplete-travel-supervision",
+      "name": "Disconnector incomplete-travel supervision",
+      "kind": "symbol",
+      "abbreviation": "DIS",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Operation request and position",
+        "Incomplete-travel alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Detects failure to obtain the defined end-position feedback after an operating request.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Operation request and position",
+        "output": "Incomplete-travel alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-incomplete-travel-supervision",
+      "recordPath": "entries/disconnector-incomplete-travel-supervision.json",
+      "svgPath": "artwork/svg/disconnector-incomplete-travel-supervision.svg",
+      "referencePath": "references/disconnector-incomplete-travel-supervision.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "earthing-switch-position-discrepancy-interface",
+      "slug": "earthing-switch-position-discrepancy-interface",
+      "name": "Earthing-switch position discrepancy interface",
+      "kind": "symbol",
+      "abbreviation": "EPDI",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Earthing position contacts",
+        "Position discrepancy alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports a defined conflict or missing completion in earthing-switch position feedback.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Earthing position contacts",
+        "output": "Position discrepancy alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/earthing-switch-position-discrepancy-interface",
+      "recordPath": "entries/earthing-switch-position-discrepancy-interface.json",
+      "svgPath": "artwork/svg/earthing-switch-position-discrepancy-interface.svg",
+      "referencePath": "references/earthing-switch-position-discrepancy-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "disconnector-manual-drive-engaged-indication",
+      "slug": "disconnector-manual-drive-engaged-indication",
+      "name": "Disconnector manual-drive engaged indication",
+      "kind": "symbol",
+      "abbreviation": "DMEI",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Manual-drive engagement contact",
+        "Drive mode indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented feedback that a manual operating interface is engaged.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Manual-drive engagement contact",
+        "output": "Drive mode indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-manual-drive-engaged-indication",
+      "recordPath": "entries/disconnector-manual-drive-engaged-indication.json",
+      "svgPath": "artwork/svg/disconnector-manual-drive-engaged-indication.svg",
+      "referencePath": "references/disconnector-manual-drive-engaged-indication.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "disconnector-motor-control-isolation-interface",
+      "slug": "disconnector-motor-control-isolation-interface",
+      "name": "Disconnector motor-control isolation interface",
+      "kind": "symbol",
+      "abbreviation": "DMII",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Drive supply isolation device",
+        "Motor-control isolation boundary"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Marks the assigned separation of the electric drive control supply.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Drive supply isolation device",
+        "output": "Motor-control isolation boundary"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-motor-control-isolation-interface",
+      "recordPath": "entries/disconnector-motor-control-isolation-interface.json",
+      "svgPath": "artwork/svg/disconnector-motor-control-isolation-interface.svg",
+      "referencePath": "references/disconnector-motor-control-isolation-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "induced-current-earthing-switch-duty-reference",
+      "slug": "induced-current-earthing-switch-duty-reference",
+      "name": "Induced-current earthing-switch duty reference",
+      "kind": "symbol",
+      "abbreviation": "IEDR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Induced circuit condition",
+        "Specified earthing switching role"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies an earthing application with its separately specified induced-current switching duty.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Induced circuit condition",
+        "output": "Specified earthing switching role"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/induced-current-earthing-switch-duty-reference",
+      "recordPath": "entries/induced-current-earthing-switch-duty-reference.json",
+      "svgPath": "artwork/svg/induced-current-earthing-switch-duty-reference.svg",
+      "referencePath": "references/induced-current-earthing-switch-duty-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "fast-earthing-switch-functional-reference",
+      "slug": "fast-earthing-switch-functional-reference",
+      "name": "Fast earthing-switch functional reference",
+      "kind": "symbol",
+      "abbreviation": "FEFR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Assigned fast-earth command",
+        "Fast earthing action"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned high-speed earthing function in its documented primary application.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Assigned fast-earth command",
+        "output": "Fast earthing action"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/fast-earthing-switch-functional-reference",
+      "recordPath": "entries/fast-earthing-switch-functional-reference.json",
+      "svgPath": "artwork/svg/fast-earthing-switch-functional-reference.svg",
+      "referencePath": "references/fast-earthing-switch-functional-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "disconnector-grouped-pole-operating-reference",
+      "slug": "disconnector-grouped-pole-operating-reference",
+      "name": "Disconnector grouped-pole operating reference",
+      "kind": "symbol",
+      "abbreviation": "DGOR",
+      "aliases": [
+        "Disconnector and earthing applications",
+        "switchyards Disconnector and earthing applications",
+        "switchyards",
+        "Switchyards",
+        "Grouped pole drive",
+        "Coordinated disconnector position"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented common drive or coordinated operation of the assigned phase poles.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-disconnectors",
+        "input": "Grouped pole drive",
+        "output": "Coordinated disconnector position"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-grouped-pole-operating-reference",
+      "recordPath": "entries/disconnector-grouped-pole-operating-reference.json",
+      "svgPath": "artwork/svg/disconnector-grouped-pole-operating-reference.svg",
+      "referencePath": "references/disconnector-grouped-pole-operating-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-line-carrier-coupling-capacitor-interface",
+      "slug": "power-line-carrier-coupling-capacitor-interface",
+      "name": "Power-line carrier coupling-capacitor interface",
+      "kind": "symbol",
+      "abbreviation": "PCCI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Carrier coupling signal",
+        "Primary-line carrier connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the coupling boundary between a carrier communication signal and the assigned primary conductor.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Carrier coupling signal",
+        "output": "Primary-line carrier connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-line-carrier-coupling-capacitor-interface",
+      "recordPath": "entries/power-line-carrier-coupling-capacitor-interface.json",
+      "svgPath": "artwork/svg/power-line-carrier-coupling-capacitor-interface.svg",
+      "referencePath": "references/power-line-carrier-coupling-capacitor-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "line-trap-primary-series-connection",
+      "slug": "line-trap-primary-series-connection",
+      "name": "Line-trap primary series connection",
+      "kind": "symbol",
+      "abbreviation": "LPSC",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Primary line current",
+        "Primary conductor through trap"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the series primary connection of the selected line trap serving a carrier application.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Primary line current",
+        "output": "Primary conductor through trap"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/line-trap-primary-series-connection",
+      "recordPath": "entries/line-trap-primary-series-connection.json",
+      "svgPath": "artwork/svg/line-trap-primary-series-connection.svg",
+      "referencePath": "references/line-trap-primary-series-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "line-trap-tuning-unit-reference",
+      "slug": "line-trap-tuning-unit-reference",
+      "name": "Line-trap tuning-unit reference",
+      "kind": "symbol",
+      "abbreviation": "LTR",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Carrier-frequency circuit",
+        "Assigned trap tuning function"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented tuning assembly associated with the selected line trap.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Carrier-frequency circuit",
+        "output": "Assigned trap tuning function"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/line-trap-tuning-unit-reference",
+      "recordPath": "entries/line-trap-tuning-unit-reference.json",
+      "svgPath": "artwork/svg/line-trap-tuning-unit-reference.svg",
+      "referencePath": "references/line-trap-tuning-unit-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-line-matching-unit-interface",
+      "slug": "carrier-line-matching-unit-interface",
+      "name": "Carrier line-matching-unit interface",
+      "kind": "symbol",
+      "abbreviation": "CLI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Carrier terminal circuit",
+        "Matched coupling interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the matching boundary between the carrier terminal path and the primary coupling equipment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Carrier terminal circuit",
+        "output": "Matched coupling interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-line-matching-unit-interface",
+      "recordPath": "entries/carrier-line-matching-unit-interface.json",
+      "svgPath": "artwork/svg/carrier-line-matching-unit-interface.svg",
+      "referencePath": "references/carrier-line-matching-unit-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-coupling-protective-earth-interface",
+      "slug": "carrier-coupling-protective-earth-interface",
+      "name": "Carrier-coupling protective earth interface",
+      "kind": "symbol",
+      "abbreviation": "CPEI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Coupling assembly earth terminal",
+        "Station earth connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented protective earth connection of the selected carrier coupling assembly.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Coupling assembly earth terminal",
+        "output": "Station earth connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-coupling-protective-earth-interface",
+      "recordPath": "entries/carrier-coupling-protective-earth-interface.json",
+      "svgPath": "artwork/svg/carrier-coupling-protective-earth-interface.svg",
+      "referencePath": "references/carrier-coupling-protective-earth-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-coupling-drain-coil-reference",
+      "slug": "carrier-coupling-drain-coil-reference",
+      "name": "Carrier coupling drain-coil reference",
+      "kind": "symbol",
+      "abbreviation": "CCDR",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Coupling circuit low-frequency component",
+        "Defined drain-coil path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the drain-coil function in the selected line-coupling arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Coupling circuit low-frequency component",
+        "output": "Defined drain-coil path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-coupling-drain-coil-reference",
+      "recordPath": "entries/carrier-coupling-drain-coil-reference.json",
+      "svgPath": "artwork/svg/carrier-coupling-drain-coil-reference.svg",
+      "referencePath": "references/carrier-coupling-drain-coil-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-coaxial-feeder-interface",
+      "slug": "carrier-coaxial-feeder-interface",
+      "name": "Carrier coaxial feeder interface",
+      "kind": "symbol",
+      "abbreviation": "CCFI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Carrier terminal output",
+        "Coupling equipment input"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned communication feeder between the carrier terminal and coupling equipment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Carrier terminal output",
+        "output": "Coupling equipment input"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-coaxial-feeder-interface",
+      "recordPath": "entries/carrier-coaxial-feeder-interface.json",
+      "svgPath": "artwork/svg/carrier-coaxial-feeder-interface.svg",
+      "referencePath": "references/carrier-coaxial-feeder-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-transmit-enable-input",
+      "slug": "carrier-transmit-enable-input",
+      "name": "Carrier transmit-enable input",
+      "kind": "symbol",
+      "abbreviation": "CTI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Protection communication initiation",
+        "Carrier transmit request"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected protection condition that permits carrier transmission.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Protection communication initiation",
+        "output": "Carrier transmit request"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-transmit-enable-input",
+      "recordPath": "entries/carrier-transmit-enable-input.json",
+      "svgPath": "artwork/svg/carrier-transmit-enable-input.svg",
+      "referencePath": "references/carrier-transmit-enable-input.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-receive-detection-output",
+      "slug": "carrier-receive-detection-output",
+      "name": "Carrier receive-detection output",
+      "kind": "symbol",
+      "abbreviation": "CRO",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Received carrier signal",
+        "Protection receive indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the declared receive signal supplied by the selected carrier terminal.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Received carrier signal",
+        "output": "Protection receive indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-receive-detection-output",
+      "recordPath": "entries/carrier-receive-detection-output.json",
+      "svgPath": "artwork/svg/carrier-receive-detection-output.svg",
+      "referencePath": "references/carrier-receive-detection-output.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "carrier-channel-supervision-alarm",
+      "slug": "carrier-channel-supervision-alarm",
+      "name": "Carrier channel supervision alarm",
+      "kind": "symbol",
+      "abbreviation": "CCSA",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Carrier channel health",
+        "Channel fault alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the documented unhealthy condition of the selected carrier communication path.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Carrier channel health",
+        "output": "Channel fault alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/carrier-channel-supervision-alarm",
+      "recordPath": "entries/carrier-channel-supervision-alarm.json",
+      "svgPath": "artwork/svg/carrier-channel-supervision-alarm.svg",
+      "referencePath": "references/carrier-channel-supervision-alarm.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "phase-to-earth-carrier-coupling-arrangement",
+      "slug": "phase-to-earth-carrier-coupling-arrangement",
+      "name": "Phase-to-earth carrier coupling arrangement",
+      "kind": "symbol",
+      "abbreviation": "PCCA",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Assigned phase and coupling unit",
+        "Phase-to-earth carrier path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the documented carrier signal connection between an assigned phase conductor and earth-referenced coupling equipment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Assigned phase and coupling unit",
+        "output": "Phase-to-earth carrier path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/phase-to-earth-carrier-coupling-arrangement",
+      "recordPath": "entries/phase-to-earth-carrier-coupling-arrangement.json",
+      "svgPath": "artwork/svg/phase-to-earth-carrier-coupling-arrangement.svg",
+      "referencePath": "references/phase-to-earth-carrier-coupling-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "phase-to-phase-carrier-coupling-arrangement",
+      "slug": "phase-to-phase-carrier-coupling-arrangement",
+      "name": "Phase-to-phase carrier coupling arrangement",
+      "kind": "symbol",
+      "abbreviation": "PCCA",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Two phase coupling interfaces",
+        "Phase-to-phase carrier path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the documented carrier coupling path associated with two selected phase conductors.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Two phase coupling interfaces",
+        "output": "Phase-to-phase carrier path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/phase-to-phase-carrier-coupling-arrangement",
+      "recordPath": "entries/phase-to-phase-carrier-coupling-arrangement.json",
+      "svgPath": "artwork/svg/phase-to-phase-carrier-coupling-arrangement.svg",
+      "referencePath": "references/phase-to-phase-carrier-coupling-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protection-fiber-transmit-interface",
+      "slug": "protection-fiber-transmit-interface",
+      "name": "Protection fiber transmit interface",
+      "kind": "symbol",
+      "abbreviation": "PFTI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Local protection data",
+        "Optical transmit path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned optical output carrying protection communication to its remote endpoint.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Local protection data",
+        "output": "Optical transmit path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/protection-fiber-transmit-interface",
+      "recordPath": "entries/protection-fiber-transmit-interface.json",
+      "svgPath": "artwork/svg/protection-fiber-transmit-interface.svg",
+      "referencePath": "references/protection-fiber-transmit-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protection-fiber-receive-interface",
+      "slug": "protection-fiber-receive-interface",
+      "name": "Protection fiber receive interface",
+      "kind": "symbol",
+      "abbreviation": "PFRI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Remote optical data",
+        "Local protection receive path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned optical input receiving the remote protection information.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Remote optical data",
+        "output": "Local protection receive path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/protection-fiber-receive-interface",
+      "recordPath": "entries/protection-fiber-receive-interface.json",
+      "svgPath": "artwork/svg/protection-fiber-receive-interface.svg",
+      "referencePath": "references/protection-fiber-receive-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "teleprotection-command-encode-interface",
+      "slug": "teleprotection-command-encode-interface",
+      "name": "Teleprotection command encode interface",
+      "kind": "symbol",
+      "abbreviation": "TCEI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Protection command contacts",
+        "Encoded channel command"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Maps the assigned protection command to the communication terminal's defined channel message.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Protection command contacts",
+        "output": "Encoded channel command"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/teleprotection-command-encode-interface",
+      "recordPath": "entries/teleprotection-command-encode-interface.json",
+      "svgPath": "artwork/svg/teleprotection-command-encode-interface.svg",
+      "referencePath": "references/teleprotection-command-encode-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "teleprotection-command-decode-interface",
+      "slug": "teleprotection-command-decode-interface",
+      "name": "Teleprotection command decode interface",
+      "kind": "symbol",
+      "abbreviation": "TCDI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Received channel command",
+        "Decoded protection output"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Maps the accepted received channel message to its assigned local protection contact or data output.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Received channel command",
+        "output": "Decoded protection output"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/teleprotection-command-decode-interface",
+      "recordPath": "entries/teleprotection-command-decode-interface.json",
+      "svgPath": "artwork/svg/teleprotection-command-decode-interface.svg",
+      "referencePath": "references/teleprotection-command-decode-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protection-channel-latency-monitor-interface",
+      "slug": "protection-channel-latency-monitor-interface",
+      "name": "Protection channel latency-monitor interface",
+      "kind": "symbol",
+      "abbreviation": "PCLI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Channel delay measurements",
+        "Latency supervision information"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the selected communication-delay information relevant to a protection application.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Channel delay measurements",
+        "output": "Latency supervision information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/protection-channel-latency-monitor-interface",
+      "recordPath": "entries/protection-channel-latency-monitor-interface.json",
+      "svgPath": "artwork/svg/protection-channel-latency-monitor-interface.svg",
+      "referencePath": "references/protection-channel-latency-monitor-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protection-channel-asymmetric-delay-indication",
+      "slug": "protection-channel-asymmetric-delay-indication",
+      "name": "Protection channel asymmetric-delay indication",
+      "kind": "symbol",
+      "abbreviation": "PCAI",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Directional delay information",
+        "Asymmetry indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies a measured or declared difference between the communication path directions.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Directional delay information",
+        "output": "Asymmetry indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/protection-channel-asymmetric-delay-indication",
+      "recordPath": "entries/protection-channel-asymmetric-delay-indication.json",
+      "svgPath": "artwork/svg/protection-channel-asymmetric-delay-indication.svg",
+      "referencePath": "references/protection-channel-asymmetric-delay-indication.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "protection-communication-redundant-path-selector",
+      "slug": "protection-communication-redundant-path-selector",
+      "name": "Protection communication redundant-path selector",
+      "kind": "symbol",
+      "abbreviation": "PCRS",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Alternative channel health",
+        "Selected communication path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Selects the documented available protection communication path using the assigned health inputs.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Alternative channel health",
+        "output": "Selected communication path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/protection-communication-redundant-path-selector",
+      "recordPath": "entries/protection-communication-redundant-path-selector.json",
+      "svgPath": "artwork/svg/protection-communication-redundant-path-selector.svg",
+      "referencePath": "references/protection-communication-redundant-path-selector.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "line-communication-cabinet-power-alarm",
+      "slug": "line-communication-cabinet-power-alarm",
+      "name": "Line communication cabinet power alarm",
+      "kind": "symbol",
+      "abbreviation": "LCCPA",
+      "aliases": [
+        "Line carrier and protection communication interfaces",
+        "switchyards Line carrier and protection communication interfaces",
+        "switchyards",
+        "Switchyards",
+        "Cabinet supply supervision",
+        "Communication supply alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports loss of the monitored control power serving the assigned line communication equipment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "line-communications",
+        "input": "Cabinet supply supervision",
+        "output": "Communication supply alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/line-communication-cabinet-power-alarm",
+      "recordPath": "entries/line-communication-cabinet-power-alarm.json",
+      "svgPath": "artwork/svg/line-communication-cabinet-power-alarm.svg",
+      "referencePath": "references/line-communication-cabinet-power-alarm.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-gas-density-warning-interface",
+      "slug": "gis-gas-density-warning-interface",
+      "name": "GIS gas-density warning interface",
+      "kind": "symbol",
+      "abbreviation": "GGWI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Gas-density monitor warning",
+        "Compartment warning indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Receives the selected compartment monitor's defined early gas-density warning output.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Gas-density monitor warning",
+        "output": "Compartment warning indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-gas-density-warning-interface",
+      "recordPath": "entries/gis-gas-density-warning-interface.json",
+      "svgPath": "artwork/svg/gis-gas-density-warning-interface.svg",
+      "referencePath": "references/gis-gas-density-warning-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-gas-density-lockout-interface",
+      "slug": "gis-gas-density-lockout-interface",
+      "name": "GIS gas-density lockout interface",
+      "kind": "symbol",
+      "abbreviation": "GGLI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Gas-condition lockout contact",
+        "Assigned operation block"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Receives the manufacturer's assigned gas-condition blocking output for the documented operation.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Gas-condition lockout contact",
+        "output": "Assigned operation block"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-gas-density-lockout-interface",
+      "recordPath": "entries/gis-gas-density-lockout-interface.json",
+      "svgPath": "artwork/svg/gis-gas-density-lockout-interface.svg",
+      "referencePath": "references/gis-gas-density-lockout-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-compartment-gas-zone-identification",
+      "slug": "gis-compartment-gas-zone-identification",
+      "name": "GIS compartment gas-zone identification",
+      "kind": "symbol",
+      "abbreviation": "GCGI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Compartment identification",
+        "Traceable gas monitoring boundary"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Links the gas monitoring points to the manufacturer's defined compartment identifiers.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Compartment identification",
+        "output": "Traceable gas monitoring boundary"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-compartment-gas-zone-identification",
+      "recordPath": "entries/gis-compartment-gas-zone-identification.json",
+      "svgPath": "artwork/svg/gis-compartment-gas-zone-identification.svg",
+      "referencePath": "references/gis-compartment-gas-zone-identification.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-gas-monitor-self-fault-input",
+      "slug": "gis-gas-monitor-self-fault-input",
+      "name": "GIS gas-monitor self-fault input",
+      "kind": "symbol",
+      "abbreviation": "GGSI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Monitor health output",
+        "Gas-monitor fault alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Separates a gas-monitoring instrument fault from a measured gas-condition alarm.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Monitor health output",
+        "output": "Gas-monitor fault alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-gas-monitor-self-fault-input",
+      "recordPath": "entries/gis-gas-monitor-self-fault-input.json",
+      "svgPath": "artwork/svg/gis-gas-monitor-self-fault-input.svg",
+      "referencePath": "references/gis-gas-monitor-self-fault-input.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-gas-density-trend-interface",
+      "slug": "gis-gas-density-trend-interface",
+      "name": "GIS gas-density trend interface",
+      "kind": "symbol",
+      "abbreviation": "GGTI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Density measurements and time",
+        "Gas-condition trend"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects the selected continuous gas-density measurements to station condition recording.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Density measurements and time",
+        "output": "Gas-condition trend"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-gas-density-trend-interface",
+      "recordPath": "entries/gis-gas-density-trend-interface.json",
+      "svgPath": "artwork/svg/gis-gas-density-trend-interface.svg",
+      "referencePath": "references/gis-gas-density-trend-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-pressure-relief-operated-interface",
+      "slug": "gis-pressure-relief-operated-interface",
+      "name": "GIS pressure-relief operated interface",
+      "kind": "symbol",
+      "abbreviation": "GPOI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Relief-device operation contact",
+        "Compartment relief indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Receives the assigned compartment pressure-relief device status at station supervision.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Relief-device operation contact",
+        "output": "Compartment relief indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-pressure-relief-operated-interface",
+      "recordPath": "entries/gis-pressure-relief-operated-interface.json",
+      "svgPath": "artwork/svg/gis-pressure-relief-operated-interface.svg",
+      "referencePath": "references/gis-pressure-relief-operated-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "gis-partial-discharge-monitor-interface",
+      "slug": "gis-partial-discharge-monitor-interface",
+      "name": "GIS partial-discharge monitor interface",
+      "kind": "symbol",
+      "abbreviation": "GPMI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "PD monitor outputs",
+        "Condition-monitoring information"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Carries the installed monitoring system's declared partial-discharge measurements or alarms.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "PD monitor outputs",
+        "output": "Condition-monitoring information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/gis-partial-discharge-monitor-interface",
+      "recordPath": "entries/gis-partial-discharge-monitor-interface.json",
+      "svgPath": "artwork/svg/gis-partial-discharge-monitor-interface.svg",
+      "referencePath": "references/gis-partial-discharge-monitor-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "breaker-pole-travel-monitor-interface",
+      "slug": "breaker-pole-travel-monitor-interface",
+      "name": "Breaker pole travel-monitor interface",
+      "kind": "symbol",
+      "abbreviation": "BPTI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Pole travel measurements",
+        "Travel-condition information"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the condition-monitoring path recording the selected breaker pole movement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Pole travel measurements",
+        "output": "Travel-condition information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/breaker-pole-travel-monitor-interface",
+      "recordPath": "entries/breaker-pole-travel-monitor-interface.json",
+      "svgPath": "artwork/svg/breaker-pole-travel-monitor-interface.svg",
+      "referencePath": "references/breaker-pole-travel-monitor-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "breaker-operating-time-trend-interface",
+      "slug": "breaker-operating-time-trend-interface",
+      "name": "Breaker operating-time trend interface",
+      "kind": "symbol",
+      "abbreviation": "BOTI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Command and contact timing events",
+        "Operating-time trend"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Associates the measured operating-time history with the assigned breaker mechanism.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Command and contact timing events",
+        "output": "Operating-time trend"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/breaker-operating-time-trend-interface",
+      "recordPath": "entries/breaker-operating-time-trend-interface.json",
+      "svgPath": "artwork/svg/breaker-operating-time-trend-interface.svg",
+      "referencePath": "references/breaker-operating-time-trend-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "breaker-interrupted-current-duty-monitor",
+      "slug": "breaker-interrupted-current-duty-monitor",
+      "name": "Breaker interrupted-current duty monitor",
+      "kind": "symbol",
+      "abbreviation": "BIDM",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Interrupted current events",
+        "Accumulated duty information"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Accumulates the selected current interruption events according to the documented maintenance model.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Interrupted current events",
+        "output": "Accumulated duty information"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/breaker-interrupted-current-duty-monitor",
+      "recordPath": "entries/breaker-interrupted-current-duty-monitor.json",
+      "svgPath": "artwork/svg/breaker-interrupted-current-duty-monitor.svg",
+      "referencePath": "references/breaker-interrupted-current-duty-monitor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "breaker-gas-condition-common-alarm",
+      "slug": "breaker-gas-condition-common-alarm",
+      "name": "Breaker gas-condition common alarm",
+      "kind": "symbol",
+      "abbreviation": "BGCA",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Assigned gas monitor alarms",
+        "Breaker gas common alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Collects the assigned breaker gas monitor outputs while retaining their individual equipment references.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Assigned gas monitor alarms",
+        "output": "Breaker gas common alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/breaker-gas-condition-common-alarm",
+      "recordPath": "entries/breaker-gas-condition-common-alarm.json",
+      "svgPath": "artwork/svg/breaker-gas-condition-common-alarm.svg",
+      "referencePath": "references/breaker-gas-condition-common-alarm.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-marshalling-kiosk-heater-control",
+      "slug": "yard-marshalling-kiosk-heater-control",
+      "name": "Yard marshalling-kiosk heater control",
+      "kind": "symbol",
+      "abbreviation": "YMHC",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Kiosk conditioning demand",
+        "Heater command"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented conditioning-heater control path in the assigned outdoor kiosk.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Kiosk conditioning demand",
+        "output": "Heater command"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-marshalling-kiosk-heater-control",
+      "recordPath": "entries/yard-marshalling-kiosk-heater-control.json",
+      "svgPath": "artwork/svg/yard-marshalling-kiosk-heater-control.svg",
+      "referencePath": "references/yard-marshalling-kiosk-heater-control.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-marshalling-kiosk-supply-alarm",
+      "slug": "yard-marshalling-kiosk-supply-alarm",
+      "name": "Yard marshalling-kiosk supply alarm",
+      "kind": "symbol",
+      "abbreviation": "YMSA",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Kiosk auxiliary voltage",
+        "Kiosk supply-loss alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports loss of the monitored auxiliary supply at the selected marshalling kiosk.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Kiosk auxiliary voltage",
+        "output": "Kiosk supply-loss alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-marshalling-kiosk-supply-alarm",
+      "recordPath": "entries/yard-marshalling-kiosk-supply-alarm.json",
+      "svgPath": "artwork/svg/yard-marshalling-kiosk-supply-alarm.svg",
+      "referencePath": "references/yard-marshalling-kiosk-supply-alarm.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-marshalling-kiosk-door-alarm",
+      "slug": "yard-marshalling-kiosk-door-alarm",
+      "name": "Yard marshalling-kiosk door alarm",
+      "kind": "symbol",
+      "abbreviation": "YMDA",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Kiosk door position",
+        "Kiosk access indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the assigned kiosk door contact to station supervision.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Kiosk door position",
+        "output": "Kiosk access indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-marshalling-kiosk-door-alarm",
+      "recordPath": "entries/yard-marshalling-kiosk-door-alarm.json",
+      "svgPath": "artwork/svg/yard-marshalling-kiosk-door-alarm.svg",
+      "referencePath": "references/yard-marshalling-kiosk-door-alarm.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-terminal-cabinet-humidity-alarm",
+      "slug": "yard-terminal-cabinet-humidity-alarm",
+      "name": "Yard terminal-cabinet humidity alarm",
+      "kind": "symbol",
+      "abbreviation": "YTHA",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Cabinet humidity",
+        "Cabinet humidity alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the measured humidity condition used by the selected cabinet supervisory function.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Cabinet humidity",
+        "output": "Cabinet humidity alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-terminal-cabinet-humidity-alarm",
+      "recordPath": "entries/yard-terminal-cabinet-humidity-alarm.json",
+      "svgPath": "artwork/svg/yard-terminal-cabinet-humidity-alarm.svg",
+      "referencePath": "references/yard-terminal-cabinet-humidity-alarm.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-mechanism-anti-condensation-interface",
+      "slug": "yard-mechanism-anti-condensation-interface",
+      "name": "Yard mechanism anti-condensation interface",
+      "kind": "symbol",
+      "abbreviation": "YMAI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Mechanism heater supply and control",
+        "Conditioning heater operation"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the selected mechanism enclosure's conditioning-heater and control connection.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Mechanism heater supply and control",
+        "output": "Conditioning heater operation"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-mechanism-anti-condensation-interface",
+      "recordPath": "entries/yard-mechanism-anti-condensation-interface.json",
+      "svgPath": "artwork/svg/yard-mechanism-anti-condensation-interface.svg",
+      "referencePath": "references/yard-mechanism-anti-condensation-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-motor-drive-supply-failure-input",
+      "slug": "yard-motor-drive-supply-failure-input",
+      "name": "Yard motor-drive supply-failure input",
+      "kind": "symbol",
+      "abbreviation": "YMSI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Motor-drive supply supervision",
+        "Drive supply alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports loss of the electrical supply serving the assigned primary-device motor operator.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Motor-drive supply supervision",
+        "output": "Drive supply alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-motor-drive-supply-failure-input",
+      "recordPath": "entries/yard-motor-drive-supply-failure-input.json",
+      "svgPath": "artwork/svg/yard-motor-drive-supply-failure-input.svg",
+      "referencePath": "references/yard-motor-drive-supply-failure-input.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-local-control-authority-contact",
+      "slug": "yard-local-control-authority-contact",
+      "name": "Yard local-control authority contact",
+      "kind": "symbol",
+      "abbreviation": "YLAC",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Local-remote selector",
+        "Yard control authority"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Carries the selected outdoor operating cabinet's local authority position to the station controller.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Local-remote selector",
+        "output": "Yard control authority"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-local-control-authority-contact",
+      "recordPath": "entries/yard-local-control-authority-contact.json",
+      "svgPath": "artwork/svg/yard-local-control-authority-contact.svg",
+      "referencePath": "references/yard-local-control-authority-contact.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-monitoring-communications-fault-interface",
+      "slug": "yard-monitoring-communications-fault-interface",
+      "name": "Yard monitoring communications-fault interface",
+      "kind": "symbol",
+      "abbreviation": "YMCI",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Monitor link health",
+        "Condition-data communication fault"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports loss of the selected equipment-monitoring communication path.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Monitor link health",
+        "output": "Condition-data communication fault"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-monitoring-communications-fault-interface",
+      "recordPath": "entries/yard-monitoring-communications-fault-interface.json",
+      "svgPath": "artwork/svg/yard-monitoring-communications-fault-interface.svg",
+      "referencePath": "references/yard-monitoring-communications-fault-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-common-condition-alarm-aggregator",
+      "slug": "yard-common-condition-alarm-aggregator",
+      "name": "Yard common-condition alarm aggregator",
+      "kind": "symbol",
+      "abbreviation": "YCAA",
+      "aliases": [
+        "Switchyard equipment condition interfaces",
+        "switchyards Switchyard equipment condition interfaces",
+        "switchyards",
+        "Switchyards",
+        "Defined equipment alarm group",
+        "Common yard alarm"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Collects a named set of yard condition alarms into its assigned common indication.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-auxiliaries",
+        "input": "Defined equipment alarm group",
+        "output": "Common yard alarm"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-common-condition-alarm-aggregator",
+      "recordPath": "entries/yard-common-condition-alarm-aggregator.json",
+      "svgPath": "artwork/svg/yard-common-condition-alarm-aggregator.svg",
+      "referencePath": "references/yard-common-condition-alarm-aggregator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "switchyard-earth-grid-main-connection",
+      "slug": "switchyard-earth-grid-main-connection",
+      "name": "Switchyard earth-grid main connection",
+      "kind": "symbol",
+      "abbreviation": "SEMC",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Equipment earthing network",
+        "Station earth grid"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned main connection between equipment earthing and the station earth-grid system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Equipment earthing network",
+        "output": "Station earth grid"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/switchyard-earth-grid-main-connection",
+      "recordPath": "entries/switchyard-earth-grid-main-connection.json",
+      "svgPath": "artwork/svg/switchyard-earth-grid-main-connection.svg",
+      "referencePath": "references/switchyard-earth-grid-main-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "primary-equipment-frame-bond-interface",
+      "slug": "primary-equipment-frame-bond-interface",
+      "name": "Primary equipment frame-bond interface",
+      "kind": "symbol",
+      "abbreviation": "PEFI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Equipment metal frame",
+        "Defined earth-grid connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned bond between the selected primary equipment frame and the earth grid.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Equipment metal frame",
+        "output": "Defined earth-grid connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/primary-equipment-frame-bond-interface",
+      "recordPath": "entries/primary-equipment-frame-bond-interface.json",
+      "svgPath": "artwork/svg/primary-equipment-frame-bond-interface.svg",
+      "referencePath": "references/primary-equipment-frame-bond-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "surge-arrester-earth-lead-interface",
+      "slug": "surge-arrester-earth-lead-interface",
+      "name": "Surge-arrester earth-lead interface",
+      "kind": "symbol",
+      "abbreviation": "SEI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Arrester earth terminal",
+        "Station earthing network"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the earth connection serving the selected primary surge arrester.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Arrester earth terminal",
+        "output": "Station earthing network"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/surge-arrester-earth-lead-interface",
+      "recordPath": "entries/surge-arrester-earth-lead-interface.json",
+      "svgPath": "artwork/svg/surge-arrester-earth-lead-interface.svg",
+      "referencePath": "references/surge-arrester-earth-lead-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "surge-counter-earth-path-interface",
+      "slug": "surge-counter-earth-path-interface",
+      "name": "Surge-counter earth-path interface",
+      "kind": "symbol",
+      "abbreviation": "SEI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Arrester monitoring earth path",
+        "Surge event measurement"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the documented connection of the selected surge counter within its arrester monitoring arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Arrester monitoring earth path",
+        "output": "Surge event measurement"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/surge-counter-earth-path-interface",
+      "recordPath": "entries/surge-counter-earth-path-interface.json",
+      "svgPath": "artwork/svg/surge-counter-earth-path-interface.svg",
+      "referencePath": "references/surge-counter-earth-path-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "transformer-tank-earthing-interface",
+      "slug": "transformer-tank-earthing-interface",
+      "name": "Transformer tank earthing interface",
+      "kind": "symbol",
+      "abbreviation": "TTEI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Transformer tank earth terminal",
+        "Station earth grid"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned protective bond from the transformer tank to the station earthing network.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Transformer tank earth terminal",
+        "output": "Station earth grid"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/transformer-tank-earthing-interface",
+      "recordPath": "entries/transformer-tank-earthing-interface.json",
+      "svgPath": "artwork/svg/transformer-tank-earthing-interface.svg",
+      "referencePath": "references/transformer-tank-earthing-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "transformer-neutral-earthing-conductor-reference",
+      "slug": "transformer-neutral-earthing-conductor-reference",
+      "name": "Transformer neutral-earthing conductor reference",
+      "kind": "symbol",
+      "abbreviation": "TNCR",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Transformer neutral",
+        "Neutral-earthing equipment"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the conductor connecting the assigned transformer neutral to its specified earthing equipment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Transformer neutral",
+        "output": "Neutral-earthing equipment"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/transformer-neutral-earthing-conductor-reference",
+      "recordPath": "entries/transformer-neutral-earthing-conductor-reference.json",
+      "svgPath": "artwork/svg/transformer-neutral-earthing-conductor-reference.svg",
+      "referencePath": "references/transformer-neutral-earthing-conductor-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "neutral-earthing-resistor-measurement-interface",
+      "slug": "neutral-earthing-resistor-measurement-interface",
+      "name": "Neutral-earthing resistor measurement interface",
+      "kind": "symbol",
+      "abbreviation": "NRMI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Neutral-earthing circuit measurements",
+        "Resistor system monitoring"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the measurement connection associated with the selected neutral-earthing resistor system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Neutral-earthing circuit measurements",
+        "output": "Resistor system monitoring"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/neutral-earthing-resistor-measurement-interface",
+      "recordPath": "entries/neutral-earthing-resistor-measurement-interface.json",
+      "svgPath": "artwork/svg/neutral-earthing-resistor-measurement-interface.svg",
+      "referencePath": "references/neutral-earthing-resistor-measurement-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "neutral-earthing-resistor-continuity-supervision",
+      "slug": "neutral-earthing-resistor-continuity-supervision",
+      "name": "Neutral-earthing resistor continuity supervision",
+      "kind": "symbol",
+      "abbreviation": "NRCS",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Resistor path supervision",
+        "Earthing-path fault indication"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Reports the selected monitor's declared continuity condition for the assigned resistor path.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Resistor path supervision",
+        "output": "Earthing-path fault indication"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/neutral-earthing-resistor-continuity-supervision",
+      "recordPath": "entries/neutral-earthing-resistor-continuity-supervision.json",
+      "svgPath": "artwork/svg/neutral-earthing-resistor-continuity-supervision.svg",
+      "referencePath": "references/neutral-earthing-resistor-continuity-supervision.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "cable-sheath-single-point-bonding-arrangement",
+      "slug": "cable-sheath-single-point-bonding-arrangement",
+      "name": "Cable sheath single-point bonding arrangement",
+      "kind": "symbol",
+      "abbreviation": "CSSBA",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Cable sheath",
+        "Selected bonding point"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the documented one-point earth connection for the assigned cable sheath system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Cable sheath",
+        "output": "Selected bonding point"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/cable-sheath-single-point-bonding-arrangement",
+      "recordPath": "entries/cable-sheath-single-point-bonding-arrangement.json",
+      "svgPath": "artwork/svg/cable-sheath-single-point-bonding-arrangement.svg",
+      "referencePath": "references/cable-sheath-single-point-bonding-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "cable-sheath-both-end-bonding-arrangement",
+      "slug": "cable-sheath-both-end-bonding-arrangement",
+      "name": "Cable sheath both-end bonding arrangement",
+      "kind": "symbol",
+      "abbreviation": "CSBBA",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Cable sheath ends",
+        "Earth bonds at both ends"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the assigned earth bonds at both ends of the documented cable sheath circuit.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Cable sheath ends",
+        "output": "Earth bonds at both ends"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/cable-sheath-both-end-bonding-arrangement",
+      "recordPath": "entries/cable-sheath-both-end-bonding-arrangement.json",
+      "svgPath": "artwork/svg/cable-sheath-both-end-bonding-arrangement.svg",
+      "referencePath": "references/cable-sheath-both-end-bonding-arrangement.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "cable-sheath-cross-bonding-section-interface",
+      "slug": "cable-sheath-cross-bonding-section-interface",
+      "name": "Cable sheath cross-bonding section interface",
+      "kind": "symbol",
+      "abbreviation": "CSCSI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Sectioned cable sheaths",
+        "Cross-bonding connections"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the sheath-section interconnections used by the assigned cross-bonded cable system.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Sectioned cable sheaths",
+        "output": "Cross-bonding connections"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/cable-sheath-cross-bonding-section-interface",
+      "recordPath": "entries/cable-sheath-cross-bonding-section-interface.json",
+      "svgPath": "artwork/svg/cable-sheath-cross-bonding-section-interface.svg",
+      "referencePath": "references/cable-sheath-cross-bonding-section-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "cable-sheath-voltage-limiter-interface",
+      "slug": "cable-sheath-voltage-limiter-interface",
+      "name": "Cable sheath voltage-limiter interface",
+      "kind": "symbol",
+      "abbreviation": "CSVI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Cable sheath and earth",
+        "Sheath surge-limiting path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the selected sheath overvoltage-limiter connection within its bonding arrangement.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Cable sheath and earth",
+        "output": "Sheath surge-limiting path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/cable-sheath-voltage-limiter-interface",
+      "recordPath": "entries/cable-sheath-voltage-limiter-interface.json",
+      "svgPath": "artwork/svg/cable-sheath-voltage-limiter-interface.svg",
+      "referencePath": "references/cable-sheath-voltage-limiter-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "link-box-bonding-terminal-reference",
+      "slug": "link-box-bonding-terminal-reference",
+      "name": "Link-box bonding terminal reference",
+      "kind": "symbol",
+      "abbreviation": "LBTR",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Sheath and earth conductors",
+        "Bonding terminal identities"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Maps the assigned cable sheath and earthing connections to the selected link-box terminals.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Sheath and earth conductors",
+        "output": "Bonding terminal identities"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/link-box-bonding-terminal-reference",
+      "recordPath": "entries/link-box-bonding-terminal-reference.json",
+      "svgPath": "artwork/svg/link-box-bonding-terminal-reference.svg",
+      "referencePath": "references/link-box-bonding-terminal-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-fence-bonding-interface",
+      "slug": "yard-fence-bonding-interface",
+      "name": "Yard fence bonding interface",
+      "kind": "symbol",
+      "abbreviation": "YFBI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Fence earthing interface",
+        "Documented fence treatment"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned connection or isolation treatment of the yard fence in the earthing design.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Fence earthing interface",
+        "output": "Documented fence treatment"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-fence-bonding-interface",
+      "recordPath": "entries/yard-fence-bonding-interface.json",
+      "svgPath": "artwork/svg/yard-fence-bonding-interface.svg",
+      "referencePath": "references/yard-fence-bonding-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "yard-gate-bonding-interface",
+      "slug": "yard-gate-bonding-interface",
+      "name": "Yard gate bonding interface",
+      "kind": "symbol",
+      "abbreviation": "YGBI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Gate and fixed fence structure",
+        "Gate bonding connection"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shows the documented bonding continuity across the assigned moving gate structure.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Gate and fixed fence structure",
+        "output": "Gate bonding connection"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/yard-gate-bonding-interface",
+      "recordPath": "entries/yard-gate-bonding-interface.json",
+      "svgPath": "artwork/svg/yard-gate-bonding-interface.svg",
+      "referencePath": "references/yard-gate-bonding-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "lightning-mast-earth-grid-interface",
+      "slug": "lightning-mast-earth-grid-interface",
+      "name": "Lightning mast earth-grid interface",
+      "kind": "symbol",
+      "abbreviation": "LMEI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Lightning mast earth connection",
+        "Station earth grid"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the earthing connection associated with the selected lightning-protection mast.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Lightning mast earth connection",
+        "output": "Station earth grid"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/lightning-mast-earth-grid-interface",
+      "recordPath": "entries/lightning-mast-earth-grid-interface.json",
+      "svgPath": "artwork/svg/lightning-mast-earth-grid-interface.svg",
+      "referencePath": "references/lightning-mast-earth-grid-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "shield-wire-earth-termination-interface",
+      "slug": "shield-wire-earth-termination-interface",
+      "name": "Shield-wire earth termination interface",
+      "kind": "symbol",
+      "abbreviation": "SETI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Overhead shield-wire connection",
+        "Station earthing interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the assigned termination of the overhead shield-wire earthing path at the station.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Overhead shield-wire connection",
+        "output": "Station earthing interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/shield-wire-earth-termination-interface",
+      "recordPath": "entries/shield-wire-earth-termination-interface.json",
+      "svgPath": "artwork/svg/shield-wire-earth-termination-interface.svg",
+      "referencePath": "references/shield-wire-earth-termination-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "temporary-earthing-connection-point-reference",
+      "slug": "temporary-earthing-connection-point-reference",
+      "name": "Temporary earthing connection-point reference",
+      "kind": "symbol",
+      "abbreviation": "TECR",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Designated primary earth point",
+        "Documented earthing interface"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the equipment-designated connection point used by the station's approved earthing arrangements.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Designated primary earth point",
+        "output": "Documented earthing interface"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/temporary-earthing-connection-point-reference",
+      "recordPath": "entries/temporary-earthing-connection-point-reference.json",
+      "svgPath": "artwork/svg/temporary-earthing-connection-point-reference.svg",
+      "referencePath": "references/temporary-earthing-connection-point-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "marshalling-cable-screen-earth-interface",
+      "slug": "marshalling-cable-screen-earth-interface",
+      "name": "Marshalling cable-screen earth interface",
+      "kind": "symbol",
+      "abbreviation": "MCEI",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Control cable screen",
+        "Assigned screen earth point"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Identifies the screen earthing connection specified for the assigned yard-to-panel control cable.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Control cable screen",
+        "output": "Assigned screen earth point"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/marshalling-cable-screen-earth-interface",
+      "recordPath": "entries/marshalling-cable-screen-earth-interface.json",
+      "svgPath": "artwork/svg/marshalling-cable-screen-earth-interface.svg",
+      "referencePath": "references/marshalling-cable-screen-earth-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "earth-continuity-measurement-boundary",
+      "slug": "earth-continuity-measurement-boundary",
+      "name": "Earth-continuity measurement boundary",
+      "kind": "symbol",
+      "abbreviation": "EMB",
+      "aliases": [
+        "Switchyard earthing and lightning interfaces",
+        "switchyards Switchyard earthing and lightning interfaces",
+        "switchyards",
+        "Switchyards",
+        "Named earth conductor endpoints",
+        "Defined continuity measurement path"
+      ],
+      "category": "power-distribution",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Marks the defined conductor segment included in an earthing-continuity assessment.",
+      "representation": {
+        "type": "functional-block",
+        "focus": "switchyards",
+        "family": "yard-earthing",
+        "input": "Named earth conductor endpoints",
+        "output": "Defined continuity measurement path"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/earth-continuity-measurement-boundary",
+      "recordPath": "entries/earth-continuity-measurement-boundary.json",
+      "svgPath": "artwork/svg/earth-continuity-measurement-boundary.svg",
+      "referencePath": "references/earth-continuity-measurement-boundary.md",
+      "contentLicense": "CC-BY-4.0"
+    }
+  ]
+}

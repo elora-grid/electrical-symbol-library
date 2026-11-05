@@ -1,0 +1,105 @@
+{
+  "slug": "ansi-inhibit-gate",
+  "name": "ANSI inhibit gate (AND with one negated input)",
+  "kind": "symbol",
+  "abbreviation": "INH",
+  "aliases": [
+    "AND-NOT gate",
+    "inhibit element",
+    "AND with inverted input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "AND outline with a bubble on one input, so that input blocks the output whenever it is active.",
+  "description": [
+    "An inhibit gate passes one signal only while a second, inhibiting signal is inactive. In distinctive-shape form it is drawn as an AND outline with a bubble on the inhibiting input. It is a very common pattern in interlock logic, where a command is allowed unless a blocking condition is present.",
+    "On drawings the inhibiting input should be named for the condition that blocks, such as trip active or door open, so that the bubble reads naturally. Where the physical implementation is an AND gate fed by an inverter, the schematic may still use this compact form for clarity.",
+    "The symbol does not specify which input has priority in timing. If the inhibiting signal must arrive before the command, a sequencing note or timing element is required."
+  ],
+  "readingNotes": [
+    "Identify which input carries the bubble; that input blocks the output.",
+    "Check whether the implementation includes a separate inverter."
+  ],
+  "drawingChecklist": [
+    "Name the inhibiting input for the blocking condition.",
+    "Place the bubble on the correct input lead.",
+    "Note any timing priority between command and inhibit."
+  ],
+  "distinction": "A NAND has its bubble at the output; an inhibit gate has its bubble on one input only.",
+  "facts": [
+    {
+      "label": "Boolean form",
+      "value": "A AND NOT B"
+    },
+    {
+      "label": "Typical use",
+      "value": "Command blocked by an interlock"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Negation at an input and the resulting internal state."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc08",
+      "relevance": "AND gate documentation for the implementing function."
+    }
+  ],
+  "related": [
+    "logic-and-gate",
+    "iec-logic-input-negation",
+    "iec-and-gate"
+  ],
+  "artwork": "s28-ansi-inhibit-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "AND outline with a bubble on one input",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-inhibit-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-inhibit-gate.svg",
+  "id": "ansi-inhibit-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-inhibit-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-inhibit-gate.json",
+  "svgPath": "artwork/svg/ansi-inhibit-gate.svg",
+  "referencePath": "references/ansi-inhibit-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Negation at an input and the resulting internal state."
+    },
+    {
+      "id": "pub-electronics-ti-hc08",
+      "title": "SN74HC08 — AND gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of and gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "AND gate documentation for the implementing function."
+    }
+  ]
+}

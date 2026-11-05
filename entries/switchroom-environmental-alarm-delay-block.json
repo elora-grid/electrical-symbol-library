@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-environmental-alarm-delay-block",
+  "name": "Switchroom environmental alarm delay block",
+  "kind": "symbol",
+  "abbreviation": "SEADB",
+  "aliases": [
+    "Switchroom environmental supervision",
+    "switchrooms Switchroom environmental supervision",
+    "switchrooms",
+    "Switchrooms",
+    "Environmental threshold state",
+    "Delayed alarm output"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Applies the documented persistence interval to the assigned environmental alarm condition.",
+  "description": [
+    "Applies the documented persistence interval to the assigned environmental alarm condition. Environmental supervision turns measurements or contact states into clearly named room-service indications. A sensor measures a condition; the supervisory function decides whether the assigned alarm or control response is needed.",
+    "In a switchroom, water ingress, temperature, humidity and equipment-service alarms can be sent to the station controller with separate point names so an operator can identify the affected area. For this reference, the drawing identifies “Environmental threshold state” at the input and “Delayed alarm output” at the output. Delay must not hide an unacceptable operating condition.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Environmental threshold state. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Delayed alarm output. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Delay must not hide an unacceptable operating condition.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for environmental threshold state.",
+    "Identify the destination and defined state of delayed alarm output.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Delay must not hide an unacceptable operating condition."
+  ],
+  "distinction": "Delay must not hide an unacceptable operating condition. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Environmental threshold state"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Delayed alarm output"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SEADB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relative-humidity-sensor",
+    "temperature-indicator",
+    "switchroom-environmental-trend-record-interface"
+  ],
+  "artwork": "pi26-switchroom-environmental-alarm-delay-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-environment",
+    "input": "Environmental threshold state",
+    "output": "Delayed alarm output"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-environmental-alarm-delay-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-environmental-alarm-delay-block.svg",
+  "id": "switchroom-environmental-alarm-delay-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-environmental-alarm-delay-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-environmental-alarm-delay-block.json",
+  "svgPath": "artwork/svg/switchroom-environmental-alarm-delay-block.svg",
+  "referencePath": "references/switchroom-environmental-alarm-delay-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

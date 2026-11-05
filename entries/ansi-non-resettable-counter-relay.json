@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-non-resettable-counter-relay",
+  "name": "ANSI/IEEE Non-resettable counter relay form",
+  "kind": "symbol",
+  "abbreviation": "COUNT TOTAL",
+  "aliases": [
+    "HCR1CNN",
+    "VCR1CNN",
+    "IEEE Counter No Reset",
+    "ANSI Non-resettable counter relay"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of non-resettable counter relay: a non-resettable counter records events without a normal user reset function.",
+  "description": [
+    "This reference locates non-resettable counter relay in Autodesk's IEEE-oriented counter relays family. A non-resettable counter records events without a normal user reset function. It is used where the total event history is part of the documented equipment indication. The public library uses HCR1CNN for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Check the specified retention behaviour when the auxiliary supply is lost. A totalising counter is different from a preset counter intended to be reset each operating cycle. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check the specified retention behaviour when the auxiliary supply is lost.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Define qualifying event",
+    "State counter supply",
+    "Reference retention and rollover"
+  ],
+  "distinction": "A totalising counter is different from a preset counter intended to be reset each operating cycle.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Counter Relays; published form: Counter No Reset."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1CNN. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-counter-relays",
+      "relevance": "Public IEEE-oriented Counter Relays table explicitly lists HCR1CNN as Counter No Reset. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "non-resettable-counter-relay",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-non-resettable-counter-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Counter No Reset",
+    "reference": "Autodesk IEEE Symbol Preview: Counter Relays, block HCR1CNN. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "non-resettable-counter-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-non-resettable-counter-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-non-resettable-counter-relay.svg",
+  "id": "ansi-non-resettable-counter-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-non-resettable-counter-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-non-resettable-counter-relay.json",
+  "svgPath": "artwork/svg/ansi-non-resettable-counter-relay.svg",
+  "referencePath": "references/ansi-non-resettable-counter-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-counter-relays",
+      "title": "Autodesk IEEE Symbol Preview: Counter Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A79079B-1B7A-45B5-9B28-CA7893CFF46F.htm",
+      "type": "cad-reference",
+      "scope": "Public counter relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Counter Relays table explicitly lists HCR1CNN as Counter No Reset. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

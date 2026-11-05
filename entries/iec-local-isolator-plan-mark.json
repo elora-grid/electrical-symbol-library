@@ -1,0 +1,103 @@
+{
+  "slug": "iec-local-isolator-plan-mark",
+  "name": "Local isolator plan mark",
+  "kind": "symbol",
+  "abbreviation": "ISO",
+  "aliases": [
+    "isolating switch plan mark",
+    "rotary isolator",
+    "maintenance isolator"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a local isolating switch placed beside fixed equipment for safe maintenance.",
+  "description": [
+    "Local isolators are placed within sight of motors, air-conditioning units, pumps and fans so maintenance staff can isolate and lock the supply. Plans draw a small switch box with an isolation mark or the letters ISO beside the equipment it serves, sometimes with a lock indication.",
+    "The mark tells the installer to provide a device rated for isolation and, where required, lockable in the off position. Pole count follows the supply: three-pole or four-pole for three-phase plant. It does not specify utilisation category or whether the device can switch motor load. Those are in the schedule."
+  ],
+  "readingNotes": [
+    "Check it is within sight of the equipment.",
+    "Confirm pole count and locking provision."
+  ],
+  "drawingChecklist": [
+    "State poles and rating.",
+    "State lockability.",
+    "Tag the equipment served."
+  ],
+  "distinction": "A switched socket outlet is not an isolator; this plan mark designates an isolation-rated device.",
+  "facts": [
+    {
+      "label": "Purpose",
+      "value": "Isolation for maintenance"
+    },
+    {
+      "label": "Typical equipment",
+      "value": "Fans, pumps, condensers, motors"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Explains the isolation function and its requirements."
+    }
+  ],
+  "related": [
+    "switch-disconnector",
+    "lockable-switch-disconnector",
+    "iec-two-pole-light-switch"
+  ],
+  "artwork": "s28-iec-local-isolator-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Isolating switch, installation plan",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-local-isolator-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-local-isolator-plan-mark.svg",
+  "id": "iec-local-isolator-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-local-isolator-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-local-isolator-plan-mark.json",
+  "svgPath": "artwork/svg/iec-local-isolator-plan-mark.svg",
+  "referencePath": "references/iec-local-isolator-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains the isolation function and its requirements."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "doubly-fed-induction-generator",
+  "name": "Doubly-fed induction generator",
+  "kind": "symbol",
+  "abbreviation": "DFIG",
+  "aliases": [
+    "DFIG",
+    "Type 3 wind turbine generator",
+    "doubly-fed asynchronous generator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A wound-rotor induction generator with the stator on the network and the rotor fed through a back-to-back converter sized for slip power.",
+  "description": [
+    "A doubly-fed induction generator has its stator connected directly to the turbine transformer while the rotor windings, reached through slip rings, connect to a back-to-back AC/DC/AC converter. The converter injects rotor currents at slip frequency, allowing variable speed of roughly plus or minus thirty per cent around synchronous speed and independent control of active and reactive power.",
+    "On a single-line diagram the generator circle shows two connections: the stator branch to the main breaker and the rotor branch to a pair of converter blocks joined by a DC link. A crowbar or DC chopper is often shown on the rotor converter for fault protection, and a line filter or reactor sits on the grid-side converter.",
+    "Because the converter only carries slip power, typically a quarter to a third of the turbine rating, the symbol does not imply full decoupling from the network. Short-circuit contribution, crowbar operation and ride-through capability depend on control settings that the diagram does not show."
+  ],
+  "readingNotes": [
+    "Follow both the stator and rotor paths; they usually join again at the turbine transformer low-voltage side.",
+    "Identify the crowbar or chopper, since it changes fault behaviour."
+  ],
+  "drawingChecklist": [
+    "State stator rating and rotor converter rating separately.",
+    "Show crowbar, chopper and line filter if fitted.",
+    "Reference grid-code ride-through data."
+  ],
+  "distinction": "A DFIG converter handles only rotor slip power; a full-converter turbine passes all generator output through the converter.",
+  "facts": [
+    {
+      "label": "Generator type",
+      "value": "Wound-rotor induction, slip rings"
+    },
+    {
+      "label": "Converter rating",
+      "value": "Typically about 25 to 35 per cent of turbine rating"
+    },
+    {
+      "label": "Speed range",
+      "value": "Variable around synchronous speed"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-infineon-inverter",
+      "relevance": "Public bidirectional AC/DC converter context relevant to the rotor-side back-to-back stage."
+    },
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public generator symbol family context; the DFIG artwork is independently drawn."
+    }
+  ],
+  "related": [
+    "wound-rotor-induction-motor",
+    "full-converter-wind-turbine-generator",
+    "type-2-variable-slip-wind-turbine-generator",
+    "active-front-end-rectifier"
+  ],
+  "artwork": "s28-doubly-fed-induction-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/doubly-fed-induction-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/doubly-fed-induction-generator.svg",
+  "id": "doubly-fed-induction-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/doubly-fed-induction-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/doubly-fed-induction-generator.json",
+  "svgPath": "artwork/svg/doubly-fed-induction-generator.svg",
+  "referencePath": "references/doubly-fed-induction-generator.md",
+  "publicSources": [
+    {
+      "id": "pub-electronics-infineon-inverter",
+      "title": "Bidirectional three-/single-phase AC/DC PFC and inverter application note",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/assets/row/public/documents/24/42/infineon-ac-dc-pfc-11-kw-high-efficiency-high-density-bidirectional-three-single-phase-inverter-applicationnotes-en.pdf",
+      "type": "manufacturer",
+      "scope": "Public application context for actively switched AC/DC and inverter stages. Independent miniature topology illustrations have no copied product-specific values, wiring layouts or control implementation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public bidirectional AC/DC converter context relevant to the rotor-side back-to-back stage."
+    },
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator symbol family context; the DFIG artwork is independently drawn."
+    }
+  ]
+}

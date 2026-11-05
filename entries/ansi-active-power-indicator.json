@@ -1,0 +1,110 @@
+{
+  "slug": "ansi-active-power-indicator",
+  "name": "ANSI/IEEE active power indicator symbol",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "IEEE wattmeter symbol",
+    "ANSI active power indicator symbol",
+    "HIN1P19"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library wattmeter form for indicating active power from combined current and voltage inputs.",
+  "description": [
+    "The active power indicator, usually labelled W or kW, needs both current and voltage inputs. On a single-line diagram it is drawn off the CT and VT secondaries of a feeder or generator, and on a schematic its current coils sit in series with the CT circuit while its voltage elements are connected across the VT secondary.",
+    "Whether the instrument measures one phase, three-phase three-wire or three-phase four-wire power is not visible from the circle. Element count, direction convention for import and export, and the CT and VT ratios used for scaling all need to be read from the meter data and connection diagram."
+  ],
+  "readingNotes": [
+    "Trace both the CT and VT connections to the meter.",
+    "Check the number of measuring elements against the system wiring."
+  ],
+  "drawingChecklist": [
+    "Show CT and VT ratios",
+    "State element configuration",
+    "Define positive power direction"
+  ],
+  "distinction": "An active power indicator shows instantaneous watts; a recording wattmeter keeps a time record and a kWh meter integrates energy.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1P19 / VIN1P19 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Inputs",
+      "value": "Current and voltage from the same measuring point"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Active Power Indicator block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "active-power-indicator",
+    "ansi-recording-wattmeter",
+    "ansi-reactive-power-meter"
+  ],
+  "artwork": "s28-ansi-active-power-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Active Power Indicator",
+    "counterpart": "active-power-indicator",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-active-power-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-active-power-indicator.svg",
+  "id": "ansi-active-power-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-active-power-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-active-power-indicator.json",
+  "svgPath": "artwork/svg/ansi-active-power-indicator.svg",
+  "referencePath": "references/ansi-active-power-indicator.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Active Power Indicator block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

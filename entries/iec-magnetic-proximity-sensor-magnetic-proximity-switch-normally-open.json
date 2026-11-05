@@ -1,0 +1,94 @@
+{
+  "slug": "iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open",
+  "name": "IEC magnetic proximity sensor: magnetic proximity switch, normally open",
+  "kind": "symbol",
+  "abbreviation": "MAG",
+  "aliases": [
+    "HPX11M",
+    "VPX11M",
+    "magnetic proximity sensor Magnetic Proximity Switch, Normally Open"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Magnetic proximity sensor form: Magnetic Proximity Switch, Normally Open.",
+  "description": [
+    "A magnetic proximity sensor responds to a magnetic field or a target carrying the specified magnet. This entry identifies the magnetic proximity switch, normally open form in the publisher's IEC-context family.",
+    "A piston magnet or door-mounted magnet can provide a position indication without direct mechanical contact. The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "A magnetic sensor can contain a reed contact or powered electronics. The actual output, field orientation and contact ratings must come from the selected device."
+  ],
+  "readingNotes": [
+    "The normally-open designation starts with a non-conducting output or open contact in the documented reference condition; operation changes that state.",
+    "A magnetic sensor can contain a reed contact or powered electronics. The actual output, field orientation and contact ratings must come from the selected device."
+  ],
+  "drawingChecklist": [
+    "Identify the target, sensing mode and expected normal condition.",
+    "Label supply, output and connector pins from the actual device diagram.",
+    "Reference output circuit type, operating range and controller input."
+  ],
+  "distinction": "This entry adds the magnetic proximity switch, normally open detail to the broader magnetic proximity sensor family. A magnetic sensor can contain a reed contact or powered electronics. The actual output, field orientation and contact ratings must come from the selected device.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "Magnetic Proximity Switch, Normally Open"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HPX11M / VPX11M. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "magnetic proximity sensor"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-magnetic-sensors",
+      "relevance": "Public Magnetic Switches table explicitly lists HPX11M / VPX11M with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "magnetic-proximity-switch",
+    "plc-digital-input",
+    "terminal"
+  ],
+  "artwork": "s28-iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Magnetic Proximity Switch, Normally Open",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Magnetic Switches, HPX11M / VPX11M. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open.svg",
+  "id": "iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open.json",
+  "svgPath": "artwork/svg/iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open.svg",
+  "referencePath": "references/iec-magnetic-proximity-sensor-magnetic-proximity-switch-normally-open.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-magnetic-sensors",
+      "title": "AutoCAD Electrical: Magnetic proximity switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B80666C6-215A-40C9-93CD-F394C29C3D33.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Magnetic Switches table explicitly lists HPX11M / VPX11M with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "ansi-minimum-impedance-relay",
+  "name": "ANSI/IEEE Minimum-impedance measuring relay form",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "HCR1F41",
+    "VCR1F41",
+    "IEEE Minimum Impedance Relay",
+    "ANSI Minimum-impedance measuring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of minimum-impedance measuring relay: measuring relay that compares voltage with current and operates when the apparent impedance falls below a set value.",
+  "description": [
+    "This reference locates minimum-impedance measuring relay in Autodesk's IEEE-oriented miscellaneous relays family. A minimum-impedance relay divides measured voltage by measured current and operates when the result falls below its setting, indicating a fault close enough to fall inside its reach. It is used as generator and transformer backup protection and is the basic idea behind distance protection. The public library uses HCR1F41 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "The relay needs both CT and VT inputs, so the symbol should always be read with both connections. It does not show the characteristic shape on the impedance plane, any directional element, or the loss-of-voltage blocking needed to avoid operation when the VT supply fails. Confirm both voltage and current inputs are shown. A minimum-impedance relay uses voltage and current together; an overcurrent relay uses current alone. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Confirm both voltage and current inputs are shown.",
+    "Check for VT fuse-failure blocking."
+  ],
+  "drawingChecklist": [
+    "Show CT and VT inputs",
+    "State reach and delay",
+    "Reference blocking logic"
+  ],
+  "distinction": "A minimum-impedance relay uses voltage and current together; an overcurrent relay uses current alone.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Relays; published form: Minimum Impedance Relay."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F41. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Measured quantity",
+      "value": "Apparent impedance from voltage and current"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-miscellaneous-relays",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F41 as Minimum Impedance Relay. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "minimum-impedance-relay",
+    "21-distance-protection",
+    "voltage-transformer",
+    "current-transformer"
+  ],
+  "artwork": "s28-ansi-minimum-impedance-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Minimum Impedance Relay",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Relays, block HCR1F41. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "minimum-impedance-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-minimum-impedance-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-minimum-impedance-relay.svg",
+  "id": "ansi-minimum-impedance-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-minimum-impedance-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-minimum-impedance-relay.json",
+  "svgPath": "artwork/svg/ansi-minimum-impedance-relay.svg",
+  "referencePath": "references/ansi-minimum-impedance-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-miscellaneous-relays",
+      "title": "Autodesk IEEE Symbol Preview: Miscellaneous Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA549E3E-4ABB-426E-9331-0226EF55EAA7.htm",
+      "type": "cad-reference",
+      "scope": "Public miscellaneous relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F41 as Minimum Impedance Relay. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

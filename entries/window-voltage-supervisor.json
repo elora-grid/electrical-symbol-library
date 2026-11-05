@@ -1,0 +1,87 @@
+{
+  "slug": "window-voltage-supervisor",
+  "name": "Window voltage supervisor",
+  "kind": "symbol",
+  "abbreviation": "V WIN",
+  "aliases": [
+    "Window voltage supervisor",
+    "Window voltage supervisor functional block",
+    "Window voltage supervisor schematic reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A window supervisor checks whether a monitored voltage stays between its specified lower and upper limits.",
+  "description": [
+    "A window supervisor checks whether a monitored voltage stays between its specified lower and upper limits.",
+    "A circuit can indicate both an undervoltage and an overvoltage condition using the selected supervisor.",
+    "Show the monitored voltage together with its lower and upper acceptable limits in the documentation. The window function checks both sides of that range. Label whether the output represents an in-window condition or a fault so the meaning is not reversed by an ambiguous signal name. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the monitored voltage and both limits.",
+    "Define the output’s in-window or fault meaning.",
+    "Reference timing and hysteresis where provided.",
+    "The permitted window and response time must be specified independently of the symbol."
+  ],
+  "drawingChecklist": [
+    "Identify the monitored voltage and both limits.",
+    "Define the output’s in-window or fault meaning.",
+    "Reference timing and hysteresis where provided."
+  ],
+  "distinction": "The permitted window and response time must be specified independently of the symbol.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Monitored supply voltage"
+    },
+    {
+      "label": "Concept output",
+      "value": "In-window or fault indication"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-supervisor",
+      "relevance": "Supply supervision and reset: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "watchdog-timer",
+    "supply-voltage-supervisor",
+    "power-good-indication",
+    "power-converter"
+  ],
+  "artwork": "expanded-window-voltage-supervisor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/window-voltage-supervisor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/window-voltage-supervisor.svg",
+  "id": "window-voltage-supervisor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/window-voltage-supervisor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/window-voltage-supervisor.json",
+  "svgPath": "artwork/svg/window-voltage-supervisor.svg",
+  "referencePath": "references/window-voltage-supervisor.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-supervisor",
+      "title": "Supply supervision and reset",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/supervisor-reset-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Supply supervision and reset: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-dead-system-qualification",
+  "name": "Microgrid dead-system qualification",
+  "kind": "symbol",
+  "abbreviation": "MDQ",
+  "aliases": [
+    "Microgrid black-start and restoration controls",
+    "microgrids Microgrid black-start and restoration controls",
+    "microgrids",
+    "Microgrids",
+    "Voltage quality and topology",
+    "Qualified dead-system state"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Checks the defined measurement and topology evidence used to identify the system-restoration starting condition.",
+  "description": [
+    "Checks the defined measurement and topology evidence used to identify the system-restoration starting condition. Black-start and restoration control coordinates the establishment of an electrical reference and the gradual return of assigned resources and loads. A dead system, an available starting source and a successful load restoration are distinct states.",
+    "In a microgrid recovering from a blackout, an available grid-forming source can establish the assigned island reference before compatible generation and eligible load groups are introduced under the validated restoration strategy. For this reference, the drawing identifies “Voltage quality and topology” at the input and “Qualified dead-system state” at the output. Missing voltage data is not proof of a dead system.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Voltage quality and topology. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Qualified dead-system state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Missing voltage data is not proof of a dead system.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for voltage quality and topology.",
+    "Identify the destination and defined state of qualified dead-system state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Missing voltage data is not proof of a dead system."
+  ],
+  "distinction": "Missing voltage data is not proof of a dead system. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Voltage quality and topology"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Qualified dead-system state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MDQ is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "microgrid-controller",
+    "microgrid-black-start-source-selector"
+  ],
+  "artwork": "pi26-microgrid-dead-system-qualification",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-restoration",
+    "input": "Voltage quality and topology",
+    "output": "Qualified dead-system state"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-dead-system-qualification",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-dead-system-qualification.svg",
+  "id": "microgrid-dead-system-qualification",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-dead-system-qualification",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-dead-system-qualification.json",
+  "svgPath": "artwork/svg/microgrid-dead-system-qualification.svg",
+  "referencePath": "references/microgrid-dead-system-qualification.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

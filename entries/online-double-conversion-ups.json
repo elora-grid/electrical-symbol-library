@@ -1,0 +1,105 @@
+{
+  "slug": "online-double-conversion-ups",
+  "name": "Online double-conversion UPS",
+  "kind": "symbol",
+  "abbreviation": "UPS VFI",
+  "aliases": [
+    "double-conversion UPS",
+    "online UPS",
+    "VFI UPS"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A UPS whose rectifier and inverter carry the load continuously, with the battery on the DC link and a static bypass.",
+  "description": [
+    "In an online double-conversion UPS the load is always supplied by the inverter. The rectifier converts incoming AC to DC, the battery floats on the DC link, and the inverter produces a regulated output that is independent of input voltage and frequency variations. When the input fails, the battery simply takes over the DC link with no transfer.",
+    "Single-line diagrams show rectifier and inverter blocks in series with the battery connected between them, a static bypass switch in parallel, and often a separate bypass input and an external maintenance bypass. Output isolation transformers may also be shown.",
+    "The double-conversion path costs a few per cent in efficiency and some units offer an eco mode that runs on bypass, which changes the protection the load actually receives. The symbol does not show which mode is set, battery autonomy or the bypass source arrangement."
+  ],
+  "readingNotes": [
+    "Look for separate rectifier and bypass inputs; they may come from different boards.",
+    "Check whether eco mode is enabled."
+  ],
+  "drawingChecklist": [
+    "State kVA, kW and battery autonomy.",
+    "Show static bypass and maintenance bypass.",
+    "Reference operating mode."
+  ],
+  "distinction": "An online UPS powers the load through the inverter all the time; a line-interactive UPS passes mains to the load and only inverts during disturbances.",
+  "facts": [
+    {
+      "label": "Load path",
+      "value": "Rectifier, DC link, inverter"
+    },
+    {
+      "label": "Transfer on input failure",
+      "value": "None"
+    },
+    {
+      "label": "Bypass",
+      "value": "Static and maintenance"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "sourceId": "pub-electronics-infineon-npc",
+      "relevance": "Public UPS converter design context."
+    }
+  ],
+  "related": [
+    "ac-uninterruptible-power-supply",
+    "line-interactive-ups",
+    "static-transfer-switch",
+    "ga-ac-ups-cabinet"
+  ],
+  "artwork": "s28-online-double-conversion-ups",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/online-double-conversion-ups",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/online-double-conversion-ups.svg",
+  "id": "online-double-conversion-ups",
+  "canonicalUrl": "https://eloragrid.ai/symbols/online-double-conversion-ups",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/online-double-conversion-ups.json",
+  "svgPath": "artwork/svg/online-double-conversion-ups.svg",
+  "referencePath": "references/online-double-conversion-ups.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "id": "pub-electronics-infineon-npc",
+      "title": "Multilevel NPC converter application context",
+      "publisher": "Infineon Technologies",
+      "url": "https://www.infineon.com/product-information/sic-modules-for-ups-design-and-efficiency-guide",
+      "type": "manufacturer",
+      "scope": "Public explanation of two-level and neutral-point-clamped converter contexts. The catalogue indicates a split-link/clamping concept; it is not an exact standard circuit or a selected module internal diagram.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public UPS converter design context."
+    }
+  ]
+}

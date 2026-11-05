@@ -1,0 +1,106 @@
+{
+  "slug": "split-phase-inverter",
+  "name": "Split-phase inverter",
+  "kind": "symbol",
+  "abbreviation": "INV 2x120",
+  "aliases": [
+    "120/240 V inverter",
+    "split-phase inverter-charger",
+    "dual-output phase inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "An inverter with two 180-degree displaced outputs and a neutral, supplying 120/240 V split-phase installations.",
+  "description": [
+    "A split-phase inverter produces two AC outputs 180 degrees apart with a shared neutral, giving 120 V from each line to neutral and 240 V between lines. This matches North American residential and small commercial supplies, so the inverter can feed a standard load centre in off-grid or backup systems.",
+    "Drawings show the inverter block with three AC output conductors, L1, L2 and N, often with an internal or external autotransformer that balances unequal loads on the two halves. Neutral-earth bonding relays and the generator or grid input are drawn as for other inverter-chargers.",
+    "Unequal loading on L1 and L2 must be handled by the inverter or an autotransformer; otherwise one half can overload while the total rating appears adequate. The symbol does not show the per-leg current rating or the bonding arrangement."
+  ],
+  "readingNotes": [
+    "Read the per-leg rating as well as the total rating.",
+    "Check for an autotransformer used for load balancing."
+  ],
+  "drawingChecklist": [
+    "State total and per-leg ratings.",
+    "Show L1, L2, N and bonding.",
+    "Reference load balance between legs."
+  ],
+  "distinction": "A split-phase inverter produces two antiphase legs; a three-phase inverter produces three legs 120 degrees apart.",
+  "facts": [
+    {
+      "label": "Outputs",
+      "value": "L1, L2 at 180 degrees, neutral"
+    },
+    {
+      "label": "Voltages",
+      "value": "120 V line to neutral, 240 V line to line"
+    },
+    {
+      "label": "Balancing",
+      "value": "Internal or external autotransformer"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-multiplus-ii-2x-120v",
+      "relevance": "Public split-phase inverter-charger documentation."
+    },
+    {
+      "sourceId": "s28-victron-inverters",
+      "relevance": "Public inverter product listing."
+    }
+  ],
+  "related": [
+    "bidirectional-inverter-charger",
+    "dc-to-ac-inverter",
+    "single-phase-autotransformer"
+  ],
+  "artwork": "s28-split-phase-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/split-phase-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/split-phase-inverter.svg",
+  "id": "split-phase-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/split-phase-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/split-phase-inverter.json",
+  "svgPath": "artwork/svg/split-phase-inverter.svg",
+  "referencePath": "references/split-phase-inverter.md",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-multiplus-ii-2x-120v",
+      "title": "MultiPlus-II 2x 120V official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/inverters-chargers/multiplus-ii-2x-120v",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public split-phase inverter-charger documentation."
+    },
+    {
+      "id": "s28-victron-inverters",
+      "title": "Inverters product listing",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/inverters",
+      "type": "manufacturer",
+      "scope": "Public inverter product range listing with DC input and AC output ratings.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public inverter product listing."
+    }
+  ]
+}

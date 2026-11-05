@@ -1,0 +1,105 @@
+{
+  "slug": "static-var-compensator",
+  "name": "Static var compensator",
+  "kind": "symbol",
+  "abbreviation": "SVC",
+  "aliases": [
+    "SVC",
+    "static VAr compensator",
+    "thyristor-based reactive compensator"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A shunt reactive power compensator built from thyristor-controlled reactors, thyristor-switched capacitors and filters.",
+  "description": [
+    "A static var compensator is a shunt-connected installation that controls voltage by rapidly varying the reactive power it exchanges with the network. Its branches are typically a thyristor-controlled reactor, one or more thyristor-switched capacitors and harmonic filters, all connected to the secondary of a dedicated step-down transformer.",
+    "Single-line diagrams show the compensator transformer feeding a medium-voltage bus with each branch drawn separately, or a summary block labelled SVC with a variable capacitor-reactor symbol. It is used at transmission substations, at large industrial loads such as arc furnaces and at some renewable connection points.",
+    "Because its output is based on switched reactances, available reactive current falls with voltage, so it gives less support during deep voltage dips than a STATCOM. The symbol does not show the control slope, the branch ratings or the harmonic performance."
+  ],
+  "readingNotes": [
+    "Read each branch rating to find the inductive and capacitive range.",
+    "Filters in an SVC usually also supply part of the capacitive output."
+  ],
+  "drawingChecklist": [
+    "State capacitive and inductive range in Mvar.",
+    "Show transformer and branches.",
+    "Reference voltage control slope."
+  ],
+  "distinction": "An SVC varies switched reactances; a STATCOM uses a voltage-source converter and holds output current better at low voltage.",
+  "facts": [
+    {
+      "label": "Branches",
+      "value": "TCR, TSC and harmonic filters"
+    },
+    {
+      "label": "Connection",
+      "value": "Shunt, usually through a transformer"
+    },
+    {
+      "label": "Low-voltage behaviour",
+      "value": "Output falls with voltage squared"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-svc",
+      "relevance": "Public SVC page describing TCR, TSC and harmonic filter branches."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for reactors and capacitors."
+    }
+  ],
+  "related": [
+    "thyristor-controlled-reactor",
+    "thyristor-switched-capacitor",
+    "statcom",
+    "single-tuned-harmonic-filter"
+  ],
+  "artwork": "s28-static-var-compensator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/static-var-compensator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/static-var-compensator.svg",
+  "id": "static-var-compensator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/static-var-compensator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/static-var-compensator.json",
+  "svgPath": "artwork/svg/static-var-compensator.svg",
+  "referencePath": "references/static-var-compensator.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-svc",
+      "title": "Static Var Compensators (SVC)",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/facts/static-var-compensation-svc",
+      "type": "manufacturer",
+      "scope": "Public SVC description naming thyristor-controlled reactor, thyristor-switched capacitor and harmonic filter branches.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public SVC page describing TCR, TSC and harmonic filter branches."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for reactors and capacitors."
+    }
+  ]
+}

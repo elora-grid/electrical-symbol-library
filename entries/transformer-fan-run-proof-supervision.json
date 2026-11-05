@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-fan-run-proof-supervision",
+  "name": "Transformer fan run-proof supervision",
+  "kind": "symbol",
+  "abbreviation": "TFRS",
+  "aliases": [
+    "Transformer regulation and cooling control",
+    "substations Transformer regulation and cooling control",
+    "substations",
+    "Substations",
+    "Fan request and feedback",
+    "Cooling fan fault indication"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Compares the assigned cooling fan command with its operating feedback.",
+  "description": [
+    "Compares the assigned cooling fan command with its operating feedback. Transformer regulation changes the selected winding connection to influence voltage, while cooling control manages the installed fans and pumps. Commands, mechanical position and measured results belong to different parts of the diagram.",
+    "In a substation, a voltage regulator can request a tap change and check the resulting tap-position feedback. A separate controller stages cooling equipment according to the transformer manufacturer's defined conditions. For this reference, the drawing identifies “Fan request and feedback” at the input and “Cooling fan fault indication” at the output. Running feedback does not measure cooling effectiveness.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Fan request and feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Cooling fan fault indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Running feedback does not measure cooling effectiveness.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for fan request and feedback.",
+    "Identify the destination and defined state of cooling fan fault indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Running feedback does not measure cooling effectiveness."
+  ],
+  "distinction": "Running feedback does not measure cooling effectiveness. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Fan request and feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Cooling fan fault indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TFRS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-control",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "adjustable-ratio-transformer",
+    "winding-temperature-indicator",
+    "transformer-oil-pump-flow-proof-supervision"
+  ],
+  "artwork": "pi26-transformer-fan-run-proof-supervision",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-regulation",
+    "input": "Fan request and feedback",
+    "output": "Cooling fan fault indication"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-fan-run-proof-supervision",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-fan-run-proof-supervision.svg",
+  "id": "transformer-fan-run-proof-supervision",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-fan-run-proof-supervision",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-fan-run-proof-supervision.json",
+  "svgPath": "artwork/svg/transformer-fan-run-proof-supervision.svg",
+  "referencePath": "references/transformer-fan-run-proof-supervision.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-control",
+      "publisher": "SEL",
+      "title": "SEL-2414 transformer monitor",
+      "url": "https://selinc.com/products/2414/",
+      "scope": "Transformer temperature, cooling, tap changing and parallel operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

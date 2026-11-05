@@ -1,0 +1,118 @@
+{
+  "slug": "iec-combined-sounder-visual-alarm-device",
+  "name": "Combined sounder and visual alarm device plan symbol",
+  "kind": "symbol",
+  "abbreviation": "SVAD",
+  "aliases": [
+    "sounder-beacon",
+    "audio-visual alarm",
+    "sounder strobe"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a fire alarm device combining an audible sounder with a flashing visual alarm.",
+  "description": [
+    "Combined sounder and visual alarm devices give both a tone and a flashing light, for areas where people may be hard of hearing, wear ear protection or work in high noise. Plans draw the sounder form with radiating light marks.",
+    "Visual devices have a coverage volume defined by product category and mounting, so placement is checked against the coverage data. The plan should tag the category or coverage code. The symbol does not show flash rate or colour. Product data and the applicable standard define these."
+  ],
+  "readingNotes": [
+    "Check coverage volume for the visual element.",
+    "Check where deaf or hard-of-hearing occupants are expected."
+  ],
+  "drawingChecklist": [
+    "Tag coverage category.",
+    "Tag circuit or loop address.",
+    "Confirm synchronisation of flashes."
+  ],
+  "distinction": "A flashing beacon in a control system gives an equipment status signal; this device is a life-safety alarm.",
+  "facts": [
+    {
+      "label": "Outputs",
+      "value": "Audible tone plus flashing light"
+    },
+    {
+      "label": "Coverage",
+      "value": "Defined by visual alarm category"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-annunciation",
+      "relevance": "Public IEC-oriented electroacoustic annunciation family for comparing audible output marks."
+    },
+    {
+      "sourceId": "pub-symbol-flashing-beacons",
+      "relevance": "Public flashing beacon family for comparing the visual element."
+    }
+  ],
+  "related": [
+    "flashing-beacon",
+    "iec-fire-alarm-sounder-plan-symbol",
+    "ansi-fire-alarm-horn-strobe"
+  ],
+  "artwork": "s28-iec-combined-sounder-visual-alarm-device",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Sounder with visual alarm device",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-combined-sounder-visual-alarm-device",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-combined-sounder-visual-alarm-device.svg",
+  "id": "iec-combined-sounder-visual-alarm-device",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-combined-sounder-visual-alarm-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-combined-sounder-visual-alarm-device.json",
+  "svgPath": "artwork/svg/iec-combined-sounder-visual-alarm-device.svg",
+  "referencePath": "references/iec-combined-sounder-visual-alarm-device.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-annunciation",
+      "title": "Autodesk IEC-60617 preview: Electroacoustic annunciation forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-4602FA60-BECA-4C77-A435-73C8C05E41F7.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented electroacoustic annunciation family for comparing audible output marks."
+    },
+    {
+      "id": "pub-symbol-flashing-beacons",
+      "title": "AutoCAD Electrical: Flashing beacons",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-386067DE-60EA-4653-B9B9-3F88948B35C0.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public flashing beacon family for comparing the visual element."
+    }
+  ]
+}

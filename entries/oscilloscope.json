@@ -1,0 +1,82 @@
+{
+  "slug": "oscilloscope",
+  "name": "Oscilloscope",
+  "kind": "symbol",
+  "abbreviation": "OSC",
+  "aliases": [
+    "oscillograph",
+    "waveform display"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Instrument that displays the waveform of a signal against time, drawn with a waveform inside the instrument outline.",
+  "description": [
+    "An oscilloscope displays how a voltage or current changes over time. In drawings it appears in test set-ups, laboratory panels and commissioning procedures, with its probe points shown so readers know exactly where waveforms are to be captured.",
+    "The symbol does not show probe type or reference. Connecting an earth-referenced scope ground lead to a live point in a power circuit can short the circuit, so differential probes or isolated channels must be specified in the procedure rather than assumed from the symbol."
+  ],
+  "readingNotes": [
+    "Identify the probe reference point for each channel.",
+    "Check whether differential probes are required."
+  ],
+  "drawingChecklist": [
+    "Mark probe points",
+    "State probe type",
+    "Note bandwidth if relevant"
+  ],
+  "distinction": "An oscilloscope shows a waveform shape; a disturbance recorder stores triggered records for later analysis.",
+  "facts": [
+    {
+      "label": "Displayed quantity",
+      "value": "Signal amplitude against time"
+    },
+    {
+      "label": "Main risk",
+      "value": "Earth-referenced probe leads on live circuits"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "disturbance-recorder",
+    "indicating-instrument-general-symbol",
+    "voltmeter"
+  ],
+  "artwork": "s28-oscilloscope",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/oscilloscope",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/oscilloscope.svg",
+  "id": "oscilloscope",
+  "canonicalUrl": "https://eloragrid.ai/symbols/oscilloscope",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/oscilloscope.json",
+  "svgPath": "artwork/svg/oscilloscope.svg",
+  "referencePath": "references/oscilloscope.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

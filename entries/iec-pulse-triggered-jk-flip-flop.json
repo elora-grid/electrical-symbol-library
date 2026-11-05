@@ -1,0 +1,90 @@
+{
+  "slug": "iec-pulse-triggered-jk-flip-flop",
+  "name": "IEC pulse-triggered (master-slave) JK flip-flop",
+  "kind": "symbol",
+  "abbreviation": "1J 1K",
+  "aliases": [
+    "master-slave JK",
+    "pulse-triggered bistable",
+    "JK with postponed outputs"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "JK bistable whose outputs carry postponed marks: they change when the clock pulse ends, not at its start.",
+  "description": [
+    "A pulse-triggered or master-slave JK flip-flop is drawn with a static C1 input and postponed output marks at Q and its complement. The data must be set up before the clock pulse starts and held while C1 is active; the outputs change when C1 returns to its initial level.",
+    "Older TTL designs and some relay-logic equivalents use this behaviour. When reviewing, the presence of the postponed mark tells you that J and K must not change during the clock pulse, a stricter rule than for edge-triggered devices.",
+    "If the C1 input also carries a dynamic mark, the device is the data lock-out type, which samples on the edge but still postpones the output."
+  ],
+  "readingNotes": [
+    "Postponed marks at outputs indicate pulse triggering.",
+    "A dynamic C1 together with postponed outputs indicates data lock-out."
+  ],
+  "drawingChecklist": [
+    "Draw postponed marks next to both outputs.",
+    "Show C1 as static unless data lock-out is intended.",
+    "Note data stability requirements."
+  ],
+  "distinction": "The edge-triggered JK flip-flop has a dynamic C1 and no postponed marks.",
+  "facts": [
+    {
+      "label": "Output timing",
+      "value": "Changes at end of clock pulse"
+    },
+    {
+      "label": "Data requirement",
+      "value": "Stable for the whole active clock level"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Pulse-triggered and data lock-out bistable explanations and postponed output qualifier."
+    }
+  ],
+  "related": [
+    "iec-postponed-output",
+    "iec-jk-flip-flop",
+    "negative-edge-jk-flip-flop"
+  ],
+  "artwork": "s28-iec-pulse-triggered-jk-flip-flop",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "JK bistable with static C1 and postponed-output marks",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-pulse-triggered-jk-flip-flop",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-pulse-triggered-jk-flip-flop.svg",
+  "id": "iec-pulse-triggered-jk-flip-flop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-pulse-triggered-jk-flip-flop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-pulse-triggered-jk-flip-flop.json",
+  "svgPath": "artwork/svg/iec-pulse-triggered-jk-flip-flop.svg",
+  "referencePath": "references/iec-pulse-triggered-jk-flip-flop.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Pulse-triggered and data lock-out bistable explanations and postponed output qualifier."
+    }
+  ]
+}

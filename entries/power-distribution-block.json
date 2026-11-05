@@ -1,0 +1,105 @@
+{
+  "slug": "power-distribution-block",
+  "name": "Power distribution block",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "distribution block",
+    "power splitter block",
+    "multi-tap distribution block"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A terminal assembly that splits one incoming conductor into several outgoing conductors on a common bar.",
+  "description": [
+    "A power distribution block takes one large incoming conductor and distributes it to several smaller outgoing conductors on a shared conducting bar, saving space compared with stacking lugs on one terminal. It is used in control panels to distribute supply to several circuit breakers or loads.",
+    "The symbol shows the shared node and terminal count but not the short-circuit current rating, which varies widely between products and must suit the available fault current. Outgoing conductors connected to a distribution block usually need upstream protection sized for the smallest outgoing conductor unless tap rules allow otherwise."
+  ],
+  "readingNotes": [
+    "Check the block's short-circuit current rating against the panel rating.",
+    "Confirm outgoing conductor protection."
+  ],
+  "drawingChecklist": [
+    "State block current and short-circuit rating.",
+    "Number incoming and outgoing terminals.",
+    "Confirm conductor protection downstream."
+  ],
+  "distinction": "A power distribution block is one node with many terminals; a multi-conductor terminal block is a single terminal accepting several wires.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Bar with one incoming and several outgoing terminal points"
+    },
+    {
+      "label": "Public publisher forms",
+      "value": "3 terminal blocks at 10, 15 and 20 unit spacing (vendor drafting variants)"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-autodesk-power-distribution-blocks",
+      "relevance": "Public IEC-oriented preview page listing power distribution block forms."
+    },
+    {
+      "sourceId": "pub-symbol-terminal-families",
+      "relevance": "Manufacturer terminal block functional families."
+    }
+  ],
+  "related": [
+    "multi-conductor-terminal-block",
+    "high-current-terminal-block",
+    "terminal-jumper-bridge"
+  ],
+  "artwork": "s28-power-distribution-block",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Power distribution block, 3 terminal",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Power Distribution Blocks; vendor family reference, not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/power-distribution-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-distribution-block.svg",
+  "id": "power-distribution-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-distribution-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-distribution-block.json",
+  "svgPath": "artwork/svg/power-distribution-block.svg",
+  "referencePath": "references/power-distribution-block.md",
+  "publicSources": [
+    {
+      "id": "s28-autodesk-power-distribution-blocks",
+      "title": "IEC-60617 Symbol Preview: Power Distribution Blocks",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-137D9B55-BE24-426F-91C0-F5336EF3B358.htm",
+      "type": "cad-reference",
+      "scope": "Public IEC-oriented library preview listing 3 terminal power distribution block forms at several unit spacings.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview page listing power distribution block forms."
+    },
+    {
+      "id": "pub-symbol-terminal-families",
+      "title": "Terminal block functional families",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/terminal-blocks",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer terminal block functional families."
+    }
+  ]
+}

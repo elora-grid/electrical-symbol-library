@@ -1,0 +1,86 @@
+{
+  "slug": "smart-high-side-switch",
+  "name": "Smart high-side switch",
+  "kind": "symbol",
+  "abbreviation": "HS SW",
+  "aliases": [
+    "Smart high-side switch",
+    "Smart high-side switch functional block",
+    "Smart high-side switch schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A high-side switch controls the connection between a supply and the high side of a load.",
+  "description": [
+    "A high-side switch controls the connection between a supply and the high side of a load.",
+    "A controller can switch the positive supply path to an attached device using the selected component.",
+    "Draw the switch between the positive supply and the load, with the return path shown separately. Identify any diagnostic output as a signal rather than another power connection. The word smart does not define a universal set of protection or diagnostic features. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Locate the switch on the supply side of the load.",
+    "Label control and diagnostic signals separately.",
+    "Reference the selected load, fault and thermal behaviour.",
+    "Monitoring and protection features depend on the chosen device, not merely the high-side position."
+  ],
+  "drawingChecklist": [
+    "Locate the switch on the supply side of the load.",
+    "Label control and diagnostic signals separately.",
+    "Reference the selected load, fault and thermal behaviour."
+  ],
+  "distinction": "Monitoring and protection features depend on the chosen device, not merely the high-side position.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Positive supply path"
+    },
+    {
+      "label": "Concept output",
+      "value": "Load supply connection"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-highside",
+      "relevance": "High-side power switching: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "high-side-gate-driver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-smart-high-side-switch",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/smart-high-side-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/smart-high-side-switch.svg",
+  "id": "smart-high-side-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/smart-high-side-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/smart-high-side-switch.json",
+  "svgPath": "artwork/svg/smart-high-side-switch.svg",
+  "referencePath": "references/smart-high-side-switch.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-highside",
+      "title": "High-side power switching",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/high-side-switches-controllers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "High-side power switching: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

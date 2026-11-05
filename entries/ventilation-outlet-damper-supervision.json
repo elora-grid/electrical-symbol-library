@@ -1,0 +1,105 @@
+{
+  "slug": "ventilation-outlet-damper-supervision",
+  "name": "Ventilation outlet-damper supervision",
+  "kind": "symbol",
+  "abbreviation": "VOS",
+  "aliases": [
+    "Switchroom ventilation interfaces",
+    "switchrooms Switchroom ventilation interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Outlet-damper feedback",
+    "Damper mismatch alarm"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Monitors the documented exhaust-damper position against the ventilation request.",
+  "description": [
+    "Monitors the documented exhaust-damper position against the ventilation request. Ventilation control coordinates the equipment that manages heat and air movement in an electrical room. A temperature request, a fan command and proof of airflow are separate signals, and the room design determines how they interact.",
+    "In a switchroom containing transformers and auxiliary panels, the room controller can supervise fan availability and send an alarm when the documented ventilation duty is not achieved. For this reference, the drawing identifies “Outlet-damper feedback” at the input and “Damper mismatch alarm” at the output. Different dampers have different return mechanisms.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Outlet-damper feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Damper mismatch alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Different dampers have different return mechanisms.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for outlet-damper feedback.",
+    "Identify the destination and defined state of damper mismatch alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Different dampers have different return mechanisms."
+  ],
+  "distinction": "Different dampers have different return mechanisms. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Outlet-damper feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Damper mismatch alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "VOS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-switchroom-exhaust-fan",
+    "ga-enclosure-thermostat",
+    "switchroom-fan-local-auto-interface"
+  ],
+  "artwork": "pi26-ventilation-outlet-damper-supervision",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "ventilation",
+    "input": "Outlet-damper feedback",
+    "output": "Damper mismatch alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/ventilation-outlet-damper-supervision",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ventilation-outlet-damper-supervision.svg",
+  "id": "ventilation-outlet-damper-supervision",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ventilation-outlet-damper-supervision",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ventilation-outlet-damper-supervision.json",
+  "svgPath": "artwork/svg/ventilation-outlet-damper-supervision.svg",
+  "referencePath": "references/ventilation-outlet-damper-supervision.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

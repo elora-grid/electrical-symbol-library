@@ -1,0 +1,105 @@
+{
+  "slug": "bus-selector-earthing-switch-association",
+  "name": "Bus-selector earthing-switch association",
+  "kind": "symbol",
+  "abbreviation": "BEA",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Selector and earth-switch identities",
+    "Associated operating references"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Relates the assigned bus-selector disconnector to its documented associated earthing device.",
+  "description": [
+    "Relates the assigned bus-selector disconnector to its documented associated earthing device. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Selector and earth-switch identities” at the input and “Associated operating references” at the output. Association does not define an operating sequence.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Selector and earth-switch identities. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Associated operating references. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Association does not define an operating sequence.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for selector and earth-switch identities.",
+    "Identify the destination and defined state of associated operating references.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Association does not define an operating sequence."
+  ],
+  "distinction": "Association does not define an operating sequence. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Selector and earth-switch identities"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Associated operating references"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BEA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "line-disconnector-earthing-switch-association"
+  ],
+  "artwork": "pi26-bus-selector-earthing-switch-association",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Selector and earth-switch identities",
+    "output": "Associated operating references"
+  },
+  "url": "https://eloragrid.ai/symbols/bus-selector-earthing-switch-association",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bus-selector-earthing-switch-association.svg",
+  "id": "bus-selector-earthing-switch-association",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bus-selector-earthing-switch-association",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bus-selector-earthing-switch-association.json",
+  "svgPath": "artwork/svg/bus-selector-earthing-switch-association.svg",
+  "referencePath": "references/bus-selector-earthing-switch-association.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "winding-temperature-indicator",
+  "name": "Winding temperature indicator",
+  "kind": "symbol",
+  "abbreviation": "WTI",
+  "aliases": [
+    "thermal image indicator",
+    "WTI",
+    "hot-spot temperature indicator"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Transformer indicator that adds a CT-heated thermal image to top-oil temperature to estimate winding hot-spot temperature.",
+  "description": [
+    "A winding temperature indicator estimates transformer winding hot-spot temperature, which cannot easily be measured directly. A sensor in the top-oil pocket is heated by a small element fed from a CT on the load current, so the reading rises with both oil temperature and load, and its contacts control fans and give alarm and trip.",
+    "The schematic should show the CT feeding the heater, the calibration resistor and each contact stage. The symbol does not show the thermal gradient setting, which must be adjusted to the transformer heat-run data for the reading to be meaningful."
+  ],
+  "readingNotes": [
+    "Trace the CT circuit feeding the thermal image heater.",
+    "Identify contact stages for cooling, alarm and trip."
+  ],
+  "drawingChecklist": [
+    "Show heater CT",
+    "List contact stages",
+    "Reference gradient setting"
+  ],
+  "distinction": "A WTI estimates winding hot-spot with a thermal image; an oil temperature indicator reads oil temperature only.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Top-oil temperature plus CT-fed heater"
+    },
+    {
+      "label": "Outputs",
+      "value": "Cooling, alarm and trip contacts"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-function-eaton-transformer",
+      "relevance": "Public transformer protection context including thermal functions."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "temperature-indicator",
+    "buchholz-relay",
+    "49-thermal-protection"
+  ],
+  "artwork": "s28-winding-temperature-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/winding-temperature-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/winding-temperature-indicator.svg",
+  "id": "winding-temperature-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/winding-temperature-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/winding-temperature-indicator.json",
+  "svgPath": "artwork/svg/winding-temperature-indicator.svg",
+  "referencePath": "references/winding-temperature-indicator.md",
+  "publicSources": [
+    {
+      "id": "pub-function-eaton-transformer",
+      "title": "ETR-4000 and ETR-5000 transformer protection function tables",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/catalog/electrical-circuit-protection/transformer-relays.html",
+      "type": "manufacturer",
+      "scope": "Public transformer-relay mappings including restrained/unrestrained differential, restricted ground differential, main and auxiliary voltage inputs, and measured/calculated earth-current inputs.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transformer protection context including thermal functions."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

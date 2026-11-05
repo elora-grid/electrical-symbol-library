@@ -1,0 +1,119 @@
+{
+  "slug": "iec-weatherproof-socket-outlet",
+  "name": "Weatherproof socket outlet",
+  "kind": "symbol",
+  "abbreviation": "SO-IP",
+  "aliases": [
+    "IP-rated socket outlet",
+    "outdoor socket outlet",
+    "weatherproof GPO"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for an outdoor or wet-area socket outlet with a protective enclosure, usually tagged with its IP rating.",
+  "description": [
+    "Weatherproof outlets are placed on external walls, in wash-down areas, car parks and roof plant. The plan symbol uses the normal outlet form with an IP or WP tag, and some legends add a small enclosure line around the outlet to show the hinged cover.",
+    "The tag matters to the installer because it decides the accessory family, gland type and whether the cover must keep its rating with a plug inserted. Outdoor outlets also usually require residual-current protection, so the reader should look for the RCD indication or the circuit schedule note.",
+    "The symbol does not state the actual IP code unless the number is written. WP alone is a project shorthand; the specification should fix the numeric rating."
+  ],
+  "readingNotes": [
+    "Look for an IP number, not just WP or EXT text.",
+    "Check whether the outlet is also shown as residual-current protected."
+  ],
+  "drawingChecklist": [
+    "State the IP code required with a plug inserted where relevant.",
+    "Confirm residual-current protection for the circuit.",
+    "Show mounting height above finished ground."
+  ],
+  "distinction": "An interior outlet and a weatherproof outlet can share the same base form; only the enclosure tag or outline distinguishes them.",
+  "facts": [
+    {
+      "label": "Typical tag",
+      "value": "IP rating such as IP56 or IP66"
+    },
+    {
+      "label": "Location",
+      "value": "External walls, wet areas, roof plant"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    },
+    {
+      "sourceId": "rcd-forms",
+      "relevance": "Explains the physical forms residual-current protection can take, including socket-outlet integration."
+    }
+  ],
+  "related": [
+    "iec-socket-outlet-with-protective-contact",
+    "iec-rcd-protected-socket-outlet",
+    "ansi-weatherproof-receptacle"
+  ],
+  "artwork": "s28-iec-weatherproof-socket-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Weatherproof socket outlet",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-weatherproof-socket-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-weatherproof-socket-outlet.svg",
+  "id": "iec-weatherproof-socket-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-weatherproof-socket-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-weatherproof-socket-outlet.json",
+  "svgPath": "artwork/svg/iec-weatherproof-socket-outlet.svg",
+  "referencePath": "references/iec-weatherproof-socket-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    },
+    {
+      "id": "rcd-forms",
+      "title": "Form factors of residual-current devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Form_factors_of_RCDs",
+      "type": "manufacturer",
+      "scope": "Residual-current functions in different device forms and related product standards.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains the physical forms residual-current protection can take, including socket-outlet integration."
+    }
+  ]
+}

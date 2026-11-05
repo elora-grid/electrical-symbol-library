@@ -1,0 +1,106 @@
+{
+  "slug": "thyristor-switched-capacitor",
+  "name": "Thyristor-switched capacitor",
+  "kind": "symbol",
+  "abbreviation": "TSC",
+  "aliases": [
+    "TSC",
+    "thyristor-switched capacitor bank",
+    "electronically switched capacitor"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A capacitor bank switched in or out at current zero by anti-parallel thyristors, giving fast stepwise reactive support.",
+  "description": [
+    "A thyristor-switched capacitor connects a capacitor bank through anti-parallel thyristors, usually with a small series reactor to limit inrush. The thyristors switch the capacitor in at the instant when the network voltage equals the capacitor voltage, avoiding transients, and switch it out at current zero. It is either fully on or fully off.",
+    "Single-line diagrams show a capacitor, a series reactor and the thyristor pair stacked on a shunt branch. Several TSC branches may be drawn to give multiple steps of capacitive output in a static var compensator or a fast power factor correction system.",
+    "Because it switches in discrete steps, fine control comes from combining TSC branches with a TCR. The symbol does not show discharge resistors or the valve voltage rating, which must withstand twice the peak voltage when the capacitor is charged and the network reverses."
+  ],
+  "readingNotes": [
+    "A small series reactor is part of the branch, not a separate filter.",
+    "Count branches to find available steps."
+  ],
+  "drawingChecklist": [
+    "State capacitor Mvar per step.",
+    "Show series reactor and valve.",
+    "Reference switching logic."
+  ],
+  "distinction": "A TSC switches capacitors in steps without transients; a mechanically switched capacitor uses a breaker and is much slower.",
+  "facts": [
+    {
+      "label": "Switching",
+      "value": "At voltage match, out at current zero"
+    },
+    {
+      "label": "Output",
+      "value": "Stepwise capacitive Mvar"
+    },
+    {
+      "label": "Series element",
+      "value": "Inrush-limiting reactor"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-svc",
+      "relevance": "Public SVC page naming the thyristor-switched capacitor branch."
+    },
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public capacitor symbol family context."
+    }
+  ],
+  "related": [
+    "static-var-compensator",
+    "thyristor-controlled-reactor",
+    "three-phase-power-factor-capacitor",
+    "detuned-capacitor-bank"
+  ],
+  "artwork": "s28-thyristor-switched-capacitor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/thyristor-switched-capacitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/thyristor-switched-capacitor.svg",
+  "id": "thyristor-switched-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/thyristor-switched-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/thyristor-switched-capacitor.json",
+  "svgPath": "artwork/svg/thyristor-switched-capacitor.svg",
+  "referencePath": "references/thyristor-switched-capacitor.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-svc",
+      "title": "Static Var Compensators (SVC)",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/facts/static-var-compensation-svc",
+      "type": "manufacturer",
+      "scope": "Public SVC description naming thyristor-controlled reactor, thyristor-switched capacitor and harmonic filter branches.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public SVC page naming the thyristor-switched capacitor branch."
+    },
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public capacitor symbol family context."
+    }
+  ]
+}

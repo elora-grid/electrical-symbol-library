@@ -1,0 +1,105 @@
+{
+  "slug": "ventilation-fan-automatic-changeover",
+  "name": "Ventilation fan automatic changeover",
+  "kind": "symbol",
+  "abbreviation": "VFAC",
+  "aliases": [
+    "Switchroom ventilation interfaces",
+    "switchrooms Switchroom ventilation interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Duty-fan fault",
+    "Standby-fan request"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers the documented ventilation duty when the active fan becomes unavailable.",
+  "description": [
+    "Transfers the documented ventilation duty when the active fan becomes unavailable. Ventilation control coordinates the equipment that manages heat and air movement in an electrical room. A temperature request, a fan command and proof of airflow are separate signals, and the room design determines how they interact.",
+    "In a switchroom containing transformers and auxiliary panels, the room controller can supervise fan availability and send an alarm when the documented ventilation duty is not achieved. For this reference, the drawing identifies “Duty-fan fault” at the input and “Standby-fan request” at the output. Changeover conditions require the ventilation design.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Duty-fan fault. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Standby-fan request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Changeover conditions require the ventilation design.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for duty-fan fault.",
+    "Identify the destination and defined state of standby-fan request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Changeover conditions require the ventilation design."
+  ],
+  "distinction": "Changeover conditions require the ventilation design. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Duty-fan fault"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Standby-fan request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "VFAC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-switchroom-exhaust-fan",
+    "ga-enclosure-thermostat",
+    "switchroom-fan-run-proof-interface"
+  ],
+  "artwork": "pi26-ventilation-fan-automatic-changeover",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "ventilation",
+    "input": "Duty-fan fault",
+    "output": "Standby-fan request"
+  },
+  "url": "https://eloragrid.ai/symbols/ventilation-fan-automatic-changeover",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ventilation-fan-automatic-changeover.svg",
+  "id": "ventilation-fan-automatic-changeover",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ventilation-fan-automatic-changeover",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ventilation-fan-automatic-changeover.json",
+  "svgPath": "artwork/svg/ventilation-fan-automatic-changeover.svg",
+  "referencePath": "references/ventilation-fan-automatic-changeover.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

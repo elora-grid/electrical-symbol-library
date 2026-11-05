@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-reactive-setpoint-ramp-limiter",
+  "name": "Microgrid reactive-setpoint ramp limiter",
+  "kind": "symbol",
+  "abbreviation": "MRRL",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Reactive-power target",
+    "Rate-limited reactive request"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Constrains the change rate of the assigned reactive-power request.",
+  "description": [
+    "Constrains the change rate of the assigned reactive-power request. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Reactive-power target” at the input and “Rate-limited reactive request” at the output. The resource response remains equipment-dependent.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reactive-power target. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Rate-limited reactive request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The resource response remains equipment-dependent.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reactive-power target.",
+    "Identify the destination and defined state of rate-limited reactive request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The resource response remains equipment-dependent."
+  ],
+  "distinction": "The resource response remains equipment-dependent. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reactive-power target"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Rate-limited reactive request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRRL is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-reactive-dispatch-tracking-monitor"
+  ],
+  "artwork": "pi26-microgrid-reactive-setpoint-ramp-limiter",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Reactive-power target",
+    "output": "Rate-limited reactive request"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-reactive-setpoint-ramp-limiter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-reactive-setpoint-ramp-limiter.svg",
+  "id": "microgrid-reactive-setpoint-ramp-limiter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-reactive-setpoint-ramp-limiter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-reactive-setpoint-ramp-limiter.json",
+  "svgPath": "artwork/svg/microgrid-reactive-setpoint-ramp-limiter.svg",
+  "referencePath": "references/microgrid-reactive-setpoint-ramp-limiter.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

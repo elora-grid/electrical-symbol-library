@@ -1,0 +1,117 @@
+{
+  "slug": "ansi-neutral-current-relay",
+  "name": "ANSI/IEEE Neutral-current measuring relay form",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "HCR1F32",
+    "VCR1F32",
+    "IEEE In Neutral",
+    "ANSI Neutral-current measuring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of neutral-current measuring relay: measuring relay fed from a CT in a neutral conductor or star-point connection, responding to neutral current.",
+  "description": [
+    "This reference locates neutral-current measuring relay in Autodesk's IEEE-oriented current protection relays family. This relay form is used where a CT is installed in a neutral conductor or in the earthing connection of a transformer or generator star point. Current there indicates earth faults or, in four-wire systems, heavy unbalance and triplen harmonic loading, depending on where the CT sits. The public library uses HCR1F32 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "The symbol identifies the measured conductor but not the purpose. A neutral CT in the star-point earth lead gives standby earth-fault protection, while one in the four-wire neutral of a feeder sees load unbalance as well, so settings and grading differ greatly. Confirm whether the CT is in the neutral conductor or the earthing lead. A neutral-current relay measures one neutral path; a residual connection sums the three phase CTs to derive the same quantity. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Confirm whether the CT is in the neutral conductor or the earthing lead.",
+    "Check grading against downstream earth-fault devices."
+  ],
+  "drawingChecklist": [
+    "Show neutral CT location",
+    "State setting and delay",
+    "Reference grading study"
+  ],
+  "distinction": "A neutral-current relay measures one neutral path; a residual connection sums the three phase CTs to derive the same quantity.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Current Protection Relays; published form: In Neutral."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F32. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Measured quantity",
+      "value": "Current in a neutral or star-point conductor"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-current-protection-relays",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F32 as In Neutral. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "neutral-current-relay",
+    "residual-connection-of-phase-cts",
+    "earth-fault-current-relay",
+    "51-time-overcurrent"
+  ],
+  "artwork": "s28-ansi-neutral-current-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "In Neutral",
+    "reference": "Autodesk IEEE Symbol Preview: Current Protection Relays, block HCR1F32. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "neutral-current-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-neutral-current-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-neutral-current-relay.svg",
+  "id": "ansi-neutral-current-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-neutral-current-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-neutral-current-relay.json",
+  "svgPath": "artwork/svg/ansi-neutral-current-relay.svg",
+  "referencePath": "references/ansi-neutral-current-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-current-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Current Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC11EC4D-374C-4191-9534-C802D3932711.htm",
+      "type": "cad-reference",
+      "scope": "Public current protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F32 as In Neutral. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

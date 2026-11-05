@@ -1,0 +1,90 @@
+{
+  "slug": "iec-fifo-memory",
+  "name": "IEC first-in first-out memory (FIFO)",
+  "kind": "symbol",
+  "abbreviation": "FIFO",
+  "aliases": [
+    "FIFO buffer",
+    "first-in first-out element",
+    "queue memory"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked FIFO that stores words in arrival order and reads them out in the same order.",
+  "description": [
+    "The FIFO qualifier identifies a first-in first-out memory. There are no address inputs; instead, a write clock stores input words and a read clock delivers them in the same order. Status outputs indicate empty, full and sometimes half-full conditions.",
+    "FIFOs buffer data between parts of a system that run at different rates, such as a serial receiver and a processor. On a drawing, the status outputs should be traced to see how the system avoids overflow and underflow.",
+    "The symbol does not specify depth or whether read and write clocks can be asynchronous. The organisation and device data provide those details."
+  ],
+  "readingNotes": [
+    "No address inputs: order is implicit.",
+    "Trace full and empty flags to their handling logic."
+  ],
+  "drawingChecklist": [
+    "State depth and width.",
+    "Label write and read clocks.",
+    "Show status outputs and their use."
+  ],
+  "distinction": "RAM uses addresses; FIFO uses order of arrival.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "FIFO"
+    },
+    {
+      "label": "Status outputs",
+      "value": "Empty, full, often half-full"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists FIFO as a general qualifier."
+    }
+  ],
+  "related": [
+    "iec-random-access-memory",
+    "iec-shift-register",
+    "iec-read-only-memory"
+  ],
+  "artwork": "s28-iec-fifo-memory",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with FIFO qualifier, write and read clocks and status outputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-fifo-memory",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-fifo-memory.svg",
+  "id": "iec-fifo-memory",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-fifo-memory",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-fifo-memory.json",
+  "svgPath": "artwork/svg/iec-fifo-memory.svg",
+  "referencePath": "references/iec-fifo-memory.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists FIFO as a general qualifier."
+    }
+  ]
+}

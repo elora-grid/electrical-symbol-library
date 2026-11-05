@@ -1,0 +1,106 @@
+{
+  "slug": "iec-xor-gate",
+  "name": "IEC exclusive-OR gate (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "=1",
+  "aliases": [
+    "IEC XOR element",
+    "equals-one gate",
+    "rectangular exclusive-OR"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Rectangular element marked =1: the output is active when one and only one input is active.",
+  "description": [
+    "The =1 qualifier defines an exclusive-OR in the strict IEC sense: exactly one input must be active for the output to be active. For a two-input element this matches the familiar XOR truth table. For more than two inputs it is not the same as a cascaded parity function, which IEC writes as 2k+1.",
+    "On control drawings the =1 element appears in discrepancy checks, such as comparing a commanded position with a feedback contact, and in change-detection logic. The drafter should keep the element at two inputs unless the one-and-only-one meaning is truly intended.",
+    "The qualifier does not indicate timing tolerance. Discrepancy logic normally needs a delay element after the =1 box so that the alarm ignores normal transit time; that delay is a separate symbol."
+  ],
+  "readingNotes": [
+    "For three or more inputs, read =1 as exactly one active, not odd parity.",
+    "Look for a following delay element in discrepancy logic."
+  ],
+  "drawingChecklist": [
+    "Use =1 only where exactly-one behaviour is intended.",
+    "Use 2k+1 instead when odd parity is meant.",
+    "Show any discrepancy delay as its own element."
+  ],
+  "distinction": "The 2k+1 odd-parity element gives the same result for two inputs but a different result for three or more.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "=1 (one and only one input active)"
+    },
+    {
+      "label": "Multi-input caution",
+      "value": "Not equivalent to odd parity above two inputs"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines =1 and distinguishes it from the 2k+1 parity qualifier."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc86",
+      "relevance": "Manufacturer exclusive-OR documentation."
+    }
+  ],
+  "related": [
+    "logic-xor-gate",
+    "iec-odd-parity-element",
+    "iec-xnor-gate"
+  ],
+  "artwork": "s28-iec-xor-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular outline with the =1 qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-xor-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-xor-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-xor-gate.svg",
+  "id": "iec-xor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-xor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-xor-gate.json",
+  "svgPath": "artwork/svg/iec-xor-gate.svg",
+  "referencePath": "references/iec-xor-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines =1 and distinguishes it from the 2k+1 parity qualifier."
+    },
+    {
+      "id": "pub-electronics-ti-hc86",
+      "title": "SN74HC86 — XOR gate logic",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of xor gate logic. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer exclusive-OR documentation."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "synchronising-lamps",
+  "name": "Synchronising lamps",
+  "kind": "symbol",
+  "abbreviation": "SL",
+  "aliases": [
+    "synchroscope lamps",
+    "dark lamp method",
+    "rotating lamp synchronising"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Set of lamps connected between incoming and running phases that brighten and dim with the phase difference during synchronising.",
+  "description": [
+    "Synchronising lamps are connected between corresponding phases of the running system and the incoming machine. As the phase difference changes the lamps brighten and dim, and in the dark-lamp method the breaker is closed when they are dark, showing the voltages are in phase.",
+    "Lamps cannot show small residual voltage differences reliably, since a lamp can look dark with a significant voltage across it. They are therefore a backup or visual aid, and the drawing should show a synchroscope or check-synchronising relay for the actual permission to close."
+  ],
+  "readingNotes": [
+    "Identify which phases each lamp is connected across.",
+    "Look for a check-synchronising relay in the closing circuit."
+  ],
+  "drawingChecklist": [
+    "Show lamp connections per phase",
+    "State lamp voltage rating",
+    "Reference check-synchronising function"
+  ],
+  "distinction": "Synchronising lamps give a visual indication; a synchroscope shows phase angle and slip direction directly.",
+  "facts": [
+    {
+      "label": "Connection",
+      "value": "Across incoming and running phases"
+    },
+    {
+      "label": "Common method",
+      "value": "Dark-lamp closing"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "generator-controls",
+      "relevance": "Public generator paralleling controls context."
+    }
+  ],
+  "related": [
+    "synchronoscope",
+    "double-voltmeter",
+    "25-synchronism-check"
+  ],
+  "artwork": "s28-synchronising-lamps",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/synchronising-lamps",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/synchronising-lamps.svg",
+  "id": "synchronising-lamps",
+  "canonicalUrl": "https://eloragrid.ai/symbols/synchronising-lamps",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/synchronising-lamps.json",
+  "svgPath": "artwork/svg/synchronising-lamps.svg",
+  "referencePath": "references/synchronising-lamps.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "generator-controls",
+      "title": "Generator switchgear and paralleling controls",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/en-na/generators/products/switchgear",
+      "type": "manufacturer",
+      "scope": "Public description of generator switchgear, controls and system interfaces.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator paralleling controls context."
+    }
+  ]
+}

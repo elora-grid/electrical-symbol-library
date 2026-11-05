@@ -1,0 +1,103 @@
+{
+  "slug": "iec-shaver-supply-unit",
+  "name": "Shaver supply unit",
+  "kind": "symbol",
+  "abbreviation": "SSU",
+  "aliases": [
+    "socket outlet with isolating transformer",
+    "shaver socket",
+    "bathroom shaver outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a socket outlet fed through a safety isolating transformer, typically a bathroom shaver point.",
+  "description": [
+    "A shaver supply unit contains a small isolating transformer so that the outlet is not referenced to earth. IEC-style plan symbols show the outlet half circle with two linked circles on the lead, the same pair of circles used for a transformer in diagrams, to show that the outlet is fed through isolation.",
+    "This is the only general outlet permitted in some bathroom zones, so the symbol tells the installer which accessory to buy and tells the inspector why an outlet appears close to a basin. The low power rating means it is for shavers and toothbrushes, not hair dryers or heaters.",
+    "The symbol does not show the transformer rating or the dual-voltage selector that many units include. A plain outlet drawn in a bathroom is not the same and may breach zone requirements."
+  ],
+  "readingNotes": [
+    "The two linked circles are the key difference from an ordinary outlet.",
+    "Check the location against the bathroom zone drawing."
+  ],
+  "drawingChecklist": [
+    "Confirm the unit is a shaver supply unit, not a general outlet.",
+    "Show its zone position relative to bath or shower.",
+    "Tag circuit and any residual-current protection."
+  ],
+  "distinction": "A general outlet in a bathroom position is not isolated from earth; the shaver supply unit is.",
+  "facts": [
+    {
+      "label": "Internal function",
+      "value": "Safety isolating transformer feeding the outlet"
+    },
+    {
+      "label": "Typical location",
+      "value": "Bathrooms and en-suites"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "iec-socket-outlet-with-protective-contact",
+    "iec-single-power-receptacle"
+  ],
+  "artwork": "s28-iec-shaver-supply-unit",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Socket outlet with isolating transformer",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-shaver-supply-unit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-shaver-supply-unit.svg",
+  "id": "iec-shaver-supply-unit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-shaver-supply-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-shaver-supply-unit.json",
+  "svgPath": "artwork/svg/iec-shaver-supply-unit.svg",
+  "referencePath": "references/iec-shaver-supply-unit.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

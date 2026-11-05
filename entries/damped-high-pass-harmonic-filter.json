@@ -1,0 +1,106 @@
+{
+  "slug": "damped-high-pass-harmonic-filter",
+  "name": "Damped high-pass harmonic filter",
+  "kind": "symbol",
+  "abbreviation": "HPF",
+  "aliases": [
+    "second-order high-pass filter",
+    "C-type filter",
+    "damped filter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A shunt filter with a resistor across its reactor, giving low impedance over a broad band of higher harmonics.",
+  "description": [
+    "A damped high-pass filter adds a resistor in parallel with the reactor of a capacitor-reactor branch. Above its corner frequency the filter impedance stays low across a wide band, so it absorbs higher-order harmonics and damps resonances rather than sinking one specific order. The C-type variant adds a second capacitor to remove fundamental-frequency losses in the resistor.",
+    "Drawings show the capacitor in series with a reactor that has a resistor in parallel, sometimes with the extra capacitor of the C-type arrangement in series with the reactor. It is used beside tuned filters in static var compensators, large rectifier plants and some converter connection points.",
+    "The resistor dissipates real power, so its thermal rating is as important as the electrical values. The symbol does not show the corner frequency or the loss figure, which come from the filter design report."
+  ],
+  "readingNotes": [
+    "A resistor across the reactor marks a damped filter.",
+    "An extra series capacitor indicates a C-type arrangement."
+  ],
+  "drawingChecklist": [
+    "State corner frequency, Mvar and resistor rating.",
+    "Show resistor and capacitor arrangement.",
+    "Reference filter design report."
+  ],
+  "distinction": "A damped high-pass filter covers a band of harmonics; a single-tuned filter sinks one order and has no resistor branch.",
+  "facts": [
+    {
+      "label": "Elements",
+      "value": "Capacitor, reactor, parallel resistor"
+    },
+    {
+      "label": "Response",
+      "value": "Broad band above corner frequency"
+    },
+    {
+      "label": "Losses",
+      "value": "Dissipated in resistor"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-hitachi-capacitors-filters",
+      "relevance": "Public passive and harmonic filter product context."
+    },
+    {
+      "sourceId": "autodesk-resistors",
+      "relevance": "Public resistor symbol family context."
+    }
+  ],
+  "related": [
+    "single-tuned-harmonic-filter",
+    "static-var-compensator",
+    "resistor",
+    "reactor"
+  ],
+  "artwork": "s28-damped-high-pass-harmonic-filter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/damped-high-pass-harmonic-filter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/damped-high-pass-harmonic-filter.svg",
+  "id": "damped-high-pass-harmonic-filter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/damped-high-pass-harmonic-filter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/damped-high-pass-harmonic-filter.json",
+  "svgPath": "artwork/svg/damped-high-pass-harmonic-filter.svg",
+  "referencePath": "references/damped-high-pass-harmonic-filter.md",
+  "publicSources": [
+    {
+      "id": "s28-hitachi-capacitors-filters",
+      "title": "Capacitor and filter product offerings",
+      "publisher": "Hitachi Energy",
+      "url": "https://www.hitachienergy.com/products-and-solutions/capacitors-and-filters",
+      "type": "manufacturer",
+      "scope": "Public overview of passive and harmonic filters and shunt compensation banks with and without reactors.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public passive and harmonic filter product context."
+    },
+    {
+      "id": "autodesk-resistors",
+      "title": "Resistors and heater-element symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1D071951-D38E-4B15-8B9E-C30ECBD55C19.htm",
+      "type": "cad-reference",
+      "scope": "Fixed and variable resistive components, shunts and heater elements.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public resistor symbol family context."
+    }
+  ]
+}

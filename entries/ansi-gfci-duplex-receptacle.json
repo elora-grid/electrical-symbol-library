@@ -1,0 +1,120 @@
+{
+  "slug": "ansi-gfci-duplex-receptacle",
+  "name": "ANSI GFCI duplex receptacle plan symbol",
+  "kind": "symbol",
+  "abbreviation": "GFCI",
+  "aliases": [
+    "ground-fault receptacle symbol",
+    "GFI outlet",
+    "GFCI receptacle"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol for a duplex receptacle with built-in ground-fault circuit-interrupter protection, tagged GFCI.",
+  "description": [
+    "A GFCI receptacle includes a ground-fault circuit interrupter that trips on a small residual current, protecting people in kitchens, bathrooms, garages and outdoors. The plan uses the duplex receptacle form with GFCI or GFI written beside it.",
+    "A GFCI receptacle can also protect downstream receptacles wired from its load terminals. Plans sometimes show this by tagging only the first device and noting protected outlets, so the installer must read notes to wire the line and load terminals correctly.",
+    "The tag says protection is at the receptacle. It does not say whether a GFCI breaker in the panel would be acceptable instead, and it does not show which downstream outlets are protected unless noted."
+  ],
+  "readingNotes": [
+    "Check notes for downstream receptacles protected from the load side.",
+    "Do not confuse GFCI with AFCI, which addresses arcing faults."
+  ],
+  "drawingChecklist": [
+    "Identify the protecting device for every protected outlet.",
+    "Tag weatherproof covers where outdoors.",
+    "Keep test button accessible."
+  ],
+  "distinction": "An IEC RCD-protected outlet performs a similar function under a different convention and tag.",
+  "facts": [
+    {
+      "label": "Protection",
+      "value": "Ground-fault interrupter in the receptacle"
+    },
+    {
+      "label": "Typical locations",
+      "value": "Kitchens, bathrooms, garages, outdoors"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-symbol-rcd-categories",
+      "relevance": "Manufacturer explanation of residual-current device types and categories."
+    },
+    {
+      "sourceId": "rcd-forms",
+      "relevance": "Explains the physical forms residual-current protection can take, including socket-outlet integration."
+    }
+  ],
+  "related": [
+    "ansi-duplex-receptacle-outlet",
+    "iec-rcd-protected-socket-outlet",
+    "residual-current-circuit-breaker"
+  ],
+  "artwork": "s28-ansi-gfci-duplex-receptacle",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "GFCI duplex receptacle",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic.",
+    "counterpart": "iec-duplex-power-receptacle"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-gfci-duplex-receptacle",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-gfci-duplex-receptacle.svg",
+  "id": "ansi-gfci-duplex-receptacle",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-gfci-duplex-receptacle",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-gfci-duplex-receptacle.json",
+  "svgPath": "artwork/svg/ansi-gfci-duplex-receptacle.svg",
+  "referencePath": "references/ansi-gfci-duplex-receptacle.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-symbol-rcd-categories",
+      "title": "Residual current device categories",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/au/en/faqs/FAQ000218859/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer explanation of residual-current device types and categories."
+    },
+    {
+      "id": "rcd-forms",
+      "title": "Form factors of residual-current devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Form_factors_of_RCDs",
+      "type": "manufacturer",
+      "scope": "Residual-current functions in different device forms and related product standards.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Explains the physical forms residual-current protection can take, including socket-outlet integration."
+    }
+  ]
+}

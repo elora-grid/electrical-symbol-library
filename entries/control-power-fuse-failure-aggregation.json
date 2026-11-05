@@ -1,0 +1,105 @@
+{
+  "slug": "control-power-fuse-failure-aggregation",
+  "name": "Control-power fuse-failure aggregation",
+  "kind": "symbol",
+  "abbreviation": "CFA",
+  "aliases": [
+    "Switchgear control-power supervision",
+    "switchgear Switchgear control-power supervision",
+    "switchgear",
+    "Switchgear",
+    "Individual fuse alarms",
+    "Common control-power alarm"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Collects the assigned control-circuit fuse alarms into a common station indication.",
+  "description": [
+    "Collects the assigned control-circuit fuse alarms into a common station indication. Control power supplies the command, protection and indication equipment associated with a switchgear assembly. The drawing must distinguish the source, each distribution branch and the functions lost if that branch fails.",
+    "In a switchgear lineup, separate protected branches may feed trip coils, closing coils and protection electronics. Their alarm contacts help the station controller identify which operating capability is unavailable. For this reference, the drawing identifies “Individual fuse alarms” at the input and “Common control-power alarm” at the output. Individual branch identification should remain available.",
+    "Follow the actual positive, negative or neutral returns and the protective device on each branch. A healthy voltage indication does not establish that every downstream path can deliver its required operating current. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Individual fuse alarms. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Common control-power alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Individual branch identification should remain available.",
+    "Follow the actual positive, negative or neutral returns and the protective device on each branch. A healthy voltage indication does not establish that every downstream path can deliver its required operating current."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for individual fuse alarms.",
+    "Identify the destination and defined state of common control-power alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Individual branch identification should remain available."
+  ],
+  "distinction": "Individual branch identification should remain available. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Individual fuse alarms"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Common control-power alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CFA is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-power",
+      "relevance": "Public technical context for switchgear control-power supervision. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "ac-to-dc-power-supply",
+    "control-power-loss-event-capture"
+  ],
+  "artwork": "pi26-control-power-fuse-failure-aggregation",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "control-power",
+    "input": "Individual fuse alarms",
+    "output": "Common control-power alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/control-power-fuse-failure-aggregation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/control-power-fuse-failure-aggregation.svg",
+  "id": "control-power-fuse-failure-aggregation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/control-power-fuse-failure-aggregation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/control-power-fuse-failure-aggregation.json",
+  "svgPath": "artwork/svg/control-power-fuse-failure-aggregation.svg",
+  "referencePath": "references/control-power-fuse-failure-aggregation.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-power",
+      "publisher": "SEL",
+      "title": "SEL-RPM redundant power module",
+      "url": "https://selinc.com/products/RPM/",
+      "scope": "Independent AC and DC sources for station auxiliary power.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear control-power supervision. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "iec-three-phase-socket-outlet",
+  "name": "Three-phase socket outlet",
+  "kind": "symbol",
+  "abbreviation": "SO3",
+  "aliases": [
+    "3-phase outlet plan mark",
+    "multi-pole power outlet",
+    "five-pin industrial outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Installation plan mark for a polyphase socket outlet, shown with three conductor strokes on the outlet lead.",
+  "description": [
+    "A three-phase socket outlet supplies portable or semi-fixed three-phase equipment such as compressors, welders, kilns and site distribution boards. Plan symbols typically show the outlet form with three short oblique strokes, the same convention used on single-line diagrams to indicate three conductors.",
+    "Because three-phase outlets differ in pin arrangement (with or without neutral), current rating and phase rotation, the symbol is nearly always accompanied by text such as 20 A 5P or 32 A 4P. The electrician needs this to choose the accessory and to confirm phase rotation at commissioning.",
+    "The strokes indicate phase conductors only. They do not show whether neutral and protective earth are included, and they do not replace the circuit schedule entry for cable size and protective device."
+  ],
+  "readingNotes": [
+    "Count the strokes and read the pole annotation; a 4-pin and a 5-pin outlet look the same without the label.",
+    "Check whether an isolator or interlocked switch is shown in the same position."
+  ],
+  "drawingChecklist": [
+    "Write current rating and pin count beside the symbol.",
+    "State whether a neutral is required.",
+    "Record phase rotation verification in the commissioning checklist."
+  ],
+  "distinction": "A single-phase earthed outlet has no conductor strokes; the three strokes mark the polyphase supply.",
+  "facts": [
+    {
+      "label": "Conductor indication",
+      "value": "Three oblique strokes for the phase conductors"
+    },
+    {
+      "label": "Typical rating text",
+      "value": "Current, pin count and voltage"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "iec-public-receptacles",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ],
+  "related": [
+    "iec-socket-outlet-with-interlocked-switch",
+    "iec-socket-outlet-with-protective-contact",
+    "iec-one-line-power-receptacle"
+  ],
+  "artwork": "s28-iec-three-phase-socket-outlet",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Three-phase socket outlet",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-three-phase-socket-outlet",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-three-phase-socket-outlet.svg",
+  "id": "iec-three-phase-socket-outlet",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-phase-socket-outlet",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-three-phase-socket-outlet.json",
+  "svgPath": "artwork/svg/iec-three-phase-socket-outlet.svg",
+  "referencePath": "references/iec-three-phase-socket-outlet.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    },
+    {
+      "id": "iec-public-receptacles",
+      "title": "Autodesk IEC-60617 preview: Single and duplex power-receptacle forms",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7DAEDB03-74FC-47A2-9C50-9164297AA5A3.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public receptacle family in an IEC-oriented CAD library, useful for comparing schematic receptacle forms with plan marks."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    }
+  ]
+}

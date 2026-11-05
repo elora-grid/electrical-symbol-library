@@ -1,0 +1,84 @@
+{
+  "slug": "arc-flash-fibre-loop-sensor",
+  "name": "Arc-flash fibre loop sensor",
+  "kind": "symbol",
+  "abbreviation": "AF",
+  "aliases": [
+    "arc detection fibre",
+    "bare fibre arc sensor",
+    "loop arc sensor"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Bare optical fibre routed through switchgear that picks up arc light anywhere along its length.",
+  "description": [
+    "A fibre loop sensor is an unjacketed optical fibre routed through busbar chambers or along switchgear lines. Light from an arc anywhere along its length enters the fibre and reaches the arc-flash relay, so one loop can cover a large area that would need many point sensors.",
+    "Because the whole length is sensitive, a loop identifies the zone but not the exact compartment, and the trip zone therefore follows the routing. Loop length affects sensitivity, and the symbol does not show routing, length or the loop-check function, which should be recorded on the layout and schematic."
+  ],
+  "readingNotes": [
+    "Read the routing drawing to see which compartments the loop crosses.",
+    "Check that the trip zone matches the loop coverage."
+  ],
+  "drawingChecklist": [
+    "Show loop routing",
+    "State loop length",
+    "Reference relay channel"
+  ],
+  "distinction": "A fibre loop covers a long area without locating the arc precisely; a point sensor watches one compartment.",
+  "facts": [
+    {
+      "label": "Sensing element",
+      "value": "Bare optical fibre"
+    },
+    {
+      "label": "Coverage",
+      "value": "Entire routed length"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-sel-arc-flash-fibre",
+      "relevance": "Public manufacturer page describing fibre arc-flash sensors for large areas such as bus compartments."
+    }
+  ],
+  "related": [
+    "arc-flash-point-sensor",
+    "numerical-protection-relay",
+    "busbar-trunking"
+  ],
+  "artwork": "s28-arc-flash-fibre-loop-sensor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/arc-flash-fibre-loop-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/arc-flash-fibre-loop-sensor.svg",
+  "id": "arc-flash-fibre-loop-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/arc-flash-fibre-loop-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/arc-flash-fibre-loop-sensor.json",
+  "svgPath": "artwork/svg/arc-flash-fibre-loop-sensor.svg",
+  "referencePath": "references/arc-flash-fibre-loop-sensor.md",
+  "publicSources": [
+    {
+      "id": "s28-sel-arc-flash-fibre",
+      "title": "SEL-C804 multimode arc-flash detection fibre-optic cables",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/c804/",
+      "type": "manufacturer",
+      "scope": "Public product page describing point and fibre arc-flash light sensors used with protection relays.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer page describing fibre arc-flash sensors for large areas such as bus compartments."
+    }
+  ]
+}

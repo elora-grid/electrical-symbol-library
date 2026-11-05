@@ -1,0 +1,87 @@
+{
+  "slug": "ansi-dimmer-switch",
+  "name": "ANSI dimmer switch plan symbol",
+  "kind": "symbol",
+  "abbreviation": "SD",
+  "aliases": [
+    "SD switch",
+    "dimmer symbol",
+    "dimming wall switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol SD for a wall dimmer controlling a lighting group.",
+  "description": [
+    "A wall dimmer in US plan practice is drawn as S with subscript D, sometimes with a wattage note. The switch leg links it to the dimmed group, and three-way dimming is shown by pairing SD with S3 or with a companion device.",
+    "The reader should check dimmer type against LED driver compatibility, and whether the dimmer controls a low-voltage 0-10 V signal or switches line power directly. The plan symbol is identical for both. SD does not specify dimming technology, load or whether multi-gang derating applies."
+  ],
+  "readingNotes": [
+    "Check dimming technology in the fixture schedule.",
+    "Note multi-gang derating for ganged dimmers."
+  ],
+  "drawingChecklist": [
+    "State dimmer load rating.",
+    "State control method.",
+    "Link the dimmed group."
+  ],
+  "distinction": "The IEC dimmer uses a variability arrow on a switch mark; the US form uses the D subscript.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "S with subscript D"
+    },
+    {
+      "label": "Key check",
+      "value": "Driver compatibility"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-dimmer-switch",
+    "ansi-single-pole-switch"
+  ],
+  "artwork": "s28-ansi-dimmer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Dimmer switch, SD",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-dimmer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-dimmer-switch.svg",
+  "id": "ansi-dimmer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-dimmer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-dimmer-switch.json",
+  "svgPath": "artwork/svg/ansi-dimmer-switch.svg",
+  "referencePath": "references/ansi-dimmer-switch.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ]
+}

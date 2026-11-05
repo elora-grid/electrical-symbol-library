@@ -1,0 +1,105 @@
+{
+  "slug": "breaker-closing-coil-interface",
+  "name": "Breaker closing-coil interface",
+  "kind": "symbol",
+  "abbreviation": "BCI",
+  "aliases": [
+    "Breaker closing controls",
+    "switchgear Breaker closing controls",
+    "switchgear",
+    "Switchgear",
+    "Permitted close request",
+    "Closing-coil actuation"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects the final permitted close command to the breaker closing release.",
+  "description": [
+    "Connects the final permitted close command to the breaker closing release. A closing circuit combines an operator or automatic request with the conditions that allow the breaker to close. The closing coil releases stored mechanism energy where that construction is used; it is different from the spring-charging motor.",
+    "In a switchgear bus-coupler panel, a close request is checked against position, mechanism readiness and the selected live-bus or dead-bus conditions before the closing circuit is enabled. For this reference, the drawing identifies “Permitted close request” at the input and “Closing-coil actuation” at the output. The coil does not charge the mechanism spring.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Permitted close request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Closing-coil actuation. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The coil does not charge the mechanism spring.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for permitted close request.",
+    "Identify the destination and defined state of closing-coil actuation.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The coil does not charge the mechanism spring."
+  ],
+  "distinction": "The coil does not charge the mechanism spring. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Permitted close request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Closing-coil actuation"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "25-synchronism-check",
+    "breaker-anti-pumping-control"
+  ],
+  "artwork": "pi26-breaker-closing-coil-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "close",
+    "input": "Permitted close request",
+    "output": "Closing-coil actuation"
+  },
+  "url": "https://eloragrid.ai/symbols/breaker-closing-coil-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/breaker-closing-coil-interface.svg",
+  "id": "breaker-closing-coil-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/breaker-closing-coil-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/breaker-closing-coil-interface.json",
+  "svgPath": "artwork/svg/breaker-closing-coil-interface.svg",
+  "referencePath": "references/breaker-closing-coil-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

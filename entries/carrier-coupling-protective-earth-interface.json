@@ -1,0 +1,105 @@
+{
+  "slug": "carrier-coupling-protective-earth-interface",
+  "name": "Carrier-coupling protective earth interface",
+  "kind": "symbol",
+  "abbreviation": "CPEI",
+  "aliases": [
+    "Line carrier and protection communication interfaces",
+    "switchyards Line carrier and protection communication interfaces",
+    "switchyards",
+    "Switchyards",
+    "Coupling assembly earth terminal",
+    "Station earth connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented protective earth connection of the selected carrier coupling assembly.",
+  "description": [
+    "Identifies the documented protective earth connection of the selected carrier coupling assembly. A protection communication interface carries information between circuit ends or couples a communication signal to a primary line. Its signal path is different from the power-current path even when both use part of the same installation.",
+    "In a switchyard line bay, carrier-coupling equipment can connect a protection communication terminal to the transmission conductor. Fiber-based protection uses another physical path but still needs named endpoints and channel supervision. For this reference, the drawing identifies “Coupling assembly earth terminal” at the input and “Station earth connection” at the output. The earth interface is not a primary switching permission.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Coupling assembly earth terminal. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Station earth connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The earth interface is not a primary switching permission.",
+    "Show each coupling boundary and the intended information direction. Frequency selection, channel performance, insulation duty and protective coordination require the selected communication and primary equipment design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for coupling assembly earth terminal.",
+    "Identify the destination and defined state of station earth connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The earth interface is not a primary switching permission."
+  ],
+  "distinction": "The earth interface is not a primary switching permission. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Coupling assembly earth terminal"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Station earth connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CPEI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-carrier",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "capacitor-voltage-transformer",
+    "85-pilot-or-carrier-receiver-relay",
+    "carrier-coupling-drain-coil-reference"
+  ],
+  "artwork": "pi26-carrier-coupling-protective-earth-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "line-communications",
+    "input": "Coupling assembly earth terminal",
+    "output": "Station earth connection"
+  },
+  "url": "https://eloragrid.ai/symbols/carrier-coupling-protective-earth-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/carrier-coupling-protective-earth-interface.svg",
+  "id": "carrier-coupling-protective-earth-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/carrier-coupling-protective-earth-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/carrier-coupling-protective-earth-interface.json",
+  "svgPath": "artwork/svg/carrier-coupling-protective-earth-interface.svg",
+  "referencePath": "references/carrier-coupling-protective-earth-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-carrier",
+      "publisher": "GE Vernova",
+      "title": "Line traps: power-line carrier communication",
+      "url": "https://www.gevernova.com/grid-solutions/sites/default/files/2025-09/Line-Traps-Brochure-EN-N50059-Hybrid-202504-R002.pdf",
+      "scope": "Line traps, coupling and power-line carrier communications.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for line carrier and protection communication interfaces. Line traps, coupling and power-line carrier communications. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

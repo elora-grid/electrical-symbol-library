@@ -1,0 +1,87 @@
+{
+  "slug": "i2c-bus-buffer",
+  "name": "I2C bus buffer",
+  "kind": "symbol",
+  "abbreviation": "I2C BUF",
+  "aliases": [
+    "I2C bus buffer",
+    "I2C bus buffer functional block",
+    "I2C bus buffer schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An I2C bus buffer separates or supports selected parts of an I2C connection.",
+  "description": [
+    "An I2C bus buffer separates or supports selected parts of an I2C connection.",
+    "A design can use a suitable buffer to manage loading between bus segments.",
+    "Show the bus segment on each side of the buffer and identify the clock and data paths. Buffers can manage electrical loading, but their permitted direction behaviour and connections vary. They should not be drawn as ordinary logic buffers without checking how they handle the selected I2C bus. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify clock and data on both segments.",
+    "Reference pull-up and loading requirements for each side.",
+    "Check the selected buffer’s permitted bus arrangement.",
+    "Buffer behaviour, direction handling and supported bus conditions depend on the selected device."
+  ],
+  "drawingChecklist": [
+    "Identify clock and data on both segments.",
+    "Reference pull-up and loading requirements for each side.",
+    "Check the selected buffer’s permitted bus arrangement."
+  ],
+  "distinction": "Buffer behaviour, direction handling and supported bus conditions depend on the selected device.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "First I2C bus segment"
+    },
+    {
+      "label": "Concept output",
+      "value": "Second I2C bus segment"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-i2c",
+      "relevance": "I2C, I3C and SPI interface functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-voltage-level-translator",
+    "i2c-level-translator",
+    "spi-interface-buffer",
+    "power-converter"
+  ],
+  "artwork": "expanded-i2c-bus-buffer",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/i2c-bus-buffer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/i2c-bus-buffer.svg",
+  "id": "i2c-bus-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/i2c-bus-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/i2c-bus-buffer.json",
+  "svgPath": "artwork/svg/i2c-bus-buffer.svg",
+  "referencePath": "references/i2c-bus-buffer.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-i2c",
+      "title": "I2C, I3C and SPI interface functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/i2c-i3c-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "I2C, I3C and SPI interface functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

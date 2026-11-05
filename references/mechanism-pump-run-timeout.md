@@ -1,0 +1,59 @@
+# Mechanism pump-run timeout
+
+Detects an unusually sustained pressure-maintaining pump operation in the selected mechanism.
+
+[Canonical reference](https://eloragrid.ai/symbols/mechanism-pump-run-timeout) · [Structured record](../entries/mechanism-pump-run-timeout.json) · [All references](README.md)
+
+Updated: 2026-11-03. Drawing use: Schematic. Reference families: Manufacturer.
+
+Representation: functional-block; installation focus: switchgear.
+Pump run feedback
+Pump timeout alarm
+
+## What it represents
+
+Detects an unusually sustained pressure-maintaining pump operation in the selected mechanism. A stored-energy breaker mechanism has charging, release, indication and supervision functions. Motor supply, stored spring energy and the ability to complete an opening operation are separate drawing concerns.
+In a switchgear panel, a charging motor replenishes the mechanism after an operation. Supervisory contacts let the controller report an incomplete charge or repeated charging demand before an operator requests another operation. For this reference, the drawing identifies “Pump run feedback” at the input and “Pump timeout alarm” at the output. Normal duty and ambient conditions affect interpretation.
+Show the individual contacts and the relevant motor or release circuit. Supply voltage, charging time, operating duty and permissible alarms must follow the chosen mechanism documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation.
+
+## How to read it
+
+- Start at the named input: Pump run feedback. Identify its source device or document and the state represented on the drawing.
+- Follow the named output: Pump timeout alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.
+- Normal duty and ambient conditions affect interpretation.
+- Show the individual contacts and the relevant motor or release circuit. Supply voltage, charging time, operating duty and permissible alarms must follow the chosen mechanism documentation.
+
+## Drawing checklist
+
+- Label the source and connection reference for pump run feedback.
+- Identify the destination and defined state of pump timeout alarm.
+- Record the equipment or control-document revision supporting this functional block.
+- Check this application limit in the project design: Normal duty and ambient conditions affect interpretation.
+
+## Important distinction
+
+Normal duty and ambient conditions affect interpretation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.
+
+## Facts
+
+- Representation: Functional block
+- Installation focus: Switchgear
+- Input / boundary: Pump run feedback
+- Output / connection: Pump timeout alarm
+- Lookup label: MPT is a library lookup label, not a standard device designation.
+
+## Public references
+
+- [Masterclad medium-voltage switchgear: circuit-breaker section interlocks](https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7) — Schneider Electric. Public technical context for stored-energy mechanism supervision. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation.
+
+## Related references
+
+- [Circuit breaker](circuit-breaker.md)
+- [Three-phase motor](motor.md)
+- [Mechanism pressure-lockout interface](mechanism-pressure-lockout-interface.md)
+
+![Mechanism pump-run timeout — original educational illustration](../artwork/svg/mechanism-pump-run-timeout.svg)
+
+Original educational concept geometry, CC BY 4.0. Unitless; not a certified standards glyph or manufacturer footprint.
+
+Elora-authored explanations are CC BY 4.0. Linked standards and manufacturer material retain their own rights. Confirm project requirements using primary sources.

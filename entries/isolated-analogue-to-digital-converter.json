@@ -1,0 +1,86 @@
+{
+  "slug": "isolated-analogue-to-digital-converter",
+  "name": "Isolated analogue-to-digital converter",
+  "kind": "symbol",
+  "abbreviation": "ISO ADC",
+  "aliases": [
+    "Isolated analogue-to-digital converter",
+    "Isolated analogue-to-digital converter functional block",
+    "Isolated analogue-to-digital converter schematic reference"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An isolated ADC converts an analogue measurement into digital information across its specified isolation arrangement.",
+  "description": [
+    "An isolated ADC converts an analogue measurement into digital information across its specified isolation arrangement.",
+    "A converter can provide current or voltage measurement data from one circuit domain to another.",
+    "Identify the analogue measurement domain, isolation boundary and digital output format. Some measurement converters need external filtering or processing to obtain the final reported value. Keep that processing visible so a raw digital stream is not mistaken for an immediately usable engineering-unit reading. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Name the analogue input quantity and scaling.",
+    "Identify the isolation domains and required supplies.",
+    "Reference the digital format and any downstream filtering.",
+    "Conversion, isolation and any required digital filtering are separate parts of the measurement chain."
+  ],
+  "drawingChecklist": [
+    "Name the analogue input quantity and scaling.",
+    "Identify the isolation domains and required supplies.",
+    "Reference the digital format and any downstream filtering."
+  ],
+  "distinction": "Conversion, isolation and any required digital filtering are separate parts of the measurement chain.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Analogue input measurement"
+    },
+    {
+      "label": "Concept output",
+      "value": "Digital measurement information"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-isolatedadc",
+      "relevance": "Isolated measurement conversion: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "analog-to-digital-converter",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-isolated-analogue-to-digital-converter",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-analogue-to-digital-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/isolated-analogue-to-digital-converter.svg",
+  "id": "isolated-analogue-to-digital-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-analogue-to-digital-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-analogue-to-digital-converter.json",
+  "svgPath": "artwork/svg/isolated-analogue-to-digital-converter.svg",
+  "referencePath": "references/isolated-analogue-to-digital-converter.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-isolatedadc",
+      "title": "Isolated measurement conversion",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/isolation/isolated-adcs/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Isolated measurement conversion: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

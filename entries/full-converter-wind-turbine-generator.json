@@ -1,0 +1,105 @@
+{
+  "slug": "full-converter-wind-turbine-generator",
+  "name": "Full-converter wind turbine generator (Type 4)",
+  "kind": "symbol",
+  "abbreviation": "WTG T4",
+  "aliases": [
+    "Type 4 wind turbine",
+    "full-scale converter WTG",
+    "full-power converter wind turbine"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A wind turbine whose entire generator output passes through a full-rated back-to-back converter before reaching the network.",
+  "description": [
+    "In a Type 4 turbine the generator, commonly a permanent-magnet or wound-field synchronous machine and sometimes an induction machine, is fully decoupled from the network by a back-to-back converter rated for the whole turbine output. The machine-side converter rectifies variable-frequency generator output to a DC link and the grid-side converter produces network-frequency AC.",
+    "Single-line drawings show the generator circle, a machine-side converter block, a DC link with chopper or brake resistor, a grid-side converter block and the line filter before the step-up transformer. Some drawings collapse this to a generator and a single converter symbol labelled with the conversion direction.",
+    "The network sees a converter, not a rotating machine, so fault current is limited to the converter capability and reactive output is a control function. The symbol does not tell you whether the converter is grid-following or grid-forming, which must be checked in the plant control description."
+  ],
+  "readingNotes": [
+    "Treat the turbine short-circuit contribution as converter-limited.",
+    "A DC chopper resistor in the link absorbs energy during network faults; it is not a load."
+  ],
+  "drawingChecklist": [
+    "State generator type and full converter rating.",
+    "Show DC link chopper and line filter.",
+    "Reference converter control mode and ride-through data."
+  ],
+  "distinction": "A Type 4 turbine routes all power through the converter; a DFIG routes only rotor slip power through it.",
+  "facts": [
+    {
+      "label": "Generator type",
+      "value": "Usually permanent-magnet synchronous"
+    },
+    {
+      "label": "Converter rating",
+      "value": "Full turbine output"
+    },
+    {
+      "label": "Network interface",
+      "value": "Converter-based, current limited"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-generators",
+      "relevance": "Public permanent-magnet synchronous generator symbol context."
+    },
+    {
+      "sourceId": "pub-symbol-station-types",
+      "relevance": "Wind station representation used as site-level context."
+    }
+  ],
+  "related": [
+    "permanent-magnet-synchronous-generator",
+    "doubly-fed-induction-generator",
+    "wind-generating-station",
+    "grid-following-inverter"
+  ],
+  "artwork": "s28-full-converter-wind-turbine-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/full-converter-wind-turbine-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/full-converter-wind-turbine-generator.svg",
+  "id": "full-converter-wind-turbine-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/full-converter-wind-turbine-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/full-converter-wind-turbine-generator.json",
+  "svgPath": "artwork/svg/full-converter-wind-turbine-generator.svg",
+  "referencePath": "references/full-converter-wind-turbine-generator.md",
+  "publicSources": [
+    {
+      "id": "autodesk-generators",
+      "title": "Generator symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-09BE3BB5-9118-4302-8061-3888692E538F.htm",
+      "type": "cad-reference",
+      "scope": "DC and three-phase synchronous generator categories.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public permanent-magnet synchronous generator symbol context."
+    },
+    {
+      "id": "pub-symbol-station-types",
+      "title": "AutoCAD Electrical: Power station and substation concepts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74EF80E8-018D-4A57-88BD-FF973F1B8185.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Wind station representation used as site-level context."
+    }
+  ]
+}

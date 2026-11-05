@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-cam-operated-limit-switch",
+  "name": "ANSI/IEEE Cam-operated limit switch form",
+  "kind": "symbol",
+  "abbreviation": "LS CAM",
+  "aliases": [
+    "HLS11S13",
+    "VLS11S13",
+    "IEEE Limit Switch Normally Open - Cam Driven",
+    "ANSI Cam-operated limit switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of cam-operated limit switch: a cam-operated limit switch changes its electrical contact state when a defined cam profile reaches the actuator.",
+  "description": [
+    "This reference locates cam-operated limit switch in Autodesk's IEEE-oriented limit switches family. A cam-operated limit switch changes its electrical contact state when a defined cam profile reaches the actuator. Its position function depends on the documented cam and mechanism relationship. The public library uses HLS11S13 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Link the cam position to the electrical contact schedule. Cam actuation is a mechanical input, not an electrically programmed timer. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Link the cam position to the electrical contact schedule.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Reference cam detail",
+    "Identify operated contact",
+    "State normal mechanism position"
+  ],
+  "distinction": "Cam actuation is a mechanical input, not an electrically programmed timer.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Limit Switches; published form: Limit Switch Normally Open - Cam Driven."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HLS11S13. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-c0135d6b-f4a5-4954-85e0-5b188e5ff5c9",
+      "relevance": "Public IEEE-oriented Limit Switches table explicitly lists HLS11S13 as Limit Switch Normally Open - Cam Driven. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "cam-operated-limit-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-cam-operated-limit-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Limit Switch Normally Open - Cam Driven",
+    "reference": "Autodesk IEEE Symbol Preview: Limit Switches, block HLS11S13. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "cam-operated-limit-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-cam-operated-limit-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-cam-operated-limit-switch.svg",
+  "id": "ansi-cam-operated-limit-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-cam-operated-limit-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-cam-operated-limit-switch.json",
+  "svgPath": "artwork/svg/ansi-cam-operated-limit-switch.svg",
+  "referencePath": "references/ansi-cam-operated-limit-switch.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-c0135d6b-f4a5-4954-85e0-5b188e5ff5c9",
+      "title": "Autodesk IEEE Symbol Preview — Limit Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-C0135D6B-F4A5-4954-85E0-5B188E5FF5C9.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Limit Switches table explicitly lists HLS11S13 as Limit Switch Normally Open - Cam Driven. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

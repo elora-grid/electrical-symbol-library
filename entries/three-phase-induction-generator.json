@@ -1,0 +1,106 @@
+{
+  "slug": "three-phase-induction-generator",
+  "name": "Three-phase induction generator",
+  "kind": "symbol",
+  "abbreviation": "G 3~ ASG",
+  "aliases": [
+    "asynchronous generator",
+    "squirrel-cage induction generator",
+    "ASG"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A squirrel-cage asynchronous machine driven above synchronous speed so that it delivers power into a three-phase network.",
+  "description": [
+    "An induction generator is an asynchronous machine driven slightly faster than synchronous speed by a turbine or engine. It exports active power but needs reactive power from the network or from capacitors to establish its magnetic field, so it cannot normally hold voltage and frequency on its own.",
+    "The symbol is a machine circle with G, a three-phase AC mark and often the letters ASG or a squirrel-cage indication to separate it from a synchronous generator. It is found in small hydro, older wind turbines and some biogas or heat recovery sets connected in parallel with a stronger supply.",
+    "The symbol does not tell you whether the machine can run isolated with self-excitation capacitors, or what happens to its output when the network trips. Islanded operation and reverse power or loss-of-mains protection have to be read from the protection and control drawings."
+  ],
+  "readingNotes": [
+    "Look for excitation capacitors near the machine terminals.",
+    "Check loss-of-mains protection, since the machine may self-excite on capacitors if islanded."
+  ],
+  "drawingChecklist": [
+    "State rating, voltage and rated slip.",
+    "Show capacitor compensation and its switching.",
+    "Reference loss-of-mains protection."
+  ],
+  "distinction": "An induction generator draws its magnetising current from the network; a synchronous generator has its own field and can regulate voltage.",
+  "facts": [
+    {
+      "label": "Excitation",
+      "value": "From network or capacitors"
+    },
+    {
+      "label": "Operating speed",
+      "value": "Slightly above synchronous"
+    },
+    {
+      "label": "Island capability",
+      "value": "Not inherent"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-motors",
+      "relevance": "Public three-phase induction machine symbol family; the generator mark is added in this original illustration."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context for rotating machines."
+    }
+  ],
+  "related": [
+    "three-phase-synchronous-generator",
+    "type-1-fixed-speed-wind-turbine-generator",
+    "three-phase-ac-motor",
+    "generator"
+  ],
+  "artwork": "s28-three-phase-induction-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/three-phase-induction-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/three-phase-induction-generator.svg",
+  "id": "three-phase-induction-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/three-phase-induction-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/three-phase-induction-generator.json",
+  "svgPath": "artwork/svg/three-phase-induction-generator.svg",
+  "referencePath": "references/three-phase-induction-generator.md",
+  "publicSources": [
+    {
+      "id": "autodesk-motors",
+      "title": "Three-phase motor symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-385CBE83-33A3-4314-913E-3B59A6D05F22.htm",
+      "type": "cad-reference",
+      "scope": "Motor variants including asynchronous, synchronous and connection-count differences.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public three-phase induction machine symbol family; the generator mark is added in this original illustration."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context for rotating machines."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "iec-active-low-output-indicator",
+  "name": "IEC polarity indicator at output (active-low output)",
+  "kind": "symbol",
+  "abbreviation": "POL-OUT",
+  "aliases": [
+    "output polarity triangle",
+    "active-low output mark",
+    "polarity indicator output"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Triangle on an output lead meaning the internal active state drives the output to a low level.",
+  "description": [
+    "At an output, the polarity indicator triangle means the internal 1 state produces an external L level. It is the level-based counterpart of output negation and is used on device symbols for active-low interrupt, ready or fault outputs.",
+    "When an active-low output drives an active-low input, the two triangles show directly that the signal is asserted low throughout, which avoids the double-negation reading needed with circles. This makes signal names with a low-active suffix line up with the graphic.",
+    "The triangle does not state the output drive type. An active-low open-drain output also needs the open-circuit qualifier inside the outline."
+  ],
+  "readingNotes": [
+    "Read the output as asserted when low.",
+    "Check for an open-circuit qualifier as well."
+  ],
+  "drawingChecklist": [
+    "Draw the triangle on the output line at the outline edge.",
+    "Name the net to show low-active sense.",
+    "Add any output-type qualifier inside the outline."
+  ],
+  "distinction": "An output negation circle has the same meaning in positive logic but depends on the declared convention.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Internal 1 produces L level"
+    },
+    {
+      "label": "Typical pins",
+      "value": "Interrupt, fault, ready outputs"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Polarity indicator at outputs."
+    }
+  ],
+  "related": [
+    "iec-logic-output-negation",
+    "iec-active-low-input-indicator",
+    "iec-open-circuit-output-l-type"
+  ],
+  "artwork": "s28-iec-active-low-output-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Right-angled triangle on the output line next to the outline",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-active-low-output-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-active-low-output-indicator.svg",
+  "id": "iec-active-low-output-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-active-low-output-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-active-low-output-indicator.json",
+  "svgPath": "artwork/svg/iec-active-low-output-indicator.svg",
+  "referencePath": "references/iec-active-low-output-indicator.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Polarity indicator at outputs."
+    }
+  ]
+}

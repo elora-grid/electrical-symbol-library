@@ -1,0 +1,103 @@
+{
+  "slug": "iec-heat-detector-plan-symbol",
+  "name": "Fixed-temperature heat detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "HD",
+  "aliases": [
+    "heat detector",
+    "fixed temperature detector",
+    "thermal fire detector"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Fire alarm plan symbol for a fixed-temperature heat detector that alarms at a set temperature.",
+  "description": [
+    "Fixed-temperature heat detectors alarm when the surrounding air reaches a set point, commonly around 57 to 90 degrees Celsius depending on class. Plans draw the detector box with a temperature mark or the letter H, often with a class tag.",
+    "They are used where smoke detectors would false alarm, such as kitchens, plant rooms, car parks and dusty areas. The detection is slower than smoke, so coverage spacing is tighter and the reason for choosing heat should be clear. The symbol does not give the operating temperature or class. Check the schedule, especially in hot plant rooms."
+  ],
+  "readingNotes": [
+    "Confirm the class suits the ambient temperature.",
+    "Check spacing, which is tighter than for smoke."
+  ],
+  "drawingChecklist": [
+    "State class or operating temperature.",
+    "Tag loop and address.",
+    "Note why heat detection is chosen."
+  ],
+  "distinction": "A rate-of-rise detector responds to a fast temperature increase; this one only to an absolute threshold.",
+  "facts": [
+    {
+      "label": "Operating principle",
+      "value": "Absolute temperature threshold"
+    },
+    {
+      "label": "Typical rooms",
+      "value": "Kitchens, plant rooms, car parks"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "iec-rate-of-rise-heat-detector-plan-symbol",
+    "iec-smoke-detector-plan-symbol",
+    "temperature-switch-no"
+  ],
+  "artwork": "s28-iec-heat-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Heat detector, fixed temperature",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-heat-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-heat-detector-plan-symbol.svg",
+  "id": "iec-heat-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-heat-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-heat-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-heat-detector-plan-symbol.svg",
+  "referencePath": "references/iec-heat-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "ansi-earth-fault-current-relay",
+  "name": "ANSI/IEEE Earth-fault current relay form",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "HCR1F37",
+    "VCR1F37",
+    "IEEE Ground Failure Current Protection",
+    "ANSI Earth-fault current relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of earth-fault current relay: measuring relay form that operates on current flowing to earth, fed from a residual connection or core-balance CT.",
+  "description": [
+    "This reference locates earth-fault current relay in Autodesk's IEEE-oriented current protection relays family. The earth-fault current relay form identifies a relay whose operating quantity is current flowing to earth. It may be fed from a core-balance CT around all live conductors, from the residual connection of three phase CTs, or from a CT in the star-point earth lead, and the source changes its achievable sensitivity. The public library uses HCR1F37 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "The relay box shows the quantity with an earth qualifier but not the setting, characteristic or whether it is directional. In resistance-earthed and isolated networks earth-fault current is small and often needs a sensitive or directional element that must be stated separately. Identify the CT arrangement that supplies the residual current. An earth-fault current relay measures current to earth; an earth-fault voltage relay measures neutral displacement voltage. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the CT arrangement that supplies the residual current.",
+    "Check whether the element is directional or sensitive."
+  ],
+  "drawingChecklist": [
+    "Show residual CT source",
+    "State setting and characteristic",
+    "Reference system earthing method"
+  ],
+  "distinction": "An earth-fault current relay measures current to earth; an earth-fault voltage relay measures neutral displacement voltage.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Current Protection Relays; published form: Ground Failure Current Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F37. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Measured quantity",
+      "value": "Residual or earth-fault current"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-current-protection-relays",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F37 as Ground Failure Current Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "earth-fault-current-relay",
+    "core-balance-current-transformer",
+    "residual-connection-of-phase-cts",
+    "51-time-overcurrent"
+  ],
+  "artwork": "s28-ansi-earth-fault-current-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Ground Failure Current Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Current Protection Relays, block HCR1F37. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "earth-fault-current-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-earth-fault-current-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-earth-fault-current-relay.svg",
+  "id": "ansi-earth-fault-current-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-earth-fault-current-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-earth-fault-current-relay.json",
+  "svgPath": "artwork/svg/ansi-earth-fault-current-relay.svg",
+  "referencePath": "references/ansi-earth-fault-current-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-current-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Current Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EC11EC4D-374C-4191-9534-C802D3932711.htm",
+      "type": "cad-reference",
+      "scope": "Public current protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Current Protection Relays table explicitly lists HCR1F37 as Ground Failure Current Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

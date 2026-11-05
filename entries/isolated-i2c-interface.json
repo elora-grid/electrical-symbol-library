@@ -1,0 +1,87 @@
+{
+  "slug": "isolated-i2c-interface",
+  "name": "Isolated I2C interface",
+  "kind": "symbol",
+  "abbreviation": "ISO I2C",
+  "aliases": [
+    "Isolated I2C interface",
+    "Isolated I2C interface functional block",
+    "Isolated I2C interface schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An isolated I2C interface transfers the required bus behaviour across an electrical isolation barrier.",
+  "description": [
+    "An isolated I2C interface transfers the required bus behaviour across an electrical isolation barrier.",
+    "Two circuit domains can communicate using a suitable isolator designed for their I2C arrangement.",
+    "Show clock and data transfer across the barrier while identifying each side’s pull-ups and power. I2C includes bidirectional bus behaviour, so a generic isolator cannot be substituted without checking that behaviour. Use the selected I2C isolator’s supported arrangement and timing requirements. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify clock and data on both isolated domains.",
+    "Show each side’s supply and pull-up arrangement.",
+    "Reference bidirectional behaviour and supported bus timing.",
+    "An ordinary digital isolator is not automatically suitable for every bidirectional I2C signal path."
+  ],
+  "drawingChecklist": [
+    "Identify clock and data on both isolated domains.",
+    "Show each side’s supply and pull-up arrangement.",
+    "Reference bidirectional behaviour and supported bus timing."
+  ],
+  "distinction": "An ordinary digital isolator is not automatically suitable for every bidirectional I2C signal path.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "First-domain I2C bus"
+    },
+    {
+      "label": "Concept output",
+      "value": "Second-domain I2C bus"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-isolatedbus",
+      "relevance": "Isolated communication interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "capacitive-digital-isolator",
+    "isolated-can-transceiver",
+    "isolated-rs-485-transceiver",
+    "power-converter"
+  ],
+  "artwork": "expanded-isolated-i2c-interface",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/isolated-i2c-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/isolated-i2c-interface.svg",
+  "id": "isolated-i2c-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/isolated-i2c-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/isolated-i2c-interface.json",
+  "svgPath": "artwork/svg/isolated-i2c-interface.svg",
+  "referencePath": "references/isolated-i2c-interface.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-isolatedbus",
+      "title": "Isolated communication interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/isolation/isolated-interface-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Isolated communication interfaces: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

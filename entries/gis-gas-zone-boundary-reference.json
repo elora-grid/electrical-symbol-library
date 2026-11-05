@@ -1,0 +1,105 @@
+{
+  "slug": "gis-gas-zone-boundary-reference",
+  "name": "GIS gas-zone boundary reference",
+  "kind": "symbol",
+  "abbreviation": "GGBR",
+  "aliases": [
+    "High-voltage primary equipment references",
+    "switchyards High-voltage primary equipment references",
+    "switchyards",
+    "Switchyards",
+    "Connected GIS compartments",
+    "Defined gas-zone boundary"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Marks the manufacturer-defined gas compartment boundary on the primary arrangement.",
+  "description": [
+    "Marks the manufacturer-defined gas compartment boundary on the primary arrangement. High-voltage primary equipment carries, interrupts, measures or conditions the main power circuit. Its function, insulation arrangement and equipment boundaries need to be distinguished from the secondary signals used to control it.",
+    "In a switchyard equipment diagram, the primary reference identifies the electrical role of an installed component while the linked equipment schedule and manufacturer drawing supply its exact construction and dimensions. For this reference, the drawing identifies “Connected GIS compartments” at the input and “Defined gas-zone boundary” at the output. Electrical continuity does not establish a shared gas zone.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Connected GIS compartments. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined gas-zone boundary. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Electrical continuity does not establish a shared gas zone.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for connected gis compartments.",
+    "Identify the destination and defined state of defined gas-zone boundary.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Electrical continuity does not establish a shared gas zone."
+  ],
+  "distinction": "Electrical continuity does not establish a shared gas zone. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Connected GIS compartments"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined gas-zone boundary"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GGBR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-hv-primary",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor-voltage-transformer",
+    "gis-to-air-bushing-interface"
+  ],
+  "artwork": "pi26-gis-gas-zone-boundary-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "hv-primary",
+    "input": "Connected GIS compartments",
+    "output": "Defined gas-zone boundary"
+  },
+  "url": "https://eloragrid.ai/symbols/gis-gas-zone-boundary-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/gis-gas-zone-boundary-reference.svg",
+  "id": "gis-gas-zone-boundary-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gis-gas-zone-boundary-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gis-gas-zone-boundary-reference.json",
+  "svgPath": "artwork/svg/gis-gas-zone-boundary-reference.svg",
+  "referencePath": "references/gis-gas-zone-boundary-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-hv-primary",
+      "publisher": "Hitachi Energy",
+      "title": "Gas-insulated switchgear",
+      "url": "https://www.hitachienergy.com/products-and-solutions/high-voltage-switchgear-and-breakers/gas-insulated-switchgear",
+      "scope": "Primary switching equipment and instrument-transformer interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

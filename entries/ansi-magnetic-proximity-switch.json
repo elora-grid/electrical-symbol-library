@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-magnetic-proximity-switch",
+  "name": "ANSI/IEEE Magnetic proximity switch form",
+  "kind": "symbol",
+  "abbreviation": "PROX MAG",
+  "aliases": [
+    "HPX1M",
+    "VPX1M",
+    "IEEE Magnetic",
+    "ANSI Magnetic proximity switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of magnetic proximity switch: a magnetic proximity switch detects a documented magnetic target or field condition.",
+  "description": [
+    "This reference locates magnetic proximity switch in Autodesk's IEEE-oriented magnetic switches family. A magnetic proximity switch detects a documented magnetic target or field condition. The drawing identifies supply and output where applicable, and the equipment detail identifies the magnet or actuator. The public library uses HPX1M for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Locate the magnetic target as well as the switch body. A magnetic proximity input is different from a relay coil operating its own contacts. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Locate the magnetic target as well as the switch body.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name target reference",
+    "State output/contact type",
+    "Identify sensing arrangement"
+  ],
+  "distinction": "A magnetic proximity input is different from a relay coil operating its own contacts.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Magnetic Switches; published form: Magnetic."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX1M. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-magnetic-switches",
+      "relevance": "Public IEEE-oriented Magnetic Switches table explicitly lists HPX1M as Magnetic. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "magnetic-proximity-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-magnetic-proximity-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Magnetic",
+    "reference": "Autodesk IEEE Symbol Preview: Magnetic Switches, block HPX1M. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "magnetic-proximity-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-magnetic-proximity-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-magnetic-proximity-switch.svg",
+  "id": "ansi-magnetic-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-magnetic-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-magnetic-proximity-switch.json",
+  "svgPath": "artwork/svg/ansi-magnetic-proximity-switch.svg",
+  "referencePath": "references/ansi-magnetic-proximity-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-magnetic-switches",
+      "title": "Autodesk IEEE Symbol Preview: Magnetic Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-46F340A4-7869-4E81-8E91-8EE858A61822.htm",
+      "type": "cad-reference",
+      "scope": "Public magnetic switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Magnetic Switches table explicitly lists HPX1M as Magnetic. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

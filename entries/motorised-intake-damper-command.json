@@ -1,0 +1,105 @@
+{
+  "slug": "motorised-intake-damper-command",
+  "name": "Motorised intake-damper command",
+  "kind": "symbol",
+  "abbreviation": "MIC",
+  "aliases": [
+    "Switchroom ventilation interfaces",
+    "switchrooms Switchroom ventilation interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Ventilation mode request",
+    "Intake-damper command"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Requests the intake-damper position needed by the selected room operating mode.",
+  "description": [
+    "Requests the intake-damper position needed by the selected room operating mode. Ventilation control coordinates the equipment that manages heat and air movement in an electrical room. A temperature request, a fan command and proof of airflow are separate signals, and the room design determines how they interact.",
+    "In a switchroom containing transformers and auxiliary panels, the room controller can supervise fan availability and send an alarm when the documented ventilation duty is not achieved. For this reference, the drawing identifies “Ventilation mode request” at the input and “Intake-damper command” at the output. The required fail position is project-specific.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Ventilation mode request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Intake-damper command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The required fail position is project-specific.",
+    "Identify the monitored space, the selected ventilation mode and the equipment feedback. Avoid inferring airflow, temperature limits or a fire response from a generic fan symbol; these require the room-services design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for ventilation mode request.",
+    "Identify the destination and defined state of intake-damper command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The required fail position is project-specific."
+  ],
+  "distinction": "The required fail position is project-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Ventilation mode request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Intake-damper command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MIC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-switchroom-exhaust-fan",
+    "ga-enclosure-thermostat",
+    "intake-damper-open-proof-gate"
+  ],
+  "artwork": "pi26-motorised-intake-damper-command",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "ventilation",
+    "input": "Ventilation mode request",
+    "output": "Intake-damper command"
+  },
+  "url": "https://eloragrid.ai/symbols/motorised-intake-damper-command",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motorised-intake-damper-command.svg",
+  "id": "motorised-intake-damper-command",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motorised-intake-damper-command",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motorised-intake-damper-command.json",
+  "svgPath": "artwork/svg/motorised-intake-damper-command.svg",
+  "referencePath": "references/motorised-intake-damper-command.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom ventilation interfaces. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

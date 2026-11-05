@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-photoelectric-emitter-receiver-switch",
+  "name": "ANSI/IEEE Photoelectric emitter-receiver switch form",
+  "kind": "symbol",
+  "abbreviation": "PHOTO",
+  "aliases": [
+    "HPE11B16",
+    "VPE11B16",
+    "IEEE Normally Open Emitter-Receiver - DC Driven",
+    "ANSI Photoelectric emitter-receiver switch"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of photoelectric emitter-receiver switch: a photoelectric emitter-receiver device uses an optical path to determine a switching output.",
+  "description": [
+    "This reference locates photoelectric emitter-receiver switch in Autodesk's IEEE-oriented photoelectric emitter/receiver switches family. A photoelectric emitter-receiver device uses an optical path to determine a switching output. The schematic needs the supply and output connections, while the layout defines the optical arrangement. The public library uses HPE11B16 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Establish whether the indicated state corresponds to a received or interrupted beam. Optical detection is not the same sensing principle as inductive or capacitive proximity. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Establish whether the indicated state corresponds to a received or interrupted beam.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show supply and output",
+    "Define light-on or dark-on function",
+    "Reference emitter/receiver arrangement"
+  ],
+  "distinction": "Optical detection is not the same sensing principle as inductive or capacitive proximity.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Photoelectric Emitter/Receiver Switches; published form: Normally Open Emitter-Receiver - DC Driven."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPE11B16. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Actuated indication"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-photoelectric-emitter-receiver-switches",
+      "relevance": "Public IEEE-oriented Photoelectric Emitter/Receiver Switches table explicitly lists HPE11B16 as Normally Open Emitter-Receiver - DC Driven. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "photoelectric-emitter-receiver-switch",
+    "plc-io",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-photoelectric-emitter-receiver-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Normally Open Emitter-Receiver - DC Driven",
+    "reference": "Autodesk IEEE Symbol Preview: Photoelectric Emitter/Receiver Switches, block HPE11B16. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "photoelectric-emitter-receiver-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-photoelectric-emitter-receiver-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-photoelectric-emitter-receiver-switch.svg",
+  "id": "ansi-photoelectric-emitter-receiver-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-photoelectric-emitter-receiver-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-photoelectric-emitter-receiver-switch.json",
+  "svgPath": "artwork/svg/ansi-photoelectric-emitter-receiver-switch.svg",
+  "referencePath": "references/ansi-photoelectric-emitter-receiver-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-photoelectric-emitter-receiver-switches",
+      "title": "Autodesk IEEE Symbol Preview: Photoelectric Emitter/Receiver Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E16DB614-772D-483C-BC46-A9F1A1FC9615.htm",
+      "type": "cad-reference",
+      "scope": "Public photoelectric emitter/receiver switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Photoelectric Emitter/Receiver Switches table explicitly lists HPE11B16 as Normally Open Emitter-Receiver - DC Driven. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

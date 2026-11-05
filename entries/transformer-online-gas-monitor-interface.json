@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-online-gas-monitor-interface",
+  "name": "Transformer online gas-monitor interface",
+  "kind": "symbol",
+  "abbreviation": "TOGI",
+  "aliases": [
+    "Transformer protection and monitoring interfaces",
+    "substations Transformer protection and monitoring interfaces",
+    "substations",
+    "Substations",
+    "Gas-monitor measurements and health",
+    "Transformer condition data"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects the selected online oil-gas monitoring system to station supervision.",
+  "description": [
+    "Connects the selected online oil-gas monitoring system to station supervision. Transformer monitoring interfaces connect physical sensors and protection calculations to the station's alarms and trip logic. Temperature, oil, gas, pressure and electrical measurements indicate different conditions and require separate interpretation.",
+    "In a substation transformer bay, a protection panel receives winding-current measurements and equipment alarm contacts. An operator can then distinguish an electrical protection operation from a cooling-system or physical-condition alarm. For this reference, the drawing identifies “Gas-monitor measurements and health” at the input and “Transformer condition data” at the output. Interpretation requires transformer condition assessment.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Gas-monitor measurements and health. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Transformer condition data. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Interpretation requires transformer condition assessment.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for gas-monitor measurements and health.",
+    "Identify the destination and defined state of transformer condition data.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Interpretation requires transformer condition assessment."
+  ],
+  "distinction": "Interpretation requires transformer condition assessment. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Gas-monitor measurements and health"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Transformer condition data"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TOGI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-relay",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "87t-transformer-differential-protection",
+    "transformer-moisture-monitor-interface"
+  ],
+  "artwork": "pi26-transformer-online-gas-monitor-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-monitoring",
+    "input": "Gas-monitor measurements and health",
+    "output": "Transformer condition data"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-online-gas-monitor-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-online-gas-monitor-interface.svg",
+  "id": "transformer-online-gas-monitor-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-online-gas-monitor-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-online-gas-monitor-interface.json",
+  "svgPath": "artwork/svg/transformer-online-gas-monitor-interface.svg",
+  "referencePath": "references/transformer-online-gas-monitor-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-relay",
+      "publisher": "SEL",
+      "title": "SEL-487E transformer protection relay",
+      "url": "https://selinc.com/products/487E/",
+      "scope": "Transformer protection, monitoring and measurement interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

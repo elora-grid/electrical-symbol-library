@@ -1,0 +1,87 @@
+{
+  "slug": "ansi-panelboard-plan-symbol",
+  "name": "ANSI panelboard plan symbol",
+  "kind": "symbol",
+  "abbreviation": "PNL",
+  "aliases": [
+    "lighting and appliance panelboard",
+    "flush panelboard symbol",
+    "surface panelboard symbol"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US plan symbol for a panelboard, drawn as a rectangle on the wall with fill indicating flush or surface mounting.",
+  "description": [
+    "US plans draw panelboards as rectangles against the wall, with fill or hatching that distinguishes flush-mounted from surface-mounted cabinets. The panel name, such as LP-1A, is written beside it and matches the panel schedule and home-run labels.",
+    "The symbol helps coordinate wall depth for flush cabinets and working clearance in front of the panel. Readers should check that the space shown on the plan meets the required clear working space. The symbol does not show bus rating, main breaker or circuit count. These are in the panel schedule."
+  ],
+  "readingNotes": [
+    "Distinguish flush and surface panels by fill.",
+    "Match the label with the panel schedule."
+  ],
+  "drawingChecklist": [
+    "Name the panel.",
+    "Indicate flush or surface mounting.",
+    "Show working clearance."
+  ],
+  "distinction": "The IEC distribution board plan mark serves the same locating role under a different convention.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Rectangle with fill or hatch on the wall"
+    },
+    {
+      "label": "Mounting cue",
+      "value": "Fill pattern shows flush or surface"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-distribution-board-plan-mark",
+    "switchboard"
+  ],
+  "artwork": "s28-ansi-panelboard-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Panelboard",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-panelboard-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-panelboard-plan-symbol.svg",
+  "id": "ansi-panelboard-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-panelboard-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-panelboard-plan-symbol.json",
+  "svgPath": "artwork/svg/ansi-panelboard-plan-symbol.svg",
+  "referencePath": "references/ansi-panelboard-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ]
+}

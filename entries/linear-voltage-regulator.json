@@ -1,0 +1,87 @@
+{
+  "slug": "linear-voltage-regulator",
+  "name": "Linear voltage regulator",
+  "kind": "symbol",
+  "abbreviation": "LIN REG",
+  "aliases": [
+    "Linear voltage regulator",
+    "Linear voltage regulator functional block",
+    "Linear voltage regulator schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A linear regulator controls its pass element to maintain a specified output voltage from a suitable input.",
+  "description": [
+    "A linear regulator controls its pass element to maintain a specified output voltage from a suitable input.",
+    "A small electronic circuit can receive a regulated supply from a higher DC input through the selected regulator.",
+    "Show input supply, regulated output and the regulator’s reference connection. A linear regulator adjusts its conducting element rather than using the same switching arrangement as a switch-mode converter. The input/output difference and load affect heat, which must be assessed for the actual device and installation. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify input, output and reference connections.",
+    "Reference required headroom and output components.",
+    "Check the selected load and thermal arrangement.",
+    "The input/output voltage difference and load create heat that must be considered."
+  ],
+  "drawingChecklist": [
+    "Identify input, output and reference connections.",
+    "Reference required headroom and output components.",
+    "Check the selected load and thermal arrangement."
+  ],
+  "distinction": "The input/output voltage difference and load create heat that must be considered.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Suitable DC input"
+    },
+    {
+      "label": "Concept output",
+      "value": "Regulated DC output"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ldo",
+      "relevance": "Linear voltage regulation: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "series-voltage-reference",
+    "low-dropout-voltage-regulator",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-linear-voltage-regulator",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/linear-voltage-regulator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/linear-voltage-regulator.svg",
+  "id": "linear-voltage-regulator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/linear-voltage-regulator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/linear-voltage-regulator.json",
+  "svgPath": "artwork/svg/linear-voltage-regulator.svg",
+  "referencePath": "references/linear-voltage-regulator.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ldo",
+      "title": "Linear voltage regulation",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/linear-ldo-regulators/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Linear voltage regulation: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

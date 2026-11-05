@@ -1,0 +1,87 @@
+{
+  "slug": "ev-charging-energy-meter",
+  "name": "EV charging energy measurement",
+  "kind": "symbol",
+  "abbreviation": "EV kWh",
+  "aliases": [
+    "EV charging energy measurement",
+    "EV charging energy measurement functional block",
+    "EV charging energy measurement schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Charging energy measurement records the electrical energy passing through the defined measuring point.",
+  "description": [
+    "Charging energy measurement records the electrical energy passing through the defined measuring point.",
+    "A station can use the measurement to report energy delivered during a charging session.",
+    "Locate the measuring point on the power path and label whether it is on the AC input or DC output side. Energy adds up over time, whereas power is a rate at a particular moment. The location matters because losses between two points can make their recorded energy differ. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the metering point and measured circuit.",
+    "Distinguish energy readings from instantaneous power.",
+    "Reference the selected meter’s measurement and reporting requirements.",
+    "Measurement placement and system losses affect what an energy value represents."
+  ],
+  "drawingChecklist": [
+    "Identify the metering point and measured circuit.",
+    "Distinguish energy readings from instantaneous power.",
+    "Reference the selected meter’s measurement and reporting requirements."
+  ],
+  "distinction": "Measurement placement and system losses affect what an energy value represents.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Power at the metering point"
+    },
+    {
+      "label": "Concept output",
+      "value": "Recorded energy value"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-evdc",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "dc-to-ac-inverter",
+    "dc-ev-charging-station",
+    "bidirectional-ev-charging-interface",
+    "ev-charger-power-module"
+  ],
+  "artwork": "expanded-ev-charging-energy-meter",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/ev-charging-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ev-charging-energy-meter.svg",
+  "id": "ev-charging-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ev-charging-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ev-charging-energy-meter.json",
+  "svgPath": "artwork/svg/ev-charging-energy-meter.svg",
+  "referencePath": "references/ev-charging-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-evdc",
+      "title": "DC fast charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/dc-fast-charging-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

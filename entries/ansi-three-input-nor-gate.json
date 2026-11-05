@@ -1,0 +1,91 @@
+{
+  "slug": "ansi-three-input-nor-gate",
+  "name": "ANSI three-input NOR gate",
+  "kind": "symbol",
+  "abbreviation": "NOR3",
+  "aliases": [
+    "3-input NOR gate",
+    "triple-input NOR",
+    "distinctive-shape NOR3"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Three-input OR outline with an output bubble; the output is high only when all three inputs are low.",
+  "description": [
+    "The three-input NOR gate is the OR outline with three inputs and a bubble at the pointed output. The output is high only when all inputs are low. Triple three-input NOR packages provide the function and it is often used to create an all-clear signal.",
+    "When all inputs are themselves active-low alarm lines, the same function may be easier to read as an AND outline with bubbled inputs. A consistent choice across the drawing set makes reviews quicker.",
+    "The symbol does not show output drive strength or whether the output may be wired to others. Check the device type before connecting outputs together."
+  ],
+  "readingNotes": [
+    "Look for the output bubble at the point of the outline.",
+    "Check whether a De Morgan form is used elsewhere for the same signal."
+  ],
+  "drawingChecklist": [
+    "Show the output bubble clearly.",
+    "Name the condition each input represents.",
+    "Note the device section and pin numbers."
+  ],
+  "distinction": "An AND outline with three bubbled inputs is the De Morgan equivalent of this gate.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Three"
+    },
+    {
+      "label": "Output high when",
+      "value": "All inputs low"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc27",
+      "relevance": "Manufacturer documentation for triple three-input NOR gates."
+    }
+  ],
+  "related": [
+    "logic-nor-gate",
+    "ansi-nor-as-negative-and-gate",
+    "iec-nor-gate"
+  ],
+  "artwork": "s28-ansi-three-input-nor-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "OR outline with three inputs and an output bubble",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-nor-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-input-nor-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-input-nor-gate.svg",
+  "id": "ansi-three-input-nor-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-input-nor-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-input-nor-gate.json",
+  "svgPath": "artwork/svg/ansi-three-input-nor-gate.svg",
+  "referencePath": "references/ansi-three-input-nor-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc27",
+      "title": "SNx4HC27 triple 3-input NOR gates",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc27.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for three-input NOR gates.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for triple three-input NOR gates."
+    }
+  ]
+}

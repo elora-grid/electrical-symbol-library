@@ -1,0 +1,100 @@
+{
+  "slug": "power-quality-analyser",
+  "name": "Power quality analyser",
+  "kind": "symbol",
+  "abbreviation": "PQ",
+  "aliases": [
+    "power quality meter",
+    "PQ monitor",
+    "harmonic analyser"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Instrument that measures and logs harmonics, flicker, dips, swells and unbalance at a point of the network.",
+  "description": [
+    "A power quality analyser measures disturbances as well as ordinary quantities: harmonics, flicker, voltage dips and swells, unbalance and transients. It is installed at supply points and sensitive loads to show whether supply quality meets the agreed limits, and it keeps event logs for investigation.",
+    "Measurement methods for power quality are standardised so that different instruments give comparable results, and the class of measurement matters when results are used in disputes. The symbol does not show that class, the VT and CT bandwidth or the logging settings."
+  ],
+  "readingNotes": [
+    "Check the measurement class claimed for the analyser.",
+    "Confirm CT and VT are suitable for harmonic frequencies."
+  ],
+  "drawingChecklist": [
+    "State measurement class",
+    "Show CT and VT sources",
+    "Reference logging settings"
+  ],
+  "distinction": "A power quality analyser assesses disturbances; a multifunction meter mainly reports fundamental quantities and energy.",
+  "facts": [
+    {
+      "label": "Measured quantities",
+      "value": "Harmonics, flicker, dips, swells and unbalance"
+    },
+    {
+      "label": "Records",
+      "value": "Event and trend logs"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-power-quality-meter",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "multifunction-power-meter",
+    "disturbance-recorder",
+    "recording-voltmeter"
+  ],
+  "artwork": "s28-power-quality-analyser",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-quality-analyser",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-quality-analyser.svg",
+  "id": "power-quality-analyser",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-quality-analyser",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-quality-analyser.json",
+  "svgPath": "artwork/svg/power-quality-analyser.svg",
+  "referencePath": "references/power-quality-analyser.md",
+  "publicSources": [
+    {
+      "id": "public-power-quality-meter",
+      "title": "PowerLogic ION9000 user manual",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/26719674/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer documentation for the installation, operation and configuration of an advanced energy and power-quality meter. Exact functions and terminals depend on the selected model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

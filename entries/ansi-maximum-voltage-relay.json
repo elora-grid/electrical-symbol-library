@@ -1,0 +1,117 @@
+{
+  "slug": "ansi-maximum-voltage-relay",
+  "name": "ANSI/IEEE Maximum-voltage measuring relay form",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "HCR1F36",
+    "VCR1F36",
+    "IEEE Maximum Voltage Protection",
+    "ANSI Maximum-voltage measuring relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of maximum-voltage measuring relay: measuring relay that operates when the monitored voltage rises above its set level.",
+  "description": [
+    "This reference locates maximum-voltage measuring relay in Autodesk's IEEE-oriented voltage protection relays family. The maximum-voltage relay form operates when voltage exceeds its setting. Typical uses include generator overvoltage after load rejection, capacitor bank protection and inverter connection points, where sustained high voltage can stress insulation or breach grid connection limits. The public library uses HCR1F36 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "The box shows a greater-than voltage threshold but not whether the element uses phase-to-phase or phase-to-neutral quantities, the reset ratio or the time delay. Grid-connection settings are usually specified as several stages with different delays, which this single symbol does not reveal. Identify the voltage connection used by the element. A maximum-voltage relay responds to high voltage magnitude; a residual voltage relay responds to neutral displacement. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the voltage connection used by the element.",
+    "Check for multiple stages in the settings record."
+  ],
+  "drawingChecklist": [
+    "State threshold and delay",
+    "Show VT connection",
+    "Reference stage settings"
+  ],
+  "distinction": "A maximum-voltage relay responds to high voltage magnitude; a residual voltage relay responds to neutral displacement.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Voltage Protection Relays; published form: Maximum Voltage Protection."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F36. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Measured quantity",
+      "value": "Voltage above a set level"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-voltage-protection-relays",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F36 as Maximum Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "maximum-voltage-relay",
+    "minimum-voltage-relay",
+    "59-overvoltage",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-maximum-voltage-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Maximum Voltage Protection",
+    "reference": "Autodesk IEEE Symbol Preview: Voltage Protection Relays, block HCR1F36. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "maximum-voltage-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-maximum-voltage-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-maximum-voltage-relay.svg",
+  "id": "ansi-maximum-voltage-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-maximum-voltage-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-maximum-voltage-relay.json",
+  "svgPath": "artwork/svg/ansi-maximum-voltage-relay.svg",
+  "referencePath": "references/ansi-maximum-voltage-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-voltage-protection-relays",
+      "title": "Autodesk IEEE Symbol Preview: Voltage Protection Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5D942536-ADE3-43EA-8280-CC7907C38F15.htm",
+      "type": "cad-reference",
+      "scope": "Public voltage protection relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Voltage Protection Relays table explicitly lists HCR1F36 as Maximum Voltage Protection. This supports the vendor convention context, not reproduction of the publisher graphic."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

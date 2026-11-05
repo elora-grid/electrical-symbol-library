@@ -1,0 +1,101 @@
+{
+  "slug": "bushing-current-transformer",
+  "name": "Bushing current transformer",
+  "kind": "symbol",
+  "abbreviation": "BCT",
+  "aliases": [
+    "bushing CT",
+    "BCT",
+    "toroidal bushing CT"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Toroidal CT mounted around a transformer or breaker bushing, often with a tapped multi-ratio secondary.",
+  "description": [
+    "A bushing CT is a toroidal core and secondary slipped over the bushing of a power transformer, generator or dead-tank circuit breaker. The bushing conductor is the primary, and several CTs may be stacked on one bushing for differential, overcurrent and metering duties.",
+    "Bushing CTs are often multi-ratio, with taps on the secondary, and only the selected tap should be wired to the relay. The symbol shows the location at the bushing, so the reader must check which side of the breaker or transformer the CT sits on to understand the protection zone overlap."
+  ],
+  "readingNotes": [
+    "Identify which side of the device each bushing CT sits on.",
+    "Check the selected tap on multi-ratio CTs."
+  ],
+  "drawingChecklist": [
+    "State selected tap and full ratio",
+    "Show position relative to the breaker or winding",
+    "Mark polarity"
+  ],
+  "distinction": "A bushing CT uses the bushing conductor as its primary; a free-standing CT has its own insulated primary.",
+  "facts": [
+    {
+      "label": "Mounting",
+      "value": "Over a transformer or breaker bushing"
+    },
+    {
+      "label": "Common feature",
+      "value": "Multi-ratio tapped secondary"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE graphic-symbol standards context; no standard glyph is reproduced."
+    }
+  ],
+  "related": [
+    "multi-core-current-transformer",
+    "tapped-secondary-current-transformer",
+    "power-transformer"
+  ],
+  "artwork": "s28-bushing-current-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/bushing-current-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/bushing-current-transformer.svg",
+  "id": "bushing-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/bushing-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/bushing-current-transformer.json",
+  "svgPath": "artwork/svg/bushing-current-transformer.svg",
+  "referencePath": "references/bushing-current-transformer.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE graphic-symbol standards context; no standard glyph is reproduced."
+    }
+  ]
+}

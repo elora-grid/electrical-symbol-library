@@ -1,0 +1,100 @@
+{
+  "slug": "conductor-in-conduit",
+  "name": "Conductor in conduit",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "wiring in conduit",
+    "conduit run",
+    "enclosed conductor"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A conductor or circuit line drawn inside a conduit outline, showing that the wiring is enclosed in a pipe or tube run.",
+  "description": [
+    "This representation places a conductor inside a pair of parallel lines or a tube outline to show that it is run in conduit. It appears on installation layouts and some single-line diagrams where the containment type affects derating, mechanical protection and fill calculations.",
+    "The symbol does not give conduit size, material or the number of circuits sharing the conduit. Those items come from the containment schedule. When several circuits share one conduit, grouping derating applies to all of them, so a reader should check whether more than one circuit line enters the same outline."
+  ],
+  "readingNotes": [
+    "Count how many circuits are drawn within the same conduit outline.",
+    "Check the containment schedule for size and material."
+  ],
+  "drawingChecklist": [
+    "Tag the conduit with its size and material.",
+    "List the circuits carried in each conduit.",
+    "Apply grouping derating where several circuits share it."
+  ],
+  "distinction": "Conduit is enclosed containment; cable tray or ladder is open support and has different derating and fill rules.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Conductor line enclosed between conduit outline lines"
+    },
+    {
+      "label": "Affects",
+      "value": "Cable derating, fill and mechanical protection"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "cable-support",
+      "relevance": "Manufacturer containment product context for cable support and enclosure types."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering wiring systems."
+    }
+  ],
+  "related": [
+    "cable-ladder",
+    "ga-perforated-cable-tray",
+    "ga-cable-duct-bank"
+  ],
+  "artwork": "s28-conductor-in-conduit",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/conductor-in-conduit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/conductor-in-conduit.svg",
+  "id": "conductor-in-conduit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/conductor-in-conduit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/conductor-in-conduit.json",
+  "svgPath": "artwork/svg/conductor-in-conduit.svg",
+  "referencePath": "references/conductor-in-conduit.md",
+  "publicSources": [
+    {
+      "id": "cable-support",
+      "title": "Cable tray and ladder systems",
+      "publisher": "Eaton",
+      "url": "https://www.eaton.com/us/en-us/products/support-systems/cable-tray-and-ladder-systems.html",
+      "type": "manufacturer",
+      "scope": "Public cable-management families and official support-system resources.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer containment product context for cable support and enclosure types."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering wiring systems."
+    }
+  ]
+}

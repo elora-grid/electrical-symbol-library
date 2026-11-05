@@ -1,0 +1,99 @@
+{
+  "slug": "ansi-mechanical-stop-latch-in-engaged-state",
+  "name": "ANSI/IEEE Mechanical stop latch in engaged state form",
+  "kind": "symbol",
+  "abbreviation": "Q021210",
+  "aliases": [
+    "Q021210",
+    "IEEE Stop Latch Engaged",
+    "ANSI Mechanical stop latch in engaged state"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of mechanical stop latch in engaged state: this form identifies an engaged stop-latch mechanism.",
+  "description": [
+    "This reference locates mechanical stop latch in engaged state in Autodesk's IEEE-oriented mechanical controls family. This form identifies an engaged stop-latch mechanism. The state describes mechanical retention. The affected device can have separate electrical contacts reporting that position, so engagement is not equivalent to energisation. The public library uses Q021210 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "State which movement is restrained and what documented release action changes the condition. Where feedback is used, cross-reference its actual contact rather than treating the latch mark as an electrical output. State which movement is restrained and what releases the latch. An engaged latch does not automatically indicate a circuit is energised. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State which movement is restrained and what releases the latch.",
+    "An engaged latch does not automatically indicate a circuit is energised."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State which movement is restrained and what releases the latch.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "An engaged latch does not automatically indicate a circuit is energised.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Mechanical Controls; published form: Stop Latch Engaged."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q021210. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State which movement is restrained and what releases the latch."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-mechanical-controls",
+      "relevance": "Public IEEE-oriented Mechanical Controls table explicitly lists Q021210 as Stop Latch Engaged. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-mechanical-stop-latch-in-engaged-state",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-mechanical-stop-latch-in-engaged-state",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Stop Latch Engaged",
+    "reference": "Autodesk IEEE Symbol Preview: Mechanical Controls, block Q021210. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-mechanical-stop-latch-in-engaged-state"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-mechanical-stop-latch-in-engaged-state",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-mechanical-stop-latch-in-engaged-state.svg",
+  "id": "ansi-mechanical-stop-latch-in-engaged-state",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-mechanical-stop-latch-in-engaged-state",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-mechanical-stop-latch-in-engaged-state.json",
+  "svgPath": "artwork/svg/ansi-mechanical-stop-latch-in-engaged-state.svg",
+  "referencePath": "references/ansi-mechanical-stop-latch-in-engaged-state.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-mechanical-controls",
+      "title": "Autodesk IEEE Symbol Preview: Mechanical Controls",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-450F6FD7-7A10-4F81-92A1-0D9BECFB23FC.htm",
+      "type": "cad-reference",
+      "scope": "Public mechanical controls family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Mechanical Controls table explicitly lists Q021210 as Stop Latch Engaged. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

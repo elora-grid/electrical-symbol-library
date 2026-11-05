@@ -1,0 +1,105 @@
+{
+  "slug": "tie-breaker-maintenance-isolation-interface",
+  "name": "Tie-breaker maintenance isolation interface",
+  "kind": "symbol",
+  "abbreviation": "TMII",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "Tie breaker and isolating points",
+    "Maintainable tie interface"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the isolation connections associated with the bus-tie breaker.",
+  "description": [
+    "Identifies the isolation connections associated with the bus-tie breaker. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “Tie breaker and isolating points” at the input and “Maintainable tie interface” at the output. The drawing is not a switching instruction.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Tie breaker and isolating points. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Maintainable tie interface. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The drawing is not a switching instruction.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for tie breaker and isolating points.",
+    "Identify the destination and defined state of maintainable tie interface.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The drawing is not a switching instruction."
+  ],
+  "distinction": "The drawing is not a switching instruction. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Tie breaker and isolating points"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Maintainable tie interface"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TMII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "feeder-backfeed-monitoring-interface"
+  ],
+  "artwork": "pi26-tie-breaker-maintenance-isolation-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "Tie breaker and isolating points",
+    "output": "Maintainable tie interface"
+  },
+  "url": "https://eloragrid.ai/symbols/tie-breaker-maintenance-isolation-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/tie-breaker-maintenance-isolation-interface.svg",
+  "id": "tie-breaker-maintenance-isolation-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/tie-breaker-maintenance-isolation-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/tie-breaker-maintenance-isolation-interface.json",
+  "svgPath": "artwork/svg/tie-breaker-maintenance-isolation-interface.svg",
+  "referencePath": "references/tie-breaker-maintenance-isolation-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

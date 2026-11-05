@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-star-star-transformer",
+  "name": "ANSI/IEEE Star-star transformer form",
+  "kind": "symbol",
+  "abbreviation": "TX Y-Y",
+  "aliases": [
+    "HXF1T7",
+    "VXF1T7",
+    "IEEE 3 Phase Star/Star",
+    "ANSI Star-star transformer"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of star-star transformer: a star-star transformer has star-connected windings on both sides.",
+  "description": [
+    "This reference locates star-star transformer in Autodesk's IEEE-oriented 3 phase transformers family. A star-star transformer has star-connected windings on both sides. Neutral accessibility and system earthing must be shown independently for each winding. The public library uses HXF1T7 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Check whether one, both or neither star point is brought to terminals. The Y-Y label does not by itself establish neutral availability. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Check whether one, both or neither star point is brought to terminals.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify neutral terminals",
+    "State vector group",
+    "Show earthing connections"
+  ],
+  "distinction": "The Y-Y label does not by itself establish neutral availability.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Phase Transformers; published form: 3 Phase Star/Star."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HXF1T7. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-3-phase-transformers",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T7 as 3 Phase Star/Star. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "star-star-transformer",
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-star-star-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Star/Star",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Phase Transformers, block HXF1T7. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "star-star-transformer"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-star-star-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-star-star-transformer.svg",
+  "id": "ansi-star-star-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-star-star-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-star-star-transformer.json",
+  "svgPath": "artwork/svg/ansi-star-star-transformer.svg",
+  "referencePath": "references/ansi-star-star-transformer.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-3-phase-transformers",
+      "title": "Autodesk IEEE Symbol Preview: 3 Phase Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EE75A5D4-8CBD-4E78-94A3-226A94E61817.htm",
+      "type": "cad-reference",
+      "scope": "Public 3 phase transformers family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Phase Transformers table explicitly lists HXF1T7 as 3 Phase Star/Star. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

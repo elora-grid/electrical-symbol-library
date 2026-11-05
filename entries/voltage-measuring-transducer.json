@@ -1,0 +1,98 @@
+{
+  "slug": "voltage-measuring-transducer",
+  "name": "Voltage measuring transducer",
+  "kind": "symbol",
+  "abbreviation": "U/I",
+  "aliases": [
+    "voltage transducer",
+    "AC voltage transmitter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Transducer that converts a VT secondary or direct voltage into an isolated analogue signal for remote measurement.",
+  "description": [
+    "A voltage measuring transducer converts a voltage into a standard analogue signal such as 4-20 mA, with galvanic isolation between input and output. It is fed from a VT secondary or, at low voltage, directly from the busbar through fuses, and it supplies a PLC, SCADA or regulator input.",
+    "The symbol does not show whether the output follows RMS or average value, or the live zero of the output range. If the transducer is self-powered from the measured voltage, its output fails when the voltage collapses, which matters when it is used to detect loss of supply."
+  ],
+  "readingNotes": [
+    "Check whether the transducer has a separate auxiliary supply.",
+    "Confirm the output range and live zero."
+  ],
+  "drawingChecklist": [
+    "Show input fusing",
+    "State input and output ranges",
+    "Reference receiving input"
+  ],
+  "distinction": "A voltage transducer provides a signal to other equipment; a voltmeter displays the reading locally.",
+  "facts": [
+    {
+      "label": "Input",
+      "value": "VT secondary or direct voltage"
+    },
+    {
+      "label": "Output",
+      "value": "Isolated analogue signal"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-signal-isolator",
+      "relevance": "Public context for isolated analogue measuring signals."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "active-power-transducer",
+    "voltage-transformer",
+    "iec-single-phase-ac-to-dc-current-converter"
+  ],
+  "artwork": "s28-voltage-measuring-transducer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/voltage-measuring-transducer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/voltage-measuring-transducer.svg",
+  "id": "voltage-measuring-transducer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/voltage-measuring-transducer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/voltage-measuring-transducer.json",
+  "svgPath": "artwork/svg/voltage-measuring-transducer.svg",
+  "referencePath": "references/voltage-measuring-transducer.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-signal-isolator",
+      "title": "Analog current signal isolation",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-us/products/signal-conditioner-mcr-c-i-i-0b-0b-dci-2810955",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for isolated analogue measuring signals."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "disconnector-grouped-pole-operating-reference",
+  "name": "Disconnector grouped-pole operating reference",
+  "kind": "symbol",
+  "abbreviation": "DGOR",
+  "aliases": [
+    "Disconnector and earthing applications",
+    "switchyards Disconnector and earthing applications",
+    "switchyards",
+    "Switchyards",
+    "Grouped pole drive",
+    "Coordinated disconnector position"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented common drive or coordinated operation of the assigned phase poles.",
+  "description": [
+    "Identifies the documented common drive or coordinated operation of the assigned phase poles. Disconnector and earthing references identify different mechanical constructions and connection duties within a yard. The primary diagram shows which conductors are joined or earthed; the equipment drawing explains how its contacts and supports move.",
+    "In a switchyard bay, a bus selector can use a different physical construction from a line disconnector. Each device still needs an identified operating mechanism, position indication and interlocking interface. For this reference, the drawing identifies “Grouped pole drive” at the input and “Coordinated disconnector position” at the output. Pole operation must match the installed linkage.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Grouped pole drive. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Coordinated disconnector position. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Pole operation must match the installed linkage.",
+    "The construction name does not establish load-breaking capability, short-circuit making duty or operating permission. Verify these properties in the selected equipment data and the station interlocking scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for grouped pole drive.",
+    "Identify the destination and defined state of coordinated disconnector position.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Pole operation must match the installed linkage."
+  ],
+  "distinction": "Pole operation must match the installed linkage. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Grouped pole drive"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Coordinated disconnector position"
+    },
+    {
+      "label": "Lookup label",
+      "value": "DGOR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-disconnectors",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "disconnector",
+    "earthing-switch",
+    "centre-break-disconnector-application-reference"
+  ],
+  "artwork": "pi26-disconnector-grouped-pole-operating-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-disconnectors",
+    "input": "Grouped pole drive",
+    "output": "Coordinated disconnector position"
+  },
+  "url": "https://eloragrid.ai/symbols/disconnector-grouped-pole-operating-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/disconnector-grouped-pole-operating-reference.svg",
+  "id": "disconnector-grouped-pole-operating-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/disconnector-grouped-pole-operating-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/disconnector-grouped-pole-operating-reference.json",
+  "svgPath": "artwork/svg/disconnector-grouped-pole-operating-reference.svg",
+  "referencePath": "references/disconnector-grouped-pole-operating-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-disconnectors",
+      "publisher": "Siemens Energy",
+      "title": "Disconnectors and earthing switches",
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/disconnectors-earthing-switches.html",
+      "scope": "Disconnector construction, earthing switches and operating mechanisms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for disconnector and earthing applications. Disconnector construction, earthing switches and operating mechanisms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

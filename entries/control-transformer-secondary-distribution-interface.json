@@ -1,0 +1,105 @@
+{
+  "slug": "control-transformer-secondary-distribution-interface",
+  "name": "Control-transformer secondary distribution interface",
+  "kind": "symbol",
+  "abbreviation": "CSDI",
+  "aliases": [
+    "Switchgear control-power supervision",
+    "switchgear Switchgear control-power supervision",
+    "switchgear",
+    "Switchgear",
+    "Transformer secondary",
+    "AC control distribution"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies how the selected transformer secondary feeds the documented control branches.",
+  "description": [
+    "Identifies how the selected transformer secondary feeds the documented control branches. Control power supplies the command, protection and indication equipment associated with a switchgear assembly. The drawing must distinguish the source, each distribution branch and the functions lost if that branch fails.",
+    "In a switchgear lineup, separate protected branches may feed trip coils, closing coils and protection electronics. Their alarm contacts help the station controller identify which operating capability is unavailable. For this reference, the drawing identifies “Transformer secondary” at the input and “AC control distribution” at the output. Secondary earthing must follow the actual design.",
+    "Follow the actual positive, negative or neutral returns and the protective device on each branch. A healthy voltage indication does not establish that every downstream path can deliver its required operating current. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Transformer secondary. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: AC control distribution. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Secondary earthing must follow the actual design.",
+    "Follow the actual positive, negative or neutral returns and the protective device on each branch. A healthy voltage indication does not establish that every downstream path can deliver its required operating current."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for transformer secondary.",
+    "Identify the destination and defined state of ac control distribution.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Secondary earthing must follow the actual design."
+  ],
+  "distinction": "Secondary earthing must follow the actual design. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Transformer secondary"
+    },
+    {
+      "label": "Output / connection",
+      "value": "AC control distribution"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CSDI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-power",
+      "relevance": "Public technical context for switchgear control-power supervision. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relay-coil",
+    "ac-to-dc-power-supply",
+    "control-power-undervoltage-supervision"
+  ],
+  "artwork": "pi26-control-transformer-secondary-distribution-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "control-power",
+    "input": "Transformer secondary",
+    "output": "AC control distribution"
+  },
+  "url": "https://eloragrid.ai/symbols/control-transformer-secondary-distribution-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/control-transformer-secondary-distribution-interface.svg",
+  "id": "control-transformer-secondary-distribution-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/control-transformer-secondary-distribution-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/control-transformer-secondary-distribution-interface.json",
+  "svgPath": "artwork/svg/control-transformer-secondary-distribution-interface.svg",
+  "referencePath": "references/control-transformer-secondary-distribution-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-power",
+      "publisher": "SEL",
+      "title": "SEL-RPM redundant power module",
+      "url": "https://selinc.com/products/RPM/",
+      "scope": "Independent AC and DC sources for station auxiliary power.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear control-power supervision. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

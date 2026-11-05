@@ -1,0 +1,99 @@
+{
+  "slug": "partial-discharge-sensor",
+  "name": "Partial discharge sensor",
+  "kind": "symbol",
+  "abbreviation": "PD",
+  "aliases": [
+    "PD sensor",
+    "TEV sensor",
+    "UHF partial discharge sensor"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Sensor on switchgear, cables or transformers that picks up signals from partial discharge for insulation condition monitoring.",
+  "description": [
+    "Partial discharge sensors detect small electrical discharges inside insulation before it fails. Common types include transient earth voltage sensors on metal-clad switchgear, UHF antennas in gas-insulated equipment and high-frequency CTs on cable earth straps, each feeding a monitoring unit that records and trends the activity.",
+    "The symbol shows the sensor location but not its type or frequency range, and results from different sensor types are not directly comparable. Monitoring is used for maintenance decisions rather than protection, so the sensor output normally goes to alarms or a condition monitoring system rather than a trip circuit."
+  ],
+  "readingNotes": [
+    "Identify the sensor type at each location.",
+    "Confirm outputs go to monitoring rather than tripping."
+  ],
+  "drawingChecklist": [
+    "State sensor type",
+    "Show location on equipment",
+    "Reference monitoring unit"
+  ],
+  "distinction": "A partial discharge sensor assesses insulation condition; an insulation monitoring relay measures insulation resistance of an unearthed system.",
+  "facts": [
+    {
+      "label": "Sensor types",
+      "value": "TEV, UHF and high-frequency CT"
+    },
+    {
+      "label": "Purpose",
+      "value": "Insulation condition monitoring"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "abb-switchgear",
+      "relevance": "Public switchgear context in which insulation condition monitoring is applied."
+    },
+    {
+      "sourceId": "expansion-20261027-sensing",
+      "relevance": "Public overview of electrical sensing functions."
+    }
+  ],
+  "related": [
+    "insulation-monitoring-relay",
+    "switchgear-panel",
+    "voltage-presence-indicator"
+  ],
+  "artwork": "s28-partial-discharge-sensor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/partial-discharge-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/partial-discharge-sensor.svg",
+  "id": "partial-discharge-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/partial-discharge-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/partial-discharge-sensor.json",
+  "svgPath": "artwork/svg/partial-discharge-sensor.svg",
+  "referencePath": "references/partial-discharge-sensor.md",
+  "publicSources": [
+    {
+      "id": "abb-switchgear",
+      "title": "Secondary-distribution switchgear and ring main units",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/switchgear/secondary-distribution",
+      "type": "manufacturer",
+      "scope": "Public equipment families for secondary distribution. Footprints and ratings must come from the chosen model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public switchgear context in which insulation condition monitoring is applied."
+    },
+    {
+      "id": "expansion-20261027-sensing",
+      "title": "Electrical and physical sensing functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/technologies/sensing.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Public overview of electrical sensing functions."
+    }
+  ]
+}

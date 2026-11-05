@@ -1,0 +1,83 @@
+{
+  "slug": "arc-flash-point-sensor",
+  "name": "Arc-flash point light sensor",
+  "kind": "symbol",
+  "abbreviation": "AF",
+  "aliases": [
+    "arc flash point sensor",
+    "arc detection light sensor"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Light sensor in a switchgear compartment that detects the flash of an internal arc and signals an arc-flash relay.",
+  "description": [
+    "A point light sensor is mounted inside a switchgear compartment, such as a breaker or cable compartment, and detects the intense light of an internal arc. It is wired or fibre-connected to an arc-flash relay that usually also checks for overcurrent before tripping, so light alone from an external source does not cause a trip.",
+    "The drawing should show which compartment each sensor watches, because the trip zone depends on it. The symbol does not show sensitivity, field of view or the self-supervision used to detect a disconnected sensor."
+  ],
+  "readingNotes": [
+    "Identify the compartment each sensor covers.",
+    "Check whether trip needs light plus overcurrent."
+  ],
+  "drawingChecklist": [
+    "Locate each sensor by compartment",
+    "Show connection to the arc relay",
+    "State trip logic"
+  ],
+  "distinction": "A point sensor covers one compartment; a fibre loop sensor covers a long area such as a busbar run.",
+  "facts": [
+    {
+      "label": "Detected quantity",
+      "value": "Light from an internal arc"
+    },
+    {
+      "label": "Typical logic",
+      "value": "Light combined with overcurrent"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-sel-arc-flash-fibre",
+      "relevance": "Public manufacturer page describing point and fibre arc-flash light sensing."
+    }
+  ],
+  "related": [
+    "arc-flash-fibre-loop-sensor",
+    "numerical-protection-relay",
+    "switchgear-panel"
+  ],
+  "artwork": "s28-arc-flash-point-sensor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/arc-flash-point-sensor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/arc-flash-point-sensor.svg",
+  "id": "arc-flash-point-sensor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/arc-flash-point-sensor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/arc-flash-point-sensor.json",
+  "svgPath": "artwork/svg/arc-flash-point-sensor.svg",
+  "referencePath": "references/arc-flash-point-sensor.md",
+  "publicSources": [
+    {
+      "id": "s28-sel-arc-flash-fibre",
+      "title": "SEL-C804 multimode arc-flash detection fibre-optic cables",
+      "publisher": "Schweitzer Engineering Laboratories",
+      "url": "https://selinc.com/products/c804/",
+      "type": "manufacturer",
+      "scope": "Public product page describing point and fibre arc-flash light sensors used with protection relays.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer page describing point and fibre arc-flash light sensing."
+    }
+  ]
+}

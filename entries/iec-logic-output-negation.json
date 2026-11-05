@@ -1,0 +1,90 @@
+{
+  "slug": "iec-logic-output-negation",
+  "name": "IEC logic negation at output",
+  "kind": "symbol",
+  "abbreviation": "NEG-OUT",
+  "aliases": [
+    "output negation circle",
+    "negated output",
+    "output inversion circle"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Circle on an output edge meaning the internal 1 state of the element produces an external 0.",
+  "description": [
+    "Output negation turns AND into NAND, OR into NOR and a buffer into an inverter. The circle sits where the output line meets the outline and states that the internal 1 state produces the external 0 state. As with input negation, a logic convention must be declared to relate this to voltage levels.",
+    "Drafters use output negation to avoid drawing separate inverters. When a negated output feeds a negated input on the next element, the two cancel, and reviewers often simplify the drawing by removing both.",
+    "The circle carries no information about output drive type or loading. Open-circuit or three-state behaviour needs its own qualifier inside the outline."
+  ],
+  "readingNotes": [
+    "Look for double negations between elements that cancel.",
+    "Confirm the logic convention declared for the sheet."
+  ],
+  "drawingChecklist": [
+    "Place the circle at the outline edge, not along the line.",
+    "Declare the logic convention.",
+    "Simplify cancelling negations where the hardware allows."
+  ],
+  "distinction": "An active-low output triangle states the level directly and is the data-book alternative.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Internal 1 produces external 0"
+    },
+    {
+      "label": "Effect on & element",
+      "value": "Gives NAND"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines logic negation at an output."
+    }
+  ],
+  "related": [
+    "iec-logic-input-negation",
+    "iec-active-low-output-indicator",
+    "iec-nand-gate"
+  ],
+  "artwork": "s28-iec-logic-output-negation",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Small circle at the output edge of the outline",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-logic-output-negation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-logic-output-negation.svg",
+  "id": "iec-logic-output-negation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-logic-output-negation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-logic-output-negation.json",
+  "svgPath": "artwork/svg/iec-logic-output-negation.svg",
+  "referencePath": "references/iec-logic-output-negation.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines logic negation at an output."
+    }
+  ]
+}

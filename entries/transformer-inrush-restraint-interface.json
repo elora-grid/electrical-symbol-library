@@ -1,0 +1,105 @@
+{
+  "slug": "transformer-inrush-restraint-interface",
+  "name": "Transformer inrush-restraint interface",
+  "kind": "symbol",
+  "abbreviation": "TII",
+  "aliases": [
+    "Transformer protection and monitoring interfaces",
+    "substations Transformer protection and monitoring interfaces",
+    "substations",
+    "Substations",
+    "Inrush discrimination quantities",
+    "Inrush restraint state"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the measured or calculated inrush information used by the selected differential scheme.",
+  "description": [
+    "Identifies the measured or calculated inrush information used by the selected differential scheme. Transformer monitoring interfaces connect physical sensors and protection calculations to the station's alarms and trip logic. Temperature, oil, gas, pressure and electrical measurements indicate different conditions and require separate interpretation.",
+    "In a substation transformer bay, a protection panel receives winding-current measurements and equipment alarm contacts. An operator can then distinguish an electrical protection operation from a cooling-system or physical-condition alarm. For this reference, the drawing identifies “Inrush discrimination quantities” at the input and “Inrush restraint state” at the output. The method must match the selected relay application.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Inrush discrimination quantities. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Inrush restraint state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The method must match the selected relay application.",
+    "Identify the sensor or calculation, its monitored zone and its assigned response. Alarm and trip thresholds, sensor fitting and protection settings belong to the selected transformer documentation and the approved protection design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for inrush discrimination quantities.",
+    "Identify the destination and defined state of inrush restraint state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The method must match the selected relay application."
+  ],
+  "distinction": "The method must match the selected relay application. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Inrush discrimination quantities"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Inrush restraint state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "TII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-relay",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "87t-transformer-differential-protection",
+    "transformer-overexcitation-measurement-interface"
+  ],
+  "artwork": "pi26-transformer-inrush-restraint-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-monitoring",
+    "input": "Inrush discrimination quantities",
+    "output": "Inrush restraint state"
+  },
+  "url": "https://eloragrid.ai/symbols/transformer-inrush-restraint-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/transformer-inrush-restraint-interface.svg",
+  "id": "transformer-inrush-restraint-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/transformer-inrush-restraint-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/transformer-inrush-restraint-interface.json",
+  "svgPath": "artwork/svg/transformer-inrush-restraint-interface.svg",
+  "referencePath": "references/transformer-inrush-restraint-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-relay",
+      "publisher": "SEL",
+      "title": "SEL-487E transformer protection relay",
+      "url": "https://selinc.com/products/487E/",
+      "scope": "Transformer protection, monitoring and measurement interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer protection and monitoring interfaces. Transformer protection, monitoring and measurement interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

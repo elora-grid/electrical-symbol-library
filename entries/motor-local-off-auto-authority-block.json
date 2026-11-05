@@ -1,0 +1,105 @@
+{
+  "slug": "motor-local-off-auto-authority-block",
+  "name": "Motor local-off-auto authority block",
+  "kind": "symbol",
+  "abbreviation": "MLAB",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Selector and command sources",
+    "Accepted motor command"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects the permitted motor command origin according to the local selector position.",
+  "description": [
+    "Selects the permitted motor command origin according to the local selector position. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Selector and command sources” at the input and “Accepted motor command” at the output. Off selection is not an electrical isolation device.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Selector and command sources. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Accepted motor command. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Off selection is not an electrical isolation device.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for selector and command sources.",
+    "Identify the destination and defined state of accepted motor command.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Off selection is not an electrical isolation device."
+  ],
+  "distinction": "Off selection is not an electrical isolation device. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Selector and command sources"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Accepted motor command"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MLAB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "motor-run-feedback-discrepancy"
+  ],
+  "artwork": "pi26-motor-local-off-auto-authority-block",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Selector and command sources",
+    "output": "Accepted motor command"
+  },
+  "url": "https://eloragrid.ai/symbols/motor-local-off-auto-authority-block",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motor-local-off-auto-authority-block.svg",
+  "id": "motor-local-off-auto-authority-block",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-local-off-auto-authority-block",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-local-off-auto-authority-block.json",
+  "svgPath": "artwork/svg/motor-local-off-auto-authority-block.svg",
+  "referencePath": "references/motor-local-off-auto-authority-block.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

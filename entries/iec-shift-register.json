@@ -1,0 +1,106 @@
+{
+  "slug": "iec-shift-register",
+  "name": "IEC shift register (SRGm)",
+  "kind": "symbol",
+  "abbreviation": "SRG8",
+  "aliases": [
+    "SRG8 register",
+    "IEC shift register symbol",
+    "serial shift register IEC form"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC register marked SRGm with m stages; the clock carries the shift arrow and moves data one place each cycle.",
+  "description": [
+    "SRGm identifies a shift register of m bits. The clock input is labelled with C1 and a shift arrow, showing that each active edge moves data one place. The serial input is labelled 1D, and the parallel outputs are listed down the right side, typically in a column of per-bit elements under a common-control block.",
+    "On drawings, shift registers expand outputs for indicators or relay drivers, or capture serial data from a sensor. The reader should identify the shift direction, the serial input, and any output latch or enable, as these decide how and when outputs update.",
+    "The symbol does not show the data rate or the serial protocol. Those come from the controller documentation driving the register."
+  ],
+  "readingNotes": [
+    "Identify the shift direction from the arrow.",
+    "Check for an output latch that holds outputs during shifting."
+  ],
+  "drawingChecklist": [
+    "State the bit count in the qualifier.",
+    "Label the serial input as 1D.",
+    "Show the output latch and enable if present."
+  ],
+  "distinction": "A latched shift register adds a storage register and its own clock between the shift stages and the outputs.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "SRGm"
+    },
+    {
+      "label": "Clock label",
+      "value": "C1 with shift arrow"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists SRGm and shift right or left input labels."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc164",
+      "relevance": "Serial-in parallel-out shift register documentation."
+    }
+  ],
+  "related": [
+    "serial-in-parallel-out-register",
+    "latched-shift-register",
+    "iec-bidirectional-shift-register"
+  ],
+  "artwork": "s28-iec-shift-register",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with SRGm qualifier and a shift-right clock",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "serial-in-parallel-out-register"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-shift-register",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-shift-register.svg",
+  "id": "iec-shift-register",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-shift-register",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-shift-register.json",
+  "svgPath": "artwork/svg/iec-shift-register.svg",
+  "referencePath": "references/iec-shift-register.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists SRGm and shift right or left input labels."
+    },
+    {
+      "id": "pub-electronics-ti-hc164",
+      "title": "SN74HC164 — serial-in parallel-out shift storage",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of serial-in parallel-out shift storage. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Serial-in parallel-out shift register documentation."
+    }
+  ]
+}

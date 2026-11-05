@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-resource-dispatch-saturation-flag",
+  "name": "Microgrid resource dispatch saturation flag",
+  "kind": "symbol",
+  "abbreviation": "MRDSF",
+  "aliases": [
+    "Microgrid active-power dispatch controls",
+    "microgrids Microgrid active-power dispatch controls",
+    "microgrids",
+    "Microgrids",
+    "Requested and permitted resource power",
+    "Dispatch-limit indication"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports that a controlled resource has reached its assigned active-power operating bound.",
+  "description": [
+    "Reports that a controlled resource has reached its assigned active-power operating bound. Active-power dispatch allocates the electrical work performed by the microgrid resources. A total site target, a resource power limit and the actual measured contribution are different quantities that must be connected clearly in the diagram.",
+    "In a microgrid with solar generation, a battery and generators, the controller can allocate an import/export target among the available resources while reserving the power needed for operating disturbances. For this reference, the drawing identifies “Requested and permitted resource power” at the input and “Dispatch-limit indication” at the output. The flag should identify the limiting constraint.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Requested and permitted resource power. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Dispatch-limit indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The flag should identify the limiting constraint.",
+    "Identify the measurement boundary, power sign convention, resource limits and target priority. An original control block does not supply dispatch settings, a financial operating policy or proof of grid-code compliance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for requested and permitted resource power.",
+    "Identify the destination and defined state of dispatch-limit indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The flag should identify the limiting constraint."
+  ],
+  "distinction": "The flag should identify the limiting constraint. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Requested and permitted resource power"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Dispatch-limit indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRDSF is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-plant-controller",
+    "point-of-common-coupling",
+    "microgrid-dispatch-tracking-error-monitor"
+  ],
+  "artwork": "pi26-microgrid-resource-dispatch-saturation-flag",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-active",
+    "input": "Requested and permitted resource power",
+    "output": "Dispatch-limit indication"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-resource-dispatch-saturation-flag",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-resource-dispatch-saturation-flag.svg",
+  "id": "microgrid-resource-dispatch-saturation-flag",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-resource-dispatch-saturation-flag",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-resource-dispatch-saturation-flag.json",
+  "svgPath": "artwork/svg/microgrid-resource-dispatch-saturation-flag.svg",
+  "referencePath": "references/microgrid-resource-dispatch-saturation-flag.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid active-power dispatch controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

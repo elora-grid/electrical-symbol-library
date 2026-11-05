@@ -1,0 +1,90 @@
+{
+  "slug": "iec-arithmetic-logic-unit",
+  "name": "IEC arithmetic logic unit (ALU)",
+  "kind": "symbol",
+  "abbreviation": "ALU",
+  "aliases": [
+    "ALU element",
+    "IEC ALU symbol",
+    "arithmetic logic unit block"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked ALU, performing arithmetic or logic functions on two words as chosen by mode inputs.",
+  "description": [
+    "The ALU qualifier identifies an element that can perform several arithmetic and logic operations on input words P and Q. Function-select inputs use M dependency or a binary grouping to choose the operation, and outputs include the result, carry and often a P=Q flag. Because the function table is large, the symbol usually refers to a table on the drawing or in the datasheet.",
+    "ALU symbols appear in processor and controller block diagrams and in legacy logic boards. On a modern control drawing they mainly document programmable logic or explain how a processor module handles signals.",
+    "The ALU qualifier does not list the operations. A function table is essential and should be referenced explicitly. Preserve the mode-select signal names and the carry interpretation when comparing the symbol with that table."
+  ],
+  "readingNotes": [
+    "Find the function table referenced by the mode inputs.",
+    "Check carry and comparison outputs."
+  ],
+  "drawingChecklist": [
+    "Mark the element ALU.",
+    "Reference the function table.",
+    "Show carry and flag outputs."
+  ],
+  "distinction": "The Σ element only adds; the ALU selects among many operations, including subtraction and logic functions.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "ALU"
+    },
+    {
+      "label": "Function selection",
+      "value": "Mode inputs referencing a table"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists ALU as a general qualifier."
+    }
+  ],
+  "related": [
+    "iec-full-adder",
+    "iec-magnitude-comparator",
+    "binary-full-adder"
+  ],
+  "artwork": "s28-iec-arithmetic-logic-unit",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with ALU qualifier and mode-select inputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-arithmetic-logic-unit",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-arithmetic-logic-unit.svg",
+  "id": "iec-arithmetic-logic-unit",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-arithmetic-logic-unit",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-arithmetic-logic-unit.json",
+  "svgPath": "artwork/svg/iec-arithmetic-logic-unit.svg",
+  "referencePath": "references/iec-arithmetic-logic-unit.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists ALU as a general qualifier."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-ultrasonic-nc-switching-output",
+  "name": "ANSI/IEEE Ultrasonic NC switching output form",
+  "kind": "symbol",
+  "abbreviation": "HPX12U",
+  "aliases": [
+    "HPX12U",
+    "VPX12U",
+    "IEEE Ultrasonic Switch, Normally Closed",
+    "ANSI Ultrasonic NC switching output"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of ultrasonic nc switching output: this form identifies a normally-closed switching output in the ultrasonic sensor family.",
+  "description": [
+    "This reference locates ultrasonic nc switching output in Autodesk's IEEE-oriented ultrasonic switches family. This form identifies a normally-closed switching output in the ultrasonic sensor family. The public library uses HPX12U for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Identify the reference sensing condition and connected control input. Normally closed does not imply a safety-rated diagnostic output. Identify the reference sensing condition and connected control input. Normally closed does not imply a safety-rated diagnostic output. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the reference sensing condition and connected control input.",
+    "Normally closed does not imply a safety-rated diagnostic output."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify the reference sensing condition and connected control input.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Normally closed does not imply a safety-rated diagnostic output.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Ultrasonic Switches; published form: Ultrasonic Switch, Normally Closed."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX12U. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Identify the reference sensing condition and connected control input."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-ultrasonic-switches",
+      "relevance": "Public IEEE-oriented Ultrasonic Switches table explicitly lists HPX12U as Ultrasonic Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-ultrasonic-nc-switching-output",
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-ultrasonic-nc-switching-output",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Ultrasonic Switch, Normally Closed",
+    "reference": "Autodesk IEEE Symbol Preview: Ultrasonic Switches, block HPX12U. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-ultrasonic-nc-switching-output"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-ultrasonic-nc-switching-output",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-ultrasonic-nc-switching-output.svg",
+  "id": "ansi-ultrasonic-nc-switching-output",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-ultrasonic-nc-switching-output",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-ultrasonic-nc-switching-output.json",
+  "svgPath": "artwork/svg/ansi-ultrasonic-nc-switching-output.svg",
+  "referencePath": "references/ansi-ultrasonic-nc-switching-output.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-ultrasonic-switches",
+      "title": "Autodesk IEEE Symbol Preview: Ultrasonic Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B9F9E342-BC89-4736-B60A-5A2F326BF3BF.htm",
+      "type": "cad-reference",
+      "scope": "Public ultrasonic switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Ultrasonic Switches table explicitly lists HPX12U as Ultrasonic Switch, Normally Closed. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

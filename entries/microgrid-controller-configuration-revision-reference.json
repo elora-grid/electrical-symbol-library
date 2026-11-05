@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-controller-configuration-revision-reference",
+  "name": "Microgrid controller configuration-revision reference",
+  "kind": "symbol",
+  "abbreviation": "MCCR",
+  "aliases": [
+    "Microgrid supervisory and communication interfaces",
+    "microgrids Microgrid supervisory and communication interfaces",
+    "microgrids",
+    "Microgrids",
+    "Drawing and control map",
+    "Controller revision reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Links the assigned control functions and point mappings to their reviewed configuration revision.",
+  "description": [
+    "Links the assigned control functions and point mappings to their reviewed configuration revision. Microgrid supervision coordinates measurements, control authority and resource communication without replacing local protection. Each resource value needs a named measurement boundary, freshness condition and intended control use.",
+    "In a microgrid control room, the operator can see source availability, active constraints and current operating mode. A communication failure should remain distinguishable from an electrical resource failure. For this reference, the drawing identifies “Drawing and control map” at the input and “Controller revision reference” at the output. Installed and reviewed revisions must agree.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Drawing and control map. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Controller revision reference. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Installed and reviewed revisions must agree.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for drawing and control map.",
+    "Identify the destination and defined state of controller revision reference.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Installed and reviewed revisions must agree."
+  ],
+  "distinction": "Installed and reviewed revisions must agree. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Drawing and control map"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Controller revision reference"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MCCR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "sequence-of-events-recorder",
+    "microgrid-common-alarm-external-interface"
+  ],
+  "artwork": "pi26-microgrid-controller-configuration-revision-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-monitoring",
+    "input": "Drawing and control map",
+    "output": "Controller revision reference"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-controller-configuration-revision-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-controller-configuration-revision-reference.svg",
+  "id": "microgrid-controller-configuration-revision-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-controller-configuration-revision-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-controller-configuration-revision-reference.json",
+  "svgPath": "artwork/svg/microgrid-controller-configuration-revision-reference.svg",
+  "referencePath": "references/microgrid-controller-configuration-revision-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-reverse-power-coordination",
+  "name": "Microgrid generator reverse-power coordination",
+  "kind": "symbol",
+  "abbreviation": "MGRC",
+  "aliases": [
+    "Microgrid generating-set coordination",
+    "microgrids Microgrid generating-set coordination",
+    "microgrids",
+    "Microgrids",
+    "Generator power direction",
+    "Documented reverse-power response"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Relates the assigned power-flow supervision to the generator dispatch or protection response.",
+  "description": [
+    "Relates the assigned power-flow supervision to the generator dispatch or protection response. Generating-set coordination decides which available machines should operate and how their power contribution is shared. Engine starting, breaker connection, load acceptance and stopping are separate stages with their own feedback.",
+    "In a microgrid power station, the controller can request an additional generator when available reserve falls and later unload a selected machine before its documented stop sequence. For this reference, the drawing identifies “Generator power direction” at the input and “Documented reverse-power response” at the output. Protection settings and dispatch restraint are different functions.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Generator power direction. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Documented reverse-power response. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Protection settings and dispatch restraint are different functions.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for generator power direction.",
+    "Identify the destination and defined state of documented reverse-power response.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Protection settings and dispatch restraint are different functions."
+  ],
+  "distinction": "Protection settings and dispatch restraint are different functions. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Generator power direction"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Documented reverse-power response"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGRC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-genset-control",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "genset-controller",
+    "diesel-generator-set",
+    "microgrid-generator-load-share-communications-alarm"
+  ],
+  "artwork": "pi26-microgrid-generator-reverse-power-coordination",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-gensets",
+    "input": "Generator power direction",
+    "output": "Documented reverse-power response"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-reverse-power-coordination",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-reverse-power-coordination.svg",
+  "id": "microgrid-generator-reverse-power-coordination",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-reverse-power-coordination",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-reverse-power-coordination.json",
+  "svgPath": "artwork/svg/microgrid-generator-reverse-power-coordination.svg",
+  "referencePath": "references/microgrid-generator-reverse-power-coordination.md",
+  "publicSources": [
+    {
+      "id": "pi26-genset-control",
+      "publisher": "DEIF",
+      "title": "AGC power management options G4, G5 and G8",
+      "url": "https://www.deif.com/media/5a4bx0xv/agc-3-option-g4-g5-and-g8-power-management-4189340696-uk.pdf",
+      "scope": "Generator start/stop, load sharing, reserve and power management.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

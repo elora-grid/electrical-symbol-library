@@ -1,0 +1,118 @@
+{
+  "slug": "iec-fibre-optic-link-symbol",
+  "name": "Fibre-optic link symbol",
+  "kind": "symbol",
+  "abbreviation": "FO",
+  "aliases": [
+    "optical fibre cable",
+    "fibre link",
+    "optical waveguide"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic",
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Symbol for an optical fibre link between devices, a line with a fibre mark, often with media converters at each end.",
+  "description": [
+    "Fibre-optic links are drawn as a line carrying a fibre indication, such as a small loop, a wavy section or the tag FO, between the devices they connect. Network diagrams also show the fibre count and type, such as 12-core single-mode.",
+    "Electrical drawings use fibre links for substation communications, between buildings and through areas with electrical noise or earth potential rise, because fibre gives galvanic isolation. The symbol is often terminated in a media converter or switch fibre port. The symbol does not specify connectors, loss budget or route. The fibre schedule and test results cover these."
+  ],
+  "readingNotes": [
+    "Read core count and fibre type.",
+    "Find the termination at each end."
+  ],
+  "drawingChecklist": [
+    "State fibre type and cores.",
+    "Show terminations.",
+    "Reference loss test results."
+  ],
+  "distinction": "A copper data cable has no isolation benefit; the fibre link isolates the two ends electrically.",
+  "facts": [
+    {
+      "label": "Benefit",
+      "value": "Galvanic isolation and noise immunity"
+    },
+    {
+      "label": "Key data",
+      "value": "Fibre type and core count"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "s28-westermo-media-converters",
+      "relevance": "Public product family page describing copper Ethernet to fibre conversion."
+    },
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ],
+  "related": [
+    "ga-fibre-optic-patch-panel",
+    "iec-media-converter-symbol"
+  ],
+  "artwork": "s28-iec-fibre-optic-link-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Optical fibre link",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-fibre-optic-link-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-fibre-optic-link-symbol.svg",
+  "id": "iec-fibre-optic-link-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-fibre-optic-link-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-fibre-optic-link-symbol.json",
+  "svgPath": "artwork/svg/iec-fibre-optic-link-symbol.svg",
+  "referencePath": "references/iec-fibre-optic-link-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "s28-westermo-media-converters",
+      "title": "Industrial Ethernet to fibre media converters",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/converters/ethernet-media-converters",
+      "type": "manufacturer",
+      "scope": "Public product family page for copper Ethernet to multimode or single-mode fibre conversion.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public product family page describing copper Ethernet to fibre conversion."
+    },
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ]
+}

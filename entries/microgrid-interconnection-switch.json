@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-interconnection-switch",
+  "name": "Microgrid interconnection switch",
+  "kind": "symbol",
+  "abbreviation": "MIS",
+  "aliases": [
+    "island breaker",
+    "intertie breaker",
+    "point of interconnection switch"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "The switching device that separates a microgrid from the utility for islanding and reconnects it after synchronising.",
+  "description": [
+    "The microgrid interconnection switch is the breaker or switch at the boundary with the utility that opens to island the microgrid and closes to reconnect it. Its control is tied to interface protection, which detects loss of mains, and to the microgrid controller, which manages planned islanding and resynchronisation.",
+    "Single-line diagrams show a circuit breaker at the point of common coupling with protection functions listed beside it, commonly under and over voltage, under and over frequency, rate of change of frequency, directional power and synchronism check. A label such as MIS or island breaker identifies its role.",
+    "The breaker itself is an ordinary device; its function comes from the protection and control logic. The symbol does not show whether reconnection is automatic, how long it waits or whether a seamless transition is possible."
+  ],
+  "readingNotes": [
+    "Read the protection functions listed beside the breaker.",
+    "Synchronism check must supervise closing."
+  ],
+  "drawingChecklist": [
+    "State interface protection functions and settings source.",
+    "Show synchronism check and controller link.",
+    "Reference islanding and reconnection logic."
+  ],
+  "distinction": "The interconnection switch defines the island boundary; a generator breaker connects only one source.",
+  "facts": [
+    {
+      "label": "Device",
+      "value": "Circuit breaker or switch"
+    },
+    {
+      "label": "Key protection",
+      "value": "Voltage, frequency, ROCOF, reverse power"
+    },
+    {
+      "label": "Closing supervision",
+      "value": "Synchronism check"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-deif-hybrid-microgrid",
+      "relevance": "Public microgrid control context with mains interaction."
+    },
+    {
+      "sourceId": "device-numbers",
+      "relevance": "Public device-function number table for interface protection functions."
+    }
+  ],
+  "related": [
+    "point-of-common-coupling",
+    "microgrid-controller",
+    "25-synchronism-check",
+    "81r-rate-of-change-of-frequency-protection"
+  ],
+  "artwork": "s28-microgrid-interconnection-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/microgrid-interconnection-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-interconnection-switch.svg",
+  "id": "microgrid-interconnection-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-interconnection-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-interconnection-switch.json",
+  "svgPath": "artwork/svg/microgrid-interconnection-switch.svg",
+  "referencePath": "references/microgrid-interconnection-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-deif-hybrid-microgrid",
+      "title": "Reliable hybrid power and microgrid solutions",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/applications/power-generation/reliable-hybrid-power-and-microgrid-solutions/",
+      "type": "manufacturer",
+      "scope": "Public hybrid and microgrid control context combining gensets, PV, storage and mains.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public microgrid control context with mains interaction."
+    },
+    {
+      "id": "device-numbers",
+      "title": "Public reference table of ANSI device-function numbers",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/es/es/faqs/FA34639/",
+      "type": "manufacturer",
+      "scope": "Spanish-language public reference table. Used to check device-number names; no claim that every function is implemented in every device.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public device-function number table for interface protection functions."
+    }
+  ]
+}

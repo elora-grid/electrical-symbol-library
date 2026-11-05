@@ -1,0 +1,4470 @@
+{
+  "schemaVersion": 1,
+  "category": "logic-signals",
+  "entries": [
+    {
+      "id": "logic-and-gate",
+      "slug": "logic-and-gate",
+      "name": "AND gate",
+      "kind": "symbol",
+      "abbreviation": "AND",
+      "aliases": [
+        "conjunction gate",
+        "logical AND"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A logic element whose output is true when all stated positive-logic inputs are true.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-and-gate",
+      "recordPath": "entries/logic-and-gate.json",
+      "svgPath": "artwork/svg/logic-and-gate.svg",
+      "referencePath": "references/logic-and-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-or-gate",
+      "slug": "logic-or-gate",
+      "name": "OR gate",
+      "kind": "symbol",
+      "abbreviation": "OR",
+      "aliases": [
+        "inclusive OR",
+        "logical OR"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A positive-logic element whose output is true when at least one input is true.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-or-gate",
+      "recordPath": "entries/logic-or-gate.json",
+      "svgPath": "artwork/svg/logic-or-gate.svg",
+      "referencePath": "references/logic-or-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-nand-gate",
+      "slug": "logic-nand-gate",
+      "name": "NAND gate",
+      "kind": "symbol",
+      "abbreviation": "NAND",
+      "aliases": [
+        "NOT AND",
+        "inverted AND"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A logic gate that inverts the result of an AND operation.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-nand-gate",
+      "recordPath": "entries/logic-nand-gate.json",
+      "svgPath": "artwork/svg/logic-nand-gate.svg",
+      "referencePath": "references/logic-nand-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-nor-gate",
+      "slug": "logic-nor-gate",
+      "name": "NOR gate",
+      "kind": "symbol",
+      "abbreviation": "NOR",
+      "aliases": [
+        "NOT OR",
+        "inverted OR"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A logic gate that inverts an inclusive-OR result.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-nor-gate",
+      "recordPath": "entries/logic-nor-gate.json",
+      "svgPath": "artwork/svg/logic-nor-gate.svg",
+      "referencePath": "references/logic-nor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-xor-gate",
+      "slug": "logic-xor-gate",
+      "name": "Exclusive-OR gate",
+      "kind": "symbol",
+      "abbreviation": "XOR",
+      "aliases": [
+        "exclusive OR",
+        "inequality gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "For two positive-logic inputs, produces a true output when the input states differ.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-xor-gate",
+      "recordPath": "entries/logic-xor-gate.json",
+      "svgPath": "artwork/svg/logic-xor-gate.svg",
+      "referencePath": "references/logic-xor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-xnor-gate",
+      "slug": "logic-xnor-gate",
+      "name": "Exclusive-NOR gate",
+      "kind": "symbol",
+      "abbreviation": "XNOR",
+      "aliases": [
+        "exclusive NOR",
+        "equality gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "For two positive-logic inputs, produces a true output when the input states are equal.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-xnor-gate",
+      "recordPath": "entries/logic-xnor-gate.json",
+      "svgPath": "artwork/svg/logic-xnor-gate.svg",
+      "referencePath": "references/logic-xnor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-inverter",
+      "slug": "logic-inverter",
+      "name": "Logic inverter",
+      "kind": "symbol",
+      "abbreviation": "NOT",
+      "aliases": [
+        "NOT gate",
+        "logical inversion"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Produces the opposite logical state of its defined digital input.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-inverter",
+      "recordPath": "entries/logic-inverter.json",
+      "svgPath": "artwork/svg/logic-inverter.svg",
+      "referencePath": "references/logic-inverter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-buffer",
+      "slug": "logic-buffer",
+      "name": "Non-inverting logic buffer",
+      "kind": "symbol",
+      "abbreviation": "BUF",
+      "aliases": [
+        "digital buffer",
+        "logic driver"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Transfers a digital state through a non-inverting logic output stage.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-buffer",
+      "recordPath": "entries/logic-buffer.json",
+      "svgPath": "artwork/svg/logic-buffer.svg",
+      "referencePath": "references/logic-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-three-state-buffer",
+      "slug": "logic-three-state-buffer",
+      "name": "Three-state logic buffer",
+      "kind": "symbol",
+      "abbreviation": "3STATE",
+      "aliases": [
+        "tri-state buffer",
+        "tristate driver",
+        "high impedance output buffer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A digital output stage that can drive logical states or enter its documented high-impedance state.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-three-state-buffer",
+      "recordPath": "entries/logic-three-state-buffer.json",
+      "svgPath": "artwork/svg/logic-three-state-buffer.svg",
+      "referencePath": "references/logic-three-state-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "schmitt-trigger-inverter",
+      "slug": "schmitt-trigger-inverter",
+      "name": "Schmitt-trigger inverter",
+      "kind": "symbol",
+      "abbreviation": "SCHMITT-NOT",
+      "aliases": [
+        "hysteresis inverter",
+        "Schmitt NOT"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A digital inverter with hysteresis between its input switching thresholds.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/schmitt-trigger-inverter",
+      "recordPath": "entries/schmitt-trigger-inverter.json",
+      "svgPath": "artwork/svg/schmitt-trigger-inverter.svg",
+      "referencePath": "references/schmitt-trigger-inverter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "schmitt-trigger-buffer",
+      "slug": "schmitt-trigger-buffer",
+      "name": "Schmitt-trigger buffer",
+      "kind": "symbol",
+      "abbreviation": "SCHMITT",
+      "aliases": [
+        "noninverting Schmitt trigger",
+        "hysteresis buffer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A non-inverting digital element with separate rising and falling input thresholds.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/schmitt-trigger-buffer",
+      "recordPath": "entries/schmitt-trigger-buffer.json",
+      "svgPath": "artwork/svg/schmitt-trigger-buffer.svg",
+      "referencePath": "references/schmitt-trigger-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "positive-edge-d-flip-flop",
+      "slug": "positive-edge-d-flip-flop",
+      "name": "Positive-edge D flip-flop",
+      "kind": "symbol",
+      "abbreviation": "D-FF",
+      "aliases": [
+        "D type flip flop",
+        "edge triggered storage"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Captures its data input at the documented positive clock edge and retains that digital state.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/positive-edge-d-flip-flop",
+      "recordPath": "entries/positive-edge-d-flip-flop.json",
+      "svgPath": "artwork/svg/positive-edge-d-flip-flop.svg",
+      "referencePath": "references/positive-edge-d-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "negative-edge-jk-flip-flop",
+      "slug": "negative-edge-jk-flip-flop",
+      "name": "Negative-edge JK flip-flop",
+      "kind": "symbol",
+      "abbreviation": "JK-FF",
+      "aliases": [
+        "J K flip flop",
+        "JK bistable"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Updates or toggles its stored state from J and K inputs at the selected negative clock edge.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/negative-edge-jk-flip-flop",
+      "recordPath": "entries/negative-edge-jk-flip-flop.json",
+      "svgPath": "artwork/svg/negative-edge-jk-flip-flop.svg",
+      "referencePath": "references/negative-edge-jk-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "set-reset-latch",
+      "slug": "set-reset-latch",
+      "name": "Set-reset latch",
+      "kind": "symbol",
+      "abbreviation": "SR-LATCH",
+      "aliases": [
+        "S R latch",
+        "RS bistable",
+        "set reset memory"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Retains a digital state that is changed by the defined set or reset input conditions.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/set-reset-latch",
+      "recordPath": "entries/set-reset-latch.json",
+      "svgPath": "artwork/svg/set-reset-latch.svg",
+      "referencePath": "references/set-reset-latch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "transparent-d-latch",
+      "slug": "transparent-d-latch",
+      "name": "Transparent D latch",
+      "kind": "symbol",
+      "abbreviation": "D-LATCH",
+      "aliases": [
+        "level sensitive latch",
+        "transparent data latch"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Follows the input data while its latch-enable condition is active and retains it when that condition ends.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/transparent-d-latch",
+      "recordPath": "entries/transparent-d-latch.json",
+      "svgPath": "artwork/svg/transparent-d-latch.svg",
+      "referencePath": "references/transparent-d-latch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "serial-in-parallel-out-register",
+      "slug": "serial-in-parallel-out-register",
+      "name": "Serial-in parallel-out register",
+      "kind": "symbol",
+      "abbreviation": "SIPO",
+      "aliases": [
+        "serial to parallel register",
+        "SIPO shift register"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Shifts serial input data through storage stages to parallel outputs at the documented clock events.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/serial-in-parallel-out-register",
+      "recordPath": "entries/serial-in-parallel-out-register.json",
+      "svgPath": "artwork/svg/serial-in-parallel-out-register.svg",
+      "referencePath": "references/serial-in-parallel-out-register.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "parallel-in-serial-out-register",
+      "slug": "parallel-in-serial-out-register",
+      "name": "Parallel-in serial-out register",
+      "kind": "symbol",
+      "abbreviation": "PISO",
+      "aliases": [
+        "parallel to serial register",
+        "PISO shift register"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Loads a parallel word and presents its bits through a serial shift output.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/parallel-in-serial-out-register",
+      "recordPath": "entries/parallel-in-serial-out-register.json",
+      "svgPath": "artwork/svg/parallel-in-serial-out-register.svg",
+      "referencePath": "references/parallel-in-serial-out-register.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "latched-shift-register",
+      "slug": "latched-shift-register",
+      "name": "Shift register with output latch",
+      "kind": "symbol",
+      "abbreviation": "SHIFT-LATCH",
+      "aliases": [
+        "serial output latch",
+        "output registered shift register"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Combines a serial shift path with a separate output-storage stage.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/latched-shift-register",
+      "recordPath": "entries/latched-shift-register.json",
+      "svgPath": "artwork/svg/latched-shift-register.svg",
+      "referencePath": "references/latched-shift-register.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ripple-binary-counter",
+      "slug": "ripple-binary-counter",
+      "name": "Ripple binary counter",
+      "kind": "symbol",
+      "abbreviation": "CTR-RIP",
+      "aliases": [
+        "asynchronous binary counter",
+        "ripple counter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Counts clock events through cascaded storage stages whose output changes do not occur simultaneously.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/ripple-binary-counter",
+      "recordPath": "entries/ripple-binary-counter.json",
+      "svgPath": "artwork/svg/ripple-binary-counter.svg",
+      "referencePath": "references/ripple-binary-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "synchronous-binary-counter",
+      "slug": "synchronous-binary-counter",
+      "name": "Synchronous binary counter",
+      "kind": "symbol",
+      "abbreviation": "CTR-SYNC",
+      "aliases": [
+        "synchronous counter",
+        "binary count register"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Updates its binary count from a common clock with the documented count-enable, load and clear controls.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/synchronous-binary-counter",
+      "recordPath": "entries/synchronous-binary-counter.json",
+      "svgPath": "artwork/svg/synchronous-binary-counter.svg",
+      "referencePath": "references/synchronous-binary-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "one-hot-decade-counter",
+      "slug": "one-hot-decade-counter",
+      "name": "Decoded decade counter",
+      "kind": "symbol",
+      "abbreviation": "DECADE",
+      "aliases": [
+        "one hot decade counter",
+        "Johnson decade counter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Advances a decoded output sequence through the documented ten-state counter arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/one-hot-decade-counter",
+      "recordPath": "entries/one-hot-decade-counter.json",
+      "svgPath": "artwork/svg/one-hot-decade-counter.svg",
+      "referencePath": "references/one-hot-decade-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "retriggerable-monostable",
+      "slug": "retriggerable-monostable",
+      "name": "Retriggerable monostable",
+      "kind": "symbol",
+      "abbreviation": "ONE-SHOT",
+      "aliases": [
+        "one shot",
+        "retriggerable pulse timer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Produces a timed output pulse that can be extended by a qualifying retrigger condition.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/retriggerable-monostable",
+      "recordPath": "entries/retriggerable-monostable.json",
+      "svgPath": "artwork/svg/retriggerable-monostable.svg",
+      "referencePath": "references/retriggerable-monostable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "binary-decoder-demultiplexer",
+      "slug": "binary-decoder-demultiplexer",
+      "name": "Binary decoder / demultiplexer",
+      "kind": "symbol",
+      "abbreviation": "DEC",
+      "aliases": [
+        "binary decoder",
+        "demultiplexer",
+        "one of many selection"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Uses binary selection and enable conditions to activate the documented selected output.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/binary-decoder-demultiplexer",
+      "recordPath": "entries/binary-decoder-demultiplexer.json",
+      "svgPath": "artwork/svg/binary-decoder-demultiplexer.svg",
+      "referencePath": "references/binary-decoder-demultiplexer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "priority-encoder",
+      "slug": "priority-encoder",
+      "name": "Priority encoder",
+      "kind": "symbol",
+      "abbreviation": "ENC-PRI",
+      "aliases": [
+        "digital priority encoder",
+        "input priority coding"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Encodes the highest-priority qualifying input into the specified binary output word.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/priority-encoder",
+      "recordPath": "entries/priority-encoder.json",
+      "svgPath": "artwork/svg/priority-encoder.svg",
+      "referencePath": "references/priority-encoder.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "digital-multiplexer",
+      "slug": "digital-multiplexer",
+      "name": "Digital multiplexer",
+      "kind": "symbol",
+      "abbreviation": "MUX",
+      "aliases": [
+        "digital data selector",
+        "logic multiplexer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Selects one of several digital inputs for the documented output according to its selection controls.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/digital-multiplexer",
+      "recordPath": "entries/digital-multiplexer.json",
+      "svgPath": "artwork/svg/digital-multiplexer.svg",
+      "referencePath": "references/digital-multiplexer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "digital-magnitude-comparator",
+      "slug": "digital-magnitude-comparator",
+      "name": "Digital magnitude comparator",
+      "kind": "symbol",
+      "abbreviation": "MAG-COMP",
+      "aliases": [
+        "binary comparator",
+        "digital word comparison"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Compares two digital words to provide the specified equality and magnitude indications.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/digital-magnitude-comparator",
+      "recordPath": "entries/digital-magnitude-comparator.json",
+      "svgPath": "artwork/svg/digital-magnitude-comparator.svg",
+      "referencePath": "references/digital-magnitude-comparator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "binary-full-adder",
+      "slug": "binary-full-adder",
+      "name": "Binary full adder",
+      "kind": "symbol",
+      "abbreviation": "ADD",
+      "aliases": [
+        "binary adder",
+        "full adder",
+        "digital addition"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Adds binary input words with the documented carry-in and produces sum and carry outputs.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/binary-full-adder",
+      "recordPath": "entries/binary-full-adder.json",
+      "svgPath": "artwork/svg/binary-full-adder.svg",
+      "referencePath": "references/binary-full-adder.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-bus-transceiver",
+      "slug": "logic-bus-transceiver",
+      "name": "Logic bus transceiver",
+      "kind": "symbol",
+      "abbreviation": "BUS-TR",
+      "aliases": [
+        "bidirectional digital buffer",
+        "bus transceiver"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Drives data between two digital buses according to the selected direction and enable conditions.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-bus-transceiver",
+      "recordPath": "entries/logic-bus-transceiver.json",
+      "svgPath": "artwork/svg/logic-bus-transceiver.svg",
+      "referencePath": "references/logic-bus-transceiver.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "logic-voltage-level-translator",
+      "slug": "logic-voltage-level-translator",
+      "name": "Logic voltage-level translator",
+      "kind": "symbol",
+      "abbreviation": "LEVEL",
+      "aliases": [
+        "voltage translator",
+        "logic level shifter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Transfers digital information between the documented logic-voltage domains.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/logic-voltage-level-translator",
+      "recordPath": "entries/logic-voltage-level-translator.json",
+      "svgPath": "artwork/svg/logic-voltage-level-translator.svg",
+      "referencePath": "references/logic-voltage-level-translator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "open-collector-buffer",
+      "slug": "open-collector-buffer",
+      "name": "Open-collector buffer",
+      "kind": "symbol",
+      "abbreviation": "OC-BUF",
+      "aliases": [
+        "open collector logic",
+        "pull up output driver"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Provides a logic output through a transistor pull-down stage requiring the documented external load or pull-up.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/open-collector-buffer",
+      "recordPath": "entries/open-collector-buffer.json",
+      "svgPath": "artwork/svg/open-collector-buffer.svg",
+      "referencePath": "references/open-collector-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "parity-generator-checker",
+      "slug": "parity-generator-checker",
+      "name": "Parity generator / checker",
+      "kind": "symbol",
+      "abbreviation": "PARITY",
+      "aliases": [
+        "odd even parity",
+        "parity check logic"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Computes a parity indication from the defined digital input word.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/parity-generator-checker",
+      "recordPath": "entries/parity-generator-checker.json",
+      "svgPath": "artwork/svg/parity-generator-checker.svg",
+      "referencePath": "references/parity-generator-checker.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "phase-locked-loop",
+      "slug": "phase-locked-loop",
+      "name": "Phase-locked loop",
+      "kind": "symbol",
+      "abbreviation": "PLL",
+      "aliases": [
+        "phase locked loop",
+        "frequency tracking loop"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Controls an oscillator through a phase-comparison feedback arrangement to follow the documented reference.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/phase-locked-loop",
+      "recordPath": "entries/phase-locked-loop.json",
+      "svgPath": "artwork/svg/phase-locked-loop.svg",
+      "referencePath": "references/phase-locked-loop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "voltage-controlled-oscillator",
+      "slug": "voltage-controlled-oscillator",
+      "name": "Voltage-controlled oscillator",
+      "kind": "symbol",
+      "abbreviation": "VCO",
+      "aliases": [
+        "voltage to frequency oscillator",
+        "controlled oscillator"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Generates an oscillating output whose frequency responds to the documented control voltage.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/voltage-controlled-oscillator",
+      "recordPath": "entries/voltage-controlled-oscillator.json",
+      "svgPath": "artwork/svg/voltage-controlled-oscillator.svg",
+      "referencePath": "references/voltage-controlled-oscillator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "clock-generator",
+      "slug": "clock-generator",
+      "name": "Clock generator",
+      "kind": "symbol",
+      "abbreviation": "CLK-GEN",
+      "aliases": [
+        "timing clock IC",
+        "clock source block"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Provides the documented clock signal or signals used by digital circuitry.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/clock-generator",
+      "recordPath": "entries/clock-generator.json",
+      "svgPath": "artwork/svg/clock-generator.svg",
+      "referencePath": "references/clock-generator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "watchdog-timer",
+      "slug": "watchdog-timer",
+      "name": "Watchdog timer",
+      "kind": "symbol",
+      "abbreviation": "WDT",
+      "aliases": [
+        "watchdog IC",
+        "processor timeout monitor"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Supervises a qualifying activity signal and operates its output when the documented watchdog timing condition is violated.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/watchdog-timer",
+      "recordPath": "entries/watchdog-timer.json",
+      "svgPath": "artwork/svg/watchdog-timer.svg",
+      "referencePath": "references/watchdog-timer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "operational-amplifier",
+      "slug": "operational-amplifier",
+      "name": "Operational amplifier",
+      "kind": "symbol",
+      "abbreviation": "OP-AMP",
+      "aliases": [
+        "op amp",
+        "voltage feedback amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An analogue amplifier represented by inverting and non-inverting inputs, an output and its supply connections.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/operational-amplifier",
+      "recordPath": "entries/operational-amplifier.json",
+      "svgPath": "artwork/svg/operational-amplifier.svg",
+      "referencePath": "references/operational-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "voltage-comparator",
+      "slug": "voltage-comparator",
+      "name": "Voltage comparator",
+      "kind": "symbol",
+      "abbreviation": "COMP",
+      "aliases": [
+        "analogue comparator",
+        "analog voltage comparator"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Compares two analogue input voltages and produces the documented output-state indication.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/voltage-comparator",
+      "recordPath": "entries/voltage-comparator.json",
+      "svgPath": "artwork/svg/voltage-comparator.svg",
+      "referencePath": "references/voltage-comparator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "instrumentation-amplifier",
+      "slug": "instrumentation-amplifier",
+      "name": "Instrumentation amplifier",
+      "kind": "symbol",
+      "abbreviation": "INA",
+      "aliases": [
+        "instrument amplifier",
+        "differential instrumentation amp"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Amplifies a differential input signal using an instrumentation-amplifier input and gain arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/instrumentation-amplifier",
+      "recordPath": "entries/instrumentation-amplifier.json",
+      "svgPath": "artwork/svg/instrumentation-amplifier.svg",
+      "referencePath": "references/instrumentation-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "difference-amplifier",
+      "slug": "difference-amplifier",
+      "name": "Difference amplifier",
+      "kind": "symbol",
+      "abbreviation": "DIFF-AMP",
+      "aliases": [
+        "differential amplifier",
+        "subtractor amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Produces an analogue output related to the difference between two input signals with the documented gain/reference arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/difference-amplifier",
+      "recordPath": "entries/difference-amplifier.json",
+      "svgPath": "artwork/svg/difference-amplifier.svg",
+      "referencePath": "references/difference-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "fully-differential-amplifier",
+      "slug": "fully-differential-amplifier",
+      "name": "Fully differential amplifier",
+      "kind": "symbol",
+      "abbreviation": "FDA",
+      "aliases": [
+        "differential output amplifier",
+        "balanced amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Processes an analogue input to provide two complementary output signals around a defined common-mode level.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/fully-differential-amplifier",
+      "recordPath": "entries/fully-differential-amplifier.json",
+      "svgPath": "artwork/svg/fully-differential-amplifier.svg",
+      "referencePath": "references/fully-differential-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "current-sense-amplifier",
+      "slug": "current-sense-amplifier",
+      "name": "Current-sense amplifier",
+      "kind": "symbol",
+      "abbreviation": "CSA",
+      "aliases": [
+        "shunt amplifier",
+        "current measurement amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Amplifies a voltage associated with a current-sensing shunt using the selected measurement-input arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/current-sense-amplifier",
+      "recordPath": "entries/current-sense-amplifier.json",
+      "svgPath": "artwork/svg/current-sense-amplifier.svg",
+      "referencePath": "references/current-sense-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "isolation-amplifier",
+      "slug": "isolation-amplifier",
+      "name": "Isolation amplifier",
+      "kind": "symbol",
+      "abbreviation": "ISO-AMP",
+      "aliases": [
+        "isolated amplifier",
+        "galvanically isolated analogue amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Transfers an analogue measurement across the documented electrical isolation boundary.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/isolation-amplifier",
+      "recordPath": "entries/isolation-amplifier.json",
+      "svgPath": "artwork/svg/isolation-amplifier.svg",
+      "referencePath": "references/isolation-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "operational-transconductance-amplifier",
+      "slug": "operational-transconductance-amplifier",
+      "name": "Operational transconductance amplifier",
+      "kind": "symbol",
+      "abbreviation": "OTA",
+      "aliases": [
+        "transconductance amp",
+        "voltage to current amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Produces an output current controlled by its differential input voltage and documented bias arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/operational-transconductance-amplifier",
+      "recordPath": "entries/operational-transconductance-amplifier.json",
+      "svgPath": "artwork/svg/operational-transconductance-amplifier.svg",
+      "referencePath": "references/operational-transconductance-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "analog-multiplier",
+      "slug": "analog-multiplier",
+      "name": "Analogue multiplier",
+      "kind": "symbol",
+      "abbreviation": "MULT",
+      "aliases": [
+        "analog multiplier",
+        "four quadrant multiplier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Produces an analogue output related to the product of two input quantities and the selected scaling/summing arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/analog-multiplier",
+      "recordPath": "entries/analog-multiplier.json",
+      "svgPath": "artwork/svg/analog-multiplier.svg",
+      "referencePath": "references/analog-multiplier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "analog-bilateral-switch",
+      "slug": "analog-bilateral-switch",
+      "name": "Analogue bilateral switch",
+      "kind": "symbol",
+      "abbreviation": "A-SW",
+      "aliases": [
+        "analog switch",
+        "bilateral transmission switch"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Connects or disconnects an analogue signal path under its documented digital control.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/analog-bilateral-switch",
+      "recordPath": "entries/analog-bilateral-switch.json",
+      "svgPath": "artwork/svg/analog-bilateral-switch.svg",
+      "referencePath": "references/analog-bilateral-switch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "analog-multiplexer",
+      "slug": "analog-multiplexer",
+      "name": "Analogue multiplexer",
+      "kind": "symbol",
+      "abbreviation": "A-MUX",
+      "aliases": [
+        "analog multiplexer",
+        "analogue channel selector"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Selects a continuous-signal channel through the documented controlled switching arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/analog-multiplexer",
+      "recordPath": "entries/analog-multiplexer.json",
+      "svgPath": "artwork/svg/analog-multiplexer.svg",
+      "referencePath": "references/analog-multiplexer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "sample-and-hold-amplifier",
+      "slug": "sample-and-hold-amplifier",
+      "name": "Sample-and-hold amplifier",
+      "kind": "symbol",
+      "abbreviation": "S/H",
+      "aliases": [
+        "sample hold",
+        "track and hold",
+        "SHA"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Acquires an analogue signal during the documented sampling interval and retains a representation during hold.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/sample-and-hold-amplifier",
+      "recordPath": "entries/sample-and-hold-amplifier.json",
+      "svgPath": "artwork/svg/sample-and-hold-amplifier.svg",
+      "referencePath": "references/sample-and-hold-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "analog-to-digital-converter",
+      "slug": "analog-to-digital-converter",
+      "name": "Analogue-to-digital converter",
+      "kind": "symbol",
+      "abbreviation": "ADC",
+      "aliases": [
+        "analog to digital converter",
+        "A D converter",
+        "A/D"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Converts a sampled analogue quantity into the selected digital representation.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/analog-to-digital-converter",
+      "recordPath": "entries/analog-to-digital-converter.json",
+      "svgPath": "artwork/svg/analog-to-digital-converter.svg",
+      "referencePath": "references/analog-to-digital-converter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "digital-to-analog-converter",
+      "slug": "digital-to-analog-converter",
+      "name": "Digital-to-analogue converter",
+      "kind": "symbol",
+      "abbreviation": "DAC",
+      "aliases": [
+        "digital to analog converter",
+        "D A converter",
+        "D/A"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Converts a digital code into the documented analogue output quantity.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/digital-to-analog-converter",
+      "recordPath": "entries/digital-to-analog-converter.json",
+      "svgPath": "artwork/svg/digital-to-analog-converter.svg",
+      "referencePath": "references/digital-to-analog-converter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "series-voltage-reference",
+      "slug": "series-voltage-reference",
+      "name": "Series voltage reference",
+      "kind": "symbol",
+      "abbreviation": "VREF-S",
+      "aliases": [
+        "series reference",
+        "precision voltage reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Provides a reference voltage through a series-connected supply and output arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/series-voltage-reference",
+      "recordPath": "entries/series-voltage-reference.json",
+      "svgPath": "artwork/svg/series-voltage-reference.svg",
+      "referencePath": "references/series-voltage-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "shunt-voltage-reference",
+      "slug": "shunt-voltage-reference",
+      "name": "Shunt voltage reference",
+      "kind": "symbol",
+      "abbreviation": "VREF-H",
+      "aliases": [
+        "shunt reference",
+        "programmable shunt reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Establishes a reference voltage using a shunt-current path and the documented bias or feedback circuit.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/shunt-voltage-reference",
+      "recordPath": "entries/shunt-voltage-reference.json",
+      "svgPath": "artwork/svg/shunt-voltage-reference.svg",
+      "referencePath": "references/shunt-voltage-reference.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "precision-rectifier",
+      "slug": "precision-rectifier",
+      "name": "Precision rectifier",
+      "kind": "symbol",
+      "abbreviation": "PREC-RECT",
+      "aliases": [
+        "active rectifier",
+        "signal rectifier",
+        "super diode"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Uses an active amplifier/diode arrangement to rectify a signal according to the documented circuit.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/precision-rectifier",
+      "recordPath": "entries/precision-rectifier.json",
+      "svgPath": "artwork/svg/precision-rectifier.svg",
+      "referencePath": "references/precision-rectifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "rms-to-dc-converter",
+      "slug": "rms-to-dc-converter",
+      "name": "RMS-to-DC converter",
+      "kind": "symbol",
+      "abbreviation": "RMS-DC",
+      "aliases": [
+        "true RMS converter",
+        "RMS measurement IC"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Produces a DC output related to the RMS value of its input signal under the selected implementation.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/rms-to-dc-converter",
+      "recordPath": "entries/rms-to-dc-converter.json",
+      "svgPath": "artwork/svg/rms-to-dc-converter.svg",
+      "referencePath": "references/rms-to-dc-converter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "voltage-frequency-converter",
+      "slug": "voltage-frequency-converter",
+      "name": "Voltage / frequency converter",
+      "kind": "symbol",
+      "abbreviation": "V/F",
+      "aliases": [
+        "voltage to frequency",
+        "frequency to voltage",
+        "V F V converter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Converts between an analogue voltage and a pulse-frequency representation in the documented selected configuration.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/voltage-frequency-converter",
+      "recordPath": "entries/voltage-frequency-converter.json",
+      "svgPath": "artwork/svg/voltage-frequency-converter.svg",
+      "referencePath": "references/voltage-frequency-converter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "inverting-amplifier-circuit",
+      "slug": "inverting-amplifier-circuit",
+      "name": "Inverting amplifier circuit",
+      "kind": "symbol",
+      "abbreviation": "INV-AMP",
+      "aliases": [
+        "negative gain amplifier",
+        "inverting op amp"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Uses an amplifier feedback connection that produces the documented inverted signal relationship.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/inverting-amplifier-circuit",
+      "recordPath": "entries/inverting-amplifier-circuit.json",
+      "svgPath": "artwork/svg/inverting-amplifier-circuit.svg",
+      "referencePath": "references/inverting-amplifier-circuit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "non-inverting-amplifier-circuit",
+      "slug": "non-inverting-amplifier-circuit",
+      "name": "Non-inverting amplifier circuit",
+      "kind": "symbol",
+      "abbreviation": "NI-AMP",
+      "aliases": [
+        "positive gain amplifier",
+        "noninverting op amp"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Uses an amplifier feedback arrangement to amplify a signal without the intended polarity inversion.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/non-inverting-amplifier-circuit",
+      "recordPath": "entries/non-inverting-amplifier-circuit.json",
+      "svgPath": "artwork/svg/non-inverting-amplifier-circuit.svg",
+      "referencePath": "references/non-inverting-amplifier-circuit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "op-amp-integrator",
+      "slug": "op-amp-integrator",
+      "name": "Op-amp integrator",
+      "kind": "symbol",
+      "abbreviation": "INTEGRATOR",
+      "aliases": [
+        "analogue integrator",
+        "integrating amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Uses a documented amplifier/capacitor feedback arrangement to obtain an integrating signal response.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/op-amp-integrator",
+      "recordPath": "entries/op-amp-integrator.json",
+      "svgPath": "artwork/svg/op-amp-integrator.svg",
+      "referencePath": "references/op-amp-integrator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "op-amp-differentiator",
+      "slug": "op-amp-differentiator",
+      "name": "Op-amp differentiator",
+      "kind": "symbol",
+      "abbreviation": "DIFFERENTIATOR",
+      "aliases": [
+        "analogue differentiator",
+        "differentiating amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Uses an amplifier input/feedback arrangement to obtain a differentiating response over its intended operating band.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/op-amp-differentiator",
+      "recordPath": "entries/op-amp-differentiator.json",
+      "svgPath": "artwork/svg/op-amp-differentiator.svg",
+      "referencePath": "references/op-amp-differentiator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "active-low-pass-filter",
+      "slug": "active-low-pass-filter",
+      "name": "Active low-pass filter",
+      "kind": "symbol",
+      "abbreviation": "LPF",
+      "aliases": [
+        "low pass analogue filter",
+        "anti alias filter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Passes the intended lower-frequency signal content while attenuating higher-frequency content through an active filter circuit.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/active-low-pass-filter",
+      "recordPath": "entries/active-low-pass-filter.json",
+      "svgPath": "artwork/svg/active-low-pass-filter.svg",
+      "referencePath": "references/active-low-pass-filter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "active-high-pass-filter",
+      "slug": "active-high-pass-filter",
+      "name": "Active high-pass filter",
+      "kind": "symbol",
+      "abbreviation": "HPF",
+      "aliases": [
+        "high pass analogue filter",
+        "DC blocking active filter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Attenuates lower-frequency content while passing the intended higher-frequency signal band.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/active-high-pass-filter",
+      "recordPath": "entries/active-high-pass-filter.json",
+      "svgPath": "artwork/svg/active-high-pass-filter.svg",
+      "referencePath": "references/active-high-pass-filter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "active-band-pass-filter",
+      "slug": "active-band-pass-filter",
+      "name": "Active band-pass filter",
+      "kind": "symbol",
+      "abbreviation": "BPF",
+      "aliases": [
+        "band pass analogue filter",
+        "bandpass amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Passes an intended frequency band while attenuating content below and above that band.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/active-band-pass-filter",
+      "recordPath": "entries/active-band-pass-filter.json",
+      "svgPath": "artwork/svg/active-band-pass-filter.svg",
+      "referencePath": "references/active-band-pass-filter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "active-notch-filter",
+      "slug": "active-notch-filter",
+      "name": "Active notch filter",
+      "kind": "symbol",
+      "abbreviation": "NOTCH",
+      "aliases": [
+        "band stop filter",
+        "band rejection filter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Attenuates a defined frequency region while retaining the intended content outside it.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/active-notch-filter",
+      "recordPath": "entries/active-notch-filter.json",
+      "svgPath": "artwork/svg/active-notch-filter.svg",
+      "referencePath": "references/active-notch-filter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "transimpedance-amplifier",
+      "slug": "transimpedance-amplifier",
+      "name": "Transimpedance amplifier",
+      "kind": "symbol",
+      "abbreviation": "TIA",
+      "aliases": [
+        "current to voltage amplifier",
+        "photodiode amplifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Converts an input current into an output voltage through the documented feedback arrangement.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/transimpedance-amplifier",
+      "recordPath": "entries/transimpedance-amplifier.json",
+      "svgPath": "artwork/svg/transimpedance-amplifier.svg",
+      "referencePath": "references/transimpedance-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "supply-voltage-supervisor",
+      "slug": "supply-voltage-supervisor",
+      "name": "Supply voltage supervisor",
+      "kind": "symbol",
+      "abbreviation": "SVS",
+      "aliases": [
+        "Supply voltage supervisor",
+        "Supply voltage supervisor functional block",
+        "Supply voltage supervisor schematic reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A voltage supervisor checks a supply against specified conditions and produces a status or reset signal.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/supply-voltage-supervisor",
+      "recordPath": "entries/supply-voltage-supervisor.json",
+      "svgPath": "artwork/svg/supply-voltage-supervisor.svg",
+      "referencePath": "references/supply-voltage-supervisor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-good-indication",
+      "slug": "power-good-indication",
+      "name": "Power-good indication",
+      "kind": "symbol",
+      "abbreviation": "PG",
+      "aliases": [
+        "Power-good indication",
+        "Power-good indication functional block",
+        "Power-good indication schematic reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A power-good signal reports whether the source's specified acceptable-supply conditions are satisfied.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-good-indication",
+      "recordPath": "entries/power-good-indication.json",
+      "svgPath": "artwork/svg/power-good-indication.svg",
+      "referencePath": "references/power-good-indication.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "window-voltage-supervisor",
+      "slug": "window-voltage-supervisor",
+      "name": "Window voltage supervisor",
+      "kind": "symbol",
+      "abbreviation": "V WIN",
+      "aliases": [
+        "Window voltage supervisor",
+        "Window voltage supervisor functional block",
+        "Window voltage supervisor schematic reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A window supervisor checks whether a monitored voltage stays between its specified lower and upper limits.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/window-voltage-supervisor",
+      "recordPath": "entries/window-voltage-supervisor.json",
+      "svgPath": "artwork/svg/window-voltage-supervisor.svg",
+      "referencePath": "references/window-voltage-supervisor.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-rail-sequencer",
+      "slug": "power-rail-sequencer",
+      "name": "Power-rail sequencer",
+      "kind": "symbol",
+      "abbreviation": "SEQ",
+      "aliases": [
+        "Power-rail sequencer",
+        "Power-rail sequencer functional block",
+        "Power-rail sequencer schematic reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "A power sequencer controls the order in which selected supply rails are enabled or disabled.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-rail-sequencer",
+      "recordPath": "entries/power-rail-sequencer.json",
+      "svgPath": "artwork/svg/power-rail-sequencer.svg",
+      "referencePath": "references/power-rail-sequencer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "power-rail-enable-interface",
+      "slug": "power-rail-enable-interface",
+      "name": "Power-rail enable interface",
+      "kind": "symbol",
+      "abbreviation": "EN",
+      "aliases": [
+        "Power-rail enable interface",
+        "Power-rail enable interface functional block",
+        "Power-rail enable interface schematic reference"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "An enable interface requests a selected power supply or switched rail to operate.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/power-rail-enable-interface",
+      "recordPath": "entries/power-rail-enable-interface.json",
+      "svgPath": "artwork/svg/power-rail-enable-interface.svg",
+      "referencePath": "references/power-rail-enable-interface.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-and-gate",
+      "slug": "iec-and-gate",
+      "name": "IEC AND gate (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "&",
+      "aliases": [
+        "IEC 60617-12 AND element",
+        "rectangular AND gate",
+        "& gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Rectangular IEC-style AND element marked with an ampersand; the output is active only when every input is active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular outline with the & general qualifying symbol",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-and-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-and-gate",
+      "recordPath": "entries/iec-and-gate.json",
+      "svgPath": "artwork/svg/iec-and-gate.svg",
+      "referencePath": "references/iec-and-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-or-gate",
+      "slug": "iec-or-gate",
+      "name": "IEC OR gate (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "≥1",
+      "aliases": [
+        "IEC 60617-12 OR element",
+        "rectangular OR gate",
+        "greater-or-equal-one gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC rectangular OR element labelled ≥1, meaning at least one active input is needed to activate the output.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular outline with the ≥1 general qualifying symbol",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-or-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-or-gate",
+      "recordPath": "entries/iec-or-gate.json",
+      "svgPath": "artwork/svg/iec-or-gate.svg",
+      "referencePath": "references/iec-or-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-nand-gate",
+      "slug": "iec-nand-gate",
+      "name": "IEC NAND gate (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "&",
+      "aliases": [
+        "IEC NAND element",
+        "rectangular NAND gate",
+        "AND with negated output"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC AND box with a negation circle or polarity triangle at its output, giving the NAND function.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "& rectangular element with output negation circle",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-nand-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-nand-gate",
+      "recordPath": "entries/iec-nand-gate.json",
+      "svgPath": "artwork/svg/iec-nand-gate.svg",
+      "referencePath": "references/iec-nand-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-nor-gate",
+      "slug": "iec-nor-gate",
+      "name": "IEC NOR gate (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "≥1",
+      "aliases": [
+        "IEC NOR element",
+        "rectangular NOR gate",
+        "OR with negated output"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC ≥1 element with a negated output; the output is active only when none of the inputs are active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "≥1 rectangular element with output negation circle",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-nor-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-nor-gate",
+      "recordPath": "entries/iec-nor-gate.json",
+      "svgPath": "artwork/svg/iec-nor-gate.svg",
+      "referencePath": "references/iec-nor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-xor-gate",
+      "slug": "iec-xor-gate",
+      "name": "IEC exclusive-OR gate (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "=1",
+      "aliases": [
+        "IEC XOR element",
+        "equals-one gate",
+        "rectangular exclusive-OR"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Rectangular element marked =1: the output is active when one and only one input is active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular outline with the =1 qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-xor-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-xor-gate",
+      "recordPath": "entries/iec-xor-gate.json",
+      "svgPath": "artwork/svg/iec-xor-gate.svg",
+      "referencePath": "references/iec-xor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-xnor-gate",
+      "slug": "iec-xnor-gate",
+      "name": "IEC exclusive-NOR gate (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "=1",
+      "aliases": [
+        "IEC XNOR element",
+        "negated exclusive-OR",
+        "rectangular equivalence gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC =1 box with a negated output, giving the two-input equivalence or exclusive-NOR function.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "=1 element with output negation",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-xnor-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-xnor-gate",
+      "recordPath": "entries/iec-xnor-gate.json",
+      "svgPath": "artwork/svg/iec-xnor-gate.svg",
+      "referencePath": "references/iec-xnor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-not-gate",
+      "slug": "iec-not-gate",
+      "name": "IEC NOT element (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1",
+      "aliases": [
+        "IEC inverter",
+        "rectangular inverter",
+        "negator"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Single-input IEC box marked 1 with a negation at the output, inverting the logic state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Single-input element marked 1 with output negation",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-inverter"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-not-gate",
+      "recordPath": "entries/iec-not-gate.json",
+      "svgPath": "artwork/svg/iec-not-gate.svg",
+      "referencePath": "references/iec-not-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-buffer",
+      "slug": "iec-buffer",
+      "name": "IEC buffer element (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1",
+      "aliases": [
+        "IEC non-inverting buffer",
+        "rectangular buffer",
+        "single-input element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Non-inverting IEC element marked 1, passing the input state to the output unchanged.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Single-input element marked 1 without negation",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-buffer"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-buffer",
+      "recordPath": "entries/iec-buffer.json",
+      "svgPath": "artwork/svg/iec-buffer.svg",
+      "referencePath": "references/iec-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-three-state-buffer",
+      "slug": "iec-three-state-buffer",
+      "name": "IEC three-state buffer (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "EN",
+      "aliases": [
+        "IEC tri-state buffer",
+        "buffer with 3-state output",
+        "bus driver element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC buffer whose output carries the three-state triangle and is controlled by an EN input.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "1 element with EN input and inverted-triangle three-state output qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-three-state-buffer"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-state-buffer",
+      "recordPath": "entries/iec-three-state-buffer.json",
+      "svgPath": "artwork/svg/iec-three-state-buffer.svg",
+      "referencePath": "references/iec-three-state-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-schmitt-trigger-buffer",
+      "slug": "iec-schmitt-trigger-buffer",
+      "name": "IEC Schmitt-trigger buffer (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1",
+      "aliases": [
+        "IEC buffer with hysteresis",
+        "bi-threshold buffer",
+        "rectangular Schmitt buffer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Rectangular buffer carrying the hysteresis mark, meaning its input switches at two different thresholds.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "1 element with the hysteresis qualifier inside the outline",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "schmitt-trigger-buffer"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-schmitt-trigger-buffer",
+      "recordPath": "entries/iec-schmitt-trigger-buffer.json",
+      "svgPath": "artwork/svg/iec-schmitt-trigger-buffer.svg",
+      "referencePath": "references/iec-schmitt-trigger-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-schmitt-trigger-inverter",
+      "slug": "iec-schmitt-trigger-inverter",
+      "name": "IEC Schmitt-trigger inverter (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1",
+      "aliases": [
+        "IEC inverter with hysteresis",
+        "bi-threshold inverter",
+        "rectangular Schmitt inverter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC inverter with the hysteresis mark, used to clean up slow edges while inverting the signal.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "1 element with hysteresis qualifier and output negation",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "schmitt-trigger-inverter"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-schmitt-trigger-inverter",
+      "recordPath": "entries/iec-schmitt-trigger-inverter.json",
+      "svgPath": "artwork/svg/iec-schmitt-trigger-inverter.svg",
+      "referencePath": "references/iec-schmitt-trigger-inverter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-open-collector-buffer",
+      "slug": "iec-open-collector-buffer",
+      "name": "IEC open-collector buffer (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1",
+      "aliases": [
+        "IEC open-drain buffer",
+        "L-type open-circuit output buffer",
+        "buffer with open-collector output"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC buffer with an underlined diamond at the output, showing an open-collector or open-drain stage.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "1 element with the underlined-diamond open-circuit (L-type) output qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "open-collector-buffer"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-open-collector-buffer",
+      "recordPath": "entries/iec-open-collector-buffer.json",
+      "svgPath": "artwork/svg/iec-open-collector-buffer.svg",
+      "referencePath": "references/iec-open-collector-buffer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-logic-identity-element",
+      "slug": "iec-logic-identity-element",
+      "name": "IEC logic identity element",
+      "kind": "symbol",
+      "abbreviation": "=",
+      "aliases": [
+        "all-inputs-equal element",
+        "identity gate",
+        "= qualifier element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Element marked = whose output is active only when all inputs stand at the same logic state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the = general qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-logic-identity-element",
+      "recordPath": "entries/iec-logic-identity-element.json",
+      "svgPath": "artwork/svg/iec-logic-identity-element.svg",
+      "referencePath": "references/iec-logic-identity-element.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-even-parity-element",
+      "slug": "iec-even-parity-element",
+      "name": "IEC even-parity element",
+      "kind": "symbol",
+      "abbreviation": "2k",
+      "aliases": [
+        "even-number-active element",
+        "2k qualifier element",
+        "even parity gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Element marked 2k whose output is active when an even number of its inputs are active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the 2k general qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-even-parity-element",
+      "recordPath": "entries/iec-even-parity-element.json",
+      "svgPath": "artwork/svg/iec-even-parity-element.svg",
+      "referencePath": "references/iec-even-parity-element.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-odd-parity-element",
+      "slug": "iec-odd-parity-element",
+      "name": "IEC odd-parity element",
+      "kind": "symbol",
+      "abbreviation": "2k+1",
+      "aliases": [
+        "odd-number-active element",
+        "2k+1 qualifier element",
+        "odd parity gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Element marked 2k+1 that is active when an odd number of inputs are active, as used for parity.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the 2k+1 general qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "parity-generator-checker"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-odd-parity-element",
+      "recordPath": "entries/iec-odd-parity-element.json",
+      "svgPath": "artwork/svg/iec-odd-parity-element.svg",
+      "referencePath": "references/iec-odd-parity-element.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-and-or-invert-gate",
+      "slug": "iec-and-or-invert-gate",
+      "name": "IEC AND-OR-invert element",
+      "kind": "symbol",
+      "abbreviation": "AOI",
+      "aliases": [
+        "IEC AOI gate",
+        "embedded & into ≥1 element",
+        "AND-OR-INVERT rectangular form"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Two & elements embedded in a ≥1 element with negated output, drawn as one compound IEC AND-OR-invert symbol.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Embedded & elements abutting a ≥1 element with negated output",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-and-or-invert-gate",
+      "recordPath": "entries/iec-and-or-invert-gate.json",
+      "svgPath": "artwork/svg/iec-and-or-invert-gate.svg",
+      "referencePath": "references/iec-and-or-invert-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-common-output-element",
+      "slug": "iec-common-output-element",
+      "name": "IEC common-output element",
+      "kind": "symbol",
+      "abbreviation": "COE",
+      "aliases": [
+        "common-output element",
+        "double-line output element",
+        "array output element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Element with a double top line that produces one output depending on all elements of an array above it.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Element below an array with a double line at its top, carrying a general qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-common-output-element",
+      "recordPath": "entries/iec-common-output-element.json",
+      "svgPath": "artwork/svg/iec-common-output-element.svg",
+      "referencePath": "references/iec-common-output-element.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-three-input-and-gate",
+      "slug": "ansi-three-input-and-gate",
+      "name": "ANSI three-input AND gate",
+      "kind": "symbol",
+      "abbreviation": "AND3",
+      "aliases": [
+        "3-input AND gate",
+        "triple-input AND",
+        "distinctive-shape AND3"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "D-shaped AND outline with three input leads; the output is high only when all three inputs are high.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "D-shaped AND outline with three inputs",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-and-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-input-and-gate",
+      "recordPath": "entries/ansi-three-input-and-gate.json",
+      "svgPath": "artwork/svg/ansi-three-input-and-gate.svg",
+      "referencePath": "references/ansi-three-input-and-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-four-input-nand-gate",
+      "slug": "ansi-four-input-nand-gate",
+      "name": "ANSI four-input NAND gate",
+      "kind": "symbol",
+      "abbreviation": "NAND4",
+      "aliases": [
+        "4-input NAND gate",
+        "dual 4-input NAND",
+        "distinctive-shape NAND4"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Four-input D-shaped NAND gate with an output bubble; its output goes low only when all four inputs are high.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "D-shaped AND outline with four inputs and an output bubble",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-nand-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-four-input-nand-gate",
+      "recordPath": "entries/ansi-four-input-nand-gate.json",
+      "svgPath": "artwork/svg/ansi-four-input-nand-gate.svg",
+      "referencePath": "references/ansi-four-input-nand-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-three-input-or-gate",
+      "slug": "ansi-three-input-or-gate",
+      "name": "ANSI three-input OR gate",
+      "kind": "symbol",
+      "abbreviation": "OR3",
+      "aliases": [
+        "3-input OR gate",
+        "triple-input OR",
+        "distinctive-shape OR3"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Curved-back OR outline with three inputs; any one high input drives the output high.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Curved-back OR outline with three inputs",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-or-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-input-or-gate",
+      "recordPath": "entries/ansi-three-input-or-gate.json",
+      "svgPath": "artwork/svg/ansi-three-input-or-gate.svg",
+      "referencePath": "references/ansi-three-input-or-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-three-input-nor-gate",
+      "slug": "ansi-three-input-nor-gate",
+      "name": "ANSI three-input NOR gate",
+      "kind": "symbol",
+      "abbreviation": "NOR3",
+      "aliases": [
+        "3-input NOR gate",
+        "triple-input NOR",
+        "distinctive-shape NOR3"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Three-input OR outline with an output bubble; the output is high only when all three inputs are low.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "OR outline with three inputs and an output bubble",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-nor-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-input-nor-gate",
+      "recordPath": "entries/ansi-three-input-nor-gate.json",
+      "svgPath": "artwork/svg/ansi-three-input-nor-gate.svg",
+      "referencePath": "references/ansi-three-input-nor-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-and-or-invert-gate",
+      "slug": "ansi-and-or-invert-gate",
+      "name": "ANSI AND-OR-invert gate",
+      "kind": "symbol",
+      "abbreviation": "AOI",
+      "aliases": [
+        "AOI gate",
+        "distinctive-shape AND-OR-INVERT",
+        "sum-of-products inverter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Two D-shaped AND gates feeding a bubbled OR outline, drawn as the distinctive-shape AND-OR-invert function.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Two AND outlines feeding an OR outline with output bubble",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-and-or-invert-gate",
+      "recordPath": "entries/ansi-and-or-invert-gate.json",
+      "svgPath": "artwork/svg/ansi-and-or-invert-gate.svg",
+      "referencePath": "references/ansi-and-or-invert-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-nand-as-negative-or-gate",
+      "slug": "ansi-nand-as-negative-or-gate",
+      "name": "ANSI NAND gate drawn as negative-input OR",
+      "kind": "symbol",
+      "abbreviation": "NAND",
+      "aliases": [
+        "De Morgan NAND form",
+        "OR with bubbled inputs",
+        "negative-OR symbol"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "OR outline with bubbles on its inputs: the De Morgan form of a NAND used when inputs are active low.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "OR outline with input bubbles (De Morgan equivalent of NAND)",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-nand-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-nand-as-negative-or-gate",
+      "recordPath": "entries/ansi-nand-as-negative-or-gate.json",
+      "svgPath": "artwork/svg/ansi-nand-as-negative-or-gate.svg",
+      "referencePath": "references/ansi-nand-as-negative-or-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-nor-as-negative-and-gate",
+      "slug": "ansi-nor-as-negative-and-gate",
+      "name": "ANSI NOR gate drawn as negative-input AND",
+      "kind": "symbol",
+      "abbreviation": "NOR",
+      "aliases": [
+        "De Morgan NOR form",
+        "AND with bubbled inputs",
+        "negative-AND symbol"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "AND outline with bubbled inputs, the De Morgan form of a NOR that reads as all inputs low gives a high output.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "AND outline with input bubbles (De Morgan equivalent of NOR)",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "logic-nor-gate"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-nor-as-negative-and-gate",
+      "recordPath": "entries/ansi-nor-as-negative-and-gate.json",
+      "svgPath": "artwork/svg/ansi-nor-as-negative-and-gate.svg",
+      "referencePath": "references/ansi-nor-as-negative-and-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-open-collector-inverter",
+      "slug": "ansi-open-collector-inverter",
+      "name": "ANSI open-collector inverter",
+      "kind": "symbol",
+      "abbreviation": "OC-NOT",
+      "aliases": [
+        "open-drain inverter",
+        "inverter with open-collector output",
+        "open-collector NOT gate"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Inverter triangle with output bubble and an open-circuit mark, needing an external pull-up to produce a high level.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Inverter triangle with bubble and open-circuit output marking",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-open-collector-inverter",
+      "recordPath": "entries/ansi-open-collector-inverter.json",
+      "svgPath": "artwork/svg/ansi-open-collector-inverter.svg",
+      "referencePath": "references/ansi-open-collector-inverter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-wired-and-connection",
+      "slug": "ansi-wired-and-connection",
+      "name": "ANSI wired-AND connection",
+      "kind": "symbol",
+      "abbreviation": "WIRED-AND",
+      "aliases": [
+        "dot-AND",
+        "wired-AND bus",
+        "open-collector shared line"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Several open-collector outputs joined on one pulled-up line, so any output pulling low makes the line low.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Open-collector outputs joined to a common pulled-up line",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-wired-and-connection",
+      "recordPath": "entries/ansi-wired-and-connection.json",
+      "svgPath": "artwork/svg/ansi-wired-and-connection.svg",
+      "referencePath": "references/ansi-wired-and-connection.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-three-state-inverter",
+      "slug": "ansi-three-state-inverter",
+      "name": "ANSI three-state inverter with active-low enable",
+      "kind": "symbol",
+      "abbreviation": "OE",
+      "aliases": [
+        "tri-state inverting buffer",
+        "inverting line driver",
+        "3-state inverter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Inverter triangle with an enable lead and bubble entering its side, driving a bus only when enabled.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Inverter triangle with bubble and enable lead with bubble on the triangle side",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-state-inverter",
+      "recordPath": "entries/ansi-three-state-inverter.json",
+      "svgPath": "artwork/svg/ansi-three-state-inverter.svg",
+      "referencePath": "references/ansi-three-state-inverter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-schmitt-nand-gate",
+      "slug": "ansi-schmitt-nand-gate",
+      "name": "ANSI Schmitt-trigger NAND gate",
+      "kind": "symbol",
+      "abbreviation": "NAND-ST",
+      "aliases": [
+        "NAND with Schmitt inputs",
+        "hysteresis NAND gate",
+        "Schmitt NAND"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "NAND outline with a hysteresis mark inside, combining the NAND function with Schmitt-trigger inputs.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "NAND outline containing the hysteresis mark",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-schmitt-nand-gate",
+      "recordPath": "entries/ansi-schmitt-nand-gate.json",
+      "svgPath": "artwork/svg/ansi-schmitt-nand-gate.svg",
+      "referencePath": "references/ansi-schmitt-nand-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-inhibit-gate",
+      "slug": "ansi-inhibit-gate",
+      "name": "ANSI inhibit gate (AND with one negated input)",
+      "kind": "symbol",
+      "abbreviation": "INH",
+      "aliases": [
+        "AND-NOT gate",
+        "inhibit element",
+        "AND with inverted input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "AND outline with a bubble on one input, so that input blocks the output whenever it is active.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "AND outline with a bubble on one input",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-inhibit-gate",
+      "recordPath": "entries/ansi-inhibit-gate.json",
+      "svgPath": "artwork/svg/ansi-inhibit-gate.svg",
+      "referencePath": "references/ansi-inhibit-gate.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-logic-input-negation",
+      "slug": "iec-logic-input-negation",
+      "name": "IEC logic negation at input",
+      "kind": "symbol",
+      "abbreviation": "NEG-IN",
+      "aliases": [
+        "input negation circle",
+        "negated input",
+        "input inversion circle"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Small circle where an input meets an outline: an external 0 produces the internal 1 (active) state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Small circle at the input edge of the outline",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-logic-input-negation",
+      "recordPath": "entries/iec-logic-input-negation.json",
+      "svgPath": "artwork/svg/iec-logic-input-negation.svg",
+      "referencePath": "references/iec-logic-input-negation.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-logic-output-negation",
+      "slug": "iec-logic-output-negation",
+      "name": "IEC logic negation at output",
+      "kind": "symbol",
+      "abbreviation": "NEG-OUT",
+      "aliases": [
+        "output negation circle",
+        "negated output",
+        "output inversion circle"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Circle on an output edge meaning the internal 1 state of the element produces an external 0.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Small circle at the output edge of the outline",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-logic-output-negation",
+      "recordPath": "entries/iec-logic-output-negation.json",
+      "svgPath": "artwork/svg/iec-logic-output-negation.svg",
+      "referencePath": "references/iec-logic-output-negation.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-active-low-input-indicator",
+      "slug": "iec-active-low-input-indicator",
+      "name": "IEC polarity indicator at input (active-low input)",
+      "kind": "symbol",
+      "abbreviation": "POL-IN",
+      "aliases": [
+        "input polarity triangle",
+        "active-low input mark",
+        "polarity indicator input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Small triangle on an input lead meaning a low level produces the internal active state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Right-angled triangle on the input line next to the outline",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-active-low-input-indicator",
+      "recordPath": "entries/iec-active-low-input-indicator.json",
+      "svgPath": "artwork/svg/iec-active-low-input-indicator.svg",
+      "referencePath": "references/iec-active-low-input-indicator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-active-low-output-indicator",
+      "slug": "iec-active-low-output-indicator",
+      "name": "IEC polarity indicator at output (active-low output)",
+      "kind": "symbol",
+      "abbreviation": "POL-OUT",
+      "aliases": [
+        "output polarity triangle",
+        "active-low output mark",
+        "polarity indicator output"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Triangle on an output lead meaning the internal active state drives the output to a low level.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Right-angled triangle on the output line next to the outline",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-active-low-output-indicator",
+      "recordPath": "entries/iec-active-low-output-indicator.json",
+      "svgPath": "artwork/svg/iec-active-low-output-indicator.svg",
+      "referencePath": "references/iec-active-low-output-indicator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-dynamic-input",
+      "slug": "iec-dynamic-input",
+      "name": "IEC dynamic input (edge-triggered)",
+      "kind": "symbol",
+      "abbreviation": "DYN",
+      "aliases": [
+        "edge-triggered input mark",
+        "clock wedge",
+        "dynamic input indicator"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Wedge drawn inside the outline at an input, meaning the input acts on a transition rather than a level.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Small wedge inside the outline at the input",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-dynamic-input",
+      "recordPath": "entries/iec-dynamic-input.json",
+      "svgPath": "artwork/svg/iec-dynamic-input.svg",
+      "referencePath": "references/iec-dynamic-input.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-falling-edge-dynamic-input",
+      "slug": "iec-falling-edge-dynamic-input",
+      "name": "IEC dynamic input with negation (falling edge)",
+      "kind": "symbol",
+      "abbreviation": "DYN-NEG",
+      "aliases": [
+        "negative-edge clock mark",
+        "falling-edge input",
+        "negated dynamic input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Clock wedge combined with a negation circle or polarity triangle, so the input acts on a falling edge.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Wedge inside the outline combined with an external negation circle or polarity triangle",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-falling-edge-dynamic-input",
+      "recordPath": "entries/iec-falling-edge-dynamic-input.json",
+      "svgPath": "artwork/svg/iec-falling-edge-dynamic-input.svg",
+      "referencePath": "references/iec-falling-edge-dynamic-input.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-postponed-output",
+      "slug": "iec-postponed-output",
+      "name": "IEC postponed output qualifier",
+      "kind": "symbol",
+      "abbreviation": "POSTPONED",
+      "aliases": [
+        "postponed output mark",
+        "pulse-triggered output indicator",
+        "master-slave output mark"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Angle mark beside an output showing it changes only when the initiating input returns to its original level.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Angle mark inside the outline next to the output",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-postponed-output",
+      "recordPath": "entries/iec-postponed-output.json",
+      "svgPath": "artwork/svg/iec-postponed-output.svg",
+      "referencePath": "references/iec-postponed-output.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-open-circuit-output-l-type",
+      "slug": "iec-open-circuit-output-l-type",
+      "name": "IEC open-circuit output, L-type (open collector)",
+      "kind": "symbol",
+      "abbreviation": "OC-L",
+      "aliases": [
+        "underlined diamond output",
+        "open-collector qualifier",
+        "open-drain qualifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Underlined diamond inside an outline: an open-circuit output that can only drive a low level.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Diamond with underline inside the outline at the output",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-open-circuit-output-l-type",
+      "recordPath": "entries/iec-open-circuit-output-l-type.json",
+      "svgPath": "artwork/svg/iec-open-circuit-output-l-type.svg",
+      "referencePath": "references/iec-open-circuit-output-l-type.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-open-circuit-output-h-type",
+      "slug": "iec-open-circuit-output-h-type",
+      "name": "IEC open-circuit output, H-type (open emitter)",
+      "kind": "symbol",
+      "abbreviation": "OC-H",
+      "aliases": [
+        "overlined diamond output",
+        "open-emitter qualifier",
+        "open-source qualifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Overlined diamond at an output: an open-emitter or open-source stage that can only drive a high level.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Diamond with overline inside the outline at the output",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-open-circuit-output-h-type",
+      "recordPath": "entries/iec-open-circuit-output-h-type.json",
+      "svgPath": "artwork/svg/iec-open-circuit-output-h-type.svg",
+      "referencePath": "references/iec-open-circuit-output-h-type.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-three-state-output-qualifier",
+      "slug": "iec-three-state-output-qualifier",
+      "name": "IEC three-state output qualifier",
+      "kind": "symbol",
+      "abbreviation": "3S",
+      "aliases": [
+        "three-state triangle",
+        "tri-state output mark",
+        "high-impedance output qualifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Downward triangle inside an outline marking an output that can enter a high-impedance state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Small downward-pointing triangle inside the outline at the output",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-three-state-output-qualifier",
+      "recordPath": "entries/iec-three-state-output-qualifier.json",
+      "svgPath": "artwork/svg/iec-three-state-output-qualifier.svg",
+      "referencePath": "references/iec-three-state-output-qualifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-hysteresis-input-qualifier",
+      "slug": "iec-hysteresis-input-qualifier",
+      "name": "IEC hysteresis (bi-threshold) qualifier",
+      "kind": "symbol",
+      "abbreviation": "HYST",
+      "aliases": [
+        "Schmitt-trigger qualifier",
+        "bi-threshold input mark",
+        "hysteresis symbol"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Small hysteresis loop mark showing a Schmitt-trigger function or a bi-threshold input.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Hysteresis loop mark inside the outline or at an input",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-hysteresis-input-qualifier",
+      "recordPath": "entries/iec-hysteresis-input-qualifier.json",
+      "svgPath": "artwork/svg/iec-hysteresis-input-qualifier.svg",
+      "referencePath": "references/iec-hysteresis-input-qualifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-enable-input",
+      "slug": "iec-enable-input",
+      "name": "IEC enable input (EN)",
+      "kind": "symbol",
+      "abbreviation": "EN",
+      "aliases": [
+        "EN input",
+        "output enable label",
+        "enable qualifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Input labelled EN that enables all outputs of the element when at its internal 1 state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Input labelled EN inside the outline",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-enable-input",
+      "recordPath": "entries/iec-enable-input.json",
+      "svgPath": "artwork/svg/iec-enable-input.svg",
+      "referencePath": "references/iec-enable-input.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-common-control-block",
+      "slug": "iec-common-control-block",
+      "name": "IEC common-control block",
+      "kind": "symbol",
+      "abbreviation": "CCB",
+      "aliases": [
+        "common control block",
+        "notched control block",
+        "shared-input block"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Notched block above an array; its inputs apply to every element below unless dependency notation limits them.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Notched block above an array of elements",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-common-control-block",
+      "recordPath": "entries/iec-common-control-block.json",
+      "svgPath": "artwork/svg/iec-common-control-block.svg",
+      "referencePath": "references/iec-common-control-block.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-and-dependency-g",
+      "slug": "iec-and-dependency-g",
+      "name": "IEC AND dependency (G)",
+      "kind": "symbol",
+      "abbreviation": "Gm",
+      "aliases": [
+        "G dependency",
+        "AND dependency notation",
+        "Gm affecting input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label Gm: inputs or outputs carrying the number m are ANDed with the affecting G input.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Affecting input labelled Gm with affected inputs or outputs labelled m",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-and-dependency-g",
+      "recordPath": "entries/iec-and-dependency-g.json",
+      "svgPath": "artwork/svg/iec-and-dependency-g.svg",
+      "referencePath": "references/iec-and-dependency-g.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-or-dependency-v",
+      "slug": "iec-or-dependency-v",
+      "name": "IEC OR dependency (V)",
+      "kind": "symbol",
+      "abbreviation": "Vm",
+      "aliases": [
+        "V dependency",
+        "OR dependency notation",
+        "Vm affecting input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label Vm: affected terminals are ORed with the V input, forced to 1 when V is active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Affecting input labelled Vm with affected terminals labelled m",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-or-dependency-v",
+      "recordPath": "entries/iec-or-dependency-v.json",
+      "svgPath": "artwork/svg/iec-or-dependency-v.svg",
+      "referencePath": "references/iec-or-dependency-v.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-negate-dependency-n",
+      "slug": "iec-negate-dependency-n",
+      "name": "IEC negate dependency (N)",
+      "kind": "symbol",
+      "abbreviation": "Nm",
+      "aliases": [
+        "N dependency",
+        "negate (exclusive-OR) dependency",
+        "Nm affecting input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label Nm: when the N input is active, affected terminals are complemented.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Affecting input labelled Nm with affected terminals labelled m",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-negate-dependency-n",
+      "recordPath": "entries/iec-negate-dependency-n.json",
+      "svgPath": "artwork/svg/iec-negate-dependency-n.svg",
+      "referencePath": "references/iec-negate-dependency-n.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-control-dependency-c",
+      "slug": "iec-control-dependency-c",
+      "name": "IEC control dependency (C)",
+      "kind": "symbol",
+      "abbreviation": "Cm",
+      "aliases": [
+        "C dependency",
+        "clock dependency",
+        "Cm control input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label Cm on a clock or control input; inputs prefixed with m act only when Cm is active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Control input labelled Cm with affected data inputs labelled mD, mJ, mK and similar",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-control-dependency-c",
+      "recordPath": "entries/iec-control-dependency-c.json",
+      "svgPath": "artwork/svg/iec-control-dependency-c.svg",
+      "referencePath": "references/iec-control-dependency-c.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-mode-dependency-m",
+      "slug": "iec-mode-dependency-m",
+      "name": "IEC mode dependency (M)",
+      "kind": "symbol",
+      "abbreviation": "Mm",
+      "aliases": [
+        "M dependency",
+        "mode select dependency",
+        "Mm mode input"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label Mm used to show operating modes; affected inputs and outputs act only in the selected mode.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Mode inputs labelled Mm, often produced by binary grouping, with affected terminals labelled m",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-mode-dependency-m",
+      "recordPath": "entries/iec-mode-dependency-m.json",
+      "svgPath": "artwork/svg/iec-mode-dependency-m.svg",
+      "referencePath": "references/iec-mode-dependency-m.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-interconnection-dependency-z",
+      "slug": "iec-interconnection-dependency-z",
+      "name": "IEC interconnection dependency (Z)",
+      "kind": "symbol",
+      "abbreviation": "Zm",
+      "aliases": [
+        "Z dependency",
+        "internal interconnection dependency",
+        "Zm label"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label Zm showing an internal connection from one point of a symbol to every terminal labelled m.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Output or internal output labelled Zm with affected terminals labelled m",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-interconnection-dependency-z",
+      "recordPath": "entries/iec-interconnection-dependency-z.json",
+      "svgPath": "artwork/svg/iec-interconnection-dependency-z.svg",
+      "referencePath": "references/iec-interconnection-dependency-z.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-address-dependency-a",
+      "slug": "iec-address-dependency-a",
+      "name": "IEC address dependency (A)",
+      "kind": "symbol",
+      "abbreviation": "Am",
+      "aliases": [
+        "A dependency",
+        "address dependency notation",
+        "memory address label"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency label A used on memory symbols to show which word of an array the address inputs select.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Address inputs grouped to produce A affecting inputs; affected terminals labelled A",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-address-dependency-a",
+      "recordPath": "entries/iec-address-dependency-a.json",
+      "svgPath": "artwork/svg/iec-address-dependency-a.svg",
+      "referencePath": "references/iec-address-dependency-a.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-set-reset-dependency",
+      "slug": "iec-set-reset-dependency",
+      "name": "IEC set and reset dependency (S, R)",
+      "kind": "symbol",
+      "abbreviation": "Sm/Rm",
+      "aliases": [
+        "S dependency",
+        "R dependency",
+        "set-reset dependency notation"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Dependency labels Sm and Rm: the affected output behaves as if set or reset when the affecting input is active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Affecting inputs labelled Sm or Rm with affected outputs labelled m",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-set-reset-dependency",
+      "recordPath": "entries/iec-set-reset-dependency.json",
+      "svgPath": "artwork/svg/iec-set-reset-dependency.svg",
+      "referencePath": "references/iec-set-reset-dependency.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-d-flip-flop",
+      "slug": "iec-d-flip-flop",
+      "name": "IEC D flip-flop (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1D",
+      "aliases": [
+        "IEC edge-triggered D bistable",
+        "C1 1D flip-flop",
+        "rectangular D-type"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC bistable with a dynamic C1 clock and a 1D data input, storing D on the active clock edge.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular bistable with dynamic C1 input and 1D data input",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "positive-edge-d-flip-flop"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-d-flip-flop",
+      "recordPath": "entries/iec-d-flip-flop.json",
+      "svgPath": "artwork/svg/iec-d-flip-flop.svg",
+      "referencePath": "references/iec-d-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-jk-flip-flop",
+      "slug": "iec-jk-flip-flop",
+      "name": "IEC JK flip-flop (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "1J 1K",
+      "aliases": [
+        "IEC JK bistable",
+        "C1 1J 1K flip-flop",
+        "rectangular JK"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC bistable with 1J and 1K inputs controlled by a dynamic C1 clock; J=K=1 toggles the state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular bistable with 1J, 1K and dynamic C1 inputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "negative-edge-jk-flip-flop"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-jk-flip-flop",
+      "recordPath": "entries/iec-jk-flip-flop.json",
+      "svgPath": "artwork/svg/iec-jk-flip-flop.svg",
+      "referencePath": "references/iec-jk-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-sr-latch",
+      "slug": "iec-sr-latch",
+      "name": "IEC SR latch (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "S R",
+      "aliases": [
+        "IEC set-reset bistable",
+        "rectangular RS latch",
+        "S/R element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Rectangular IEC bistable with S and R inputs that set or reset the stored state immediately.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular bistable with S and R inputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "set-reset-latch"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-sr-latch",
+      "recordPath": "entries/iec-sr-latch.json",
+      "svgPath": "artwork/svg/iec-sr-latch.svg",
+      "referencePath": "references/iec-sr-latch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-d-latch",
+      "slug": "iec-d-latch",
+      "name": "IEC transparent D latch (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "C1 1D",
+      "aliases": [
+        "IEC level-sensitive latch",
+        "transparent latch IEC form",
+        "C1 1D latch"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC bistable with a static C1 control and 1D input; the output follows D while C1 is active.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular bistable with static C1 and 1D inputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "transparent-d-latch"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-d-latch",
+      "recordPath": "entries/iec-d-latch.json",
+      "svgPath": "artwork/svg/iec-d-latch.svg",
+      "referencePath": "references/iec-d-latch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-t-flip-flop",
+      "slug": "iec-t-flip-flop",
+      "name": "IEC T (toggle) flip-flop",
+      "kind": "symbol",
+      "abbreviation": "1T",
+      "aliases": [
+        "toggle flip-flop",
+        "T-type bistable",
+        "divide-by-two stage"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC bistable with a 1T toggle input; when T is active, each clock edge changes the stored state.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular bistable with 1T and dynamic C1 inputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-t-flip-flop",
+      "recordPath": "entries/iec-t-flip-flop.json",
+      "svgPath": "artwork/svg/iec-t-flip-flop.svg",
+      "referencePath": "references/iec-t-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-pulse-triggered-jk-flip-flop",
+      "slug": "iec-pulse-triggered-jk-flip-flop",
+      "name": "IEC pulse-triggered (master-slave) JK flip-flop",
+      "kind": "symbol",
+      "abbreviation": "1J 1K",
+      "aliases": [
+        "master-slave JK",
+        "pulse-triggered bistable",
+        "JK with postponed outputs"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "JK bistable whose outputs carry postponed marks: they change when the clock pulse ends, not at its start.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "JK bistable with static C1 and postponed-output marks",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-pulse-triggered-jk-flip-flop",
+      "recordPath": "entries/iec-pulse-triggered-jk-flip-flop.json",
+      "svgPath": "artwork/svg/iec-pulse-triggered-jk-flip-flop.svg",
+      "referencePath": "references/iec-pulse-triggered-jk-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-clocked-sr-flip-flop",
+      "slug": "iec-clocked-sr-flip-flop",
+      "name": "IEC clocked SR flip-flop",
+      "kind": "symbol",
+      "abbreviation": "1S 1R",
+      "aliases": [
+        "gated SR flip-flop",
+        "synchronous set-reset bistable",
+        "C1 1S 1R element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC bistable with 1S and 1R inputs that act only under C1 control, giving a synchronous set-reset function.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular bistable with 1S, 1R and C1 inputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-clocked-sr-flip-flop",
+      "recordPath": "entries/iec-clocked-sr-flip-flop.json",
+      "svgPath": "artwork/svg/iec-clocked-sr-flip-flop.svg",
+      "referencePath": "references/iec-clocked-sr-flip-flop.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-non-retriggerable-monostable",
+      "slug": "iec-non-retriggerable-monostable",
+      "name": "IEC non-retriggerable monostable",
+      "kind": "symbol",
+      "abbreviation": "1⊓",
+      "aliases": [
+        "one-shot",
+        "non-retriggerable monoflop",
+        "single-pulse element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC monostable marked with 1 and a single pulse: a trigger during the output pulse is ignored.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the 1 and single-pulse qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-non-retriggerable-monostable",
+      "recordPath": "entries/iec-non-retriggerable-monostable.json",
+      "svgPath": "artwork/svg/iec-non-retriggerable-monostable.svg",
+      "referencePath": "references/iec-non-retriggerable-monostable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-retriggerable-monostable",
+      "slug": "iec-retriggerable-monostable",
+      "name": "IEC retriggerable monostable",
+      "kind": "symbol",
+      "abbreviation": "⊓",
+      "aliases": [
+        "retriggerable one-shot IEC form",
+        "pulse-extending monostable",
+        "single-pulse qualifier without 1"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC monostable showing only the single-pulse qualifier; each new trigger restarts the output pulse.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the single-pulse qualifier only",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "retriggerable-monostable"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-retriggerable-monostable",
+      "recordPath": "entries/iec-retriggerable-monostable.json",
+      "svgPath": "artwork/svg/iec-retriggerable-monostable.svg",
+      "referencePath": "references/iec-retriggerable-monostable.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-astable-element",
+      "slug": "iec-astable-element",
+      "name": "IEC astable element",
+      "kind": "symbol",
+      "abbreviation": "G",
+      "aliases": [
+        "astable multivibrator",
+        "IEC oscillator element",
+        "G qualifier element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked G, an astable that produces a continuous pulse train; drawing the waveform is optional.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the G qualifier and optional waveform",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-astable-element",
+      "recordPath": "entries/iec-astable-element.json",
+      "svgPath": "artwork/svg/iec-astable-element.svg",
+      "referencePath": "references/iec-astable-element.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-cross-coupled-nand-latch",
+      "slug": "ansi-cross-coupled-nand-latch",
+      "name": "ANSI cross-coupled NAND latch",
+      "kind": "symbol",
+      "abbreviation": "S̄R̄",
+      "aliases": [
+        "NAND SR latch",
+        "active-low set-reset latch",
+        "cross-coupled NAND flip-flop"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Two NAND gates with outputs fed back to each other, forming an SR latch with active-low set and reset.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Two NAND outlines with each output fed back to the other gate's input",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "set-reset-latch"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-cross-coupled-nand-latch",
+      "recordPath": "entries/ansi-cross-coupled-nand-latch.json",
+      "svgPath": "artwork/svg/ansi-cross-coupled-nand-latch.svg",
+      "referencePath": "references/ansi-cross-coupled-nand-latch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-cross-coupled-nor-latch",
+      "slug": "ansi-cross-coupled-nor-latch",
+      "name": "ANSI cross-coupled NOR latch",
+      "kind": "symbol",
+      "abbreviation": "SR",
+      "aliases": [
+        "NOR SR latch",
+        "active-high set-reset latch",
+        "cross-coupled NOR flip-flop"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Two NOR gates cross-coupled to form an SR latch with active-high set and reset inputs.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Two NOR outlines with each output fed back to the other gate's input",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "set-reset-latch"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-cross-coupled-nor-latch",
+      "recordPath": "entries/ansi-cross-coupled-nor-latch.json",
+      "svgPath": "artwork/svg/ansi-cross-coupled-nor-latch.svg",
+      "referencePath": "references/ansi-cross-coupled-nor-latch.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-synchronous-binary-counter",
+      "slug": "iec-synchronous-binary-counter",
+      "name": "IEC synchronous binary counter (CTRm)",
+      "kind": "symbol",
+      "abbreviation": "CTR4",
+      "aliases": [
+        "CTR4 counter",
+        "IEC 4-bit counter",
+        "synchronous counter IEC form"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC counter marked CTRm, where m is the bit count and the cycle length is 2 to the power m.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with CTRm qualifier, common-control block and weighted outputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "synchronous-binary-counter"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-synchronous-binary-counter",
+      "recordPath": "entries/iec-synchronous-binary-counter.json",
+      "svgPath": "artwork/svg/iec-synchronous-binary-counter.svg",
+      "referencePath": "references/iec-synchronous-binary-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-ripple-counter",
+      "slug": "iec-ripple-counter",
+      "name": "IEC ripple counter (RCTRm)",
+      "kind": "symbol",
+      "abbreviation": "RCTR",
+      "aliases": [
+        "asynchronous counter IEC form",
+        "ripple-carry counter",
+        "RCTR4"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC counter marked RCTRm: an asynchronous ripple-carry counter with a cycle length of 2 to the power m.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the RCTRm qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "ripple-binary-counter"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-ripple-counter",
+      "recordPath": "entries/iec-ripple-counter.json",
+      "svgPath": "artwork/svg/iec-ripple-counter.svg",
+      "referencePath": "references/iec-ripple-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-decade-counter",
+      "slug": "iec-decade-counter",
+      "name": "IEC decade counter (CTR DIV10)",
+      "kind": "symbol",
+      "abbreviation": "CTR DIV10",
+      "aliases": [
+        "BCD decade counter IEC form",
+        "divide-by-ten counter",
+        "CTRDIV10"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC counter marked CTR DIV10, counting through ten states with BCD-weighted outputs.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the CTR DIVm qualifier, m = 10",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-decade-counter",
+      "recordPath": "entries/iec-decade-counter.json",
+      "svgPath": "artwork/svg/iec-decade-counter.svg",
+      "referencePath": "references/iec-decade-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-up-down-counter",
+      "slug": "iec-up-down-counter",
+      "name": "IEC up/down counter",
+      "kind": "symbol",
+      "abbreviation": "CTR +/-",
+      "aliases": [
+        "bidirectional counter",
+        "up-down counter IEC form",
+        "reversible counter"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC counter whose mode inputs select counting up with + or down with -, drawn with M dependency.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "CTRm element with M dependency selecting count up (+) and count down (-)",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-up-down-counter",
+      "recordPath": "entries/iec-up-down-counter.json",
+      "svgPath": "artwork/svg/iec-up-down-counter.svg",
+      "referencePath": "references/iec-up-down-counter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-shift-register",
+      "slug": "iec-shift-register",
+      "name": "IEC shift register (SRGm)",
+      "kind": "symbol",
+      "abbreviation": "SRG8",
+      "aliases": [
+        "SRG8 register",
+        "IEC shift register symbol",
+        "serial shift register IEC form"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC register marked SRGm with m stages; the clock carries the shift arrow and moves data one place each cycle.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with SRGm qualifier and a shift-right clock",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "serial-in-parallel-out-register"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-shift-register",
+      "recordPath": "entries/iec-shift-register.json",
+      "svgPath": "artwork/svg/iec-shift-register.svg",
+      "referencePath": "references/iec-shift-register.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-bidirectional-shift-register",
+      "slug": "iec-bidirectional-shift-register",
+      "name": "IEC bidirectional (universal) shift register",
+      "kind": "symbol",
+      "abbreviation": "SRG4",
+      "aliases": [
+        "universal shift register",
+        "shift-left shift-right register",
+        "bidirectional register IEC form"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC shift register with mode inputs that select shift right, shift left, parallel load or hold.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "SRGm element with mode inputs selecting shift right, shift left and parallel load",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-bidirectional-shift-register",
+      "recordPath": "entries/iec-bidirectional-shift-register.json",
+      "svgPath": "artwork/svg/iec-bidirectional-shift-register.svg",
+      "referencePath": "references/iec-bidirectional-shift-register.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-multiplexer",
+      "slug": "iec-multiplexer",
+      "name": "IEC multiplexer (MUX)",
+      "kind": "symbol",
+      "abbreviation": "MUX",
+      "aliases": [
+        "IEC data selector",
+        "MUX element",
+        "rectangular multiplexer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC MUX element whose select inputs, grouped with G dependency, pick which data input reaches the output.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with MUX qualifier and select inputs using G dependency",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "digital-multiplexer"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-multiplexer",
+      "recordPath": "entries/iec-multiplexer.json",
+      "svgPath": "artwork/svg/iec-multiplexer.svg",
+      "referencePath": "references/iec-multiplexer.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-binary-decoder",
+      "slug": "iec-binary-decoder",
+      "name": "IEC binary decoder (X/Y coder)",
+      "kind": "symbol",
+      "abbreviation": "BIN/OCT",
+      "aliases": [
+        "IEC code converter decoder",
+        "BIN/OCT decoder",
+        "X/Y coder element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC coder marked BIN/OCT or similar, converting a binary input code into one active output.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular coder with X/Y qualifier such as BIN/OCT",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "binary-decoder-demultiplexer"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-binary-decoder",
+      "recordPath": "entries/iec-binary-decoder.json",
+      "svgPath": "artwork/svg/iec-binary-decoder.svg",
+      "referencePath": "references/iec-binary-decoder.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-priority-encoder",
+      "slug": "iec-priority-encoder",
+      "name": "IEC priority encoder (HPRI/BIN)",
+      "kind": "symbol",
+      "abbreviation": "HPRI/BIN",
+      "aliases": [
+        "highest-priority encoder",
+        "HPRI/BIN coder",
+        "IEC priority encoder form"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC coder marked HPRI/BIN that outputs the binary number of the highest-priority active input.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "X/Y coder with HPRI/BIN qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "priority-encoder"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-priority-encoder",
+      "recordPath": "entries/iec-priority-encoder.json",
+      "svgPath": "artwork/svg/iec-priority-encoder.svg",
+      "referencePath": "references/iec-priority-encoder.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-bcd-to-seven-segment-decoder",
+      "slug": "iec-bcd-to-seven-segment-decoder",
+      "name": "IEC BCD-to-seven-segment decoder",
+      "kind": "symbol",
+      "abbreviation": "BCD/7SEG",
+      "aliases": [
+        "seven-segment decoder",
+        "BCD/7-SEG coder",
+        "display decoder driver"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC coder marked BCD/7SEG converting a 4-bit BCD input into seven segment-drive outputs a to g.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "X/Y coder with BCD/7SEG qualifier and segment outputs a to g",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-bcd-to-seven-segment-decoder",
+      "recordPath": "entries/iec-bcd-to-seven-segment-decoder.json",
+      "svgPath": "artwork/svg/iec-bcd-to-seven-segment-decoder.svg",
+      "referencePath": "references/iec-bcd-to-seven-segment-decoder.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-code-converter",
+      "slug": "iec-code-converter",
+      "name": "IEC general code converter (X/Y)",
+      "kind": "symbol",
+      "abbreviation": "X/Y",
+      "aliases": [
+        "code converter",
+        "X/Y coder",
+        "generic coder element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked X/Y, the general coder converting one code, named X, into another, named Y.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with X/Y qualifier where X and Y name the codes",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-code-converter",
+      "recordPath": "entries/iec-code-converter.json",
+      "svgPath": "artwork/svg/iec-code-converter.svg",
+      "referencePath": "references/iec-code-converter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-magnitude-comparator",
+      "slug": "iec-magnitude-comparator",
+      "name": "IEC magnitude comparator (COMP)",
+      "kind": "symbol",
+      "abbreviation": "COMP",
+      "aliases": [
+        "IEC digital comparator",
+        "COMP element",
+        "P>Q comparator"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC COMP element comparing two binary words P and Q, with outputs for P>Q, P=Q and P<Q.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with COMP qualifier and P, Q input groups",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "digital-magnitude-comparator"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-magnitude-comparator",
+      "recordPath": "entries/iec-magnitude-comparator.json",
+      "svgPath": "artwork/svg/iec-magnitude-comparator.svg",
+      "referencePath": "references/iec-magnitude-comparator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-full-adder",
+      "slug": "iec-full-adder",
+      "name": "IEC adder (Σ)",
+      "kind": "symbol",
+      "abbreviation": "Σ",
+      "aliases": [
+        "IEC full adder",
+        "sigma adder element",
+        "binary adder IEC form"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked Σ that adds binary words P and Q with carry-in CI and carry-out CO.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with Σ qualifier, P and Q inputs, CI and CO",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "binary-full-adder"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-full-adder",
+      "recordPath": "entries/iec-full-adder.json",
+      "svgPath": "artwork/svg/iec-full-adder.svg",
+      "referencePath": "references/iec-full-adder.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-arithmetic-logic-unit",
+      "slug": "iec-arithmetic-logic-unit",
+      "name": "IEC arithmetic logic unit (ALU)",
+      "kind": "symbol",
+      "abbreviation": "ALU",
+      "aliases": [
+        "ALU element",
+        "IEC ALU symbol",
+        "arithmetic logic unit block"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked ALU, performing arithmetic or logic functions on two words as chosen by mode inputs.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with ALU qualifier and mode-select inputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-arithmetic-logic-unit",
+      "recordPath": "entries/iec-arithmetic-logic-unit.json",
+      "svgPath": "artwork/svg/iec-arithmetic-logic-unit.svg",
+      "referencePath": "references/iec-arithmetic-logic-unit.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-read-only-memory",
+      "slug": "iec-read-only-memory",
+      "name": "IEC read-only memory (ROM)",
+      "kind": "symbol",
+      "abbreviation": "ROM",
+      "aliases": [
+        "ROM element",
+        "IEC ROM symbol",
+        "read-only memory block"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked ROM with grouped address inputs and data outputs that read the addressed word.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with ROM qualifier, address grouping and A-dependent outputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-read-only-memory",
+      "recordPath": "entries/iec-read-only-memory.json",
+      "svgPath": "artwork/svg/iec-read-only-memory.svg",
+      "referencePath": "references/iec-read-only-memory.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-random-access-memory",
+      "slug": "iec-random-access-memory",
+      "name": "IEC random-access memory (RAM)",
+      "kind": "symbol",
+      "abbreviation": "RAM",
+      "aliases": [
+        "RAM element",
+        "IEC RAM symbol",
+        "read/write memory block"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked RAM with address grouping, a write control input and A-labelled data inputs and outputs.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with RAM qualifier, address grouping, write control and A-dependent data",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-random-access-memory",
+      "recordPath": "entries/iec-random-access-memory.json",
+      "svgPath": "artwork/svg/iec-random-access-memory.svg",
+      "referencePath": "references/iec-random-access-memory.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-fifo-memory",
+      "slug": "iec-fifo-memory",
+      "name": "IEC first-in first-out memory (FIFO)",
+      "kind": "symbol",
+      "abbreviation": "FIFO",
+      "aliases": [
+        "FIFO buffer",
+        "first-in first-out element",
+        "queue memory"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked FIFO that stores words in arrival order and reads them out in the same order.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with FIFO qualifier, write and read clocks and status outputs",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-fifo-memory",
+      "recordPath": "entries/iec-fifo-memory.json",
+      "svgPath": "artwork/svg/iec-fifo-memory.svg",
+      "referencePath": "references/iec-fifo-memory.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-operational-amplifier",
+      "slug": "iec-operational-amplifier",
+      "name": "IEC operational amplifier (rectangular form)",
+      "kind": "symbol",
+      "abbreviation": "▷∞",
+      "aliases": [
+        "IEC op-amp symbol",
+        "rectangular op-amp",
+        "amplifier with infinite gain qualifier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Rectangular IEC-style op-amp drawn as a box with an amplifier triangle and an infinity sign for very high gain.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular outline with amplifier triangle and infinity sign",
+        "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "operational-amplifier"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-operational-amplifier",
+      "recordPath": "entries/iec-operational-amplifier.json",
+      "svgPath": "artwork/svg/iec-operational-amplifier.svg",
+      "referencePath": "references/iec-operational-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-summing-amplifier",
+      "slug": "iec-summing-amplifier",
+      "name": "IEC summing amplifier element (Σ)",
+      "kind": "symbol",
+      "abbreviation": "Σ",
+      "aliases": [
+        "analogue adder",
+        "summing element",
+        "summer"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Analogue element with Σ and several inputs, producing an output proportional to the weighted sum of the inputs.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular analogue element with Σ function and several weighted inputs",
+        "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-summing-amplifier",
+      "recordPath": "entries/iec-summing-amplifier.json",
+      "svgPath": "artwork/svg/iec-summing-amplifier.svg",
+      "referencePath": "references/iec-summing-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-integrator",
+      "slug": "iec-integrator",
+      "name": "IEC integrator element (∫)",
+      "kind": "symbol",
+      "abbreviation": "∫",
+      "aliases": [
+        "analogue integrator element",
+        "integrating amplifier IEC form",
+        "∫ element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Analogue element marked with an integral sign; the output is proportional to the time integral of the input.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular analogue element with integral sign",
+        "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "op-amp-integrator"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-integrator",
+      "recordPath": "entries/iec-integrator.json",
+      "svgPath": "artwork/svg/iec-integrator.svg",
+      "referencePath": "references/iec-integrator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-differentiator",
+      "slug": "iec-differentiator",
+      "name": "IEC differentiator element (d/dt)",
+      "kind": "symbol",
+      "abbreviation": "d/dt",
+      "aliases": [
+        "analogue differentiator element",
+        "rate-of-change element",
+        "d/dt element"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Analogue element marked d/dt whose output is proportional to the rate of change of its input.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular analogue element with d/dt function",
+        "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "op-amp-differentiator"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-differentiator",
+      "recordPath": "entries/iec-differentiator.json",
+      "svgPath": "artwork/svg/iec-differentiator.svg",
+      "referencePath": "references/iec-differentiator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-analogue-multiplier",
+      "slug": "iec-analogue-multiplier",
+      "name": "IEC analogue multiplier element",
+      "kind": "symbol",
+      "abbreviation": "Π",
+      "aliases": [
+        "multiplier element",
+        "analogue product element",
+        "pi multiplier"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Analogue element with a multiplication mark whose output is proportional to the product of two inputs.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular analogue element with a multiplication function mark",
+        "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "analog-multiplier"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-analogue-multiplier",
+      "recordPath": "entries/iec-analogue-multiplier.json",
+      "svgPath": "artwork/svg/iec-analogue-multiplier.svg",
+      "referencePath": "references/iec-analogue-multiplier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-sample-and-hold",
+      "slug": "iec-sample-and-hold",
+      "name": "IEC sample-and-hold element",
+      "kind": "symbol",
+      "abbreviation": "S/H",
+      "aliases": [
+        "sample-hold element",
+        "track-and-hold element",
+        "S/H block"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "Analogue element marked S/H with a digital control input; it tracks the input, then holds the last value.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular analogue element with S/H function and a digital control input",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "sample-and-hold-amplifier"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-sample-and-hold",
+      "recordPath": "entries/iec-sample-and-hold.json",
+      "svgPath": "artwork/svg/iec-sample-and-hold.svg",
+      "referencePath": "references/iec-sample-and-hold.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "ansi-operational-amplifier",
+      "slug": "ansi-operational-amplifier",
+      "name": "ANSI operational amplifier (triangle form)",
+      "kind": "symbol",
+      "abbreviation": "OA",
+      "aliases": [
+        "triangle op-amp symbol",
+        "IEEE op-amp symbol",
+        "distinctive op-amp"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEEE / ANSI",
+        "Manufacturer"
+      ],
+      "summary": "Triangle op-amp symbol with minus and plus inputs on the left and the output at the apex.",
+      "symbolVariant": {
+        "convention": "IEEE / ANSI",
+        "form": "Triangle with inverting and non-inverting inputs on the base and output at the apex",
+        "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+        "counterpart": "operational-amplifier"
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/ansi-operational-amplifier",
+      "recordPath": "entries/ansi-operational-amplifier.json",
+      "svgPath": "artwork/svg/ansi-operational-amplifier.svg",
+      "referencePath": "references/ansi-operational-amplifier.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "op-amp-voltage-follower",
+      "slug": "op-amp-voltage-follower",
+      "name": "Op-amp voltage follower",
+      "kind": "symbol",
+      "abbreviation": "BUF",
+      "aliases": [
+        "unity-gain buffer",
+        "voltage follower circuit",
+        "unity-gain op-amp"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Op-amp with its output tied directly to the inverting input, giving unity gain and a low-impedance output.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/op-amp-voltage-follower",
+      "recordPath": "entries/op-amp-voltage-follower.json",
+      "svgPath": "artwork/svg/op-amp-voltage-follower.svg",
+      "referencePath": "references/op-amp-voltage-follower.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "op-amp-hysteresis-comparator",
+      "slug": "op-amp-hysteresis-comparator",
+      "name": "Op-amp comparator with hysteresis",
+      "kind": "symbol",
+      "abbreviation": "COMP-H",
+      "aliases": [
+        "inverting Schmitt trigger circuit",
+        "regenerative comparator",
+        "comparator with positive feedback"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "Manufacturer"
+      ],
+      "summary": "Comparator or op-amp with positive feedback to the plus input, creating two switching thresholds.",
+      "canonicalUrl": "https://eloragrid.ai/symbols/op-amp-hysteresis-comparator",
+      "recordPath": "entries/op-amp-hysteresis-comparator.json",
+      "svgPath": "artwork/svg/op-amp-hysteresis-comparator.svg",
+      "referencePath": "references/op-amp-hysteresis-comparator.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-subtracter",
+      "slug": "iec-subtracter",
+      "name": "IEC subtracter (P-Q)",
+      "kind": "symbol",
+      "abbreviation": "P-Q",
+      "aliases": [
+        "binary subtracter",
+        "P minus Q element",
+        "IEC subtractor"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC arithmetic element marked P-Q that subtracts word Q from word P, with borrow handling.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with the P-Q qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-subtracter",
+      "recordPath": "entries/iec-subtracter.json",
+      "svgPath": "artwork/svg/iec-subtracter.svg",
+      "referencePath": "references/iec-subtracter.md",
+      "contentLicense": "CC-BY-4.0"
+    },
+    {
+      "id": "iec-look-ahead-carry-generator",
+      "slug": "iec-look-ahead-carry-generator",
+      "name": "IEC look-ahead carry generator (CPG)",
+      "kind": "symbol",
+      "abbreviation": "CPG",
+      "aliases": [
+        "carry look-ahead generator",
+        "CPG element",
+        "fast carry unit"
+      ],
+      "category": "logic-signals",
+      "drawingTypes": [
+        "Schematic"
+      ],
+      "referenceFamilies": [
+        "IEC",
+        "Manufacturer"
+      ],
+      "summary": "IEC element marked CPG that computes carries for several adder stages at once to speed up arithmetic.",
+      "symbolVariant": {
+        "convention": "IEC",
+        "form": "Rectangular element with CPG qualifier",
+        "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+      },
+      "canonicalUrl": "https://eloragrid.ai/symbols/iec-look-ahead-carry-generator",
+      "recordPath": "entries/iec-look-ahead-carry-generator.json",
+      "svgPath": "artwork/svg/iec-look-ahead-carry-generator.svg",
+      "referencePath": "references/iec-look-ahead-carry-generator.md",
+      "contentLicense": "CC-BY-4.0"
+    }
+  ]
+}

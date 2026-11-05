@@ -1,0 +1,103 @@
+{
+  "slug": "iec-screened-conductor",
+  "name": "Screened conductor",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "shielded conductor",
+    "screened wire",
+    "single screened core"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "A single conductor enclosed by a drawn screen outline, showing that the core has a conductive shield around it.",
+  "description": [
+    "A screened conductor symbol adds an outline around one conductor to show a conductive screen, braid or foil surrounding the core. It is used for analogue instrument signals, encoder and thermocouple extension wiring and other circuits where capacitively coupled interference must be kept off the signal.",
+    "The outline alone does not show where or whether the screen is earthed. Earthing at one end, both ends or through a capacitor is a design decision that should be drawn explicitly with an earth or bonding symbol at the screen tail. The symbol also does not distinguish foil, braid or combined screens, which belong in the cable schedule."
+  ],
+  "readingNotes": [
+    "Find the screen tail and confirm where it is terminated.",
+    "Check whether a cable marker applies to the screened core and any others in the same cable."
+  ],
+  "drawingChecklist": [
+    "Show the screen termination point explicitly.",
+    "Record the screen type in the cable schedule.",
+    "Keep screen drain terminals numbered on the terminal plan."
+  ],
+  "distinction": "A screened conductor has a conductive shield; a cable-core grouping outline only shows that several cores share one sheath and implies no shielding.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Outline drawn around a single conductor with a short screen tail"
+    },
+    {
+      "label": "Does not show",
+      "value": "Screen earthing point, screen material or coverage"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Public IEC-60617 preview family for cable annotation used alongside screened-core forms."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-screened-conductor-with-earthed-screen",
+    "iec-screened-multi-conductor-cable",
+    "functional-earth"
+  ],
+  "artwork": "s28-iec-screened-conductor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Screened single-conductor form",
+    "reference": "Independent IEC-context illustration; consult IEC 60617 for the exact screen outline."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-screened-conductor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-screened-conductor.svg",
+  "id": "iec-screened-conductor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-conductor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-screened-conductor.json",
+  "svgPath": "artwork/svg/iec-screened-conductor.svg",
+  "referencePath": "references/iec-screened-conductor.md",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-60617 preview family for cable annotation used alongside screened-core forms."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

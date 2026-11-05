@@ -1,0 +1,90 @@
+{
+  "slug": "iec-hysteresis-input-qualifier",
+  "name": "IEC hysteresis (bi-threshold) qualifier",
+  "kind": "symbol",
+  "abbreviation": "HYST",
+  "aliases": [
+    "Schmitt-trigger qualifier",
+    "bi-threshold input mark",
+    "hysteresis symbol"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Small hysteresis loop mark showing a Schmitt-trigger function or a bi-threshold input.",
+  "description": [
+    "The hysteresis mark, a small loop drawn with two offset steps, appears either as a general qualifier for a Schmitt-trigger element or next to a single input to show that input has two thresholds. TI's public overview lists both uses.",
+    "When the mark is next to one input only, the other inputs of the element have normal single thresholds. That matters on devices such as gates with one Schmitt input used to accept a slow external signal.",
+    "The mark does not quantify hysteresis. Threshold and hysteresis values must be read from device data and compared with the signal source."
+  ],
+  "readingNotes": [
+    "Check whether the mark applies to the whole element or one input.",
+    "Compare thresholds with the signal source levels."
+  ],
+  "drawingChecklist": [
+    "Draw the mark clearly, not as a waveform sketch.",
+    "Place it at the input it applies to where only some inputs have hysteresis.",
+    "Reference device thresholds."
+  ],
+  "distinction": "A drawn square-wave inside a G element indicates an astable, not hysteresis.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Two switching thresholds"
+    },
+    {
+      "label": "Placement",
+      "value": "Centre of element or at one input"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists the Schmitt-trigger qualifier and the bi-threshold input symbol."
+    }
+  ],
+  "related": [
+    "iec-schmitt-trigger-buffer",
+    "ansi-schmitt-nand-gate",
+    "schmitt-trigger-buffer"
+  ],
+  "artwork": "s28-iec-hysteresis-input-qualifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Hysteresis loop mark inside the outline or at an input",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-hysteresis-input-qualifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-hysteresis-input-qualifier.svg",
+  "id": "iec-hysteresis-input-qualifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-hysteresis-input-qualifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-hysteresis-input-qualifier.json",
+  "svgPath": "artwork/svg/iec-hysteresis-input-qualifier.svg",
+  "referencePath": "references/iec-hysteresis-input-qualifier.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists the Schmitt-trigger qualifier and the bi-threshold input symbol."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "parallel-transformer-tap-control-coordinator",
+  "name": "Parallel-transformer tap-control coordinator",
+  "kind": "symbol",
+  "abbreviation": "PTC",
+  "aliases": [
+    "Transformer regulation and cooling control",
+    "substations Transformer regulation and cooling control",
+    "substations",
+    "Substations",
+    "Transformer operating and tap states",
+    "Coordinated tap requests"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Coordinates the documented tap-control method for transformers operating on a common bus.",
+  "description": [
+    "Coordinates the documented tap-control method for transformers operating on a common bus. Transformer regulation changes the selected winding connection to influence voltage, while cooling control manages the installed fans and pumps. Commands, mechanical position and measured results belong to different parts of the diagram.",
+    "In a substation, a voltage regulator can request a tap change and check the resulting tap-position feedback. A separate controller stages cooling equipment according to the transformer manufacturer's defined conditions. For this reference, the drawing identifies “Transformer operating and tap states” at the input and “Coordinated tap requests” at the output. Parallel suitability requires more than matching tap numbers.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Transformer operating and tap states. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Coordinated tap requests. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Parallel suitability requires more than matching tap numbers.",
+    "Keep tap-change permission, limit contacts, movement indication and measured voltage distinct. Actual tap positions, time delays, cooling ratings and allowable parallel operation require the selected transformer control design."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for transformer operating and tap states.",
+    "Identify the destination and defined state of coordinated tap requests.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Parallel suitability requires more than matching tap numbers."
+  ],
+  "distinction": "Parallel suitability requires more than matching tap numbers. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Transformer operating and tap states"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Coordinated tap requests"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PTC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-transformer-control",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "adjustable-ratio-transformer",
+    "winding-temperature-indicator",
+    "transformer-circulating-reactive-current-restraint"
+  ],
+  "artwork": "pi26-parallel-transformer-tap-control-coordinator",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "transformer-regulation",
+    "input": "Transformer operating and tap states",
+    "output": "Coordinated tap requests"
+  },
+  "url": "https://eloragrid.ai/symbols/parallel-transformer-tap-control-coordinator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/parallel-transformer-tap-control-coordinator.svg",
+  "id": "parallel-transformer-tap-control-coordinator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/parallel-transformer-tap-control-coordinator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/parallel-transformer-tap-control-coordinator.json",
+  "svgPath": "artwork/svg/parallel-transformer-tap-control-coordinator.svg",
+  "referencePath": "references/parallel-transformer-tap-control-coordinator.md",
+  "publicSources": [
+    {
+      "id": "pi26-transformer-control",
+      "publisher": "SEL",
+      "title": "SEL-2414 transformer monitor",
+      "url": "https://selinc.com/products/2414/",
+      "scope": "Transformer temperature, cooling, tap changing and parallel operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for transformer regulation and cooling control. Transformer temperature, cooling, tap changing and parallel operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

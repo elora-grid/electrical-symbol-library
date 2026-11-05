@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-differential-capacitor",
+  "name": "ANSI/IEEE Differential capacitor form",
+  "kind": "symbol",
+  "abbreviation": "HCA1_S00573",
+  "aliases": [
+    "HCA1_S00573",
+    "VCA1_S00573",
+    "IEEE Capacitor,Differential",
+    "ANSI Differential capacitor"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of differential capacitor: this representation distinguishes a differential capacitive arrangement with related variable capacitances.",
+  "description": [
+    "This reference locates differential capacitor in Autodesk's IEEE-oriented capacitive components family. This representation distinguishes a differential capacitive arrangement with related variable capacitances. Related capacitor sections change in a coordinated differential arrangement. The common and section terminals therefore matter to interpreting the complete circuit. The public library uses HCA1_S00573 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Follow the actual current path and terminal polarity in the surrounding circuit. The symbol identifies an electrical function; voltage, current, energy limits and the device package pinout come from the selected component data rather than from the outline.",
+    "Show those electrodes and the adjustment relationship in the detailed schematic. A single capacitance value or a two-terminal capacitor representation can hide the additional circuit interface. Identify the electrode/common connections and the intended adjustment relationship. A differential capacitor is not a generic two-terminal fixed capacitor. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the electrode/common connections and the intended adjustment relationship.",
+    "A differential capacitor is not a generic two-terminal fixed capacitor."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify the electrode/common connections and the intended adjustment relationship.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A differential capacitor is not a generic two-terminal fixed capacitor.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Capacitive Components; published form: Capacitor,Differential."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCA1_S00573. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Identify the electrode/common connections and the intended adjustment relationship."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-0f8673c7-d786-441c-ab55-f2cdb8d5b288",
+      "relevance": "Public IEEE-oriented Capacitive Components table explicitly lists HCA1_S00573 as Capacitor,Differential. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-differential-capacitor",
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "s28-ansi-differential-capacitor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Capacitor,Differential",
+    "reference": "Autodesk IEEE Symbol Preview: Capacitive Components, block HCA1_S00573. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-differential-capacitor"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-differential-capacitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-differential-capacitor.svg",
+  "id": "ansi-differential-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-differential-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-differential-capacitor.json",
+  "svgPath": "artwork/svg/ansi-differential-capacitor.svg",
+  "referencePath": "references/ansi-differential-capacitor.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-0f8673c7-d786-441c-ab55-f2cdb8d5b288",
+      "title": "Autodesk IEEE Symbol Preview — Capacitive Components",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0F8673C7-D786-441C-AB55-F2CDB8D5B288.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Capacitive Components table explicitly lists HCA1_S00573 as Capacitor,Differential. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

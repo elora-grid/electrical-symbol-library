@@ -1,0 +1,100 @@
+{
+  "slug": "multi-core-current-transformer",
+  "name": "Multi-core current transformer",
+  "kind": "symbol",
+  "abbreviation": "CT",
+  "aliases": [
+    "CT with separate cores",
+    "multi-core CT",
+    "three-core CT"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "CT with several independent magnetic cores on one primary, each with its own secondary for metering or protection.",
+  "description": [
+    "A multi-core CT has one primary passing through two or more separate cores, each with its own secondary winding. Typical MV and HV CTs have one metering core and one or more protection cores, so the single-line diagram shows each core as its own ring on the primary with its ratio and class beside it.",
+    "Separate cores mean a fault-saturated protection core does not disturb the metering core, and each can have a different accuracy class. The symbol shows how many cores exist but not which relay or meter each feeds, so every core needs its own designation and cross-reference."
+  ],
+  "readingNotes": [
+    "Count the cores and read each ratio and class separately.",
+    "Follow each secondary to its own relay or meter."
+  ],
+  "drawingChecklist": [
+    "Label each core",
+    "State ratio and class per core",
+    "Cross-reference each secondary circuit"
+  ],
+  "distinction": "A multi-core CT has separate magnetic cores; a CT with two secondaries on a common core shares one magnetic circuit.",
+  "facts": [
+    {
+      "label": "Construction",
+      "value": "Separate cores on one primary"
+    },
+    {
+      "label": "Typical split",
+      "value": "Metering core plus protection cores"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    }
+  ],
+  "related": [
+    "current-transformer-with-two-secondaries",
+    "current-transformer",
+    "bushing-current-transformer"
+  ],
+  "artwork": "s28-multi-core-current-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/multi-core-current-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/multi-core-current-transformer.svg",
+  "id": "multi-core-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/multi-core-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/multi-core-current-transformer.json",
+  "svgPath": "artwork/svg/multi-core-current-transformer.svg",
+  "referencePath": "references/multi-core-current-transformer.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    },
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    }
+  ]
+}

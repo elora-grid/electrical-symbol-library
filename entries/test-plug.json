@@ -1,0 +1,82 @@
+{
+  "slug": "test-plug",
+  "name": "Test plug",
+  "kind": "symbol",
+  "abbreviation": "TP",
+  "aliases": [
+    "relay test plug",
+    "multi-finger test plug"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Plug inserted into a test block or switch to connect test equipment to the relay side while isolating the plant side.",
+  "description": [
+    "A test plug fits into a test block or test switch and brings each pole out to test leads. Depending on its design it can connect test equipment to the relay side only, or link plant and relay sides through an ammeter for in-service current measurement.",
+    "Different plug types for the same block do different things, so the procedure must name the plug variant. The symbol shows the plug's poles but not its internal links, and using the wrong plug can open a live CT circuit or leave a trip output connected."
+  ],
+  "readingNotes": [
+    "Check which plug variant the procedure requires.",
+    "Read the internal links of each pole."
+  ],
+  "drawingChecklist": [
+    "Name plug variant",
+    "Show internal links",
+    "Match pole numbers to the block"
+  ],
+  "distinction": "A test plug is the removable part; the test block or switch is the fixed part wired into the circuit.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Connects test equipment through a test block"
+    },
+    {
+      "label": "Variants",
+      "value": "Isolating and in-service measuring types"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    }
+  ],
+  "related": [
+    "relay-test-block",
+    "current-test-switch-with-shorting",
+    "ct-test-terminal"
+  ],
+  "artwork": "s28-test-plug",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/test-plug",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/test-plug.svg",
+  "id": "test-plug",
+  "canonicalUrl": "https://eloragrid.ai/symbols/test-plug",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/test-plug.json",
+  "svgPath": "artwork/svg/test-plug.svg",
+  "referencePath": "references/test-plug.md",
+  "publicSources": [
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    }
+  ]
+}

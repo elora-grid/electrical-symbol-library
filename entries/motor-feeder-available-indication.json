@@ -1,0 +1,105 @@
+{
+  "slug": "motor-feeder-available-indication",
+  "name": "Motor feeder available indication",
+  "kind": "symbol",
+  "abbreviation": "MFAI",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Feeder health and authority",
+    "Motor feeder available"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Combines the defined protection and operating conditions into a feeder availability signal.",
+  "description": [
+    "Combines the defined protection and operating conditions into a feeder availability signal. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Feeder health and authority” at the input and “Motor feeder available” at the output. Availability does not prove the process can run.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Feeder health and authority. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Motor feeder available. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Availability does not prove the process can run.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for feeder health and authority.",
+    "Identify the destination and defined state of motor feeder available.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Availability does not prove the process can run."
+  ],
+  "distinction": "Availability does not prove the process can run. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Feeder health and authority"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Motor feeder available"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MFAI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "direct-on-line-starter-command-block"
+  ],
+  "artwork": "pi26-motor-feeder-available-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Feeder health and authority",
+    "output": "Motor feeder available"
+  },
+  "url": "https://eloragrid.ai/symbols/motor-feeder-available-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motor-feeder-available-indication.svg",
+  "id": "motor-feeder-available-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-feeder-available-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-feeder-available-indication.json",
+  "svgPath": "artwork/svg/motor-feeder-available-indication.svg",
+  "referencePath": "references/motor-feeder-available-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

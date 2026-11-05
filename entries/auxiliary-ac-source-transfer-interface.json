@@ -1,0 +1,105 @@
+{
+  "slug": "auxiliary-ac-source-transfer-interface",
+  "name": "Auxiliary AC source-transfer interface",
+  "kind": "symbol",
+  "abbreviation": "AASI",
+  "aliases": [
+    "Switchroom auxiliary AC distribution",
+    "switchrooms Switchroom auxiliary AC distribution",
+    "switchrooms",
+    "Switchrooms",
+    "Auxiliary-source health",
+    "Selected AC bus source"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers the assigned room AC bus between documented available sources.",
+  "description": [
+    "Transfers the assigned room AC bus between documented available sources. An auxiliary AC distribution diagram identifies the supplies serving room services and control-support equipment. Essential, backed-up and ordinary circuits can have different source paths and operating priorities.",
+    "In a switchroom, the lighting, service sockets, charger input and room cooling may be fed from different auxiliary branches. A source change must preserve the identities of loads that require continuity. For this reference, the drawing identifies “Auxiliary-source health” at the input and “Selected AC bus source” at the output. Source interlocking must prevent unintended paralleling.",
+    "Label source, branch protection and load purpose. The arrangement does not establish conductor sizes, protection settings or installation compliance; it links the operating role to the selected equipment schedule. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Auxiliary-source health. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected AC bus source. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Source interlocking must prevent unintended paralleling.",
+    "Label source, branch protection and load purpose. The arrangement does not establish conductor sizes, protection settings or installation compliance; it links the operating role to the selected equipment schedule."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for auxiliary-source health.",
+    "Identify the destination and defined state of selected ac bus source.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Source interlocking must prevent unintended paralleling."
+  ],
+  "distinction": "Source interlocking must prevent unintended paralleling. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Auxiliary-source health"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected AC bus source"
+    },
+    {
+      "label": "Lookup label",
+      "value": "AASI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-power",
+      "relevance": "Public technical context for switchroom auxiliary ac distribution. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-panel-service-outlet",
+    "ac-uninterruptible-power-supply",
+    "station-service-transformer-incoming-branch"
+  ],
+  "artwork": "pi26-auxiliary-ac-source-transfer-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-ac",
+    "input": "Auxiliary-source health",
+    "output": "Selected AC bus source"
+  },
+  "url": "https://eloragrid.ai/symbols/auxiliary-ac-source-transfer-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/auxiliary-ac-source-transfer-interface.svg",
+  "id": "auxiliary-ac-source-transfer-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/auxiliary-ac-source-transfer-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/auxiliary-ac-source-transfer-interface.json",
+  "svgPath": "artwork/svg/auxiliary-ac-source-transfer-interface.svg",
+  "referencePath": "references/auxiliary-ac-source-transfer-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-power",
+      "publisher": "SEL",
+      "title": "SEL-RPM redundant power module",
+      "url": "https://selinc.com/products/RPM/",
+      "scope": "Independent AC and DC sources for station auxiliary power.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom auxiliary ac distribution. Independent AC and DC sources for station auxiliary power. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

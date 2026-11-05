@@ -1,0 +1,102 @@
+{
+  "slug": "iec-flame-detector-plan-symbol",
+  "name": "Flame detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "FD",
+  "aliases": [
+    "UV/IR flame detector",
+    "optical flame detector",
+    "radiation fire detector"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan symbol for a flame detector that senses ultraviolet or infrared radiation from flames, with its cone of view.",
+  "description": [
+    "Flame detectors sense the radiation emitted by flames, using ultraviolet, infrared or combined sensors. Plans draw the detector with radiation arrows and often the field-of-view cone so coverage can be checked against the protected hazard.",
+    "They are used for fuel stores, generator rooms, turbine enclosures and hazardous industrial areas where flaming fires are expected. Hazardous-area classification may also apply to the device, which the plan should tag. The cone drawn is approximate; sensitivity falls with distance and angle. Check the product data."
+  ],
+  "readingNotes": [
+    "Check the cone covers the hazard.",
+    "Check hazardous-area markings."
+  ],
+  "drawingChecklist": [
+    "Show field of view.",
+    "State sensor type.",
+    "State hazardous-area rating if any."
+  ],
+  "distinction": "A smoke detector responds to particles; a flame detector responds to radiation from the flame.",
+  "facts": [
+    {
+      "label": "Sensing",
+      "value": "Ultraviolet, infrared or both"
+    },
+    {
+      "label": "Coverage",
+      "value": "Cone of view"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "iec-public-radiation",
+      "relevance": "Public IEC-oriented radiation qualifiers relevant to optical and infrared detection marks."
+    }
+  ],
+  "related": [
+    "iec-smoke-detector-plan-symbol",
+    "iec-non-ionising-radiation-qualifier"
+  ],
+  "artwork": "s28-iec-flame-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Flame detector",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-flame-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-flame-detector-plan-symbol.svg",
+  "id": "iec-flame-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-flame-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-flame-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-flame-detector-plan-symbol.svg",
+  "referencePath": "references/iec-flame-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "iec-public-radiation",
+      "title": "Autodesk IEC-60617 preview: Radiation qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EABC81B4-549D-49C9-A0F5-086DD204A689.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented radiation qualifiers relevant to optical and infrared detection marks."
+    }
+  ]
+}

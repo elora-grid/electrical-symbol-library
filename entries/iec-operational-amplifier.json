@@ -1,0 +1,106 @@
+{
+  "slug": "iec-operational-amplifier",
+  "name": "IEC operational amplifier (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "▷∞",
+  "aliases": [
+    "IEC op-amp symbol",
+    "rectangular op-amp",
+    "amplifier with infinite gain qualifier"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Rectangular IEC-style op-amp drawn as a box with an amplifier triangle and an infinity sign for very high gain.",
+  "description": [
+    "In IEC-style analogue element diagrams an operational amplifier is often drawn as a rectangle containing a small amplifier triangle and an infinity sign, meaning very high open-loop gain. Inverting and non-inverting inputs are marked with minus and plus signs at the input side.",
+    "This form appears on European instrumentation and protection relay schematics, where analogue elements share the rectangular style used for logic. The surrounding feedback network defines what the circuit does, so the resistor and capacitor values must be read together with the element.",
+    "The rectangular form gives no information about supply rails, offset, bandwidth or output swing. Those are device parameters, and the supply pins are often omitted from functional diagrams."
+  ],
+  "readingNotes": [
+    "Find the minus and plus inputs before reading the feedback network.",
+    "Supply connections are often omitted."
+  ],
+  "drawingChecklist": [
+    "Mark inverting and non-inverting inputs.",
+    "Show the feedback network with values.",
+    "Note supply rails where they matter."
+  ],
+  "distinction": "The triangular ANSI-style op-amp is the same device drawn without the rectangle.",
+  "facts": [
+    {
+      "label": "Key marks",
+      "value": "Amplifier triangle and ∞"
+    },
+    {
+      "label": "Inputs",
+      "value": "Inverting (-) and non-inverting (+)"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "sourceId": "pub-electronics-adi-opamp",
+      "relevance": "Manufacturer operational amplifier documentation."
+    }
+  ],
+  "related": [
+    "operational-amplifier",
+    "ansi-operational-amplifier",
+    "iec-summing-amplifier"
+  ],
+  "artwork": "s28-iec-operational-amplifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular outline with amplifier triangle and infinity sign",
+    "reference": "IEC-style rectangular analogue element presentation; the IEC graphical symbols programme is cited for context only. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "operational-amplifier"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-operational-amplifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-operational-amplifier.svg",
+  "id": "iec-operational-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-operational-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-operational-amplifier.json",
+  "svgPath": "artwork/svg/iec-operational-amplifier.svg",
+  "referencePath": "references/iec-operational-amplifier.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbols programme covering analogue elements; no geometry reproduced."
+    },
+    {
+      "id": "pub-electronics-adi-opamp",
+      "title": "ADA4522-1 — operational amplification",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ada4522-1.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for operational amplification. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer operational amplifier documentation."
+    }
+  ]
+}

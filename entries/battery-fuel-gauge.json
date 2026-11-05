@@ -1,0 +1,87 @@
+{
+  "slug": "battery-fuel-gauge",
+  "name": "Battery fuel gauge",
+  "kind": "symbol",
+  "abbreviation": "SoC",
+  "aliases": [
+    "Battery fuel gauge",
+    "Battery fuel gauge functional block",
+    "Battery fuel gauge schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A battery fuel gauge estimates how much usable charge remains in a battery.",
+  "description": [
+    "A battery fuel gauge estimates how much usable charge remains in a battery.",
+    "An operator display can show a charge estimate instead of only battery voltage.",
+    "Show the measurements entering the gauge and the charge estimate sent to the controller. A fuel gauge is like a battery dashboard: its estimate depends on the battery model and measurements, rather than simply reading the voltage once. Keep the measurement path separate from the battery’s main power cables. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the battery chemistry and pack arrangement.",
+    "Label measured voltage, current and temperature where used.",
+    "Name the reported estimate and the controller receiving it.",
+    "An estimate of remaining charge is different from a guarantee of remaining operating time."
+  ],
+  "drawingChecklist": [
+    "Identify the battery chemistry and pack arrangement.",
+    "Label measured voltage, current and temperature where used.",
+    "Name the reported estimate and the controller receiving it."
+  ],
+  "distinction": "An estimate of remaining charge is different from a guarantee of remaining operating time.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Battery measurements"
+    },
+    {
+      "label": "Concept output",
+      "value": "State-of-charge report"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-battery",
+      "relevance": "Battery management functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "battery",
+    "battery-charger-controller",
+    "battery-protection-controller",
+    "power-converter"
+  ],
+  "artwork": "expanded-battery-fuel-gauge",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-fuel-gauge",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-fuel-gauge.svg",
+  "id": "battery-fuel-gauge",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-fuel-gauge",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-fuel-gauge.json",
+  "svgPath": "artwork/svg/battery-fuel-gauge.svg",
+  "referencePath": "references/battery-fuel-gauge.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-battery",
+      "title": "Battery management functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/battery-management-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery management functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

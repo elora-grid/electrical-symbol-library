@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-three-phase-star-autotransformer",
+  "name": "ANSI/IEEE Three-phase star autotransformer form",
+  "kind": "symbol",
+  "abbreviation": "AT 3PH Y",
+  "aliases": [
+    "HXF1T19",
+    "VXF1T19",
+    "IEEE 3 Phase Autotransformer Star Connected",
+    "ANSI Three-phase star autotransformer"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library reference for three-phase star autotransformer, with its operating meaning, connection notes and public vendor block identity.",
+  "description": [
+    "This reference locates three-phase star autotransformer in Autodesk's IEEE-oriented transformers family. A three-phase star-connected autotransformer has electrically shared winding portions arranged in a three-phase star connection. Its neutral and tap connections need explicit identification. The public library uses HXF1T19 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "Determine how the common star point and any accessible neutral are used by the design. A star autotransformer is electrically different from a star-star two-winding transformer. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Determine how the common star point and any accessible neutral are used by the design.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show star point",
+    "State winding voltage ratios",
+    "Reference tap terminals"
+  ],
+  "distinction": "A star autotransformer is electrically different from a star-star two-winding transformer.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Transformers; published form: 3 Phase Autotransformer Star Connected."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HXF1T19. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Winding connection"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-68d02867-7a98-47d1-a83f-dbad1ddb616f",
+      "relevance": "Public IEEE-oriented Transformers table explicitly lists HXF1T19 as 3 Phase Autotransformer Star Connected. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-phase-star-autotransformer",
+    "power-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-three-phase-star-autotransformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase Autotransformer Star Connected",
+    "reference": "Autodesk IEEE Symbol Preview: Transformers, block HXF1T19. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-phase-star-autotransformer"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-phase-star-autotransformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-phase-star-autotransformer.svg",
+  "id": "ansi-three-phase-star-autotransformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-phase-star-autotransformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-phase-star-autotransformer.json",
+  "svgPath": "artwork/svg/ansi-three-phase-star-autotransformer.svg",
+  "referencePath": "references/ansi-three-phase-star-autotransformer.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-68d02867-7a98-47d1-a83f-dbad1ddb616f",
+      "title": "Autodesk IEEE Symbol Preview — Transformers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-68D02867-7A98-47D1-A83F-DBAD1DDB616F.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Transformers table explicitly lists HXF1T19 as 3 Phase Autotransformer Star Connected. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

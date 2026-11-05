@@ -1,0 +1,87 @@
+{
+  "slug": "low-dropout-voltage-regulator",
+  "name": "Low-dropout voltage regulator",
+  "kind": "symbol",
+  "abbreviation": "LDO",
+  "aliases": [
+    "Low-dropout voltage regulator",
+    "Low-dropout voltage regulator functional block",
+    "Low-dropout voltage regulator schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An LDO is a linear voltage regulator designed to operate with its specified small input-to-output voltage headroom.",
+  "description": [
+    "An LDO is a linear voltage regulator designed to operate with its specified small input-to-output voltage headroom.",
+    "A circuit can use an LDO when the available supply is only moderately above the required output.",
+    "Use the same input/output distinction as for a linear regulator, but identify the required dropout conditions from the selected LDO. Low dropout describes its permitted voltage headroom, not zero loss or the ability to regulate from any input. Output-component and stability requirements remain device-specific. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify input/output conditions and load current.",
+    "Reference the specified dropout conditions.",
+    "Follow the selected device’s output-component and thermal requirements.",
+    "Low dropout does not mean zero loss or unrestricted operation below the required input voltage."
+  ],
+  "drawingChecklist": [
+    "Identify input/output conditions and load current.",
+    "Reference the specified dropout conditions.",
+    "Follow the selected device’s output-component and thermal requirements."
+  ],
+  "distinction": "Low dropout does not mean zero loss or unrestricted operation below the required input voltage.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "DC input with headroom"
+    },
+    {
+      "label": "Concept output",
+      "value": "Specified regulated output"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-ldo",
+      "relevance": "Linear voltage regulation: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "series-voltage-reference",
+    "linear-voltage-regulator",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-low-dropout-voltage-regulator",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/low-dropout-voltage-regulator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/low-dropout-voltage-regulator.svg",
+  "id": "low-dropout-voltage-regulator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/low-dropout-voltage-regulator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/low-dropout-voltage-regulator.json",
+  "svgPath": "artwork/svg/low-dropout-voltage-regulator.svg",
+  "referencePath": "references/low-dropout-voltage-regulator.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-ldo",
+      "title": "Linear voltage regulation",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/linear-ldo-regulators/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Linear voltage regulation: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

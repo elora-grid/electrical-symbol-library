@@ -1,0 +1,91 @@
+{
+  "slug": "ansi-three-input-or-gate",
+  "name": "ANSI three-input OR gate",
+  "kind": "symbol",
+  "abbreviation": "OR3",
+  "aliases": [
+    "3-input OR gate",
+    "triple-input OR",
+    "distinctive-shape OR3"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Curved-back OR outline with three inputs; any one high input drives the output high.",
+  "description": [
+    "The three-input OR uses the shield-shaped outline with a concave back and a pointed front, with a third input added on the curved back edge. Any input at logic 1 produces a logic 1 output. Triple three-input OR packages exist for this function.",
+    "Typical uses include combining several fault or request signals into a single command. The inputs should be identified by signal name so that a test engineer can trace which source produced the output when the logic operates.",
+    "The outline does not tell the reader whether inputs are filtered or latched. Any such behaviour must appear as separate elements before or after the gate."
+  ],
+  "readingNotes": [
+    "Inputs meet the curved back, not a straight edge.",
+    "Trace each input to its source tag."
+  ],
+  "drawingChecklist": [
+    "Terminate input leads on the concave back.",
+    "Label each input signal.",
+    "Show unused-input tie-offs for multi-input parts."
+  ],
+  "distinction": "An exclusive-OR has an extra curved line behind the back; a plain OR has a single back curve.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Three"
+    },
+    {
+      "label": "Example device family",
+      "value": "Triple three-input OR packages"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-hc4075",
+      "relevance": "Manufacturer documentation for triple three-input OR gates."
+    }
+  ],
+  "related": [
+    "logic-or-gate",
+    "iec-or-gate",
+    "ansi-three-input-nor-gate"
+  ],
+  "artwork": "s28-ansi-three-input-or-gate",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Curved-back OR outline with three inputs",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-or-gate"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-input-or-gate",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-input-or-gate.svg",
+  "id": "ansi-three-input-or-gate",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-input-or-gate",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-input-or-gate.json",
+  "svgPath": "artwork/svg/ansi-three-input-or-gate.svg",
+  "referencePath": "references/ansi-three-input-or-gate.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-hc4075",
+      "title": "CDx4HC4075 triple 3-input OR gates",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/cd74hc4075.pdf",
+      "type": "manufacturer",
+      "scope": "Device documentation for three-input OR gates.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Manufacturer documentation for triple three-input OR gates."
+    }
+  ]
+}

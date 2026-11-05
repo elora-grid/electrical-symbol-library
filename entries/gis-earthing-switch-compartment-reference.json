@@ -1,0 +1,105 @@
+{
+  "slug": "gis-earthing-switch-compartment-reference",
+  "name": "GIS earthing-switch compartment reference",
+  "kind": "symbol",
+  "abbreviation": "GECR",
+  "aliases": [
+    "High-voltage primary equipment references",
+    "switchyards High-voltage primary equipment references",
+    "switchyards",
+    "Switchyards",
+    "GIS conductor section",
+    "GIS earthing connection"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the assigned earthing function within the documented gas-insulated assembly.",
+  "description": [
+    "Identifies the assigned earthing function within the documented gas-insulated assembly. High-voltage primary equipment carries, interrupts, measures or conditions the main power circuit. Its function, insulation arrangement and equipment boundaries need to be distinguished from the secondary signals used to control it.",
+    "In a switchyard equipment diagram, the primary reference identifies the electrical role of an installed component while the linked equipment schedule and manufacturer drawing supply its exact construction and dimensions. For this reference, the drawing identifies “GIS conductor section” at the input and “GIS earthing connection” at the output. The earthing duty is equipment-specific.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: GIS conductor section. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: GIS earthing connection. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The earthing duty is equipment-specific.",
+    "Read the connected power path before interpreting a secondary output or alarm. These original educational component references provide no product dimensions, dielectric rating, installation clearance or construction approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for gis conductor section.",
+    "Identify the destination and defined state of gis earthing connection.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The earthing duty is equipment-specific."
+  ],
+  "distinction": "The earthing duty is equipment-specific. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "GIS conductor section"
+    },
+    {
+      "label": "Output / connection",
+      "value": "GIS earthing connection"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GECR is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-hv-primary",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "power-transformer",
+    "capacitor-voltage-transformer",
+    "gis-gas-zone-boundary-reference"
+  ],
+  "artwork": "pi26-gis-earthing-switch-compartment-reference",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "hv-primary",
+    "input": "GIS conductor section",
+    "output": "GIS earthing connection"
+  },
+  "url": "https://eloragrid.ai/symbols/gis-earthing-switch-compartment-reference",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/gis-earthing-switch-compartment-reference.svg",
+  "id": "gis-earthing-switch-compartment-reference",
+  "canonicalUrl": "https://eloragrid.ai/symbols/gis-earthing-switch-compartment-reference",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/gis-earthing-switch-compartment-reference.json",
+  "svgPath": "artwork/svg/gis-earthing-switch-compartment-reference.svg",
+  "referencePath": "references/gis-earthing-switch-compartment-reference.md",
+  "publicSources": [
+    {
+      "id": "pi26-hv-primary",
+      "publisher": "Hitachi Energy",
+      "title": "Gas-insulated switchgear",
+      "url": "https://www.hitachienergy.com/products-and-solutions/high-voltage-switchgear-and-breakers/gas-insulated-switchgear",
+      "scope": "Primary switching equipment and instrument-transformer interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for high-voltage primary equipment references. Primary switching equipment and instrument-transformer interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

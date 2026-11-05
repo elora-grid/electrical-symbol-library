@@ -1,0 +1,105 @@
+{
+  "slug": "station-communications-gateway-boundary",
+  "name": "Station communications gateway boundary",
+  "kind": "symbol",
+  "abbreviation": "SCGB",
+  "aliases": [
+    "Substation automation and command interfaces",
+    "substations Substation automation and command interfaces",
+    "substations",
+    "Substations",
+    "Station protocol data",
+    "External-system mapped data"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented protocol or data-model translation between the station and external system.",
+  "description": [
+    "Identifies the documented protocol or data-model translation between the station and external system. Station automation collects measurements and statuses and issues assigned commands through defined authority paths. A communicated point has a value, quality and equipment identity; it should not be treated as an unexplained contact.",
+    "In a substation control building, the station controller receives bay information and forwards an operator's selected command to the correct bay device. Device feedback confirms whether the intended result actually occurred. For this reference, the drawing identifies “Station protocol data” at the input and “External-system mapped data” at the output. Translation must preserve point meaning and quality.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Station protocol data. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: External-system mapped data. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Translation must preserve point meaning and quality.",
+    "Document the point mapping, source, destination, command authority and failure behavior. A communication interface block explains information flow and does not certify network security or control-system availability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for station protocol data.",
+    "Identify the destination and defined state of external-system mapped data.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Translation must preserve point meaning and quality."
+  ],
+  "distinction": "Translation must preserve point meaning and quality. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Station protocol data"
+    },
+    {
+      "label": "Output / connection",
+      "value": "External-system mapped data"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SCGB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-automation",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-substation-rtu",
+    "plc-digital-input",
+    "remote-control-communications-loss-inhibit"
+  ],
+  "artwork": "pi26-station-communications-gateway-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-automation",
+    "input": "Station protocol data",
+    "output": "External-system mapped data"
+  },
+  "url": "https://eloragrid.ai/symbols/station-communications-gateway-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-communications-gateway-boundary.svg",
+  "id": "station-communications-gateway-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-communications-gateway-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-communications-gateway-boundary.json",
+  "svgPath": "artwork/svg/station-communications-gateway-boundary.svg",
+  "referencePath": "references/station-communications-gateway-boundary.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-automation",
+      "publisher": "SEL",
+      "title": "SEL-2411 programmable automation controller",
+      "url": "https://selinc.com/products/2411/",
+      "scope": "Station I/O, alarms, event recording, command and communications interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for substation automation and command interfaces. Station I/O, alarms, event recording, command and communications interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

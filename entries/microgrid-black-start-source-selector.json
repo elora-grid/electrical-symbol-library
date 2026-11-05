@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-black-start-source-selector",
+  "name": "Microgrid black-start source selector",
+  "kind": "symbol",
+  "abbreviation": "MBSS",
+  "aliases": [
+    "Microgrid black-start and restoration controls",
+    "microgrids Microgrid black-start and restoration controls",
+    "microgrids",
+    "Microgrids",
+    "Black-start resource capability",
+    "Selected starting source"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Selects an available resource declared capable of establishing the initial electrical reference.",
+  "description": [
+    "Selects an available resource declared capable of establishing the initial electrical reference. Black-start and restoration control coordinates the establishment of an electrical reference and the gradual return of assigned resources and loads. A dead system, an available starting source and a successful load restoration are distinct states.",
+    "In a microgrid recovering from a blackout, an available grid-forming source can establish the assigned island reference before compatible generation and eligible load groups are introduced under the validated restoration strategy. For this reference, the drawing identifies “Black-start resource capability” at the input and “Selected starting source” at the output. Resource capability must be confirmed by its documentation.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Black-start resource capability. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Selected starting source. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Resource capability must be confirmed by its documentation.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for black-start resource capability.",
+    "Identify the destination and defined state of selected starting source.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Resource capability must be confirmed by its documentation."
+  ],
+  "distinction": "Resource capability must be confirmed by its documentation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Black-start resource capability"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Selected starting source"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MBSS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "microgrid-controller",
+    "microgrid-black-start-energy-reserve-gate"
+  ],
+  "artwork": "pi26-microgrid-black-start-source-selector",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-restoration",
+    "input": "Black-start resource capability",
+    "output": "Selected starting source"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-black-start-source-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-black-start-source-selector.svg",
+  "id": "microgrid-black-start-source-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-black-start-source-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-black-start-source-selector.json",
+  "svgPath": "artwork/svg/microgrid-black-start-source-selector.svg",
+  "referencePath": "references/microgrid-black-start-source-selector.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

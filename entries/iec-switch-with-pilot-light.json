@@ -1,0 +1,103 @@
+{
+  "slug": "iec-switch-with-pilot-light",
+  "name": "Switch with pilot light plan mark",
+  "kind": "symbol",
+  "abbreviation": "SPL",
+  "aliases": [
+    "illuminated switch",
+    "switch with indicator",
+    "pilot-light switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a switch with an integral pilot lamp that shows when the controlled load is on.",
+  "description": [
+    "A switch with pilot light is used where the controlled load cannot be seen from the switch position, such as an external light, a water heater or a loft. The plan form adds a small lamp mark, a crossed circle, to the switch symbol.",
+    "The pilot lamp needs a neutral at the switch in many accessory designs, so the symbol tells the electrician to bring a neutral to the switch box. It may also signal a double-pole switch for appliance control.",
+    "The lamp mark does not tell you whether it lights when the load is on or when the switch is off as a locator. The specification decides."
+  ],
+  "readingNotes": [
+    "Check whether the lamp indicates load on or acts as a locator.",
+    "Confirm a neutral is available at the switch."
+  ],
+  "drawingChecklist": [
+    "State lamp function.",
+    "State pole count.",
+    "Tag the remote load."
+  ],
+  "distinction": "A plain one-way switch has no lamp; this form adds visual confirmation of the load state.",
+  "facts": [
+    {
+      "label": "Added element",
+      "value": "Integral indicator lamp"
+    },
+    {
+      "label": "Wiring note",
+      "value": "Often needs a neutral at the switch"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "autodesk-lamps",
+      "relevance": "Public lamp symbol family for comparing the indicator element."
+    }
+  ],
+  "related": [
+    "iec-one-way-light-switch",
+    "indicator-lamp"
+  ],
+  "artwork": "s28-iec-switch-with-pilot-light",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Switch with pilot lamp",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-switch-with-pilot-light",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-switch-with-pilot-light.svg",
+  "id": "iec-switch-with-pilot-light",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-switch-with-pilot-light",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-switch-with-pilot-light.json",
+  "svgPath": "artwork/svg/iec-switch-with-pilot-light.svg",
+  "referencePath": "references/iec-switch-with-pilot-light.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "autodesk-lamps",
+      "title": "Pilot lights: public symbol reference",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BBCEBBBA-24AD-4D3A-B106-39550AAACA6C.htm",
+      "type": "cad-reference",
+      "scope": "Pilot-light and indication variants. A symbol alone does not establish the indicated operating condition.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public lamp symbol family for comparing the indicator element."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "multi-rate-energy-meter",
+  "name": "Multi-rate energy meter",
+  "kind": "symbol",
+  "abbreviation": "kWh",
+  "aliases": [
+    "two-rate meter",
+    "time-of-use meter",
+    "dual tariff meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Energy meter that switches between registers by time or tariff signal so energy is billed at different rates.",
+  "description": [
+    "A multi-rate meter has two or more registers and switches between them according to an internal clock or an external tariff signal. Older installations use a ripple control receiver or time switch to change rate, which is why the schematic may show a control input to the meter.",
+    "The symbol marks the multiple registers but not the rate schedule. Tariff periods are set by the supply agreement and meter programming, and the drawing should reference the tariff source rather than assume it from the meter form."
+  ],
+  "readingNotes": [
+    "Look for an external tariff switching input.",
+    "Check that the register count matches the tariff."
+  ],
+  "drawingChecklist": [
+    "Show tariff switching source",
+    "State number of registers",
+    "Reference meter program"
+  ],
+  "distinction": "A multi-rate meter splits energy by time or tariff; a bidirectional meter splits energy by direction.",
+  "facts": [
+    {
+      "label": "Registers",
+      "value": "Two or more tariff registers"
+    },
+    {
+      "label": "Switching",
+      "value": "Internal clock or external tariff signal"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "active-energy-meter",
+    "maximum-demand-energy-meter",
+    "iec-clock-indication"
+  ],
+  "artwork": "s28-multi-rate-energy-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/multi-rate-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/multi-rate-energy-meter.svg",
+  "id": "multi-rate-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/multi-rate-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/multi-rate-energy-meter.json",
+  "svgPath": "artwork/svg/multi-rate-energy-meter.svg",
+  "referencePath": "references/multi-rate-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

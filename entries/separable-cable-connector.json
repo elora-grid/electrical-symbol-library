@@ -1,0 +1,100 @@
+{
+  "slug": "separable-cable-connector",
+  "name": "Separable cable connector",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "elbow connector",
+    "T-connector",
+    "plug-in cable termination"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A plug-in screened termination that connects a medium voltage cable to an equipment bushing and can be separated.",
+  "description": [
+    "Separable connectors, such as elbow and T-body connectors, terminate a medium voltage cable onto a bushing so that the cable can be disconnected without cutting it. They appear on ring main units, pad-mounted transformers and switchgear with standardised bushing interfaces, and the T-body form often allows a second cable or a surge arrester to be stacked behind it.",
+    "The drawing symbol identifies the plug-in interface but not the interface type, current rating or whether the connector is load-break or dead-break. Those details determine whether it may be operated under load and must be given in text. A dead-break connector must never be separated while energised."
+  ],
+  "readingNotes": [
+    "Check whether the connector is load-break or dead-break.",
+    "Look for stacked arresters or second cables on T-bodies."
+  ],
+  "drawingChecklist": [
+    "State interface type and rating.",
+    "Identify load-break or dead-break.",
+    "Show any arrester or cable stacked on the connector."
+  ],
+  "distinction": "A separable connector plugs onto a bushing and can be removed; a sealing end is a fixed termination.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Cable ending in a plug half engaging a bushing"
+    },
+    {
+      "label": "Operating limit",
+      "value": "Dead-break versions must not be separated while energised"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for separable cable connectors and accessories."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Standards context for connector graphics."
+    }
+  ],
+  "related": [
+    "iec-single-core-cable-sealing-end",
+    "connector-plug-half",
+    "surge-arrester"
+  ],
+  "artwork": "s28-separable-cable-connector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/separable-cable-connector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/separable-cable-connector.svg",
+  "id": "separable-cable-connector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/separable-cable-connector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/separable-cable-connector.json",
+  "svgPath": "artwork/svg/separable-cable-connector.svg",
+  "referencePath": "references/separable-cable-connector.md",
+  "publicSources": [
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for separable cable connectors and accessories."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Standards context for connector graphics."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-emergency-operating-state-interface",
+  "name": "Microgrid emergency operating-state interface",
+  "kind": "symbol",
+  "abbreviation": "MEOI",
+  "aliases": [
+    "Microgrid operating-mode controls",
+    "microgrids Microgrid operating-mode controls",
+    "microgrids",
+    "Microgrids",
+    "Emergency-system request",
+    "Assigned emergency control state"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Coordinates the separately defined emergency control state and its assigned resource outputs.",
+  "description": [
+    "Coordinates the separately defined emergency control state and its assigned resource outputs. A microgrid operating-mode function coordinates how local sources and loads relate to the utility connection. The selected mode, the measured electrical condition and the actual switching configuration can differ during a transition.",
+    "In a microgrid serving a switchroom and industrial loads, the controller can move between grid-connected and islanded operating states only through its defined transition logic. Each state needs identifiable source roles and feedback. For this reference, the drawing identifies “Emergency-system request” at the input and “Assigned emergency control state” at the output. The emergency cause-and-effect design governs its scope.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Emergency-system request. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned emergency control state. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The emergency cause-and-effect design governs its scope.",
+    "Show the requested mode, entry conditions, completion feedback and failure indication. These functional blocks explain control responsibilities and do not specify a ready-to-use operating sequence or grid-connection approval."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for emergency-system request.",
+    "Identify the destination and defined state of assigned emergency control state.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The emergency cause-and-effect design governs its scope."
+  ],
+  "distinction": "The emergency cause-and-effect design governs its scope. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Emergency-system request"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned emergency control state"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MEOI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-modes",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "grid-forming-inverter",
+    "microgrid-grid-connected-mode-coordinator"
+  ],
+  "artwork": "pi26-microgrid-emergency-operating-state-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-modes",
+    "input": "Emergency-system request",
+    "output": "Assigned emergency control state"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-emergency-operating-state-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-emergency-operating-state-interface.svg",
+  "id": "microgrid-emergency-operating-state-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-emergency-operating-state-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-emergency-operating-state-interface.json",
+  "svgPath": "artwork/svg/microgrid-emergency-operating-state-interface.svg",
+  "referencePath": "references/microgrid-emergency-operating-state-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-modes",
+      "publisher": "Schneider Electric",
+      "title": "Microgrid operating modes and transitions management",
+      "url": "https://productinfo.se.com/emol_functional_specifications/doca0371_emol_functionalspecifications/EN/DOCA0371_EMOL_Functional_Specifications_DD00894746.xml/%24/EMOL_OperatingModesandTransitionsManagement_DD00895904",
+      "scope": "Grid-connected and island modes, transitions, topology and authority.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid operating-mode controls. Grid-connected and island modes, transitions, topology and authority. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

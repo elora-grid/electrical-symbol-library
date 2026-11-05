@@ -1,0 +1,90 @@
+{
+  "slug": "altech-ps-rdn",
+  "name": "Altech PS-RDN power-supply redundancy accessory",
+  "kind": "object",
+  "abbreviation": "PS-RDN",
+  "aliases": [
+    "Altech PS-RDN power-supply redundancy accessory GA",
+    "PS-RDN layout",
+    "PS-RDN CAD",
+    "PS-RDN general arrangement"
+  ],
+  "category": "equipment-layouts",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "PS-RDN supply redundancy accessory arrangement for DC control-panel layouts.",
+  "description": [
+    "The manufacturer index maps drawing group PS_RDN to PS-RDN. Coordinate the accessory between the independent supply inputs and the common output wiring; verify the actual electrical topology separately.",
+    "Use the linked manufacturer mechanical original for dimensions and exact revision. This illustration is independently drawn, unitless and not to scale."
+  ],
+  "readingNotes": [
+    "Show both input routes and the common DC output corridor.",
+    "The accessory outline does not establish the allowable redundancy topology, current rating or protective-device selection."
+  ],
+  "drawingChecklist": [
+    "Identify the exact PS-RDN accessory.",
+    "Show both input routes and the common DC output corridor.",
+    "Check independent supply positions and accessory terminal access."
+  ],
+  "distinction": "The accessory outline does not establish the allowable redundancy topology, current rating or protective-device selection.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Altech"
+    },
+    {
+      "label": "Drawing group",
+      "value": "PS-RDN"
+    },
+    {
+      "label": "Drawing scope",
+      "value": "Legacy manufacturer drawing group; only explicitly listed aliases are included"
+    },
+    {
+      "label": "Manufacturer index aliases",
+      "value": "PS-RDN"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual envelope; no measured geometry or certification claim"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-scale-altech-ps-rdn",
+      "relevance": "Official drawing identity and configuration scope. Coordination notes and illustration are original educational material."
+    }
+  ],
+  "related": [
+    "ga-dc-redundancy-module",
+    "ga-din-rail-ac-dc-power-supply"
+  ],
+  "artwork": "edu-object-altech-ps-rdn",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/altech-ps-rdn",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/altech-ps-rdn",
+  "id": "altech-ps-rdn",
+  "canonicalUrl": "https://eloragrid.ai/objects/altech-ps-rdn",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/altech-ps-rdn.json",
+  "referencePath": "references/altech-ps-rdn.md",
+  "publicSources": [
+    {
+      "id": "ga-scale-altech-ps-rdn",
+      "title": "Altech PS-RDN power-supply redundancy accessory: official mechanical resource",
+      "publisher": "Altech Corporation",
+      "url": "https://legacy.altechcorp.com/CAD/1MasterSheet/WebsiteUSE/HTMLWebpages/PowerSupplyMasterSheet.htm",
+      "type": "manufacturer",
+      "scope": "Published model identity, mechanical drawing group and variant scope.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Official drawing identity and configuration scope. Coordination notes and illustration are original educational material."
+    }
+  ]
+}

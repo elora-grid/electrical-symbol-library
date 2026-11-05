@@ -1,0 +1,98 @@
+{
+  "slug": "fused-connection-unit-plan-mark",
+  "name": "Fused connection unit plan mark",
+  "kind": "symbol",
+  "abbreviation": "FCU",
+  "aliases": [
+    "fused spur",
+    "fused connection unit",
+    "switched fused spur"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a fused connection unit that feeds fixed equipment through a cartridge fuse instead of a plug.",
+  "description": [
+    "A fused connection unit, often called a fused spur, connects a fixed appliance such as a towel rail, extractor fan or boiler directly to a final circuit through a small cartridge fuse. Plans commonly draw a small square with an S-shaped fuse mark or the letters FCU at the wall line, sometimes with a switch stroke for the switched type.",
+    "The symbol is common in British-style layouts on ring final circuits, where fixed loads must be fused down from the circuit rating. The reader should check the fuse rating and whether a flex outlet is fitted on the front or the cable leaves from the back of the box.",
+    "It is not a socket outlet: no plug is involved. It also does not provide isolation suitable for mechanical maintenance unless the specification says so."
+  ],
+  "readingNotes": [
+    "Read the fuse rating written beside the symbol, often 3 A or 13 A.",
+    "Check whether the switched or unswitched version is required."
+  ],
+  "drawingChecklist": [
+    "State fuse rating and switched or unswitched type.",
+    "Name the fixed appliance it serves.",
+    "Show the flex outlet or rear cable entry."
+  ],
+  "distinction": "A switched socket outlet accepts a plug; a fused connection unit is wired to fixed equipment.",
+  "facts": [
+    {
+      "label": "Typical loads",
+      "value": "Towel rails, extract fans, boilers, hand dryers"
+    },
+    {
+      "label": "Protection",
+      "value": "Cartridge fuse in the accessory"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; plan symbols for this device vary between legends, so read the project key"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-switched-socket-outlet",
+    "iec-flex-outlet-plate"
+  ],
+  "artwork": "s28-fused-connection-unit-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/fused-connection-unit-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/fused-connection-unit-plan-mark.svg",
+  "id": "fused-connection-unit-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/fused-connection-unit-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/fused-connection-unit-plan-mark.json",
+  "svgPath": "artwork/svg/fused-connection-unit-plan-mark.svg",
+  "referencePath": "references/fused-connection-unit-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology context: circuits, outlets and final distribution are planned before symbols are placed."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC committee context for graphical symbols used in diagrams and installation documents; not a source of reproduced artwork."
+    }
+  ]
+}

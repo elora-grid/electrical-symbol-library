@@ -1,0 +1,86 @@
+{
+  "slug": "photovoltaic-string-combiner",
+  "name": "Photovoltaic string combiner",
+  "kind": "symbol",
+  "abbreviation": "COMB",
+  "aliases": [
+    "Photovoltaic string combiner",
+    "Photovoltaic string combiner functional block",
+    "Photovoltaic string combiner schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A string combiner brings identified solar DC circuits together at a defined connection arrangement.",
+  "description": [
+    "A string combiner brings identified solar DC circuits together at a defined connection arrangement.",
+    "Several string connections can feed a common outgoing DC route through their selected protection and monitoring.",
+    "Show each incoming string and the common outgoing DC connection, including any separately specified protection, isolation and monitoring. A combiner is a junction arrangement; its name alone does not establish which protective devices are installed or which string combinations are permitted. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Label every incoming string and the common outgoing circuit.",
+    "Identify installed protection and isolation separately.",
+    "Reference the selected enclosure, terminals and monitoring documents.",
+    "A combining connection does not replace the need to specify each circuit's protection and isolation."
+  ],
+  "drawingChecklist": [
+    "Label every incoming string and the common outgoing circuit.",
+    "Identify installed protection and isolation separately.",
+    "Reference the selected enclosure, terminals and monitoring documents."
+  ],
+  "distinction": "A combining connection does not replace the need to specify each circuit's protection and isolation.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Identified string circuits"
+    },
+    {
+      "label": "Concept output",
+      "value": "Common DC connection"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-pvcombiner",
+      "relevance": "Solar string combiner functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "photovoltaic-generator",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-photovoltaic-string-combiner",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/photovoltaic-string-combiner",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/photovoltaic-string-combiner.svg",
+  "id": "photovoltaic-string-combiner",
+  "canonicalUrl": "https://eloragrid.ai/symbols/photovoltaic-string-combiner",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/photovoltaic-string-combiner.json",
+  "svgPath": "artwork/svg/photovoltaic-string-combiner.svg",
+  "referencePath": "references/photovoltaic-string-combiner.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-pvcombiner",
+      "title": "Solar string combiner functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/smart-combiner-box",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Solar string combiner functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "process-bus-redundant-network-interface",
+  "name": "Process-bus redundant-network interface",
+  "kind": "symbol",
+  "abbreviation": "PRI",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Two network paths",
+    "Redundant data transport"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Separates the two documented process-network paths serving a redundant communication arrangement.",
+  "description": [
+    "Separates the two documented process-network paths serving a redundant communication arrangement. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Two network paths” at the input and “Redundant data transport” at the output. Network names alone do not prove independent failure paths.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Two network paths. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Redundant data transport. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Network names alone do not prove independent failure paths.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for two network paths.",
+    "Identify the destination and defined state of redundant data transport.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Network names alone do not prove independent failure paths."
+  ],
+  "distinction": "Network names alone do not prove independent failure paths. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Two network paths"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Redundant data transport"
+    },
+    {
+      "label": "Lookup label",
+      "value": "PRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "station-bus-supervisory-interface"
+  ],
+  "artwork": "pi26-process-bus-redundant-network-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Two network paths",
+    "output": "Redundant data transport"
+  },
+  "url": "https://eloragrid.ai/symbols/process-bus-redundant-network-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/process-bus-redundant-network-interface.svg",
+  "id": "process-bus-redundant-network-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/process-bus-redundant-network-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/process-bus-redundant-network-interface.json",
+  "svgPath": "artwork/svg/process-bus-redundant-network-interface.svg",
+  "referencePath": "references/process-bus-redundant-network-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

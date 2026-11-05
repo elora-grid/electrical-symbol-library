@@ -1,0 +1,105 @@
+{
+  "slug": "breaker-shunt-trip-coil",
+  "name": "Breaker shunt-trip coil",
+  "kind": "symbol",
+  "abbreviation": "BSC",
+  "aliases": [
+    "Breaker trip circuits",
+    "switchgear Breaker trip circuits",
+    "switchgear",
+    "Switchgear",
+    "Trip supply and command",
+    "Opening mechanism release"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Uses an externally supplied electrical pulse to release the breaker opening mechanism.",
+  "description": [
+    "Uses an externally supplied electrical pulse to release the breaker opening mechanism. A trip circuit carries an opening request from a control or protection device to the breaker operating mechanism. The opening command, the coil supply and the evidence that the breaker opened are separate parts of the drawing.",
+    "In a switchgear incomer panel, a protection relay requests opening and an auxiliary contact reports the resulting breaker position. A second trip path can have its own supply and wiring so that a single wiring fault does not remove both paths. For this reference, the drawing identifies “Trip supply and command” at the input and “Opening mechanism release” at the output. A shunt trip needs the specified control energy.",
+    "Trace the initiating contact, protective fuse, trip coil, return conductor and feedback independently. Identify which elements are shared between redundant paths. The diagram explains the intended command path; coil ratings and terminal numbers come from the selected breaker. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Trip supply and command. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Opening mechanism release. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "A shunt trip needs the specified control energy.",
+    "Trace the initiating contact, protective fuse, trip coil, return conductor and feedback independently. Identify which elements are shared between redundant paths. The diagram explains the intended command path; coil ratings and terminal numbers come from the selected breaker."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for trip supply and command.",
+    "Identify the destination and defined state of opening mechanism release.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: A shunt trip needs the specified control energy."
+  ],
+  "distinction": "A shunt trip needs the specified control energy. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Trip supply and command"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Opening mechanism release"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker trip circuits. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "86-lockout",
+    "breaker-trip-coil-one-interface"
+  ],
+  "artwork": "pi26-breaker-shunt-trip-coil",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "trip",
+    "input": "Trip supply and command",
+    "output": "Opening mechanism release"
+  },
+  "url": "https://eloragrid.ai/symbols/breaker-shunt-trip-coil",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/breaker-shunt-trip-coil.svg",
+  "id": "breaker-shunt-trip-coil",
+  "canonicalUrl": "https://eloragrid.ai/symbols/breaker-shunt-trip-coil",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/breaker-shunt-trip-coil.json",
+  "svgPath": "artwork/svg/breaker-shunt-trip-coil.svg",
+  "referencePath": "references/breaker-shunt-trip-coil.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker trip circuits. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

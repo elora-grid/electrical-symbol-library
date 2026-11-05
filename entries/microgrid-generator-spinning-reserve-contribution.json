@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-generator-spinning-reserve-contribution",
+  "name": "Microgrid generator spinning-reserve contribution",
+  "kind": "symbol",
+  "abbreviation": "MGSC",
+  "aliases": [
+    "Microgrid generating-set coordination",
+    "microgrids Microgrid generating-set coordination",
+    "microgrids",
+    "Microgrids",
+    "Generator output and available limit",
+    "Assigned reserve contribution"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the declared usable additional output of a connected generating set.",
+  "description": [
+    "Identifies the declared usable additional output of a connected generating set. Generating-set coordination decides which available machines should operate and how their power contribution is shared. Engine starting, breaker connection, load acceptance and stopping are separate stages with their own feedback.",
+    "In a microgrid power station, the controller can request an additional generator when available reserve falls and later unload a selected machine before its documented stop sequence. For this reference, the drawing identifies “Generator output and available limit” at the input and “Assigned reserve contribution” at the output. Response capability and operating constraints matter.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Generator output and available limit. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned reserve contribution. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Response capability and operating constraints matter.",
+    "Preserve the engine and generator electrical boundaries, command authority and source readiness. Starting duty, minimum loading, synchronising, fuel systems and cooling behavior require the selected generator documentation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for generator output and available limit.",
+    "Identify the destination and defined state of assigned reserve contribution.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Response capability and operating constraints matter."
+  ],
+  "distinction": "Response capability and operating constraints matter. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Generator output and available limit"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned reserve contribution"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MGSC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-genset-control",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "genset-controller",
+    "diesel-generator-set",
+    "microgrid-generator-governor-control-interface"
+  ],
+  "artwork": "pi26-microgrid-generator-spinning-reserve-contribution",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-gensets",
+    "input": "Generator output and available limit",
+    "output": "Assigned reserve contribution"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-generator-spinning-reserve-contribution",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-generator-spinning-reserve-contribution.svg",
+  "id": "microgrid-generator-spinning-reserve-contribution",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-generator-spinning-reserve-contribution",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-generator-spinning-reserve-contribution.json",
+  "svgPath": "artwork/svg/microgrid-generator-spinning-reserve-contribution.svg",
+  "referencePath": "references/microgrid-generator-spinning-reserve-contribution.md",
+  "publicSources": [
+    {
+      "id": "pi26-genset-control",
+      "publisher": "DEIF",
+      "title": "AGC power management options G4, G5 and G8",
+      "url": "https://www.deif.com/media/5a4bx0xv/agc-3-option-g4-g5-and-g8-power-management-4189340696-uk.pdf",
+      "scope": "Generator start/stop, load sharing, reserve and power management.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid generating-set coordination. Generator start/stop, load sharing, reserve and power management. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "power-good-indication",
+  "name": "Power-good indication",
+  "kind": "symbol",
+  "abbreviation": "PG",
+  "aliases": [
+    "Power-good indication",
+    "Power-good indication functional block",
+    "Power-good indication schematic reference"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A power-good signal reports whether the source's specified acceptable-supply conditions are satisfied.",
+  "description": [
+    "A power-good signal reports whether the source's specified acceptable-supply conditions are satisfied.",
+    "A downstream circuit can use this status when deciding whether to enable its operation.",
+    "Draw power-good as a status signal from its source or supervisor to the receiving controller. It is information about specified acceptable conditions, not the supply conductor itself. State the active level and timing requirements from the selected source so the receiving circuit interprets it correctly. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify the device generating the indication.",
+    "Show the active level and receiving input.",
+    "Reference acceptable conditions and assertion/release timing.",
+    "Power-good timing and thresholds come from the selected source or supervisor."
+  ],
+  "drawingChecklist": [
+    "Identify the device generating the indication.",
+    "Show the active level and receiving input.",
+    "Reference acceptable conditions and assertion/release timing."
+  ],
+  "distinction": "Power-good timing and thresholds come from the selected source or supervisor.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Defined supply conditions"
+    },
+    {
+      "label": "Concept output",
+      "value": "Receiving control input"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-supervisor",
+      "relevance": "Supply supervision and reset: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "watchdog-timer",
+    "supply-voltage-supervisor",
+    "window-voltage-supervisor",
+    "power-converter"
+  ],
+  "artwork": "expanded-power-good-indication",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/power-good-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/power-good-indication.svg",
+  "id": "power-good-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/power-good-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/power-good-indication.json",
+  "svgPath": "artwork/svg/power-good-indication.svg",
+  "referencePath": "references/power-good-indication.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-supervisor",
+      "title": "Supply supervision and reset",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/supervisor-reset-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Supply supervision and reset: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "iec-screened-twisted-pair",
+  "name": "Screened twisted pair",
+  "kind": "symbol",
+  "abbreviation": "W",
+  "aliases": [
+    "shielded twisted pair",
+    "STP",
+    "individually screened pair"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Two conductors drawn twisted together inside a screen outline, as used for noise-sensitive signal and communication pairs.",
+  "description": [
+    "The screened twisted pair combines two separate protections against interference. Twisting cancels magnetically induced voltage between the two cores, and the screen intercepts capacitive coupling from nearby power conductors. The form is typical for RS-485 links, 4 to 20 mA loops in noisy plant and resolver or encoder feedback pairs.",
+    "On a drawing each screened pair should be identifiable in the core allocation, because a multipair cable may contain several of them plus an overall screen. The symbol does not tell you the characteristic impedance or twist rate, which matter for data networks and must come from the cable specification."
+  ],
+  "readingNotes": [
+    "Confirm the pair belongs to the circuit it is drawn on, not split across two circuits.",
+    "Check how the pair screen is terminated relative to any overall screen."
+  ],
+  "drawingChecklist": [
+    "Allocate both cores of the pair to one signal circuit.",
+    "Show the pair screen termination.",
+    "Record cable impedance for data circuits."
+  ],
+  "distinction": "A screened twisted pair adds a shield; the plain twisted-pair indication shows twisting only and no screen.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Crossed or twisted pair of lines inside a screen outline"
+    },
+    {
+      "label": "Typical use",
+      "value": "Serial data, analogue loops and feedback devices"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-public-cable",
+      "relevance": "Public IEC-60617 preview family that includes the twisted-pair marker."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "iec-twisted-pair-indication",
+    "iec-screened-multi-conductor-cable",
+    "rs-485-transceiver"
+  ],
+  "artwork": "s28-iec-screened-twisted-pair",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Twisted pair with individual screen",
+    "reference": "Independent combination of IEC-context twisted-pair and screen forms; not certified IEC geometry."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-screened-twisted-pair",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-screened-twisted-pair.svg",
+  "id": "iec-screened-twisted-pair",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-screened-twisted-pair",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-screened-twisted-pair.json",
+  "svgPath": "artwork/svg/iec-screened-twisted-pair.svg",
+  "referencePath": "references/iec-screened-twisted-pair.md",
+  "publicSources": [
+    {
+      "id": "iec-public-cable",
+      "title": "Autodesk IEC-60617 preview: Cable identification and twisted-pair annotation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-37A08C35-43A3-484D-B0EB-0BBCBC4BE709.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-60617 preview family that includes the twisted-pair marker."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "offline-standby-ups",
+  "name": "Offline standby UPS",
+  "kind": "symbol",
+  "abbreviation": "UPS VFD",
+  "aliases": [
+    "standby UPS",
+    "offline UPS",
+    "VFD UPS"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A UPS that passes raw mains straight to the load and starts its inverter only when mains is lost.",
+  "description": [
+    "An offline or standby UPS connects the load directly to mains through a transfer relay. A separate charger keeps the battery topped up, and the inverter starts only when mains fails, at which point the relay transfers the load. Transfer typically takes several milliseconds to around ten milliseconds.",
+    "Drawings show the mains path through a changeover contact to the output, with the charger, battery and inverter forming a parallel branch that connects to the other contact position. These units are mainly small desktop or control panel units.",
+    "The load sees mains disturbances and the transfer gap, and the inverter waveform may be stepped rather than sinusoidal. The symbol does not show waveform quality, transfer time or whether surge filtering is included."
+  ],
+  "readingNotes": [
+    "The normal path has no conversion stage.",
+    "Check output waveform type for sensitive loads."
+  ],
+  "drawingChecklist": [
+    "State VA rating and transfer time.",
+    "Show transfer relay, charger and inverter.",
+    "Reference output waveform."
+  ],
+  "distinction": "An offline UPS gives no correction until it transfers; an online UPS conditions the output continuously.",
+  "facts": [
+    {
+      "label": "Normal load path",
+      "value": "Direct mains"
+    },
+    {
+      "label": "Inverter",
+      "value": "Starts on mains failure"
+    },
+    {
+      "label": "Typical size",
+      "value": "Small single-phase units"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "sourceId": "pub-object-tdk-din",
+      "relevance": "Public DIN-rail UPS family context."
+    }
+  ],
+  "related": [
+    "line-interactive-ups",
+    "online-double-conversion-ups",
+    "ac-uninterruptible-power-supply"
+  ],
+  "artwork": "s28-offline-standby-ups",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/offline-standby-ups",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/offline-standby-ups.svg",
+  "id": "offline-standby-ups",
+  "canonicalUrl": "https://eloragrid.ai/symbols/offline-standby-ups",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/offline-standby-ups.json",
+  "svgPath": "artwork/svg/offline-standby-ups.svg",
+  "referencePath": "references/offline-standby-ups.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public UPS function context."
+    },
+    {
+      "id": "pub-object-tdk-din",
+      "title": "DIN-rail power supply, buffer, redundancy and UPS families",
+      "publisher": "TDK-Lambda",
+      "url": "https://www.emea.lambda.tdk.com/uk/products/din-rail",
+      "type": "manufacturer",
+      "scope": "Public functional classification of DIN-rail product families; exact model selection and technical values remain in the data sheet.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public DIN-rail UPS family context."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "ansi-operational-amplifier",
+  "name": "ANSI operational amplifier (triangle form)",
+  "kind": "symbol",
+  "abbreviation": "OA",
+  "aliases": [
+    "triangle op-amp symbol",
+    "IEEE op-amp symbol",
+    "distinctive op-amp"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Triangle op-amp symbol with minus and plus inputs on the left and the output at the apex.",
+  "description": [
+    "The triangular op-amp symbol is the most common analogue element in North American and manufacturer schematics. The two inputs enter the flat side, marked minus for inverting and plus for non-inverting, and the output leaves from the apex. Supply pins may be drawn on the sloping sides or omitted.",
+    "Schematics often flip the triangle vertically to simplify feedback routing, which swaps the positions of minus and plus. Always read the signs, not the positions, when tracing the circuit.",
+    "The symbol does not distinguish between general-purpose, precision, rail-to-rail or high-speed parts. The part number and its datasheet decide performance."
+  ],
+  "readingNotes": [
+    "Read the minus and plus labels, not their positions.",
+    "Supply pins may be hidden in multi-section packages."
+  ],
+  "drawingChecklist": [
+    "Label both inputs.",
+    "Show supply pins or note common supply connections.",
+    "Add the part number."
+  ],
+  "distinction": "A comparator uses a similar triangle but is designed for open-loop switching, often with an open-collector output.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Inverting (-) and non-inverting (+)"
+    },
+    {
+      "label": "Common variation",
+      "value": "Flipped vertically for routing"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-opamp",
+      "relevance": "Manufacturer operational amplifier documentation."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "operational-amplifier",
+    "iec-operational-amplifier",
+    "op-amp-voltage-follower"
+  ],
+  "artwork": "s28-ansi-operational-amplifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Triangle with inverting and non-inverting inputs on the base and output at the apex",
+    "reference": "Distinctive-shape form as used in IEEE/ANSI-style schematics and manufacturer data books. Independent educational drawing; exact standard geometry and compliance are not asserted. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "operational-amplifier"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-operational-amplifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-operational-amplifier.svg",
+  "id": "ansi-operational-amplifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-operational-amplifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-operational-amplifier.json",
+  "svgPath": "artwork/svg/ansi-operational-amplifier.svg",
+  "referencePath": "references/ansi-operational-amplifier.md",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-opamp",
+      "title": "ADA4522-1 — operational amplification",
+      "publisher": "Analog Devices",
+      "url": "https://www.analog.com/en/products/ada4522-1.html",
+      "type": "manufacturer",
+      "scope": "Public component description and documentation for operational amplification. Used to support the functional reference, not to prescribe a circuit or redistribute product diagrams.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer operational amplifier documentation."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ]
+}

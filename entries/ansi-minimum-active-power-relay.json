@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-minimum-active-power-relay",
+  "name": "ANSI/IEEE Minimum active-power relay form",
+  "kind": "symbol",
+  "abbreviation": "P LOW",
+  "aliases": [
+    "HCR1F43",
+    "VCR1F43",
+    "IEEE Minimum Active Power Relay",
+    "ANSI Minimum active-power relay"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of minimum active-power relay: a minimum active-power relay operates according to a configured low active-power condition.",
+  "description": [
+    "This reference locates minimum active-power relay in Autodesk's IEEE-oriented miscellaneous relays family. A minimum active-power relay operates according to a configured low active-power condition. The measurement direction and enable logic determine what low power means in the control sequence. The public library uses HCR1F43 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Identify the directional convention before evaluating the threshold. Minimum active power and reverse power are different operating criteria. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the directional convention before evaluating the threshold.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show voltage/current inputs",
+    "State power direction",
+    "Reference threshold and enabling logic"
+  ],
+  "distinction": "Minimum active power and reverse power are different operating criteria.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Relays; published form: Minimum Active Power Relay."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1F43. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Monitoring element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-miscellaneous-relays",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F43 as Minimum Active Power Relay. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "minimum-active-power-relay",
+    "current-transformer",
+    "relay-coil"
+  ],
+  "artwork": "s28-ansi-minimum-active-power-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Minimum Active Power Relay",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Relays, block HCR1F43. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "minimum-active-power-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-minimum-active-power-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-minimum-active-power-relay.svg",
+  "id": "ansi-minimum-active-power-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-minimum-active-power-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-minimum-active-power-relay.json",
+  "svgPath": "artwork/svg/ansi-minimum-active-power-relay.svg",
+  "referencePath": "references/ansi-minimum-active-power-relay.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-miscellaneous-relays",
+      "title": "Autodesk IEEE Symbol Preview: Miscellaneous Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA549E3E-4ABB-426E-9331-0226EF55EAA7.htm",
+      "type": "cad-reference",
+      "scope": "Public miscellaneous relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Relays table explicitly lists HCR1F43 as Minimum Active Power Relay. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

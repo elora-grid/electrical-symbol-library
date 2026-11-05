@@ -1,0 +1,90 @@
+{
+  "slug": "iec-or-dependency-v",
+  "name": "IEC OR dependency (V)",
+  "kind": "symbol",
+  "abbreviation": "Vm",
+  "aliases": [
+    "V dependency",
+    "OR dependency notation",
+    "Vm affecting input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency label Vm: affected terminals are ORed with the V input, forced to 1 when V is active.",
+  "description": [
+    "V dependency is the OR counterpart of G dependency. When the Vm affecting input is at its internal 1 state, every input or output labelled m is forced to its internal 1 state. When Vm is at 0, the affected signals act normally.",
+    "Device symbols use V dependency to show override or force functions, for example an output that can be forced active regardless of the normal logic. Recognising the letter avoids misreading the affected output as purely driven by the main function.",
+    "Like all dependency labels, V gives no timing information and does not imply a particular circuit. It is a compact statement of a logical relationship within the symbol."
+  ],
+  "readingNotes": [
+    "V forces affected terminals to 1; G forces them to 0.",
+    "Look for a bar over the number for complemented action."
+  ],
+  "drawingChecklist": [
+    "Label the affecting input with V and a number.",
+    "Mark every affected terminal with the same number.",
+    "Explain any override behaviour in the sheet notes."
+  ],
+  "distinction": "G dependency is the AND relationship; V is the OR relationship.",
+  "facts": [
+    {
+      "label": "Affecting input at 1",
+      "value": "Imposes 1 state"
+    },
+    {
+      "label": "Affecting input at 0",
+      "value": "Permits action"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "V (OR) dependency description and summary table."
+    }
+  ],
+  "related": [
+    "iec-and-dependency-g",
+    "iec-negate-dependency-n",
+    "iec-or-gate"
+  ],
+  "artwork": "s28-iec-or-dependency-v",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Affecting input labelled Vm with affected terminals labelled m",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-or-dependency-v",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-or-dependency-v.svg",
+  "id": "iec-or-dependency-v",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-or-dependency-v",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-or-dependency-v.json",
+  "svgPath": "artwork/svg/iec-or-dependency-v.svg",
+  "referencePath": "references/iec-or-dependency-v.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "V (OR) dependency description and summary table."
+    }
+  ]
+}

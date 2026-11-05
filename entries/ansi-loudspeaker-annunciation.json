@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-loudspeaker-annunciation",
+  "name": "ANSI/IEEE Loudspeaker annunciation form",
+  "kind": "symbol",
+  "abbreviation": "HAN1B7",
+  "aliases": [
+    "HAN1B7",
+    "VAN1B7",
+    "IEEE Loudspeaker",
+    "ANSI Loudspeaker annunciation"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of loudspeaker annunciation: a loudspeaker indication identifies conversion of an electrical signal to an audible output.",
+  "description": [
+    "This reference locates loudspeaker annunciation in Autodesk's IEEE-oriented annunciations family. A loudspeaker indication identifies conversion of an electrical signal to an audible output. The public library uses HAN1B7 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Label the signal path and amplifier or system connection. An audio loudspeaker is distinct from a directly energised alarm buzzer. Label the signal path and amplifier or system connection. An audio loudspeaker is distinct from a directly energised alarm buzzer. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Label the signal path and amplifier or system connection.",
+    "An audio loudspeaker is distinct from a directly energised alarm buzzer."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Label the signal path and amplifier or system connection.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "An audio loudspeaker is distinct from a directly energised alarm buzzer.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Annunciations; published form: Loudspeaker."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HAN1B7. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Label the signal path and amplifier or system connection."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-annunciations",
+      "relevance": "Public IEEE-oriented Annunciations table explicitly lists HAN1B7 as Loudspeaker. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-loudspeaker-annunciation",
+    "power-converter",
+    "generic-electrical-load"
+  ],
+  "artwork": "s28-ansi-loudspeaker-annunciation",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Loudspeaker",
+    "reference": "Autodesk IEEE Symbol Preview: Annunciations, block HAN1B7. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-loudspeaker-annunciation"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-loudspeaker-annunciation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-loudspeaker-annunciation.svg",
+  "id": "ansi-loudspeaker-annunciation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-loudspeaker-annunciation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-loudspeaker-annunciation.json",
+  "svgPath": "artwork/svg/ansi-loudspeaker-annunciation.svg",
+  "referencePath": "references/ansi-loudspeaker-annunciation.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-annunciations",
+      "title": "Autodesk IEEE Symbol Preview: Annunciations",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-157265BC-DB2C-4AFE-B9E9-88A5F748BFF9.htm",
+      "type": "cad-reference",
+      "scope": "Public annunciations family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Annunciations table explicitly lists HAN1B7 as Loudspeaker. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

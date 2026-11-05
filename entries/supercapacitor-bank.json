@@ -1,0 +1,106 @@
+{
+  "slug": "supercapacitor-bank",
+  "name": "Supercapacitor bank",
+  "kind": "symbol",
+  "abbreviation": "SC",
+  "aliases": [
+    "ultracapacitor bank",
+    "electric double-layer capacitor bank",
+    "EDLC module"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A series-parallel array of double-layer capacitor cells storing energy for very fast, short-duration power delivery.",
+  "description": [
+    "A supercapacitor bank uses electric double-layer capacitor cells, each rated at only a few volts, connected in series strings to reach a useful DC voltage. It can charge and discharge at very high current for hundreds of thousands of cycles, but stores far less energy than a battery of similar size.",
+    "Drawings use a polarised capacitor symbol repeated or annotated with the series and parallel cell count, together with a balancing circuit and a DC/DC converter. In microgrids the bank smooths fast power fluctuations, supports converter DC links or covers the gap before a generator starts.",
+    "Supercapacitor voltage falls linearly as energy is drawn out, so usable energy depends on the converter minimum voltage. The symbol does not show cell balancing, temperature limits or the converter range needed to extract the stored energy."
+  ],
+  "readingNotes": [
+    "Check the series cell count and the balancing method.",
+    "Usable energy depends on the voltage window, not the full rated voltage."
+  ],
+  "drawingChecklist": [
+    "State rated voltage, capacitance and string arrangement.",
+    "Show balancing and the DC/DC converter.",
+    "Reference minimum operating voltage."
+  ],
+  "distinction": "A supercapacitor bank delivers short high-power bursts; a battery bank delivers lower power for much longer.",
+  "facts": [
+    {
+      "label": "Storage form",
+      "value": "Electrostatic, double-layer"
+    },
+    {
+      "label": "Voltage profile",
+      "value": "Falls linearly with discharge"
+    },
+    {
+      "label": "Cycle life",
+      "value": "Very high"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-capacitors",
+      "relevance": "Public capacitive component symbol family context."
+    },
+    {
+      "sourceId": "pub-symbol-ups-functions",
+      "relevance": "Public capacitor buffer and DC backup function context."
+    }
+  ],
+  "related": [
+    "capacitor-buffer-module",
+    "flywheel-energy-storage",
+    "bidirectional-dc-dc-converter",
+    "capacitor"
+  ],
+  "artwork": "s28-supercapacitor-bank",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/supercapacitor-bank",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/supercapacitor-bank.svg",
+  "id": "supercapacitor-bank",
+  "canonicalUrl": "https://eloragrid.ai/symbols/supercapacitor-bank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/supercapacitor-bank.json",
+  "svgPath": "artwork/svg/supercapacitor-bank.svg",
+  "referencePath": "references/supercapacitor-bank.md",
+  "publicSources": [
+    {
+      "id": "autodesk-capacitors",
+      "title": "Capacitive component symbols",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-74580D46-0731-41A6-918D-2DB419114207.htm",
+      "type": "cad-reference",
+      "scope": "Capacitor, electrolytic, feedthrough and adjustable component variants.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public capacitive component symbol family context."
+    },
+    {
+      "id": "pub-symbol-ups-functions",
+      "title": "DC UPS, AC UPS and capacitor buffer modules",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-gb/products/uninterruptible-power-supplies-ups",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public capacitor buffer and DC backup function context."
+    }
+  ]
+}

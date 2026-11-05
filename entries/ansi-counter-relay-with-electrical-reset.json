@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-counter-relay-with-electrical-reset",
+  "name": "ANSI/IEEE Counter relay with electrical reset form",
+  "kind": "symbol",
+  "abbreviation": "COUNT ELEC",
+  "aliases": [
+    "HCR1CNE",
+    "VCR1CNE",
+    "IEEE Counter Electronic Reset",
+    "ANSI Counter relay with electrical reset"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of counter relay with electrical reset: an electrically reset counter relay has a separate reset command or documented electronic reset mechanism.",
+  "description": [
+    "This reference locates counter relay with electrical reset in Autodesk's IEEE-oriented counter relays family. An electrically reset counter relay has a separate reset command or documented electronic reset mechanism. Schematics need the count and reset paths to remain distinct. The public library uses HCR1CNE for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Establish reset priority where count and reset signals can occur together. Electrical reset changes the counter state; it is not the same as disconnecting the measured circuit. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Establish reset priority where count and reset signals can occur together.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Identify count terminal",
+    "Identify reset terminal",
+    "Reference output and reset sequence"
+  ],
+  "distinction": "Electrical reset changes the counter state; it is not the same as disconnecting the measured circuit.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Counter Relays; published form: Counter Electronic Reset."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1CNE. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-counter-relays",
+      "relevance": "Public IEEE-oriented Counter Relays table explicitly lists HCR1CNE as Counter Electronic Reset. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "counter-relay-with-electrical-reset",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-counter-relay-with-electrical-reset",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Counter Electronic Reset",
+    "reference": "Autodesk IEEE Symbol Preview: Counter Relays, block HCR1CNE. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "counter-relay-with-electrical-reset"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-counter-relay-with-electrical-reset",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-counter-relay-with-electrical-reset.svg",
+  "id": "ansi-counter-relay-with-electrical-reset",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-counter-relay-with-electrical-reset",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-counter-relay-with-electrical-reset.json",
+  "svgPath": "artwork/svg/ansi-counter-relay-with-electrical-reset.svg",
+  "referencePath": "references/ansi-counter-relay-with-electrical-reset.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-counter-relays",
+      "title": "Autodesk IEEE Symbol Preview: Counter Relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A79079B-1B7A-45B5-9B28-CA7893CFF46F.htm",
+      "type": "cad-reference",
+      "scope": "Public counter relays family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Counter Relays table explicitly lists HCR1CNE as Counter Electronic Reset. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

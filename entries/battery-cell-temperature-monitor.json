@@ -1,0 +1,87 @@
+{
+  "slug": "battery-cell-temperature-monitor",
+  "name": "Battery cell temperature monitor",
+  "kind": "symbol",
+  "abbreviation": "CELL T",
+  "aliases": [
+    "Battery cell temperature monitor",
+    "Battery cell temperature monitor functional block",
+    "Battery cell temperature monitor schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A cell temperature monitor reads sensors located at specified points in a battery assembly.",
+  "description": [
+    "A cell temperature monitor reads sensors located at specified points in a battery assembly.",
+    "A battery controller can use temperature readings alongside cell voltage measurements.",
+    "Place temperature-sensor symbols at the locations being measured and map them to the monitoring channels. A sensor on one cell, a busbar or an enclosure wall reports a different location. Keep the location labels visible so the drawing does not suggest one reading covers the complete battery. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Name each sensor location and channel.",
+    "Identify the selected sensor type and connection.",
+    "Show where temperature readings or alarms are sent.",
+    "A sensor measures its location; one reading does not describe every cell's temperature."
+  ],
+  "drawingChecklist": [
+    "Name each sensor location and channel.",
+    "Identify the selected sensor type and connection.",
+    "Show where temperature readings or alarms are sent."
+  ],
+  "distinction": "A sensor measures its location; one reading does not describe every cell's temperature.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Sensors at named locations"
+    },
+    {
+      "label": "Concept output",
+      "value": "Readings or alarm information"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-balance",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "battery-cabinet",
+    "battery-cell-voltage-monitor",
+    "passive-cell-balancer",
+    "active-cell-balancer"
+  ],
+  "artwork": "expanded-battery-cell-temperature-monitor",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/battery-cell-temperature-monitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/battery-cell-temperature-monitor.svg",
+  "id": "battery-cell-temperature-monitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/battery-cell-temperature-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/battery-cell-temperature-monitor.json",
+  "svgPath": "artwork/svg/battery-cell-temperature-monitor.svg",
+  "referencePath": "references/battery-cell-temperature-monitor.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-balance",
+      "title": "Battery monitors and balancers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/battery-management-ics/battery-monitors-balancers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Battery monitors and balancers: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

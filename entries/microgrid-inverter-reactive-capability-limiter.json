@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-inverter-reactive-capability-limiter",
+  "name": "Microgrid inverter reactive-capability limiter",
+  "kind": "symbol",
+  "abbreviation": "MIRL",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Reactive request and inverter limits",
+    "Permitted reactive target"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Restrains the assigned inverter reactive target to its declared operating capability.",
+  "description": [
+    "Restrains the assigned inverter reactive target to its declared operating capability. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Reactive request and inverter limits” at the input and “Permitted reactive target” at the output. Active-power and thermal limits can reduce capability.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Reactive request and inverter limits. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Permitted reactive target. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Active-power and thermal limits can reduce capability.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for reactive request and inverter limits.",
+    "Identify the destination and defined state of permitted reactive target.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Active-power and thermal limits can reduce capability."
+  ],
+  "distinction": "Active-power and thermal limits can reduce capability. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Reactive request and inverter limits"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Permitted reactive target"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MIRL is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-generator-excitation-reference-interface"
+  ],
+  "artwork": "pi26-microgrid-inverter-reactive-capability-limiter",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Reactive request and inverter limits",
+    "output": "Permitted reactive target"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-inverter-reactive-capability-limiter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-inverter-reactive-capability-limiter.svg",
+  "id": "microgrid-inverter-reactive-capability-limiter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-inverter-reactive-capability-limiter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-inverter-reactive-capability-limiter.json",
+  "svgPath": "artwork/svg/microgrid-inverter-reactive-capability-limiter.svg",
+  "referencePath": "references/microgrid-inverter-reactive-capability-limiter.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

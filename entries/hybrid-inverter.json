@@ -1,0 +1,102 @@
+{
+  "slug": "hybrid-inverter",
+  "name": "Hybrid inverter",
+  "kind": "symbol",
+  "abbreviation": "HYB INV",
+  "aliases": [
+    "hybrid solar inverter",
+    "PV-battery inverter",
+    "multi-mode inverter"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "A single inverter with PV, battery and AC ports, combining MPPT charging, battery inversion and backup output.",
+  "description": [
+    "A hybrid inverter combines a solar maximum power point tracker, a bidirectional battery converter and an AC inverter in one unit. It typically has three port types: PV DC input, battery DC terminals and an AC grid connection, with many models adding a separate backup or essential load output that stays energised during a network outage.",
+    "Single-line diagrams show one inverter block with multiple DC inputs and one or two AC outputs, and the internal DC bus is sometimes drawn as a dashed line. The essential load board, isolators for each port and the grid connection point should all be shown.",
+    "The symbol does not state how fast the backup output transfers, whether the battery can be charged from the grid, or what export limit applies. Those depend on the settings and on network operator rules, not on the block itself."
+  ],
+  "readingNotes": [
+    "Identify every DC and AC port and its isolator.",
+    "Separate the backup output circuits from normal circuits."
+  ],
+  "drawingChecklist": [
+    "State PV, battery and AC ratings.",
+    "Show backup load board and isolators.",
+    "Reference export limit and transfer behaviour."
+  ],
+  "distinction": "A hybrid inverter includes PV and battery ports in one unit; an inverter-charger usually has a battery port only and relies on separate solar chargers.",
+  "facts": [
+    {
+      "label": "Ports",
+      "value": "PV, battery, grid, often backup AC"
+    },
+    {
+      "label": "Internal stages",
+      "value": "MPPT, battery converter, inverter"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; not a product outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-victron-multi-rs-solar",
+      "relevance": "Public combined inverter, charger and solar tracker documentation."
+    },
+    {
+      "sourceId": "expansion-20261027-pv",
+      "relevance": "Public solar electrical system architecture context."
+    }
+  ],
+  "related": [
+    "bidirectional-inverter-charger",
+    "mppt-charge-controller",
+    "photovoltaic-inverter",
+    "battery"
+  ],
+  "artwork": "s28-hybrid-inverter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/hybrid-inverter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/hybrid-inverter.svg",
+  "id": "hybrid-inverter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/hybrid-inverter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/hybrid-inverter.json",
+  "svgPath": "artwork/svg/hybrid-inverter.svg",
+  "referencePath": "references/hybrid-inverter.md",
+  "publicSources": [
+    {
+      "id": "pub-object-victron-multi-rs-solar",
+      "title": "Multi RS Solar official product and documents",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/inverter-charger-mppt/multi-rs-solar",
+      "type": "manufacturer",
+      "scope": "Public product-family identity and official mechanical/document resources; no vendor geometry reproduced.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public combined inverter, charger and solar tracker documentation."
+    },
+    {
+      "id": "expansion-20261027-pv",
+      "title": "Solar electrical system architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/applications/industrial/energy-infrastructure/solar-energy/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Public solar electrical system architecture context."
+    }
+  ]
+}

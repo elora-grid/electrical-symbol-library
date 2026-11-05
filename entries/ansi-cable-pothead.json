@@ -1,0 +1,107 @@
+{
+  "slug": "ansi-cable-pothead",
+  "name": "ANSI/IEEE cable pothead symbol",
+  "kind": "symbol",
+  "abbreviation": "PH",
+  "aliases": [
+    "pothead",
+    "IEEE cable termination",
+    "ANSI cable terminator"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented pothead symbol marking a sealed cable termination where an insulated cable meets an overhead line or bus.",
+  "description": [
+    "Pothead is the traditional North American term for a sealed cable termination, especially at riser poles and outdoor substations. IEEE-style single-line diagrams show it where a cable rises to connect to an overhead line or open bus, often with a lightning arrester beside it.",
+    "This illustration is an independent explanation of the convention and is not the IEEE graphic. Modern terminations may be porcelain, polymer or slip-on types, all of which may be called potheads on older drawings. Rating and creepage distance belong in the equipment data."
+  ],
+  "readingNotes": [
+    "Look for an arrester at riser pole potheads.",
+    "Treat older pothead labels as any sealed termination type."
+  ],
+  "drawingChecklist": [
+    "Identify termination type and rating.",
+    "Show associated arresters.",
+    "Mark phase identification at the pothead."
+  ],
+  "distinction": "A pothead is a fixed sealed termination; a separable connector can be unplugged.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "IEEE 315 graphic conventions for cable terminations (standards context only)"
+    },
+    {
+      "label": "Terminology",
+      "value": "Pothead is the traditional North American term for a sealing end"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "public-cable-joints",
+      "relevance": "Manufacturer context for cable terminations."
+    }
+  ],
+  "related": [
+    "iec-single-core-cable-sealing-end",
+    "ansi-surge-arrester",
+    "iec-overhead-line"
+  ],
+  "artwork": "s28-ansi-cable-pothead",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Pothead termination form",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-cable-pothead",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-cable-pothead.svg",
+  "id": "ansi-cable-pothead",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-cable-pothead",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-cable-pothead.json",
+  "svgPath": "artwork/svg/ansi-cable-pothead.svg",
+  "referencePath": "references/ansi-cable-pothead.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "public-cable-joints",
+      "title": "Elastimold underground cable accessories",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/cable-accessories-connectors/underground/elastimold/underground",
+      "type": "manufacturer",
+      "scope": "Manufacturer overview of separable connections, cable joints, terminations, grounding and underground cable accessories. Product selection remains application-specific.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer context for cable terminations."
+    }
+  ]
+}

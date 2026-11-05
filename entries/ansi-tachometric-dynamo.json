@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-tachometric-dynamo",
+  "name": "ANSI/IEEE tachometric dynamo symbol",
+  "kind": "symbol",
+  "abbreviation": "TG",
+  "aliases": [
+    "IEEE tacho-generator symbol",
+    "ANSI tachometric dynamo symbol",
+    "HIN1B11"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library tacho-generator form: a small machine on the shaft that produces a voltage proportional to speed.",
+  "description": [
+    "A tachometric dynamo is a small generator coupled to the machine shaft whose output voltage rises with speed. It appears in older drive, governor and speed-indication schematics, with its output wired to a tachometer, speed relay or drive feedback input.",
+    "The symbol does not say whether the output is DC with polarity indicating direction, or AC with frequency and voltage both varying. Volts per 1000 rpm and ripple are key to the receiving input and come from the machine data."
+  ],
+  "readingNotes": [
+    "Check whether output polarity is used to detect direction.",
+    "Read the volts-per-speed constant from the data sheet."
+  ],
+  "drawingChecklist": [
+    "State output constant",
+    "Show polarity or phase",
+    "Reference the receiving input"
+  ],
+  "distinction": "A tachometric dynamo generates a speed signal; a pulse (impulse) pickup produces pulses that must be counted.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1B11 / VIN1B11 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Output",
+      "value": "Voltage proportional to shaft speed"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Tachometric Dynamo block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-tachometric-dynamo",
+    "ansi-tachometer",
+    "ansi-impulse-tachometric-transducer"
+  ],
+  "artwork": "s28-ansi-tachometric-dynamo",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Tachometric Dynamo",
+    "counterpart": "iec-tachometric-dynamo",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-tachometric-dynamo",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-tachometric-dynamo.svg",
+  "id": "ansi-tachometric-dynamo",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-tachometric-dynamo",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-tachometric-dynamo.json",
+  "svgPath": "artwork/svg/ansi-tachometric-dynamo.svg",
+  "referencePath": "references/ansi-tachometric-dynamo.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Tachometric Dynamo block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

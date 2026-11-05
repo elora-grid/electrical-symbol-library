@@ -1,0 +1,110 @@
+{
+  "slug": "ansi-permanent-magnet-synchronous-generator",
+  "name": "ANSI/IEEE permanent-magnet synchronous generator symbol",
+  "kind": "symbol",
+  "abbreviation": "PMG",
+  "aliases": [
+    "IEEE permanent-magnet generator symbol",
+    "ANSI PMG symbol",
+    "HPW1G6"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented library form of a three-phase synchronous generator with permanent-magnet excitation, with reading notes.",
+  "description": [
+    "This entry covers the permanent-magnet synchronous generator as it appears in an IEEE-oriented drawing library. The machine has a magnet rotor and no field winding, so output voltage rises with speed and cannot be trimmed by an excitation regulator; voltage control is done by the converter or by the load.",
+    "Within IEEE-style one-line and schematic drawings the machine is a circle with the generator letter and a magnet indication, with three output leads. The block identifier quoted here is a vendor library name and only meaningful inside that library. This is a convention-specific lookup; the geometry is independently drawn and is not a certified reproduction of the standard graphic."
+  ],
+  "readingNotes": [
+    "Expect a converter or rectifier immediately downstream; a permanent-magnet machine rarely connects directly to a fixed-frequency bus.",
+    "Read the vendor block name only within the library it belongs to."
+  ],
+  "drawingChecklist": [
+    "State rated speed and voltage at that speed.",
+    "Show the converter or rectifier interface.",
+    "Cross-reference the counterpart IEC-style entry where both conventions are used."
+  ],
+  "distinction": "A permanent-magnet generator has no field winding to regulate; a wound-field synchronous generator has an exciter and regulator.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Generators"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HPW1G6, VPW1G6 (Autodesk identifiers; not IEEE symbol numbers)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-6a9fa93b-3010-4274-ae51-20db3520999c",
+      "relevance": "Public IEEE-oriented generator category page listing the permanent-magnet synchronous generator block."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "permanent-magnet-synchronous-generator",
+    "ansi-three-phase-synchronous-generator",
+    "full-converter-wind-turbine-generator"
+  ],
+  "artwork": "s28-ansi-permanent-magnet-synchronous-generator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented 3 Phase Synchro Generator with Permanent Magnets functional form",
+    "counterpart": "permanent-magnet-synchronous-generator",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview for generators. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-permanent-magnet-synchronous-generator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-permanent-magnet-synchronous-generator.svg",
+  "id": "ansi-permanent-magnet-synchronous-generator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-permanent-magnet-synchronous-generator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-permanent-magnet-synchronous-generator.json",
+  "svgPath": "artwork/svg/ansi-permanent-magnet-synchronous-generator.svg",
+  "referencePath": "references/ansi-permanent-magnet-synchronous-generator.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-6a9fa93b-3010-4274-ae51-20db3520999c",
+      "title": "Autodesk IEEE Symbol Preview — Generators",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-6A9FA93B-3010-4274-AE51-20DB3520999C.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented generator category page listing the permanent-magnet synchronous generator block."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context; not a source of reproduced artwork."
+    }
+  ]
+}

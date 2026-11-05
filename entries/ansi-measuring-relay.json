@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-measuring-relay",
+  "name": "ANSI/IEEE Measuring relay form",
+  "kind": "symbol",
+  "abbreviation": "K MEAS",
+  "aliases": [
+    "HCR1MSR",
+    "VCR1MSR",
+    "IEEE Measuring",
+    "ANSI Measuring relay"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of measuring relay: a measuring relay responds to a measured electrical quantity and issues an output according to its configuration.",
+  "description": [
+    "This reference locates measuring relay in Autodesk's IEEE-oriented relays and contacts family. A measuring relay responds to a measured electrical quantity and issues an output according to its configuration. Measurement inputs, auxiliary supply and output contacts may be separate terminal groups. The public library uses HCR1MSR for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Identify the measured quantity before tracing the output contact logic. A measuring relay is not simply a coil powered by the same quantity it measures. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify the measured quantity before tracing the output contact logic.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label measured input",
+    "State auxiliary supply",
+    "Reference threshold or setting record"
+  ],
+  "distinction": "A measuring relay is not simply a coil powered by the same quantity it measures.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Relays and Contacts; published form: Measuring."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1MSR. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f8eac387-53cf-45fe-be6a-c0c8fb3c1b22",
+      "relevance": "Public IEEE-oriented Relays and Contacts table explicitly lists HCR1MSR as Measuring. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "measuring-relay",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-measuring-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Measuring",
+    "reference": "Autodesk IEEE Symbol Preview: Relays and Contacts, block HCR1MSR. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "measuring-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-measuring-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-measuring-relay.svg",
+  "id": "ansi-measuring-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-measuring-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-measuring-relay.json",
+  "svgPath": "artwork/svg/ansi-measuring-relay.svg",
+  "referencePath": "references/ansi-measuring-relay.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f8eac387-53cf-45fe-be6a-c0c8fb3c1b22",
+      "title": "Autodesk IEEE Symbol Preview — Relays and Contacts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F8EAC387-53CF-45FE-BE6A-C0C8FB3C1B22.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Relays and Contacts table explicitly lists HCR1MSR as Measuring. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

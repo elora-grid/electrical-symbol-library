@@ -1,0 +1,86 @@
+{
+  "slug": "victron-energy-orion-xs-1400",
+  "name": "Victron Energy Orion XS 1400 DC-DC charger",
+  "kind": "object",
+  "abbreviation": "Orion XS 1400",
+  "aliases": [
+    "Orion XS 1400",
+    "ORI242417040",
+    "Orion XS 1400 GA",
+    "Orion XS 1400 general arrangement"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "DC-DC battery-charger layout reference for the Orion XS 1400 model.",
+  "description": [
+    "Use the dedicated 1400 STEP file to locate mounting interfaces and terminal faces. Coordinate the installed supply and battery circuits with the settings and protection design.",
+    "The downloadable GA illustration is independently authored conceptual geometry, with no scale or manufacturer dimensions. Use the official CAD source for the exact layout."
+  ],
+  "readingNotes": [
+    "Identify ORI242417040 and the actual system configuration before connecting the mechanical object to the electrical schedule.",
+    "The 1400 designation is not a mechanical substitute for either 12/12 variant in the library."
+  ],
+  "drawingChecklist": [
+    "Confirm the 1400 model and order code.",
+    "Coordinate mounting fasteners and terminal access.",
+    "Check the selected DC system and installation requirements."
+  ],
+  "distinction": "The 1400 designation is not a mechanical substitute for either 12/12 variant in the library.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Victron Energy"
+    },
+    {
+      "label": "Model / housing family",
+      "value": "Orion XS 1400"
+    },
+    {
+      "label": "CAD selection",
+      "value": "ORI242417040"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual GA; unitless, not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-expansion-victron-energy-orion-xs-1400",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ],
+  "related": [
+    "ga-battery-charger",
+    "ga-battery-dc-disconnect-assembly"
+  ],
+  "artwork": "edu-object-victron-energy-orion-xs-1400",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/victron-energy-orion-xs-1400",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/victron-energy-orion-xs-1400",
+  "id": "victron-energy-orion-xs-1400",
+  "canonicalUrl": "https://eloragrid.ai/objects/victron-energy-orion-xs-1400",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/victron-energy-orion-xs-1400.json",
+  "referencePath": "references/victron-energy-orion-xs-1400.md",
+  "publicSources": [
+    {
+      "id": "ga-expansion-victron-energy-orion-xs-1400",
+      "title": "Victron Energy Orion XS 1400 DC-DC charger official drawing source",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/dc-dc-converters/orion-xs-dc-dc-battery-chargers",
+      "type": "manufacturer",
+      "scope": "Model identity and mechanical CAD selection. No reproduction of manufacturer graphics.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ]
+}

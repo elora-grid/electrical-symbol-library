@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-thermocouple",
+  "name": "ANSI/IEEE thermocouple symbol",
+  "kind": "symbol",
+  "abbreviation": "TC",
+  "aliases": [
+    "IEEE thermocouple symbol",
+    "ANSI thermocouple symbol",
+    "HTC1L"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library thermocouple form showing the junction of two dissimilar conductors and their polarity leads.",
+  "description": [
+    "The thermocouple form shows two dissimilar conductors meeting at a measuring junction, with the free ends wired to an instrument or transducer. The library offers left and right handed versions so the junction can face the process side of the drawing, and the two leads must keep their polarity all the way to the cold junction.",
+    "The symbol does not identify the thermocouple type (for example K, J or T), the sheath or the extension cable. Those details matter because ordinary copper wiring between the head and the instrument introduces error unless matching extension or compensating cable is used."
+  ],
+  "readingNotes": [
+    "Check the thermocouple type in the instrument schedule.",
+    "Verify extension cable type and polarity from the head to the input."
+  ],
+  "drawingChecklist": [
+    "State thermocouple type",
+    "Mark lead polarity",
+    "Specify extension or compensating cable"
+  ],
+  "distinction": "A thermocouple generates a small voltage from a temperature difference; an RTD changes resistance and needs an excitation current.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HTC1L / HTC1R and vertical forms (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Output",
+      "value": "Millivolt signal referenced to the cold junction"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Thermocouple block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "thermocouple",
+    "resistance-temperature-detector",
+    "ansi-thermocouple-with-terminal-board"
+  ],
+  "artwork": "s28-ansi-thermocouple",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Thermocouple",
+    "counterpart": "thermocouple",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-thermocouple",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-thermocouple.svg",
+  "id": "ansi-thermocouple",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-thermocouple",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-thermocouple.json",
+  "svgPath": "artwork/svg/ansi-thermocouple.svg",
+  "referencePath": "references/ansi-thermocouple.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Thermocouple block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

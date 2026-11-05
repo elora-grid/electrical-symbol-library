@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-rate-of-change-shedding-interface",
+  "name": "Microgrid rate-of-change shedding interface",
+  "kind": "symbol",
+  "abbreviation": "MRSI",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Frequency-change condition",
+    "Assigned shedding initiation"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the documented use of frequency-change information in the selected load-management scheme.",
+  "description": [
+    "Identifies the documented use of frequency-change information in the selected load-management scheme. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Frequency-change condition” at the input and “Assigned shedding initiation” at the output. Its application requires system-specific validation.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Frequency-change condition. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned shedding initiation. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Its application requires system-specific validation.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for frequency-change condition.",
+    "Identify the destination and defined state of assigned shedding initiation.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Its application requires system-specific validation."
+  ],
+  "distinction": "Its application requires system-specific validation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Frequency-change condition"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned shedding initiation"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRSI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-source-loss-shedding-initiation"
+  ],
+  "artwork": "pi26-microgrid-rate-of-change-shedding-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Frequency-change condition",
+    "output": "Assigned shedding initiation"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-rate-of-change-shedding-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-rate-of-change-shedding-interface.svg",
+  "id": "microgrid-rate-of-change-shedding-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-rate-of-change-shedding-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-rate-of-change-shedding-interface.json",
+  "svgPath": "artwork/svg/microgrid-rate-of-change-shedding-interface.svg",
+  "referencePath": "references/microgrid-rate-of-change-shedding-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

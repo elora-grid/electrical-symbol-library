@@ -1,0 +1,106 @@
+{
+  "slug": "iec-buffer",
+  "name": "IEC buffer element (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1",
+  "aliases": [
+    "IEC non-inverting buffer",
+    "rectangular buffer",
+    "single-input element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Non-inverting IEC element marked 1, passing the input state to the output unchanged.",
+  "description": [
+    "A rectangular element with the qualifier 1 and no negation simply repeats its input. It is used to show isolation between logic stages, a fan-out point, or an interface where a physical buffer device exists. When the buffer has greater than normal drive capability, an amplifier triangle pointing in the signal direction is added inside the outline.",
+    "On logic diagrams for control panels the buffer often marks where a signal leaves one card or module and enters another. Tagging the buffer with the module reference helps fault finding because it identifies the boundary at which the signal can be measured.",
+    "A plain 1 element says nothing about output type or enable. Three-state, open-collector and Schmitt variants each require an additional qualifier."
+  ],
+  "readingNotes": [
+    "A buffer may exist only to show a module boundary; check the module tag.",
+    "Look for drive, three-state or open-circuit qualifiers next to the output."
+  ],
+  "drawingChecklist": [
+    "Mark the element with 1.",
+    "Add the output qualifier where the output is not a normal push-pull stage.",
+    "Identify the physical device or module when one exists."
+  ],
+  "distinction": "The same box with output negation is an inverter; the amplifier triangle inside marks increased drive capability.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "1"
+    },
+    {
+      "label": "Optional additions",
+      "value": "Amplifier triangle, three-state, open-circuit, hysteresis"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Defines 1 and the increased-output-capability triangle."
+    },
+    {
+      "sourceId": "pub-electronics-ti-ls07",
+      "relevance": "Manufacturer buffer documentation."
+    }
+  ],
+  "related": [
+    "logic-buffer",
+    "iec-not-gate",
+    "iec-three-state-buffer"
+  ],
+  "artwork": "s28-iec-buffer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Single-input element marked 1 without negation",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "logic-buffer"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-buffer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-buffer.svg",
+  "id": "iec-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-buffer.json",
+  "svgPath": "artwork/svg/iec-buffer.svg",
+  "referencePath": "references/iec-buffer.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Defines 1 and the increased-output-capability triangle."
+    },
+    {
+      "id": "pub-electronics-ti-ls07",
+      "title": "SN74LS07 — open-collector output buffers",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ls07.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of open-collector output buffers. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer buffer documentation."
+    }
+  ]
+}

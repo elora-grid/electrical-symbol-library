@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-restoration-return-to-normal-handover",
+  "name": "Microgrid restoration return-to-normal handover",
+  "kind": "symbol",
+  "abbreviation": "MRRH",
+  "aliases": [
+    "Microgrid black-start and restoration controls",
+    "microgrids Microgrid black-start and restoration controls",
+    "microgrids",
+    "Microgrids",
+    "Restoration complete and mode readiness",
+    "Normal-mode control ownership"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers control from the restoration coordinator to the assigned stable operating mode.",
+  "description": [
+    "Transfers control from the restoration coordinator to the assigned stable operating mode. Black-start and restoration control coordinates the establishment of an electrical reference and the gradual return of assigned resources and loads. A dead system, an available starting source and a successful load restoration are distinct states.",
+    "In a microgrid recovering from a blackout, an available grid-forming source can establish the assigned island reference before compatible generation and eligible load groups are introduced under the validated restoration strategy. For this reference, the drawing identifies “Restoration complete and mode readiness” at the input and “Normal-mode control ownership” at the output. The handover must preserve resource limits and authority.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Restoration complete and mode readiness. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Normal-mode control ownership. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The handover must preserve resource limits and authority.",
+    "Show the prerequisites and confirmation at each control boundary. These original explanatory blocks are not an operating procedure; energization, protection, transformer inrush and motor reacceleration require system-level validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for restoration complete and mode readiness.",
+    "Identify the destination and defined state of normal-mode control ownership.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The handover must preserve resource limits and authority."
+  ],
+  "distinction": "The handover must preserve resource limits and authority. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Restoration complete and mode readiness"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Normal-mode control ownership"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRRH is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "microgrid-controller",
+    "microgrid-dead-system-qualification"
+  ],
+  "artwork": "pi26-microgrid-restoration-return-to-normal-handover",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-restoration",
+    "input": "Restoration complete and mode readiness",
+    "output": "Normal-mode control ownership"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-restoration-return-to-normal-handover",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-restoration-return-to-normal-handover.svg",
+  "id": "microgrid-restoration-return-to-normal-handover",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-restoration-return-to-normal-handover",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-restoration-return-to-normal-handover.json",
+  "svgPath": "artwork/svg/microgrid-restoration-return-to-normal-handover.svg",
+  "referencePath": "references/microgrid-restoration-return-to-normal-handover.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid black-start and restoration controls. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

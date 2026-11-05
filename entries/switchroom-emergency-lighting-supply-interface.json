@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-emergency-lighting-supply-interface",
+  "name": "Switchroom emergency-lighting supply interface",
+  "kind": "symbol",
+  "abbreviation": "SESI",
+  "aliases": [
+    "Switchroom lighting and access interfaces",
+    "switchrooms Switchroom lighting and access interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Emergency supply source",
+    "Emergency lighting circuit"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Marks the documented supply boundary serving the room's emergency lighting system.",
+  "description": [
+    "Marks the documented supply boundary serving the room's emergency lighting system. Lighting and access interfaces coordinate the electrical-room service circuits and their supervision. Normal lighting, emergency illumination and access indication have different power sources and purposes.",
+    "In a switchroom, a normal lighting branch may be switched locally while the specified emergency luminaires remain connected to their own backed-up or integral supply. For this reference, the drawing identifies “Emergency supply source” at the input and “Emergency lighting circuit” at the output. Supply type and autonomy follow the lighting design.",
+    "Identify the lighting supply type, controlled circuit and the meaning of any test or failure output. A drawing symbol does not establish illumination levels, emergency duration or an approved egress arrangement. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Emergency supply source. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Emergency lighting circuit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Supply type and autonomy follow the lighting design.",
+    "Identify the lighting supply type, controlled circuit and the meaning of any test or failure output. A drawing symbol does not establish illumination levels, emergency duration or an approved egress arrangement."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for emergency supply source.",
+    "Identify the destination and defined state of emergency lighting circuit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Supply type and autonomy follow the lighting design."
+  ],
+  "distinction": "Supply type and autonomy follow the lighting design. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Emergency supply source"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Emergency lighting circuit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SESI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-room-services",
+      "relevance": "Public technical context for switchroom lighting and access interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-maintained-emergency-luminaire",
+    "iec-exit-sign-luminaire",
+    "central-battery-lighting-outgoing-branch"
+  ],
+  "artwork": "pi26-switchroom-emergency-lighting-supply-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-lighting",
+    "input": "Emergency supply source",
+    "output": "Emergency lighting circuit"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-emergency-lighting-supply-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-emergency-lighting-supply-interface.svg",
+  "id": "switchroom-emergency-lighting-supply-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-emergency-lighting-supply-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-emergency-lighting-supply-interface.json",
+  "svgPath": "artwork/svg/switchroom-emergency-lighting-supply-interface.svg",
+  "referencePath": "references/switchroom-emergency-lighting-supply-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-room-services",
+      "publisher": "Schneider Electric",
+      "title": "Indoor substation: lighting, fire and auxiliary services",
+      "url": "https://www.electrical-installation.org/enwiki/Indoor_substation",
+      "scope": "Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom lighting and access interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

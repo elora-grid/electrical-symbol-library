@@ -1,0 +1,86 @@
+{
+  "slug": "rs-232-transceiver",
+  "name": "RS-232 transceiver",
+  "kind": "symbol",
+  "abbreviation": "RS232",
+  "aliases": [
+    "RS-232 transceiver",
+    "RS-232 transceiver functional block",
+    "RS-232 transceiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An RS-232 transceiver converts between logic-level serial signals and the selected RS-232 electrical interface.",
+  "description": [
+    "An RS-232 transceiver converts between logic-level serial signals and the selected RS-232 electrical interface.",
+    "A controller can connect to a compatible serial service port using the required conversion device.",
+    "Put logic-level serial signals on one side and RS-232 signals on the other. These are different electrical levels, even when both carry serial data. Label the transmit, receive and reference connections according to the selected devices so crossing or connector conventions are not guessed. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Distinguish logic-level UART and RS-232 connections.",
+    "Identify transmit, receive and signal-reference connections.",
+    "Reference the exact connector and device pin assignments.",
+    "Logic-level UART wiring is not directly interchangeable with an RS-232 electrical connection."
+  ],
+  "drawingChecklist": [
+    "Distinguish logic-level UART and RS-232 connections.",
+    "Identify transmit, receive and signal-reference connections.",
+    "Reference the exact connector and device pin assignments."
+  ],
+  "distinction": "Logic-level UART wiring is not directly interchangeable with an RS-232 electrical connection.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Logic-level serial interface"
+    },
+    {
+      "label": "Concept output",
+      "value": "RS-232 electrical link"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-rs232",
+      "relevance": "RS-232 transceiver functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-bus-transceiver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-rs-232-transceiver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/rs-232-transceiver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/rs-232-transceiver.svg",
+  "id": "rs-232-transceiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/rs-232-transceiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/rs-232-transceiver.json",
+  "svgPath": "artwork/svg/rs-232-transceiver.svg",
+  "referencePath": "references/rs-232-transceiver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-rs232",
+      "title": "RS-232 transceiver functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/rs-232-transceivers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "RS-232 transceiver functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

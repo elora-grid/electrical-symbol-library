@@ -1,0 +1,100 @@
+{
+  "slug": "neutral-unbalance-relay-between-two-systems",
+  "name": "Neutral-unbalance relay between two polyphase systems",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "in neutral between two multi-phase systems",
+    "neutral interconnection current relay",
+    "HCR1F33"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Relay form measuring current in a link joining the star points of two polyphase systems, such as split capacitor banks.",
+  "description": [
+    "This form shows a current relay in the conductor that joins the neutral points of two star-connected polyphase systems. A familiar application is the double-star capacitor bank, where a CT in the link between the two star points detects unbalance caused by failed capacitor units.",
+    "In a healthy balanced arrangement the link carries little current, so the relay setting is a small fraction of phase current and must allow for natural unbalance. The symbol does not tell you the alarm and trip stages or the compensation for inherent unbalance; those are in the bank protection settings."
+  ],
+  "readingNotes": [
+    "Identify the two star points joined by the measured link.",
+    "Look for separate alarm and trip stages."
+  ],
+  "drawingChecklist": [
+    "Show the interconnecting link and CT",
+    "State alarm and trip settings",
+    "Note inherent unbalance compensation"
+  ],
+  "distinction": "This relay measures the link between two star points; a neutral-current relay measures one neutral path to earth or to the supply.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Current in a neutral interconnection between two systems"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F33 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the In Neutral between 2 Multi-Phase Systems block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "neutral-current-relay",
+    "60-voltage-or-current-balance-relay",
+    "current-transformer"
+  ],
+  "artwork": "s28-neutral-unbalance-relay-between-two-systems",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/neutral-unbalance-relay-between-two-systems",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/neutral-unbalance-relay-between-two-systems.svg",
+  "id": "neutral-unbalance-relay-between-two-systems",
+  "canonicalUrl": "https://eloragrid.ai/symbols/neutral-unbalance-relay-between-two-systems",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/neutral-unbalance-relay-between-two-systems.json",
+  "svgPath": "artwork/svg/neutral-unbalance-relay-between-two-systems.svg",
+  "referencePath": "references/neutral-unbalance-relay-between-two-systems.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the In Neutral between 2 Multi-Phase Systems block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

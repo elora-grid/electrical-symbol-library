@@ -1,0 +1,104 @@
+{
+  "slug": "iec-two-pole-light-switch",
+  "name": "Two-pole one-way switch plan mark",
+  "kind": "symbol",
+  "abbreviation": "S2P",
+  "aliases": [
+    "double-pole switch plan mark",
+    "DP switch",
+    "two-pole switch"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a one-way switch that breaks both line and neutral, drawn with two ticks on the stroke.",
+  "description": [
+    "A two-pole one-way switch opens both poles of a single-phase circuit. The IEC plan convention adds a second tick to the one-way switch stroke, giving the reader an immediate visual cue that the switch interrupts both conductors.",
+    "Two-pole switches are specified for outdoor lighting, appliances where both poles must be broken, and some heating loads. They are also used where a switch is expected to provide functional disconnection of a fixed appliance without a separate isolator.",
+    "Two ticks do not mean the switch meets isolation requirements for maintenance. Where isolation is needed, the designer should show an isolator mark or state the isolating rating."
+  ],
+  "readingNotes": [
+    "Count the ticks carefully when the drawing is reduced in size.",
+    "Check whether a separate isolator is also shown for the same load."
+  ],
+  "drawingChecklist": [
+    "State whether isolation duty is intended.",
+    "Tag the controlled load.",
+    "Confirm current rating for heating or appliance loads."
+  ],
+  "distinction": "The single-tick one-way switch breaks one pole only; the two-tick form breaks both.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Two ticks on the switch stroke"
+    },
+    {
+      "label": "Typical uses",
+      "value": "Heaters, outdoor lighting, appliance control"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "sourceId": "switching-devices",
+      "relevance": "Distinguishes functional switching and isolation duties."
+    }
+  ],
+  "related": [
+    "iec-one-way-light-switch",
+    "iec-local-isolator-plan-mark",
+    "two-pole-power-switch"
+  ],
+  "artwork": "s28-iec-two-pole-light-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "One-way switch, two pole",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-two-pole-light-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-two-pole-light-switch.svg",
+  "id": "iec-two-pole-light-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-two-pole-light-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-two-pole-light-switch.json",
+  "svgPath": "artwork/svg/iec-two-pole-light-switch.svg",
+  "referencePath": "references/iec-two-pole-light-switch.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    },
+    {
+      "id": "switching-devices",
+      "title": "Elementary switching devices",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Elementary_switching_devices",
+      "type": "manufacturer",
+      "scope": "Explains disconnectors, load-break switches, contactors and fuses. The manufacturer diagrams remain at the source.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Distinguishes functional switching and isolation duties."
+    }
+  ]
+}

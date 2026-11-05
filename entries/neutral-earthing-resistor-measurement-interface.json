@@ -1,0 +1,105 @@
+{
+  "slug": "neutral-earthing-resistor-measurement-interface",
+  "name": "Neutral-earthing resistor measurement interface",
+  "kind": "symbol",
+  "abbreviation": "NRMI",
+  "aliases": [
+    "Switchyard earthing and lightning interfaces",
+    "switchyards Switchyard earthing and lightning interfaces",
+    "switchyards",
+    "Switchyards",
+    "Neutral-earthing circuit measurements",
+    "Resistor system monitoring"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the measurement connection associated with the selected neutral-earthing resistor system.",
+  "description": [
+    "Identifies the measurement connection associated with the selected neutral-earthing resistor system. Earthing and lightning interfaces identify the connections between equipment metalwork, primary protection devices and the station earthing network. Their electrical purpose differs from their physical conductor route or electrode geometry.",
+    "In a switchyard arrangement, the earthing references help connect each primary equipment structure and surge-protection device to the correct earth-grid interface. Separate details show actual joints, sizes and installation routes. For this reference, the drawing identifies “Neutral-earthing circuit measurements” at the input and “Resistor system monitoring” at the output. Resistance and thermal duty follow the earthing design.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Neutral-earthing circuit measurements. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Resistor system monitoring. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Resistance and thermal duty follow the earthing design.",
+    "Name every connected item and the earthing design reference. The illustrative connection does not establish touch or step voltages, conductor sizing, lightning coverage or safe working conditions."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for neutral-earthing circuit measurements.",
+    "Identify the destination and defined state of resistor system monitoring.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Resistance and thermal duty follow the earthing design."
+  ],
+  "distinction": "Resistance and thermal duty follow the earthing design. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchyards"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Neutral-earthing circuit measurements"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Resistor system monitoring"
+    },
+    {
+      "label": "Lookup label",
+      "value": "NRMI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-earthing-connections",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-earth-electrode",
+    "lightning-down-conductor",
+    "neutral-earthing-resistor-continuity-supervision"
+  ],
+  "artwork": "pi26-neutral-earthing-resistor-measurement-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchyards",
+    "family": "yard-earthing",
+    "input": "Neutral-earthing circuit measurements",
+    "output": "Resistor system monitoring"
+  },
+  "url": "https://eloragrid.ai/symbols/neutral-earthing-resistor-measurement-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/neutral-earthing-resistor-measurement-interface.svg",
+  "id": "neutral-earthing-resistor-measurement-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/neutral-earthing-resistor-measurement-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/neutral-earthing-resistor-measurement-interface.json",
+  "svgPath": "artwork/svg/neutral-earthing-resistor-measurement-interface.svg",
+  "referencePath": "references/neutral-earthing-resistor-measurement-interface.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-earthing-connections",
+      "title": "Earthing connections",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Earthing_connections",
+      "type": "manufacturer",
+      "scope": "Definitions of earth electrode, main earthing terminal, removable test link and bonding conductors in an installation earthing arrangement.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchyard earthing and lightning interfaces. Protective earthing, bonding and earth-electrode interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

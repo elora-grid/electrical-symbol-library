@@ -1,0 +1,104 @@
+{
+  "slug": "resistive-reactive-load-bank",
+  "name": "Resistive-reactive load bank",
+  "kind": "symbol",
+  "abbreviation": "LB RL",
+  "aliases": [
+    "RL load bank",
+    "inductive load bank",
+    "kVA load bank"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A test load bank combining resistive and inductive steps to load a generator at its rated power factor.",
+  "description": [
+    "A resistive-reactive load bank adds inductive reactor steps to resistive elements so that a generator can be tested at its full rated kVA and rated power factor, typically 0.8 lagging. This exercises the alternator excitation, voltage regulator and transformer heating in a way a resistive bank cannot.",
+    "Drawings show resistor and reactor groups in parallel, each with step switching, connected through a breaker. The power factor range and the kW and kvar totals are written beside the symbol.",
+    "Reactive load banks are heavier and more costly, so they are mainly used for commissioning large sets and paralleling tests. The symbol does not show the switching sequence or the instrumentation used to record test results."
+  ],
+  "readingNotes": [
+    "Read both kW and kvar ratings.",
+    "Check that power factor range matches the generator rating."
+  ],
+  "drawingChecklist": [
+    "State kW, kvar and power factor range.",
+    "Show resistor and reactor steps.",
+    "Reference test procedure."
+  ],
+  "distinction": "A resistive-reactive bank tests at rated kVA and power factor; a resistive bank tests at unity power factor only.",
+  "facts": [
+    {
+      "label": "Load type",
+      "value": "Resistive and inductive"
+    },
+    {
+      "label": "Typical test power factor",
+      "value": "0.8 lagging"
+    },
+    {
+      "label": "Use",
+      "value": "Full kVA commissioning tests"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-object-cummins-application",
+      "relevance": "Public generator application context for testing."
+    },
+    {
+      "sourceId": "pub-symbol-reactors",
+      "relevance": "Public reactor symbol family context."
+    }
+  ],
+  "related": [
+    "resistive-load-bank",
+    "diesel-generator-set",
+    "reactor"
+  ],
+  "artwork": "s28-resistive-reactive-load-bank",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/resistive-reactive-load-bank",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/resistive-reactive-load-bank.svg",
+  "id": "resistive-reactive-load-bank",
+  "canonicalUrl": "https://eloragrid.ai/symbols/resistive-reactive-load-bank",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/resistive-reactive-load-bank.json",
+  "svgPath": "artwork/svg/resistive-reactive-load-bank.svg",
+  "referencePath": "references/resistive-reactive-load-bank.md",
+  "publicSources": [
+    {
+      "id": "pub-object-cummins-application",
+      "title": "T-030 liquid-cooled generator set application manual",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t030-Liquid-cooled-gen-set-application-manual.pdf",
+      "type": "manufacturer",
+      "scope": "Public manufacturer application manual, Issue 9, February 2015; context for generator integration. Current selected-generator documentation and applicable regulations control implementation.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public generator application context for testing."
+    },
+    {
+      "id": "pub-symbol-reactors",
+      "title": "AutoCAD Electrical: Reactors and inductors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BAD50DBF-0951-44A0-BB4C-A57B4A4ED895.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public reactor symbol family context."
+    }
+  ]
+}

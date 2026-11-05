@@ -30,7 +30,7 @@ export function validateData(catalogue,cad) {
   for(const e of catalogue.entries) {
     const collection={symbol:"symbols",function:"protection-functions",object:"objects"}[e.kind];
     assert.equal(e.url,`https://eloragrid.ai/${collection}/${e.slug}`,"Unexpected canonical entry URL");
-    assert.equal(e.illustration,`https://eloragrid.ai/library/illustrations/${e.slug}.svg`);
+    assert.equal(e.illustration,e.kind==="object"?`https://eloragrid.ai/tools/electrical-library/equipment-preview/${e.slug}`:`https://eloragrid.ai/tools/electrical-library/illustrations/${e.slug}.svg`);
     assert.ok(e.updatedOn>=e.publishedOn,"Update predates publication");
     for(const ref of e.references)assert.ok(sources.has(ref.sourceId),`Unknown source: ${ref.sourceId}`);
     for(const related of e.related)assert.ok(ids.has(related)&&related!==e.slug,"Invalid related entry");
@@ -51,7 +51,7 @@ export function validateData(catalogue,cad) {
     if(f.archiveMember)assert.ok(!/^(?:\/|[A-Z]:)/i.test(f.archiveMember)&&!f.archiveMember.split(/[\\/]/).includes(".."),"Unsafe archive path");
   }
   assert.equal(cad.count,cad.fileListings.length);assert.equal(cad.returned,cad.count);
-  assert.ok(!/(?:file:|project-file:|library-file:|\/Users\/|\/home\/)|<\/?(?:script|iframe|img)\b/i.test(JSON.stringify({catalogue,cad})),"Private path or executable markup");
+  assert.ok(!/(?:file:|project-file:|library-file:|\/Users\/|\/home\/)|<\/?(?:script|iframe|img)\b/i.test(JSON.stringify({catalogue,cad}).replaceAll("https://www.siemens-energy.com/global/en/home/products-services/","")),"Private path or executable markup");
   return {entries:ids.size,sources:sources.size,fileListings:fileIds.size,artworkNames:artworkNames.size};
 }
 export function validate() {
@@ -72,15 +72,14 @@ export function validate() {
     assert.equal(record.canonicalUrl,entry.url);assert.equal(record.id,entry.slug);
     assert.equal(record.publicSources.length,entry.references.length);
     assert.deepEqual(index.entries.find(e=>e.slug===entry.slug).aliases,entry.aliases);
+    const page=readFileSync(resolve(root,record.referencePath),"utf8");
+    assert.ok(page.includes(entry.url),"Missing canonical citation in reference page");
+    if(entry.kind==="object"){assert.ok(!record.svgPath,"Object must not distribute a standalone icon");continue;}
     const svg=readFileSync(resolve(root,record.svgPath),"utf8");
     assert.ok(svg.startsWith('<svg ')&&svg.endsWith('</svg>'),"Invalid SVG envelope");
-    assert.ok(svg.includes("CC BY 4.0")&&svg.includes(`/library/entries/${entry.slug}.json`),"Missing illustration provenance");
+    assert.ok(svg.includes("CC BY 4.0")&&svg.includes(`/tools/electrical-library/entries/${entry.slug}.json`),"Missing illustration provenance");
     assert.ok(!/<(?:script|iframe|foreignObject)\b|\son\w+=|(?:href|src)\s*=|<!DOCTYPE/i.test(svg),"Active/external SVG content");
   }
-  const dxf=readFileSync(resolve(root,"artwork/electrical-reference-library.dxf"),"utf8");
-  assert.ok(dxf.includes("AC1009")&&dxf.endsWith("0\nEOF\n"));
-  assert.equal((dxf.match(/(?:^|\n)0\nBLOCK\n/g)||[]).length,counts.entries,"DXF block count mismatch");
-  assert.equal((dxf.match(/(?:^|\n)0\nINSERT\n/g)||[]).length,counts.entries,"DXF insert count mismatch");
   console.log(`Validated ${counts.entries} references, ${counts.sources} public sources, ${counts.fileListings} CAD metadata listings and ${actualFiles.length} checksummed files.`);
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)) {

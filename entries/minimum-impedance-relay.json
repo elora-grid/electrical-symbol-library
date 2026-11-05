@@ -1,0 +1,100 @@
+{
+  "slug": "minimum-impedance-relay",
+  "name": "Minimum-impedance measuring relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "underimpedance relay",
+    "minimum impedance relay",
+    "HCR1F41"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring relay that compares voltage with current and operates when the apparent impedance falls below a set value.",
+  "description": [
+    "A minimum-impedance relay divides measured voltage by measured current and operates when the result falls below its setting, indicating a fault close enough to fall inside its reach. It is used as generator and transformer backup protection and is the basic idea behind distance protection.",
+    "The relay needs both CT and VT inputs, so the symbol should always be read with both connections. It does not show the characteristic shape on the impedance plane, any directional element, or the loss-of-voltage blocking needed to avoid operation when the VT supply fails."
+  ],
+  "readingNotes": [
+    "Confirm both voltage and current inputs are shown.",
+    "Check for VT fuse-failure blocking."
+  ],
+  "drawingChecklist": [
+    "Show CT and VT inputs",
+    "State reach and delay",
+    "Reference blocking logic"
+  ],
+  "distinction": "A minimum-impedance relay uses voltage and current together; an overcurrent relay uses current alone.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Apparent impedance from voltage and current"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F41 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-monitoring-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Minimum Impedance Relay block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "21-distance-protection",
+    "voltage-transformer",
+    "current-transformer"
+  ],
+  "artwork": "s28-minimum-impedance-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/minimum-impedance-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/minimum-impedance-relay.svg",
+  "id": "minimum-impedance-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/minimum-impedance-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/minimum-impedance-relay.json",
+  "svgPath": "artwork/svg/minimum-impedance-relay.svg",
+  "referencePath": "references/minimum-impedance-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-monitoring-relays",
+      "title": "AutoCAD Electrical: Miscellaneous monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-31F4CF79-F8E0-4E5A-8C51-4D71640ACDB8.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Minimum Impedance Relay block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

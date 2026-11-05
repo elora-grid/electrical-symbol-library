@@ -1,0 +1,90 @@
+{
+  "slug": "iec-code-converter",
+  "name": "IEC general code converter (X/Y)",
+  "kind": "symbol",
+  "abbreviation": "X/Y",
+  "aliases": [
+    "code converter",
+    "X/Y coder",
+    "generic coder element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked X/Y, the general coder converting one code, named X, into another, named Y.",
+  "description": [
+    "The general coder qualifier X/Y is replaced on a real symbol by the names of the input and output codes, such as BIN/GRAY or DEC/BCD. Where the codes are not standard, inputs and outputs carry numbers and a table on the drawing gives the relationship. TI's overview also shows coders embedded in larger symbols to produce affecting inputs for dependency notation.",
+    "On control and protection logic drawings, a code converter may represent a lookup in a PLC or a hardware coder converting a selector position code into commands. Including the conversion table is essential because the X/Y label alone does not define the mapping for non-standard codes.",
+    "The element does not state propagation timing or behaviour for invalid input codes. State those in notes where they matter."
+  ],
+  "readingNotes": [
+    "Replace X and Y with code names on a real symbol.",
+    "Look for a conversion table on the sheet."
+  ],
+  "drawingChecklist": [
+    "Name both codes or provide a table.",
+    "Number inputs and outputs consistently with the table.",
+    "State behaviour for invalid codes."
+  ],
+  "distinction": "Specific coders such as BIN/OCT or BCD/7SEG are instances of this general form with standard code names.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "X/Y"
+    },
+    {
+      "label": "Non-standard codes",
+      "value": "Require a conversion table"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "General coder qualifier and use of a coder to produce affecting inputs."
+    }
+  ],
+  "related": [
+    "iec-binary-decoder",
+    "iec-bcd-to-seven-segment-decoder",
+    "iec-priority-encoder"
+  ],
+  "artwork": "s28-iec-code-converter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with X/Y qualifier where X and Y name the codes",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-code-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-code-converter.svg",
+  "id": "iec-code-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-code-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-code-converter.json",
+  "svgPath": "artwork/svg/iec-code-converter.svg",
+  "referencePath": "references/iec-code-converter.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "General coder qualifier and use of a coder to produce affecting inputs."
+    }
+  ]
+}

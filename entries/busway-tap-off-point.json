@@ -1,0 +1,100 @@
+{
+  "slug": "busway-tap-off-point",
+  "name": "Busway tap-off connection",
+  "kind": "symbol",
+  "abbreviation": "TO",
+  "aliases": [
+    "plug-in tap",
+    "busway outlet connection",
+    "tap-off unit connection"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "The connection of an outgoing circuit to a plug-in busway through a tap-off unit, usually containing a protective device.",
+  "description": [
+    "This symbol shows a tap-off unit plugged into the busway, with the outgoing circuit leaving through a fuse or circuit breaker in the unit. On single-line diagrams it replaces the board-and-feeder pattern used for switchboards, since the busway itself acts as the distribution bus.",
+    "The connection symbol does not show the tap-off unit rating unless annotated. Tap-off units may be fused or contain a breaker, and they usually have an interlock preventing insertion or removal under load. The protective device inside the unit should be drawn with its own symbol and rating."
+  ],
+  "readingNotes": [
+    "Read the protective device rating in the tap-off unit.",
+    "Check selectivity between the tap-off device and busway upstream protection."
+  ],
+  "drawingChecklist": [
+    "Draw the protective device in the tap-off.",
+    "State tap-off rating.",
+    "Identify the busway outlet position."
+  ],
+  "distinction": "A busway tap-off is a plug-in connection with its own protection; a one-line bus tap is a generic connection to a busbar.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Short branch from busway line into a protective device"
+    },
+    {
+      "label": "Physical item",
+      "value": "Plug-in tap-off unit"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "busbar-trunking",
+      "relevance": "Manufacturer busbar trunking ranges with tap-off units."
+    },
+    {
+      "sourceId": "iec-public-one-bus",
+      "relevance": "Public IEC-oriented one-line bus-tap representation for comparison."
+    }
+  ],
+  "related": [
+    "plug-in-busway",
+    "iec-one-line-bus-tap",
+    "ga-busway-tap-off-unit"
+  ],
+  "artwork": "s28-busway-tap-off-point",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/busway-tap-off-point",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/busway-tap-off-point.svg",
+  "id": "busway-tap-off-point",
+  "canonicalUrl": "https://eloragrid.ai/symbols/busway-tap-off-point",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/busway-tap-off-point.json",
+  "svgPath": "artwork/svg/busway-tap-off-point.svg",
+  "referencePath": "references/busway-tap-off-point.md",
+  "publicSources": [
+    {
+      "id": "busbar-trunking",
+      "title": "Canalis busbar trunking systems",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+      "type": "manufacturer",
+      "scope": "Public transport and distribution applications for busbar trunking. Select the exact system before using its dimensions.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Manufacturer busbar trunking ranges with tap-off units."
+    },
+    {
+      "id": "iec-public-one-bus",
+      "title": "Autodesk IEC-60617 preview: One-line bus-tap representation",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-9EC851F1-8B92-428B-A657-5B21B2325C62.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented one-line bus-tap representation for comparison."
+    }
+  ]
+}

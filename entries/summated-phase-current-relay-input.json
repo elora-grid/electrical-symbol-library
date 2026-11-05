@@ -1,0 +1,105 @@
+{
+  "slug": "summated-phase-current-relay-input",
+  "name": "Summated phase-current relay input",
+  "kind": "symbol",
+  "abbreviation": "SPRI",
+  "aliases": [
+    "Current-transformer secondary arrangements",
+    "substations Current-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Phase current quantities",
+    "Summated current quantity"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects the assigned phase-current quantities to the selected summation measurement function.",
+  "description": [
+    "Connects the assigned phase-current quantities to the selected summation measurement function. A current-transformer secondary arrangement carries a measuring current from a defined primary location to metering or protection inputs. Core identity, polarity and the connected circuit determine the measurement's meaning.",
+    "In a substation protection panel, separate CT cores can supply metering and protection circuits with different duties. A test boundary must preserve the secondary arrangement required by the selected CT and test device. For this reference, the drawing identifies “Phase current quantities” at the input and “Summated current quantity” at the output. Calculated summation differs from a separate sensor.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Phase current quantities. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Summated current quantity. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Calculated summation differs from a separate sensor.",
+    "Trace every secondary connection and the assigned earthing point against the actual connection diagram. These illustrations explain circuit roles and never prescribe a live CT switching or disconnection procedure."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for phase current quantities.",
+    "Identify the destination and defined state of summated current quantity.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Calculated summation differs from a separate sensor."
+  ],
+  "distinction": "Calculated summation differs from a separate sensor. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Phase current quantities"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Summated current quantity"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SPRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "current-transformer",
+    "ct-test-terminal",
+    "neutral-ct-directional-reference-interface"
+  ],
+  "artwork": "pi26-summated-phase-current-relay-input",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "ct-secondary",
+    "input": "Phase current quantities",
+    "output": "Summated current quantity"
+  },
+  "url": "https://eloragrid.ai/symbols/summated-phase-current-relay-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/summated-phase-current-relay-input.svg",
+  "id": "summated-phase-current-relay-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/summated-phase-current-relay-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/summated-phase-current-relay-input.json",
+  "svgPath": "artwork/svg/summated-phase-current-relay-input.svg",
+  "referencePath": "references/summated-phase-current-relay-input.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for current-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

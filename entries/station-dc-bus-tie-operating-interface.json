@@ -1,0 +1,105 @@
+{
+  "slug": "station-dc-bus-tie-operating-interface",
+  "name": "Station DC bus-tie operating interface",
+  "kind": "symbol",
+  "abbreviation": "SDBOI",
+  "aliases": [
+    "Station battery and charger distribution",
+    "substations Station battery and charger distribution",
+    "substations",
+    "Substations",
+    "DC tie command and states",
+    "Assigned bus-tie action"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the command and conditions associated with the selected DC bus connection.",
+  "description": [
+    "Identifies the command and conditions associated with the selected DC bus connection. A station battery system supplies protection, control and other assigned DC loads through a documented charger and distribution arrangement. Charger output, battery contribution and load distribution are related but separately monitored paths.",
+    "In a substation control building, the battery can support breaker trip circuits while the charger AC supply is unavailable. Supervision must identify whether the charger, battery or a downstream feeder is affected. For this reference, the drawing identifies “DC tie command and states” at the input and “Assigned bus-tie action” at the output. DC-source compatibility must be assessed.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: DC tie command and states. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Assigned bus-tie action. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "DC-source compatibility must be assessed.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for dc tie command and states.",
+    "Identify the destination and defined state of assigned bus-tie action.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: DC-source compatibility must be assessed."
+  ],
+  "distinction": "DC-source compatibility must be assessed. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "DC tie command and states"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Assigned bus-tie action"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SDBOI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "ga-battery-charger",
+    "station-dc-essential-load-priority-map"
+  ],
+  "artwork": "pi26-station-dc-bus-tie-operating-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-battery",
+    "input": "DC tie command and states",
+    "output": "Assigned bus-tie action"
+  },
+  "url": "https://eloragrid.ai/symbols/station-dc-bus-tie-operating-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-dc-bus-tie-operating-interface.svg",
+  "id": "station-dc-bus-tie-operating-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-bus-tie-operating-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-dc-bus-tie-operating-interface.json",
+  "svgPath": "artwork/svg/station-dc-bus-tie-operating-interface.svg",
+  "referencePath": "references/station-dc-bus-tie-operating-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

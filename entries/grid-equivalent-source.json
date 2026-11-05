@@ -1,0 +1,104 @@
+{
+  "slug": "grid-equivalent-source",
+  "name": "Grid equivalent source",
+  "kind": "symbol",
+  "abbreviation": "EQ SRC",
+  "aliases": [
+    "network equivalent",
+    "Thevenin source",
+    "external grid model"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A voltage source behind an impedance used in study diagrams to represent the external network at a defined fault level.",
+  "description": [
+    "A grid equivalent source represents the upstream network in load flow, short circuit and stability studies as an ideal voltage source behind an impedance. The impedance is calculated from the declared fault level and X/R ratio at the connection point, often with separate maximum and minimum cases.",
+    "Study single-line diagrams draw it as a circle with a sine wave followed by an impedance element, labelled with the fault level in MVA or kA and the X/R ratio. Microgrid studies use it to test both strong and weak network conditions before islanding scenarios are modelled.",
+    "The equivalent is only valid near the declared fault level; it cannot represent upstream dynamics such as voltage control or frequency response unless additional models are attached. The symbol does not tell you which study case it belongs to."
+  ],
+  "readingNotes": [
+    "Read both the fault level and X/R ratio.",
+    "Check whether the drawing shows maximum or minimum fault case."
+  ],
+  "drawingChecklist": [
+    "State fault level, X/R ratio and voltage.",
+    "Show the impedance element.",
+    "Reference study case."
+  ],
+  "distinction": "A grid equivalent is a study model; a utility grid connection symbol represents the real supply on construction drawings.",
+  "facts": [
+    {
+      "label": "Model",
+      "value": "Voltage source behind impedance"
+    },
+    {
+      "label": "Parameters",
+      "value": "Fault level and X/R ratio"
+    },
+    {
+      "label": "Use",
+      "value": "Power system studies"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for sources and impedances."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE/ANSI graphic-symbol context for sources."
+    }
+  ],
+  "related": [
+    "utility-grid-connection",
+    "three-phase-ac-source",
+    "reactor"
+  ],
+  "artwork": "s28-grid-equivalent-source",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/grid-equivalent-source",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/grid-equivalent-source.svg",
+  "id": "grid-equivalent-source",
+  "canonicalUrl": "https://eloragrid.ai/symbols/grid-equivalent-source",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/grid-equivalent-source.json",
+  "svgPath": "artwork/svg/grid-equivalent-source.svg",
+  "referencePath": "references/grid-equivalent-source.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for sources and impedances."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE/ANSI graphic-symbol context for sources."
+    }
+  ]
+}

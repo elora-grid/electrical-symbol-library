@@ -1,0 +1,99 @@
+{
+  "slug": "summation-current-transformer",
+  "name": "Summation current transformer",
+  "kind": "symbol",
+  "abbreviation": "ΣCT",
+  "aliases": [
+    "summing CT",
+    "summation CT"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Auxiliary CT with several primary windings that adds the secondary currents of other CTs into one output.",
+  "description": [
+    "A summation CT has several primary windings, each fed from the secondary of a main CT, and one secondary winding that carries their sum. It lets one meter or relay see the total current of several feeders, or in some relay designs combines three phase currents into a single weighted quantity.",
+    "All main CTs feeding a summation CT must have the same ratio, and their polarity must be consistent, otherwise currents cancel instead of adding. The symbol shows the summing arrangement but the burden it adds to each main CT has to be checked separately."
+  ],
+  "readingNotes": [
+    "Check that every feeding CT has the same ratio.",
+    "Verify polarity of each primary winding."
+  ],
+  "drawingChecklist": [
+    "List feeding CTs",
+    "Show polarity marks",
+    "Check burden on main CTs"
+  ],
+  "distinction": "A summation CT adds currents before measurement; a summation energy meter adds energy after measurement.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Secondary currents of several main CTs"
+    },
+    {
+      "label": "Output",
+      "value": "Sum of input currents"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-ct",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    },
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    }
+  ],
+  "related": [
+    "summation-energy-meter",
+    "interposing-current-transformer",
+    "current-transformer"
+  ],
+  "artwork": "s28-summation-current-transformer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/summation-current-transformer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/summation-current-transformer.svg",
+  "id": "summation-current-transformer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/summation-current-transformer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/summation-current-transformer.json",
+  "svgPath": "artwork/svg/summation-current-transformer.svg",
+  "referencePath": "references/summation-current-transformer.md",
+  "publicSources": [
+    {
+      "id": "autodesk-ct",
+      "title": "Current transformer symbol variants",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-40AAEF4A-AC3F-4B3D-90A5-A9E0707C1241.htm",
+      "type": "cad-reference",
+      "scope": "Current transformers, secondaries and conductor indications; vendor block identifiers are distinct from IEC symbol identifiers.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical current transformer family used for context; this variant is independently drawn."
+    },
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer overview of indoor current and voltage instrument transformers."
+    }
+  ]
+}

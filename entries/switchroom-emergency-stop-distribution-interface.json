@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-emergency-stop-distribution-interface",
+  "name": "Switchroom emergency-stop distribution interface",
+  "kind": "symbol",
+  "abbreviation": "SEDI",
+  "aliases": [
+    "Switchroom fire and emergency interfaces",
+    "switchrooms Switchroom fire and emergency interfaces",
+    "switchrooms",
+    "Switchrooms",
+    "Emergency-stop system output",
+    "Defined shutdown destinations"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows the assigned electrical interfaces controlled by the room emergency-stop system.",
+  "description": [
+    "Shows the assigned electrical interfaces controlled by the room emergency-stop system. A fire-system interface passes defined indications and control requests between the fire installation and electrical equipment. The receiving circuit must identify the exact purpose of the signal and the equipment it affects.",
+    "In a switchroom, the fire panel may report detection, system faults and a separately documented shutdown request to the station controller. These signals have different meanings and must not be combined into one unexplained alarm. For this reference, the drawing identifies “Emergency-stop system output” at the input and “Defined shutdown destinations” at the output. An emergency stop is not complete room isolation.",
+    "Use the coordinated fire cause-and-effect schedule to define each response. Original interface blocks describe signal roles without specifying suppression operation, evacuation behavior or life-safety performance. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Emergency-stop system output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined shutdown destinations. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "An emergency stop is not complete room isolation.",
+    "Use the coordinated fire cause-and-effect schedule to define each response. Original interface blocks describe signal roles without specifying suppression operation, evacuation behavior or life-safety performance."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for emergency-stop system output.",
+    "Identify the destination and defined state of defined shutdown destinations.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: An emergency stop is not complete room isolation."
+  ],
+  "distinction": "An emergency stop is not complete room isolation. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Emergency-stop system output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined shutdown destinations"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SEDI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-room-services",
+      "relevance": "Public technical context for switchroom fire and emergency interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-fire-alarm-control-panel-plan-symbol",
+    "ga-battery-fire-system-interface-panel",
+    "emergency-shutdown-reset-authority-interface"
+  ],
+  "artwork": "pi26-switchroom-emergency-stop-distribution-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "fire-interfaces",
+    "input": "Emergency-stop system output",
+    "output": "Defined shutdown destinations"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-emergency-stop-distribution-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-emergency-stop-distribution-interface.svg",
+  "id": "switchroom-emergency-stop-distribution-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-emergency-stop-distribution-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-emergency-stop-distribution-interface.json",
+  "svgPath": "artwork/svg/switchroom-emergency-stop-distribution-interface.svg",
+  "referencePath": "references/switchroom-emergency-stop-distribution-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-room-services",
+      "publisher": "Schneider Electric",
+      "title": "Indoor substation: lighting, fire and auxiliary services",
+      "url": "https://www.electrical-installation.org/enwiki/Indoor_substation",
+      "scope": "Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom fire and emergency interfaces. Lighting, emergency lighting, fire provisions and substation auxiliary services. Original cause-and-effect examples require project design. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

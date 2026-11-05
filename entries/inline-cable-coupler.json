@@ -1,0 +1,99 @@
+{
+  "slug": "inline-cable-coupler",
+  "name": "Inline cable coupler",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "cable-to-cable connector",
+    "free coupler",
+    "in-line connector"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A connector joining two cables without either half being mounted on equipment, such as an extension lead coupling.",
+  "description": [
+    "An inline coupler joins two free cables, with neither half fixed to a panel or device. Typical uses are extension leads, portable equipment feeds and sensor cables with a disconnect point partway along the run. Drawings show both halves floating on the cable line, sometimes with a note that the coupling is located in a particular area.",
+    "Because the coupler is free, its location is not fixed by the equipment, so the drawing should state where it is. The symbol does not show ingress protection, latching or whether the coupling may be separated under load. For power couplers, the live side should be the socket half so exposed pins are not energised."
+  ],
+  "readingNotes": [
+    "Identify which side is energised and confirm it is the socket half.",
+    "Look for a location note for the coupler."
+  ],
+  "drawingChecklist": [
+    "Show which half is on the supply side.",
+    "State IP rating where outdoors.",
+    "Locate the coupler on the layout."
+  ],
+  "distinction": "An inline coupler joins two free cables; a panel plug and socket has one half fixed to equipment.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Plug and socket halves on a cable line with no panel outline"
+    },
+    {
+      "label": "Safety practice",
+      "value": "Supply side on the socket half"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "sourceId": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "relevance": "Public IEEE-oriented preview of connector forms."
+    }
+  ],
+  "related": [
+    "plug-and-socket-connector-pair",
+    "connector-plug-half",
+    "connector-socket-half"
+  ],
+  "artwork": "s28-inline-cable-coupler",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/inline-cable-coupler",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/inline-cable-coupler.svg",
+  "id": "inline-cable-coupler",
+  "canonicalUrl": "https://eloragrid.ai/symbols/inline-cable-coupler",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/inline-cable-coupler.json",
+  "svgPath": "artwork/svg/inline-cable-coupler.svg",
+  "referencePath": "references/inline-cable-coupler.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview of plug and jack connector forms."
+    },
+    {
+      "id": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "title": "Autodesk IEEE Symbol Preview — Connectors - No Wirenumber Changes",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0B14FEAB-110A-4DD3-884E-0A2F8F9E76F7.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented preview of connector forms."
+    }
+  ]
+}

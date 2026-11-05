@@ -1,0 +1,88 @@
+{
+  "slug": "altech-pst-960xx",
+  "name": "Altech PST-960xx power-supply housing",
+  "kind": "object",
+  "abbreviation": "PST 960xx",
+  "aliases": [
+    "PST_960xx",
+    "PST-96024",
+    "PST-96048",
+    "PST_960xx GA",
+    "PST_960xx general arrangement"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Mechanical housing reference shared by PST-96024 and PST-96048 variants.",
+  "description": [
+    "Set aside the selected supply envelope and enough room to terminate its power conductors without obstructing neighbouring equipment. Coordinate thermal spacing using the manufacturer instructions.",
+    "The downloadable GA illustration is independently authored conceptual geometry, with no scale or manufacturer dimensions. Use the official CAD source for the exact layout.",
+    "Altech originals remain at the manufacturer source because their drawing notices restrict reproduction. Product lifecycle and availability have not been established."
+  ],
+  "readingNotes": [
+    "The xx suffix identifies a family of output-voltage variants rather than a single finished order code.",
+    "Do not assign the electrical rating of PST-96024 to PST-96048 because the drawing is shared."
+  ],
+  "drawingChecklist": [
+    "Specify the complete PST order code.",
+    "Check mounting, cooling and conductor approach.",
+    "Confirm model lifecycle and drawing revision."
+  ],
+  "distinction": "Do not assign the electrical rating of PST-96024 to PST-96048 because the drawing is shared.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Altech"
+    },
+    {
+      "label": "Model / housing family",
+      "value": "PST_960xx"
+    },
+    {
+      "label": "CAD selection",
+      "value": "PST-96024, PST-96048"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual GA; unitless, not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-expansion-altech-pst-960xx",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ],
+  "related": [
+    "ga-din-rail-ac-dc-power-supply",
+    "terminal-strip"
+  ],
+  "artwork": "edu-object-altech-pst-960xx",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/altech-pst-960xx",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/altech-pst-960xx",
+  "id": "altech-pst-960xx",
+  "canonicalUrl": "https://eloragrid.ai/objects/altech-pst-960xx",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/altech-pst-960xx.json",
+  "referencePath": "references/altech-pst-960xx.md",
+  "publicSources": [
+    {
+      "id": "ga-expansion-altech-pst-960xx",
+      "title": "Altech PST-960xx power-supply housing official drawing source",
+      "publisher": "Altech",
+      "url": "https://legacy.altechcorp.com/CAD/1MasterSheet/WebsiteUSE/HTMLWebpages/PowerSupplyMasterSheet.htm",
+      "type": "manufacturer",
+      "scope": "Model identity and mechanical CAD selection. No reproduction of manufacturer graphics.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ]
+}

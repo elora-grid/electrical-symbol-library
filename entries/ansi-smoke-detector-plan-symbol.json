@@ -1,0 +1,102 @@
+{
+  "slug": "ansi-smoke-detector-plan-symbol",
+  "name": "ANSI smoke detector plan symbol",
+  "kind": "symbol",
+  "abbreviation": "SD",
+  "aliases": [
+    "US smoke detector symbol",
+    "ceiling smoke detector",
+    "S detector symbol"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "US-style plan symbol for a smoke detector: a circle or square with SD or S marking on the ceiling plan.",
+  "description": [
+    "US fire alarm plans commonly draw smoke detectors as a circle tagged SD or a square with an S, with a subscript for duct or beam types. The form follows the project legend, which often adapts NFPA-based fire alarm conventions.",
+    "Addresses and circuit numbers are written beside the symbol. The plan is checked against spacing rules for smooth and beamed ceilings and against obstructions. The tag does not distinguish photoelectric from ionisation detectors. The legend or device schedule does."
+  ],
+  "readingNotes": [
+    "Read subscripts for duct or beam types.",
+    "Match addresses to the panel."
+  ],
+  "drawingChecklist": [
+    "Tag address.",
+    "State detector type.",
+    "Check spacing."
+  ],
+  "distinction": "The IEC-style smoke detector plan symbol serves the same purpose with a different internal mark.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Circle or square tagged SD"
+    },
+    {
+      "label": "Legend basis",
+      "value": "Project fire alarm legend"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; the exact ANSI or IEEE graphic and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ],
+  "related": [
+    "iec-smoke-detector-plan-symbol",
+    "ga-smoke-detector-installation-point"
+  ],
+  "artwork": "s28-ansi-smoke-detector-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Smoke detector, US plan",
+    "reference": "US architectural electrical plan practice in the ANSI Y32.9 lineage, read alongside IEEE 315 context; independently drawn, not a certified IEEE or ANSI graphic."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-smoke-detector-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-smoke-detector-plan-symbol.svg",
+  "id": "ansi-smoke-detector-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-smoke-detector-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-smoke-detector-plan-symbol.json",
+  "svgPath": "artwork/svg/ansi-smoke-detector-plan-symbol.svg",
+  "referencePath": "references/ansi-smoke-detector-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context: life-safety systems are coordinated with the building electrical design."
+    }
+  ]
+}

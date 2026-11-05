@@ -1,0 +1,105 @@
+{
+  "slug": "twelve-pulse-rectifier",
+  "name": "Twelve-pulse rectifier",
+  "kind": "symbol",
+  "abbreviation": "12P",
+  "aliases": [
+    "12-pulse rectifier",
+    "double-bridge rectifier",
+    "phase-shifted rectifier"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "Two six-pulse bridges fed from star and delta transformer windings 30 degrees apart, cancelling the lowest harmonics.",
+  "description": [
+    "A twelve-pulse rectifier feeds two six-pulse bridges from transformer secondaries displaced by 30 electrical degrees, usually one star and one delta winding. The two bridge outputs are combined in series or in parallel with an interphase reactor, and the 5th and 7th harmonic currents cancel on the primary side.",
+    "The single-line diagram shows a three-winding rectifier transformer with star and delta secondaries, each feeding a rectifier block, and the two DC outputs joining. It is used for large UPS rectifiers, electrolysers, traction substations and some drive front ends.",
+    "Cancellation only works when the two bridges share load equally and the supply is balanced. The symbol does not show residual 11th and 13th harmonics or the effect of transformer impedance mismatch, so a harmonic study is still required."
+  ],
+  "readingNotes": [
+    "Look for a three-winding transformer with star and delta secondaries.",
+    "Check whether the bridges are connected in series or parallel on the DC side."
+  ],
+  "drawingChecklist": [
+    "State transformer vector groups and phase shift.",
+    "Show both bridges and DC connection.",
+    "Reference expected harmonic spectrum."
+  ],
+  "distinction": "A twelve-pulse rectifier uses two phase-shifted bridges; a six-pulse rectifier uses one bridge and has larger 5th and 7th harmonics.",
+  "facts": [
+    {
+      "label": "Bridges",
+      "value": "Two six-pulse"
+    },
+    {
+      "label": "Phase shift",
+      "value": "30 degrees between secondaries"
+    },
+    {
+      "label": "Lowest cancelled harmonics",
+      "value": "5th and 7th"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-three-phase-transformers",
+      "relevance": "Public three-phase transformer connection symbol family for star and delta secondaries."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ],
+  "related": [
+    "three-winding-transformer",
+    "thyristor-phase-controlled-rectifier",
+    "three-phase-bridge-rectifier",
+    "star-star-delta-three-winding-transformer"
+  ],
+  "artwork": "s28-twelve-pulse-rectifier",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/twelve-pulse-rectifier",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/twelve-pulse-rectifier.svg",
+  "id": "twelve-pulse-rectifier",
+  "canonicalUrl": "https://eloragrid.ai/symbols/twelve-pulse-rectifier",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/twelve-pulse-rectifier.json",
+  "svgPath": "artwork/svg/twelve-pulse-rectifier.svg",
+  "referencePath": "references/twelve-pulse-rectifier.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-three-phase-transformers",
+      "title": "AutoCAD Electrical: Three-phase transformer connections",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-EB13DB13-01EE-4541-BED7-19B9001BE8FC.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public three-phase transformer connection symbol family for star and delta secondaries."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for converters."
+    }
+  ]
+}

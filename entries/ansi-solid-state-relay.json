@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-solid-state-relay",
+  "name": "ANSI/IEEE Solid-state relay form",
+  "kind": "symbol",
+  "abbreviation": "SSR",
+  "aliases": [
+    "HCR1SSD",
+    "VCR1SSD",
+    "IEEE Solid State",
+    "ANSI Solid-state relay"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of solid-state relay: a solid-state relay switches an output through semiconductor circuitry in response to a control input.",
+  "description": [
+    "This reference locates solid-state relay in Autodesk's IEEE-oriented relays and contacts family. A solid-state relay switches an output through semiconductor circuitry in response to a control input. Control isolation, output type and leakage depend on the chosen product. The public library uses HCR1SSD for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "Distinguish the low-power input terminals from the load-side output terminals. An SSR has no ordinary mechanical contact gap and must not be treated as a disconnector. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Distinguish the low-power input terminals from the load-side output terminals.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Name output AC or DC type",
+    "State input operating range",
+    "Reference leakage and load limits"
+  ],
+  "distinction": "An SSR has no ordinary mechanical contact gap and must not be treated as a disconnector.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Relays and Contacts; published form: Solid State."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1SSD. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f8eac387-53cf-45fe-be6a-c0c8fb3c1b22",
+      "relevance": "Public IEEE-oriented Relays and Contacts table explicitly lists HCR1SSD as Solid State. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "solid-state-relay",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-solid-state-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Solid State",
+    "reference": "Autodesk IEEE Symbol Preview: Relays and Contacts, block HCR1SSD. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "solid-state-relay"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-solid-state-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-solid-state-relay.svg",
+  "id": "ansi-solid-state-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-solid-state-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-solid-state-relay.json",
+  "svgPath": "artwork/svg/ansi-solid-state-relay.svg",
+  "referencePath": "references/ansi-solid-state-relay.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f8eac387-53cf-45fe-be6a-c0c8fb3c1b22",
+      "title": "Autodesk IEEE Symbol Preview — Relays and Contacts",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F8EAC387-53CF-45FE-BE6A-C0C8FB3C1B22.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Relays and Contacts table explicitly lists HCR1SSD as Solid State. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

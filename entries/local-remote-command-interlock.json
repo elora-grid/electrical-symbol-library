@@ -1,0 +1,105 @@
+{
+  "slug": "local-remote-command-interlock",
+  "name": "Local-remote command interlock",
+  "kind": "symbol",
+  "abbreviation": "LCI",
+  "aliases": [
+    "Switchgear interlocking functions",
+    "switchgear Switchgear interlocking functions",
+    "switchgear",
+    "Switchgear",
+    "Authority selector and command",
+    "Accepted command path"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Accepts commands only from the location selected by the documented authority mechanism.",
+  "description": [
+    "Accepts commands only from the location selected by the documented authority mechanism. An interlocking function permits or blocks an operation according to the positions and conditions of related equipment. Electrical, mechanical and trapped-key interlocks implement different parts of a coordinated operating philosophy.",
+    "In a switchgear feeder panel, a control diagram can prevent an incompatible combination of breaker, disconnector and earthing-switch positions. The physical equipment documents determine which restrictions are mechanically enforced. For this reference, the drawing identifies “Authority selector and command” at the input and “Accepted command path” at the output. Indication and operating authority are separate signals.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Authority selector and command. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Accepted command path. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Indication and operating authority are separate signals.",
+    "Identify each initiating position, the action being blocked and the consequence of missing feedback. An illustrative logic diagram must not be treated as an operating procedure or proof of a complete safety system."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for authority selector and command.",
+    "Identify the destination and defined state of accepted command path.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Indication and operating authority are separate signals."
+  ],
+  "distinction": "Indication and operating authority are separate signals. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Authority selector and command"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Accepted command path"
+    },
+    {
+      "label": "Lookup label",
+      "value": "LCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "iec-mechanical-interlock-between-devices",
+    "earthing-switch",
+    "maintenance-mode-closing-inhibit"
+  ],
+  "artwork": "pi26-local-remote-command-interlock",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "interlocks",
+    "input": "Authority selector and command",
+    "output": "Accepted command path"
+  },
+  "url": "https://eloragrid.ai/symbols/local-remote-command-interlock",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/local-remote-command-interlock.svg",
+  "id": "local-remote-command-interlock",
+  "canonicalUrl": "https://eloragrid.ai/symbols/local-remote-command-interlock",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/local-remote-command-interlock.json",
+  "svgPath": "artwork/svg/local-remote-command-interlock.svg",
+  "referencePath": "references/local-remote-command-interlock.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchgear interlocking functions. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

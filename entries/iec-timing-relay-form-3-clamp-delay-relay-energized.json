@@ -1,0 +1,94 @@
+{
+  "slug": "iec-timing-relay-form-3-clamp-delay-relay-energized",
+  "name": "IEC timing-relay form: 3 clamp delay relay - energized",
+  "kind": "symbol",
+  "abbreviation": "KT",
+  "aliases": [
+    "HTD1K25",
+    "VTD1K25",
+    "timing-relay form 3 Clamp Delay Relay - Energized"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Timing-relay form form: 3 Clamp Delay Relay - Energized.",
+  "description": [
+    "A timing relay separates the initiating signal from the later change of an output contact. The contact state, delayed transition and reset condition are independent: a timer may have immediate contacts alongside delayed contacts under the same device tag. This entry identifies the 3 clamp delay relay - energized form in the publisher's IEC-context family.",
+    "A control sequence may start an auxiliary before enabling the main load, or keep a fan running after a stop request. Trace supply, trigger and output separately, then draw a timing chart that includes what happens when the trigger ends before a delay has elapsed. The three-terminal form separates timing supply and control as defined by its actual equipment diagram. Preserve which energising or de-energising event initiates timing.",
+    "The symbol does not supply the time setting, retriggering rule or power-loss behaviour. A three-terminal timing form also needs its actual manufacturer terminal mapping; the vendor name alone does not define a universal pinout."
+  ],
+  "readingNotes": [
+    "The three-terminal form separates timing supply and control as defined by its actual equipment diagram. Preserve which energising or de-energising event initiates timing.",
+    "The symbol does not supply the time setting, retriggering rule or power-loss behaviour. A three-terminal timing form also needs its actual manufacturer terminal mapping; the vendor name alone does not define a universal pinout."
+  ],
+  "drawingChecklist": [
+    "Identify the initiating supply or control signal.",
+    "Label delayed and immediate output transitions separately.",
+    "Reference timing settings, reset conditions and the device timing chart."
+  ],
+  "distinction": "This entry adds the 3 clamp delay relay - energized detail to the broader timing-relay form family. The symbol does not supply the time setting, retriggering rule or power-loss behaviour. A three-terminal timing form also needs its actual manufacturer terminal mapping; the vendor name alone does not define a universal pinout.",
+  "facts": [
+    {
+      "label": "Drawing form",
+      "value": "3 Clamp Delay Relay - Energized"
+    },
+    {
+      "label": "Public vendor block names",
+      "value": "HTD1K25 / VTD1K25. Autodesk identifiers, not standards database IDs."
+    },
+    {
+      "label": "Drawing purpose",
+      "value": "timing-relay form"
+    },
+    {
+      "label": "Graphic scope",
+      "value": "Independently authored educational illustration; not certified standard geometry, a terminal pinout or a product footprint."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-timers",
+      "relevance": "Public Time Delay Relays table explicitly lists HTD1K25 / VTD1K25 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ],
+  "related": [
+    "on-delay-timer-relay",
+    "off-delay-timer-relay",
+    "relay-coil"
+  ],
+  "artwork": "s28-iec-timing-relay-form-3-clamp-delay-relay-energized",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "3 Clamp Delay Relay - Energized",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Time Delay Relays, HTD1K25 / VTD1K25. This identifies the publisher's library context; exact IEC graphics and database identities are not asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-timing-relay-form-3-clamp-delay-relay-energized",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-timing-relay-form-3-clamp-delay-relay-energized.svg",
+  "id": "iec-timing-relay-form-3-clamp-delay-relay-energized",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-timing-relay-form-3-clamp-delay-relay-energized",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-timing-relay-form-3-clamp-delay-relay-energized.json",
+  "svgPath": "artwork/svg/iec-timing-relay-form-3-clamp-delay-relay-energized.svg",
+  "referencePath": "references/iec-timing-relay-form-3-clamp-delay-relay-energized.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-timers",
+      "title": "AutoCAD Electrical: Time-delay relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-DA927086-EEAF-48CB-B9B1-634A4B48C8C7.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public Time Delay Relays table explicitly lists HTD1K25 / VTD1K25 with this operating or connection form. Vendor graphics are linked, not copied."
+    }
+  ]
+}

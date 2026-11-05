@@ -1,0 +1,100 @@
+{
+  "slug": "lightning-air-termination",
+  "name": "Lightning air termination",
+  "kind": "symbol",
+  "abbreviation": "AT",
+  "aliases": [
+    "air terminal",
+    "lightning rod",
+    "finial"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A rod or mesh conductor on top of a structure intended to intercept lightning strikes before they hit the structure.",
+  "description": [
+    "The air termination is the capture device of a lightning protection system. It can be a vertical rod, a stretched wire or a roof mesh. Roof plans mark rods at their positions, and the protected zone around them is set by the design method used.",
+    "The symbol does not show height, protective angle or the design method. Rooftop equipment such as solar arrays and air conditioning plant within the protected zone may still need bonding or separation, which should appear on the lightning protection layout."
+  ],
+  "readingNotes": [
+    "Check rooftop equipment against the protected zone.",
+    "Read rod heights from the layout notes."
+  ],
+  "drawingChecklist": [
+    "Show every air termination position.",
+    "State rod height or mesh size.",
+    "Link to the down-conductor routes."
+  ],
+  "distinction": "An air termination captures the strike; a surge arrester limits overvoltage on electrical conductors.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Upward-pointing rod on a structure outline"
+    },
+    {
+      "label": "System role",
+      "value": "Capture device of the lightning protection system"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-eig-building-lightning-protection",
+      "relevance": "Public installation-guide description of lightning rods and capture devices."
+    },
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ],
+  "related": [
+    "lightning-down-conductor",
+    "lightning-test-joint",
+    "surge-arrester"
+  ],
+  "artwork": "s28-lightning-air-termination",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/lightning-air-termination",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/lightning-air-termination.svg",
+  "id": "lightning-air-termination",
+  "canonicalUrl": "https://eloragrid.ai/symbols/lightning-air-termination",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/lightning-air-termination.json",
+  "svgPath": "artwork/svg/lightning-air-termination.svg",
+  "referencePath": "references/lightning-air-termination.md",
+  "publicSources": [
+    {
+      "id": "s28-eig-building-lightning-protection",
+      "title": "Building protection system",
+      "publisher": "Schneider Electric, Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/Building_protection_system",
+      "type": "manufacturer",
+      "scope": "Lightning capture devices, down-conductors, earth leads and equipotential bonding of a building protection system.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public installation-guide description of lightning rods and capture devices."
+    },
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    }
+  ]
+}

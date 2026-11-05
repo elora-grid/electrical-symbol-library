@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-two-network-voltage-measurement-selector",
+  "name": "ANSI/IEEE Two-network voltage measurement selector form",
+  "kind": "symbol",
+  "abbreviation": "HSW1S93",
+  "aliases": [
+    "HSW1S93",
+    "VSW1S93",
+    "IEEE 3 Voltage, 2-Network Phase-to-Phase Switch",
+    "ANSI Two-network voltage measurement selector"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of two-network voltage measurement selector: this representation distinguishes voltage selection between two three-phase networks.",
+  "description": [
+    "This reference locates two-network voltage measurement selector in Autodesk's IEEE-oriented miscellaneous switches family. This representation distinguishes voltage selection between two three-phase networks. The measurement is selected from more than one network or bus system. Both source identities must remain visible so that a reading is not attributed to the wrong supply. The public library uses HSW1S93 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Tag the two measurement sources and provide a position table with each voltage pair. This selector does not create a load-supply transfer arrangement between the networks. Identify both sources and each selectable measurement connection. Measurement selection between networks is not an automatic source-transfer power switch. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Identify both sources and each selectable measurement connection.",
+    "Measurement selection between networks is not an automatic source-transfer power switch."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Identify both sources and each selectable measurement connection.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Measurement selection between networks is not an automatic source-transfer power switch.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous Switches; published form: 3 Voltage, 2-Network Phase-to-Phase Switch."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSW1S93. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Identify both sources and each selectable measurement connection."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S93 as 3 Voltage, 2-Network Phase-to-Phase Switch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-two-network-voltage-measurement-selector",
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-two-network-voltage-measurement-selector",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Voltage, 2-Network Phase-to-Phase Switch",
+    "reference": "Autodesk IEEE Symbol Preview: Miscellaneous Switches, block HSW1S93. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-two-network-voltage-measurement-selector"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-two-network-voltage-measurement-selector",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-two-network-voltage-measurement-selector.svg",
+  "id": "ansi-two-network-voltage-measurement-selector",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-two-network-voltage-measurement-selector",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-two-network-voltage-measurement-selector.json",
+  "svgPath": "artwork/svg/ansi-two-network-voltage-measurement-selector.svg",
+  "referencePath": "references/ansi-two-network-voltage-measurement-selector.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-278f6c21-b1a6-4ea1-a535-e78d53bbd10d",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-278F6C21-B1A6-4EA1-A535-E78D53BBD10D.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Miscellaneous Switches table explicitly lists HSW1S93 as 3 Voltage, 2-Network Phase-to-Phase Switch. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

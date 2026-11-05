@@ -1,0 +1,105 @@
+{
+  "slug": "iec-dynamic-input",
+  "name": "IEC dynamic input (edge-triggered)",
+  "kind": "symbol",
+  "abbreviation": "DYN",
+  "aliases": [
+    "edge-triggered input mark",
+    "clock wedge",
+    "dynamic input indicator"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Wedge drawn inside the outline at an input, meaning the input acts on a transition rather than a level.",
+  "description": [
+    "The dynamic input indicator is a small wedge inside the outline at the point where the input line enters. It means the input is active only on a transition, normally from external 0 to 1 in positive logic. It is the mark that distinguishes an edge-triggered flip-flop clock from a level-sensitive latch enable.",
+    "On sequential logic drawings the reader should look for the wedge at every C input. A missing wedge on a clock input changes the device from edge-triggered to transparent, which changes timing behaviour significantly.",
+    "The wedge does not specify setup or hold time, nor maximum clock rate. Those are device timing parameters. Check the active clock edge against the input waveform and the timing data of the actual logic element."
+  ],
+  "readingNotes": [
+    "Wedge present: edge-triggered; wedge absent: level-sensitive.",
+    "Check for a negation or polarity mark that reverses the active edge."
+  ],
+  "drawingChecklist": [
+    "Draw the wedge inside the outline at the clock input.",
+    "Show negation outside the outline for falling-edge inputs.",
+    "Label the input with its dependency number, for example C1."
+  ],
+  "distinction": "The postponed-output mark relates to pulse-triggered elements whose output changes at the end of the pulse, not at the edge.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "Active on a transition"
+    },
+    {
+      "label": "Typical label",
+      "value": "C1 on a clock input"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Dynamic input indication in positive logic, negative logic and polarity notation."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc74",
+      "relevance": "Edge-triggered flip-flop documentation."
+    }
+  ],
+  "related": [
+    "iec-falling-edge-dynamic-input",
+    "iec-d-flip-flop",
+    "positive-edge-d-flip-flop"
+  ],
+  "artwork": "s28-iec-dynamic-input",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Small wedge inside the outline at the input",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-dynamic-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-dynamic-input.svg",
+  "id": "iec-dynamic-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-dynamic-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-dynamic-input.json",
+  "svgPath": "artwork/svg/iec-dynamic-input.svg",
+  "referencePath": "references/iec-dynamic-input.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Dynamic input indication in positive logic, negative logic and polarity notation."
+    },
+    {
+      "id": "pub-electronics-ti-hc74",
+      "title": "SN74HC74 — positive-edge D flip-flops",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of positive-edge d flip-flops. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Edge-triggered flip-flop documentation."
+    }
+  ]
+}

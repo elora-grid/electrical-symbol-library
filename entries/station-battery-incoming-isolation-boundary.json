@@ -1,0 +1,105 @@
+{
+  "slug": "station-battery-incoming-isolation-boundary",
+  "name": "Station battery incoming isolation boundary",
+  "kind": "symbol",
+  "abbreviation": "SBIIB",
+  "aliases": [
+    "Station battery and charger distribution",
+    "substations Station battery and charger distribution",
+    "substations",
+    "Substations",
+    "Battery output connection",
+    "Defined battery incoming boundary"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Marks the assigned isolation connection between the battery and its DC distribution system.",
+  "description": [
+    "Marks the assigned isolation connection between the battery and its DC distribution system. A station battery system supplies protection, control and other assigned DC loads through a documented charger and distribution arrangement. Charger output, battery contribution and load distribution are related but separately monitored paths.",
+    "In a substation control building, the battery can support breaker trip circuits while the charger AC supply is unavailable. Supervision must identify whether the charger, battery or a downstream feeder is affected. For this reference, the drawing identifies “Battery output connection” at the input and “Defined battery incoming boundary” at the output. Battery terminals can remain energized independently.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Battery output connection. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Defined battery incoming boundary. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Battery terminals can remain energized independently.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for battery output connection.",
+    "Identify the destination and defined state of defined battery incoming boundary.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Battery terminals can remain energized independently."
+  ],
+  "distinction": "Battery terminals can remain energized independently. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Battery output connection"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Defined battery incoming boundary"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SBIIB is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "ga-battery-charger",
+    "station-battery-discharge-current-measurement"
+  ],
+  "artwork": "pi26-station-battery-incoming-isolation-boundary",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-battery",
+    "input": "Battery output connection",
+    "output": "Defined battery incoming boundary"
+  },
+  "url": "https://eloragrid.ai/symbols/station-battery-incoming-isolation-boundary",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-battery-incoming-isolation-boundary.svg",
+  "id": "station-battery-incoming-isolation-boundary",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-battery-incoming-isolation-boundary",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-battery-incoming-isolation-boundary.json",
+  "svgPath": "artwork/svg/station-battery-incoming-isolation-boundary.svg",
+  "referencePath": "references/station-battery-incoming-isolation-boundary.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

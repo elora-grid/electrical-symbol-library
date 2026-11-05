@@ -1,0 +1,90 @@
+{
+  "slug": "iec-read-only-memory",
+  "name": "IEC read-only memory (ROM)",
+  "kind": "symbol",
+  "abbreviation": "ROM",
+  "aliases": [
+    "ROM element",
+    "IEC ROM symbol",
+    "read-only memory block"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC element marked ROM with grouped address inputs and data outputs that read the addressed word.",
+  "description": [
+    "A ROM is drawn with the ROM qualifier, usually followed by its organisation such as 256x8. Address inputs are grouped with a binary grouping bracket marked A, and data outputs carry an A label to show they deliver the addressed word. Enable inputs often control three-state outputs.",
+    "On control drawings ROM symbols document lookup tables, character generators or firmware storage on logic boards. The organisation figure tells a reviewer the address range and data width at a glance.",
+    "The symbol does not show the stored content. The content reference, such as a firmware or table file revision, should be noted next to the symbol."
+  ],
+  "readingNotes": [
+    "Organisation such as 256x8 gives words by width.",
+    "Data outputs carry the A label."
+  ],
+  "drawingChecklist": [
+    "State the organisation.",
+    "Group address inputs with A notation.",
+    "Reference the content revision."
+  ],
+  "distinction": "RAM adds write inputs; ROM outputs only.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "ROM"
+    },
+    {
+      "label": "Notation",
+      "value": "A dependency on data outputs"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Lists ROM and describes A dependency for memories."
+    }
+  ],
+  "related": [
+    "iec-random-access-memory",
+    "iec-address-dependency-a",
+    "iec-fifo-memory"
+  ],
+  "artwork": "s28-iec-read-only-memory",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular element with ROM qualifier, address grouping and A-dependent outputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-read-only-memory",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-read-only-memory.svg",
+  "id": "iec-read-only-memory",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-read-only-memory",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-read-only-memory.json",
+  "svgPath": "artwork/svg/iec-read-only-memory.svg",
+  "referencePath": "references/iec-read-only-memory.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Lists ROM and describes A dependency for memories."
+    }
+  ]
+}

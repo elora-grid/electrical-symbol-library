@@ -1,0 +1,105 @@
+{
+  "slug": "arc-suppression-coil",
+  "name": "Arc suppression coil",
+  "kind": "symbol",
+  "abbreviation": "ASC",
+  "aliases": [
+    "Petersen coil",
+    "earth-fault neutraliser",
+    "resonant earthing coil"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "An adjustable reactor between neutral and earth tuned to cancel the network capacitive earth-fault current.",
+  "description": [
+    "An arc suppression coil is a reactor connected between the system neutral and earth, tuned so that its inductive current balances the capacitive current that flows during a single phase-to-earth fault. The residual fault current becomes very small, so transient arcing faults often self-extinguish and the network can keep running with a sustained earth fault.",
+    "Drawings show an inductor with an adjustment arrow between a transformer or earthing transformer neutral and earth, often with a parallel resistor switched in briefly to help fault location. Automatic tuning controllers and neutral voltage measurement are drawn alongside.",
+    "Resonant earthing needs dedicated earth-fault detection, such as transient or admittance-based protection, because fault current is too small for simple overcurrent relays. The symbol does not show the tuning range or the detection method."
+  ],
+  "readingNotes": [
+    "An adjustment arrow on the reactor shows tuning capability.",
+    "Look for a parallel resistor used for fault location."
+  ],
+  "drawingChecklist": [
+    "State tuning range in amperes.",
+    "Show earthing transformer and resistor.",
+    "Reference earth-fault detection method."
+  ],
+  "distinction": "An arc suppression coil cancels capacitive fault current; a neutral earthing resistor limits fault current but does not cancel it.",
+  "facts": [
+    {
+      "label": "Element",
+      "value": "Adjustable reactor"
+    },
+    {
+      "label": "Connection",
+      "value": "Neutral to earth"
+    },
+    {
+      "label": "Detection required",
+      "value": "Sensitive or transient earth-fault protection"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public earth-fault and neutral earthing protection context."
+    },
+    {
+      "sourceId": "pub-symbol-reactors",
+      "relevance": "Public reactor symbol family context."
+    }
+  ],
+  "related": [
+    "neutral-earthing-resistor",
+    "adjustable-core-inductor",
+    "67nief-transient-or-intermittent-earth-fault-protection",
+    "zigzag-winding-connection"
+  ],
+  "artwork": "s28-arc-suppression-coil",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/arc-suppression-coil",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/arc-suppression-coil.svg",
+  "id": "arc-suppression-coil",
+  "canonicalUrl": "https://eloragrid.ai/symbols/arc-suppression-coil",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/arc-suppression-coil.json",
+  "svgPath": "artwork/svg/arc-suppression-coil.svg",
+  "referencePath": "references/arc-suppression-coil.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public earth-fault and neutral earthing protection context."
+    },
+    {
+      "id": "pub-symbol-reactors",
+      "title": "AutoCAD Electrical: Reactors and inductors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-BAD50DBF-0951-44A0-BB4C-A57B4A4ED895.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public reactor symbol family context."
+    }
+  ]
+}

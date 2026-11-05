@@ -1,0 +1,87 @@
+{
+  "slug": "spi-interface-buffer",
+  "name": "SPI interface buffer",
+  "kind": "symbol",
+  "abbreviation": "SPI BUF",
+  "aliases": [
+    "SPI interface buffer",
+    "SPI interface buffer functional block",
+    "SPI interface buffer schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An SPI buffer supports the selected digital signal paths between an SPI controller and its peripheral interface.",
+  "description": [
+    "An SPI buffer supports the selected digital signal paths between an SPI controller and its peripheral interface.",
+    "A design can buffer clock and data lines where its electrical and timing requirements call for it.",
+    "Identify the clock, controller-to-peripheral data, peripheral-to-controller data and chip-select paths separately. Unlike a generic two-wire bus, these signals can have different directions. A buffer or translator must preserve their timing and the chosen device’s operating levels. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Label clock, data directions and each chip select.",
+    "Reference the supported logic supplies and timing.",
+    "Show enable or direction-control inputs where used.",
+    "The SPI block must identify signal direction, chip select and timing; it is not an arbitrary interchangeable serial port."
+  ],
+  "drawingChecklist": [
+    "Label clock, data directions and each chip select.",
+    "Reference the supported logic supplies and timing.",
+    "Show enable or direction-control inputs where used."
+  ],
+  "distinction": "The SPI block must identify signal direction, chip select and timing; it is not an arbitrary interchangeable serial port.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "SPI clock and data signals"
+    },
+    {
+      "label": "Concept output",
+      "value": "Peripheral-side SPI signals"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pilot-01-spi-interface-buffer",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ],
+  "related": [
+    "logic-voltage-level-translator",
+    "i2c-bus-buffer",
+    "i2c-level-translator",
+    "power-converter"
+  ],
+  "artwork": "expanded-spi-interface-buffer",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/spi-interface-buffer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/spi-interface-buffer.svg",
+  "id": "spi-interface-buffer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/spi-interface-buffer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/spi-interface-buffer.json",
+  "svgPath": "artwork/svg/spi-interface-buffer.svg",
+  "referencePath": "references/spi-interface-buffer.md",
+  "publicSources": [
+    {
+      "id": "pilot-01-spi-interface-buffer",
+      "title": "Direction-controlled translation for SPI interfaces",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/SN74AXC4T774",
+      "type": "manufacturer",
+      "scope": "Public manufacturer technical context for this function. Original educational explanation; no publisher graphics reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Primary-source technical context for this particular function; product-specific ratings remain with the manufacturer."
+    }
+  ]
+}

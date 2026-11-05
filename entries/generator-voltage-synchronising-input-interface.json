@@ -1,0 +1,105 @@
+{
+  "slug": "generator-voltage-synchronising-input-interface",
+  "name": "Generator-voltage synchronising input interface",
+  "kind": "symbol",
+  "abbreviation": "GSII",
+  "aliases": [
+    "Voltage-transformer secondary arrangements",
+    "substations Voltage-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Generator VT signal",
+    "Generator synchronising voltage"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the generator-side voltage supplied to its synchronising function.",
+  "description": [
+    "Identifies the generator-side voltage supplied to its synchronising function. A voltage-transformer secondary arrangement connects a defined primary voltage measurement to protection, metering or control inputs. Winding identity, fuse protection and the voltage reference must remain visible across the drawing.",
+    "In a substation bay, one voltage circuit can feed protection while a separately identified winding supplies metering. A voltage-selection circuit must make clear which bus or line measurement is being used. For this reference, the drawing identifies “Generator VT signal” at the input and “Generator synchronising voltage” at the output. Phase relationships must match the actual connection.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Generator VT signal. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Generator synchronising voltage. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Phase relationships must match the actual connection.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for generator vt signal.",
+    "Identify the destination and defined state of generator synchronising voltage.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Phase relationships must match the actual connection."
+  ],
+  "distinction": "Phase relationships must match the actual connection. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Generator VT signal"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Generator synchronising voltage"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GSII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "potential-test-switch",
+    "vt-secondary-test-isolation-boundary"
+  ],
+  "artwork": "pi26-generator-voltage-synchronising-input-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "vt-secondary",
+    "input": "Generator VT signal",
+    "output": "Generator synchronising voltage"
+  },
+  "url": "https://eloragrid.ai/symbols/generator-voltage-synchronising-input-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/generator-voltage-synchronising-input-interface.svg",
+  "id": "generator-voltage-synchronising-input-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/generator-voltage-synchronising-input-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/generator-voltage-synchronising-input-interface.json",
+  "svgPath": "artwork/svg/generator-voltage-synchronising-input-interface.svg",
+  "referencePath": "references/generator-voltage-synchronising-input-interface.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

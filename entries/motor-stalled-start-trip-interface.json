@@ -1,0 +1,105 @@
+{
+  "slug": "motor-stalled-start-trip-interface",
+  "name": "Motor stalled-start trip interface",
+  "kind": "symbol",
+  "abbreviation": "MSTI",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Starting current and timing",
+    "Stalled-start trip request"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Transfers detection of an unsuccessful acceleration condition to the feeder trip path.",
+  "description": [
+    "Transfers detection of an unsuccessful acceleration condition to the feeder trip path. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Starting current and timing” at the input and “Stalled-start trip request” at the output. Thresholds require the selected motor protection study.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Starting current and timing. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Stalled-start trip request. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Thresholds require the selected motor protection study.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for starting current and timing.",
+    "Identify the destination and defined state of stalled-start trip request.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Thresholds require the selected motor protection study."
+  ],
+  "distinction": "Thresholds require the selected motor protection study. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Starting current and timing"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Stalled-start trip request"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MSTI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "motor-underload-process-alarm"
+  ],
+  "artwork": "pi26-motor-stalled-start-trip-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Starting current and timing",
+    "output": "Stalled-start trip request"
+  },
+  "url": "https://eloragrid.ai/symbols/motor-stalled-start-trip-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/motor-stalled-start-trip-interface.svg",
+  "id": "motor-stalled-start-trip-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/motor-stalled-start-trip-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/motor-stalled-start-trip-interface.json",
+  "svgPath": "artwork/svg/motor-stalled-start-trip-interface.svg",
+  "referencePath": "references/motor-stalled-start-trip-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

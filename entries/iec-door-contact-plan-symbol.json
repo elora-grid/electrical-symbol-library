@@ -1,0 +1,103 @@
+{
+  "slug": "iec-door-contact-plan-symbol",
+  "name": "Door contact plan symbol",
+  "kind": "symbol",
+  "abbreviation": "DC",
+  "aliases": [
+    "magnetic reed contact",
+    "door position switch",
+    "intruder door contact"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Security plan symbol for a magnetic contact that signals whether a door or window is open.",
+  "description": [
+    "Magnetic door contacts use a reed switch on the frame and a magnet on the door. Security plans draw a small pair of rectangles or a contact mark at the door head, tagged DC, with the zone number.",
+    "Door contacts are used both for intruder alarm and for access control door monitoring, where they detect forced or held-open doors. The plan should state which system or both. The symbol does not tell you whether the contact is surface or flush, or high-security balanced type."
+  ],
+  "readingNotes": [
+    "Check which system receives the signal.",
+    "Check surface or flush type in schedule."
+  ],
+  "drawingChecklist": [
+    "Tag zone or door number.",
+    "State contact type.",
+    "Coordinate with door hardware."
+  ],
+  "distinction": "A limit switch in machine control detects mechanical position; a door contact is a security monitoring device.",
+  "facts": [
+    {
+      "label": "Operating principle",
+      "value": "Reed switch and magnet"
+    },
+    {
+      "label": "Systems",
+      "value": "Intruder alarm and access control"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ],
+  "related": [
+    "iec-intruder-motion-detector",
+    "magnetic-proximity-switch",
+    "iec-magnetic-door-holder-plan-symbol"
+  ],
+  "artwork": "s28-iec-door-contact-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Door contact",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-door-contact-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-door-contact-plan-symbol.svg",
+  "id": "iec-door-contact-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-door-contact-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-door-contact-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-door-contact-plan-symbol.svg",
+  "referencePath": "references/iec-door-contact-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design context for coordinating low-current systems with power and lighting."
+    }
+  ]
+}

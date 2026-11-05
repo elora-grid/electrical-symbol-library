@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-pressure-to-current-converter",
+  "name": "ANSI/IEEE pressure/current converter symbol",
+  "kind": "symbol",
+  "abbreviation": "P/I",
+  "aliases": [
+    "IEEE pressure to current converter symbol",
+    "ANSI pressure transducer symbol",
+    "HIN1B10"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library pressure-to-current converter form representing a transducer that turns process pressure into a loop current.",
+  "description": [
+    "The pressure/current converter represents a transducer that measures pressure and produces a proportional electrical signal, typically a 4-20 mA loop. On control and protection schematics it appears where transformer, compressor or hydraulic pressure is passed to a PLC, relay or indicator.",
+    "The block does not tell you the pressure range, whether the output is two-wire loop-powered or four-wire, or whether the measurement is gauge, absolute or differential. Those details govern the wiring and the scaling at the receiving input."
+  ],
+  "readingNotes": [
+    "Identify whether the loop is powered by the receiver or the transducer.",
+    "Check scaling of the output current to pressure range."
+  ],
+  "drawingChecklist": [
+    "State pressure range and type",
+    "Show loop power source",
+    "Reference receiving input"
+  ],
+  "distinction": "A pressure/current converter gives a continuous signal; a pressure switch gives only a contact change at a set point.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1B10 / VIN1B10 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Output",
+      "value": "Analogue current signal proportional to pressure"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Pressure/Current Converter block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-pressure-to-current-converter",
+    "pressure-measurement-interface",
+    "analog-current-signal-isolator"
+  ],
+  "artwork": "s28-ansi-pressure-to-current-converter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Pressure/Current Converter",
+    "counterpart": "iec-pressure-to-current-converter",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-pressure-to-current-converter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-pressure-to-current-converter.svg",
+  "id": "ansi-pressure-to-current-converter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-pressure-to-current-converter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-pressure-to-current-converter.json",
+  "svgPath": "artwork/svg/ansi-pressure-to-current-converter.svg",
+  "referencePath": "references/ansi-pressure-to-current-converter.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Pressure/Current Converter block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

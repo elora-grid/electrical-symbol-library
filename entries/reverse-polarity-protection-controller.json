@@ -1,0 +1,87 @@
+{
+  "slug": "reverse-polarity-protection-controller",
+  "name": "Reverse-polarity protection controller",
+  "kind": "symbol",
+  "abbreviation": "REV POL",
+  "aliases": [
+    "Reverse-polarity protection controller",
+    "Reverse-polarity protection controller functional block",
+    "Reverse-polarity protection controller schematic reference"
+  ],
+  "category": "electronics-components",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A reverse-polarity protection controller manages a power path against a specified reversed connection condition.",
+  "description": [
+    "A reverse-polarity protection controller manages a power path against a specified reversed connection condition.",
+    "An input protection stage can prevent an incorrectly connected supply from reaching its load under the design conditions.",
+    "Identify the input connector, controlled switching element and protected output. This function addresses a reversed supply connection under the selected design conditions. Reverse-polarity protection must be distinguished from preventing current flowing backwards between otherwise correctly connected supplies. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify input polarity and the protected output.",
+    "Show the actual controlled switching element.",
+    "Reference reversed-input and reverse-current behaviour separately.",
+    "Reverse-polarity protection and reverse-current blocking are related but different requirements."
+  ],
+  "drawingChecklist": [
+    "Identify input polarity and the protected output.",
+    "Show the actual controlled switching element.",
+    "Reference reversed-input and reverse-current behaviour separately."
+  ],
+  "distinction": "Reverse-polarity protection and reverse-current blocking are related but different requirements.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Input supply connection"
+    },
+    {
+      "label": "Concept output",
+      "value": "Protected load-side path"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-powerswitch",
+      "relevance": "Power-path protection and selection: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "hot-swap-controller",
+    "power-source-multiplexer",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-reverse-polarity-protection-controller",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/reverse-polarity-protection-controller",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/reverse-polarity-protection-controller.svg",
+  "id": "reverse-polarity-protection-controller",
+  "canonicalUrl": "https://eloragrid.ai/symbols/reverse-polarity-protection-controller",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/reverse-polarity-protection-controller.json",
+  "svgPath": "artwork/svg/reverse-polarity-protection-controller.svg",
+  "referencePath": "references/reverse-polarity-protection-controller.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-powerswitch",
+      "title": "Power-path protection and selection",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/power-management/power-protection-switches-controllers/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Power-path protection and selection: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

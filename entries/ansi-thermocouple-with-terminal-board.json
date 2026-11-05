@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-thermocouple-with-terminal-board",
+  "name": "ANSI/IEEE thermocouple with terminal board symbol",
+  "kind": "symbol",
+  "abbreviation": "TC",
+  "aliases": [
+    "IEEE thermocouple head symbol",
+    "ANSI thermocouple terminal board symbol",
+    "HTC1LTB"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library thermocouple form that adds the head terminal board where element leads change to field cable.",
+  "description": [
+    "This form adds the terminal board in the thermocouple head to the basic junction symbol. It is useful on loop and wiring diagrams because the terminal board marks the boundary between the element, which is replaced with the sensor, and the field extension cable, which stays in place.",
+    "Drawing the terminal board makes polarity at the changeover explicit, but it still does not tell you the thermocouple type or whether the head contains a transmitter. If a head-mounted transmitter is fitted, the output becomes a current loop and should be drawn as such."
+  ],
+  "readingNotes": [
+    "Use the terminal numbers to check polarity at the head.",
+    "Confirm whether a head transmitter replaces the direct millivolt connection."
+  ],
+  "drawingChecklist": [
+    "Number the head terminals",
+    "Show extension cable type",
+    "Note any head-mounted transmitter"
+  ],
+  "distinction": "The terminal-board form shows the head connection point; the plain thermocouple form shows only the junction and leads.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HTC1LTB / HTC1RTB and vertical forms (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Boundary shown",
+      "value": "Sensor element to field cable changeover"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Thermocouple with Terminal Board block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-thermocouple-with-terminal-board",
+    "ansi-thermocouple",
+    "sensor-terminal-block"
+  ],
+  "artwork": "s28-ansi-thermocouple-with-terminal-board",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Thermocouple with Terminal Board",
+    "counterpart": "iec-thermocouple-with-terminal-board",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-thermocouple-with-terminal-board",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-thermocouple-with-terminal-board.svg",
+  "id": "ansi-thermocouple-with-terminal-board",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-thermocouple-with-terminal-board",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-thermocouple-with-terminal-board.json",
+  "svgPath": "artwork/svg/ansi-thermocouple-with-terminal-board.svg",
+  "referencePath": "references/ansi-thermocouple-with-terminal-board.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Thermocouple with Terminal Board block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

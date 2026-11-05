@@ -1,0 +1,90 @@
+{
+  "slug": "iec-address-dependency-a",
+  "name": "IEC address dependency (A)",
+  "kind": "symbol",
+  "abbreviation": "Am",
+  "aliases": [
+    "A dependency",
+    "address dependency notation",
+    "memory address label"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Dependency label A used on memory symbols to show which word of an array the address inputs select.",
+  "description": [
+    "A dependency is used mainly on memory symbols. Address inputs are grouped, often with the binary grouping symbol, to produce internal affecting inputs A0 to An. Data inputs and outputs labelled A then act only on the selected word, so one symbol can represent an entire array.",
+    "Reading a memory symbol, start with the address grouping to see the range, then follow the A-labelled data terminals. TI's public overview shows an array of latches forming a small random-access memory using this method.",
+    "The notation does not give access time or organisation details beyond word count and width. Those are in the device data."
+  ],
+  "readingNotes": [
+    "Find the address grouping and its range first.",
+    "Terminals labelled A act on the selected word only."
+  ],
+  "drawingChecklist": [
+    "Show the address bus with its binary grouping.",
+    "Label affected data terminals with A.",
+    "State word count and width in the outline title."
+  ],
+  "distinction": "M dependency selects modes, while A selects which of several identical words is accessed.",
+  "facts": [
+    {
+      "label": "Affecting input at 1",
+      "value": "Permits action (address selected)"
+    },
+    {
+      "label": "Typical device",
+      "value": "RAM or ROM"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "A (address) dependency and memory array examples."
+    }
+  ],
+  "related": [
+    "iec-random-access-memory",
+    "iec-read-only-memory",
+    "iec-mode-dependency-m"
+  ],
+  "artwork": "s28-iec-address-dependency-a",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Address inputs grouped to produce A affecting inputs; affected terminals labelled A",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-address-dependency-a",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-address-dependency-a.svg",
+  "id": "iec-address-dependency-a",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-address-dependency-a",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-address-dependency-a.json",
+  "svgPath": "artwork/svg/iec-address-dependency-a.svg",
+  "referencePath": "references/iec-address-dependency-a.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "A (address) dependency and memory array examples."
+    }
+  ]
+}

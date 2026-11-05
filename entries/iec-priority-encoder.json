@@ -1,0 +1,106 @@
+{
+  "slug": "iec-priority-encoder",
+  "name": "IEC priority encoder (HPRI/BIN)",
+  "kind": "symbol",
+  "abbreviation": "HPRI/BIN",
+  "aliases": [
+    "highest-priority encoder",
+    "HPRI/BIN coder",
+    "IEC priority encoder form"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC coder marked HPRI/BIN that outputs the binary number of the highest-priority active input.",
+  "description": [
+    "A priority encoder is shown as an X/Y coder with the qualifier HPRI/BIN: highest priority in, binary out. Inputs are numbered by priority, and outputs carry binary weights. Additional outputs often signal that any input is active, which lets stages be cascaded.",
+    "On control drawings priority encoders reduce many alarm or request lines to a code, for example to identify the most important active fault for display. The input numbering must match the intended priority order.",
+    "The symbol does not state whether inputs are latched. If the encoder input is a momentary event, a latch stage is needed before it."
+  ],
+  "readingNotes": [
+    "Higher input number normally means higher priority.",
+    "Look for group-select or any-active outputs used to cascade."
+  ],
+  "drawingChecklist": [
+    "Number inputs in priority order.",
+    "Show output weights.",
+    "Show cascade connections."
+  ],
+  "distinction": "A plain binary encoder assumes only one input active; HPRI resolves multiple active inputs.",
+  "facts": [
+    {
+      "label": "Qualifier",
+      "value": "HPRI/BIN"
+    },
+    {
+      "label": "Function",
+      "value": "Encodes highest-priority active input"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Coder qualifiers, including code designations."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc148",
+      "relevance": "Priority encoder documentation."
+    }
+  ],
+  "related": [
+    "priority-encoder",
+    "iec-binary-decoder",
+    "iec-code-converter"
+  ],
+  "artwork": "s28-iec-priority-encoder",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "X/Y coder with HPRI/BIN qualifier",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "priority-encoder"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-priority-encoder",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-priority-encoder.svg",
+  "id": "iec-priority-encoder",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-priority-encoder",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-priority-encoder.json",
+  "svgPath": "artwork/svg/iec-priority-encoder.svg",
+  "referencePath": "references/iec-priority-encoder.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Coder qualifiers, including code designations."
+    },
+    {
+      "id": "pub-electronics-ti-hc148",
+      "title": "SN74HC148 — priority encoding",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc148.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of priority encoding. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Priority encoder documentation."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "ansi-three-phase-power-factor-capacitor",
+  "name": "ANSI/IEEE Three-phase power-factor capacitor form",
+  "kind": "symbol",
+  "abbreviation": "CAP 3PH",
+  "aliases": [
+    "HCA113",
+    "VCA113",
+    "IEEE 3 Phase KVAR Capacitor",
+    "ANSI Three-phase power-factor capacitor"
+  ],
+  "category": "power-distribution",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-phase power-factor capacitor: a three-phase capacitor assembly provides a documented reactive-power function connected to the power circuit.",
+  "description": [
+    "This reference locates three-phase power-factor capacitor in Autodesk's IEEE-oriented motor control family. A three-phase capacitor assembly provides a documented reactive-power function connected to the power circuit. The schematic needs its connection, switching and protective devices as separate elements. The public library uses HCA113 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace each winding, supply and accessible neutral through the complete machine or transformer connection diagram. Keep the phase arrangement, terminal labels and any clock notation attached to the device; neither the convention label nor this educational outline supplies its ratings.",
+    "State rated kvar at the specified system voltage and frequency. A power-factor capacitor is a power-circuit assembly, not a generic small-signal filter capacitor. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State rated kvar at the specified system voltage and frequency.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Record kvar and voltage",
+    "Show connection and switching",
+    "Reference discharge/protection arrangement"
+  ],
+  "distinction": "A power-factor capacitor is a power-circuit assembly, not a generic small-signal filter capacitor.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Motor Control; published form: 3 Phase KVAR Capacitor."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCA113. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Passive circuit element"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-3b645a95-bc10-4fa4-8bbf-9a5fff6be802",
+      "relevance": "Public IEEE-oriented Motor Control table explicitly lists HCA113 as 3 Phase KVAR Capacitor. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-phase-power-factor-capacitor",
+    "resistor",
+    "capacitor"
+  ],
+  "artwork": "s28-ansi-three-phase-power-factor-capacitor",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Phase KVAR Capacitor",
+    "reference": "Autodesk IEEE Symbol Preview: Motor Control, block HCA113. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-phase-power-factor-capacitor"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-phase-power-factor-capacitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-phase-power-factor-capacitor.svg",
+  "id": "ansi-three-phase-power-factor-capacitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-phase-power-factor-capacitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-phase-power-factor-capacitor.json",
+  "svgPath": "artwork/svg/ansi-three-phase-power-factor-capacitor.svg",
+  "referencePath": "references/ansi-three-phase-power-factor-capacitor.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-3b645a95-bc10-4fa4-8bbf-9a5fff6be802",
+      "title": "Autodesk IEEE Symbol Preview — Motor Control",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3B645A95-BC10-4FA4-8BBF-9A5FFF6BE802.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Motor Control table explicitly lists HCA113 as 3 Phase KVAR Capacitor. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

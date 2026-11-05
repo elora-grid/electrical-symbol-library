@@ -1,0 +1,99 @@
+{
+  "slug": "multifunction-power-meter",
+  "name": "Multifunction power meter",
+  "kind": "symbol",
+  "abbreviation": "PM",
+  "aliases": [
+    "digital power meter",
+    "multimeter panel",
+    "power monitoring meter"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Digital panel meter that measures voltage, current, power, energy and power factor from one set of CT and VT inputs.",
+  "description": [
+    "A multifunction power meter replaces separate ammeters, voltmeters, wattmeters and energy meters with one digital device. On single-line diagrams it is drawn as one block at a feeder or incomer with its CT and VT connections, and on schematics its terminals show current inputs, voltage inputs, auxiliary supply and communications.",
+    "Listing the meter once hides how many quantities it provides. The drawing or schedule should state which values are used for billing, monitoring or control, and which communication protocol carries them, because those uses carry different accuracy requirements."
+  ],
+  "readingNotes": [
+    "Separate the CT inputs, VT inputs and auxiliary supply terminals.",
+    "Check which values are sent over communications."
+  ],
+  "drawingChecklist": [
+    "Show CT and VT ratios",
+    "State auxiliary supply",
+    "Reference communications address"
+  ],
+  "distinction": "A multifunction meter measures many quantities; a single-function instrument shows one.",
+  "facts": [
+    {
+      "label": "Inputs",
+      "value": "Three-phase CT and VT plus auxiliary supply"
+    },
+    {
+      "label": "Outputs",
+      "value": "Display, pulses and communications"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "public-power-quality-meter",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    },
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ],
+  "related": [
+    "power-quality-analyser",
+    "active-energy-meter",
+    "current-transformer"
+  ],
+  "artwork": "s28-multifunction-power-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/multifunction-power-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/multifunction-power-meter.svg",
+  "id": "multifunction-power-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/multifunction-power-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/multifunction-power-meter.json",
+  "svgPath": "artwork/svg/multifunction-power-meter.svg",
+  "referencePath": "references/multifunction-power-meter.md",
+  "publicSources": [
+    {
+      "id": "public-power-quality-meter",
+      "title": "PowerLogic ION9000 user manual",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/us/en/download/document/26719674/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer documentation for the installation, operation and configuration of an advanced energy and power-quality meter. Exact functions and terminals depend on the selected model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public meter manual describing measurement, logging and recording features of a revenue and power-quality meter."
+    },
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "ansi-mechanical-clutch-connection",
+  "name": "ANSI/IEEE Mechanical clutch connection form",
+  "kind": "symbol",
+  "abbreviation": "Q021216",
+  "aliases": [
+    "Q021216",
+    "IEEE Clutch Joint",
+    "ANSI Mechanical clutch connection"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of mechanical clutch connection: a clutch qualifier identifies a selectively coupled mechanical relationship.",
+  "description": [
+    "This reference locates mechanical clutch connection in Autodesk's IEEE-oriented mechanical controls, coupling family. A clutch qualifier identifies a selectively coupled mechanical relationship. A clutch provides a selectable mechanical relationship between driving and driven elements. Its engaged and disengaged conditions can influence movement without interrupting an electrical supply. The public library uses Q021216 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Name the two coupled elements and cross-reference the actuation and position feedback. Mechanical coupling does not imply that the elements share one electrical circuit. Name the driving and driven elements and the coupling control. Mechanical engagement does not mean electrical continuity between the elements. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Name the driving and driven elements and the coupling control.",
+    "Mechanical engagement does not mean electrical continuity between the elements."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Name the driving and driven elements and the coupling control.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Mechanical engagement does not mean electrical continuity between the elements.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Mechanical Controls, Coupling; published form: Clutch Joint."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q021216. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Name the driving and driven elements and the coupling control."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-mechanical-controls-coupling",
+      "relevance": "Public IEEE-oriented Mechanical Controls, Coupling table explicitly lists Q021216 as Clutch Joint. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-mechanical-clutch-connection",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-mechanical-clutch-connection",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Clutch Joint",
+    "reference": "Autodesk IEEE Symbol Preview: Mechanical Controls, Coupling, block Q021216. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-mechanical-clutch-connection"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-mechanical-clutch-connection",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-mechanical-clutch-connection.svg",
+  "id": "ansi-mechanical-clutch-connection",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-mechanical-clutch-connection",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-mechanical-clutch-connection.json",
+  "svgPath": "artwork/svg/ansi-mechanical-clutch-connection.svg",
+  "referencePath": "references/ansi-mechanical-clutch-connection.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-mechanical-controls-coupling",
+      "title": "Autodesk IEEE Symbol Preview: Mechanical Controls, Coupling",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-3B784797-C632-4E0A-BCDC-D7E4D982FE34.htm",
+      "type": "cad-reference",
+      "scope": "Public mechanical controls, coupling family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Mechanical Controls, Coupling table explicitly lists Q021216 as Clutch Joint. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

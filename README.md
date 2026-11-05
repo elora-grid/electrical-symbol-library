@@ -2,22 +2,22 @@
 
 An open, source-linked reference catalogue for electrical engineers and software agents working with single line diagrams (SLDs), schematics and general arrangement (GA) drawings for switchgear, switchboards, switchrooms and microgrid power stations.
 
-**[Browse and search the library on eloragrid.ai](https://eloragrid.ai/library)** · [ANSI / IEEE forms](https://eloragrid.ai/library/conventions/ansi-ieee) · [IEC forms](https://eloragrid.ai/library/conventions/iec) · [Drawing guides](https://eloragrid.ai/library/guides) · [Public sources](https://eloragrid.ai/library/sources)
+**[Browse and search the library on eloragrid.ai](https://eloragrid.ai/tools/electrical-library)** · [ANSI / IEEE forms](https://eloragrid.ai/tools/electrical-library/conventions/ansi-ieee) · [IEC forms](https://eloragrid.ai/tools/electrical-library/conventions/iec) · [Drawing guides](https://eloragrid.ai/tools/electrical-library/guides) · [Public sources](https://eloragrid.ai/tools/electrical-library/sources)
 
 This repository distributes independently authored explanations and original educational illustrations. It is not an official IEC or IEEE standards publication, an exhaustive standards database, a set of certified standard glyphs, or a manufacturer footprint library. Reference-family labels identify relevant context; only records with `symbolVariant` explicitly identify a particular graphical convention.
 
 ## Coverage
 
 <!-- coverage:start -->
-- **1,095 technical references**: 654 symbols/diagram references, 155 protection/device functions and 286 GA objects.
-- **305 public source records**.
-- **116 explicitly labelled ANSI/IEEE forms** and **149 explicitly labelled IEC forms** within the symbol records.
+- **3,155 technical references**: 2200 symbols/diagram references, 155 protection/device functions and 800 GA objects.
+- **563 public source records**.
+- **334 explicitly labelled ANSI/IEEE forms** and **479 explicitly labelled IEC forms** within the symbol records.
 - **6,095 public manufacturer CAD file listings**, counted separately.
-- One SVG per entry and one original DXF concept-block pack.
-- Editorial/source review date: **2026-10-14**; package version: **1.0.0**.
+- 2355 original SVG concept illustrations. GA objects link to current website previews; CAD/legend downloads use website registration.
+- Editorial/source review date: **2026-11-03**; package version: **2.0.0**.
 <!-- coverage:end -->
 
-File listings are links and filenames, not hosted manufacturer CAD, verified product-model counts or additional unique symbols. Multiple records can share a generic illustration. [Coverage and limitations](docs/coverage.md).
+Browse the [readable reference directory](references/README.md) for individual definitions and sources. File listings are links and filenames, not hosted manufacturer CAD, verified product-model counts or additional unique symbols. Multiple records can share a generic illustration. [Coverage and limitations](docs/coverage.md).
 
 ![Examples of original educational illustrations from the open electrical library](docs/preview.svg)
 
@@ -46,12 +46,14 @@ npm run build
 
 | File | Purpose |
 | --- | --- |
-| [`data/index.json`](data/index.json) | Compact search records and per-entry file paths. Start here. |
+| [`data/discovery.json`](data/discovery.json) | Small category directory linking to shards of at most 250 compact records. Start here for remote retrieval. |
+| [`data/index.json`](data/index.json) | Complete compact search index for local queries. |
+| [`references/README.md`](references/README.md) | Readable definitions, primary sources and canonical website links. |
 | [`entries/current-transformer.json`](entries/current-transformer.json) | A complete record with resolved public sources and its Elora reference URL. |
 | [`data/catalogue.json`](data/catalogue.json) | Complete bulk catalogue and source registry. |
 | [`data/manufacturer-cad.json`](data/manufacturer-cad.json) | Public manufacturer file listings; follow publisher links for actual files. |
-| [`artwork/svg/`](artwork/svg/) | Original SVG concept illustrations, one per reference record. |
-| [`artwork/electrical-reference-library.dxf`](artwork/electrical-reference-library.dxf) | Original R12 DXF concept blocks, unitless and not to scale. |
+| [`artwork/svg/`](artwork/svg/) | Original public SVG concept illustrations for symbols and functions. GA objects use website preview links. |
+| [Current legend/CAD downloads](https://eloragrid.ai/tools/electrical-library) | Download through the website’s current registration and delivery flow. |
 | [`schema/`](schema/) | JSON Schemas for catalogue and CAD metadata. |
 | [`manifest.json`](manifest.json) | Release version, counts and SHA-256 checksums. |
 | [`llms.txt`](llms.txt) | Short machine-readable starting points. |
@@ -66,10 +68,14 @@ Original catalogue prose, documentation, dataset compilation and original artwor
 
 Referenced standards, manufacturer drawings, publisher filenames, trademarks and linked resources retain their respective rights. No third-party materials or rights are conveyed by this release. [Provenance](docs/provenance.md).
 
-Suggested attribution: “Elora Grid Open Electrical Symbol Library, version 1.0.0, https://eloragrid.ai/library, CC BY 4.0.” Indicate modifications when applicable. [`CITATION.cff`](CITATION.cff) supplies a dataset citation; it does not guarantee that an AI service will provide attribution.
+Suggested attribution: “Elora Grid Open Electrical Symbol Library, version 2.0.0, https://eloragrid.ai/tools/electrical-library, CC BY 4.0.” Indicate modifications when applicable. [`CITATION.cff`](CITATION.cff) supplies a dataset citation; it does not guarantee that an AI service will provide attribution.
+
+## Version 2 compatibility
+
+This release follows the current website: GA objects have no standalone 2D icons, and the repository no longer bundles a DXF legend pack. Use the canonical website for current previews and registered downloads. Historical v1.0.0 assets retain their original licence and remain in that tagged release. JSON entry identifiers and canonical citation URLs remain available.
 
 ## Updates and contributions
 
 The public Elora catalogue is the editorial source. `npm run sync` refreshes the snapshot from the documented public Elora exports, then regenerates the derived files. It does not publish or push changes. Review the diff, run `npm run check`, update the version/changelog and tag a release. Both website and repository distributions therefore come from the same public catalogue; this repository may lag between releases.
 
-Corrections are welcome with public primary evidence. See [CONTRIBUTING.md](CONTRIBUTING.md). Detailed guides and the interactive comparison, legend and search tools are available at **[eloragrid.ai/library](https://eloragrid.ai/library)**.
+Corrections are welcome with public primary evidence. See [CONTRIBUTING.md](CONTRIBUTING.md). Detailed guides and the interactive comparison, legend and search tools are available at **[eloragrid.ai/tools/electrical-library](https://eloragrid.ai/tools/electrical-library)**.

@@ -1,0 +1,86 @@
+{
+  "slug": "victron-energy-orion-xs-12-12-70a",
+  "name": "Victron Energy Orion XS 12/12-70A DC-DC charger",
+  "kind": "object",
+  "abbreviation": "Orion XS 12/12-70A",
+  "aliases": [
+    "Orion XS 12/12-70A",
+    "ORI121221040",
+    "Orion XS 12/12-70A GA",
+    "Orion XS 12/12-70A general arrangement"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "DC-DC battery-charger layout reference for Victron order code ORI121221040.",
+  "description": [
+    "Coordinate the charger body with source and battery cables, isolating devices and access for commissioning. Use the exact manufacturer model when checking adjacent equipment.",
+    "The downloadable GA illustration is independently authored conceptual geometry, with no scale or manufacturer dimensions. Use the official CAD source for the exact layout."
+  ],
+  "readingNotes": [
+    "The 12/12-70A file has a distinct order code and must not be selected solely from the Orion XS family name.",
+    "The 50 A version and 70 A version require independent electrical selection even when layouts appear similar."
+  ],
+  "drawingChecklist": [
+    "Match ORI121221040.",
+    "Coordinate conductor terminations and bend space.",
+    "Check installation orientation, cooling and service access."
+  ],
+  "distinction": "The 50 A version and 70 A version require independent electrical selection even when layouts appear similar.",
+  "facts": [
+    {
+      "label": "Manufacturer",
+      "value": "Victron Energy"
+    },
+    {
+      "label": "Model / housing family",
+      "value": "Orion XS 12/12-70A"
+    },
+    {
+      "label": "CAD selection",
+      "value": "ORI121221040"
+    },
+    {
+      "label": "Illustration",
+      "value": "Original conceptual GA; unitless, not a manufacturer outline"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ga-expansion-victron-energy-orion-xs-12-12-70a",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ],
+  "related": [
+    "ga-battery-charger",
+    "ga-battery-dc-disconnect-assembly"
+  ],
+  "artwork": "edu-object-victron-energy-orion-xs-12-12-70a",
+  "publishedOn": "2026-10-29",
+  "updatedOn": "2026-10-29",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/objects/victron-energy-orion-xs-12-12-70a",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/equipment-preview/victron-energy-orion-xs-12-12-70a",
+  "id": "victron-energy-orion-xs-12-12-70a",
+  "canonicalUrl": "https://eloragrid.ai/objects/victron-energy-orion-xs-12-12-70a",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/victron-energy-orion-xs-12-12-70a.json",
+  "referencePath": "references/victron-energy-orion-xs-12-12-70a.md",
+  "publicSources": [
+    {
+      "id": "ga-expansion-victron-energy-orion-xs-12-12-70a",
+      "title": "Victron Energy Orion XS 12/12-70A DC-DC charger official drawing source",
+      "publisher": "Victron Energy",
+      "url": "https://www.victronenergy.com/dc-dc-converters/orion-xs-dc-dc-battery-chargers",
+      "type": "manufacturer",
+      "scope": "Model identity and mechanical CAD selection. No reproduction of manufacturer graphics.",
+      "checkedOn": "2026-10-29",
+      "reuse": "link-only",
+      "relevance": "Manufacturer identity and available drawing route; exact file identity is recorded in the linked CAD entry."
+    }
+  ]
+}

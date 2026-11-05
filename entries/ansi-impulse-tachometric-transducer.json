@@ -1,0 +1,109 @@
+{
+  "slug": "ansi-impulse-tachometric-transducer",
+  "name": "ANSI/IEEE impulse tachometric dynamo symbol",
+  "kind": "symbol",
+  "abbreviation": "TP",
+  "aliases": [
+    "IEEE pulse speed pickup symbol",
+    "ANSI impulse tachometer symbol",
+    "HIN1B12"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library impulse tacho form for a speed sensor that outputs pulses at a rate set by shaft speed.",
+  "description": [
+    "The impulse form represents a speed transducer whose output is a pulse train, for example a magnetic pickup reading gear teeth or a pulse generator on the shaft. The receiving device counts pulses, so the number of pulses per revolution is the scaling factor that must accompany the symbol.",
+    "Pulse transducers may be passive magnetic pickups with amplitude rising with speed, or active sensors needing a supply. The symbol does not distinguish these, so supply wiring and input type at the receiver should be checked separately."
+  ],
+  "readingNotes": [
+    "Record pulses per revolution for scaling.",
+    "Check whether the sensor is passive or needs a supply."
+  ],
+  "drawingChecklist": [
+    "State pulses per revolution",
+    "Show sensor supply if active",
+    "Use screened cable to the counter input"
+  ],
+  "distinction": "An impulse transducer outputs a pulse rate; a tachometric dynamo outputs an analogue voltage.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview, Instrumentation and Sensors"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HIN1B12 / VIN1B12 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Output",
+      "value": "Pulse train whose rate follows shaft speed"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original functional illustration; exact standard glyph and compliance are not certified"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Tachometric Dynamo - Impulse block and its vendor identifier."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "iec-impulse-tachometric-transducer",
+    "ansi-tachometric-dynamo",
+    "ansi-tachometer"
+  ],
+  "artwork": "s28-ansi-impulse-tachometric-transducer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented Instrumentation and Sensors form: Tachometric Dynamo - Impulse",
+    "counterpart": "iec-impulse-tachometric-transducer",
+    "reference": "Autodesk publishes this block under its IEEE Symbol Preview. The counterpart is the matching functional concept in the library; no equivalence of every detailed standard graphic is asserted."
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-impulse-tachometric-transducer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-impulse-tachometric-transducer.svg",
+  "id": "ansi-impulse-tachometric-transducer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-impulse-tachometric-transducer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-impulse-tachometric-transducer.json",
+  "svgPath": "artwork/svg/ansi-impulse-tachometric-transducer.svg",
+  "referencePath": "references/ansi-impulse-tachometric-transducer.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors preview listing the Tachometric Dynamo - Impulse block and its vendor identifier."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

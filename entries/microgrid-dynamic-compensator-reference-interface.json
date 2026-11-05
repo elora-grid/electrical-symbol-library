@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-dynamic-compensator-reference-interface",
+  "name": "Microgrid dynamic-compensator reference interface",
+  "kind": "symbol",
+  "abbreviation": "MDRI",
+  "aliases": [
+    "Microgrid voltage and reactive-power controls",
+    "microgrids Microgrid voltage and reactive-power controls",
+    "microgrids",
+    "Microgrids",
+    "Authorized compensation target",
+    "Compensator reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Sends the assigned reactive or voltage target to the selected compensator control system.",
+  "description": [
+    "Sends the assigned reactive or voltage target to the selected compensator control system. Voltage and reactive-power control coordinate the AC operating condition of the microgrid resources. A voltage target, reactive-power target and power-factor target represent different control objectives and should have explicit ownership.",
+    "In an islanded microgrid, the assigned reference source supports bus voltage while other compatible resources share reactive demand according to the selected control method. Grid-connected operation can use a different objective at the PCC. For this reference, the drawing identifies “Authorized compensation target” at the input and “Compensator reference” at the output. The compensator's accepted mode must be identified.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Authorized compensation target. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Compensator reference. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The compensator's accepted mode must be identified.",
+    "Show each measured quantity, target and resource capability limit. Control-loop tuning, equipment capability and parallel operation require a validated design rather than an assumed property of the symbol."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for authorized compensation target.",
+    "Identify the destination and defined state of compensator reference.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The compensator's accepted mode must be identified."
+  ],
+  "distinction": "The compensator's accepted mode must be identified. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Authorized compensation target"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Compensator reference"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MDRI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "grid-forming-inverter",
+    "statcom",
+    "microgrid-voltage-control-saturation-alarm"
+  ],
+  "artwork": "pi26-microgrid-dynamic-compensator-reference-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-reactive",
+    "input": "Authorized compensation target",
+    "output": "Compensator reference"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-dynamic-compensator-reference-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-dynamic-compensator-reference-interface.svg",
+  "id": "microgrid-dynamic-compensator-reference-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-dynamic-compensator-reference-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-dynamic-compensator-reference-interface.json",
+  "svgPath": "artwork/svg/microgrid-dynamic-compensator-reference-interface.svg",
+  "referencePath": "references/microgrid-dynamic-compensator-reference-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid voltage and reactive-power controls. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

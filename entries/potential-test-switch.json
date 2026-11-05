@@ -1,0 +1,98 @@
+{
+  "slug": "potential-test-switch",
+  "name": "Potential test switch",
+  "kind": "symbol",
+  "abbreviation": "TS",
+  "aliases": [
+    "voltage test switch",
+    "VT test switch"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "Panel test switch that opens a VT secondary circuit to a relay or meter so test voltages can be applied safely.",
+  "description": [
+    "A potential test switch is a knife switch in a VT secondary circuit that isolates a relay or meter from the VT so test voltages can be injected. Unlike a current switch it has no shorting contact, because a VT secondary must never be shorted.",
+    "When the switch is open, protection that relies on the voltage may be disabled or may see loss of voltage. The symbol does not show that consequence, so the test procedure should list the functions affected and whether any trip outputs must also be isolated."
+  ],
+  "readingNotes": [
+    "Confirm there is no shorting contact on VT circuits.",
+    "List functions affected when the switch is open."
+  ],
+  "drawingChecklist": [
+    "Identify VT and relay sides",
+    "Show associated trip isolation",
+    "Reference test procedure"
+  ],
+  "distinction": "A potential test switch opens a voltage circuit; a current test switch shorts the CT before opening.",
+  "facts": [
+    {
+      "label": "Circuit",
+      "value": "VT secondary"
+    },
+    {
+      "label": "Shorting contact",
+      "value": "None"
+    },
+    {
+      "label": "Preview",
+      "value": "Functional illustration of the device role; not a product footprint or certified standard graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ct-terminals",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "IEEE graphic-symbol standards context; no standard glyph is reproduced."
+    }
+  ],
+  "related": [
+    "current-test-switch-with-shorting",
+    "relay-test-block",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-potential-test-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/potential-test-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/potential-test-switch.svg",
+  "id": "potential-test-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/potential-test-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/potential-test-switch.json",
+  "svgPath": "artwork/svg/potential-test-switch.svg",
+  "referencePath": "references/potential-test-switch.md",
+  "publicSources": [
+    {
+      "id": "ct-terminals",
+      "title": "Transformer terminals for measuring and test circuits",
+      "publisher": "Phoenix Contact",
+      "url": "https://www.phoenixcontact.com/en-ie/products/terminal-blocks/transformer-terminal-blocks?p=7",
+      "type": "manufacturer",
+      "scope": "Current-transformer test terminals and leading short-circuit arrangements. Use the selected product's instructions for any intervention.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public manufacturer range of transformer and test terminals for measuring and protection circuits."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEEE graphic-symbol standards context; no standard glyph is reproduced."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "summation-energy-meter",
+  "name": "Summation energy meter",
+  "kind": "symbol",
+  "abbreviation": "Σ kWh",
+  "aliases": [
+    "totalising meter",
+    "summator",
+    "summing register"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Integrating device that adds energy from several meters or circuits to give one total register.",
+  "description": [
+    "A summation meter totalises energy from more than one circuit. It may count pulses from several transmitting meters or, in older schemes, be fed by a summation CT, and it appears where several incomers or feeders must be billed or monitored as one supply.",
+    "Every input must use the same direction convention and consistent pulse weights, or the total is wrong. The symbol shows the summing function but not the inputs, so each source meter should be listed with its weighting."
+  ],
+  "readingNotes": [
+    "List every meter or circuit that feeds the total.",
+    "Check pulse weights and directions are consistent."
+  ],
+  "drawingChecklist": [
+    "List input meters",
+    "State weighting per input",
+    "Define direction convention"
+  ],
+  "distinction": "A summation meter totals several circuits; a summation CT adds currents before measurement.",
+  "facts": [
+    {
+      "label": "Function",
+      "value": "Totalises energy from several circuits"
+    },
+    {
+      "label": "Inputs",
+      "value": "Pulse inputs or summated current"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "pub-symbol-energy-meter",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ],
+  "related": [
+    "summation-current-transformer",
+    "energy-meter-with-pulse-transmitter",
+    "energy-meter-repeater"
+  ],
+  "artwork": "s28-summation-energy-meter",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/summation-energy-meter",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/summation-energy-meter.svg",
+  "id": "summation-energy-meter",
+  "canonicalUrl": "https://eloragrid.ai/symbols/summation-energy-meter",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/summation-energy-meter.json",
+  "svgPath": "artwork/svg/summation-energy-meter.svg",
+  "referencePath": "references/summation-energy-meter.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "pub-symbol-energy-meter",
+      "title": "Power and energy measurement quantities",
+      "publisher": "Schneider Electric",
+      "url": "https://www.se.com/ph/en/faqs/FA343278/",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public explanation of energy and power measurement quantities used by meters."
+    }
+  ]
+}

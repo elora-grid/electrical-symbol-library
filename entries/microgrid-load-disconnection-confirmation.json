@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-load-disconnection-confirmation",
+  "name": "Microgrid load-disconnection confirmation",
+  "kind": "symbol",
+  "abbreviation": "MLC",
+  "aliases": [
+    "Microgrid load shedding and restoration",
+    "microgrids Microgrid load shedding and restoration",
+    "microgrids",
+    "Microgrids",
+    "Shedding command and load feedback",
+    "Confirmed shedding result"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Checks the assigned feedback that a selected load group has disconnected.",
+  "description": [
+    "Checks the assigned feedback that a selected load group has disconnected. Load management balances the available electrical supply against the loads that remain connected. Shedding, restoration, priority and proof of disconnection are separate control functions and should remain traceable to individual load groups.",
+    "In a microgrid island, the controller can disconnect lower-priority loads when a source is lost and later request restoration when the documented reserve and stability conditions permit it. For this reference, the drawing identifies “Shedding command and load feedback” at the input and “Confirmed shedding result” at the output. Command acceptance is not physical disconnection.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Shedding command and load feedback. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Confirmed shedding result. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Command acceptance is not physical disconnection.",
+    "Identify each load group, priority, measured contribution and feedback. Shedding amounts, operating times and restoration conditions require the approved power-management design and the actual connected-load data."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for shedding command and load feedback.",
+    "Identify the destination and defined state of confirmed shedding result.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Command acceptance is not physical disconnection."
+  ],
+  "distinction": "Command acceptance is not physical disconnection. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Shedding command and load feedback"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Confirmed shedding result"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MLC is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-study",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "generic-electrical-load",
+    "microgrid-failed-load-shed-escalation"
+  ],
+  "artwork": "pi26-microgrid-load-disconnection-confirmation",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-loads",
+    "input": "Shedding command and load feedback",
+    "output": "Confirmed shedding result"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-load-disconnection-confirmation",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-load-disconnection-confirmation.svg",
+  "id": "microgrid-load-disconnection-confirmation",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-load-disconnection-confirmation",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-load-disconnection-confirmation.json",
+  "svgPath": "artwork/svg/microgrid-load-disconnection-confirmation.svg",
+  "referencePath": "references/microgrid-load-disconnection-confirmation.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-study",
+      "publisher": "SEL",
+      "title": "Avista Shared Energy Economy microgrid protection and control case study",
+      "url": "https://selinc.com/api/download/135486/",
+      "scope": "Storage, protection, black start, load restoration and coordinated island operation.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid load shedding and restoration. Storage, protection, black start, load restoration and coordinated island operation. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

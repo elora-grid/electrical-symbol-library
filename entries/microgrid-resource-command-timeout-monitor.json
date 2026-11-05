@@ -1,0 +1,105 @@
+{
+  "slug": "microgrid-resource-command-timeout-monitor",
+  "name": "Microgrid resource command-timeout monitor",
+  "kind": "symbol",
+  "abbreviation": "MRCM",
+  "aliases": [
+    "Microgrid supervisory and communication interfaces",
+    "microgrids Microgrid supervisory and communication interfaces",
+    "microgrids",
+    "Microgrids",
+    "Command and feedback timing",
+    "Resource command timeout"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Reports that the expected acknowledgement or feedback was not received for an assigned command.",
+  "description": [
+    "Reports that the expected acknowledgement or feedback was not received for an assigned command. Microgrid supervision coordinates measurements, control authority and resource communication without replacing local protection. Each resource value needs a named measurement boundary, freshness condition and intended control use.",
+    "In a microgrid control room, the operator can see source availability, active constraints and current operating mode. A communication failure should remain distinguishable from an electrical resource failure. For this reference, the drawing identifies “Command and feedback timing” at the input and “Resource command timeout” at the output. The affected control authority must be identified.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Command and feedback timing. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Resource command timeout. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The affected control authority must be identified.",
+    "Identify signal ownership, quality flags, control priority and loss-of-data behavior. These functional references do not certify cyber security, closed-loop performance or equipment interoperability."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for command and feedback timing.",
+    "Identify the destination and defined state of resource command timeout.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The affected control authority must be identified."
+  ],
+  "distinction": "The affected control authority must be identified. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Microgrids"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Command and feedback timing"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Resource command timeout"
+    },
+    {
+      "label": "Lookup label",
+      "value": "MRCM is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-mg-power",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "microgrid-controller",
+    "sequence-of-events-recorder",
+    "microgrid-site-controller-watchdog-interface"
+  ],
+  "artwork": "pi26-microgrid-resource-command-timeout-monitor",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "microgrids",
+    "family": "microgrid-monitoring",
+    "input": "Command and feedback timing",
+    "output": "Resource command timeout"
+  },
+  "url": "https://eloragrid.ai/symbols/microgrid-resource-command-timeout-monitor",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/microgrid-resource-command-timeout-monitor.svg",
+  "id": "microgrid-resource-command-timeout-monitor",
+  "canonicalUrl": "https://eloragrid.ai/symbols/microgrid-resource-command-timeout-monitor",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/microgrid-resource-command-timeout-monitor.json",
+  "svgPath": "artwork/svg/microgrid-resource-command-timeout-monitor.svg",
+  "referencePath": "references/microgrid-resource-command-timeout-monitor.md",
+  "publicSources": [
+    {
+      "id": "pi26-mg-power",
+      "publisher": "SEL",
+      "title": "Microgrid control systems",
+      "url": "https://selinc.com/services/microgrids-power-management/microgrid-control-systems/",
+      "scope": "Active and reactive power, generation, load control, operating reserves and system supervision.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for microgrid supervisory and communication interfaces. Active and reactive power, generation, load control, operating reserves and system supervision. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

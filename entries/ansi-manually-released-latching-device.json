@@ -1,0 +1,99 @@
+{
+  "slug": "ansi-manually-released-latching-device",
+  "name": "ANSI/IEEE Manually released latching device form",
+  "kind": "symbol",
+  "abbreviation": "Q1020604",
+  "aliases": [
+    "Q1020604",
+    "IEEE Latch Device with Manual Unlatching",
+    "ANSI Manually released latching device"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of manually released latching device: this qualifier identifies release of a latching mechanism by manual action.",
+  "description": [
+    "This reference locates manually released latching device in Autodesk's IEEE-oriented mechanical controls, latching device family. This qualifier identifies release of a latching mechanism by manual action. The retained mechanism is released through a documented manual action. Resetting the mechanism and removing electrical supply can be different events. The public library uses Q1020604 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Show the manual release and the resulting position relationship. Where the latch also reports status, identify that feedback as a separate contact or sensor interface. Show the reset or release device and the resulting rest condition. Manual unlatching differs from de-energising an ordinary relay coil. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Show the reset or release device and the resulting rest condition.",
+    "Manual unlatching differs from de-energising an ordinary relay coil."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Show the reset or release device and the resulting rest condition.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Manual unlatching differs from de-energising an ordinary relay coil.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Mechanical Controls, Latching Device; published form: Latch Device with Manual Unlatching."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "Q1020604. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Show the reset or release device and the resulting rest condition."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-mechanical-controls-latching-device",
+      "relevance": "Public IEEE-oriented Mechanical Controls, Latching Device table explicitly lists Q1020604 as Latch Device with Manual Unlatching. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-manually-released-latching-device",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-manually-released-latching-device",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Latch Device with Manual Unlatching",
+    "reference": "Autodesk IEEE Symbol Preview: Mechanical Controls, Latching Device, block Q1020604. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-manually-released-latching-device"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-manually-released-latching-device",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-manually-released-latching-device.svg",
+  "id": "ansi-manually-released-latching-device",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-manually-released-latching-device",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-manually-released-latching-device.json",
+  "svgPath": "artwork/svg/ansi-manually-released-latching-device.svg",
+  "referencePath": "references/ansi-manually-released-latching-device.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-mechanical-controls-latching-device",
+      "title": "Autodesk IEEE Symbol Preview: Mechanical Controls, Latching Device",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-646E84A5-5943-4E74-8EE6-2C330EDF97D2.htm",
+      "type": "cad-reference",
+      "scope": "Public mechanical controls, latching device family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Mechanical Controls, Latching Device table explicitly lists Q1020604 as Latch Device with Manual Unlatching. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

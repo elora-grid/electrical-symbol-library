@@ -1,0 +1,106 @@
+{
+  "slug": "automatic-transfer-switch",
+  "name": "Automatic transfer switch",
+  "kind": "symbol",
+  "abbreviation": "ATS",
+  "aliases": [
+    "ATS",
+    "changeover switch",
+    "automatic changeover"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A mechanically switched changeover device that automatically moves a load from a failed normal source to an alternate source.",
+  "description": [
+    "An automatic transfer switch monitors the normal supply and, when voltage or frequency goes out of limits, signals the generator to start and transfers the load to the alternate source once it is ready. When the normal supply returns and is stable, it transfers back after a time delay. Most units use an open-transition break-before-make sequence.",
+    "Single-line diagrams show a changeover contact with two incoming poles labelled N and E or S1 and S2 and one outgoing load connection, or two interlocked switching devices. The controller and generator start signal are often noted beside it, and a neutral pole may be switched for separately derived systems.",
+    "The symbol does not show the timing, whether the neutral is switched, or whether the transition is open, closed or delayed. Those features determine earthing behaviour, motor reconnection and coordination with the network operator."
+  ],
+  "readingNotes": [
+    "Check whether three or four poles are switched.",
+    "Read the transition type from the notes."
+  ],
+  "drawingChecklist": [
+    "State current rating, poles and transition type.",
+    "Show both sources and the generator start signal.",
+    "Reference controller timing settings."
+  ],
+  "distinction": "An automatic transfer switch operates without an operator; a manual transfer switch needs someone to move it.",
+  "facts": [
+    {
+      "label": "Switching",
+      "value": "Mechanical, interlocked"
+    },
+    {
+      "label": "Typical transition",
+      "value": "Open, break-before-make"
+    },
+    {
+      "label": "Inputs",
+      "value": "Normal and alternate sources"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational illustration; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "transfer-switches",
+      "relevance": "Public transfer switch fundamentals."
+    },
+    {
+      "sourceId": "s28-deif-ats-controller",
+      "relevance": "Public automatic transfer controller page describing mains and generator transfer."
+    }
+  ],
+  "related": [
+    "transfer-switch",
+    "manual-transfer-switch",
+    "closed-transition-transfer-switch",
+    "83-automatic-selective-control-or-transfer-relay"
+  ],
+  "artwork": "s28-automatic-transfer-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/automatic-transfer-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/automatic-transfer-switch.svg",
+  "id": "automatic-transfer-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/automatic-transfer-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/automatic-transfer-switch.json",
+  "svgPath": "artwork/svg/automatic-transfer-switch.svg",
+  "referencePath": "references/automatic-transfer-switch.md",
+  "publicSources": [
+    {
+      "id": "transfer-switches",
+      "title": "Transfer switch fundamentals",
+      "publisher": "Cummins",
+      "url": "https://www.cummins.com/sites/default/files/2026-04/2023-sep-transfer-switch-fundamentals.pdf",
+      "type": "manufacturer",
+      "scope": "Public educational presentation about source transfer. Manufacturer graphics and complete circuits are not redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public transfer switch fundamentals."
+    },
+    {
+      "id": "s28-deif-ats-controller",
+      "title": "ATS controllers",
+      "publisher": "DEIF",
+      "url": "https://www.deif.com/products/controllers/ats-controller/",
+      "type": "manufacturer",
+      "scope": "Public automatic transfer controller description including generator-mains mode and overlap switching.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public automatic transfer controller page describing mains and generator transfer."
+    }
+  ]
+}

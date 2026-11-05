@@ -1,0 +1,87 @@
+{
+  "slug": "lvds-line-receiver",
+  "name": "LVDS line receiver",
+  "kind": "symbol",
+  "abbreviation": "LVDS RX",
+  "aliases": [
+    "LVDS line receiver",
+    "LVDS line receiver functional block",
+    "LVDS line receiver schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An LVDS receiver converts a compatible differential input into its specified logic output.",
+  "description": [
+    "An LVDS receiver converts a compatible differential input into its specified logic output.",
+    "The receiving end of a link can recover the logic state from the differential pair.",
+    "Identify the differential input pair and the receiver’s logic output. The pair’s valid input conditions and the output’s logic levels are separate specifications. Keep the sender and receiver labels visible so the drawing describes a complete direction of information flow. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Label the differential input pair consistently with the driver.",
+    "Reference accepted input conditions and termination.",
+    "Identify the output logic supply and destination.",
+    "A receiver's accepted input conditions and output logic levels are separate specifications."
+  ],
+  "drawingChecklist": [
+    "Label the differential input pair consistently with the driver.",
+    "Reference accepted input conditions and termination.",
+    "Identify the output logic supply and destination."
+  ],
+  "distinction": "A receiver's accepted input conditions and output logic levels are separate specifications.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Differential input pair"
+    },
+    {
+      "label": "Concept output",
+      "value": "Logic output signal"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-lvds",
+      "relevance": "Low-voltage differential signalling: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-bus-transceiver",
+    "lvds-line-driver",
+    "power-converter",
+    "terminal"
+  ],
+  "artwork": "expanded-lvds-line-receiver",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/lvds-line-receiver",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/lvds-line-receiver.svg",
+  "id": "lvds-line-receiver",
+  "canonicalUrl": "https://eloragrid.ai/symbols/lvds-line-receiver",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/lvds-line-receiver.json",
+  "svgPath": "artwork/svg/lvds-line-receiver.svg",
+  "referencePath": "references/lvds-line-receiver.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-lvds",
+      "title": "Low-voltage differential signalling",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/lvds-m-lvds-pecl-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "Low-voltage differential signalling: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

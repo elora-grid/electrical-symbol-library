@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-ultrasonic-proximity-switch",
+  "name": "ANSI/IEEE Ultrasonic proximity switch form",
+  "kind": "symbol",
+  "abbreviation": "HPX1U",
+  "aliases": [
+    "HPX1U",
+    "VPX1U",
+    "IEEE Ultrasonic",
+    "ANSI Ultrasonic proximity switch"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of ultrasonic proximity switch: an ultrasonic-switch representation identifies presence or distance switching using an ultrasonic sensing principle.",
+  "description": [
+    "This reference locates ultrasonic proximity switch in Autodesk's IEEE-oriented ultrasonic switches family. An ultrasonic-switch representation identifies presence or distance switching using an ultrasonic sensing principle. The public library uses HPX1U for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "State the sensing role, output type and selected device connection separately. Ultrasonic sensing is distinct from inductive, capacitive and optical sensing. State the sensing role, output type and selected device connection separately. Ultrasonic sensing is distinct from inductive, capacitive and optical sensing. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the sensing role, output type and selected device connection separately.",
+    "Ultrasonic sensing is distinct from inductive, capacitive and optical sensing."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the sensing role, output type and selected device connection separately.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "Ultrasonic sensing is distinct from inductive, capacitive and optical sensing.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Ultrasonic Switches; published form: Ultrasonic."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HPX1U. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State the sensing role, output type and selected device connection separately."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-ultrasonic-switches",
+      "relevance": "Public IEEE-oriented Ultrasonic Switches table explicitly lists HPX1U as Ultrasonic. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-ultrasonic-proximity-switch",
+    "current-transformer",
+    "voltage-transformer"
+  ],
+  "artwork": "s28-ansi-ultrasonic-proximity-switch",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Ultrasonic",
+    "reference": "Autodesk IEEE Symbol Preview: Ultrasonic Switches, block HPX1U. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-ultrasonic-proximity-switch"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-ultrasonic-proximity-switch",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-ultrasonic-proximity-switch.svg",
+  "id": "ansi-ultrasonic-proximity-switch",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-ultrasonic-proximity-switch",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-ultrasonic-proximity-switch.json",
+  "svgPath": "artwork/svg/ansi-ultrasonic-proximity-switch.svg",
+  "referencePath": "references/ansi-ultrasonic-proximity-switch.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-ultrasonic-switches",
+      "title": "Autodesk IEEE Symbol Preview: Ultrasonic Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-B9F9E342-BC89-4736-B60A-5A2F326BF3BF.htm",
+      "type": "cad-reference",
+      "scope": "Public ultrasonic switches family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Ultrasonic Switches table explicitly lists HPX1U as Ultrasonic. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

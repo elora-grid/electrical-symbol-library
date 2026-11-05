@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-station-dc-incoming-interface",
+  "name": "Switchroom station-DC incoming interface",
+  "kind": "symbol",
+  "abbreviation": "SSII",
+  "aliases": [
+    "Switchroom DC interfaces and alarm collection",
+    "switchrooms Switchroom DC interfaces and alarm collection",
+    "switchrooms",
+    "Switchrooms",
+    "Station DC feeder",
+    "Room DC distribution"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the connection from the station DC distribution to the switchroom control system.",
+  "description": [
+    "Identifies the connection from the station DC distribution to the switchroom control system. A room DC interface connects station battery distribution, alarm contacts and operating circuits. DC supplies may remain energized when the room's normal AC supply is unavailable, so their source and distribution boundaries must be shown separately.",
+    "In a switchroom, the station battery can continue supplying protection and breaker controls during an AC supply interruption. The alarm system should distinguish charger loss from a low battery condition. For this reference, the drawing identifies “Station DC feeder” at the input and “Room DC distribution” at the output. The feeder boundary differs from the battery boundary.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Station DC feeder. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Room DC distribution. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The feeder boundary differs from the battery boundary.",
+    "Identify the DC source, returns and monitored branches. Do not infer battery autonomy, conductor polarity, isolation or earthing arrangements from a generic power block."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for station dc feeder.",
+    "Identify the destination and defined state of room dc distribution.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The feeder boundary differs from the battery boundary."
+  ],
+  "distinction": "The feeder boundary differs from the battery boundary. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Station DC feeder"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Room DC distribution"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SSII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "battery-charger-controller",
+    "switchroom-positive-dc-earth-alarm-input"
+  ],
+  "artwork": "pi26-switchroom-station-dc-incoming-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-dc",
+    "input": "Station DC feeder",
+    "output": "Room DC distribution"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-station-dc-incoming-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-station-dc-incoming-interface.svg",
+  "id": "switchroom-station-dc-incoming-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-station-dc-incoming-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-station-dc-incoming-interface.json",
+  "svgPath": "artwork/svg/switchroom-station-dc-incoming-interface.svg",
+  "referencePath": "references/switchroom-station-dc-incoming-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom dc interfaces and alarm collection. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

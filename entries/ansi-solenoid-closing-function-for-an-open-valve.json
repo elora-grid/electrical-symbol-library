@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-solenoid-closing-function-for-an-open-valve",
+  "name": "ANSI/IEEE Solenoid closing function for an open valve form",
+  "kind": "symbol",
+  "abbreviation": "HSV1Y1",
+  "aliases": [
+    "HSV1Y1",
+    "VSV1Y1",
+    "IEEE Open Solenoid Valve - Closing",
+    "ANSI Solenoid closing function for an open valve"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of solenoid closing function for an open valve: this representation identifies the publisher's open-valve closing function associated with solenoid operation.",
+  "description": [
+    "This reference locates solenoid closing function for an open valve in Autodesk's IEEE-oriented solenoids family. This representation identifies the publisher's open-valve closing function associated with solenoid operation. The public library uses HSV1Y1 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "State the process normal condition and what energisation changes. The wording must be checked against the selected valve; it does not prove a universal fail-open or fail-closed arrangement. State the process normal condition and what energisation changes. The wording must be checked against the selected valve; it does not prove a universal fail-open or fail-closed arrangement. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "State the process normal condition and what energisation changes.",
+    "The wording must be checked against the selected valve; it does not prove a universal fail-open or fail-closed arrangement."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "State the process normal condition and what energisation changes.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "The wording must be checked against the selected valve; it does not prove a universal fail-open or fail-closed arrangement.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Solenoids; published form: Open Solenoid Valve - Closing."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSV1Y1. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "State the process normal condition and what energisation changes."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ieee-solenoids",
+      "relevance": "Public IEEE-oriented Solenoids table explicitly lists HSV1Y1 as Open Solenoid Valve - Closing. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-solenoid-closing-function-for-an-open-valve",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-solenoid-closing-function-for-an-open-valve",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Open Solenoid Valve - Closing",
+    "reference": "Autodesk IEEE Symbol Preview: Solenoids, block HSV1Y1. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-solenoid-closing-function-for-an-open-valve"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-solenoid-closing-function-for-an-open-valve",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-solenoid-closing-function-for-an-open-valve.svg",
+  "id": "ansi-solenoid-closing-function-for-an-open-valve",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-solenoid-closing-function-for-an-open-valve",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-solenoid-closing-function-for-an-open-valve.json",
+  "svgPath": "artwork/svg/ansi-solenoid-closing-function-for-an-open-valve.svg",
+  "referencePath": "references/ansi-solenoid-closing-function-for-an-open-valve.md",
+  "publicSources": [
+    {
+      "id": "s28-ieee-solenoids",
+      "title": "Autodesk IEEE Symbol Preview: Solenoids",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F7BADF45-D679-4050-BE46-0199A3A76230.htm",
+      "type": "cad-reference",
+      "scope": "Public solenoids family names and vendor block tokens. Horizontal, vertical and rotated placements are not separate engineering functions. Exact standard geometry is not reproduced.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Solenoids table explicitly lists HSV1Y1 as Open Solenoid Valve - Closing. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

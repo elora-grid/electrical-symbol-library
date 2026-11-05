@@ -1,0 +1,87 @@
+{
+  "slug": "dc-ev-charging-station",
+  "name": "DC electric vehicle charging station",
+  "kind": "symbol",
+  "abbreviation": "DC EV",
+  "aliases": [
+    "DC electric vehicle charging station",
+    "DC electric vehicle charging station functional block",
+    "DC electric vehicle charging station schematic reference"
+  ],
+  "category": "microgrid-systems",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "A DC charging station performs offboard power conversion and supplies controlled DC to the vehicle interface.",
+  "description": [
+    "A DC charging station performs offboard power conversion and supplies controlled DC to the vehicle interface.",
+    "The station coordinates the requested voltage and current with the connected vehicle.",
+    "Show the grid-side conversion stages, controlled DC output and vehicle communication separately. The station performs offboard conversion; its cable and connector deliver the resulting DC interface. A site drawing also needs the selected cabinets, auxiliaries and installation interfaces beyond this functional overview. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Separate AC input, conversion and DC output paths.",
+    "Identify the vehicle-control and measurement interfaces.",
+    "Reference the exact power modules, connector and installation documents.",
+    "Offboard DC conversion is different from AC charging through the vehicle's onboard charger."
+  ],
+  "drawingChecklist": [
+    "Separate AC input, conversion and DC output paths.",
+    "Identify the vehicle-control and measurement interfaces.",
+    "Reference the exact power modules, connector and installation documents."
+  ],
+  "distinction": "Offboard DC conversion is different from AC charging through the vehicle's onboard charger.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "Grid-side supply"
+    },
+    {
+      "label": "Concept output",
+      "value": "Controlled DC vehicle supply"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-evdc",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "dc-to-ac-inverter",
+    "bidirectional-ev-charging-interface",
+    "ev-charger-power-module",
+    "ev-charging-energy-meter"
+  ],
+  "artwork": "expanded-dc-ev-charging-station",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/dc-ev-charging-station",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/dc-ev-charging-station.svg",
+  "id": "dc-ev-charging-station",
+  "canonicalUrl": "https://eloragrid.ai/symbols/dc-ev-charging-station",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/dc-ev-charging-station.json",
+  "svgPath": "artwork/svg/dc-ev-charging-station.svg",
+  "referencePath": "references/dc-ev-charging-station.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-evdc",
+      "title": "DC fast charging architecture",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/solution/dc-fast-charging-station",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "DC fast charging architecture: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

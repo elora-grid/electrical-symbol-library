@@ -1,0 +1,105 @@
+{
+  "slug": "goose-trip-publisher-interface",
+  "name": "GOOSE trip publisher interface",
+  "kind": "symbol",
+  "abbreviation": "GTPI",
+  "aliases": [
+    "Digital substation process interfaces",
+    "substations Digital substation process interfaces",
+    "substations",
+    "Substations",
+    "Protection trip state",
+    "Published trip event"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Identifies the event-message output carrying the assigned protection trip information.",
+  "description": [
+    "Identifies the event-message output carrying the assigned protection trip information. Digital substation interfaces carry measurements, status and control information between primary equipment and protective devices. Measurement streams, event messages and time synchronization are separate dependencies even when they share an Ethernet network.",
+    "In a digital substation bay, a merging unit digitizes local measurements and a protective relay subscribes to the assigned data stream. The command return path and communication-health indications are drawn separately. For this reference, the drawing identifies “Protection trip state” at the input and “Published trip event” at the output. Message reception is not proof of breaker opening.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Protection trip state. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Published trip event. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Message reception is not proof of breaker opening.",
+    "Identify publisher, subscriber, data meaning and quality handling. Protocol labels alone do not establish protection performance, compatibility or network redundancy; these need the selected system configuration and validation."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for protection trip state.",
+    "Identify the destination and defined state of published trip event.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Message reception is not proof of breaker opening."
+  ],
+  "distinction": "Message reception is not proof of breaker opening. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Protection trip state"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Published trip event"
+    },
+    {
+      "label": "Lookup label",
+      "value": "GTPI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-sampled-values",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "numerical-protection-relay",
+    "optical-fibre-cable",
+    "goose-trip-subscriber-interface"
+  ],
+  "artwork": "pi26-goose-trip-publisher-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "digital-substation",
+    "input": "Protection trip state",
+    "output": "Published trip event"
+  },
+  "url": "https://eloragrid.ai/symbols/goose-trip-publisher-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/goose-trip-publisher-interface.svg",
+  "id": "goose-trip-publisher-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/goose-trip-publisher-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/goose-trip-publisher-interface.json",
+  "svgPath": "artwork/svg/goose-trip-publisher-interface.svg",
+  "referencePath": "references/goose-trip-publisher-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-sampled-values",
+      "publisher": "SEL",
+      "title": "Digital secondary systems: Sampled Values",
+      "url": "https://selinc.com/solutions/digital-secondary-systems/sampled-values/",
+      "scope": "Merging units, sampled measurements, GOOSE, process bus and network redundancy.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for digital substation process interfaces. Merging units, sampled measurements, GOOSE, process bus and network redundancy. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "iec-antenna-plan-symbol",
+  "name": "Antenna symbol",
+  "kind": "symbol",
+  "abbreviation": "ANT",
+  "aliases": [
+    "aerial",
+    "radio antenna",
+    "TV antenna"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "General antenna symbol, a vertical line ending in a V or triangle, used on communications and TV distribution drawings.",
+  "description": [
+    "The antenna symbol is a vertical feed line ending in an open triangle or V. It is used for TV and FM aerials, wireless bridge antennas, cellular router antennas and radio links on schematics and site plans.",
+    "On a site plan the symbol marks the mast or roof location; on a schematic it marks the RF connection point of a radio device. The coaxial cable route and lightning protection are separate design items that the plan should show.",
+    "The general symbol does not indicate the type, frequency band or gain of the antenna. Directional antennas may add a direction mark."
+  ],
+  "readingNotes": [
+    "Check mast location and earthing.",
+    "Identify the device it feeds."
+  ],
+  "drawingChecklist": [
+    "State frequency band.",
+    "Show feeder cable.",
+    "Show earthing and surge protection."
+  ],
+  "distinction": "A dish antenna has a parabolic reflector; the general antenna symbol has no reflector.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Vertical line with V-shaped top"
+    },
+    {
+      "label": "Used for",
+      "value": "TV, FM, cellular and radio links"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "sourceId": "s28-westermo-cables-antennas",
+      "relevance": "Public accessory page covering antennas and RF cables for network devices."
+    },
+    {
+      "sourceId": "iec-public-propagation",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ],
+  "related": [
+    "iec-dish-antenna-symbol",
+    "iec-tv-outlet",
+    "surge-arrester"
+  ],
+  "artwork": "s28-iec-antenna-plan-symbol",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Antenna, general",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-antenna-plan-symbol",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-antenna-plan-symbol.svg",
+  "id": "iec-antenna-plan-symbol",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-antenna-plan-symbol",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-antenna-plan-symbol.json",
+  "svgPath": "artwork/svg/iec-antenna-plan-symbol.svg",
+  "referencePath": "references/iec-antenna-plan-symbol.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation and communication plans; independently drawn here."
+    },
+    {
+      "id": "s28-westermo-cables-antennas",
+      "title": "Cables and antennas for industrial network devices",
+      "publisher": "Westermo",
+      "url": "https://www.westermo.com/products/accessories/cables-and-antennas",
+      "type": "manufacturer",
+      "scope": "Public accessory page for Ethernet, power and RF cables and antennas for network devices.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Public accessory page covering antennas and RF cables for network devices."
+    },
+    {
+      "id": "iec-public-propagation",
+      "title": "Autodesk IEC-60617 preview: Propagation and signal-flow qualifiers",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-1C0C7AE2-F703-4283-BCB1-3E0B30882715.htm",
+      "type": "cad-reference",
+      "scope": "Public publisher IEC-context family names and vendor block references. No vendor images or CAD library files are reproduced, and vendor tokens are not presented as verified IEC database identifiers.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented propagation and signal-flow qualifiers used on communication symbols."
+    }
+  ]
+}

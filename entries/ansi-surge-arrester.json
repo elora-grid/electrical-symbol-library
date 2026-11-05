@@ -1,0 +1,110 @@
+{
+  "slug": "ansi-surge-arrester",
+  "name": "ANSI/IEEE surge arrester symbol",
+  "kind": "symbol",
+  "abbreviation": "SA",
+  "aliases": [
+    "IEEE lightning arrester",
+    "ANSI surge diverter",
+    "arrester"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-oriented surge arrester symbol connected between a line and ground to limit transient overvoltage.",
+  "description": [
+    "Single-line diagrams in US practice show the surge arrester between a phase conductor and ground, commonly at transformer terminals, cable risers and line entrances. The publisher's IEEE miscellaneous preview lists a surge diverter or lightning arrester form, the counterpart of the existing IEC page.",
+    "This illustration explains the connection and is not the IEEE graphic. Arrester class, rated and continuous operating voltages and energy capability come from the equipment data. Lead length between the arrester and protected equipment matters greatly and is not visible on a single-line diagram."
+  ],
+  "readingNotes": [
+    "Check arrester location relative to the protected equipment.",
+    "Read voltage rating against system earthing."
+  ],
+  "drawingChecklist": [
+    "State arrester class and voltage rating.",
+    "Show the ground connection.",
+    "Keep arrester leads short in layout."
+  ],
+  "distinction": "A surge arrester limits overvoltage; a spark gap is a simpler breakdown element with no valve resistor.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Miscellaneous (Surge Diverter, Lightning Arrester)"
+    },
+    {
+      "label": "Public vendor block name",
+      "value": "HFU1_S00373 (Autodesk identifier; not an IEEE symbol number)"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "relevance": "Exact public IEEE-oriented category page listing the surge diverter form."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "surge-arrester",
+    "ansi-spark-gap",
+    "ansi-cable-pothead"
+  ],
+  "artwork": "s28-ansi-surge-arrester",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Autodesk IEEE-oriented surge diverter form",
+    "reference": "Autodesk publishes this block under IEEE Symbol Preview: Miscellaneous. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "surge-arrester"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-surge-arrester",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-surge-arrester.svg",
+  "id": "ansi-surge-arrester",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-surge-arrester",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-surge-arrester.json",
+  "svgPath": "artwork/svg/ansi-surge-arrester.svg",
+  "referencePath": "references/ansi-surge-arrester.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-34282bfd-7b8e-48f3-a6ed-93adbdddfbd3",
+      "title": "Autodesk IEEE Symbol Preview — Miscellaneous",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-34282BFD-7B8E-48F3-A6ED-93ADBDDDFBD3.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Exact public IEEE-oriented category page listing the surge diverter form."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

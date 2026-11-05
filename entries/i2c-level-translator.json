@@ -1,0 +1,87 @@
+{
+  "slug": "i2c-level-translator",
+  "name": "I2C voltage-level translator",
+  "kind": "symbol",
+  "abbreviation": "I2C LVL",
+  "aliases": [
+    "I2C voltage-level translator",
+    "I2C voltage-level translator functional block",
+    "I2C voltage-level translator schematic reference"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "An I2C level translator adapts the specified logic-voltage levels between compatible bus sections.",
+  "description": [
+    "An I2C level translator adapts the specified logic-voltage levels between compatible bus sections.",
+    "Two devices with different supported logic supplies may communicate through a suitable translator.",
+    "Label the supply voltage domain on each side and show both I2C signals. Voltage translation lets compatible logic interfaces work across selected voltage levels; it does not automatically create a safety-rated isolation barrier. Follow the chosen translator’s requirements for pull-ups and power sequencing. This is original functional artwork, not a certified standard graphic or device pinout."
+  ],
+  "readingNotes": [
+    "Identify both logic-supply domains.",
+    "Show clock/data connections and their selected pull-ups.",
+    "Reference supported voltage, bus and startup conditions.",
+    "Voltage translation is different from electrical isolation across a rated barrier."
+  ],
+  "drawingChecklist": [
+    "Identify both logic-supply domains.",
+    "Show clock/data connections and their selected pull-ups.",
+    "Reference supported voltage, bus and startup conditions."
+  ],
+  "distinction": "Voltage translation is different from electrical isolation across a rated barrier.",
+  "facts": [
+    {
+      "label": "Representation type",
+      "value": "Original functional block; not a certified IEC or IEEE graphic"
+    },
+    {
+      "label": "Concept input",
+      "value": "First logic-voltage domain"
+    },
+    {
+      "label": "Concept output",
+      "value": "Second logic-voltage domain"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "expansion-20261027-i2c",
+      "relevance": "I2C, I3C and SPI interface functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ],
+  "related": [
+    "logic-voltage-level-translator",
+    "i2c-bus-buffer",
+    "spi-interface-buffer",
+    "power-converter"
+  ],
+  "artwork": "expanded-i2c-level-translator",
+  "publishedOn": "2026-10-27",
+  "updatedOn": "2026-10-27",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/i2c-level-translator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/i2c-level-translator.svg",
+  "id": "i2c-level-translator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/i2c-level-translator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/i2c-level-translator.json",
+  "svgPath": "artwork/svg/i2c-level-translator.svg",
+  "referencePath": "references/i2c-level-translator.md",
+  "publicSources": [
+    {
+      "id": "expansion-20261027-i2c",
+      "title": "I2C, I3C and SPI interface functions",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product-category/interface/i2c-i3c-ics/overview.html",
+      "type": "manufacturer",
+      "scope": "Public functional documentation. Original explanatory text and educational block artwork; no publisher graphics or files reproduced.",
+      "checkedOn": "2026-10-27",
+      "reuse": "link-only",
+      "relevance": "I2C, I3C and SPI interface functions: public technical context for the named function. Product and compliance details remain with the publisher."
+    }
+  ]
+}

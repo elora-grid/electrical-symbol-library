@@ -1,0 +1,105 @@
+{
+  "slug": "reversing-starter-electrical-interlock",
+  "name": "Reversing-starter electrical interlock",
+  "kind": "symbol",
+  "abbreviation": "REI",
+  "aliases": [
+    "Motor-feeder control interfaces",
+    "switchgear Motor-feeder control interfaces",
+    "switchgear",
+    "Switchgear",
+    "Forward and reverse status",
+    "Opposite-coil inhibit"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Blocks energization of opposite-direction contactors according to their documented feedback.",
+  "description": [
+    "Blocks energization of opposite-direction contactors according to their documented feedback. A motor feeder combines switching, motor protection and an operating command. Starting permission, running feedback and protection trip are different signals even where one relay or controller processes all of them.",
+    "In a switchroom motor-control panel, a ventilation motor can receive an automatic start request while a local selector and the motor protection determine whether the feeder is available. For this reference, the drawing identifies “Forward and reverse status” at the input and “Opposite-coil inhibit” at the output. Mechanical interlocking may also be required.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Forward and reverse status. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Opposite-coil inhibit. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Mechanical interlocking may also be required.",
+    "Link the motor tag to its contactor, protective device and process permissives. The control diagram must identify stop priority, feedback and restart philosophy without supplying unverified settings."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for forward and reverse status.",
+    "Identify the destination and defined state of opposite-coil inhibit.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Mechanical interlocking may also be required."
+  ],
+  "distinction": "Mechanical interlocking may also be required. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Forward and reverse status"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Opposite-coil inhibit"
+    },
+    {
+      "label": "Lookup label",
+      "value": "REI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-motor-relay",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "contactor",
+    "motor-overload-trip-nc-contact",
+    "star-delta-transition-controller"
+  ],
+  "artwork": "pi26-reversing-starter-electrical-interlock",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "motor-feeders",
+    "input": "Forward and reverse status",
+    "output": "Opposite-coil inhibit"
+  },
+  "url": "https://eloragrid.ai/symbols/reversing-starter-electrical-interlock",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/reversing-starter-electrical-interlock.svg",
+  "id": "reversing-starter-electrical-interlock",
+  "canonicalUrl": "https://eloragrid.ai/symbols/reversing-starter-electrical-interlock",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/reversing-starter-electrical-interlock.json",
+  "svgPath": "artwork/svg/reversing-starter-electrical-interlock.svg",
+  "referencePath": "references/reversing-starter-electrical-interlock.md",
+  "publicSources": [
+    {
+      "id": "pi26-motor-relay",
+      "publisher": "SEL",
+      "title": "SEL-710 motor protection and control",
+      "url": "https://selinc.com/products/710/",
+      "scope": "Motor feeder thermal, starting and control functions.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for motor-feeder control interfaces. Motor feeder thermal, starting and control functions. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

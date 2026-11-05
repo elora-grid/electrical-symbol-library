@@ -1,0 +1,106 @@
+{
+  "slug": "iec-d-flip-flop",
+  "name": "IEC D flip-flop (rectangular form)",
+  "kind": "symbol",
+  "abbreviation": "1D",
+  "aliases": [
+    "IEC edge-triggered D bistable",
+    "C1 1D flip-flop",
+    "rectangular D-type"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC bistable with a dynamic C1 clock and a 1D data input, storing D on the active clock edge.",
+  "description": [
+    "In IEC form the D flip-flop is an unlabelled bistable outline with a clock input labelled C1 carrying the dynamic wedge, and a data input labelled 1D to show it is controlled by C1. Asynchronous set and reset inputs are labelled S and R without a number. The two outputs are Q and its complement shown with a negation or polarity mark.",
+    "TI's overview stresses that a D input always sets the storage element to 1 at its internal 1 state and resets it at 0. On sequential drawings this form makes clocking explicit: anything without the 1 prefix acts immediately, regardless of the clock.",
+    "The symbol does not state setup, hold or propagation times, and does not define the power-up state unless an I=0 or I=1 qualifier is added."
+  ],
+  "readingNotes": [
+    "The wedge on C1 indicates edge triggering.",
+    "S and R without numbers are asynchronous."
+  ],
+  "drawingChecklist": [
+    "Label the clock C1 with a dynamic mark.",
+    "Prefix the data input with 1.",
+    "Add I=0 or I=1 where power-up state matters."
+  ],
+  "distinction": "The IEC D latch has a C1 input without a dynamic mark and is transparent while C1 is active.",
+  "facts": [
+    {
+      "label": "Key labels",
+      "value": "C1 (dynamic), 1D, S, R"
+    },
+    {
+      "label": "Outputs",
+      "value": "Q and complemented Q"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Bistable element forms and C dependency with D inputs."
+    },
+    {
+      "sourceId": "pub-electronics-ti-hc74",
+      "relevance": "D flip-flop device documentation."
+    }
+  ],
+  "related": [
+    "positive-edge-d-flip-flop",
+    "iec-d-latch",
+    "iec-control-dependency-c"
+  ],
+  "artwork": "s28-iec-d-flip-flop",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular bistable with dynamic C1 input and 1D data input",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier. The counterpart is the matching functional concept; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "positive-edge-d-flip-flop"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-d-flip-flop",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-d-flip-flop.svg",
+  "id": "iec-d-flip-flop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-d-flip-flop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-d-flip-flop.json",
+  "svgPath": "artwork/svg/iec-d-flip-flop.svg",
+  "referencePath": "references/iec-d-flip-flop.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Bistable element forms and C dependency with D inputs."
+    },
+    {
+      "id": "pub-electronics-ti-hc74",
+      "title": "SN74HC74 — positive-edge D flip-flops",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of positive-edge d flip-flops. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "D flip-flop device documentation."
+    }
+  ]
+}

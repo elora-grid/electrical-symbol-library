@@ -1,0 +1,90 @@
+{
+  "slug": "iec-clocked-sr-flip-flop",
+  "name": "IEC clocked SR flip-flop",
+  "kind": "symbol",
+  "abbreviation": "1S 1R",
+  "aliases": [
+    "gated SR flip-flop",
+    "synchronous set-reset bistable",
+    "C1 1S 1R element"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "IEC bistable with 1S and 1R inputs that act only under C1 control, giving a synchronous set-reset function.",
+  "description": [
+    "Adding the C1 prefix to S and R makes them synchronous: they act only when C1 is active or on its active transition. The element therefore combines set-reset storage with clocking, which keeps state changes aligned with the rest of a synchronous system.",
+    "Clocked SR elements appear in function-block diagrams for PLCs and in state-machine documentation. On hardware schematics the same function is often implemented with a JK or D flip-flop and gating, so cross-reference the implementation.",
+    "The symbol needs a stated rule for 1S and 1R active together. Without S or R dependency or a note, that condition is undefined."
+  ],
+  "readingNotes": [
+    "Prefix numbers on S and R show they are synchronous.",
+    "Look for a priority statement for both inputs active."
+  ],
+  "drawingChecklist": [
+    "Label 1S and 1R inside the outline.",
+    "Mark C1 dynamic if edge-triggered.",
+    "State set or reset priority."
+  ],
+  "distinction": "The unclocked IEC SR latch acts immediately on S and R.",
+  "facts": [
+    {
+      "label": "Key labels",
+      "value": "1S, 1R, C1"
+    },
+    {
+      "label": "Behaviour",
+      "value": "Synchronous set and reset"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "C dependency applied to S and R inputs on bistable elements."
+    }
+  ],
+  "related": [
+    "iec-sr-latch",
+    "iec-set-reset-dependency",
+    "iec-control-dependency-c"
+  ],
+  "artwork": "s28-iec-clocked-sr-flip-flop",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Rectangular bistable with 1S, 1R and C1 inputs",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-clocked-sr-flip-flop",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-clocked-sr-flip-flop.svg",
+  "id": "iec-clocked-sr-flip-flop",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-clocked-sr-flip-flop",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-clocked-sr-flip-flop.json",
+  "svgPath": "artwork/svg/iec-clocked-sr-flip-flop.svg",
+  "referencePath": "references/iec-clocked-sr-flip-flop.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "C dependency applied to S and R inputs on bistable elements."
+    }
+  ]
+}

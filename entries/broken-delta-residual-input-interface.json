@@ -1,0 +1,105 @@
+{
+  "slug": "broken-delta-residual-input-interface",
+  "name": "Broken-delta residual input interface",
+  "kind": "symbol",
+  "abbreviation": "BRII",
+  "aliases": [
+    "Voltage-transformer secondary arrangements",
+    "substations Voltage-transformer secondary arrangements",
+    "substations",
+    "Substations",
+    "Broken-delta secondary output",
+    "Residual relay voltage"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Carries the documented broken-delta winding output to the selected residual-voltage input.",
+  "description": [
+    "Carries the documented broken-delta winding output to the selected residual-voltage input. A voltage-transformer secondary arrangement connects a defined primary voltage measurement to protection, metering or control inputs. Winding identity, fuse protection and the voltage reference must remain visible across the drawing.",
+    "In a substation bay, one voltage circuit can feed protection while a separately identified winding supplies metering. A voltage-selection circuit must make clear which bus or line measurement is being used. For this reference, the drawing identifies “Broken-delta secondary output” at the input and “Residual relay voltage” at the output. The source winding connection must be identified.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Broken-delta secondary output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Residual relay voltage. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The source winding connection must be identified.",
+    "Show the primary measurement point, secondary connection, protective devices and relay reference. A missing measurement can resemble a real system disturbance unless the voltage-circuit health is supervised appropriately."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for broken-delta secondary output.",
+    "Identify the destination and defined state of residual relay voltage.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The source winding connection must be identified."
+  ],
+  "distinction": "The source winding connection must be identified. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Broken-delta secondary output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Residual relay voltage"
+    },
+    {
+      "label": "Lookup label",
+      "value": "BRII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "instrument-transformers",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "voltage-transformer",
+    "potential-test-switch",
+    "capacitive-vt-carrier-coupling-boundary"
+  ],
+  "artwork": "pi26-broken-delta-residual-input-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "vt-secondary",
+    "input": "Broken-delta secondary output",
+    "output": "Residual relay voltage"
+  },
+  "url": "https://eloragrid.ai/symbols/broken-delta-residual-input-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/broken-delta-residual-input-interface.svg",
+  "id": "broken-delta-residual-input-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/broken-delta-residual-input-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/broken-delta-residual-input-interface.json",
+  "svgPath": "artwork/svg/broken-delta-residual-input-interface.svg",
+  "referencePath": "references/broken-delta-residual-input-interface.md",
+  "publicSources": [
+    {
+      "id": "instrument-transformers",
+      "title": "Indoor current and voltage transformers",
+      "publisher": "ABB",
+      "url": "https://www.abb.com/gb/en/areas/electrification/medium-voltage/grid-components/core-components/indoor-instrument-transformers",
+      "type": "manufacturer",
+      "scope": "Public current- and voltage-transformer product families. Ratings, terminals and dimensions depend on the model.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public technical context for voltage-transformer secondary arrangements. Current and voltage measurement transformers and their secondary interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

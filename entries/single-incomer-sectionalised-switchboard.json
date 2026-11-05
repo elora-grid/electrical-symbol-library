@@ -1,0 +1,105 @@
+{
+  "slug": "single-incomer-sectionalised-switchboard",
+  "name": "Single-incomer sectionalised switchboard",
+  "kind": "symbol",
+  "abbreviation": "SSS",
+  "aliases": [
+    "Switchboard source and bus interfaces",
+    "switchgear Switchboard source and bus interfaces",
+    "switchgear",
+    "Switchgear",
+    "One incomer",
+    "Sectioned bus supply"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Shows one incoming source feeding separately identified bus sections through a section connection.",
+  "description": [
+    "Shows one incoming source feeding separately identified bus sections through a section connection. A source and bus arrangement shows how incoming supplies and outgoing circuits can be connected. Breaker and tie positions determine which sections are energized and whether sources can become electrically paralleled.",
+    "In a switchgear lineup with two incomers and a bus tie, the single-line arrangement helps the engineer identify normal supply paths and which loads change source during a transfer. For this reference, the drawing identifies “One incomer” at the input and “Sectioned bus supply” at the output. Sectioning alone does not provide source redundancy.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: One incomer. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Sectioned bus supply. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Sectioning alone does not provide source redundancy.",
+    "Keep normal positions, transfer limits, source independence and protection-zone boundaries visible. An arrangement drawing explains connectivity; the permitted switching sequence needs a separate approved scheme."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for one incomer.",
+    "Identify the destination and defined state of sectioned bus supply.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Sectioning alone does not provide source redundancy."
+  ],
+  "distinction": "Sectioning alone does not provide source redundancy. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "One incomer"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Sectioned bus supply"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SSS is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-bus-schemes",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "busbar",
+    "automatic-transfer-switch",
+    "dual-incomer-normally-open-bus-tie"
+  ],
+  "artwork": "pi26-single-incomer-sectionalised-switchboard",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "supply-arrangements",
+    "input": "One incomer",
+    "output": "Sectioned bus supply"
+  },
+  "url": "https://eloragrid.ai/symbols/single-incomer-sectionalised-switchboard",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/single-incomer-sectionalised-switchboard.svg",
+  "id": "single-incomer-sectionalised-switchboard",
+  "canonicalUrl": "https://eloragrid.ai/symbols/single-incomer-sectionalised-switchboard",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/single-incomer-sectionalised-switchboard.json",
+  "svgPath": "artwork/svg/single-incomer-sectionalised-switchboard.svg",
+  "referencePath": "references/single-incomer-sectionalised-switchboard.md",
+  "publicSources": [
+    {
+      "id": "pi26-bus-schemes",
+      "publisher": "SEL",
+      "title": "SEL-451 protection, automation and bay control",
+      "url": "https://selinc.com/products/451/",
+      "scope": "Bus arrangements, breaker control and bay-level coordination.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchboard source and bus interfaces. Bus arrangements, breaker control and bay-level coordination. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

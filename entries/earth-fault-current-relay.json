@@ -1,0 +1,100 @@
+{
+  "slug": "earth-fault-current-relay",
+  "name": "Earth-fault current relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "ground failure current protection",
+    "earth leakage current relay",
+    "HCR1F37"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Measuring relay form that operates on current flowing to earth, fed from a residual connection or core-balance CT.",
+  "description": [
+    "The earth-fault current relay form identifies a relay whose operating quantity is current flowing to earth. It may be fed from a core-balance CT around all live conductors, from the residual connection of three phase CTs, or from a CT in the star-point earth lead, and the source changes its achievable sensitivity.",
+    "The relay box shows the quantity with an earth qualifier but not the setting, characteristic or whether it is directional. In resistance-earthed and isolated networks earth-fault current is small and often needs a sensitive or directional element that must be stated separately."
+  ],
+  "readingNotes": [
+    "Identify the CT arrangement that supplies the residual current.",
+    "Check whether the element is directional or sensitive."
+  ],
+  "drawingChecklist": [
+    "Show residual CT source",
+    "State setting and characteristic",
+    "Reference system earthing method"
+  ],
+  "distinction": "An earth-fault current relay measures current to earth; an earth-fault voltage relay measures neutral displacement voltage.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Residual or earth-fault current"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F37 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Ground Failure Current Protection block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "pub-symbol-earth-fault",
+      "relevance": "Public context for residual current and neutral-earthing protection."
+    }
+  ],
+  "related": [
+    "core-balance-current-transformer",
+    "residual-connection-of-phase-cts",
+    "51-time-overcurrent"
+  ],
+  "artwork": "s28-earth-fault-current-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/earth-fault-current-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/earth-fault-current-relay.svg",
+  "id": "earth-fault-current-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/earth-fault-current-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/earth-fault-current-relay.json",
+  "svgPath": "artwork/svg/earth-fault-current-relay.svg",
+  "referencePath": "references/earth-fault-current-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Ground Failure Current Protection block; the illustration is independently drawn."
+    },
+    {
+      "id": "pub-symbol-earth-fault",
+      "title": "Residual current and neutral-earthing protection context",
+      "publisher": "ABB",
+      "url": "https://new.abb.com/medium-voltage/digital-substations/campaigns/earth-fault-protection-portfolio/earth-fault-offering",
+      "type": "manufacturer",
+      "scope": "Public manufacturer explanation of the equipment function and selection context.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public context for residual current and neutral-earthing protection."
+    }
+  ]
+}

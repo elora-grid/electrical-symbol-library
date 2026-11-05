@@ -1,0 +1,90 @@
+{
+  "slug": "iec-active-low-input-indicator",
+  "name": "IEC polarity indicator at input (active-low input)",
+  "kind": "symbol",
+  "abbreviation": "POL-IN",
+  "aliases": [
+    "input polarity triangle",
+    "active-low input mark",
+    "polarity indicator input"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Small triangle on an input lead meaning a low level produces the internal active state.",
+  "description": [
+    "The polarity indicator is a small right-angled triangle drawn on the input line where it meets the outline. It states that the L level produces the internal 1 state. Because it refers directly to levels, it does not need a positive or negative logic declaration, which is why device data books favour it.",
+    "On drawings that combine device-level schematics with functional logic, the polarity triangle tells the reader that a pin is active low, such as an enable, chip-select or reset input. In positive logic it means the same as a negation circle.",
+    "The triangle does not indicate an internal pull-up or default state for an unconnected input. Those details are device data."
+  ],
+  "readingNotes": [
+    "Read the triangle as active when low.",
+    "Equivalent to a negation circle only in positive logic."
+  ],
+  "drawingChecklist": [
+    "Draw the triangle on the outside of the outline, pointing in the signal direction.",
+    "Use it consistently in place of circles on level-based schematics.",
+    "Name active-low nets with a consistent suffix or overbar."
+  ],
+  "distinction": "The negation circle is a logic statement that needs a declared convention; the triangle is a level statement.",
+  "facts": [
+    {
+      "label": "Meaning",
+      "value": "L level produces internal 1"
+    },
+    {
+      "label": "Equivalent in positive logic",
+      "value": "Input negation circle"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "s28-ti-ieee91-logic-symbols",
+      "relevance": "Explains the logic polarity indicator and why data books use it."
+    }
+  ],
+  "related": [
+    "iec-logic-input-negation",
+    "iec-active-low-output-indicator",
+    "iec-enable-input"
+  ],
+  "artwork": "s28-iec-active-low-input-indicator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Right-angled triangle on the input line next to the outline",
+    "reference": "Qualifying-symbol and dependency conventions as explained in TI's public overview of IEEE Std 91-1984, which incorporates IEC 617-12 work. Independent educational drawing; not certified IEC geometry or an IEC database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-active-low-input-indicator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-active-low-input-indicator.svg",
+  "id": "iec-active-low-input-indicator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-active-low-input-indicator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-active-low-input-indicator.json",
+  "svgPath": "artwork/svg/iec-active-low-input-indicator.svg",
+  "referencePath": "references/iec-active-low-input-indicator.md",
+  "publicSources": [
+    {
+      "id": "s28-ti-ieee91-logic-symbols",
+      "title": "Overview of IEEE Standard 91-1984: explanation of logic symbols (SDYZ001A)",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ml/sdyz001a/sdyz001a.pdf",
+      "type": "manufacturer",
+      "scope": "Public explanation of rectangular logic symbols, general qualifiers, input and output qualifiers, dependency notation, bistable elements and coders, consistent with IEC 617-12 work.",
+      "checkedOn": "2026-10-28",
+      "reuse": "link-only",
+      "relevance": "Explains the logic polarity indicator and why data books use it."
+    }
+  ]
+}

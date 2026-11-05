@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-three-position-selector-returning-from-left",
+  "name": "ANSI/IEEE Three-position selector returning from left form",
+  "kind": "symbol",
+  "abbreviation": "SEL 3 LRET",
+  "aliases": [
+    "HSS113L",
+    "VSS113L",
+    "IEEE 3 Position Normally Open Return From Left",
+    "ANSI Three-position selector returning from left"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of three-position selector returning from left: this three-position selector has a documented spring return from its left position.",
+  "description": [
+    "This reference locates three-position selector returning from left in Autodesk's IEEE-oriented 3 position selector switches family. This three-position selector has a documented spring return from its left position. Other positions may be stable or have different behaviour, so the return direction must remain explicit. The public library uses HSS113L for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Read the operating mechanism and the contact reference state together. Cross-reference every associated contact to the same device and show which movement, signal or reset changes its condition; the symbol alone does not establish the complete switching sequence.",
+    "Establish the rest position and the state after the left-hand command is released. Return from left is not equivalent to return from both outer positions. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Establish the rest position and the state after the left-hand command is released.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Label rest position",
+    "Show return direction",
+    "Provide position/contact schedule"
+  ],
+  "distinction": "Return from left is not equivalent to return from both outer positions.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: 3 Position Selector Switches; published form: 3 Position Normally Open Return From Left."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HSS113L. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Position selection"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-5b722789-b342-4708-8671-579360d15dca",
+      "relevance": "Public IEEE-oriented 3 Position Selector Switches table explicitly lists HSS113L as 3 Position Normally Open Return From Left. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "three-position-selector-returning-from-left",
+    "selector-switch",
+    "changeover-contact"
+  ],
+  "artwork": "s28-ansi-three-position-selector-returning-from-left",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "3 Position Normally Open Return From Left",
+    "reference": "Autodesk IEEE Symbol Preview: 3 Position Selector Switches, block HSS113L. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "three-position-selector-returning-from-left"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-three-position-selector-returning-from-left",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-three-position-selector-returning-from-left.svg",
+  "id": "ansi-three-position-selector-returning-from-left",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-three-position-selector-returning-from-left",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-three-position-selector-returning-from-left.json",
+  "svgPath": "artwork/svg/ansi-three-position-selector-returning-from-left.svg",
+  "referencePath": "references/ansi-three-position-selector-returning-from-left.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-5b722789-b342-4708-8671-579360d15dca",
+      "title": "Autodesk IEEE Symbol Preview — 3 Position Selector Switches",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-5B722789-B342-4708-8671-579360D15DCA.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented 3 Position Selector Switches table explicitly lists HSS113L as 3 Position Normally Open Return From Left. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "iec-extract-fan-plan-mark",
+  "name": "Extract fan plan mark",
+  "kind": "symbol",
+  "abbreviation": "EF",
+  "aliases": [
+    "extractor fan",
+    "exhaust fan symbol",
+    "ventilation fan outlet"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a wall or ceiling extract fan, drawn as a fan circle with an outward airflow arrow.",
+  "description": [
+    "Extract fans in bathrooms, kitchens and plant rooms are drawn as a circle containing fan blades or a cross, with an arrow showing airflow out of the room. The symbol is often linked to a light switch, an overrun timer or a humidistat.",
+    "The electrician needs to know the control method because it affects wiring: a fan run from the lighting circuit with an overrun timer needs a switched and a permanent live, while a humidistat fan may only need a permanent supply. The symbol does not state airflow rate or duct size, which are mechanical design items."
+  ],
+  "readingNotes": [
+    "Read the control method: switched, timer overrun, humidistat or continuous.",
+    "Check for an isolator or fused connection unit."
+  ],
+  "drawingChecklist": [
+    "State control method.",
+    "Show isolator location.",
+    "Coordinate duct route with mechanical drawings."
+  ],
+  "distinction": "A ceiling sweep fan circulates air; an extract fan removes it to outside.",
+  "facts": [
+    {
+      "label": "Airflow",
+      "value": "Out of the room, shown by arrow"
+    },
+    {
+      "label": "Common control",
+      "value": "Overrun timer or humidistat"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ],
+  "related": [
+    "iec-ceiling-fan-plan-mark",
+    "fused-connection-unit-plan-mark",
+    "ga-switchroom-exhaust-fan"
+  ],
+  "artwork": "s28-iec-extract-fan-plan-mark",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Extract fan",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-extract-fan-plan-mark",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-extract-fan-plan-mark.svg",
+  "id": "iec-extract-fan-plan-mark",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-extract-fan-plan-mark",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-extract-fan-plan-mark.json",
+  "svgPath": "artwork/svg/iec-extract-fan-plan-mark.svg",
+  "referencePath": "references/iec-extract-fan-plan-mark.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context; independently drawn here."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "ansi-terminal-jumper",
+  "name": "ANSI/IEEE terminal jumper symbol",
+  "kind": "symbol",
+  "abbreviation": "JMP",
+  "aliases": [
+    "IEEE jumper",
+    "ANSI terminal strap",
+    "jumper between terminals"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI"
+  ],
+  "summary": "IEEE-oriented jumper drawn between adjacent terminals to show they are strapped together.",
+  "description": [
+    "US-practice schematics show jumpers between terminals as a short line or curved strap linking terminal circles, often with a JMP designation. It is common on relay panel terminal strips where common supplies or returns are distributed across several terminals.",
+    "This illustration is an independent explanation rather than the IEEE graphic. A jumper can be a plug-in bridge, a wire link or a screwed strap, and the symbol does not distinguish them. Jumpers that must be removed for testing should be identified as such."
+  ],
+  "readingNotes": [
+    "Check whether the jumper is removed during testing.",
+    "Identify the physical jumper type."
+  ],
+  "drawingChecklist": [
+    "Show every jumper on the terminal plan.",
+    "Mark test-removable jumpers.",
+    "Keep the jumper current within terminal rating."
+  ],
+  "distinction": "A terminal jumper ties adjacent terminals; a wire splice joins conductors without terminals.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Terminals family context"
+    },
+    {
+      "label": "Standards context",
+      "value": "IEEE/ANSI 315-1975 covers diagram graphics; IEEE lists this edition as Inactive-Reserved."
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-7c566b17-0c91-47f1-ad86-73893490622c",
+      "relevance": "Public IEEE-oriented terminal preview family."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ],
+  "related": [
+    "terminal-jumper-bridge",
+    "ansi-terminal",
+    "ansi-numbered-terminal"
+  ],
+  "artwork": "s28-ansi-terminal-jumper",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Terminal jumper form",
+    "reference": "Independent illustration in IEEE drafting context; no equivalence of every detailed standard graphic is asserted.",
+    "counterpart": "terminal-jumper-bridge"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-terminal-jumper",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-terminal-jumper.svg",
+  "id": "ansi-terminal-jumper",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-terminal-jumper",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-terminal-jumper.json",
+  "svgPath": "artwork/svg/ansi-terminal-jumper.svg",
+  "referencePath": "references/ansi-terminal-jumper.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-7c566b17-0c91-47f1-ad86-73893490622c",
+      "title": "Autodesk IEEE Symbol Preview — Terminals",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7C566B17-0C91-47F1-AD86-73893490622C.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented terminal preview family."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context and official status; not a source of reproduced artwork."
+    }
+  ]
+}

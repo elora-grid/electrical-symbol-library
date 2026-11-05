@@ -1,0 +1,100 @@
+{
+  "slug": "conductor-count-numeral",
+  "name": "Conductor count by numeral",
+  "kind": "symbol",
+  "abbreviation": "n",
+  "aliases": [
+    "number of conductors mark",
+    "single stroke with numeral",
+    "conductor quantity mark"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "SLD",
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "A single oblique stroke across a line with a number beside it, stating how many conductors the single line represents.",
+  "description": [
+    "Where a single line stands for several conductors, the count can be shown by one oblique stroke plus a numeral rather than by repeating strokes. This is the practical form for larger counts, such as a 12 core control cable or a 4 conductor feeder, where drawing many strokes would be cluttered.",
+    "The numeral counts conductors, not circuits or phases. A value of 4 might be three phases and neutral, or four control cores, and the drawing must say which. It also does not state conductor size. On plan drawings the count is often combined with a size, for example 4 x 16 mm2, which belongs in the annotation rather than the stroke."
+  ],
+  "readingNotes": [
+    "Confirm what conductors are included in the count, for example phases, neutral and PE.",
+    "Read the size annotation separately from the count."
+  ],
+  "drawingChecklist": [
+    "Place the numeral next to the stroke, not on another line.",
+    "Say what the conductors are where it is not obvious.",
+    "Keep conductor size in the cable annotation."
+  ],
+  "distinction": "A numeral count gives any number of conductors on one stroke; the three-phase conductor group uses three strokes specifically for three conductors.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "One oblique stroke across the line with a number beside it"
+    },
+    {
+      "label": "Counts",
+      "value": "Conductors, not circuits"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "autodesk-index",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Standards context for conductor-count conventions in IEEE graphics."
+    }
+  ],
+  "related": [
+    "iec-three-phase-conductor-group",
+    "iec-three-phase-five-wire-marking",
+    "iec-one-line-cable-identification"
+  ],
+  "artwork": "s28-conductor-count-numeral",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/conductor-count-numeral",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/conductor-count-numeral.svg",
+  "id": "conductor-count-numeral",
+  "canonicalUrl": "https://eloragrid.ai/symbols/conductor-count-numeral",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/conductor-count-numeral.json",
+  "svgPath": "artwork/svg/conductor-count-numeral.svg",
+  "referencePath": "references/conductor-count-numeral.md",
+  "publicSources": [
+    {
+      "id": "autodesk-index",
+      "title": "IEC-60617 symbol preview directory",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7871E6EF-24D5-467E-9B74-321FEDC9DFDA.htm",
+      "type": "cad-reference",
+      "scope": "Public reference directory of named symbol categories. Vendor graphics and CAD library files are not redistributed here.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public directory of IEC-oriented symbol families."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Standards context for conductor-count conventions in IEEE graphics."
+    }
+  ]
+}

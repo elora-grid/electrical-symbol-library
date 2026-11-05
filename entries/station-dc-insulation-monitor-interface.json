@@ -1,0 +1,105 @@
+{
+  "slug": "station-dc-insulation-monitor-interface",
+  "name": "Station DC insulation-monitor interface",
+  "kind": "symbol",
+  "abbreviation": "SDII",
+  "aliases": [
+    "Station battery and charger distribution",
+    "substations Station battery and charger distribution",
+    "substations",
+    "Substations",
+    "DC insulation measurement",
+    "Insulation-condition alarm"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Connects the selected insulation-monitoring device to the station DC system and alarm paths.",
+  "description": [
+    "Connects the selected insulation-monitoring device to the station DC system and alarm paths. A station battery system supplies protection, control and other assigned DC loads through a documented charger and distribution arrangement. Charger output, battery contribution and load distribution are related but separately monitored paths.",
+    "In a substation control building, the battery can support breaker trip circuits while the charger AC supply is unavailable. Supervision must identify whether the charger, battery or a downstream feeder is affected. For this reference, the drawing identifies “DC insulation measurement” at the input and “Insulation-condition alarm” at the output. The monitored system and method must be identified.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: DC insulation measurement. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Insulation-condition alarm. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "The monitored system and method must be identified.",
+    "Identify every source, protective device, isolation boundary and return. Battery capacity, DC fault duty, charging settings and ventilation require the selected battery-system design; illustrative circuits do not establish autonomy."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for dc insulation measurement.",
+    "Identify the destination and defined state of insulation-condition alarm.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: The monitored system and method must be identified."
+  ],
+  "distinction": "The monitored system and method must be identified. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Substations"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "DC insulation measurement"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Insulation-condition alarm"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SDII is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-station-dc",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "ga-station-dc-battery-rack",
+    "ga-battery-charger",
+    "station-dc-earth-fault-location-interface"
+  ],
+  "artwork": "pi26-station-dc-insulation-monitor-interface",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "substations",
+    "family": "station-battery",
+    "input": "DC insulation measurement",
+    "output": "Insulation-condition alarm"
+  },
+  "url": "https://eloragrid.ai/symbols/station-dc-insulation-monitor-interface",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/station-dc-insulation-monitor-interface.svg",
+  "id": "station-dc-insulation-monitor-interface",
+  "canonicalUrl": "https://eloragrid.ai/symbols/station-dc-insulation-monitor-interface",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/station-dc-insulation-monitor-interface.json",
+  "svgPath": "artwork/svg/station-dc-insulation-monitor-interface.svg",
+  "referencePath": "references/station-dc-insulation-monitor-interface.md",
+  "publicSources": [
+    {
+      "id": "pi26-station-dc",
+      "publisher": "SENS",
+      "title": "MicroGenius S2/S4 battery charger technical manual",
+      "url": "https://www.sens-usa.com/hubfs/Controlled%20Files/Manuals/101330_MGS_User_Manual.pdf",
+      "scope": "Battery charging modes, DC distribution interfaces and charger alarms.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for station battery and charger distribution. Battery charging modes, DC distribution interfaces and charger alarms. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

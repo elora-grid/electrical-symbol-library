@@ -1,0 +1,102 @@
+{
+  "slug": "iec-fluorescent-luminaire",
+  "name": "Linear fluorescent luminaire plan mark",
+  "kind": "symbol",
+  "abbreviation": "LF",
+  "aliases": [
+    "fluorescent fitting",
+    "tube luminaire",
+    "linear lamp fitting"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "GA"
+  ],
+  "referenceFamilies": [
+    "IEC"
+  ],
+  "summary": "Plan mark for a linear fluorescent or tube luminaire, a long line with short end bars drawn to the fitting length.",
+  "description": [
+    "Linear fluorescent luminaires are drawn on IEC-style plans as a straight line with a short perpendicular bar at each end, laid out at the length and orientation of the actual fitting. The same form is widely reused for linear LED battens.",
+    "Because the line is drawn to length, the plan doubles as a setting-out drawing for ceilings. The fixture type tag gives the lamp length and wattage, and emergency versions add a mark or letter. The single line does not give the number of tubes. A separate multi-tube form shows two or more lines."
+  ],
+  "readingNotes": [
+    "Measure or read the length tag.",
+    "Check orientation relative to ceiling grid."
+  ],
+  "drawingChecklist": [
+    "Tag lamp length and type.",
+    "Coordinate with ceiling layout.",
+    "Show emergency fittings distinctly."
+  ],
+  "distinction": "A multi-tube fitting shows parallel lines; this form shows a single tube or a generic linear fitting.",
+  "facts": [
+    {
+      "label": "Graphic form",
+      "value": "Line with end bars, drawn to length"
+    },
+    {
+      "label": "Modern use",
+      "value": "Also used for LED battens"
+    },
+    {
+      "label": "Exact standard graphic",
+      "value": "Not reproduced here; confirm the form against IEC 60617 and the project legend"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "sourceId": "pub-object-engineering-design",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ],
+  "related": [
+    "iec-multi-lamp-fluorescent-luminaire",
+    "iec-luminaire-general-plan-symbol"
+  ],
+  "artwork": "s28-iec-fluorescent-luminaire",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Fluorescent lamp luminaire",
+    "reference": "IEC 60617 installation-plan style (architectural and topographical installation symbols); independently drawn, not certified IEC geometry or a database identifier."
+  },
+  "url": "https://eloragrid.ai/symbols/iec-fluorescent-luminaire",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-fluorescent-luminaire.svg",
+  "id": "iec-fluorescent-luminaire",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-fluorescent-luminaire",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-fluorescent-luminaire.json",
+  "svgPath": "artwork/svg/iec-fluorescent-luminaire.svg",
+  "referencePath": "references/iec-fluorescent-luminaire.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC graphical symbol context for installation plans; independently drawn here."
+    },
+    {
+      "id": "pub-object-engineering-design",
+      "title": "Electrical installation design methodology and references",
+      "publisher": "Schneider Electric — Electrical Installation Guide",
+      "url": "https://www.electrical-installation.org/enwiki/General_rules_of_electrical_installation_design",
+      "type": "manufacturer",
+      "scope": "Public design context. No universal working clearance, equipment dimension or project compliance conclusion is asserted.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Installation design methodology covering lighting circuits and final distribution."
+    }
+  ]
+}

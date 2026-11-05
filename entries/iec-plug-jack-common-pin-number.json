@@ -1,0 +1,105 @@
+{
+  "slug": "iec-plug-jack-common-pin-number",
+  "name": "Plug and jack with common pin number",
+  "kind": "symbol",
+  "abbreviation": "X",
+  "aliases": [
+    "plug/jack shared pin label",
+    "common pin numbered connector",
+    "single pin number connector"
+  ],
+  "category": "connections-wiring",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "A plug and jack pair carrying one shared pin number for both halves rather than separate numbers on each half.",
+  "description": [
+    "Some connector symbols carry a single pin number shared by both mating halves, because the pin and socket on a given contact position carry the same number in the connector insert. This keeps schematics uncluttered and matches how most connector manufacturers number inserts.",
+    "The common number assumes both halves use matching numbering. Where a harness connector is mated to a board header with different numbering, separate pin numbers are needed. This is a publisher drafting variant, so the underlying connection meaning is the same as an ordinary plug and socket pair."
+  ],
+  "readingNotes": [
+    "Confirm both halves use the same pin numbering scheme.",
+    "Read the pin number once for both halves."
+  ],
+  "drawingChecklist": [
+    "Use common numbering only where the inserts match.",
+    "Keep the connector tag on the symbol.",
+    "Switch to separate numbers for mismatched pairs."
+  ],
+  "distinction": "The common pin number form carries one number for both halves; the standard pair can carry different numbers per half.",
+  "facts": [
+    {
+      "label": "Graphic cue",
+      "value": "Plug and jack pair with one pin number between them"
+    },
+    {
+      "label": "Publisher form",
+      "value": "Plug/Jack (common pin number), Autodesk IEC-60617 preview"
+    },
+    {
+      "label": "Preview",
+      "value": "Original educational illustration; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-connectors",
+      "relevance": "Public IEC-oriented preview listing the common pin number plug and jack form."
+    },
+    {
+      "sourceId": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "relevance": "Public IEEE-oriented preview of the same connector family."
+    }
+  ],
+  "related": [
+    "plug-and-socket-connector-pair",
+    "iec-additional-connector-pin",
+    "iec-connector-retaining-wire-identity"
+  ],
+  "artwork": "s28-iec-plug-jack-common-pin-number",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEC",
+    "form": "Plug/Jack with common pin number",
+    "reference": "Autodesk IEC-60617 Symbol Preview: Connectors - No Wirenumber Changes; vendor family reference, not certified IEC geometry.",
+    "counterpart": "plug-and-socket-connector-pair"
+  },
+  "url": "https://eloragrid.ai/symbols/iec-plug-jack-common-pin-number",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/iec-plug-jack-common-pin-number.svg",
+  "id": "iec-plug-jack-common-pin-number",
+  "canonicalUrl": "https://eloragrid.ai/symbols/iec-plug-jack-common-pin-number",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/iec-plug-jack-common-pin-number.json",
+  "svgPath": "artwork/svg/iec-plug-jack-common-pin-number.svg",
+  "referencePath": "references/iec-plug-jack-common-pin-number.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-connectors",
+      "title": "AutoCAD Electrical: Connectors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-7175D293-9F4C-485C-8E2D-DE684820D53B.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public IEC-oriented preview listing the common pin number plug and jack form."
+    },
+    {
+      "id": "ansi-autodesk-0b14feab-110a-4dd3-884e-0a2f8f9e76f7",
+      "title": "Autodesk IEEE Symbol Preview — Connectors - No Wirenumber Changes",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-0B14FEAB-110A-4DD3-884E-0A2F8F9E76F7.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented preview of the same connector family."
+    }
+  ]
+}

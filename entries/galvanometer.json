@@ -1,0 +1,98 @@
+{
+  "slug": "galvanometer",
+  "name": "Galvanometer",
+  "kind": "symbol",
+  "abbreviation": "G",
+  "aliases": [
+    "null detector",
+    "zero-centre galvanometer"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "IEEE / ANSI"
+  ],
+  "summary": "Sensitive indicating instrument used to detect very small currents or a balance point in a bridge circuit.",
+  "description": [
+    "A galvanometer is a very sensitive current indicator, often with a centre zero, used to detect small currents rather than measure them to a scale. It is drawn in bridge and comparison circuits, where the operator adjusts a component until the galvanometer reads zero.",
+    "On modern drawings the function is often performed by an electronic null detector, but the symbol still marks the balance point. It does not show sensitivity, damping or protection against overload, which matter because the instrument is easily damaged by currents far above its scale."
+  ],
+  "readingNotes": [
+    "Identify the two points whose balance is being detected.",
+    "Look for protective shunts or switches around the instrument."
+  ],
+  "drawingChecklist": [
+    "State sensitivity",
+    "Show protective shunt",
+    "Identify bridge arms"
+  ],
+  "distinction": "A galvanometer detects small or zero current; an ammeter measures current to a calibrated scale.",
+  "facts": [
+    {
+      "label": "Typical use",
+      "value": "Bridge balance and null detection"
+    },
+    {
+      "label": "Scale",
+      "value": "Often centre-zero"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the applicable standard and project legend for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "sourceId": "ieee-315",
+      "relevance": "Graphic-symbol standards context for instrument designations."
+    }
+  ],
+  "related": [
+    "ammeter",
+    "differential-voltmeter",
+    "ohmmeter"
+  ],
+  "artwork": "s28-galvanometer",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/galvanometer",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/galvanometer.svg",
+  "id": "galvanometer",
+  "canonicalUrl": "https://eloragrid.ai/symbols/galvanometer",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/galvanometer.json",
+  "svgPath": "artwork/svg/galvanometer.svg",
+  "referencePath": "references/galvanometer.md",
+  "publicSources": [
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    },
+    {
+      "id": "ieee-315",
+      "title": "IEEE/ANSI 315-1975: graphic symbols for electrical and electronics diagrams",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/315/515/",
+      "type": "standard",
+      "scope": "Graphic symbols and designation letters. IEEE lists this edition as Inactive-Reserved; it is a historical reference, not a claim of current compliance.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Graphic-symbol standards context for instrument designations."
+    }
+  ]
+}

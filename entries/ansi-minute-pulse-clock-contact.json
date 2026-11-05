@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-minute-pulse-clock-contact",
+  "name": "ANSI/IEEE Minute-pulse clock contact form",
+  "kind": "symbol",
+  "abbreviation": "HIN1P33",
+  "aliases": [
+    "HIN1P33",
+    "VIN1P33",
+    "IEEE Normally Open Clock Closing Every Minute",
+    "ANSI Minute-pulse clock contact"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of minute-pulse clock contact: this representation identifies the publisher's normally-open clock contact that closes every minute.",
+  "description": [
+    "This reference locates minute-pulse clock contact in Autodesk's IEEE-oriented instrumentation and sensors family. This representation identifies the publisher's normally-open clock contact that closes every minute. The public library uses HIN1P33 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Use the surrounding circuit labels and the project legend to identify the intended operating condition and connection. Carry the same device reference into the schedule or equipment document so the symbol can be reconciled with its real terminals, function and operating limits.",
+    "Document the pulse purpose and downstream circuit response. A periodic clock contact is distinct from an on-delay or off-delay timer. Document the pulse purpose and downstream circuit response. A periodic clock contact is distinct from an on-delay or off-delay timer. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "Document the pulse purpose and downstream circuit response.",
+    "A periodic clock contact is distinct from an on-delay or off-delay timer."
+  ],
+  "drawingChecklist": [
+    "Identify the associated device, circuit or diagram boundary.",
+    "Document the pulse purpose and downstream circuit response.",
+    "Cross-reference the equipment data, terminal mapping or operating-state legend needed to interpret the form."
+  ],
+  "distinction": "A periodic clock contact is distinct from an on-delay or off-delay timer.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Instrumentation and Sensors; published form: Normally Open Clock Closing Every Minute."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HIN1P33. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Information added",
+      "value": "Document the pulse purpose and downstream circuit response."
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors table explicitly lists HIN1P33 as Normally Open Clock Closing Every Minute. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "iec-minute-pulse-clock-contact",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-minute-pulse-clock-contact",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Normally Open Clock Closing Every Minute",
+    "reference": "Autodesk IEEE Symbol Preview: Instrumentation and Sensors, block HIN1P33. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "iec-minute-pulse-clock-contact"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-minute-pulse-clock-contact",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-minute-pulse-clock-contact.svg",
+  "id": "ansi-minute-pulse-clock-contact",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-minute-pulse-clock-contact",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-minute-pulse-clock-contact.json",
+  "svgPath": "artwork/svg/ansi-minute-pulse-clock-contact.svg",
+  "referencePath": "references/ansi-minute-pulse-clock-contact.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-f44d5059-4728-40bd-b9ba-0de7cfdfaacf",
+      "title": "Autodesk IEEE Symbol Preview — Instrumentation and Sensors",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-F44D5059-4728-40BD-B9BA-0DE7CFDFAACF.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Instrumentation and Sensors table explicitly lists HIN1P33 as Normally Open Clock Closing Every Minute. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

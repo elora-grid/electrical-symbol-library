@@ -1,0 +1,105 @@
+{
+  "slug": "switchroom-filter-maintenance-indication",
+  "name": "Switchroom filter-maintenance indication",
+  "kind": "symbol",
+  "abbreviation": "SFI",
+  "aliases": [
+    "Switchroom environmental supervision",
+    "switchrooms Switchroom environmental supervision",
+    "switchrooms",
+    "Switchrooms",
+    "Filter service output",
+    "Maintenance indication"
+  ],
+  "category": "installation-communications",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Receives the installed ventilation system's declared filter-service requirement.",
+  "description": [
+    "Receives the installed ventilation system's declared filter-service requirement. Environmental supervision turns measurements or contact states into clearly named room-service indications. A sensor measures a condition; the supervisory function decides whether the assigned alarm or control response is needed.",
+    "In a switchroom, water ingress, temperature, humidity and equipment-service alarms can be sent to the station controller with separate point names so an operator can identify the affected area. For this reference, the drawing identifies “Filter service output” at the input and “Maintenance indication” at the output. Service indication differs from complete ventilation failure.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Filter service output. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Maintenance indication. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Service indication differs from complete ventilation failure.",
+    "Keep sensor location, alarm thresholds, delay and monitoring coverage in the room-services schedule. An environmental alarm is a diagnostic input, not a complete assessment of electrical equipment condition."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for filter service output.",
+    "Identify the destination and defined state of maintenance indication.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Service indication differs from complete ventilation failure."
+  ],
+  "distinction": "Service indication differs from complete ventilation failure. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchrooms"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Filter service output"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Maintenance indication"
+    },
+    {
+      "label": "Lookup label",
+      "value": "SFI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-ventilation",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "relative-humidity-sensor",
+    "temperature-indicator",
+    "switchroom-roof-leak-detection-interface"
+  ],
+  "artwork": "pi26-switchroom-filter-maintenance-indication",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchrooms",
+    "family": "room-environment",
+    "input": "Filter service output",
+    "output": "Maintenance indication"
+  },
+  "url": "https://eloragrid.ai/symbols/switchroom-filter-maintenance-indication",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/switchroom-filter-maintenance-indication.svg",
+  "id": "switchroom-filter-maintenance-indication",
+  "canonicalUrl": "https://eloragrid.ai/symbols/switchroom-filter-maintenance-indication",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/switchroom-filter-maintenance-indication.json",
+  "svgPath": "artwork/svg/switchroom-filter-maintenance-indication.svg",
+  "referencePath": "references/switchroom-filter-maintenance-indication.md",
+  "publicSources": [
+    {
+      "id": "pi26-ventilation",
+      "publisher": "Schneider Electric",
+      "title": "Ventilation in MV substations",
+      "url": "https://www.electrical-installation.org/enwiki/Ventilation_in_MV_Substations",
+      "scope": "Heat removal, condensation and environmental design context.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for switchroom environmental supervision. Heat removal, condensation and environmental design context. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

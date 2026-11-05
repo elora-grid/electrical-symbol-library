@@ -1,0 +1,105 @@
+{
+  "slug": "close-command-cancellation-input",
+  "name": "Close-command cancellation input",
+  "kind": "symbol",
+  "abbreviation": "CCI",
+  "aliases": [
+    "Breaker closing controls",
+    "switchgear Breaker closing controls",
+    "switchgear",
+    "Switchgear",
+    "Cancel command or inhibit",
+    "Close-request removal"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Withdraws an unexecuted closing request when its defined cancellation condition occurs.",
+  "description": [
+    "Withdraws an unexecuted closing request when its defined cancellation condition occurs. A closing circuit combines an operator or automatic request with the conditions that allow the breaker to close. The closing coil releases stored mechanism energy where that construction is used; it is different from the spring-charging motor.",
+    "In a switchgear bus-coupler panel, a close request is checked against position, mechanism readiness and the selected live-bus or dead-bus conditions before the closing circuit is enabled. For this reference, the drawing identifies “Cancel command or inhibit” at the input and “Close-request removal” at the output. Cancellation cannot reverse completed mechanical travel.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable. The functional block is an independent explanation of this named application. Equipment-specific ratings, terminal connections and operating conditions must be established in the project documentation."
+  ],
+  "readingNotes": [
+    "Start at the named input: Cancel command or inhibit. Identify its source device or document and the state represented on the drawing.",
+    "Follow the named output: Close-request removal. Cross-reference its destination and separate the command from confirmation that the equipment responded.",
+    "Cancellation cannot reverse completed mechanical travel.",
+    "Follow request, permission and final coil output as separate signals. A permissive diagram must say which conditions block closing and what happens if a feedback signal becomes unavailable."
+  ],
+  "drawingChecklist": [
+    "Label the source and connection reference for cancel command or inhibit.",
+    "Identify the destination and defined state of close-request removal.",
+    "Record the equipment or control-document revision supporting this functional block.",
+    "Check this application limit in the project design: Cancellation cannot reverse completed mechanical travel."
+  ],
+  "distinction": "Cancellation cannot reverse completed mechanical travel. This reference describes the named application; it does not establish a new IEC graphical symbol, an ANSI device-function number or an exact manufacturer connection diagram.",
+  "facts": [
+    {
+      "label": "Representation",
+      "value": "Functional block"
+    },
+    {
+      "label": "Installation focus",
+      "value": "Switchgear"
+    },
+    {
+      "label": "Input / boundary",
+      "value": "Cancel command or inhibit"
+    },
+    {
+      "label": "Output / connection",
+      "value": "Close-request removal"
+    },
+    {
+      "label": "Lookup label",
+      "value": "CCI is a library lookup label, not a standard device designation."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pi26-masterclad",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ],
+  "related": [
+    "circuit-breaker",
+    "25-synchronism-check",
+    "breaker-closing-coil-interface"
+  ],
+  "artwork": "pi26-close-command-cancellation-input",
+  "publishedOn": "2026-11-03",
+  "updatedOn": "2026-11-03",
+  "provenance": "independent-public-research",
+  "representation": {
+    "type": "functional-block",
+    "focus": "switchgear",
+    "family": "close",
+    "input": "Cancel command or inhibit",
+    "output": "Close-request removal"
+  },
+  "url": "https://eloragrid.ai/symbols/close-command-cancellation-input",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/close-command-cancellation-input.svg",
+  "id": "close-command-cancellation-input",
+  "canonicalUrl": "https://eloragrid.ai/symbols/close-command-cancellation-input",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/close-command-cancellation-input.json",
+  "svgPath": "artwork/svg/close-command-cancellation-input.svg",
+  "referencePath": "references/close-command-cancellation-input.md",
+  "publicSources": [
+    {
+      "id": "pi26-masterclad",
+      "publisher": "Schneider Electric",
+      "title": "Masterclad medium-voltage switchgear: circuit-breaker section interlocks",
+      "url": "https://productinfo.se.com/masterclad_mv_switchgear_ib/6055-30-masterclad-15kv-mv-switchgear-ib/English/6055-30%20Masterclad%20MV%20Switchgear%20Indoor%20%28bookmap%29_DD00646805.xml/%24/Section6-CircuitBreakerSectionInter-58DD6EC7",
+      "scope": "Breaker control, mechanism, position contacts, racking interlocks and test interfaces.",
+      "type": "manufacturer",
+      "checkedOn": "2026-11-03",
+      "reuse": "link-only",
+      "relevance": "Public technical context for breaker closing controls. Breaker control, mechanism, position contacts, racking interlocks and test interfaces. The application text and educational graphic are independently authored; the publisher does not certify this representation."
+    }
+  ]
+}

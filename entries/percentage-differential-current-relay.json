@@ -1,0 +1,100 @@
+{
+  "slug": "percentage-differential-current-relay",
+  "name": "Percentage-biased differential current relay",
+  "kind": "symbol",
+  "abbreviation": "K",
+  "aliases": [
+    "differential current protection relative value",
+    "biased differential relay",
+    "HCR1F30"
+  ],
+  "category": "measurement-protection",
+  "drawingTypes": [
+    "Schematic",
+    "SLD"
+  ],
+  "referenceFamilies": [
+    "IEC",
+    "Manufacturer"
+  ],
+  "summary": "Differential relay form whose operating threshold rises in proportion to the through current, set as a relative value.",
+  "description": [
+    "This relay form represents differential protection where the operate quantity is the difference between currents entering and leaving a zone, and the threshold is a percentage of the through current. The bias keeps the relay stable when CT errors grow during heavy external faults or transformer tap changes.",
+    "On a drawing the relay box is fed from CT sets at each boundary of the protected zone. The symbol does not show the slope settings, the harmonic restraint used for transformer inrush, or the vector-group and ratio compensation, all of which must be taken from the relay settings record."
+  ],
+  "readingNotes": [
+    "Locate every CT set that bounds the protected zone.",
+    "Check CT polarity so through current cancels in the relay."
+  ],
+  "drawingChecklist": [
+    "Show all zone CTs",
+    "Mark CT polarity",
+    "Reference slope and restraint settings"
+  ],
+  "distinction": "A biased differential relay raises its threshold with through current; a plain differential current relay uses a fixed threshold.",
+  "facts": [
+    {
+      "label": "Measured quantity",
+      "value": "Difference current relative to through current"
+    },
+    {
+      "label": "Publisher reference token",
+      "value": "HCR1F30 (Autodesk identifier; not an IEC database ID)"
+    },
+    {
+      "label": "Preview",
+      "value": "Independent educational concept; consult the publisher and applicable standard for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-symbol-current-relays",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Differential Current Protection - Relative Value block; the illustration is independently drawn."
+    },
+    {
+      "sourceId": "iec-diagrams",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ],
+  "related": [
+    "differential-current-measuring-relay",
+    "87-differential",
+    "current-transformer"
+  ],
+  "artwork": "s28-percentage-differential-current-relay",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/percentage-differential-current-relay",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/percentage-differential-current-relay.svg",
+  "id": "percentage-differential-current-relay",
+  "canonicalUrl": "https://eloragrid.ai/symbols/percentage-differential-current-relay",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/percentage-differential-current-relay.json",
+  "svgPath": "artwork/svg/percentage-differential-current-relay.svg",
+  "referencePath": "references/percentage-differential-current-relay.md",
+  "publicSources": [
+    {
+      "id": "pub-symbol-current-relays",
+      "title": "AutoCAD Electrical: Current monitoring relays",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-E0DDA638-4664-4F1E-B191-29A4C40C4A0A.htm",
+      "type": "cad-reference",
+      "scope": "Public vendor catalogue naming and functional variants. Vendor block names are not IEC identifiers. Linked for reference; no graphics or CAD files are redistributed.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "Public AutoCAD Electrical relay listing that names the Differential Current Protection - Relative Value block; the illustration is independently drawn."
+    },
+    {
+      "id": "iec-diagrams",
+      "title": "IEC graphical symbols for diagrams",
+      "publisher": "IEC",
+      "url": "https://tc3.iec.ch/tc-activity/graphical-symbols-for-diagrams/",
+      "type": "standard",
+      "scope": "IEC 60617 and related symbol-design publications. Full database access requires a subscription.",
+      "checkedOn": "2026-10-13",
+      "reuse": "link-only",
+      "relevance": "IEC context for graphical symbols used in diagrams; no IEC graphic is reproduced."
+    }
+  ]
+}

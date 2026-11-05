@@ -1,0 +1,100 @@
+{
+  "slug": "ansi-relay-coil-with-diode-and-led",
+  "name": "ANSI/IEEE Relay coil with diode and LED form",
+  "kind": "symbol",
+  "abbreviation": "K D LED",
+  "aliases": [
+    "HCR1K35",
+    "VCR1K35",
+    "IEEE Relay with Integrated Block Diode and Integrated LED",
+    "ANSI Relay coil with diode and LED"
+  ],
+  "category": "control-circuits",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "IEEE / ANSI",
+    "Manufacturer"
+  ],
+  "summary": "IEEE-library form of relay coil with diode and led: a relay assembly with diode and LED combines coil transient suppression and a visible energisation indicator.",
+  "description": [
+    "This reference locates relay coil with diode and led in Autodesk's IEEE-oriented relays with suppression family. A relay assembly with diode and LED combines coil transient suppression and a visible energisation indicator. The schematic must identify both auxiliary functions without treating the LED as proof of contact movement. The public library uses HCR1K35 for its horizontal representation; this is a vendor block name, not an IEEE standards symbol number.",
+    "Trace the measured quantity or initiating control signal separately from the output contacts. The device tag links the sensing or operating element to the controlled circuit; settings, reset behaviour and the actual terminal arrangement belong in the selected equipment documentation.",
+    "The indicator reports its own electrical condition, not necessarily the mechanical contact state. An illuminated coil indicator is different from an auxiliary contact confirming device position. The linked functional counterpart explains the same operating role in its own drawing context; agreement of every detailed convention mark is not asserted."
+  ],
+  "readingNotes": [
+    "The indicator reports its own electrical condition, not necessarily the mechanical contact state.",
+    "The preview is an original explanation of this function. Match the actual drawing convention to its legend and the selected equipment documentation."
+  ],
+  "drawingChecklist": [
+    "Show coil polarity",
+    "Identify indicator circuit",
+    "Reference actual contact feedback"
+  ],
+  "distinction": "An illuminated coil indicator is different from an auxiliary contact confirming device position.",
+  "facts": [
+    {
+      "label": "Convention evidence",
+      "value": "Autodesk IEEE Symbol Preview: Relays with Suppression; published form: Relay with Integrated Block Diode and Integrated LED."
+    },
+    {
+      "label": "Public vendor block",
+      "value": "HCR1K35. Vendor library token, not an IEEE symbol number."
+    },
+    {
+      "label": "Drawing role",
+      "value": "Relay operation"
+    },
+    {
+      "label": "Identifier status",
+      "value": "The short label is a functional lookup label, not an assigned IEC or IEEE symbol number. Any separately listed Autodesk code is a verified vendor block name."
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational geometry. Exact standard graphics, product ratings and terminal pinouts are not certified."
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "ansi-autodesk-538b6a25-1215-4f1b-a824-0181d01be721",
+      "relevance": "Public IEEE-oriented Relays with Suppression table explicitly lists HCR1K35 as Relay with Integrated Block Diode and Integrated LED. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ],
+  "related": [
+    "relay-coil-with-diode-and-led",
+    "relay-coil",
+    "normally-open-contact"
+  ],
+  "artwork": "s28-ansi-relay-coil-with-diode-and-led",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "symbolVariant": {
+    "convention": "IEEE / ANSI",
+    "form": "Relay with Integrated Block Diode and Integrated LED",
+    "reference": "Autodesk IEEE Symbol Preview: Relays with Suppression, block HCR1K35. Matching functional counterpart linked separately. Independently drawn educational geometry; not a certified IEEE glyph or database identifier.",
+    "counterpart": "relay-coil-with-diode-and-led"
+  },
+  "url": "https://eloragrid.ai/symbols/ansi-relay-coil-with-diode-and-led",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/ansi-relay-coil-with-diode-and-led.svg",
+  "id": "ansi-relay-coil-with-diode-and-led",
+  "canonicalUrl": "https://eloragrid.ai/symbols/ansi-relay-coil-with-diode-and-led",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/ansi-relay-coil-with-diode-and-led.json",
+  "svgPath": "artwork/svg/ansi-relay-coil-with-diode-and-led.svg",
+  "referencePath": "references/ansi-relay-coil-with-diode-and-led.md",
+  "publicSources": [
+    {
+      "id": "ansi-autodesk-538b6a25-1215-4f1b-a824-0181d01be721",
+      "title": "Autodesk IEEE Symbol Preview — Relays with Suppression",
+      "publisher": "Autodesk",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/AutoCAD-Electrical/files/GUID-538B6A25-1215-4F1B-A824-0181D01BE721.htm",
+      "type": "cad-reference",
+      "scope": "Verified public IEEE-oriented vendor catalogue. Block names identify vendor symbols, not IEEE standard symbol numbers. Linked only; graphics and CAD files are not redistributed. IEEE/ANSI 315-1975 is a historical graphics reference with Inactive-Reserved status; this page does not certify current standards compliance.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public IEEE-oriented Relays with Suppression table explicitly lists HCR1K35 as Relay with Integrated Block Diode and Integrated LED. This supports the vendor convention context, not reproduction of the publisher graphic."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "op-amp-hysteresis-comparator",
+  "name": "Op-amp comparator with hysteresis",
+  "kind": "symbol",
+  "abbreviation": "COMP-H",
+  "aliases": [
+    "inverting Schmitt trigger circuit",
+    "regenerative comparator",
+    "comparator with positive feedback"
+  ],
+  "category": "logic-signals",
+  "drawingTypes": [
+    "Schematic"
+  ],
+  "referenceFamilies": [
+    "Manufacturer"
+  ],
+  "summary": "Comparator or op-amp with positive feedback to the plus input, creating two switching thresholds.",
+  "description": [
+    "Adding a resistor from the output to the non-inverting input of a comparator gives positive feedback, so the switching threshold depends on the current output state. The result is hysteresis: the circuit switches at one level on a rising input and a lower level on a falling input, rejecting noise near the threshold.",
+    "This circuit is used for level detection from slow analogue signals such as temperature, battery voltage or tank level. The drawing should state both thresholds, or the resistor values and reference from which they are derived.",
+    "The circuit symbol does not show the thresholds directly and they depend on output swing, so a part with rail-to-rail or open-collector output changes the calculation."
+  ],
+  "readingNotes": [
+    "Feedback to the plus input indicates hysteresis, not gain.",
+    "Thresholds depend on output swing."
+  ],
+  "drawingChecklist": [
+    "Show the positive feedback resistor and reference.",
+    "State both switching thresholds.",
+    "Show the output pull-up if the comparator is open collector."
+  ],
+  "distinction": "An op-amp amplifier uses negative feedback to the minus input; this circuit uses positive feedback.",
+  "facts": [
+    {
+      "label": "Feedback",
+      "value": "Positive, to the non-inverting input"
+    },
+    {
+      "label": "Result",
+      "value": "Two switching thresholds"
+    },
+    {
+      "label": "Artwork scope",
+      "value": "Original educational illustration; consult the applicable standard and the selected device documentation for the exact graphic"
+    }
+  ],
+  "references": [
+    {
+      "sourceId": "pub-electronics-adi-comparator",
+      "relevance": "Manufacturer comparator documentation."
+    },
+    {
+      "sourceId": "pub-electronics-adi-opamp-tutorials",
+      "relevance": "Public tutorial material on comparator and feedback configurations."
+    }
+  ],
+  "related": [
+    "voltage-comparator",
+    "iec-hysteresis-input-qualifier",
+    "schmitt-trigger-buffer"
+  ],
+  "artwork": "s28-op-amp-hysteresis-comparator",
+  "publishedOn": "2026-10-28",
+  "updatedOn": "2026-10-28",
+  "provenance": "independent-public-research",
+  "url": "https://eloragrid.ai/symbols/op-amp-hysteresis-comparator",
+  "illustration": "https://eloragrid.ai/tools/electrical-library/illustrations/op-amp-hysteresis-comparator.svg",
+  "id": "op-amp-hysteresis-comparator",
+  "canonicalUrl": "https://eloragrid.ai/symbols/op-amp-hysteresis-comparator",
+  "contentLicense": "CC-BY-4.0",
+  "recordPath": "entries/op-amp-hysteresis-comparator.json",
+  "svgPath": "artwork/svg/op-amp-hysteresis-comparator.svg",
+  "referencePath": "references/op-amp-hysteresis-comparator.md",
+  "publicSources": [
+    {
+      "id": "pub-electronics-adi-comparator",
+      "title": "TLV3201 — voltage comparison",
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TLV3201",
+      "type": "manufacturer",
+      "scope": "Public device-function and terminal documentation used as an example of voltage comparison. Example part numbers are manufacturer identifiers, not IEC/IEEE symbol IDs. Device ratings, pin numbering and availability remain in the selected product documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Manufacturer comparator documentation."
+    },
+    {
+      "id": "pub-electronics-adi-opamp-tutorials",
+      "title": "University tutorials: amplifier configurations and signal processing",
+      "publisher": "Analog Devices",
+      "url": "https://wiki.analog.com/university/courses/tutorials/index",
+      "type": "manufacturer",
+      "scope": "Public tutorial index including inverting amplifier, rectification and related analogue function references. Detailed product design must use the underlying selected circuit documentation.",
+      "checkedOn": "2026-10-14",
+      "reuse": "link-only",
+      "relevance": "Public tutorial material on comparator and feedback configurations."
+    }
+  ]
+}
