@@ -41,7 +41,7 @@ export function build() {
   }).join("");
   writeFileSync(resolve(root,"docs/preview.svg"),`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img"><title>Original educational illustrations from the electrical reference library</title><metadata>Elora Grid. Original educational artwork. CC BY 4.0. https://eloragrid.ai/tools/electrical-library. Not certified standards glyphs or manufacturer footprints.</metadata><rect width="900" height="450" rx="12" fill="white"/><text x="24" y="32" font-family="Arial,sans-serif" font-size="19" fill="#172c3c">Original educational illustrations</text>${panels}<text x="24" y="437" font-family="Arial,sans-serif" font-size="12" fill="#536775">Unitless concept artwork · Verify the applicable standard, drawing legend and selected equipment</text></svg>`);
   mkdirSync(resolve(root,"references"),{recursive:true});
-  const md=value=>String(value).replace(/[\\`*_{}\[\]<>|]/g,"\\$&");
+  const md=value=>String(value).trim().replace(/[\\`*_{}\[\]<>|]/g,"\\$&");
   const expected=new Set();
   for(const e of entries) {
     const path=e.referencePath;expected.add(path.split("/")[1]);

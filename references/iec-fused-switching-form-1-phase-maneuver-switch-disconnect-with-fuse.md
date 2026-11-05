@@ -11,7 +11,7 @@ Graphical convention: IEC. 1 Phase maneuver Switch/Disconnect with Fuse.
 ## What it represents
 
 A fused switching form identifies a switch and a fuse within the documented arrangement. Switching load current, providing isolation and interrupting a fault are separate capabilities, and the drawing must show which element performs each role. This entry identifies the 1 phase maneuver switch/disconnect with fuse form in the publisher's IEC-context family.
-An outgoing panel feeder can show a fused switch with its operating handle and fuse reference. Keep the switching tag linked to the fuse schedule so replacement protection and the intended switching duty can be checked together. 
+An outgoing panel feeder can show a fused switch with its operating handle and fuse reference. Keep the switching tag linked to the fuse schedule so replacement protection and the intended switching duty can be checked together.
 The family name does not establish a device utilization category or prove that a fuse carrier may be moved under load. Use the selected assembly documentation for load operation, isolation indication, fuse class and any interlocks.
 
 ## How to read it

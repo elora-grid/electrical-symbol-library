@@ -11,7 +11,7 @@ Graphical convention: IEC. Backward (Unitunnel) Diode.
 ## What it represents
 
 A backward diode uses tunnelling behaviour to provide useful conduction at a small reverse bias. Its operating region is different from the forward-conduction region of an ordinary rectifier. This entry identifies the backward (unitunnel) diode form in the publisher's IEC-context family.
-A small-signal detector can exploit the low-bias response. Trace the bias and signal polarity in the complete circuit rather than treating the device as a reverse-polarity protection rectifier. 
+A small-signal detector can exploit the low-bias response. Trace the bias and signal polarity in the complete circuit rather than treating the device as a reverse-polarity protection rectifier.
 A backward diode is related to tunnel-device physics; it is not simply an ordinary diode drawn in the opposite direction.
 
 ## How to read it

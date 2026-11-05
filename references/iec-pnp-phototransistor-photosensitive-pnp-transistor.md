@@ -11,7 +11,7 @@ Graphical convention: IEC. Photosensitive PNP Transistor.
 ## What it represents
 
 A PNP phototransistor uses incident light to control a PNP transistor current path. The emitter arrow and supply orientation distinguish it from the NPN form. This entry identifies the photosensitive pnp transistor form in the publisher's IEC-context family.
-A light-sensitive input stage can feed a conditioning circuit without a separately driven base connection. Check the emitter and collector assignments before following the measurement current. 
+A light-sensitive input stage can feed a conditioning circuit without a separately driven base connection. Check the emitter and collector assignments before following the measurement current.
 A PNP phototransistor is different from a photodiode: its transistor action adds current gain, with different speed and bias requirements.
 
 ## How to read it

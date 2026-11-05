@@ -11,7 +11,7 @@ Graphical convention: IEC. Tunnel Diode.
 ## What it represents
 
 A tunnel diode has a heavily doped junction whose current-voltage characteristic includes a negative differential-resistance region caused by tunnelling. This entry identifies the tunnel diode form in the publisher's IEC-context family.
-An oscillator or fast switching circuit can bias the junction in the required region. The bias network is essential to understanding why this device behaves differently from a normal rectifier. 
+An oscillator or fast switching circuit can bias the junction in the required region. The bias network is essential to understanding why this device behaves differently from a normal rectifier.
 A tunnel diode is distinct from a Zener diode: the useful characteristic is its negative-resistance region rather than a specified reverse breakdown clamp.
 
 ## How to read it

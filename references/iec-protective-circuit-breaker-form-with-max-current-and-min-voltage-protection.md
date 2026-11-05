@@ -11,7 +11,7 @@ Graphical convention: IEC. With Max. Current and Min. Voltage Protection.
 ## What it represents
 
 The breaker form combines a switching element with named automatic release functions. Thermal, magnetic, residual-current and undervoltage indications describe different operating causes; their presence must be read individually rather than treating every breaker as having the same protection. This entry identifies the with max. current and min. voltage protection form in the publisher's IEC-context family.
-On a feeder schematic, use the release indications to explain which measured condition can open the device. Put the selected trip settings, pole arrangement and supply dependencies in the equipment schedule and protection study, with the same breaker tag on both documents. 
+On a feeder schematic, use the release indications to explain which measured condition can open the device. Put the selected trip settings, pole arrangement and supply dependencies in the equipment schedule and protection study, with the same breaker tag on both documents.
 The illustration does not specify an interrupting rating, trip curve, selectivity or isolation certification. An undervoltage release is also different from a shunt-trip coil: the condition that causes release must remain explicit.
 
 ## How to read it

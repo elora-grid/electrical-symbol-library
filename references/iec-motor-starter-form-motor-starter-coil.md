@@ -11,7 +11,7 @@ Graphical convention: IEC. Motor Starter Coil.
 ## What it represents
 
 A motor starter uses an operating coil and power contacts to control the motor feeder. The coil belongs to the control circuit; the main contacts carry motor current. Auxiliary contacts report or interlock operation but do not replace the main poles. This entry identifies the motor starter coil form in the publisher's IEC-context family.
-A start command can energise the starter coil while the linked main poles connect the motor supply. Reuse the same device tag on the coil and contacts, then cross-reference overload and short-circuit protection as distinct parts of the feeder. 
+A start command can energise the starter coil while the linked main poles connect the motor supply. Reuse the same device tag on the coil and contacts, then cross-reference overload and short-circuit protection as distinct parts of the feeder.
 The contact illustration is a functional view of one pole, not a complete motor starter or a proof of fault protection. Coil voltage, duty, overload coordination and the number of linked poles come from the chosen equipment and design.
 
 ## How to read it
